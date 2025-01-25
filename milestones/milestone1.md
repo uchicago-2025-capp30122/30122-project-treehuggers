@@ -32,7 +32,7 @@ from AllTrails and/or Google.
 
 
 ## Data Source #2: Open Street Map API
-- https://developers.google.com/maps/documentation/places/web-service/
+- https://www.openstreetmap.org/about/api/ 
 - API
 - Potential challenges:
     - Not all green spaces are public. We will need to ensure we are categorizing 
