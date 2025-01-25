@@ -32,7 +32,7 @@ from AllTrails and/or Google.
 
 
 ## Data Source #2: Open Street Map API
-- https://www.openstreetmap.org/about/api/ 
+- https://www.openstreetmap.org/about/api/
 - API
 - Potential challenges:
     - Not all green spaces are public. We will need to ensure we are categorizing 
@@ -54,13 +54,15 @@ from AllTrails and/or Google.
 
 ## Preliminary Project Plan
 
-1. Initial Idea & preliminary plan: Conceptualize the idea of access to affordable housing that can also foster social interactions to impact human development through neighborhood interactions
-2. Refinment and prototype: Create a simple mock-up prototype to envision the final product and the desired functionality 
-3. Data pipeline and integration: Implementation of a data pipeline, with at least 2 datasets APIs integrated, retrieved,  and cleaned to use them.
-4. Data analysis: Analysis of the merged datasets, socioeconomic factors, and regression analysis to show relationships and insights
-5. Dash configuration, Map settings (Kepler): Design of the desired filters and interactions (callbacks) for the aplication, the modules in kepler or mapbox to show the visualization, and the panels according to the prototype
-6. Preliminary version for comments: A funcional version of the product, incorporating the comments raised in the meetings with James, and the project requirements.
-7. Final output with demo and video: Preparation for project fair and final commits. Creation of audiovisual tools for enhancing storytelling around the project to add to the ReadMe file.
+1. 
+2. Look at a predefined radius surrounding each residence (affordable housing) 
+to calculate availability
+
+A short summary of what components of the project might be needed (e.g. data 
+ingestion, cleaning/preparation, visualization).
+
+You might also begin to think about who will work on what.
+This can be very brief, and will almost certainly change by the next milestone.
 
 ## Questions
 
