@@ -1,5 +1,5 @@
 import httpx
-import time
+import json
 
 # Define the Overpass API endpoint
 overpass_url = "https://overpass-api.de/api/interpreter"
@@ -39,11 +39,21 @@ out skel qt;
 """
 
 # Make the POST request to Overpass API
-response = requests.post(overpass_url, data={'data': overpass_query}, timeout=120)
+response = httpx.post(overpass_url, data={'data': overpass_query}, timeout=120)
 
 # Check if the request was successful
-if response.status_code == 200:
-    data = response.json()
-    print(data)  # Print or process the data
-else:
-    print(f"Error: {response.status_code}")
+try:
+    response = httpx.post(overpass_url, data={'data': overpass_query}, timeout=120)
+
+    # Check if the request was successful
+    if response.status_code == 200:
+        data = response.json()
+        with open("OSM_parks.json", "w") as f:
+            json.dump(data, f, indent=1)
+        #print(data)  # Print or process the data
+    else:
+        print(f"Error: {response.status_code} - {response.text}")
+except httpx.RequestError as e:
+    print(f"An error occurred: {e}")
+except httpx.TimeoutException:
+    print("The request timed out.")
