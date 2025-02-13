@@ -3,8 +3,13 @@ name = "30122-project-treehuggers"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.12"
 dependencies = [
+    "geopandas>=1.0.1",
     "httpx>=0.28.1",
-    "requests>=2.32.3",
+    "ipykernel>=6.29.5",
+    "keplergl>=0.3.7",
+    "matplotlib>=3.10.0",
+    "osmnx>=2.0.1",
+    "pandas>=2.2.3",
 ]

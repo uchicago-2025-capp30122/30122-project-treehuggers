@@ -1,26 +1,36 @@
 import httpx
 import os 
 import json
+import time 
 
 try:
-    API_KEY = "Bearer " + os.environ["API_KEY"]
+    API_KEY = f"Bearer {os.environ["API_KEY"]}" 
 except KeyError:
     raise Exception(
         "Please enter API Key for Yelp"
     )
 
-url = "https://api.yelp.com/v3/businesses/search?location=Chicago&term=park&sort_by=best_match&limit=20"
-
-headers = {
-    "accept": "application/json"
-}
+headers = {"accept": "application/json"}
 headers["authorization"] = API_KEY
 
-response = httpx.get(url, headers=headers)
-data = response.json()
+all_businesses = []
 
-print(data)
+for offset in range(0, 10001, 50):
+    url = "https://api.yelp.com/v3/businesses/search?location=Chicago&categories=parkss&sort_by=best_match&offset=" + str(offset)
+    response = httpx.get(url, headers=headers)
+    
+    print("Offset", offset,":",response.status_code)
+    if response.status_code == 200:
+        data = response.json()
+        all_businesses.extend(data["businesses"])  
+    else:
+        print(response.status_code)
+        break
+    
+    time.sleep(1)
+
+all_data_dict = {"businesses": all_businesses}
 
 # Save 
 with open("yelp.json", "w") as f:
-    json.dump(data, f, indent=1)
+    json.dump(all_data_dict, f, indent=1)
