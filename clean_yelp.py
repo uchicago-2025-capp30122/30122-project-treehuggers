@@ -2,7 +2,7 @@ import json
 
 data_path = "/home/evanfantozzi/capp30122/Project/30122-project-treehuggers/yelp.json"
 
-with open("yelp.json", "r") as f:
+with open("data/yelp.json", "r") as f:
     data = json.load(f)
 
 parks = []
@@ -19,7 +19,7 @@ for park in data["businesses"]:
         }
     )
 
-with open("yelp_cleaned.json", "w") as f:
+with open("data/yelp_cleaned.json", "w") as f:
     json.dump(parks, f, indent=1)
     
     

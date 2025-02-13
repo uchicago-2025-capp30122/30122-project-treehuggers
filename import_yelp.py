@@ -32,5 +32,5 @@ for offset in range(0, 10001, 50):
 all_data_dict = {"businesses": all_businesses}
 
 # Save 
-with open("yelp.json", "w") as f:
+with open("data/yelp.json", "w") as f:
     json.dump(all_data_dict, f, indent=1)
