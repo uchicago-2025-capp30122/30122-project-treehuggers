@@ -22,7 +22,7 @@ def get_parks():
                 query="park",
                 location=(4.7110, -74.0721),
                 radius=10000,
-                type="bakery"
+                type="park"
             )
         places.extend(response.get("results", []))
         
