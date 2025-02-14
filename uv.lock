@@ -12,6 +12,7 @@ dependencies = [
     { name = "ipykernel" },
     { name = "keplergl" },
     { name = "matplotlib" },
+    { name = "nbconvert" },
     { name = "osmnx" },
     { name = "pandas" },
 ]
@@ -24,6 +25,7 @@ requires-dist = [
     { name = "ipykernel", specifier = ">=6.29.5" },
     { name = "keplergl", specifier = ">=0.3.7" },
     { name = "matplotlib", specifier = ">=3.10.0" },
+    { name = "nbconvert", specifier = ">=7.16.6" },
     { name = "osmnx", specifier = ">=2.0.1" },
     { name = "pandas", specifier = ">=2.2.3" },
 ]
