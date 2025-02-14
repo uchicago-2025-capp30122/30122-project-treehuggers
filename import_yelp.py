@@ -10,15 +10,18 @@ except KeyError:
         "Please enter API Key for Yelp"
     )
 
-headers = {"accept": "application/json"}
-headers["authorization"] = API_KEY
-
+url = "https://api.yelp.com/v3/businesses/search?"
+headers = {"accept": "application/json",
+           "authorization": API_KEY,
+           "location": "Chicago",
+           "categories": "parks",
+           "sort_by": "best_match"
+           }
 all_businesses = []
-
 for offset in range(0, 10001, 50):
-    url = "https://api.yelp.com/v3/businesses/search?location=Chicago&categories=parkss&sort_by=best_match&offset=" + str(offset)
+    headers["offset": str(offset)]
+
     response = httpx.get(url, headers=headers)
-    
     print("Offset", offset,":",response.status_code)
     if response.status_code == 200:
         data = response.json()
