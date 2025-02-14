@@ -4,23 +4,22 @@ import googlemaps
 
 gmaps = googlemaps.Client(key=API_KEY)
 import time
-def get_panaderias():
+def get_parks():
     places = []
-    
-    nex_page_token = None
+    next_page_token = None
     
     while len(places) < 50:
-        if nex_page_token:
+        if next_page_token:
             response = gmaps.places(
-                query="panaderia",
+                query="park",
                 location=(4.7110, -74.0721),
                 radius=10000, 
-                type="bakery", 
-                page_token = nex_page_token
+                type="park", 
+                page_token = next_page_token
             )
         else: 
             response = gmaps.places(
-                query="panaderia",
+                query="park",
                 location=(4.7110, -74.0721),
                 radius=10000,
                 type="bakery"
@@ -28,7 +27,7 @@ def get_panaderias():
         places.extend(response.get("results", []))
         
         next_page_token = response.get("next_page_token")
-        if not nex_page_token or len(places) >=50:
+        if not next_page_token or len(places) >=50:
             break
         time.sleep(2)
     return places
@@ -39,10 +38,10 @@ def get_reviews(place_id):
 
 # Traemos las panaderias
 
-panaderias = get_panaderias()
+parks = get_parks()
 
 panaderias_df = []
-for panaderia in panaderias: 
+for panaderia in parks: 
     details = get_reviews(panaderia["place_id"])
     name = details.get("name", "N/A")
     lat = details.get("geometry", {}).get("location", {}).get("lat", None)
