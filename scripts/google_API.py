@@ -2,6 +2,13 @@ import os
 #API_KEY = os.getenv('API_KEY')
 import googlemaps
 
+try:
+    API_KEY = f"Bearer {os.environ["API_KEY"]}" 
+except KeyError:
+    raise Exception(
+        "Please enter API Key for Yelp"
+    )
+
 gmaps = googlemaps.Client(key=API_KEY)
 import time
 def get_panaderias():

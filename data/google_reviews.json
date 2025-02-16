@@ -1,0 +1,422 @@
+[
+ {
+  "Name": "Rutherford Sayre Park",
+  "Latitude": 41.9208169,
+  "Longitude": -87.7971244,
+  "Rating": 4.6,
+  "Review Count": 206
+ },
+ {
+  "Name": "Gage (George) Park",
+  "Latitude": 41.79303429999999,
+  "Longitude": -87.6845269,
+  "Rating": 4.1,
+  "Review Count": 334
+ },
+ {
+  "Name": "Commons Park",
+  "Latitude": 41.8463304,
+  "Longitude": -87.8205845,
+  "Rating": 4.9,
+  "Review Count": 36
+ },
+ {
+  "Name": "Mayfair Park",
+  "Latitude": 41.96333660000001,
+  "Longitude": -87.7421481,
+  "Rating": 4.6,
+  "Review Count": 177
+ },
+ {
+  "Name": "Klein Park",
+  "Latitude": 41.7167864,
+  "Longitude": -87.7065701,
+  "Rating": 4.4,
+  "Review Count": 47
+ },
+ {
+  "Name": "Burnham (Daniel) Park",
+  "Latitude": 41.8253531,
+  "Longitude": -87.59858559999999,
+  "Rating": 4.6,
+  "Review Count": 4050
+ },
+ {
+  "Name": "Connors (William) Park",
+  "Latitude": 41.8986953,
+  "Longitude": -87.6267362,
+  "Rating": 4.6,
+  "Review Count": 158
+ },
+ {
+  "Name": "Warren (Laurence) Park",
+  "Latitude": 42.00263080000001,
+  "Longitude": -87.6881799,
+  "Rating": 4.7,
+  "Review Count": 549
+ },
+ {
+  "Name": "Berkeley Park",
+  "Latitude": 41.88274550000001,
+  "Longitude": -87.91560779999999,
+  "Rating": 4.5,
+  "Review Count": 101
+ },
+ {
+  "Name": "Edison (Thomas Alva) Park",
+  "Latitude": 42.0039709,
+  "Longitude": -87.8176312,
+  "Rating": 4.6,
+  "Review Count": 52
+ },
+ {
+  "Name": "Milton Lee Olive Park",
+  "Latitude": 41.8939502,
+  "Longitude": -87.610924,
+  "Rating": 4.8,
+  "Review Count": 497
+ },
+ {
+  "Name": "Norwood Park",
+  "Latitude": 41.9865715,
+  "Longitude": -87.79268970000001,
+  "Rating": 4.7,
+  "Review Count": 112
+ },
+ {
+  "Name": "Field (Eugene) Park",
+  "Latitude": 41.9747187,
+  "Longitude": -87.7223602,
+  "Rating": 4.5,
+  "Review Count": 263
+ },
+ {
+  "Name": "Bartelme (Mary) Park",
+  "Latitude": 41.8798769,
+  "Longitude": -87.6504057,
+  "Rating": 4.7,
+  "Review Count": 1124
+ },
+ {
+  "Name": "Gladstone (William) Park",
+  "Latitude": 41.9788836,
+  "Longitude": -87.7728393,
+  "Rating": 4.5,
+  "Review Count": 111
+ },
+ {
+  "Name": "Comissioner's Park",
+  "Latitude": 41.5909746,
+  "Longitude": -87.8177564,
+  "Rating": 4.6,
+  "Review Count": 27
+ },
+ {
+  "Name": "Thuis (Grace Zwiefka) Park",
+  "Latitude": 41.9676965,
+  "Longitude": -87.75189569999999,
+  "Rating": 4.4,
+  "Review Count": 46
+ },
+ {
+  "Name": "Oakton Park",
+  "Latitude": 42.0252061,
+  "Longitude": -87.74458109999999,
+  "Rating": 4.6,
+  "Review Count": 252
+ },
+ {
+  "Name": "Safety Park",
+  "Latitude": 41.83093640000001,
+  "Longitude": -87.7607708,
+  "Rating": 4.5,
+  "Review Count": 273
+ },
+ {
+  "Name": "Riis Park",
+  "Latitude": 41.92557250000001,
+  "Longitude": -87.78139259999999,
+  "Rating": 4.5,
+  "Review Count": 689
+ },
+ {
+  "Name": "Park West Park",
+  "Latitude": 41.9288627,
+  "Longitude": -87.6480739,
+  "Rating": 4.3,
+  "Review Count": 28
+ },
+ {
+  "Name": "Lufkin Park",
+  "Latitude": 41.8707153,
+  "Longitude": -87.9789943,
+  "Rating": 4.3,
+  "Review Count": 99
+ },
+ {
+  "Name": "Lions Park",
+  "Latitude": 41.8884526,
+  "Longitude": -87.9711504,
+  "Rating": 4.1,
+  "Review Count": 82
+ },
+ {
+  "Name": "Rehm Park",
+  "Latitude": 41.87057739999999,
+  "Longitude": -87.788162,
+  "Rating": 4.9,
+  "Review Count": 99
+ },
+ {
+  "Name": "Gordon Park",
+  "Latitude": 41.8189055,
+  "Longitude": -87.8663304,
+  "Rating": 4.5,
+  "Review Count": 311
+ },
+ {
+  "Name": "Independence Park",
+  "Latitude": 41.9526374,
+  "Longitude": -87.7237263,
+  "Rating": 4.6,
+  "Review Count": 681
+ },
+ {
+  "Name": "Woodland Park",
+  "Latitude": 42.0287476,
+  "Longitude": -87.8466118,
+  "Rating": 4.6,
+  "Review Count": 89
+ },
+ {
+  "Name": "Horner (Henry) Park",
+  "Latitude": 41.9577997,
+  "Longitude": -87.69637209999999,
+  "Rating": 4.6,
+  "Review Count": 1629
+ },
+ {
+  "Name": "Calumet Park",
+  "Latitude": 41.7188708,
+  "Longitude": -87.5282188,
+  "Rating": 4.4,
+  "Review Count": 1610
+ },
+ {
+  "Name": "Kelly Park",
+  "Latitude": 41.5880362,
+  "Longitude": -87.8426463,
+  "Rating": 4.4,
+  "Review Count": 185
+ },
+ {
+  "Name": "Adams (George & Adele) Park",
+  "Latitude": 41.9167946,
+  "Longitude": -87.6550438,
+  "Rating": 4.6,
+  "Review Count": 154
+ },
+ {
+  "Name": "Clarendon Community Center Park",
+  "Latitude": 41.9633603,
+  "Longitude": -87.6486024,
+  "Rating": 4.4,
+  "Review Count": 382
+ },
+ {
+  "Name": "Grant Park",
+  "Latitude": 41.8739324,
+  "Longitude": -87.61988079999999,
+  "Rating": 4.7,
+  "Review Count": 20168
+ },
+ {
+  "Name": "Maple Park",
+  "Latitude": 41.86785909999999,
+  "Longitude": -87.80384289999999,
+  "Rating": 4.5,
+  "Review Count": 435
+ },
+ {
+  "Name": "Duffy Park",
+  "Latitude": 41.7270973,
+  "Longitude": -87.7141463,
+  "Rating": 4.4,
+  "Review Count": 139
+ },
+ {
+  "Name": "Northwest Park",
+  "Latitude": 42.03009189999999,
+  "Longitude": -87.8565101,
+  "Rating": 4.4,
+  "Review Count": 144
+ },
+ {
+  "Name": "Ronan (George) Park",
+  "Latitude": 41.97093780000001,
+  "Longitude": -87.7037149,
+  "Rating": 4.6,
+  "Review Count": 266
+ },
+ {
+  "Name": "Rogers (Phillip) Park",
+  "Latitude": 42.014176,
+  "Longitude": -87.6951009,
+  "Rating": 4.4,
+  "Review Count": 224
+ },
+ {
+  "Name": "Memorial Park",
+  "Latitude": 41.8249157,
+  "Longitude": -87.8696768,
+  "Rating": 4.6,
+  "Review Count": 155
+ },
+ {
+  "Name": "Fuller (Melville) Park",
+  "Latitude": 41.8114419,
+  "Longitude": -87.6346191,
+  "Rating": 4.5,
+  "Review Count": 95
+ },
+ {
+  "Name": "Evergreen Park",
+  "Latitude": 41.93986779999999,
+  "Longitude": -87.6456551,
+  "Rating": 4.6,
+  "Review Count": 30
+ },
+ {
+  "Name": "Gouin Park",
+  "Latitude": 41.9233863,
+  "Longitude": -87.8761744,
+  "Rating": 4.5,
+  "Review Count": 145
+ },
+ {
+  "Name": "Michael J. Madigan Sr. Park",
+  "Latitude": 41.77048219999999,
+  "Longitude": -87.738729,
+  "Rating": 4.3,
+  "Review Count": 259
+ },
+ {
+  "Name": "Ward (A. Montgomery) Park",
+  "Latitude": 41.8934679,
+  "Longitude": -87.642225,
+  "Rating": 4.6,
+  "Review Count": 568
+ },
+ {
+  "Name": "Centennial Park",
+  "Latitude": 41.58556129999999,
+  "Longitude": -87.80612459999999,
+  "Rating": 4.5,
+  "Review Count": 330
+ },
+ {
+  "Name": "Elmwood Park",
+  "Latitude": 41.9310126,
+  "Longitude": -87.81609619999999,
+  "Rating": 5,
+  "Review Count": 3
+ },
+ {
+  "Name": "Roosevelt Park",
+  "Latitude": 42.07559709999999,
+  "Longitude": -87.81395069999999,
+  "Rating": 4.8,
+  "Review Count": 85
+ },
+ {
+  "Name": "Maine Park",
+  "Latitude": 42.0167171,
+  "Longitude": -87.8605668,
+  "Rating": 4.7,
+  "Review Count": 18
+ },
+ {
+  "Name": "Centennial Park",
+  "Latitude": 42.0088056,
+  "Longitude": -87.84679059999999,
+  "Rating": 4.6,
+  "Review Count": 389
+ },
+ {
+  "Name": "Roosevelt (Theodore) Park",
+  "Latitude": 41.8680931,
+  "Longitude": -87.6298805,
+  "Rating": 4.5,
+  "Review Count": 78
+ },
+ {
+  "Name": "Sunshine Park",
+  "Latitude": 41.7355814,
+  "Longitude": -87.9470604,
+  "Rating": 4.5,
+  "Review Count": 25
+ },
+ {
+  "Name": "Kennedy Park",
+  "Latitude": 41.95197230000001,
+  "Longitude": -87.87538149999999,
+  "Rating": 4.5,
+  "Review Count": 118
+ },
+ {
+  "Name": "North Terrace Park",
+  "Latitude": 41.89472449999999,
+  "Longitude": -87.99393219999999,
+  "Rating": 4.3,
+  "Review Count": 55
+ },
+ {
+  "Name": "Wenonah Park",
+  "Latitude": 41.8736451,
+  "Longitude": -87.8006416,
+  "Rating": 4.7,
+  "Review Count": 20
+ },
+ {
+  "Name": "Kiwanis Park",
+  "Latitude": 41.9733063,
+  "Longitude": -87.7118737,
+  "Rating": 4.5,
+  "Review Count": 35
+ },
+ {
+  "Name": "Palmisano (Henry) Park",
+  "Latitude": 41.84299029999999,
+  "Longitude": -87.6490151,
+  "Rating": 4.7,
+  "Review Count": 1262
+ },
+ {
+  "Name": "Walsh (John) Park",
+  "Latitude": 41.9138583,
+  "Longitude": -87.6684556,
+  "Rating": 4.7,
+  "Review Count": 698
+ },
+ {
+  "Name": "Ridgeland Common Park",
+  "Latitude": 41.8879961,
+  "Longitude": -87.7863248,
+  "Rating": 4.7,
+  "Review Count": 295
+ },
+ {
+  "Name": "Lakeshore East Park",
+  "Latitude": 41.88606550000001,
+  "Longitude": -87.61783090000002,
+  "Rating": 4.8,
+  "Review Count": 534
+ },
+ {
+  "Name": "Prospect Park",
+  "Latitude": 42.021617,
+  "Longitude": -87.82793079999999,
+  "Rating": 4.6,
+  "Review Count": 151
+ }
+]

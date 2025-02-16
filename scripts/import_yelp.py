@@ -2,6 +2,7 @@ import httpx
 import os 
 import json
 import time 
+from pathlib import Path
 
 try:
     API_KEY = f"Bearer {os.environ["API_KEY"]}" 
@@ -35,5 +36,7 @@ for offset in range(0, 10001, 50):
 all_data_dict = {"businesses": all_businesses}
 
 # Save 
-with open("data/yelp.json", "w") as f:
+data_dir = Path(__file__).resolve().parent.parent / 'data'
+path = data_dir / "yelp_reviews_raw.json"
+with open(path, "w") as f:
     json.dump(all_data_dict, f, indent=1)
