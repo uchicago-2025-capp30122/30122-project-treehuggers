@@ -90,7 +90,7 @@ def create_index_values(housing, parks):
  
  
 ##############################
-# Calculate indexes
+# Calculate indexes for each unit
 ##############################
     
 
