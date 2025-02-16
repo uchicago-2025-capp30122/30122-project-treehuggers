@@ -4,7 +4,7 @@ import jellyfish as jf
 import geopandas as gpd 
 from shapely.geometry import Point, MultiPoint
 
-data_dir = Path(__file__).resolve().parent.parent / 'data'
+data_dir = Path(__file__).parent.parent / 'data'
 yelp_path = data_dir / "yelp" / "yelp_cleaned.json"
 google_path = data_dir / "google_reviews.json"
 

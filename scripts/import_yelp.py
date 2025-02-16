@@ -36,7 +36,7 @@ for offset in range(0, 10001, 50):
 all_data_dict = {"businesses": all_businesses}
 
 # Save 
-data_dir = Path(__file__).resolve().parent.parent / 'data'
+data_dir = Path(__file__).parent.parent / 'data'
 path = data_dir / "yelp_reviews_raw.json"
 with open(path, "w") as f:
     json.dump(all_data_dict, f, indent=1)

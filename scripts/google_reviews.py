@@ -20,7 +20,7 @@ except KeyError:
         "Please enter API Key for Yelp"
     )
     
-data_dir = Path(__file__).resolve().parent.parent / 'data'
+data_dir = Path(__file__).parent.parent / 'data'
 raw_path = data_dir / "google_reviews_raw.json"
 clean_path = data_dir / "google_reviews_clean.json"
 

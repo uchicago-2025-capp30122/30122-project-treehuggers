@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-data_dir = Path(__file__).resolve().parent.parent / 'data'
+data_dir = Path(__file__).parent.parent / 'data'
 
 data = []
 for source in ["google", "yelp"]:
