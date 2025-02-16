@@ -14,10 +14,10 @@ for park in data["businesses"]:
     parks.append(
         {
         "name": park["name"],
-        "rating": park["rating"],
-        "review_count": park["review_count"],
         "latitude": park["coordinates"]["latitude"],
         "longitude": park["coordinates"]["longitude"],
+        "rating": park["rating"],
+        "review_count": park["review_count"],      
         "source": "Yelp"
         }
     )

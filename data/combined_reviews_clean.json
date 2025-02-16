@@ -1,0 +1,7802 @@
+[
+ {
+  "name": "John Wentworth Park",
+  "latitude": 41.78813160000001,
+  "longitude": -87.7803931,
+  "rating": 4.5,
+  "review_count": 77,
+  "source": "Google"
+ },
+ {
+  "name": "Frank J. Wilson Park",
+  "latitude": 41.9644741,
+  "longitude": -87.7595081,
+  "rating": 4.6,
+  "review_count": 209,
+  "source": "Google"
+ },
+ {
+  "name": "Madlin Park",
+  "latitude": 41.825978,
+  "longitude": -87.8542112,
+  "rating": 4.7,
+  "review_count": 3,
+  "source": "Google"
+ },
+ {
+  "name": "North Mayfair Park",
+  "latitude": 41.9733474,
+  "longitude": -87.7421049,
+  "rating": 4.2,
+  "review_count": 31,
+  "source": "Google"
+ },
+ {
+  "name": "West Indian Gardens",
+  "latitude": 41.8177108,
+  "longitude": -87.8288956,
+  "rating": 4.8,
+  "review_count": 25,
+  "source": "Google"
+ },
+ {
+  "name": "Bailey's Crossing Dog Park",
+  "latitude": 41.7113017,
+  "longitude": -87.77475410000001,
+  "rating": 4.1,
+  "review_count": 124,
+  "source": "Google"
+ },
+ {
+  "name": "Margaret T. Burroughs Beach And Park",
+  "latitude": 41.8392698,
+  "longitude": -87.6067236,
+  "rating": 4.6,
+  "review_count": 86,
+  "source": "Google"
+ },
+ {
+  "name": "Senn (Nicholas) Park",
+  "latitude": 41.9892297,
+  "longitude": -87.6686383,
+  "rating": 4.6,
+  "review_count": 285,
+  "source": "Google"
+ },
+ {
+  "name": "Hinsdale Veeck Park",
+  "latitude": 41.8050898,
+  "longitude": -87.9140031,
+  "rating": 4.4,
+  "review_count": 48,
+  "source": "Google"
+ },
+ {
+  "name": "Ellis (Samuel) Park",
+  "latitude": 41.8281357,
+  "longitude": -87.6103569,
+  "rating": 4.5,
+  "review_count": 324,
+  "source": "Google"
+ },
+ {
+  "name": "Maggie Daley Park",
+  "latitude": 41.8823823,
+  "longitude": -87.6193686,
+  "rating": 4.7,
+  "review_count": 8296,
+  "source": "Google"
+ },
+ {
+  "name": "Park No. 468",
+  "latitude": 41.7918394,
+  "longitude": -87.7374166,
+  "rating": 4.1,
+  "review_count": 20,
+  "source": "Google"
+ },
+ {
+  "name": "Championship Park",
+  "latitude": 41.9420778,
+  "longitude": -87.8562638,
+  "rating": 4.6,
+  "review_count": 8,
+  "source": "Google"
+ },
+ {
+  "name": "Muehe Memorial Park",
+  "latitude": 41.7291907,
+  "longitude": -87.7973897,
+  "rating": 4.1,
+  "review_count": 38,
+  "source": "Google"
+ },
+ {
+  "name": "Rutherford Sayre Park",
+  "latitude": 41.9208169,
+  "longitude": -87.7971244,
+  "rating": 4.6,
+  "review_count": 206,
+  "source": "Google"
+ },
+ {
+  "name": "Addams (Jane) Memorial Park",
+  "latitude": 41.8923675,
+  "longitude": -87.61277439999999,
+  "rating": 4.6,
+  "review_count": 269,
+  "source": "Google"
+ },
+ {
+  "name": "Safety Park",
+  "latitude": 41.83093640000001,
+  "longitude": -87.7607708,
+  "rating": 4.5,
+  "review_count": 273,
+  "source": "Google"
+ },
+ {
+  "name": "La Villita Park",
+  "latitude": 41.8399512,
+  "longitude": -87.7015346,
+  "rating": 4.4,
+  "review_count": 1074,
+  "source": "Google"
+ },
+ {
+  "name": "Red Gate Woods",
+  "latitude": 41.7111776,
+  "longitude": -87.91354120000001,
+  "rating": 4.7,
+  "review_count": 203,
+  "source": "Google"
+ },
+ {
+  "name": "Swallow Cliff Stairs",
+  "latitude": 41.6807487,
+  "longitude": -87.8625553,
+  "rating": 4.8,
+  "review_count": 2743,
+  "source": "Google"
+ },
+ {
+  "name": "Pendelton (Hadiya) Park",
+  "latitude": 41.81538260000001,
+  "longitude": -87.6183018,
+  "rating": 4.6,
+  "review_count": 27,
+  "source": "Google"
+ },
+ {
+  "name": "Bowmanville GreenSpace Park",
+  "latitude": 41.9793324,
+  "longitude": -87.6851973,
+  "rating": 4.5,
+  "review_count": 29,
+  "source": "Google"
+ },
+ {
+  "name": "Twenty-Sixth Street Woods-West",
+  "latitude": 41.8423032,
+  "longitude": -87.8576231,
+  "rating": 4.6,
+  "review_count": 148,
+  "source": "Google"
+ },
+ {
+  "name": "50 Acre Park Dog Park",
+  "latitude": 41.7269482,
+  "longitude": -87.6889767,
+  "rating": 4.6,
+  "review_count": 56,
+  "source": "Google"
+ },
+ {
+  "name": "Field Park",
+  "latitude": 41.8115421,
+  "longitude": -87.8930184,
+  "rating": 4.2,
+  "review_count": 21,
+  "source": "Google"
+ },
+ {
+  "name": "Klein Park",
+  "latitude": 41.7167864,
+  "longitude": -87.7065701,
+  "rating": 4.4,
+  "review_count": 47,
+  "source": "Google"
+ },
+ {
+  "name": "Hermitage Park",
+  "latitude": 41.7870752,
+  "longitude": -87.6680713,
+  "rating": 4.1,
+  "review_count": 105,
+  "source": "Google"
+ },
+ {
+  "name": "Chamberlain Triangle Park",
+  "latitude": 41.8170539,
+  "longitude": -87.5992205,
+  "rating": 4.1,
+  "review_count": 8,
+  "source": "Google"
+ },
+ {
+  "name": "Gately (James) Park",
+  "latitude": 41.7097676,
+  "longitude": -87.60360349999999,
+  "rating": 5,
+  "review_count": 3,
+  "source": "Google"
+ },
+ {
+  "name": "Calumet Bark",
+  "latitude": 41.7177942,
+  "longitude": -87.5288922,
+  "rating": 4.1,
+  "review_count": 19,
+  "source": "Google"
+ },
+ {
+  "name": "Baraga (Frederick) Park",
+  "latitude": 41.8472224,
+  "longitude": -87.680996,
+  "rating": 4.2,
+  "review_count": 21,
+  "source": "Google"
+ },
+ {
+  "name": "Rosedale Park",
+  "latitude": 41.989061,
+  "longitude": -87.78582879999999,
+  "rating": 4.6,
+  "review_count": 94,
+  "source": "Google"
+ },
+ {
+  "name": "Jackson (Mahalia) Park",
+  "latitude": 41.7426678,
+  "longitude": -87.63887989999999,
+  "rating": 4.3,
+  "review_count": 13,
+  "source": "Google"
+ },
+ {
+  "name": "Kahl Park",
+  "latitude": 41.9172941,
+  "longitude": -87.89521660000001,
+  "rating": 4.1,
+  "review_count": 65,
+  "source": "Google"
+ },
+ {
+  "name": "Maple North Park",
+  "latitude": 41.8208746,
+  "longitude": -87.8514735,
+  "rating": 4.4,
+  "review_count": 27,
+  "source": "Google"
+ },
+ {
+  "name": "South Chicago Peoples Park",
+  "latitude": 41.7299,
+  "longitude": -87.54456990000001,
+  "rating": 3.4,
+  "review_count": 5,
+  "source": "Google"
+ },
+ {
+  "name": "Dougherty (Daniel) Park",
+  "latitude": 41.7251031,
+  "longitude": -87.56256909999999,
+  "rating": 4.4,
+  "review_count": 5,
+  "source": "Google"
+ },
+ {
+  "name": "The Battle of Fort Dearborn Park",
+  "latitude": 41.8579118,
+  "longitude": -87.6193321,
+  "rating": 4.5,
+  "review_count": 110,
+  "source": "Google"
+ },
+ {
+  "name": "Chicago Park 597",
+  "latitude": 41.6684406,
+  "longitude": -87.5631621,
+  "rating": 4,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Conrad Fisher Park",
+  "latitude": 41.9269093,
+  "longitude": -87.9361672,
+  "rating": 4.5,
+  "review_count": 52,
+  "source": "Google"
+ },
+ {
+  "name": "Broadview Park District",
+  "latitude": 41.8477468,
+  "longitude": -87.8617872,
+  "rating": 4.3,
+  "review_count": 44,
+  "source": "Google"
+ },
+ {
+  "name": "Luella Park",
+  "latitude": 41.712726,
+  "longitude": -87.5676266,
+  "rating": 3,
+  "review_count": 4,
+  "source": "Google"
+ },
+ {
+  "name": "Oak Lawn Park District",
+  "latitude": 41.7179166,
+  "longitude": -87.7573769,
+  "rating": 4.6,
+  "review_count": 45,
+  "source": "Google"
+ },
+ {
+  "name": "Breiter Palm Park",
+  "latitude": 41.9491226,
+  "longitude": -87.9524352,
+  "rating": 4.5,
+  "review_count": 36,
+  "source": "Google"
+ },
+ {
+  "name": "Lakeshore East Park",
+  "latitude": 41.88606550000001,
+  "longitude": -87.61783090000002,
+  "rating": 4.8,
+  "review_count": 534,
+  "source": "Google"
+ },
+ {
+  "name": "West Morton Park",
+  "latitude": 41.8450547,
+  "longitude": -87.7633809,
+  "rating": 4.2,
+  "review_count": 81,
+  "source": "Google"
+ },
+ {
+  "name": "Redmond Recreational Complex",
+  "latitude": 41.944397,
+  "longitude": -87.9273599,
+  "rating": 4.6,
+  "review_count": 287,
+  "source": "Google"
+ },
+ {
+  "name": "Patrick Sullivan Park",
+  "latitude": 41.7118848,
+  "longitude": -87.73111349999999,
+  "rating": 4.6,
+  "review_count": 227,
+  "source": "Google"
+ },
+ {
+  "name": "Hurley (Timothy) Park",
+  "latitude": 41.7117482,
+  "longitude": -87.66967149999999,
+  "rating": 4.6,
+  "review_count": 79,
+  "source": "Google"
+ },
+ {
+  "name": "Legacy Garden Park",
+  "latitude": 41.7405177,
+  "longitude": -87.8632042,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "O'Hallaren (Bernard) Park",
+  "latitude": 41.7420613,
+  "longitude": -87.66924379999999,
+  "rating": 4.1,
+  "review_count": 122,
+  "source": "Google"
+ },
+ {
+  "name": "Beverly Park",
+  "latitude": 41.7080954,
+  "longitude": -87.6844596,
+  "rating": 4.3,
+  "review_count": 239,
+  "source": "Google"
+ },
+ {
+  "name": "Westchester Community Park",
+  "latitude": 41.850538,
+  "longitude": -87.87847029999999,
+  "rating": 5,
+  "review_count": 6,
+  "source": "Google"
+ },
+ {
+  "name": "Reiger Park",
+  "latitude": 41.8585319,
+  "longitude": -87.807228,
+  "rating": 3.7,
+  "review_count": 12,
+  "source": "Google"
+ },
+ {
+  "name": "West Pullman Park",
+  "latitude": 41.6696411,
+  "longitude": -87.6314575,
+  "rating": 4.2,
+  "review_count": 233,
+  "source": "Google"
+ },
+ {
+  "name": "Burgermeister Park",
+  "latitude": 41.993952,
+  "longitude": -87.8786682,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Lamb (Harold) Park",
+  "latitude": 41.6961143,
+  "longitude": -87.65743169999999,
+  "rating": 4.3,
+  "review_count": 7,
+  "source": "Google"
+ },
+ {
+  "name": "Elmwood Park",
+  "latitude": 41.9310126,
+  "longitude": -87.81609619999999,
+  "rating": 5,
+  "review_count": 3,
+  "source": "Google"
+ },
+ {
+  "name": "Chicago Women's Park And Gardens",
+  "latitude": 41.85733,
+  "longitude": -87.621208,
+  "rating": 4.4,
+  "review_count": 16,
+  "source": "Google"
+ },
+ {
+  "name": "Parkway Bank Park Entertainment District",
+  "latitude": 41.9786104,
+  "longitude": -87.86783020000001,
+  "rating": 4.5,
+  "review_count": 7518,
+  "source": "Google"
+ },
+ {
+  "name": "Harding (George) Park",
+  "latitude": 41.8052285,
+  "longitude": -87.6183475,
+  "rating": 4.4,
+  "review_count": 15,
+  "source": "Google"
+ },
+ {
+  "name": "Park No. 535",
+  "latitude": 41.9160335,
+  "longitude": -87.64874789999999,
+  "rating": 4.8,
+  "review_count": 13,
+  "source": "Google"
+ },
+ {
+  "name": "Krueger Park Recreation Center",
+  "latitude": 41.726153,
+  "longitude": -87.83810869999999,
+  "rating": 4.4,
+  "review_count": 158,
+  "source": "Google"
+ },
+ {
+  "name": "Wendt (Kenneth) Park",
+  "latitude": 41.9433944,
+  "longitude": -87.64720679999999,
+  "rating": 4.6,
+  "review_count": 57,
+  "source": "Google"
+ },
+ {
+  "name": "Ridge Acres Park",
+  "latitude": 41.8056916,
+  "longitude": -87.8901427,
+  "rating": 4.4,
+  "review_count": 22,
+  "source": "Google"
+ },
+ {
+  "name": "Kilbourn Park",
+  "latitude": 41.9433295,
+  "longitude": -87.738516,
+  "rating": 4.4,
+  "review_count": 351,
+  "source": "Google"
+ },
+ {
+  "name": "Homan Square Park",
+  "latitude": 41.8695919,
+  "longitude": -87.71445419999999,
+  "rating": 4.4,
+  "review_count": 414,
+  "source": "Google"
+ },
+ {
+  "name": "Lee (John) Park",
+  "latitude": 41.735266,
+  "longitude": -87.714333,
+  "rating": 4.4,
+  "review_count": 21,
+  "source": "Google"
+ },
+ {
+  "name": "Buena Circle Park",
+  "latitude": 41.9584239,
+  "longitude": -87.65655129999999,
+  "rating": 4.5,
+  "review_count": 126,
+  "source": "Google"
+ },
+ {
+  "name": "Canal Origins Park",
+  "latitude": 41.8424845,
+  "longitude": -87.6652202,
+  "rating": 4.4,
+  "review_count": 27,
+  "source": "Google"
+ },
+ {
+  "name": "Park No. 571",
+  "latitude": 41.8436755,
+  "longitude": -87.66289090000001,
+  "rating": 4.5,
+  "review_count": 308,
+  "source": "Google"
+ },
+ {
+  "name": "Hickory Hills Woods",
+  "latitude": 41.7159625,
+  "longitude": -87.8298003,
+  "rating": 4.1,
+  "review_count": 35,
+  "source": "Google"
+ },
+ {
+  "name": "Ken-Well Park",
+  "latitude": 41.934435,
+  "longitude": -87.7334053,
+  "rating": 4.3,
+  "review_count": 137,
+  "source": "Google"
+ },
+ {
+  "name": "Prairie View Park",
+  "latitude": 41.736479,
+  "longitude": -87.8239158,
+  "rating": 4.6,
+  "review_count": 69,
+  "source": "Google"
+ },
+ {
+  "name": "Washington (George) Park",
+  "latitude": 41.7957052,
+  "longitude": -87.610755,
+  "rating": 4.5,
+  "review_count": 3605,
+  "source": "Google"
+ },
+ {
+  "name": "Cotton Tail Park",
+  "latitude": 41.862396,
+  "longitude": -87.6288653,
+  "rating": 4.5,
+  "review_count": 156,
+  "source": "Google"
+ },
+ {
+  "name": "Swallow Cliff Woods Pavilion & Cafe",
+  "latitude": 41.6802463,
+  "longitude": -87.8625967,
+  "rating": 4.8,
+  "review_count": 265,
+  "source": "Google"
+ },
+ {
+  "name": "William A.Redmond Park",
+  "latitude": 41.9460161,
+  "longitude": -87.92463240000001,
+  "rating": 4.3,
+  "review_count": 15,
+  "source": "Google"
+ },
+ {
+  "name": "Seneca Park",
+  "latitude": 41.8971646,
+  "longitude": -87.6220372,
+  "rating": 4.6,
+  "review_count": 247,
+  "source": "Google"
+ },
+ {
+  "name": "Anderson (Fred) Park",
+  "latitude": 41.859476,
+  "longitude": -87.62517280000002,
+  "rating": 4.8,
+  "review_count": 282,
+  "source": "Google"
+ },
+ {
+  "name": "Mather (Stephen Tyng) Park",
+  "latitude": 41.9894603,
+  "longitude": -87.7011978,
+  "rating": 4.4,
+  "review_count": 290,
+  "source": "Google"
+ },
+ {
+  "name": "Schreiber Park",
+  "latitude": 41.999398,
+  "longitude": -87.67008299999999,
+  "rating": 4.5,
+  "review_count": 218,
+  "source": "Google"
+ },
+ {
+  "name": "Taylor-Lauridsen Park",
+  "latitude": 41.8182065,
+  "longitude": -87.6429822,
+  "rating": 4.3,
+  "review_count": 131,
+  "source": "Google"
+ },
+ {
+  "name": "McInerney (Thomas) Park",
+  "latitude": 41.8127932,
+  "longitude": -87.64503119999999,
+  "rating": 4.3,
+  "review_count": 23,
+  "source": "Google"
+ },
+ {
+  "name": "North Clyde Park",
+  "latitude": 41.85222419999999,
+  "longitude": -87.7754767,
+  "rating": 4.1,
+  "review_count": 91,
+  "source": "Google"
+ },
+ {
+  "name": "Birch Park",
+  "latitude": 41.9333689,
+  "longitude": -87.8578912,
+  "rating": 4.4,
+  "review_count": 57,
+  "source": "Google"
+ },
+ {
+  "name": "Waiola Park",
+  "latitude": 41.8042018,
+  "longitude": -87.8773756,
+  "rating": 4.4,
+  "review_count": 62,
+  "source": "Google"
+ },
+ {
+  "name": "Park No. 583",
+  "latitude": 41.7114799,
+  "longitude": -87.552694,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Smile Park",
+  "latitude": 41.6846408,
+  "longitude": -87.7824053,
+  "rating": 4.4,
+  "review_count": 33,
+  "source": "Google"
+ },
+ {
+  "name": "Oak Lawn Park District",
+  "latitude": 41.7218145,
+  "longitude": -87.7366985,
+  "rating": 4.5,
+  "review_count": 783,
+  "source": "Google"
+ },
+ {
+  "name": "Latoria Park",
+  "latitude": 41.9239176,
+  "longitude": -87.854737,
+  "rating": 4.1,
+  "review_count": 21,
+  "source": "Google"
+ },
+ {
+  "name": "Park No. 566 \"USX\"",
+  "latitude": 41.7478993,
+  "longitude": -87.5340246,
+  "rating": 4.4,
+  "review_count": 16,
+  "source": "Google"
+ },
+ {
+  "name": "Miller Meadow Off-Leash Dog Area",
+  "latitude": 41.85483259999999,
+  "longitude": -87.83090539999999,
+  "rating": 4.4,
+  "review_count": 66,
+  "source": "Google"
+ },
+ {
+  "name": "Veterans' Memorial Park",
+  "latitude": 41.7181969,
+  "longitude": -87.55580820000002,
+  "rating": 4.5,
+  "review_count": 97,
+  "source": "Google"
+ },
+ {
+  "name": "Schuth\u2019s Grove",
+  "latitude": 41.8504105,
+  "longitude": -87.8245793,
+  "rating": 4.3,
+  "review_count": 126,
+  "source": "Google"
+ },
+ {
+  "name": "Bromann (Charles) Park",
+  "latitude": 41.98012490000001,
+  "longitude": -87.6603511,
+  "rating": 4.6,
+  "review_count": 24,
+  "source": "Google"
+ },
+ {
+  "name": "Jefferson (Thomas) Park",
+  "latitude": 41.8591316,
+  "longitude": -87.6422549,
+  "rating": 4.3,
+  "review_count": 71,
+  "source": "Google"
+ },
+ {
+  "name": "Wallach Fountain",
+  "latitude": 41.7956308,
+  "longitude": -87.5784875,
+  "rating": 4.7,
+  "review_count": 15,
+  "source": "Google"
+ },
+ {
+  "name": "Sherman Park",
+  "latitude": 41.79649269999999,
+  "longitude": -87.6573299,
+  "rating": 4.2,
+  "review_count": 550,
+  "source": "Google"
+ },
+ {
+  "name": "Mayfair Park",
+  "latitude": 41.96333660000001,
+  "longitude": -87.7421481,
+  "rating": 4.6,
+  "review_count": 177,
+  "source": "Google"
+ },
+ {
+  "name": "Centennial Park",
+  "latitude": 41.9919142,
+  "longitude": -87.7986584,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Peace Park of North Lawndale",
+  "latitude": 41.853454,
+  "longitude": -87.707382,
+  "rating": 3.4,
+  "review_count": 8,
+  "source": "Google"
+ },
+ {
+  "name": "Forest Hills Park",
+  "latitude": 41.7974745,
+  "longitude": -87.90549419999999,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Humbert (James) Park",
+  "latitude": 41.8382926,
+  "longitude": -87.6429402,
+  "rating": 4.5,
+  "review_count": 47,
+  "source": "Google"
+ },
+ {
+  "name": "Kennicott (Jonathan) Park",
+  "latitude": 41.8138876,
+  "longitude": -87.5975062,
+  "rating": 4.3,
+  "review_count": 159,
+  "source": "Google"
+ },
+ {
+  "name": "Scottsdale Park",
+  "latitude": 41.7416278,
+  "longitude": -87.73562710000002,
+  "rating": 4.3,
+  "review_count": 125,
+  "source": "Google"
+ },
+ {
+  "name": "Beverly Ridge Park",
+  "latitude": 41.7012729,
+  "longitude": -87.6555435,
+  "rating": 5,
+  "review_count": 3,
+  "source": "Google"
+ },
+ {
+  "name": "Park No. 601 - \"Dunning Read Natural Area\"",
+  "latitude": 41.9532551,
+  "longitude": -87.7971685,
+  "rating": 4.3,
+  "review_count": 7,
+  "source": "Google"
+ },
+ {
+  "name": "Curie (Marie) Park",
+  "latitude": 41.8031985,
+  "longitude": -87.7196609,
+  "rating": 4.1,
+  "review_count": 81,
+  "source": "Google"
+ },
+ {
+  "name": "Calumet Park",
+  "latitude": 41.7188708,
+  "longitude": -87.5282188,
+  "rating": 4.4,
+  "review_count": 1610,
+  "source": "Google"
+ },
+ {
+  "name": "Chillem Park - Oak Brook Park District",
+  "latitude": 41.857854,
+  "longitude": -87.935127,
+  "rating": 4,
+  "review_count": 22,
+  "source": "Google"
+ },
+ {
+  "name": "McGuane (John) Park",
+  "latitude": 41.8407367,
+  "longitude": -87.6476489,
+  "rating": 4.5,
+  "review_count": 690,
+  "source": "Google"
+ },
+ {
+  "name": "Warner Garden Park",
+  "latitude": 41.95728159999999,
+  "longitude": -87.6661494,
+  "rating": 4.7,
+  "review_count": 49,
+  "source": "Google"
+ },
+ {
+  "name": "Brook Park",
+  "latitude": 41.7998369,
+  "longitude": -87.91049509999999,
+  "rating": 4.6,
+  "review_count": 40,
+  "source": "Google"
+ },
+ {
+  "name": "Margaret J. Lange Park",
+  "latitude": 41.9908711,
+  "longitude": -87.8773756,
+  "rating": 4.7,
+  "review_count": 103,
+  "source": "Google"
+ },
+ {
+  "name": "Gross (Theodore) Park",
+  "latitude": 41.969068,
+  "longitude": -87.69664449999999,
+  "rating": 4.5,
+  "review_count": 94,
+  "source": "Google"
+ },
+ {
+  "name": "Harrison Park",
+  "latitude": 41.8568759,
+  "longitude": -87.6736815,
+  "rating": 4.5,
+  "review_count": 1375,
+  "source": "Google"
+ },
+ {
+  "name": "Strohacker (Howard) Park",
+  "latitude": 41.7939865,
+  "longitude": -87.7324229,
+  "rating": 4.2,
+  "review_count": 96,
+  "source": "Google"
+ },
+ {
+  "name": "Sheil (Bernard) Park",
+  "latitude": 41.9455104,
+  "longitude": -87.6636556,
+  "rating": 4.5,
+  "review_count": 87,
+  "source": "Google"
+ },
+ {
+  "name": "Central Park",
+  "latitude": 41.83819949999999,
+  "longitude": -87.95432799999999,
+  "rating": 4.6,
+  "review_count": 419,
+  "source": "Google"
+ },
+ {
+  "name": "Mid-North Park",
+  "latitude": 41.9236217,
+  "longitude": -87.639088,
+  "rating": 3.5,
+  "review_count": 8,
+  "source": "Google"
+ },
+ {
+  "name": "Fulton River Park",
+  "latitude": 41.8887141,
+  "longitude": -87.6435896,
+  "rating": 4.5,
+  "review_count": 111,
+  "source": "Google"
+ },
+ {
+  "name": "Tony and Florence Borse Memorial Community Park",
+  "latitude": 41.7488274,
+  "longitude": -87.949061,
+  "rating": 4.4,
+  "review_count": 68,
+  "source": "Google"
+ },
+ {
+  "name": "Clark (Richard) Park",
+  "latitude": 41.9440078,
+  "longitude": -87.6947819,
+  "rating": 4.6,
+  "review_count": 410,
+  "source": "Google"
+ },
+ {
+  "name": "Little Red Schoolhouse Nature Center",
+  "latitude": 41.7090505,
+  "longitude": -87.87728100000001,
+  "rating": 4.8,
+  "review_count": 969,
+  "source": "Google"
+ },
+ {
+  "name": "Chicago Park 591 - Dog Friendly Area",
+  "latitude": 41.82450250000001,
+  "longitude": -87.60389839999999,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Junction Park",
+  "latitude": 41.9441089,
+  "longitude": -87.8626864,
+  "rating": 4.2,
+  "review_count": 17,
+  "source": "Google"
+ },
+ {
+  "name": "Dunbar (Paul Laurence) Park",
+  "latitude": 41.8399244,
+  "longitude": -87.6208001,
+  "rating": 4.5,
+  "review_count": 633,
+  "source": "Google"
+ },
+ {
+  "name": "Cochran (John) Park",
+  "latitude": 41.983412,
+  "longitude": -87.66167290000001,
+  "rating": 4.6,
+  "review_count": 50,
+  "source": "Google"
+ },
+ {
+  "name": "Lincoln (Abraham) Park",
+  "latitude": 41.9152119,
+  "longitude": -87.6312121,
+  "rating": 4.7,
+  "review_count": 20610,
+  "source": "Google"
+ },
+ {
+  "name": "Rehm Park",
+  "latitude": 41.87057739999999,
+  "longitude": -87.788162,
+  "rating": 4.9,
+  "review_count": 99,
+  "source": "Google"
+ },
+ {
+  "name": "Norridge Park District",
+  "latitude": 41.9643592,
+  "longitude": -87.8184493,
+  "rating": 4.5,
+  "review_count": 752,
+  "source": "Google"
+ },
+ {
+  "name": "Calumet Beach Dunes Natural Area",
+  "latitude": 41.7123472,
+  "longitude": -87.52680910000001,
+  "rating": 5,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Crescent Park",
+  "latitude": 41.6973241,
+  "longitude": -87.6776206,
+  "rating": 4.6,
+  "review_count": 86,
+  "source": "Google"
+ },
+ {
+  "name": "Milton Lee Olive Park",
+  "latitude": 41.8939502,
+  "longitude": -87.610924,
+  "rating": 4.8,
+  "review_count": 497,
+  "source": "Google"
+ },
+ {
+  "name": "Springdale Park",
+  "latitude": 41.7945952,
+  "longitude": -87.8962504,
+  "rating": 4.5,
+  "review_count": 47,
+  "source": "Google"
+ },
+ {
+  "name": "Davis (Dr. Nathan) Square Park",
+  "latitude": 41.81302,
+  "longitude": -87.6675322,
+  "rating": 4.2,
+  "review_count": 332,
+  "source": "Google"
+ },
+ {
+  "name": "Norfolk Park",
+  "latitude": 41.8650589,
+  "longitude": -87.8716913,
+  "rating": 4.6,
+  "review_count": 5,
+  "source": "Google"
+ },
+ {
+  "name": "Fernwood Park",
+  "latitude": 41.7040448,
+  "longitude": -87.6391087,
+  "rating": 4.3,
+  "review_count": 225,
+  "source": "Google"
+ },
+ {
+  "name": "Stanton (Edwin) Park",
+  "latitude": 41.9058188,
+  "longitude": -87.64576629999999,
+  "rating": 4.4,
+  "review_count": 230,
+  "source": "Google"
+ },
+ {
+  "name": "Moore Park",
+  "latitude": 41.69364160000001,
+  "longitude": -87.7949218,
+  "rating": 4.6,
+  "review_count": 42,
+  "source": "Google"
+ },
+ {
+  "name": "Klein (Lois) Park",
+  "latitude": 41.9462643,
+  "longitude": -87.67352079999999,
+  "rating": 4.5,
+  "review_count": 43,
+  "source": "Google"
+ },
+ {
+  "name": "Pines Park",
+  "latitude": 41.9439827,
+  "longitude": -87.9536385,
+  "rating": 4.7,
+  "review_count": 49,
+  "source": "Google"
+ },
+ {
+  "name": "Lake Shore Park",
+  "latitude": 41.8972649,
+  "longitude": -87.6188676,
+  "rating": 4.6,
+  "review_count": 615,
+  "source": "Google"
+ },
+ {
+  "name": "Eggers Grove",
+  "latitude": 41.6860582,
+  "longitude": -87.5273362,
+  "rating": 4.5,
+  "review_count": 634,
+  "source": "Google"
+ },
+ {
+  "name": "North Pond Natural Area",
+  "latitude": 41.9283341,
+  "longitude": -87.6374096,
+  "rating": 4.6,
+  "review_count": 16,
+  "source": "Google"
+ },
+ {
+  "name": "Prairie View Park",
+  "latitude": 41.67612949999999,
+  "longitude": -87.7261252,
+  "rating": 4.4,
+  "review_count": 30,
+  "source": "Google"
+ },
+ {
+  "name": "Cooper (Jack Leroy) Park",
+  "latitude": 41.6802444,
+  "longitude": -87.6553319,
+  "rating": 4.2,
+  "review_count": 94,
+  "source": "Google"
+ },
+ {
+  "name": "Langley (Ester Gunderson) Park",
+  "latitude": 41.6898396,
+  "longitude": -87.6056223,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Kennedy Park",
+  "latitude": 41.9519723,
+  "longitude": -87.87538149999999,
+  "rating": 4.5,
+  "review_count": 118,
+  "source": "Google"
+ },
+ {
+  "name": "Santa Fe Park",
+  "latitude": 41.7250523,
+  "longitude": -87.90947919999999,
+  "rating": 3,
+  "review_count": 7,
+  "source": "Google"
+ },
+ {
+  "name": "Nichols Park Natural Area",
+  "latitude": 41.7983882,
+  "longitude": -87.5939523,
+  "rating": 4.6,
+  "review_count": 7,
+  "source": "Google"
+ },
+ {
+  "name": "South Lakeview Park",
+  "latitude": 41.9336567,
+  "longitude": -87.66158089999999,
+  "rating": 4.4,
+  "review_count": 88,
+  "source": "Google"
+ },
+ {
+  "name": "Memorial Park",
+  "latitude": 41.7202335,
+  "longitude": -87.8138139,
+  "rating": 3.9,
+  "review_count": 17,
+  "source": "Google"
+ },
+ {
+  "name": "Willow Springs Woods",
+  "latitude": 41.7294575,
+  "longitude": -87.8747244,
+  "rating": 4.7,
+  "review_count": 244,
+  "source": "Google"
+ },
+ {
+  "name": "Stevenson Park",
+  "latitude": 41.7387289,
+  "longitude": -87.77179799999999,
+  "rating": 4.5,
+  "review_count": 107,
+  "source": "Google"
+ },
+ {
+  "name": "Cowboy Park",
+  "latitude": 41.7264821,
+  "longitude": -87.706245,
+  "rating": 4.5,
+  "review_count": 32,
+  "source": "Google"
+ },
+ {
+  "name": "Foster (Frank) Park",
+  "latitude": 41.7409628,
+  "longitude": -87.6600046,
+  "rating": 4.3,
+  "review_count": 435,
+  "source": "Google"
+ },
+ {
+  "name": "Laidlaw Park",
+  "latitude": 41.8142929,
+  "longitude": -87.9075604,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Peterson (Pehr Samuel) Park",
+  "latitude": 41.9881794,
+  "longitude": -87.7203402,
+  "rating": 4.7,
+  "review_count": 307,
+  "source": "Google"
+ },
+ {
+  "name": "Jensen (Daniel) Park",
+  "latitude": 41.9656189,
+  "longitude": -87.721081,
+  "rating": 4.2,
+  "review_count": 83,
+  "source": "Google"
+ },
+ {
+  "name": "Justice Park District",
+  "latitude": 41.7500343,
+  "longitude": -87.84030059999999,
+  "rating": 4.5,
+  "review_count": 120,
+  "source": "Google"
+ },
+ {
+  "name": "Arrigo (Victor) Park",
+  "latitude": 41.8717379,
+  "longitude": -87.66016619999999,
+  "rating": 4.6,
+  "review_count": 530,
+  "source": "Google"
+ },
+ {
+  "name": "One Spot O'Hare Airport Parking",
+  "latitude": 41.9698788,
+  "longitude": -87.8640315,
+  "rating": 3.5,
+  "review_count": 980,
+  "source": "Google"
+ },
+ {
+  "name": "Kosciuszko (Thadeuz) Park",
+  "latitude": 41.9309688,
+  "longitude": -87.7250021,
+  "rating": 4.4,
+  "review_count": 612,
+  "source": "Google"
+ },
+ {
+  "name": "Park No. 573",
+  "latitude": 41.6873011,
+  "longitude": -87.60557949999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Sedgwick Park",
+  "latitude": 41.91557299999999,
+  "longitude": -87.639163,
+  "rating": 4.6,
+  "review_count": 23,
+  "source": "Google"
+ },
+ {
+  "name": "Block Park",
+  "latitude": 41.706575,
+  "longitude": -87.6321394,
+  "rating": 3.9,
+  "review_count": 14,
+  "source": "Google"
+ },
+ {
+  "name": "Holly Park",
+  "latitude": 41.82051269999999,
+  "longitude": -87.6033233,
+  "rating": 4.4,
+  "review_count": 8,
+  "source": "Google"
+ },
+ {
+  "name": "Woodlawn Funeral Home & Memorial Park",
+  "latitude": 41.8507082,
+  "longitude": -87.8218534,
+  "rating": 4.6,
+  "review_count": 172,
+  "source": "Google"
+ },
+ {
+  "name": "Cragin Park",
+  "latitude": 41.9281565,
+  "longitude": -87.75775209999999,
+  "rating": 4.2,
+  "review_count": 208,
+  "source": "Google"
+ },
+ {
+  "name": "LaGrange Park Woods",
+  "latitude": 41.8324211,
+  "longitude": -87.8752282,
+  "rating": 4.5,
+  "review_count": 24,
+  "source": "Google"
+ },
+ {
+  "name": "SEPA Station 4 Waterfall Park",
+  "latitude": 41.6785133,
+  "longitude": -87.7946983,
+  "rating": 4.6,
+  "review_count": 369,
+  "source": "Google"
+ },
+ {
+  "name": "Brookfield Woods",
+  "latitude": 41.8363874,
+  "longitude": -87.8391467,
+  "rating": 4.7,
+  "review_count": 465,
+  "source": "Google"
+ },
+ {
+  "name": "Jackson Park Groves",
+  "latitude": 41.7879868,
+  "longitude": -87.5834791,
+  "rating": 4.4,
+  "review_count": 122,
+  "source": "Google"
+ },
+ {
+  "name": "Hickory Hills Woods Picnic Grove #1",
+  "latitude": 41.7176411,
+  "longitude": -87.8315654,
+  "rating": 3.3,
+  "review_count": 4,
+  "source": "Google"
+ },
+ {
+  "name": "Hurley Park Natural Area",
+  "latitude": 41.7118395,
+  "longitude": -87.6702275,
+  "rating": 5,
+  "review_count": 3,
+  "source": "Google"
+ },
+ {
+  "name": "Ogden (William) Park",
+  "latitude": 41.7749981,
+  "longitude": -87.65684929999999,
+  "rating": 4.1,
+  "review_count": 604,
+  "source": "Google"
+ },
+ {
+  "name": "Millennium Park",
+  "latitude": 41.9129032,
+  "longitude": -87.90261989999999,
+  "rating": 4.5,
+  "review_count": 133,
+  "source": "Google"
+ },
+ {
+  "name": "Robbins Park",
+  "latitude": 41.7950843,
+  "longitude": -87.934774,
+  "rating": 4.5,
+  "review_count": 136,
+  "source": "Google"
+ },
+ {
+  "name": "Sun Yat-Sen Park",
+  "latitude": 41.8481041,
+  "longitude": -87.6338255,
+  "rating": 4.3,
+  "review_count": 67,
+  "source": "Google"
+ },
+ {
+  "name": "Triangle Park",
+  "latitude": 41.9303892,
+  "longitude": -87.81882019999999,
+  "rating": 4.5,
+  "review_count": 88,
+  "source": "Google"
+ },
+ {
+  "name": "Forest Glen Park - Oak Brook Park District",
+  "latitude": 41.857481,
+  "longitude": -87.920153,
+  "rating": 4.3,
+  "review_count": 19,
+  "source": "Google"
+ },
+ {
+  "name": "Goudy (William) Square Park",
+  "latitude": 41.905567,
+  "longitude": -87.6268213,
+  "rating": 4.7,
+  "review_count": 125,
+  "source": "Google"
+ },
+ {
+  "name": "Miller Meadow Model Airplane Flying Field",
+  "latitude": 41.8514851,
+  "longitude": -87.8311119,
+  "rating": 4.9,
+  "review_count": 16,
+  "source": "Google"
+ },
+ {
+  "name": "Minuteman Park",
+  "latitude": 41.7852651,
+  "longitude": -87.76375379999999,
+  "rating": 4.3,
+  "review_count": 107,
+  "source": "Google"
+ },
+ {
+  "name": "Maple Lake",
+  "latitude": 41.7130149,
+  "longitude": -87.8938797,
+  "rating": 4.8,
+  "review_count": 190,
+  "source": "Google"
+ },
+ {
+  "name": "Healing Waters Park",
+  "latitude": 41.7355512,
+  "longitude": -87.8906217,
+  "rating": 4.5,
+  "review_count": 18,
+  "source": "Google"
+ },
+ {
+  "name": "McClaughry Springs Woods Parking Lot",
+  "latitude": 41.6770198,
+  "longitude": -87.8445594,
+  "rating": 4.9,
+  "review_count": 7,
+  "source": "Google"
+ },
+ {
+  "name": "Jackie Robinson Park",
+  "latitude": 41.7008834,
+  "longitude": -87.64793910000002,
+  "rating": 4.5,
+  "review_count": 271,
+  "source": "Google"
+ },
+ {
+  "name": "Park No. 582",
+  "latitude": 41.7266401,
+  "longitude": -87.6667997,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Stout (Florence) Park",
+  "latitude": 41.7966419,
+  "longitude": -87.6003528,
+  "rating": 4.6,
+  "review_count": 45,
+  "source": "Google"
+ },
+ {
+  "name": "Robichaux (Joseph) Park",
+  "latitude": 41.7255574,
+  "longitude": -87.6341123,
+  "rating": 4.3,
+  "review_count": 108,
+  "source": "Google"
+ },
+ {
+  "name": "Blackhawk Park",
+  "latitude": 41.9229137,
+  "longitude": -87.7523626,
+  "rating": 4.3,
+  "review_count": 375,
+  "source": "Google"
+ },
+ {
+  "name": "Thuis (Grace Zwiefka) Park",
+  "latitude": 41.9676965,
+  "longitude": -87.75189569999999,
+  "rating": 4.4,
+  "review_count": 46,
+  "source": "Google"
+ },
+ {
+  "name": "Schiller Park \"Bark\" Park",
+  "latitude": 41.9635405,
+  "longitude": -87.87074109999999,
+  "rating": 4.3,
+  "review_count": 87,
+  "source": "Google"
+ },
+ {
+  "name": "Martin (Johnny) Park",
+  "latitude": 41.9391688,
+  "longitude": -87.65267949999999,
+  "rating": 4.5,
+  "review_count": 11,
+  "source": "Google"
+ },
+ {
+  "name": "Clarendon Community Center Park",
+  "latitude": 41.9633603,
+  "longitude": -87.6486024,
+  "rating": 4.4,
+  "review_count": 382,
+  "source": "Google"
+ },
+ {
+  "name": "Fellger (Charles) Park",
+  "latitude": 41.939831,
+  "longitude": -87.6789309,
+  "rating": 4.5,
+  "review_count": 172,
+  "source": "Google"
+ },
+ {
+  "name": "Chicago Park 584",
+  "latitude": 41.678251,
+  "longitude": -87.626474,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Irving Park Cemetery",
+  "latitude": 41.9520451,
+  "longitude": -87.8220503,
+  "rating": 4.7,
+  "review_count": 97,
+  "source": "Google"
+ },
+ {
+  "name": "Schubert Park",
+  "latitude": 41.7279861,
+  "longitude": -87.767675,
+  "rating": 4.7,
+  "review_count": 23,
+  "source": "Google"
+ },
+ {
+  "name": "Brooks (Gwendolyn) Park",
+  "latitude": 41.81179969999999,
+  "longitude": -87.59981359999999,
+  "rating": 4.5,
+  "review_count": 73,
+  "source": "Google"
+ },
+ {
+  "name": "Monument Park",
+  "latitude": 41.9912189,
+  "longitude": -87.8595957,
+  "rating": 4.4,
+  "review_count": 33,
+  "source": "Google"
+ },
+ {
+  "name": "Steelworkers Park",
+  "latitude": 41.7374534,
+  "longitude": -87.5301415,
+  "rating": 4.6,
+  "review_count": 527,
+  "source": "Google"
+ },
+ {
+  "name": "Hart Park",
+  "latitude": 41.6691485,
+  "longitude": -87.67937839999999,
+  "rating": 4.2,
+  "review_count": 68,
+  "source": "Google"
+ },
+ {
+  "name": "Willow Springs Dog Park",
+  "latitude": 41.7376266,
+  "longitude": -87.8690649,
+  "rating": 4.4,
+  "review_count": 16,
+  "source": "Google"
+ },
+ {
+  "name": "Schroeder Park",
+  "latitude": 41.8564691,
+  "longitude": -87.8497574,
+  "rating": 4.4,
+  "review_count": 103,
+  "source": "Google"
+ },
+ {
+  "name": "Eaton Field Park",
+  "latitude": 41.9990524,
+  "longitude": -87.8703039,
+  "rating": 4,
+  "review_count": 4,
+  "source": "Google"
+ },
+ {
+  "name": "Fullerton Woods Family Picnic Area",
+  "latitude": 41.9205529,
+  "longitude": -87.8387656,
+  "rating": 4.5,
+  "review_count": 311,
+  "source": "Google"
+ },
+ {
+  "name": "Eldridge Park East field",
+  "latitude": 41.8673932,
+  "longitude": -87.9494204,
+  "rating": 4.7,
+  "review_count": 43,
+  "source": "Google"
+ },
+ {
+  "name": "Chicago Ridge Park District",
+  "latitude": 41.7032941,
+  "longitude": -87.7765601,
+  "rating": 5,
+  "review_count": 9,
+  "source": "Google"
+ },
+ {
+  "name": "The Prairie Park",
+  "latitude": 41.6808095,
+  "longitude": -87.6781513,
+  "rating": 4.4,
+  "review_count": 9,
+  "source": "Google"
+ },
+ {
+  "name": "Robinson Woods-South",
+  "latitude": 41.9650427,
+  "longitude": -87.8532994,
+  "rating": 4.6,
+  "review_count": 90,
+  "source": "Google"
+ },
+ {
+  "name": "Aster Park",
+  "latitude": 41.9666183,
+  "longitude": -87.65592800000002,
+  "rating": 3.2,
+  "review_count": 21,
+  "source": "Google"
+ },
+ {
+  "name": "Freedom Park",
+  "latitude": 41.7027674,
+  "longitude": -87.774181,
+  "rating": 4.5,
+  "review_count": 169,
+  "source": "Google"
+ },
+ {
+  "name": "Jefferson (Thomas) Memorial Park",
+  "latitude": 41.9684969,
+  "longitude": -87.7636813,
+  "rating": 4.4,
+  "review_count": 337,
+  "source": "Google"
+ },
+ {
+  "name": "Hanesworth Park",
+  "latitude": 41.8412592,
+  "longitude": -87.8663304,
+  "rating": 4.6,
+  "review_count": 44,
+  "source": "Google"
+ },
+ {
+  "name": "Burbank Park District Water Park (Seasonal)",
+  "latitude": 41.7381495,
+  "longitude": -87.77074189999999,
+  "rating": 4.3,
+  "review_count": 325,
+  "source": "Google"
+ },
+ {
+  "name": "Bixler (Ray) Park",
+  "latitude": 41.7916217,
+  "longitude": -87.5929518,
+  "rating": 4.6,
+  "review_count": 92,
+  "source": "Google"
+ },
+ {
+  "name": "Poplar Park",
+  "latitude": 41.8205528,
+  "longitude": -87.62030419999999,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Pietrowski (Sylvester) Park",
+  "latitude": 41.7197574,
+  "longitude": -87.5380228,
+  "rating": 4.4,
+  "review_count": 21,
+  "source": "Google"
+ },
+ {
+  "name": "Coliseum Park",
+  "latitude": 41.862219,
+  "longitude": -87.6260532,
+  "rating": 4.3,
+  "review_count": 144,
+  "source": "Google"
+ },
+ {
+  "name": "Shabbona Park",
+  "latitude": 41.9427387,
+  "longitude": -87.80016069999999,
+  "rating": 4.4,
+  "review_count": 557,
+  "source": "Google"
+ },
+ {
+  "name": "Palos Park Woods-South",
+  "latitude": 41.6754815,
+  "longitude": -87.8386415,
+  "rating": 4.9,
+  "review_count": 48,
+  "source": "Google"
+ },
+ {
+  "name": "Throop Park",
+  "latitude": 41.8573424,
+  "longitude": -87.6585435,
+  "rating": 4.4,
+  "review_count": 40,
+  "source": "Google"
+ },
+ {
+  "name": "Wenonah Park",
+  "latitude": 41.8736451,
+  "longitude": -87.8006416,
+  "rating": 4.7,
+  "review_count": 20,
+  "source": "Google"
+ },
+ {
+  "name": "Williams-Davis (Hattie Kay, Izora) Park",
+  "latitude": 41.82025670000001,
+  "longitude": -87.5994765,
+  "rating": 4.6,
+  "review_count": 169,
+  "source": "Google"
+ },
+ {
+  "name": "Family Park",
+  "latitude": 41.8509441,
+  "longitude": -87.71764329999999,
+  "rating": 5,
+  "review_count": 6,
+  "source": "Google"
+ },
+ {
+  "name": "Gilbert Park",
+  "latitude": 41.8137224,
+  "longitude": -87.88841819999999,
+  "rating": 4.5,
+  "review_count": 51,
+  "source": "Google"
+ },
+ {
+  "name": "Park #598",
+  "latitude": 41.909635,
+  "longitude": -87.643889,
+  "rating": 3.9,
+  "review_count": 18,
+  "source": "Google"
+ },
+ {
+  "name": "Cosme (Margaret) Park",
+  "latitude": 41.727641,
+  "longitude": -87.6679255,
+  "rating": 4.9,
+  "review_count": 13,
+  "source": "Google"
+ },
+ {
+  "name": "Westdale Park",
+  "latitude": 41.9339993,
+  "longitude": -87.9069313,
+  "rating": 4.4,
+  "review_count": 71,
+  "source": "Google"
+ },
+ {
+  "name": "Vogle (Henry Jr.) Park",
+  "latitude": 41.9689112,
+  "longitude": -87.68176629999999,
+  "rating": 4.6,
+  "review_count": 45,
+  "source": "Google"
+ },
+ {
+  "name": "Fernwood Parkway Park",
+  "latitude": 41.7141625,
+  "longitude": -87.6335751,
+  "rating": 4,
+  "review_count": 31,
+  "source": "Google"
+ },
+ {
+  "name": "Douglass (Anna & Frederick) Park",
+  "latitude": 41.8622696,
+  "longitude": -87.69948389999999,
+  "rating": 4.3,
+  "review_count": 741,
+  "source": "Google"
+ },
+ {
+  "name": "Pleasant Point Park",
+  "latitude": 41.9982335,
+  "longitude": -87.797634,
+  "rating": 4.6,
+  "review_count": 58,
+  "source": "Google"
+ },
+ {
+  "name": "Oak Lawn Park District",
+  "latitude": 41.7055733,
+  "longitude": -87.765272,
+  "rating": 4.4,
+  "review_count": 11,
+  "source": "Google"
+ },
+ {
+  "name": "Merrimac Park",
+  "latitude": 41.9518746,
+  "longitude": -87.78525700000002,
+  "rating": 4.5,
+  "review_count": 319,
+  "source": "Google"
+ },
+ {
+  "name": "Hayes (Francis) Park",
+  "latitude": 41.7404584,
+  "longitude": -87.6969091,
+  "rating": 4.3,
+  "review_count": 302,
+  "source": "Google"
+ },
+ {
+  "name": "Buffalo Park",
+  "latitude": 41.9632508,
+  "longitude": -87.69832699999999,
+  "rating": 4,
+  "review_count": 40,
+  "source": "Google"
+ },
+ {
+  "name": "Memorial Park",
+  "latitude": 41.8249157,
+  "longitude": -87.8696768,
+  "rating": 4.6,
+  "review_count": 155,
+  "source": "Google"
+ },
+ {
+  "name": "Schiller Park",
+  "latitude": 41.9516923,
+  "longitude": -87.8576964,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Marian R. Byrnes Park",
+  "latitude": 41.70990219999999,
+  "longitude": -87.5723519,
+  "rating": 4.9,
+  "review_count": 7,
+  "source": "Google"
+ },
+ {
+  "name": "Denning Park",
+  "latitude": 41.8011479,
+  "longitude": -87.88845740000001,
+  "rating": 4.7,
+  "review_count": 51,
+  "source": "Google"
+ },
+ {
+  "name": "Little Venice Park",
+  "latitude": 41.8015126,
+  "longitude": -87.6813811,
+  "rating": 4.3,
+  "review_count": 46,
+  "source": "Google"
+ },
+ {
+  "name": "Kenmore Park",
+  "latitude": 41.9393037,
+  "longitude": -87.6550371,
+  "rating": 4.2,
+  "review_count": 19,
+  "source": "Google"
+ },
+ {
+  "name": "Camp Bullfrog Lake",
+  "latitude": 41.709525,
+  "longitude": -87.903339,
+  "rating": 4.5,
+  "review_count": 1046,
+  "source": "Google"
+ },
+ {
+  "name": "Palos Park Woods-North",
+  "latitude": 41.6803548,
+  "longitude": -87.8428804,
+  "rating": 4.7,
+  "review_count": 304,
+  "source": "Google"
+ },
+ {
+  "name": "Holmes Park",
+  "latitude": 41.855842,
+  "longitude": -87.75236699999999,
+  "rating": 4.1,
+  "review_count": 40,
+  "source": "Google"
+ },
+ {
+  "name": "LaPointe Park",
+  "latitude": 41.9678145,
+  "longitude": -87.70247239999999,
+  "rating": 3.7,
+  "review_count": 3,
+  "source": "Google"
+ },
+ {
+  "name": "Northerly Island Park",
+  "latitude": 41.8595761,
+  "longitude": -87.60837529999999,
+  "rating": 4.7,
+  "review_count": 1792,
+  "source": "Google"
+ },
+ {
+  "name": "Freedom Park",
+  "latitude": 41.8243487,
+  "longitude": -87.7864135,
+  "rating": 4.5,
+  "review_count": 133,
+  "source": "Google"
+ },
+ {
+  "name": "Seminole Park",
+  "latitude": 41.9983116,
+  "longitude": -87.87568809999999,
+  "rating": 4.5,
+  "review_count": 83,
+  "source": "Google"
+ },
+ {
+  "name": "Columbus Manor Park",
+  "latitude": 41.7111871,
+  "longitude": -87.7725998,
+  "rating": 4.6,
+  "review_count": 157,
+  "source": "Google"
+ },
+ {
+  "name": "Gill (Joseph) Park",
+  "latitude": 41.9522751,
+  "longitude": -87.65052229999999,
+  "rating": 4.4,
+  "review_count": 209,
+  "source": "Google"
+ },
+ {
+  "name": "Mt. Greenwood Park",
+  "latitude": 41.6895584,
+  "longitude": -87.7136513,
+  "rating": 4.5,
+  "review_count": 478,
+  "source": "Google"
+ },
+ {
+  "name": "Morrill Meadow",
+  "latitude": 41.6955632,
+  "longitude": -87.85792339999999,
+  "rating": 4.6,
+  "review_count": 108,
+  "source": "Google"
+ },
+ {
+  "name": "Oak Meadows Park",
+  "latitude": 41.7124134,
+  "longitude": -87.7474055,
+  "rating": 4.6,
+  "review_count": 55,
+  "source": "Google"
+ },
+ {
+  "name": "Weisman Park",
+  "latitude": 41.9351638,
+  "longitude": -87.6517822,
+  "rating": 4.6,
+  "review_count": 116,
+  "source": "Google"
+ },
+ {
+  "name": "Buffalo Woods",
+  "latitude": 41.7381617,
+  "longitude": -87.85252,
+  "rating": 4.4,
+  "review_count": 176,
+  "source": "Google"
+ },
+ {
+  "name": "Jonquil Park",
+  "latitude": 41.92847889999999,
+  "longitude": -87.6545678,
+  "rating": 4.6,
+  "review_count": 355,
+  "source": "Google"
+ },
+ {
+  "name": "Austin Foster Park",
+  "latitude": 41.9764815,
+  "longitude": -87.7788758,
+  "rating": 4.5,
+  "review_count": 313,
+  "source": "Google"
+ },
+ {
+  "name": "Merrill (George) Park",
+  "latitude": 41.7196311,
+  "longitude": -87.57224579999999,
+  "rating": 3.1,
+  "review_count": 42,
+  "source": "Google"
+ },
+ {
+  "name": "Juniper Park",
+  "latitude": 41.9486357,
+  "longitude": -87.6667573,
+  "rating": 4.6,
+  "review_count": 122,
+  "source": "Google"
+ },
+ {
+  "name": "Lieb Park",
+  "latitude": 41.7252903,
+  "longitude": -87.7913789,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Butternut Park",
+  "latitude": 41.7987118,
+  "longitude": -87.5971218,
+  "rating": 4.7,
+  "review_count": 21,
+  "source": "Google"
+ },
+ {
+  "name": "Evergreen Park",
+  "latitude": 41.7170208,
+  "longitude": -87.70661,
+  "rating": 4.4,
+  "review_count": 108,
+  "source": "Google"
+ },
+ {
+  "name": "Harvester Park",
+  "latitude": 41.7589799,
+  "longitude": -87.92688849999999,
+  "rating": 4.8,
+  "review_count": 674,
+  "source": "Google"
+ },
+ {
+  "name": "Park 597 \"SEPA Station #1 Natural Area\"",
+  "latitude": 41.6691032,
+  "longitude": -87.56222140000001,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Lewandowski Park",
+  "latitude": 41.7326741,
+  "longitude": -87.7445268,
+  "rating": 4.6,
+  "review_count": 14,
+  "source": "Google"
+ },
+ {
+  "name": "Keeler (Cyrus) Park",
+  "latitude": 41.864826,
+  "longitude": -87.729683,
+  "rating": 4,
+  "review_count": 6,
+  "source": "Google"
+ },
+ {
+  "name": "Chopin (Frederic) Park",
+  "latitude": 41.943051,
+  "longitude": -87.7631735,
+  "rating": 4.4,
+  "review_count": 362,
+  "source": "Google"
+ },
+ {
+  "name": "Park No. 593",
+  "latitude": 41.9638881,
+  "longitude": -87.7317867,
+  "rating": 3.4,
+  "review_count": 8,
+  "source": "Google"
+ },
+ {
+  "name": "Loyola Park Natural Area",
+  "latitude": 42.0066275,
+  "longitude": -87.65641169999999,
+  "rating": 4.9,
+  "review_count": 19,
+  "source": "Google"
+ },
+ {
+  "name": "Langley Park Dog Park & Walking Path",
+  "latitude": 41.690098,
+  "longitude": -87.60556009999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "DeBow (Russell) Park",
+  "latitude": 41.7497639,
+  "longitude": -87.59634419999999,
+  "rating": 4.4,
+  "review_count": 5,
+  "source": "Google"
+ },
+ {
+  "name": "John Wentworth Gardens Park",
+  "latitude": 41.8254254,
+  "longitude": -87.6320999,
+  "rating": 3.9,
+  "review_count": 49,
+  "source": "Google"
+ },
+ {
+  "name": "Kelly (Edward) Park",
+  "latitude": 41.8185303,
+  "longitude": -87.6932214,
+  "rating": 4.3,
+  "review_count": 375,
+  "source": "Google"
+ },
+ {
+  "name": "Bronzeville Dog Park #591",
+  "latitude": 41.8247039,
+  "longitude": -87.604103,
+  "rating": 4.8,
+  "review_count": 17,
+  "source": "Google"
+ },
+ {
+  "name": "Timberlake Park",
+  "latitude": 41.7303812,
+  "longitude": -87.9517004,
+  "rating": 4.5,
+  "review_count": 102,
+  "source": "Google"
+ },
+ {
+  "name": "Cole (Nat King) Park",
+  "latitude": 41.7391871,
+  "longitude": -87.6153444,
+  "rating": 4.3,
+  "review_count": 399,
+  "source": "Google"
+ },
+ {
+  "name": "Owens (Jesse) Park",
+  "latitude": 41.7353526,
+  "longitude": -87.5745427,
+  "rating": 4.4,
+  "review_count": 368,
+  "source": "Google"
+ },
+ {
+  "name": "Cap Sauers Holding Nature Preserve",
+  "latitude": 41.6766061,
+  "longitude": -87.8893097,
+  "rating": 4.6,
+  "review_count": 210,
+  "source": "Google"
+ },
+ {
+  "name": "Portage Park",
+  "latitude": 41.9555624,
+  "longitude": -87.76482329999999,
+  "rating": 4.6,
+  "review_count": 715,
+  "source": "Google"
+ },
+ {
+  "name": "50-Acre Park",
+  "latitude": 41.7278084,
+  "longitude": -87.6894533,
+  "rating": 4.7,
+  "review_count": 339,
+  "source": "Google"
+ },
+ {
+  "name": "Morgan Point Beach",
+  "latitude": 41.8115187,
+  "longitude": -87.587578,
+  "rating": 4.2,
+  "review_count": 5,
+  "source": "Google"
+ },
+ {
+  "name": "Crestview Park",
+  "latitude": 41.9173777,
+  "longitude": -87.93324799999999,
+  "rating": 4.4,
+  "review_count": 106,
+  "source": "Google"
+ },
+ {
+  "name": "Russell Square Park",
+  "latitude": 41.7439289,
+  "longitude": -87.5487081,
+  "rating": 4.3,
+  "review_count": 24,
+  "source": "Google"
+ },
+ {
+  "name": "Grape Park",
+  "latitude": 41.933462,
+  "longitude": -87.6993315,
+  "rating": 4.5,
+  "review_count": 11,
+  "source": "Google"
+ },
+ {
+  "name": "Circle Park",
+  "latitude": 41.6914168,
+  "longitude": -87.6088046,
+  "rating": 4.6,
+  "review_count": 57,
+  "source": "Google"
+ },
+ {
+  "name": "Gooseberry Park",
+  "latitude": 41.966724,
+  "longitude": -87.66300100000001,
+  "rating": 4.6,
+  "review_count": 28,
+  "source": "Google"
+ },
+ {
+  "name": "Madison Park",
+  "latitude": 41.8176435,
+  "longitude": -87.85355729999999,
+  "rating": 5,
+  "review_count": 3,
+  "source": "Google"
+ },
+ {
+  "name": "Chicago Ridge Park District",
+  "latitude": 41.7132789,
+  "longitude": -87.7929805,
+  "rating": 4.3,
+  "review_count": 57,
+  "source": "Google"
+ },
+ {
+  "name": "Schiller Woods-East",
+  "latitude": 41.9528758,
+  "longitude": -87.8439331,
+  "rating": 4.7,
+  "review_count": 474,
+  "source": "Google"
+ },
+ {
+  "name": "Homerding Park",
+  "latitude": 41.6800307,
+  "longitude": -87.7895523,
+  "rating": 4.6,
+  "review_count": 92,
+  "source": "Google"
+ },
+ {
+  "name": "Jacolik (Florian S.) Park",
+  "latitude": 41.8437663,
+  "longitude": -87.6611188,
+  "rating": 4.4,
+  "review_count": 34,
+  "source": "Google"
+ },
+ {
+  "name": "Cornell (Paul) Park",
+  "latitude": 41.7959912,
+  "longitude": -87.5850698,
+  "rating": 4.4,
+  "review_count": 26,
+  "source": "Google"
+ },
+ {
+  "name": "Carmen Park",
+  "latitude": 41.97486000000001,
+  "longitude": -87.660885,
+  "rating": 4.5,
+  "review_count": 14,
+  "source": "Google"
+ },
+ {
+  "name": "Wolfe (Richard) Park",
+  "latitude": 41.6982163,
+  "longitude": -87.5431298,
+  "rating": 4.2,
+  "review_count": 72,
+  "source": "Google"
+ },
+ {
+  "name": "Douglass (Anna and Frederick) Park",
+  "latitude": 41.8577355,
+  "longitude": -87.69836830000001,
+  "rating": 4.3,
+  "review_count": 968,
+  "source": "Google"
+ },
+ {
+  "name": "Crawdad Slough",
+  "latitude": 41.7152148,
+  "longitude": -87.8752277,
+  "rating": 4.4,
+  "review_count": 13,
+  "source": "Google"
+ },
+ {
+  "name": "Unity Park",
+  "latitude": 41.9299083,
+  "longitude": -87.7126041,
+  "rating": 4.6,
+  "review_count": 375,
+  "source": "Google"
+ },
+ {
+  "name": "Phillips Park",
+  "latitude": 41.730808,
+  "longitude": -87.7549679,
+  "rating": 4.6,
+  "review_count": 36,
+  "source": "Google"
+ },
+ {
+  "name": "Playfield Park",
+  "latitude": 41.6604567,
+  "longitude": -87.75296,
+  "rating": 4.6,
+  "review_count": 118,
+  "source": "Google"
+ },
+ {
+  "name": "Birch Park",
+  "latitude": 41.8127725,
+  "longitude": -87.61524759999999,
+  "rating": 4.8,
+  "review_count": 5,
+  "source": "Google"
+ },
+ {
+  "name": "Francis Toby Anderson Park",
+  "latitude": 41.7278752,
+  "longitude": -87.7308535,
+  "rating": 4.6,
+  "review_count": 150,
+  "source": "Google"
+ },
+ {
+  "name": "Janura Park",
+  "latitude": 41.8391061,
+  "longitude": -87.7897868,
+  "rating": 4.4,
+  "review_count": 229,
+  "source": "Google"
+ },
+ {
+  "name": "Burnham (Daniel) Park",
+  "latitude": 41.8253531,
+  "longitude": -87.59858559999999,
+  "rating": 4.6,
+  "review_count": 4050,
+  "source": "Google"
+ },
+ {
+  "name": "Iceland Park",
+  "latitude": 41.9454465,
+  "longitude": -87.8700891,
+  "rating": 4,
+  "review_count": 8,
+  "source": "Google"
+ },
+ {
+  "name": "Cal Sag Trail Access Point",
+  "latitude": 41.6767985,
+  "longitude": -87.7970819,
+  "rating": 4.4,
+  "review_count": 14,
+  "source": "Google"
+ },
+ {
+  "name": "Jaycee Park",
+  "latitude": 41.9910179,
+  "longitude": -87.8259527,
+  "rating": 4.5,
+  "review_count": 92,
+  "source": "Google"
+ },
+ {
+  "name": "Norwood Park",
+  "latitude": 41.9865715,
+  "longitude": -87.79268970000001,
+  "rating": 4.7,
+  "review_count": 112,
+  "source": "Google"
+ },
+ {
+  "name": "Washtenaw Park",
+  "latitude": 41.8458344,
+  "longitude": -87.6921996,
+  "rating": 4.2,
+  "review_count": 42,
+  "source": "Google"
+ },
+ {
+  "name": "Riis Park",
+  "latitude": 41.9255725,
+  "longitude": -87.78139259999999,
+  "rating": 4.5,
+  "review_count": 689,
+  "source": "Google"
+ },
+ {
+  "name": "Palos Heights Community Park",
+  "latitude": 41.672194,
+  "longitude": -87.8084769,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Barnes Park",
+  "latitude": 41.6786349,
+  "longitude": -87.73006260000001,
+  "rating": 4.7,
+  "review_count": 14,
+  "source": "Google"
+ },
+ {
+  "name": "Yukich Field",
+  "latitude": 41.73157090000001,
+  "longitude": -87.7028401,
+  "rating": 4.6,
+  "review_count": 570,
+  "source": "Google"
+ },
+ {
+  "name": "Blythe Park",
+  "latitude": 41.8358301,
+  "longitude": -87.8086055,
+  "rating": 4.5,
+  "review_count": 13,
+  "source": "Google"
+ },
+ {
+  "name": "Martin Park",
+  "latitude": 41.7279436,
+  "longitude": -87.81415160000002,
+  "rating": 4.6,
+  "review_count": 28,
+  "source": "Google"
+ },
+ {
+  "name": "Ridgewood Park",
+  "latitude": 41.7872087,
+  "longitude": -87.9011598,
+  "rating": 4.4,
+  "review_count": 31,
+  "source": "Google"
+ },
+ {
+  "name": "Peaks Park",
+  "latitude": 41.6967919,
+  "longitude": -87.7870932,
+  "rating": 4.2,
+  "review_count": 189,
+  "source": "Google"
+ },
+ {
+  "name": "Penny Park",
+  "latitude": 41.6807234,
+  "longitude": -87.7850952,
+  "rating": 4.1,
+  "review_count": 18,
+  "source": "Google"
+ },
+ {
+  "name": "Drury Lane Park",
+  "latitude": 41.8602625,
+  "longitude": -87.8684097,
+  "rating": 3.5,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Veteran\u2019s Memorial Park",
+  "latitude": 41.7098792,
+  "longitude": -87.52112489999999,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Lucas Berg Nature Preserve.",
+  "latitude": 41.6892218,
+  "longitude": -87.80345439999999,
+  "rating": 4.7,
+  "review_count": 14,
+  "source": "Google"
+ },
+ {
+  "name": "Cicero's Park",
+  "latitude": 41.8359453,
+  "longitude": -87.75229449999999,
+  "rating": 4.2,
+  "review_count": 35,
+  "source": "Google"
+ },
+ {
+  "name": "Bullfrog Lake",
+  "latitude": 41.7100254,
+  "longitude": -87.89947990000002,
+  "rating": 4.6,
+  "review_count": 292,
+  "source": "Google"
+ },
+ {
+  "name": "Archer (William Beatty) Park",
+  "latitude": 41.8045458,
+  "longitude": -87.7347903,
+  "rating": 4.4,
+  "review_count": 448,
+  "source": "Google"
+ },
+ {
+  "name": "Coleman (Bessie) Park",
+  "latitude": 41.79639359999999,
+  "longitude": -87.60353169999999,
+  "rating": 4.4,
+  "review_count": 53,
+  "source": "Google"
+ },
+ {
+  "name": "Ginkgo Park",
+  "latitude": 41.86093959999999,
+  "longitude": -87.71188529999999,
+  "rating": 4,
+  "review_count": 4,
+  "source": "Google"
+ },
+ {
+  "name": "Lowe (Samuel) Park",
+  "latitude": 41.7988199,
+  "longitude": -87.64096359999999,
+  "rating": 3.9,
+  "review_count": 44,
+  "source": "Google"
+ },
+ {
+  "name": "Pioneer Woods",
+  "latitude": 41.6971843,
+  "longitude": -87.8699563,
+  "rating": 4.6,
+  "review_count": 171,
+  "source": "Google"
+ },
+ {
+  "name": "De Julio (Anthony, Jr.) Park",
+  "latitude": 41.9908198,
+  "longitude": -87.7535912,
+  "rating": 4.7,
+  "review_count": 13,
+  "source": "Google"
+ },
+ {
+  "name": "Mulberry Point Park",
+  "latitude": 41.9880579,
+  "longitude": -87.80278129999999,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Montrose Dog Park",
+  "latitude": 41.9682922,
+  "longitude": -87.64301689999999,
+  "rating": 4.7,
+  "review_count": 1736,
+  "source": "Google"
+ },
+ {
+  "name": "Hamlin Park",
+  "latitude": 41.9366872,
+  "longitude": -87.6794228,
+  "rating": 4.5,
+  "review_count": 544,
+  "source": "Google"
+ },
+ {
+  "name": "Clover Park",
+  "latitude": 41.9220978,
+  "longitude": -87.663467,
+  "rating": 4.6,
+  "review_count": 39,
+  "source": "Google"
+ },
+ {
+  "name": "Spruce Street Park",
+  "latitude": 41.9259357,
+  "longitude": -87.8487731,
+  "rating": 4.3,
+  "review_count": 8,
+  "source": "Google"
+ },
+ {
+  "name": "Pine Playlot Park",
+  "latitude": 41.7222825,
+  "longitude": -87.5655848,
+  "rating": 4.4,
+  "review_count": 9,
+  "source": "Google"
+ },
+ {
+  "name": "Western Springs Park District",
+  "latitude": 41.8077671,
+  "longitude": -87.9050341,
+  "rating": 4.6,
+  "review_count": 74,
+  "source": "Google"
+ },
+ {
+  "name": "Seward (William) Park",
+  "latitude": 41.9031934,
+  "longitude": -87.6383149,
+  "rating": 4.3,
+  "review_count": 498,
+  "source": "Google"
+ },
+ {
+  "name": "Margaret Hie Ding Lin Park",
+  "latitude": 41.8580324,
+  "longitude": -87.6268288,
+  "rating": 4.7,
+  "review_count": 30,
+  "source": "Google"
+ },
+ {
+  "name": "Gordon Park",
+  "latitude": 41.8189055,
+  "longitude": -87.8663304,
+  "rating": 4.5,
+  "review_count": 311,
+  "source": "Google"
+ },
+ {
+  "name": "Mark Twain Park",
+  "latitude": 41.8610693,
+  "longitude": -87.6207562,
+  "rating": 4.5,
+  "review_count": 85,
+  "source": "Google"
+ },
+ {
+  "name": "Dean Nature Sanctuary - Oak Brook Park District",
+  "latitude": 41.82865779999999,
+  "longitude": -87.9211859,
+  "rating": 4.6,
+  "review_count": 137,
+  "source": "Google"
+ },
+ {
+  "name": "Pulaski Woods South",
+  "latitude": 41.7068966,
+  "longitude": -87.8947838,
+  "rating": 4.9,
+  "review_count": 8,
+  "source": "Google"
+ },
+ {
+  "name": "Sumac Park",
+  "latitude": 41.8183495,
+  "longitude": -87.6098397,
+  "rating": 4.6,
+  "review_count": 14,
+  "source": "Google"
+ },
+ {
+  "name": "Harker Park",
+  "latitude": 41.7032694,
+  "longitude": -87.7529407,
+  "rating": 4.6,
+  "review_count": 22,
+  "source": "Google"
+ },
+ {
+  "name": "McKinley (William) Park",
+  "latitude": 41.8250196,
+  "longitude": -87.6801709,
+  "rating": 4.6,
+  "review_count": 1667,
+  "source": "Google"
+ },
+ {
+  "name": "Worthbrook Park",
+  "latitude": 41.7300861,
+  "longitude": -87.77810439999999,
+  "rating": 4.5,
+  "review_count": 232,
+  "source": "Google"
+ },
+ {
+  "name": "Hammond Lakefront Park and Bird Sanctuary",
+  "latitude": 41.6996315,
+  "longitude": -87.5145991,
+  "rating": 4.4,
+  "review_count": 58,
+  "source": "Google"
+ },
+ {
+  "name": "Bennett Park",
+  "latitude": 41.6960536,
+  "longitude": -87.8125365,
+  "rating": 4.6,
+  "review_count": 50,
+  "source": "Google"
+ },
+ {
+  "name": "Miami Park",
+  "latitude": 41.8408633,
+  "longitude": -87.7113159,
+  "rating": 4.1,
+  "review_count": 59,
+  "source": "Google"
+ },
+ {
+  "name": "Nichols Park South Fountain",
+  "latitude": 41.7953653,
+  "longitude": -87.5944622,
+  "rating": 4.5,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Jacob Playlot Park",
+  "latitude": 41.9666175,
+  "longitude": -87.6983358,
+  "rating": 4.7,
+  "review_count": 56,
+  "source": "Google"
+ },
+ {
+  "name": "Memorial Park",
+  "latitude": 41.70590869999999,
+  "longitude": -87.7636486,
+  "rating": 4.6,
+  "review_count": 694,
+  "source": "Google"
+ },
+ {
+  "name": "Stars & Stripes Park",
+  "latitude": 41.7990487,
+  "longitude": -87.7974256,
+  "rating": 4.6,
+  "review_count": 61,
+  "source": "Google"
+ },
+ {
+  "name": "Lucy Ella Gonzales Parsons Park",
+  "latitude": 41.9389948,
+  "longitude": -87.7445249,
+  "rating": 4,
+  "review_count": 35,
+  "source": "Google"
+ },
+ {
+  "name": "Mellin (Curtis, Sr.) Park",
+  "latitude": 41.9831527,
+  "longitude": -87.6694677,
+  "rating": 4.3,
+  "review_count": 3,
+  "source": "Google"
+ },
+ {
+  "name": "Bessemer Park Nature Garden",
+  "latitude": 41.7333189,
+  "longitude": -87.5589821,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Welles (Gideon) Park",
+  "latitude": 41.962396,
+  "longitude": -87.6863017,
+  "rating": 4.6,
+  "review_count": 1156,
+  "source": "Google"
+ },
+ {
+  "name": "Mann (James) Park",
+  "latitude": 41.657262,
+  "longitude": -87.5506832,
+  "rating": 4.4,
+  "review_count": 299,
+  "source": "Google"
+ },
+ {
+  "name": "Wieboldt (William) Park",
+  "latitude": 41.9366762,
+  "longitude": -87.67298439999999,
+  "rating": 4.7,
+  "review_count": 41,
+  "source": "Google"
+ },
+ {
+  "name": "Reyes (Guadalupe) Park",
+  "latitude": 41.856489,
+  "longitude": -87.6476945,
+  "rating": 4.4,
+  "review_count": 60,
+  "source": "Google"
+ },
+ {
+  "name": "Bergman Slough Land & Water Reserve",
+  "latitude": 41.6703664,
+  "longitude": -87.9006488,
+  "rating": 4.5,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Apollo Park",
+  "latitude": 41.664811,
+  "longitude": -87.7269544,
+  "rating": 4.7,
+  "review_count": 116,
+  "source": "Google"
+ },
+ {
+  "name": "Schafer (Clara D.) Park",
+  "latitude": 41.7324633,
+  "longitude": -87.5413159,
+  "rating": 4.3,
+  "review_count": 112,
+  "source": "Google"
+ },
+ {
+  "name": "Cranberry Slough Nature Preserve",
+  "latitude": 41.7108458,
+  "longitude": -87.8579962,
+  "rating": 4.7,
+  "review_count": 190,
+  "source": "Google"
+ },
+ {
+  "name": "Irving Park Road Canoe Landing",
+  "latitude": 41.9541824,
+  "longitude": -87.8562042,
+  "rating": 5,
+  "review_count": 6,
+  "source": "Google"
+ },
+ {
+  "name": "Supera (Louis) Park",
+  "latitude": 41.928014,
+  "longitude": -87.658863,
+  "rating": 4.7,
+  "review_count": 70,
+  "source": "Google"
+ },
+ {
+  "name": "Midway Park",
+  "latitude": 41.7476185,
+  "longitude": -87.9492891,
+  "rating": 4.7,
+  "review_count": 7,
+  "source": "Google"
+ },
+ {
+  "name": "Prospect Gardens Park",
+  "latitude": 41.6938929,
+  "longitude": -87.6684951,
+  "rating": 4.5,
+  "review_count": 24,
+  "source": "Google"
+ },
+ {
+  "name": "North Village Park",
+  "latitude": 41.96598789999999,
+  "longitude": -87.86702079999999,
+  "rating": 4.7,
+  "review_count": 38,
+  "source": "Google"
+ },
+ {
+  "name": "Graver Park",
+  "latitude": 41.7078354,
+  "longitude": -87.6606811,
+  "rating": 4.2,
+  "review_count": 127,
+  "source": "Google"
+ },
+ {
+  "name": "Stalica Park",
+  "latitude": 41.9545997,
+  "longitude": -87.8583516,
+  "rating": 4.4,
+  "review_count": 88,
+  "source": "Google"
+ },
+ {
+  "name": "Shedd (John G.) Park",
+  "latitude": 41.8501306,
+  "longitude": -87.7167065,
+  "rating": 4.1,
+  "review_count": 78,
+  "source": "Google"
+ },
+ {
+  "name": "Dawes (Charles G.) Park",
+  "latitude": 41.7463339,
+  "longitude": -87.6745028,
+  "rating": 4.1,
+  "review_count": 151,
+  "source": "Google"
+ },
+ {
+  "name": "Myrtle Grove Park",
+  "latitude": 41.9926359,
+  "longitude": -87.8051527,
+  "rating": 4.7,
+  "review_count": 3,
+  "source": "Google"
+ },
+ {
+  "name": "Wildwood Park",
+  "latitude": 42.0076111,
+  "longitude": -87.7803301,
+  "rating": 4.6,
+  "review_count": 99,
+  "source": "Google"
+ },
+ {
+  "name": "Ada (Sawyer Garrett) Park",
+  "latitude": 41.6884791,
+  "longitude": -87.65377509999999,
+  "rating": 4.1,
+  "review_count": 262,
+  "source": "Google"
+ },
+ {
+  "name": "Chase Park",
+  "latitude": 41.96753760000001,
+  "longitude": -87.6682323,
+  "rating": 4.5,
+  "review_count": 428,
+  "source": "Google"
+ },
+ {
+  "name": "Miller Meadow",
+  "latitude": 41.85699109999999,
+  "longitude": -87.8279577,
+  "rating": 4.5,
+  "review_count": 674,
+  "source": "Google"
+ },
+ {
+  "name": "The Grove Park",
+  "latitude": 41.7407013,
+  "longitude": -87.6483076,
+  "rating": 3.8,
+  "review_count": 12,
+  "source": "Google"
+ },
+ {
+  "name": "Legion Park",
+  "latitude": 41.9852679,
+  "longitude": -87.70682839999999,
+  "rating": 4.6,
+  "review_count": 452,
+  "source": "Google"
+ },
+ {
+  "name": "Forest Glen Park",
+  "latitude": 41.9776299,
+  "longitude": -87.754575,
+  "rating": 4.5,
+  "review_count": 43,
+  "source": "Google"
+ },
+ {
+  "name": "Lazarus (Emma) Park",
+  "latitude": 42.0042613,
+  "longitude": -87.663207,
+  "rating": 4.8,
+  "review_count": 23,
+  "source": "Google"
+ },
+ {
+  "name": "Filbert Park",
+  "latitude": 41.953486,
+  "longitude": -87.675103,
+  "rating": 4.4,
+  "review_count": 41,
+  "source": "Google"
+ },
+ {
+  "name": "Harold Washington Park",
+  "latitude": 41.8018595,
+  "longitude": -87.5840903,
+  "rating": 4.5,
+  "review_count": 571,
+  "source": "Google"
+ },
+ {
+  "name": "Schiller Woods-South",
+  "latitude": 41.9508044,
+  "longitude": -87.8515783,
+  "rating": 4.5,
+  "review_count": 301,
+  "source": "Google"
+ },
+ {
+  "name": "Brands Park",
+  "latitude": 41.9411802,
+  "longitude": -87.6992049,
+  "rating": 4.4,
+  "review_count": 228,
+  "source": "Google"
+ },
+ {
+  "name": "Nichols (John Fountain) Park",
+  "latitude": 41.7980091,
+  "longitude": -87.5935416,
+  "rating": 4.6,
+  "review_count": 372,
+  "source": "Google"
+ },
+ {
+  "name": "Hollywood Park",
+  "latitude": 41.9895557,
+  "longitude": -87.7119396,
+  "rating": 4.4,
+  "review_count": 122,
+  "source": "Google"
+ },
+ {
+  "name": "Hidden Pond Woods",
+  "latitude": 41.7244077,
+  "longitude": -87.84883649999999,
+  "rating": 4.5,
+  "review_count": 111,
+  "source": "Google"
+ },
+ {
+  "name": "Almond Park",
+  "latitude": 41.6844998,
+  "longitude": -87.67645110000001,
+  "rating": 4,
+  "review_count": 8,
+  "source": "Google"
+ },
+ {
+  "name": "River Park",
+  "latitude": 41.9739995,
+  "longitude": -87.70198119999999,
+  "rating": 4.6,
+  "review_count": 842,
+  "source": "Google"
+ },
+ {
+  "name": "Cicero Community Park",
+  "latitude": 41.8302062,
+  "longitude": -87.75464769999999,
+  "rating": 4.6,
+  "review_count": 742,
+  "source": "Google"
+ },
+ {
+  "name": "Wolfe Wildlife Park",
+  "latitude": 41.6936598,
+  "longitude": -87.7472257,
+  "rating": 4.6,
+  "review_count": 620,
+  "source": "Google"
+ },
+ {
+  "name": "TRUMBULL PARK",
+  "latitude": 41.9213551,
+  "longitude": -87.84489590000001,
+  "rating": 4.5,
+  "review_count": 17,
+  "source": "Google"
+ },
+ {
+  "name": "Webster (Daniel) Park",
+  "latitude": 41.8644693,
+  "longitude": -87.6217023,
+  "rating": 4.6,
+  "review_count": 102,
+  "source": "Google"
+ },
+ {
+  "name": "Sankofa For The Earth",
+  "latitude": 41.8179504,
+  "longitude": -87.59635279999999,
+  "rating": 3,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Swallow Cliff Woods-South",
+  "latitude": 41.6753513,
+  "longitude": -87.85888,
+  "rating": 4.8,
+  "review_count": 436,
+  "source": "Google"
+ },
+ {
+  "name": "Durso (John) Park",
+  "latitude": 41.8983061,
+  "longitude": -87.63963799999999,
+  "rating": 4.4,
+  "review_count": 50,
+  "source": "Google"
+ },
+ {
+  "name": "Homan (Joseph) Park",
+  "latitude": 41.8522139,
+  "longitude": -87.7103884,
+  "rating": 4.9,
+  "review_count": 10,
+  "source": "Google"
+ },
+ {
+  "name": "Kensington Park",
+  "latitude": 41.6793247,
+  "longitude": -87.6151221,
+  "rating": 3.9,
+  "review_count": 18,
+  "source": "Google"
+ },
+ {
+  "name": "Buttercup Park",
+  "latitude": 41.9721044,
+  "longitude": -87.6544866,
+  "rating": 4.2,
+  "review_count": 196,
+  "source": "Google"
+ },
+ {
+  "name": "Metcalfe (Ralph) Park",
+  "latitude": 41.8178356,
+  "longitude": -87.62696559999999,
+  "rating": 4.6,
+  "review_count": 16,
+  "source": "Google"
+ },
+ {
+  "name": "Miller Meadow-North",
+  "latitude": 41.8640879,
+  "longitude": -87.8288055,
+  "rating": 4.4,
+  "review_count": 101,
+  "source": "Google"
+ },
+ {
+  "name": "Krause (Francis Vernon) Park",
+  "latitude": 41.7029076,
+  "longitude": -87.536732,
+  "rating": 4.3,
+  "review_count": 32,
+  "source": "Google"
+ },
+ {
+  "name": "Gazebo",
+  "latitude": 41.8323119,
+  "longitude": -87.60982249999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Ful-Roy Park",
+  "latitude": 41.9220451,
+  "longitude": -87.89930470000002,
+  "rating": 4.4,
+  "review_count": 88,
+  "source": "Google"
+ },
+ {
+  "name": "Schiller Woods",
+  "latitude": 41.9565677,
+  "longitude": -87.8476086,
+  "rating": 4.7,
+  "review_count": 1583,
+  "source": "Google"
+ },
+ {
+  "name": "Oak Lawn,IL Park",
+  "latitude": 41.7110716,
+  "longitude": -87.77310299999999,
+  "rating": 3.8,
+  "review_count": 4,
+  "source": "Google"
+ },
+ {
+  "name": "Ella Jenkins Park",
+  "latitude": 41.9164187,
+  "longitude": -87.638609,
+  "rating": 4.7,
+  "review_count": 6,
+  "source": "Google"
+ },
+ {
+  "name": "Daley Park",
+  "latitude": 41.83669889999999,
+  "longitude": -87.6863106,
+  "rating": 4.1,
+  "review_count": 57,
+  "source": "Google"
+ },
+ {
+  "name": "Kelvyn (William) Park",
+  "latitude": 41.9296854,
+  "longitude": -87.73809829999999,
+  "rating": 4.4,
+  "review_count": 490,
+  "source": "Google"
+ },
+ {
+  "name": "Veterans Park",
+  "latitude": 41.8439707,
+  "longitude": -87.8122923,
+  "rating": 4.6,
+  "review_count": 159,
+  "source": "Google"
+ },
+ {
+  "name": "Gage (George) Park",
+  "latitude": 41.7930343,
+  "longitude": -87.6845269,
+  "rating": 4.1,
+  "review_count": 334,
+  "source": "Google"
+ },
+ {
+  "name": "Bartelme (Mary) Park",
+  "latitude": 41.8798769,
+  "longitude": -87.6504057,
+  "rating": 4.7,
+  "review_count": 1124,
+  "source": "Google"
+ },
+ {
+  "name": "River Front Park",
+  "latitude": 41.9283145,
+  "longitude": -87.8433735,
+  "rating": 4.7,
+  "review_count": 226,
+  "source": "Google"
+ },
+ {
+  "name": "Christiana Park",
+  "latitude": 41.8598426,
+  "longitude": -87.70883300000001,
+  "rating": 3.4,
+  "review_count": 21,
+  "source": "Google"
+ },
+ {
+  "name": "Forest View Park District",
+  "latitude": 41.808034,
+  "longitude": -87.797028,
+  "rating": 4.7,
+  "review_count": 98,
+  "source": "Google"
+ },
+ {
+  "name": "The Cooperation Operation At Park No. 573",
+  "latitude": 41.6864603,
+  "longitude": -87.6061235,
+  "rating": 4.5,
+  "review_count": 12,
+  "source": "Google"
+ },
+ {
+  "name": "Public Picnic Park",
+  "latitude": 41.93735909999999,
+  "longitude": -87.63712319999999,
+  "rating": 5,
+  "review_count": 4,
+  "source": "Google"
+ },
+ {
+  "name": "Hickory Hills Park District",
+  "latitude": 41.7196058,
+  "longitude": -87.8296479,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Golden Gate Park",
+  "latitude": 41.6584217,
+  "longitude": -87.6115411,
+  "rating": 4.1,
+  "review_count": 74,
+  "source": "Google"
+ },
+ {
+  "name": "Vittum (Harriet Elizabeth) Park",
+  "latitude": 41.8029957,
+  "longitude": -87.74834539999999,
+  "rating": 4.3,
+  "review_count": 219,
+  "source": "Google"
+ },
+ {
+  "name": "Oriole Park Fieldhouse",
+  "latitude": 41.9784997,
+  "longitude": -87.8148214,
+  "rating": 4.6,
+  "review_count": 28,
+  "source": "Google"
+ },
+ {
+  "name": "Bauler (Mathias) Park",
+  "latitude": 41.9162994,
+  "longitude": -87.6417761,
+  "rating": 4.4,
+  "review_count": 85,
+  "source": "Google"
+ },
+ {
+  "name": "Fuller (Melville) Park",
+  "latitude": 41.8114419,
+  "longitude": -87.6346191,
+  "rating": 4.5,
+  "review_count": 95,
+  "source": "Google"
+ },
+ {
+  "name": "Independence Park",
+  "latitude": 41.9526374,
+  "longitude": -87.7237263,
+  "rating": 4.6,
+  "review_count": 681,
+  "source": "Google"
+ },
+ {
+  "name": "Kasey Meadow's Play Ground",
+  "latitude": 41.7239745,
+  "longitude": -87.82094359999999,
+  "rating": 4.5,
+  "review_count": 124,
+  "source": "Google"
+ },
+ {
+  "name": "Avondale Park",
+  "latitude": 41.9413128,
+  "longitude": -87.7147754,
+  "rating": 4.4,
+  "review_count": 85,
+  "source": "Google"
+ },
+ {
+  "name": "Revere (Paul) Park",
+  "latitude": 41.953319,
+  "longitude": -87.6920317,
+  "rating": 4.4,
+  "review_count": 205,
+  "source": "Google"
+ },
+ {
+  "name": "Altman Park",
+  "latitude": 41.6806414,
+  "longitude": -87.8052257,
+  "rating": 4.7,
+  "review_count": 184,
+  "source": "Google"
+ },
+ {
+  "name": "Veteran's Park",
+  "latitude": 41.7351312,
+  "longitude": -87.8171479,
+  "rating": 4,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Nagle-Perri Park",
+  "latitude": 41.9083815,
+  "longitude": -87.8958573,
+  "rating": 4.3,
+  "review_count": 36,
+  "source": "Google"
+ },
+ {
+  "name": "Maple Park",
+  "latitude": 41.8678591,
+  "longitude": -87.80384289999999,
+  "rating": 4.5,
+  "review_count": 435,
+  "source": "Google"
+ },
+ {
+  "name": "Commissioners Park",
+  "latitude": 41.7432088,
+  "longitude": -87.80676199999999,
+  "rating": 4.6,
+  "review_count": 93,
+  "source": "Google"
+ },
+ {
+  "name": "Green Briar Park",
+  "latitude": 41.9913324,
+  "longitude": -87.696404,
+  "rating": 4.2,
+  "review_count": 158,
+  "source": "Google"
+ },
+ {
+  "name": "Park 565 \"Indian Ridge Marsh\" Natural Area",
+  "latitude": 41.6792737,
+  "longitude": -87.56177,
+  "rating": 4.4,
+  "review_count": 29,
+  "source": "Google"
+ },
+ {
+  "name": "Elston (Daniel) Park",
+  "latitude": 41.9443816,
+  "longitude": -87.7061849,
+  "rating": 4.4,
+  "review_count": 47,
+  "source": "Google"
+ },
+ {
+  "name": "Wolf Road Woods",
+  "latitude": 41.7040465,
+  "longitude": -87.8953671,
+  "rating": 4.8,
+  "review_count": 410,
+  "source": "Google"
+ },
+ {
+  "name": "DeGeorge (Bernice) Park",
+  "latitude": 41.9111879,
+  "longitude": -87.74949289999999,
+  "rating": 3.9,
+  "review_count": 11,
+  "source": "Google"
+ },
+ {
+  "name": "Bohn (Henry) Park",
+  "latitude": 41.6924184,
+  "longitude": -87.6711989,
+  "rating": 4.3,
+  "review_count": 4,
+  "source": "Google"
+ },
+ {
+  "name": "Warren Park Building",
+  "latitude": 41.8580046,
+  "longitude": -87.7659874,
+  "rating": 4.2,
+  "review_count": 73,
+  "source": "Google"
+ },
+ {
+  "name": "Limas (Juliann Hope) Park",
+  "latitude": 41.847504,
+  "longitude": -87.7114869,
+  "rating": 3.7,
+  "review_count": 51,
+  "source": "Google"
+ },
+ {
+  "name": "Prairie District Park",
+  "latitude": 41.85459789999999,
+  "longitude": -87.6202349,
+  "rating": 4.6,
+  "review_count": 74,
+  "source": "Google"
+ },
+ {
+  "name": "Kiwanis Park",
+  "latitude": 41.9733063,
+  "longitude": -87.7118737,
+  "rating": 4.5,
+  "review_count": 35,
+  "source": "Google"
+ },
+ {
+  "name": "Oakbrook Terrace Park District Terrace View Park",
+  "latitude": 41.8492047,
+  "longitude": -87.95936359999999,
+  "rating": 4.7,
+  "review_count": 90,
+  "source": "Google"
+ },
+ {
+  "name": "Kelly Park",
+  "latitude": 41.9535057,
+  "longitude": -87.65706089999999,
+  "rating": 4.3,
+  "review_count": 40,
+  "source": "Google"
+ },
+ {
+  "name": "Eckersall (Walter Herbert) Park",
+  "latitude": 41.7465274,
+  "longitude": -87.5649157,
+  "rating": 4.1,
+  "review_count": 117,
+  "source": "Google"
+ },
+ {
+  "name": "Stateway Park",
+  "latitude": 41.82656069999999,
+  "longitude": -87.62712540000001,
+  "rating": 4.2,
+  "review_count": 82,
+  "source": "Google"
+ },
+ {
+  "name": "Avalon Park",
+  "latitude": 41.74168900000001,
+  "longitude": -87.5948294,
+  "rating": 4.2,
+  "review_count": 290,
+  "source": "Google"
+ },
+ {
+  "name": "Chicago Ridge Park District",
+  "latitude": 41.6966499,
+  "longitude": -87.7746956,
+  "rating": 4.4,
+  "review_count": 98,
+  "source": "Google"
+ },
+ {
+  "name": "Worth Park District",
+  "latitude": 41.6828147,
+  "longitude": -87.80491839999999,
+  "rating": 4.1,
+  "review_count": 16,
+  "source": "Google"
+ },
+ {
+  "name": "Washington Square Park",
+  "latitude": 41.8992726,
+  "longitude": -87.6305847,
+  "rating": 4.6,
+  "review_count": 721,
+  "source": "Google"
+ },
+ {
+  "name": "Bennett Park",
+  "latitude": 41.8913664,
+  "longitude": -87.6164335,
+  "rating": 4.7,
+  "review_count": 33,
+  "source": "Google"
+ },
+ {
+  "name": "Jones (Mary Richardson) Park",
+  "latitude": 41.8660784,
+  "longitude": -87.628967,
+  "rating": 4.5,
+  "review_count": 55,
+  "source": "Google"
+ },
+ {
+  "name": "Henry De Tonty Woods",
+  "latitude": 41.713308,
+  "longitude": -87.91248039999999,
+  "rating": 4.1,
+  "review_count": 32,
+  "source": "Google"
+ },
+ {
+  "name": "Southwest Park",
+  "latitude": 41.9902555,
+  "longitude": -87.8442317,
+  "rating": 4.3,
+  "review_count": 54,
+  "source": "Google"
+ },
+ {
+  "name": "Lincoln Park",
+  "latitude": 41.932989,
+  "longitude": -87.88392499999999,
+  "rating": 4.5,
+  "review_count": 14,
+  "source": "Google"
+ },
+ {
+  "name": "Forsythe Park",
+  "latitude": 41.683451,
+  "longitude": -87.5142352,
+  "rating": 4.5,
+  "review_count": 375,
+  "source": "Google"
+ },
+ {
+  "name": "Langdon (Mary Margaret) Park",
+  "latitude": 42.0018914,
+  "longitude": -87.6748078,
+  "rating": 4.2,
+  "review_count": 37,
+  "source": "Google"
+ },
+ {
+  "name": "Parkview Playlot Park",
+  "latitude": 41.9405103,
+  "longitude": -87.7232324,
+  "rating": 4.2,
+  "review_count": 67,
+  "source": "Google"
+ },
+ {
+  "name": "Harry 'Bus' Yourell Off Stream Aeration Pool",
+  "latitude": 41.6784349,
+  "longitude": -87.79462439999999,
+  "rating": 4.7,
+  "review_count": 56,
+  "source": "Google"
+ },
+ {
+  "name": "Bogan Park",
+  "latitude": 41.7466098,
+  "longitude": -87.72058,
+  "rating": 3.8,
+  "review_count": 44,
+  "source": "Google"
+ },
+ {
+  "name": "Roberts (David) Square Park",
+  "latitude": 41.9719469,
+  "longitude": -87.7588767,
+  "rating": 4.5,
+  "review_count": 155,
+  "source": "Google"
+ },
+ {
+  "name": "Lawn Manor Park",
+  "latitude": 41.6967365,
+  "longitude": -87.72919519999999,
+  "rating": 4.4,
+  "review_count": 90,
+  "source": "Google"
+ },
+ {
+  "name": "Manor Park",
+  "latitude": 41.8326194,
+  "longitude": -87.76868449999999,
+  "rating": 4.1,
+  "review_count": 137,
+  "source": "Google"
+ },
+ {
+  "name": "Twenty-Sixth Street Woods",
+  "latitude": 41.8439104,
+  "longitude": -87.85865849999999,
+  "rating": 4.5,
+  "review_count": 142,
+  "source": "Google"
+ },
+ {
+  "name": "Creekside Park",
+  "latitude": 41.8219348,
+  "longitude": -87.84139139999999,
+  "rating": 4.7,
+  "review_count": 14,
+  "source": "Google"
+ },
+ {
+  "name": "Summerdale Park",
+  "latitude": 41.9777056,
+  "longitude": -87.8090429,
+  "rating": 2.8,
+  "review_count": 12,
+  "source": "Google"
+ },
+ {
+  "name": "Eugenie Triangle Park",
+  "latitude": 41.9132462,
+  "longitude": -87.6331192,
+  "rating": 4.6,
+  "review_count": 8,
+  "source": "Google"
+ },
+ {
+  "name": "Centennial Park",
+  "latitude": 42.0088056,
+  "longitude": -87.84679059999999,
+  "rating": 4.6,
+  "review_count": 389,
+  "source": "Google"
+ },
+ {
+  "name": "Karban Dog Park",
+  "latitude": 41.829957,
+  "longitude": -87.78675799999999,
+  "rating": 3.8,
+  "review_count": 34,
+  "source": "Google"
+ },
+ {
+  "name": "Oakdale Park",
+  "latitude": 41.72055719999999,
+  "longitude": -87.6485347,
+  "rating": 4.2,
+  "review_count": 84,
+  "source": "Google"
+ },
+ {
+  "name": "Millennium Park",
+  "latitude": 41.8825524,
+  "longitude": -87.62255139999999,
+  "rating": 4.7,
+  "review_count": 84967,
+  "source": "Google"
+ },
+ {
+  "name": "Blackwelder (I.S., Gertrude) Park",
+  "latitude": 41.68364649999999,
+  "longitude": -87.6708866,
+  "rating": 4,
+  "review_count": 65,
+  "source": "Google"
+ },
+ {
+  "name": "Kennedy (Dennis) Park",
+  "latitude": 41.6870229,
+  "longitude": -87.68346079999999,
+  "rating": 4.4,
+  "review_count": 307,
+  "source": "Google"
+ },
+ {
+  "name": "Lane (George) Beach Park",
+  "latitude": 41.989776,
+  "longitude": -87.65508059999999,
+  "rating": 4.6,
+  "review_count": 38,
+  "source": "Google"
+ },
+ {
+  "name": "Norwood Circle Park",
+  "latitude": 41.9893611,
+  "longitude": -87.805072,
+  "rating": 4.6,
+  "review_count": 21,
+  "source": "Google"
+ },
+ {
+  "name": "Barnard Park",
+  "latitude": 41.7033604,
+  "longitude": -87.6701865,
+  "rating": 4.4,
+  "review_count": 57,
+  "source": "Google"
+ },
+ {
+  "name": "Wiggly Field Dog Park",
+  "latitude": 41.9305329,
+  "longitude": -87.65343399999999,
+  "rating": 4.5,
+  "review_count": 429,
+  "source": "Google"
+ },
+ {
+  "name": "Spears Woods",
+  "latitude": 41.7258576,
+  "longitude": -87.8598861,
+  "rating": 4.7,
+  "review_count": 200,
+  "source": "Google"
+ },
+ {
+  "name": "Big Ball Park",
+  "latitude": 41.8340958,
+  "longitude": -87.8153643,
+  "rating": 4.7,
+  "review_count": 54,
+  "source": "Google"
+ },
+ {
+  "name": "Michael J. Madigan Sr. Park",
+  "latitude": 41.7704822,
+  "longitude": -87.738729,
+  "rating": 4.3,
+  "review_count": 259,
+  "source": "Google"
+ },
+ {
+  "name": "Sycamore Park",
+  "latitude": 41.8018291,
+  "longitude": -87.59933699999999,
+  "rating": 4.4,
+  "review_count": 19,
+  "source": "Google"
+ },
+ {
+  "name": "Lorraine Hansberry Park",
+  "latitude": 41.7919192,
+  "longitude": -87.62038079999999,
+  "rating": 4,
+  "review_count": 21,
+  "source": "Google"
+ },
+ {
+  "name": "Commons Park",
+  "latitude": 41.8463304,
+  "longitude": -87.8205845,
+  "rating": 4.9,
+  "review_count": 36,
+  "source": "Google"
+ },
+ {
+  "name": "Mariano (Louis) Park",
+  "latitude": 41.901809,
+  "longitude": -87.6281949,
+  "rating": 4.6,
+  "review_count": 106,
+  "source": "Google"
+ },
+ {
+  "name": "Wolf Road Prairie Nature Preserve",
+  "latitude": 41.83727289999999,
+  "longitude": -87.9028307,
+  "rating": 4.7,
+  "review_count": 90,
+  "source": "Google"
+ },
+ {
+  "name": "Bessemer (Henry) Park",
+  "latitude": 41.7325195,
+  "longitude": -87.5571272,
+  "rating": 4,
+  "review_count": 285,
+  "source": "Google"
+ },
+ {
+  "name": "Challenger Park",
+  "latitude": 41.9586576,
+  "longitude": -87.6571111,
+  "rating": 4.3,
+  "review_count": 83,
+  "source": "Google"
+ },
+ {
+  "name": "Logan Square Dog Park",
+  "latitude": 41.92744099999999,
+  "longitude": -87.68822,
+  "rating": 4.5,
+  "review_count": 228,
+  "source": "Google"
+ },
+ {
+  "name": "Hidden Pond Woods-East",
+  "latitude": 41.7207589,
+  "longitude": -87.84731459999999,
+  "rating": 4.6,
+  "review_count": 40,
+  "source": "Google"
+ },
+ {
+  "name": "Normandy Park",
+  "latitude": 41.7983987,
+  "longitude": -87.7887117,
+  "rating": 4.3,
+  "review_count": 98,
+  "source": "Google"
+ },
+ {
+  "name": "Mayfair Park",
+  "latitude": 41.8400192,
+  "longitude": -87.8921951,
+  "rating": 4.5,
+  "review_count": 206,
+  "source": "Google"
+ },
+ {
+  "name": "Euclid Square Park",
+  "latitude": 41.866165,
+  "longitude": -87.791856,
+  "rating": 4.5,
+  "review_count": 195,
+  "source": "Google"
+ },
+ {
+  "name": "Little Pearl Park",
+  "latitude": 41.9335266,
+  "longitude": -87.86429749999999,
+  "rating": 4.1,
+  "review_count": 9,
+  "source": "Google"
+ },
+ {
+  "name": "Portage Park Dog Friendly Area",
+  "latitude": 41.956485,
+  "longitude": -87.765968,
+  "rating": 4.6,
+  "review_count": 634,
+  "source": "Google"
+ },
+ {
+  "name": "Wilson (John P.) Park",
+  "latitude": 41.8320322,
+  "longitude": -87.65454749999999,
+  "rating": 4.5,
+  "review_count": 100,
+  "source": "Google"
+ },
+ {
+  "name": "Field (Eugene) Park",
+  "latitude": 41.9747187,
+  "longitude": -87.7223602,
+  "rating": 4.5,
+  "review_count": 263,
+  "source": "Google"
+ },
+ {
+  "name": "Evergreen Park",
+  "latitude": 41.93986779999999,
+  "longitude": -87.6456551,
+  "rating": 4.6,
+  "review_count": 30,
+  "source": "Google"
+ },
+ {
+  "name": "Ridge Park",
+  "latitude": 41.7175911,
+  "longitude": -87.6682254,
+  "rating": 4.5,
+  "review_count": 331,
+  "source": "Google"
+ },
+ {
+  "name": "Kolmar (Gertrude) Park",
+  "latitude": 41.95659910000001,
+  "longitude": -87.741528,
+  "rating": 4.6,
+  "review_count": 56,
+  "source": "Google"
+ },
+ {
+  "name": "Founders Park",
+  "latitude": 41.7427502,
+  "longitude": -87.8153643,
+  "rating": 4.3,
+  "review_count": 64,
+  "source": "Google"
+ },
+ {
+  "name": "William G. Yena Park",
+  "latitude": 41.8393216,
+  "longitude": -87.85626769999999,
+  "rating": 4.5,
+  "review_count": 23,
+  "source": "Google"
+ },
+ {
+  "name": "Di Orio Park",
+  "latitude": 41.951778,
+  "longitude": -87.9466808,
+  "rating": 4.3,
+  "review_count": 73,
+  "source": "Google"
+ },
+ {
+  "name": "Gompers (Samuel) Park",
+  "latitude": 41.9761424,
+  "longitude": -87.73677880000001,
+  "rating": 4.5,
+  "review_count": 591,
+  "source": "Google"
+ },
+ {
+  "name": "Knollwood Kayak & Canoe Launch-DesPlaines River",
+  "latitude": 41.71008370000001,
+  "longitude": -87.9319221,
+  "rating": 3.5,
+  "review_count": 11,
+  "source": "Google"
+ },
+ {
+  "name": "Dickinson (Arthur) Park",
+  "latitude": 41.9555135,
+  "longitude": -87.7518833,
+  "rating": 4.5,
+  "review_count": 130,
+  "source": "Google"
+ },
+ {
+  "name": "Park #556",
+  "latitude": 41.9278518,
+  "longitude": -87.6886981,
+  "rating": 4.6,
+  "review_count": 46,
+  "source": "Google"
+ },
+ {
+  "name": "Broncho Billy Park",
+  "latitude": 41.9627556,
+  "longitude": -87.6606561,
+  "rating": 4.3,
+  "review_count": 26,
+  "source": "Google"
+ },
+ {
+  "name": "Midway Plaisance Park",
+  "latitude": 41.7868907,
+  "longitude": -87.593919,
+  "rating": 4.6,
+  "review_count": 800,
+  "source": "Google"
+ },
+ {
+  "name": "Durkin (Martin) Park",
+  "latitude": 41.7392951,
+  "longitude": -87.727451,
+  "rating": 4.4,
+  "review_count": 129,
+  "source": "Google"
+ },
+ {
+  "name": "Camberly Park",
+  "latitude": 41.84098729999999,
+  "longitude": -87.9060037,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Elm Park",
+  "latitude": 41.8003836,
+  "longitude": -87.59626109999999,
+  "rating": 4.6,
+  "review_count": 30,
+  "source": "Google"
+ },
+ {
+  "name": "Kujawa Park",
+  "latitude": 41.8141224,
+  "longitude": -87.7277536,
+  "rating": 4.3,
+  "review_count": 31,
+  "source": "Google"
+ },
+ {
+  "name": "Chicago Park 587",
+  "latitude": 41.7222955,
+  "longitude": -87.607056,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Palmisano (Henry) Park",
+  "latitude": 41.8429903,
+  "longitude": -87.6490151,
+  "rating": 4.7,
+  "review_count": 1262,
+  "source": "Google"
+ },
+ {
+  "name": "Marjorie Davis Park",
+  "latitude": 41.9089449,
+  "longitude": -87.94827,
+  "rating": 4.5,
+  "review_count": 62,
+  "source": "Google"
+ },
+ {
+  "name": "River Esplanade Park",
+  "latitude": 41.8888921,
+  "longitude": -87.61748089999999,
+  "rating": 4.7,
+  "review_count": 91,
+  "source": "Google"
+ },
+ {
+  "name": "Heron Pond Park",
+  "latitude": 41.67088649999999,
+  "longitude": -87.5673917,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Lakeshore Park",
+  "latitude": 41.7183348,
+  "longitude": -87.7562356,
+  "rating": 4.5,
+  "review_count": 73,
+  "source": "Google"
+ },
+ {
+  "name": "Haas (Joseph) Park",
+  "latitude": 41.9251799,
+  "longitude": -87.6961085,
+  "rating": 4.5,
+  "review_count": 61,
+  "source": "Google"
+ },
+ {
+  "name": "Kiwanis Park",
+  "latitude": 41.8240786,
+  "longitude": -87.8399956,
+  "rating": 4.7,
+  "review_count": 264,
+  "source": "Google"
+ },
+ {
+  "name": "Trumbull (Lyman) Park",
+  "latitude": 41.7062575,
+  "longitude": -87.56443209999999,
+  "rating": 4.2,
+  "review_count": 62,
+  "source": "Google"
+ },
+ {
+  "name": "Cherry Hill Woods",
+  "latitude": 41.6756078,
+  "longitude": -87.87248369999999,
+  "rating": 4.6,
+  "review_count": 152,
+  "source": "Google"
+ },
+ {
+  "name": "Burnside (Ambrose) Park",
+  "latitude": 41.72449020000001,
+  "longitude": -87.5982172,
+  "rating": 4.3,
+  "review_count": 27,
+  "source": "Google"
+ },
+ {
+  "name": "Gouin Park",
+  "latitude": 41.9233863,
+  "longitude": -87.8761744,
+  "rating": 4.5,
+  "review_count": 145,
+  "source": "Google"
+ },
+ {
+  "name": "Carroll Center & Park",
+  "latitude": 41.86783399999999,
+  "longitude": -87.796832,
+  "rating": 4.5,
+  "review_count": 84,
+  "source": "Google"
+ },
+ {
+  "name": "Armour (Philip) Square Park",
+  "latitude": 41.8335824,
+  "longitude": -87.6339586,
+  "rating": 4.5,
+  "review_count": 241,
+  "source": "Google"
+ },
+ {
+  "name": "Lake Meadows Park",
+  "latitude": 41.8376195,
+  "longitude": -87.6117013,
+  "rating": 4.3,
+  "review_count": 203,
+  "source": "Google"
+ },
+ {
+  "name": "Dooley Memorial Park",
+  "latitude": 41.9612139,
+  "longitude": -87.8761722,
+  "rating": 4.3,
+  "review_count": 24,
+  "source": "Google"
+ },
+ {
+  "name": "Rotary Centennial Park",
+  "latitude": 41.8153574,
+  "longitude": -87.86258699999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Crooked Creek Woods",
+  "latitude": 41.6989854,
+  "longitude": -87.8550473,
+  "rating": 4.6,
+  "review_count": 101,
+  "source": "Google"
+ },
+ {
+  "name": "Cedar Park",
+  "latitude": 41.9787459,
+  "longitude": -87.6575435,
+  "rating": 4.6,
+  "review_count": 79,
+  "source": "Google"
+ },
+ {
+  "name": "Hickory Park",
+  "latitude": 41.970084,
+  "longitude": -87.6579526,
+  "rating": 4.3,
+  "review_count": 12,
+  "source": "Google"
+ },
+ {
+  "name": "La Grange Park Public Works",
+  "latitude": 41.8315293,
+  "longitude": -87.8657576,
+  "rating": 4.6,
+  "review_count": 11,
+  "source": "Google"
+ },
+ {
+  "name": "Fairmount Willow Hills Memorial Park",
+  "latitude": 41.7239399,
+  "longitude": -87.88499420000001,
+  "rating": 3.8,
+  "review_count": 25,
+  "source": "Google"
+ },
+ {
+  "name": "North Warren Park",
+  "latitude": 41.8622774,
+  "longitude": -87.7709527,
+  "rating": 4.8,
+  "review_count": 4,
+  "source": "Google"
+ },
+ {
+  "name": "Miller Meadow-South",
+  "latitude": 41.8585621,
+  "longitude": -87.8328403,
+  "rating": 4.9,
+  "review_count": 11,
+  "source": "Google"
+ },
+ {
+  "name": "Helen Zatterberg Park",
+  "latitude": 41.9593192,
+  "longitude": -87.67256069999999,
+  "rating": 4.6,
+  "review_count": 59,
+  "source": "Google"
+ },
+ {
+  "name": "Grandparents Park",
+  "latitude": 41.9788495,
+  "longitude": -87.8385518,
+  "rating": 3.9,
+  "review_count": 161,
+  "source": "Google"
+ },
+ {
+  "name": "Gladstone (William) Park",
+  "latitude": 41.9788836,
+  "longitude": -87.7728393,
+  "rating": 4.5,
+  "review_count": 111,
+  "source": "Google"
+ },
+ {
+  "name": "Berens Park",
+  "latitude": 41.9151406,
+  "longitude": -87.9541126,
+  "rating": 4.7,
+  "review_count": 551,
+  "source": "Google"
+ },
+ {
+  "name": "Burlington Park",
+  "latitude": 41.80338440000001,
+  "longitude": -87.92809439999999,
+  "rating": 4.5,
+  "review_count": 73,
+  "source": "Google"
+ },
+ {
+  "name": "Forest Preserves of Cook County",
+  "latitude": 41.991339,
+  "longitude": -87.85252,
+  "rating": 4.5,
+  "review_count": 94,
+  "source": "Google"
+ },
+ {
+  "name": "Lorraine Dixon Park",
+  "latitude": 41.7352472,
+  "longitude": -87.601181,
+  "rating": 4.5,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Commissioners Park",
+  "latitude": 41.6661738,
+  "longitude": -87.7018658,
+  "rating": 4.5,
+  "review_count": 345,
+  "source": "Google"
+ },
+ {
+  "name": "Kasey Meadow Park & Cynthia Neal Center",
+  "latitude": 41.7239781,
+  "longitude": -87.820835,
+  "rating": 4.5,
+  "review_count": 162,
+  "source": "Google"
+ },
+ {
+  "name": "Belly Deep Slough",
+  "latitude": 41.7090825,
+  "longitude": -87.8521698,
+  "rating": 4.3,
+  "review_count": 41,
+  "source": "Google"
+ },
+ {
+  "name": "California Park",
+  "latitude": 41.9510689,
+  "longitude": -87.6975641,
+  "rating": 4.8,
+  "review_count": 47,
+  "source": "Google"
+ },
+ {
+  "name": "King-Lockhart (Patrick, Anthony) Park",
+  "latitude": 41.7001543,
+  "longitude": -87.681073,
+  "rating": 4.3,
+  "review_count": 18,
+  "source": "Google"
+ },
+ {
+  "name": "Kenwood Community Park",
+  "latitude": 41.8050427,
+  "longitude": -87.5929049,
+  "rating": 4.5,
+  "review_count": 219,
+  "source": "Google"
+ },
+ {
+  "name": "Grand Crossing Park",
+  "latitude": 41.7547324,
+  "longitude": -87.6004035,
+  "rating": 4.2,
+  "review_count": 205,
+  "source": "Google"
+ },
+ {
+  "name": "Hermosa Park",
+  "latitude": 41.9219817,
+  "longitude": -87.7403569,
+  "rating": 4.3,
+  "review_count": 164,
+  "source": "Google"
+ },
+ {
+  "name": "Lakeview School Park",
+  "latitude": 41.9553907,
+  "longitude": -87.66782239999999,
+  "rating": 4.6,
+  "review_count": 55,
+  "source": "Google"
+ },
+ {
+  "name": "Steeves Park",
+  "latitude": 41.7930703,
+  "longitude": -87.94759080000001,
+  "rating": 4,
+  "review_count": 10,
+  "source": "Google"
+ },
+ {
+  "name": "Schiller Woods Grove #9",
+  "latitude": 41.95615189999999,
+  "longitude": -87.84889609999999,
+  "rating": 4.9,
+  "review_count": 13,
+  "source": "Google"
+ },
+ {
+  "name": "Lincoln Central Park",
+  "latitude": 41.9202534,
+  "longitude": -87.64184329999999,
+  "rating": 4.3,
+  "review_count": 9,
+  "source": "Google"
+ },
+ {
+  "name": "Brown (Sidney) Memorial Park",
+  "latitude": 41.7389249,
+  "longitude": -87.60842939999999,
+  "rating": 4.6,
+  "review_count": 16,
+  "source": "Google"
+ },
+ {
+  "name": "Ravenswood Manor Park",
+  "latitude": 41.9655751,
+  "longitude": -87.70071089999999,
+  "rating": 4.7,
+  "review_count": 222,
+  "source": "Google"
+ },
+ {
+  "name": "Veterans Memorial Park",
+  "latitude": 41.8132435,
+  "longitude": -87.9004545,
+  "rating": 4.6,
+  "review_count": 5,
+  "source": "Google"
+ },
+ {
+  "name": "Chestnut Park",
+  "latitude": 41.9308045,
+  "longitude": -87.8779637,
+  "rating": 4.4,
+  "review_count": 7,
+  "source": "Google"
+ },
+ {
+  "name": "LeClaire-Hearst Park",
+  "latitude": 41.8133942,
+  "longitude": -87.750748,
+  "rating": 4.3,
+  "review_count": 152,
+  "source": "Google"
+ },
+ {
+  "name": "Oz Park",
+  "latitude": 41.9208947,
+  "longitude": -87.6456607,
+  "rating": 4.7,
+  "review_count": 2010,
+  "source": "Google"
+ },
+ {
+  "name": "West Ridge Nature Park",
+  "latitude": 41.9871484,
+  "longitude": -87.6884722,
+  "rating": 4.7,
+  "review_count": 758,
+  "source": "Google"
+ },
+ {
+  "name": "Buffalo Woods-Central",
+  "latitude": 41.7369752,
+  "longitude": -87.84817989999999,
+  "rating": 4.2,
+  "review_count": 33,
+  "source": "Google"
+ },
+ {
+  "name": "Winnemac Park",
+  "latitude": 41.9741228,
+  "longitude": -87.68198129999999,
+  "rating": 4.7,
+  "review_count": 1428,
+  "source": "Google"
+ },
+ {
+  "name": "Armstrong (Lillian Hardin) Park",
+  "latitude": 41.8138809,
+  "longitude": -87.61030679999999,
+  "rating": 4.4,
+  "review_count": 98,
+  "source": "Google"
+ },
+ {
+  "name": "Wallace Park",
+  "latitude": 41.7264579,
+  "longitude": -87.63880259999999,
+  "rating": 4.1,
+  "review_count": 20,
+  "source": "Google"
+ },
+ {
+  "name": "Polk Bros Park",
+  "latitude": 41.8915196,
+  "longitude": -87.6105736,
+  "rating": 4.6,
+  "review_count": 2669,
+  "source": "Google"
+ },
+ {
+  "name": "Smith (Wendell) Park",
+  "latitude": 41.71382639999999,
+  "longitude": -87.6322076,
+  "rating": 3.9,
+  "review_count": 49,
+  "source": "Google"
+ },
+ {
+  "name": "Marshfield Park",
+  "latitude": 41.7355243,
+  "longitude": -87.6648481,
+  "rating": 4.4,
+  "review_count": 17,
+  "source": "Google"
+ },
+ {
+  "name": "Ping Tom Memorial Park",
+  "latitude": 41.8572974,
+  "longitude": -87.6343835,
+  "rating": 4.6,
+  "review_count": 3674,
+  "source": "Google"
+ },
+ {
+  "name": "Morton Park",
+  "latitude": 41.8472821,
+  "longitude": -87.74874179999999,
+  "rating": 4.4,
+  "review_count": 80,
+  "source": "Google"
+ },
+ {
+  "name": "Winnemac Park Playground",
+  "latitude": 41.9726734,
+  "longitude": -87.68374759999999,
+  "rating": 4.7,
+  "review_count": 86,
+  "source": "Google"
+ },
+ {
+  "name": "Big Marsh Park",
+  "latitude": 41.6855382,
+  "longitude": -87.573726,
+  "rating": 4.7,
+  "review_count": 465,
+  "source": "Google"
+ },
+ {
+  "name": "Catherine Chevalier Woods",
+  "latitude": 41.9798841,
+  "longitude": -87.8474274,
+  "rating": 4.6,
+  "review_count": 1017,
+  "source": "Google"
+ },
+ {
+  "name": "Forty Acres Woods",
+  "latitude": 41.6733067,
+  "longitude": -87.85201099999999,
+  "rating": 4.8,
+  "review_count": 83,
+  "source": "Google"
+ },
+ {
+  "name": "Cascade Park",
+  "latitude": 41.8860362,
+  "longitude": -87.61547759999999,
+  "rating": 3.5,
+  "review_count": 10,
+  "source": "Google"
+ },
+ {
+  "name": "Brezina Woods",
+  "latitude": 41.8456146,
+  "longitude": -87.8730568,
+  "rating": 4.6,
+  "review_count": 377,
+  "source": "Google"
+ },
+ {
+  "name": "Ashmore Park",
+  "latitude": 41.96870089999999,
+  "longitude": -87.7481786,
+  "rating": 4.1,
+  "review_count": 29,
+  "source": "Google"
+ },
+ {
+  "name": "Park No. 588",
+  "latitude": 41.7043533,
+  "longitude": -87.6043029,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Brickton Park",
+  "latitude": 41.98946369999999,
+  "longitude": -87.8350207,
+  "rating": 4.4,
+  "review_count": 60,
+  "source": "Google"
+ },
+ {
+  "name": "Argonne Park",
+  "latitude": 41.7120462,
+  "longitude": -87.9564357,
+  "rating": 4.3,
+  "review_count": 16,
+  "source": "Google"
+ },
+ {
+  "name": "Dunham (Robert) Park",
+  "latitude": 41.9657557,
+  "longitude": -87.7845462,
+  "rating": 4.4,
+  "review_count": 364,
+  "source": "Google"
+ },
+ {
+  "name": "Palmer Park",
+  "latitude": 41.6908289,
+  "longitude": -87.615837,
+  "rating": 4.2,
+  "review_count": 263,
+  "source": "Google"
+ },
+ {
+  "name": "Maple Lake East - Mountain Bike Staging Area",
+  "latitude": 41.71587479999999,
+  "longitude": -87.8818344,
+  "rating": 4.8,
+  "review_count": 194,
+  "source": "Google"
+ },
+ {
+  "name": "London (Louis) Park",
+  "latitude": 41.8573344,
+  "longitude": -87.71171319999999,
+  "rating": 4,
+  "review_count": 3,
+  "source": "Google"
+ },
+ {
+  "name": "Lincoln Park Cricket Hill",
+  "latitude": 41.9641891,
+  "longitude": -87.642746,
+  "rating": 4.6,
+  "review_count": 183,
+  "source": "Google"
+ },
+ {
+  "name": "Sagawau Canyon Nature Preserve",
+  "latitude": 41.6904308,
+  "longitude": -87.9255273,
+  "rating": 4.5,
+  "review_count": 117,
+  "source": "Google"
+ },
+ {
+  "name": "The PAV (Pavilion at Wolf Lake Memorial Park)",
+  "latitude": 41.6708302,
+  "longitude": -87.5100219,
+  "rating": 4.6,
+  "review_count": 852,
+  "source": "Google"
+ },
+ {
+  "name": "Beach House / Concession Stand",
+  "latitude": 41.7133678,
+  "longitude": -87.5279176,
+  "rating": 4.5,
+  "review_count": 4,
+  "source": "Google"
+ },
+ {
+  "name": "Franklin (Benjamin) Park",
+  "latitude": 41.8614331,
+  "longitude": -87.7323133,
+  "rating": 4.1,
+  "review_count": 162,
+  "source": "Google"
+ },
+ {
+  "name": "Bradley (Josephine) Park",
+  "latitude": 41.71816320000001,
+  "longitude": -87.5638845,
+  "rating": 3.6,
+  "review_count": 48,
+  "source": "Google"
+ },
+ {
+  "name": "Madison Park",
+  "latitude": 41.8030541,
+  "longitude": -87.59428609999999,
+  "rating": 4.8,
+  "review_count": 33,
+  "source": "Google"
+ },
+ {
+  "name": "Clocktower Park",
+  "latitude": 41.9543163,
+  "longitude": -87.8642725,
+  "rating": 4.6,
+  "review_count": 17,
+  "source": "Google"
+ },
+ {
+  "name": "Oriole Park",
+  "latitude": 41.9795107,
+  "longitude": -87.81545600000001,
+  "rating": 4.5,
+  "review_count": 346,
+  "source": "Google"
+ },
+ {
+  "name": "Irma C Ruiz Park",
+  "latitude": 41.81150530000001,
+  "longitude": -87.7190059,
+  "rating": 4.5,
+  "review_count": 41,
+  "source": "Google"
+ },
+ {
+  "name": "Commissioners Park",
+  "latitude": 41.729548,
+  "longitude": -87.75121299999999,
+  "rating": 4.5,
+  "review_count": 26,
+  "source": "Google"
+ },
+ {
+  "name": "Hawthorne Park",
+  "latitude": 41.9363858,
+  "longitude": -87.87438449999999,
+  "rating": 4.4,
+  "review_count": 17,
+  "source": "Google"
+ },
+ {
+  "name": "East End Park",
+  "latitude": 41.9022004,
+  "longitude": -87.92256379999999,
+  "rating": 4.5,
+  "review_count": 112,
+  "source": "Google"
+ },
+ {
+  "name": "Eden Memorial Park",
+  "latitude": 41.9543255,
+  "longitude": -87.8733247,
+  "rating": 4.1,
+  "review_count": 17,
+  "source": "Google"
+ },
+ {
+  "name": "Andersonville Park",
+  "latitude": 41.97713450000001,
+  "longitude": -87.6692478,
+  "rating": 4.4,
+  "review_count": 29,
+  "source": "Google"
+ },
+ {
+  "name": "Little Creek Park",
+  "latitude": 41.741694,
+  "longitude": -87.949868,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Rowan (William) Park",
+  "latitude": 41.685848,
+  "longitude": -87.5380528,
+  "rating": 4.3,
+  "review_count": 167,
+  "source": "Google"
+ },
+ {
+  "name": "North Park",
+  "latitude": 41.94502749999999,
+  "longitude": -87.8767621,
+  "rating": 4.6,
+  "review_count": 270,
+  "source": "Google"
+ },
+ {
+  "name": "Macarthur Park",
+  "latitude": 41.7400755,
+  "longitude": -87.7720552,
+  "rating": 4.4,
+  "review_count": 109,
+  "source": "Google"
+ },
+ {
+  "name": "Kiddie Korral",
+  "latitude": 41.6733791,
+  "longitude": -87.6878322,
+  "rating": 4.3,
+  "review_count": 27,
+  "source": "Google"
+ },
+ {
+  "name": "Burnham Park Promontory Point",
+  "latitude": 41.79599899999999,
+  "longitude": -87.57700229999999,
+  "rating": 4.8,
+  "review_count": 1610,
+  "source": "Google"
+ },
+ {
+  "name": "Piotrowski (Lillian) Park",
+  "latitude": 41.8348342,
+  "longitude": -87.7309295,
+  "rating": 4.2,
+  "review_count": 769,
+  "source": "Google"
+ },
+ {
+  "name": "McClaughry Springs Woods",
+  "latitude": 41.6775344,
+  "longitude": -87.844912,
+  "rating": 4.8,
+  "review_count": 136,
+  "source": "Google"
+ },
+ {
+  "name": "White (Edward H.) Park",
+  "latitude": 41.6734496,
+  "longitude": -87.6498196,
+  "rating": 5,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Trebes Park",
+  "latitude": 41.9220361,
+  "longitude": -87.6577449,
+  "rating": 4.5,
+  "review_count": 67,
+  "source": "Google"
+ },
+ {
+  "name": "Oconnell Tot Lot",
+  "latitude": 41.7114102,
+  "longitude": -87.79691360000001,
+  "rating": 4.5,
+  "review_count": 10,
+  "source": "Google"
+ },
+ {
+  "name": "Gladstone Park",
+  "latitude": 41.8650826,
+  "longitude": -87.8792162,
+  "rating": 4.1,
+  "review_count": 67,
+  "source": "Google"
+ },
+ {
+  "name": "Bosley (William) Park",
+  "latitude": 41.8386184,
+  "longitude": -87.6534045,
+  "rating": 4.4,
+  "review_count": 90,
+  "source": "Google"
+ },
+ {
+  "name": "Gross Park",
+  "latitude": 41.942369,
+  "longitude": -87.67153619999999,
+  "rating": 3.9,
+  "review_count": 8,
+  "source": "Google"
+ },
+ {
+  "name": "Riverside Park District",
+  "latitude": 41.8273459,
+  "longitude": -87.8172357,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Jane M. Byrne Plaza Park",
+  "latitude": 41.8971817,
+  "longitude": -87.6245318,
+  "rating": 4.6,
+  "review_count": 151,
+  "source": "Google"
+ },
+ {
+  "name": "McVickers Park",
+  "latitude": 41.7189237,
+  "longitude": -87.7715224,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Duffy Park",
+  "latitude": 41.7270973,
+  "longitude": -87.7141463,
+  "rating": 4.4,
+  "review_count": 139,
+  "source": "Google"
+ },
+ {
+  "name": "Palos Fen Nature Preserve",
+  "latitude": 41.6975229,
+  "longitude": -87.84208269999999,
+  "rating": 4.4,
+  "review_count": 7,
+  "source": "Google"
+ },
+ {
+  "name": "Berwyn Gardens",
+  "latitude": 41.8511763,
+  "longitude": -87.7986715,
+  "rating": 4.5,
+  "review_count": 62,
+  "source": "Google"
+ },
+ {
+  "name": "Lakefront Trail - Grant Park",
+  "latitude": 41.8686101,
+  "longitude": -87.6156396,
+  "rating": 4.8,
+  "review_count": 174,
+  "source": "Google"
+ },
+ {
+  "name": "Citizens Park",
+  "latitude": 41.7219729,
+  "longitude": -87.9351624,
+  "rating": 4.8,
+  "review_count": 10,
+  "source": "Google"
+ },
+ {
+  "name": "Hiawatha Park",
+  "latitude": 41.94407710000001,
+  "longitude": -87.8258079,
+  "rating": 4.5,
+  "review_count": 364,
+  "source": "Google"
+ },
+ {
+  "name": "William W. Powers State Recreation Area",
+  "latitude": 41.6659855,
+  "longitude": -87.53894799999999,
+  "rating": 4.5,
+  "review_count": 604,
+  "source": "Google"
+ },
+ {
+  "name": "Spruce Park",
+  "latitude": 41.7981917,
+  "longitude": -87.59002579999999,
+  "rating": 4.5,
+  "review_count": 11,
+  "source": "Google"
+ },
+ {
+  "name": "Houston (Jessie \"Ma\") Park",
+  "latitude": 41.80329680000001,
+  "longitude": -87.6046434,
+  "rating": 4.8,
+  "review_count": 13,
+  "source": "Google"
+ },
+ {
+  "name": "Donald E. Stephens Park",
+  "latitude": 41.9953416,
+  "longitude": -87.8753624,
+  "rating": 4.5,
+  "review_count": 10,
+  "source": "Google"
+ },
+ {
+  "name": "Burnham Park Skate Park",
+  "latitude": 41.8352694,
+  "longitude": -87.60728519999999,
+  "rating": 4.2,
+  "review_count": 65,
+  "source": "Google"
+ },
+ {
+  "name": "Veteran's Park",
+  "latitude": 41.66893719999999,
+  "longitude": -87.66890099999999,
+  "rating": 4.3,
+  "review_count": 28,
+  "source": "Google"
+ },
+ {
+  "name": "Sunken Garden Park",
+  "latitude": 41.963316,
+  "longitude": -87.695036,
+  "rating": 4.4,
+  "review_count": 67,
+  "source": "Google"
+ },
+ {
+  "name": "Central Stickney Park District",
+  "latitude": 41.8068601,
+  "longitude": -87.7575267,
+  "rating": 4.5,
+  "review_count": 80,
+  "source": "Google"
+ },
+ {
+  "name": "Donahue (Margaret) Park",
+  "latitude": 41.9419094,
+  "longitude": -87.6603009,
+  "rating": 4.8,
+  "review_count": 249,
+  "source": "Google"
+ },
+ {
+  "name": "Hoyne (Thomas) Park",
+  "latitude": 41.8316459,
+  "longitude": -87.6783602,
+  "rating": 4.4,
+  "review_count": 90,
+  "source": "Google"
+ },
+ {
+  "name": "Honeysuckle Park",
+  "latitude": 41.8101085,
+  "longitude": -87.6099596,
+  "rating": 3.8,
+  "review_count": 15,
+  "source": "Google"
+ },
+ {
+  "name": "Clark Park",
+  "latitude": 41.8061464,
+  "longitude": -87.89428529999999,
+  "rating": 4.5,
+  "review_count": 12,
+  "source": "Google"
+ },
+ {
+  "name": "Pasteur (Louis) Park",
+  "latitude": 41.7884844,
+  "longitude": -87.7316456,
+  "rating": 4.4,
+  "review_count": 523,
+  "source": "Google"
+ },
+ {
+  "name": "Tommy Olsen Park",
+  "latitude": 41.912298,
+  "longitude": -87.856982,
+  "rating": 4,
+  "review_count": 23,
+  "source": "Google"
+ },
+ {
+  "name": "High Ridge Park",
+  "latitude": 41.8551211,
+  "longitude": -87.89556429999999,
+  "rating": 4.2,
+  "review_count": 14,
+  "source": "Google"
+ },
+ {
+  "name": "Union Park",
+  "latitude": 41.8839452,
+  "longitude": -87.6655371,
+  "rating": 4.4,
+  "review_count": 1084,
+  "source": "Google"
+ },
+ {
+  "name": "Zoo Woods",
+  "latitude": 41.8315283,
+  "longitude": -87.8288241,
+  "rating": 4.3,
+  "review_count": 36,
+  "source": "Google"
+ },
+ {
+  "name": "Abbott (Robert) Park",
+  "latitude": 41.7200818,
+  "longitude": -87.6224349,
+  "rating": 4.2,
+  "review_count": 326,
+  "source": "Google"
+ },
+ {
+  "name": "Barrie Park",
+  "latitude": 41.8706697,
+  "longitude": -87.77802779999999,
+  "rating": 4.5,
+  "review_count": 386,
+  "source": "Google"
+ },
+ {
+  "name": "Pioneer Park",
+  "latitude": 41.85978920000001,
+  "longitude": -87.8614205,
+  "rating": 4.2,
+  "review_count": 31,
+  "source": "Google"
+ },
+ {
+  "name": "Park West Park",
+  "latitude": 41.9288627,
+  "longitude": -87.6480739,
+  "rating": 4.3,
+  "review_count": 28,
+  "source": "Google"
+ },
+ {
+  "name": "West Chatham Park",
+  "latitude": 41.7449326,
+  "longitude": -87.6321215,
+  "rating": 4.1,
+  "review_count": 152,
+  "source": "Google"
+ },
+ {
+  "name": "Smirz Park",
+  "latitude": 41.830201,
+  "longitude": -87.7807457,
+  "rating": 4.5,
+  "review_count": 79,
+  "source": "Google"
+ },
+ {
+  "name": "Jerome Park",
+  "latitude": 41.921313,
+  "longitude": -87.90827499999999,
+  "rating": 4.1,
+  "review_count": 21,
+  "source": "Google"
+ },
+ {
+  "name": "Proksa Park",
+  "latitude": 41.837139,
+  "longitude": -87.79909610000001,
+  "rating": 4.6,
+  "review_count": 96,
+  "source": "Google"
+ },
+ {
+  "name": "Harr Park",
+  "latitude": 41.7396189,
+  "longitude": -87.74957599999999,
+  "rating": 4.5,
+  "review_count": 225,
+  "source": "Google"
+ },
+ {
+  "name": "Chicago Women's Park & Garden",
+  "latitude": 41.857738,
+  "longitude": -87.62201809999999,
+  "rating": 4.7,
+  "review_count": 162,
+  "source": "Google"
+ },
+ {
+  "name": "Merryman (Theron) Park",
+  "latitude": 41.94999240000001,
+  "longitude": -87.6704853,
+  "rating": 4.5,
+  "review_count": 49,
+  "source": "Google"
+ },
+ {
+  "name": "Grant Park",
+  "latitude": 41.738865,
+  "longitude": -87.94343200000002,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Robinson Homestead Family Picnic Area",
+  "latitude": 41.9620757,
+  "longitude": -87.86109929999999,
+  "rating": 4.7,
+  "review_count": 34,
+  "source": "Google"
+ },
+ {
+  "name": "Sacramento Park",
+  "latitude": 41.9458694,
+  "longitude": -87.7032244,
+  "rating": 4.7,
+  "review_count": 31,
+  "source": "Google"
+ },
+ {
+  "name": "Rainey Park",
+  "latitude": 41.7502378,
+  "longitude": -87.7294483,
+  "rating": 4.4,
+  "review_count": 238,
+  "source": "Google"
+ },
+ {
+  "name": "Jackson Park",
+  "latitude": 41.7808551,
+  "longitude": -87.5801615,
+  "rating": 4.6,
+  "review_count": 7265,
+  "source": "Google"
+ },
+ {
+  "name": "Dunne Park Recreation Center",
+  "latitude": 41.9901882,
+  "longitude": -87.86382909999999,
+  "rating": 4.6,
+  "review_count": 156,
+  "source": "Google"
+ },
+ {
+  "name": "Paw Paw Woods Nature Preserve",
+  "latitude": 41.7178022,
+  "longitude": -87.8954717,
+  "rating": 4.7,
+  "review_count": 64,
+  "source": "Google"
+ },
+ {
+  "name": "Harrison Tot Lot",
+  "latitude": 41.8317767,
+  "longitude": -87.8563247,
+  "rating": 4.4,
+  "review_count": 18,
+  "source": "Google"
+ },
+ {
+  "name": "Keeler Park",
+  "latitude": 41.7227387,
+  "longitude": -87.72710649999999,
+  "rating": 4.6,
+  "review_count": 8,
+  "source": "Google"
+ },
+ {
+  "name": "POP! Heights Park",
+  "latitude": 41.6894545,
+  "longitude": -87.6419253,
+  "rating": 4.8,
+  "review_count": 6,
+  "source": "Google"
+ },
+ {
+  "name": "Columbus (Christopher) Park",
+  "latitude": 41.8742824,
+  "longitude": -87.76953929999999,
+  "rating": 4.3,
+  "review_count": 1008,
+  "source": "Google"
+ },
+ {
+  "name": "Harsh - Vivian G. - Park",
+  "latitude": 41.8139849,
+  "longitude": -87.5954275,
+  "rating": 4.8,
+  "review_count": 11,
+  "source": "Google"
+ },
+ {
+  "name": "Willow Park",
+  "latitude": 41.73705229999999,
+  "longitude": -87.8867056,
+  "rating": 4.1,
+  "review_count": 13,
+  "source": "Google"
+ },
+ {
+  "name": "Joseph T. McKeon Jr. Park",
+  "latitude": 41.8292642,
+  "longitude": -87.6414777,
+  "rating": 4.2,
+  "review_count": 18,
+  "source": "Google"
+ },
+ {
+  "name": "Pleasure Lake Park",
+  "latitude": 41.69514789999999,
+  "longitude": -87.816982,
+  "rating": 4.8,
+  "review_count": 11,
+  "source": "Google"
+ },
+ {
+  "name": "Roy A. Overholt Field",
+  "latitude": 41.8233548,
+  "longitude": -87.8396838,
+  "rating": 4.9,
+  "review_count": 22,
+  "source": "Google"
+ },
+ {
+  "name": "Anderson (Louis) Park",
+  "latitude": 41.8259887,
+  "longitude": -87.6207921,
+  "rating": 4.3,
+  "review_count": 52,
+  "source": "Google"
+ },
+ {
+  "name": "Brighton Park",
+  "latitude": 41.8294831,
+  "longitude": -87.698016,
+  "rating": 4.2,
+  "review_count": 30,
+  "source": "Google"
+ },
+ {
+  "name": "Veterans Park",
+  "latitude": 41.8150775,
+  "longitude": -87.8276506,
+  "rating": 4.7,
+  "review_count": 230,
+  "source": "Google"
+ },
+ {
+  "name": "Mandrake (Henry Brown) Park",
+  "latitude": 41.8233375,
+  "longitude": -87.607035,
+  "rating": 4.4,
+  "review_count": 442,
+  "source": "Google"
+ },
+ {
+  "name": "Wrightwood Park",
+  "latitude": 41.9282184,
+  "longitude": -87.6664639,
+  "rating": 4.5,
+  "review_count": 247,
+  "source": "Google"
+ },
+ {
+  "name": "Saganashkee Slough Woods",
+  "latitude": 41.6941748,
+  "longitude": -87.8966983,
+  "rating": 4.6,
+  "review_count": 324,
+  "source": "Google"
+ },
+ {
+  "name": "Lake Katherine Nature Center and Botanic Gardens",
+  "latitude": 41.6776048,
+  "longitude": -87.8010774,
+  "rating": 4.8,
+  "review_count": 3256,
+  "source": "Google"
+ },
+ {
+  "name": "Munroe (Roy) Park",
+  "latitude": 41.7017894,
+  "longitude": -87.6869124,
+  "rating": 4.2,
+  "review_count": 59,
+  "source": "Google"
+ },
+ {
+  "name": "Park No. 534",
+  "latitude": 41.8639752,
+  "longitude": -87.7128831,
+  "rating": 4,
+  "review_count": 35,
+  "source": "Google"
+ },
+ {
+  "name": "Nature Boardwalk at Lincoln Park Zoo",
+  "latitude": 41.9191728,
+  "longitude": -87.6332687,
+  "rating": 4.8,
+  "review_count": 849,
+  "source": "Google"
+ },
+ {
+  "name": "Berger (Albert) Park",
+  "latitude": 41.9953973,
+  "longitude": -87.6551333,
+  "rating": 4.6,
+  "review_count": 461,
+  "source": "Google"
+ },
+ {
+  "name": "Sunshine Park",
+  "latitude": 41.7355814,
+  "longitude": -87.9470604,
+  "rating": 4.5,
+  "review_count": 25,
+  "source": "Google"
+ },
+ {
+  "name": "Ehlert Park",
+  "latitude": 41.810917,
+  "longitude": -87.84795969999999,
+  "rating": 4.6,
+  "review_count": 492,
+  "source": "Google"
+ },
+ {
+  "name": "Ward (A. Montgomery) Park",
+  "latitude": 41.8934679,
+  "longitude": -87.642225,
+  "rating": 4.6,
+  "review_count": 568,
+  "source": "Google"
+ },
+ {
+  "name": "Palmer Square Park",
+  "latitude": 41.9210378,
+  "longitude": -87.70463029999999,
+  "rating": 4.7,
+  "review_count": 915,
+  "source": "Google"
+ },
+ {
+  "name": "Guardian Park",
+  "latitude": 41.702361,
+  "longitude": -87.7850859,
+  "rating": 4.3,
+  "review_count": 6,
+  "source": "Google"
+ },
+ {
+  "name": "Dvorak (Anton) Park",
+  "latitude": 41.8543217,
+  "longitude": -87.6539063,
+  "rating": 4.5,
+  "review_count": 384,
+  "source": "Google"
+ },
+ {
+  "name": "Tuley (Murray) Park",
+  "latitude": 41.7302432,
+  "longitude": -87.6120906,
+  "rating": 4.3,
+  "review_count": 371,
+  "source": "Google"
+ },
+ {
+  "name": "Central Park North Fields - Oak Brook Park District",
+  "latitude": 41.84042669999999,
+  "longitude": -87.95263369999999,
+  "rating": 4.7,
+  "review_count": 18,
+  "source": "Google"
+ },
+ {
+  "name": "John Mills Park",
+  "latitude": 41.9310355,
+  "longitude": -87.81613229999999,
+  "rating": 4.2,
+  "review_count": 79,
+  "source": "Google"
+ },
+ {
+  "name": "Dillon Park",
+  "latitude": 41.7090389,
+  "longitude": -87.7457424,
+  "rating": 4.5,
+  "review_count": 132,
+  "source": "Google"
+ },
+ {
+  "name": "Northeast Park",
+  "latitude": 41.8195593,
+  "longitude": -87.89191780000002,
+  "rating": 4.4,
+  "review_count": 33,
+  "source": "Google"
+ },
+ {
+  "name": "Saganashkee Slough Boatlaunch",
+  "latitude": 41.69635,
+  "longitude": -87.905329,
+  "rating": 4.6,
+  "review_count": 13,
+  "source": "Google"
+ },
+ {
+  "name": "Spring Rock Park",
+  "latitude": 41.8056777,
+  "longitude": -87.90712289999999,
+  "rating": 4.7,
+  "review_count": 341,
+  "source": "Google"
+ },
+ {
+  "name": "Sauganash Park",
+  "latitude": 41.9882005,
+  "longitude": -87.7373095,
+  "rating": 4.6,
+  "review_count": 159,
+  "source": "Google"
+ },
+ {
+  "name": "Bell (George, Jr.) Park",
+  "latitude": 41.9352539,
+  "longitude": -87.7962026,
+  "rating": 4.4,
+  "review_count": 308,
+  "source": "Google"
+ },
+ {
+  "name": "Peirce Park",
+  "latitude": 41.80734750000001,
+  "longitude": -87.9135604,
+  "rating": 4.4,
+  "review_count": 49,
+  "source": "Google"
+ },
+ {
+  "name": "Wang (Chi Che) Park",
+  "latitude": 41.933211,
+  "longitude": -87.67287900000001,
+  "rating": 4.4,
+  "review_count": 109,
+  "source": "Google"
+ },
+ {
+  "name": "Hornbeam Park",
+  "latitude": 41.8618998,
+  "longitude": -87.72053939999999,
+  "rating": 4.3,
+  "review_count": 12,
+  "source": "Google"
+ },
+ {
+  "name": "Donovan (George) Park",
+  "latitude": 41.82809839999999,
+  "longitude": -87.6485635,
+  "rating": 4.5,
+  "review_count": 117,
+  "source": "Google"
+ },
+ {
+  "name": "Eldridge Park",
+  "latitude": 41.8642881,
+  "longitude": -87.95276710000002,
+  "rating": 4.7,
+  "review_count": 293,
+  "source": "Google"
+ },
+ {
+  "name": "Cermak Woods",
+  "latitude": 41.8175931,
+  "longitude": -87.8113343,
+  "rating": 4.4,
+  "review_count": 341,
+  "source": "Google"
+ },
+ {
+  "name": "Robert Taylor Park",
+  "latitude": 41.807817,
+  "longitude": -87.62717839999999,
+  "rating": 4.3,
+  "review_count": 309,
+  "source": "Google"
+ },
+ {
+  "name": "Brainerd Park",
+  "latitude": 41.7276762,
+  "longitude": -87.6543207,
+  "rating": 4.2,
+  "review_count": 241,
+  "source": "Google"
+ },
+ {
+  "name": "Westchester Park District",
+  "latitude": 41.8521929,
+  "longitude": -87.8774823,
+  "rating": 4.3,
+  "review_count": 107,
+  "source": "Google"
+ },
+ {
+  "name": "Algonquin Park",
+  "latitude": 41.9352206,
+  "longitude": -87.69497439999999,
+  "rating": 4.7,
+  "review_count": 38,
+  "source": "Google"
+ },
+ {
+  "name": "Westchester Woods",
+  "latitude": 41.8482912,
+  "longitude": -87.874249,
+  "rating": 4.5,
+  "review_count": 140,
+  "source": "Google"
+ },
+ {
+  "name": "Horner (Henry) Park",
+  "latitude": 41.9577997,
+  "longitude": -87.69637209999999,
+  "rating": 4.6,
+  "review_count": 1629,
+  "source": "Google"
+ },
+ {
+  "name": "Columbia Woods",
+  "latitude": 41.7320195,
+  "longitude": -87.8883173,
+  "rating": 4.5,
+  "review_count": 126,
+  "source": "Google"
+ },
+ {
+  "name": "Senka (Edward \"Duke\") Park",
+  "latitude": 41.7914942,
+  "longitude": -87.7121252,
+  "rating": 4.3,
+  "review_count": 761,
+  "source": "Google"
+ },
+ {
+  "name": "Ronan (George) Park",
+  "latitude": 41.9709378,
+  "longitude": -87.7037149,
+  "rating": 4.6,
+  "review_count": 266,
+  "source": "Google"
+ },
+ {
+  "name": "Margate Park Puptown Dog Park",
+  "latitude": 41.969952,
+  "longitude": -87.6490953,
+  "rating": 4.6,
+  "review_count": 237,
+  "source": "Google"
+ },
+ {
+  "name": "Pyrce Park",
+  "latitude": 41.8577811,
+  "longitude": -87.7909109,
+  "rating": 4.3,
+  "review_count": 119,
+  "source": "Google"
+ },
+ {
+  "name": "Pullman (George) Park",
+  "latitude": 41.6922944,
+  "longitude": -87.60953889999999,
+  "rating": 4.5,
+  "review_count": 6,
+  "source": "Google"
+ },
+ {
+  "name": "Park No. 519",
+  "latitude": 41.8539585,
+  "longitude": -87.7126821,
+  "rating": 3.3,
+  "review_count": 8,
+  "source": "Google"
+ },
+ {
+  "name": "Butterfield Park",
+  "latitude": 41.87283060000001,
+  "longitude": -87.9263797,
+  "rating": 4.8,
+  "review_count": 303,
+  "source": "Google"
+ },
+ {
+  "name": "Connors (William) Park",
+  "latitude": 41.8986953,
+  "longitude": -87.6267362,
+  "rating": 4.6,
+  "review_count": 158,
+  "source": "Google"
+ },
+ {
+  "name": "Dr. Conrad Worrill Track & Field Center",
+  "latitude": 41.7094785,
+  "longitude": -87.60517159999999,
+  "rating": 4.4,
+  "review_count": 717,
+  "source": "Google"
+ },
+ {
+  "name": "Darien Community Park",
+  "latitude": 41.7593646,
+  "longitude": -87.95542209999999,
+  "rating": 4.6,
+  "review_count": 548,
+  "source": "Google"
+ },
+ {
+  "name": "Burns Field Park",
+  "latitude": 41.8081728,
+  "longitude": -87.93547149999999,
+  "rating": 4.6,
+  "review_count": 58,
+  "source": "Google"
+ },
+ {
+  "name": "Euclid Park",
+  "latitude": 41.7165383,
+  "longitude": -87.6375829,
+  "rating": 4.1,
+  "review_count": 105,
+  "source": "Google"
+ },
+ {
+  "name": "Teason's Woods",
+  "latitude": 41.6845137,
+  "longitude": -87.873018,
+  "rating": 4.7,
+  "review_count": 165,
+  "source": "Google"
+ },
+ {
+  "name": "Sears Park",
+  "latitude": 41.6675419,
+  "longitude": -87.7080247,
+  "rating": 4.5,
+  "review_count": 235,
+  "source": "Google"
+ },
+ {
+  "name": "Athletic Field Park",
+  "latitude": 41.9474204,
+  "longitude": -87.7170178,
+  "rating": 4.5,
+  "review_count": 132,
+  "source": "Google"
+ },
+ {
+  "name": "Walker Recreation Center",
+  "latitude": 41.7524437,
+  "longitude": -87.8944156,
+  "rating": 4.7,
+  "review_count": 192,
+  "source": "Google"
+ },
+ {
+  "name": "Circle Park",
+  "latitude": 41.71650289999999,
+  "longitude": -87.7065473,
+  "rating": 4.8,
+  "review_count": 4,
+  "source": "Google"
+ },
+ {
+  "name": "Weber Park",
+  "latitude": 41.7355255,
+  "longitude": -87.9486385,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Moore (Maurice) Park",
+  "latitude": 41.8780281,
+  "longitude": -87.75236509999999,
+  "rating": 4.1,
+  "review_count": 229,
+  "source": "Google"
+ },
+ {
+  "name": "Sedgwick Park",
+  "latitude": 41.8035792,
+  "longitude": -87.8604998,
+  "rating": 4.5,
+  "review_count": 270,
+  "source": "Google"
+ },
+ {
+  "name": "North Riverside Parks & Recreation",
+  "latitude": 41.84604789999999,
+  "longitude": -87.8221373,
+  "rating": 4.6,
+  "review_count": 223,
+  "source": "Google"
+ },
+ {
+  "name": "McKiernan (David) Park",
+  "latitude": 41.6983066,
+  "longitude": -87.702856,
+  "rating": 4.2,
+  "review_count": 54,
+  "source": "Google"
+ },
+ {
+  "name": "Garfield Park Conservatory",
+  "latitude": 41.8864959,
+  "longitude": -87.717822,
+  "rating": 4.8,
+  "review_count": 795,
+  "source": "Yelp"
+ },
+ {
+  "name": "Millennium Park",
+  "latitude": 41.88255748421691,
+  "longitude": -87.62255156982617,
+  "rating": 4.6,
+  "review_count": 1455,
+  "source": "Yelp"
+ },
+ {
+  "name": "Humboldt Park",
+  "latitude": 41.905754,
+  "longitude": -87.702181,
+  "rating": 4.4,
+  "review_count": 136,
+  "source": "Yelp"
+ },
+ {
+  "name": "Lincoln Park Conservatory",
+  "latitude": 41.92433507444941,
+  "longitude": -87.6352185,
+  "rating": 4.6,
+  "review_count": 304,
+  "source": "Yelp"
+ },
+ {
+  "name": "The 606 - Bloomingdale Trail",
+  "latitude": 41.9142769731426,
+  "longitude": -87.6689563391785,
+  "rating": 4.2,
+  "review_count": 175,
+  "source": "Yelp"
+ },
+ {
+  "name": "Maggie Daley Park - Chicago Park District",
+  "latitude": 41.882361,
+  "longitude": -87.61944,
+  "rating": 4.5,
+  "review_count": 222,
+  "source": "Yelp"
+ },
+ {
+  "name": "Chicago Park District - OZ PARK",
+  "latitude": 41.9209,
+  "longitude": -87.64566,
+  "rating": 4.5,
+  "review_count": 119,
+  "source": "Yelp"
+ },
+ {
+  "name": "Montrose Dog Beach",
+  "latitude": 41.968549496721856,
+  "longitude": -87.64338043313141,
+  "rating": 4.4,
+  "review_count": 295,
+  "source": "Yelp"
+ },
+ {
+  "name": "Wicker Park - Chicago Park District",
+  "latitude": 41.9077397733836,
+  "longitude": -87.6764158224562,
+  "rating": 3.8,
+  "review_count": 121,
+  "source": "Yelp"
+ },
+ {
+  "name": "Alfred Caldwell Lily Pool",
+  "latitude": 41.9248276,
+  "longitude": -87.6340494,
+  "rating": 4.8,
+  "review_count": 87,
+  "source": "Yelp"
+ },
+ {
+  "name": "Grant Park",
+  "latitude": 41.8758205085886,
+  "longitude": -87.6189493035277,
+  "rating": 4.6,
+  "review_count": 216,
+  "source": "Yelp"
+ },
+ {
+  "name": "Nature Boardwalk at Lincoln Park Zoo",
+  "latitude": 41.9178065834321,
+  "longitude": -87.6331114768982,
+  "rating": 4.7,
+  "review_count": 34,
+  "source": "Yelp"
+ },
+ {
+  "name": "Lincoln Park",
+  "latitude": 41.938925247844,
+  "longitude": -87.63694678506332,
+  "rating": 4.4,
+  "review_count": 102,
+  "source": "Yelp"
+ },
+ {
+  "name": "Doggy Paddle Aquatic Center For Dogs",
+  "latitude": 41.914667,
+  "longitude": -87.663309,
+  "rating": 4.2,
+  "review_count": 123,
+  "source": "Yelp"
+ },
+ {
+  "name": "Ping Tom Memorial Park",
+  "latitude": 41.85695918314,
+  "longitude": -87.634402088742,
+  "rating": 4.3,
+  "review_count": 84,
+  "source": "Yelp"
+ },
+ {
+  "name": "Washington Square Park",
+  "latitude": 41.8999342,
+  "longitude": -87.6311388,
+  "rating": 4.3,
+  "review_count": 34,
+  "source": "Yelp"
+ },
+ {
+  "name": "The Park at Lakeshore East",
+  "latitude": 41.885980594423,
+  "longitude": -87.61759122481,
+  "rating": 4.5,
+  "review_count": 47,
+  "source": "Yelp"
+ },
+ {
+  "name": "Lake Shore Park",
+  "latitude": 41.8969333,
+  "longitude": -87.6173388,
+  "rating": 4.3,
+  "review_count": 24,
+  "source": "Yelp"
+ },
+ {
+  "name": "Mariano Park",
+  "latitude": 41.90181,
+  "longitude": -87.628199,
+  "rating": 4.4,
+  "review_count": 21,
+  "source": "Yelp"
+ },
+ {
+  "name": "North Park Village Nature Center",
+  "latitude": 41.9878746037679,
+  "longitude": -87.7244325590962,
+  "rating": 4.6,
+  "review_count": 70,
+  "source": "Yelp"
+ },
+ {
+  "name": "Scoville Park",
+  "latitude": 41.889465,
+  "longitude": -87.795284,
+  "rating": 4.8,
+  "review_count": 12,
+  "source": "Yelp"
+ },
+ {
+  "name": "Skinner Bark Park",
+  "latitude": 41.88042444984986,
+  "longitude": -87.66170922436001,
+  "rating": 4.6,
+  "review_count": 20,
+  "source": "Yelp"
+ },
+ {
+  "name": "Adams Playground Park",
+  "latitude": 41.9164999,
+  "longitude": -87.65513061534425,
+  "rating": 4.8,
+  "review_count": 36,
+  "source": "Yelp"
+ },
+ {
+  "name": "Milton Lee Olive Park",
+  "latitude": 41.892954920055,
+  "longitude": -87.611668208183,
+  "rating": 4.6,
+  "review_count": 46,
+  "source": "Yelp"
+ },
+ {
+  "name": "Smith Park - Chicago Park District",
+  "latitude": 41.893012707026635,
+  "longitude": -87.69051985280817,
+  "rating": 4.3,
+  "review_count": 18,
+  "source": "Yelp"
+ },
+ {
+  "name": "Mary Bartleme Park",
+  "latitude": 41.8801605,
+  "longitude": -87.6506214,
+  "rating": 4.2,
+  "review_count": 40,
+  "source": "Yelp"
+ },
+ {
+  "name": "Fred Anderson Park",
+  "latitude": 41.85973,
+  "longitude": -87.62516,
+  "rating": 4.6,
+  "review_count": 35,
+  "source": "Yelp"
+ },
+ {
+  "name": "Palmisano Park",
+  "latitude": 41.8443604,
+  "longitude": -87.6465649,
+  "rating": 4.7,
+  "review_count": 45,
+  "source": "Yelp"
+ },
+ {
+  "name": "Winnemac Park",
+  "latitude": 41.9744833,
+  "longitude": -87.6795225,
+  "rating": 4.4,
+  "review_count": 64,
+  "source": "Yelp"
+ },
+ {
+  "name": "Montrose Point Bird Sanctuary",
+  "latitude": 41.963112786736005,
+  "longitude": -87.6328735351562,
+  "rating": 4.5,
+  "review_count": 34,
+  "source": "Yelp"
+ },
+ {
+  "name": "Churchill Field Dog Park",
+  "latitude": 41.914647,
+  "longitude": -87.6773659,
+  "rating": 3.7,
+  "review_count": 43,
+  "source": "Yelp"
+ },
+ {
+  "name": "Margaret Donahue Park",
+  "latitude": 41.94191486570991,
+  "longitude": -87.66029956107414,
+  "rating": 4.8,
+  "review_count": 12,
+  "source": "Yelp"
+ },
+ {
+  "name": "Holstein Park",
+  "latitude": 41.92188,
+  "longitude": -87.6856349,
+  "rating": 3.6,
+  "review_count": 54,
+  "source": "Yelp"
+ },
+ {
+  "name": "Portage Park",
+  "latitude": 41.95507,
+  "longitude": -87.7622549,
+  "rating": 3.8,
+  "review_count": 89,
+  "source": "Yelp"
+ },
+ {
+  "name": "Puptown",
+  "latitude": 41.97219,
+  "longitude": -87.65045,
+  "rating": 4.3,
+  "review_count": 58,
+  "source": "Yelp"
+ },
+ {
+  "name": "Arrigo Park",
+  "latitude": 41.871732,
+  "longitude": -87.660183,
+  "rating": 4.6,
+  "review_count": 21,
+  "source": "Yelp"
+ },
+ {
+  "name": "Skinner Park",
+  "latitude": 41.8790399283171,
+  "longitude": -87.6621262729168,
+  "rating": 4.9,
+  "review_count": 8,
+  "source": "Yelp"
+ },
+ {
+  "name": "Oak Park Conservatory",
+  "latitude": 41.87143,
+  "longitude": -87.78968,
+  "rating": 4.7,
+  "review_count": 59,
+  "source": "Yelp"
+ },
+ {
+  "name": "West Ridge Nature Park",
+  "latitude": 41.98716657597812,
+  "longitude": -87.68847972676143,
+  "rating": 4.6,
+  "review_count": 19,
+  "source": "Yelp"
+ },
+ {
+  "name": "Commercial Club Playground",
+  "latitude": 41.896629,
+  "longitude": -87.67380656096604,
+  "rating": 4.8,
+  "review_count": 5,
+  "source": "Yelp"
+ },
+ {
+  "name": "Palmer Square",
+  "latitude": 41.921008,
+  "longitude": -87.705231,
+  "rating": 4.2,
+  "review_count": 34,
+  "source": "Yelp"
+ },
+ {
+  "name": "Grant Bark Park",
+  "latitude": 41.8705283115567,
+  "longitude": -87.6216843575122,
+  "rating": 4.3,
+  "review_count": 29,
+  "source": "Yelp"
+ },
+ {
+  "name": "North Branch Trail",
+  "latitude": 41.9974031299353,
+  "longitude": -87.7854656428099,
+  "rating": 4.6,
+  "review_count": 48,
+  "source": "Yelp"
+ },
+ {
+  "name": "Eckhart Park - Chicago Park District",
+  "latitude": 41.897196,
+  "longitude": -87.661225,
+  "rating": 3.4,
+  "review_count": 44,
+  "source": "Yelp"
+ },
+ {
+  "name": "Chicago Park District - Welles Park",
+  "latitude": 41.96240358965201,
+  "longitude": -87.68629569788955,
+  "rating": 4.0,
+  "review_count": 56,
+  "source": "Yelp"
+ },
+ {
+  "name": "Gompers Park",
+  "latitude": 41.976337813352515,
+  "longitude": -87.7368838,
+  "rating": 4.5,
+  "review_count": 28,
+  "source": "Yelp"
+ },
+ {
+  "name": "Kilbourn Park & Organic Green House",
+  "latitude": 41.9444149,
+  "longitude": -87.739639,
+  "rating": 4.9,
+  "review_count": 15,
+  "source": "Yelp"
+ },
+ {
+  "name": "Erie Park",
+  "latitude": 41.89340418048148,
+  "longitude": -87.6417633588956,
+  "rating": 4.3,
+  "review_count": 21,
+  "source": "Yelp"
+ },
+ {
+  "name": "Haas Park",
+  "latitude": 41.9249956,
+  "longitude": -87.6951523,
+  "rating": 4.6,
+  "review_count": 11,
+  "source": "Yelp"
+ },
+ {
+  "name": "Douglas Park",
+  "latitude": 41.862119,
+  "longitude": -87.699474,
+  "rating": 3.9,
+  "review_count": 25,
+  "source": "Yelp"
+ },
+ {
+  "name": "Seneca Park",
+  "latitude": 41.89716169430479,
+  "longitude": -87.6223240588337,
+  "rating": 4.3,
+  "review_count": 18,
+  "source": "Yelp"
+ },
+ {
+  "name": "North Pond Nature Sanctuary",
+  "latitude": 41.9280803527177,
+  "longitude": -87.6369094848633,
+  "rating": 4.5,
+  "review_count": 11,
+  "source": "Yelp"
+ },
+ {
+  "name": "Grant Park Rose Garden",
+  "latitude": 41.87831811,
+  "longitude": -87.62033096,
+  "rating": 4.8,
+  "review_count": 8,
+  "source": "Yelp"
+ },
+ {
+  "name": "Berger Park",
+  "latitude": 41.9947845,
+  "longitude": -87.6553686,
+  "rating": 4.2,
+  "review_count": 24,
+  "source": "Yelp"
+ },
+ {
+  "name": "Chicago Park District - River Park",
+  "latitude": 41.974111,
+  "longitude": -87.7014049,
+  "rating": 3.8,
+  "review_count": 29,
+  "source": "Yelp"
+ },
+ {
+  "name": "Union Park",
+  "latitude": 41.884073,
+  "longitude": -87.665419,
+  "rating": 3.4,
+  "review_count": 20,
+  "source": "Yelp"
+ },
+ {
+  "name": "Clarendon Park",
+  "latitude": 41.9631777568729,
+  "longitude": -87.648799046513,
+  "rating": 4.7,
+  "review_count": 7,
+  "source": "Yelp"
+ },
+ {
+  "name": "Kosciuszko Park",
+  "latitude": 41.9307066500187,
+  "longitude": -87.7233094722033,
+  "rating": 3.8,
+  "review_count": 18,
+  "source": "Yelp"
+ },
+ {
+  "name": "Pulaski Park Fieldhouse",
+  "latitude": 41.9069151,
+  "longitude": -87.6636025,
+  "rating": 4.4,
+  "review_count": 11,
+  "source": "Yelp"
+ },
+ {
+  "name": "Logan Square Dog Park",
+  "latitude": 41.92749,
+  "longitude": -87.688118,
+  "rating": 4.4,
+  "review_count": 15,
+  "source": "Yelp"
+ },
+ {
+  "name": "Mckinley Park",
+  "latitude": 41.824609522162426,
+  "longitude": -87.67987420449731,
+  "rating": 4.2,
+  "review_count": 11,
+  "source": "Yelp"
+ },
+ {
+  "name": "Chicago Park District - Jefferson Memorial Park",
+  "latitude": 41.96850553544424,
+  "longitude": -87.7636825189759,
+  "rating": 4.1,
+  "review_count": 17,
+  "source": "Yelp"
+ },
+ {
+  "name": "Independence Park",
+  "latitude": 41.95262142119797,
+  "longitude": -87.72360828543947,
+  "rating": 3.9,
+  "review_count": 23,
+  "source": "Yelp"
+ },
+ {
+  "name": "The Green At 320",
+  "latitude": 41.87702,
+  "longitude": -87.64036,
+  "rating": 5.0,
+  "review_count": 3,
+  "source": "Yelp"
+ },
+ {
+  "name": "Cricket Hill",
+  "latitude": 41.9643087210033,
+  "longitude": -87.6425743103027,
+  "rating": 4.2,
+  "review_count": 11,
+  "source": "Yelp"
+ },
+ {
+  "name": "Hamlin Park",
+  "latitude": 41.9365766644478,
+  "longitude": -87.680624127388,
+  "rating": 3.8,
+  "review_count": 39,
+  "source": "Yelp"
+ },
+ {
+  "name": "Churchill Field Park",
+  "latitude": 41.914647,
+  "longitude": -87.6773659,
+  "rating": 3.4,
+  "review_count": 10,
+  "source": "Yelp"
+ },
+ {
+  "name": "Ward Dog Friendly Area",
+  "latitude": 41.8943139409179,
+  "longitude": -87.6431825011969,
+  "rating": 4.1,
+  "review_count": 14,
+  "source": "Yelp"
+ },
+ {
+  "name": "Dog Beach at Belmont Harbor",
+  "latitude": 41.9452272071354,
+  "longitude": -87.6403362555475,
+  "rating": 3.8,
+  "review_count": 43,
+  "source": "Yelp"
+ },
+ {
+  "name": "Gold Star Families Memorial and Park",
+  "latitude": 41.86243789218674,
+  "longitude": -87.61405085003545,
+  "rating": 4.9,
+  "review_count": 7,
+  "source": "Yelp"
+ },
+ {
+  "name": "Northerly Island Park",
+  "latitude": 41.86113996216035,
+  "longitude": -87.609921,
+  "rating": 3.5,
+  "review_count": 97,
+  "source": "Yelp"
+ },
+ {
+  "name": "Chase Park",
+  "latitude": 41.96718,
+  "longitude": -87.6692651,
+  "rating": 3.8,
+  "review_count": 29,
+  "source": "Yelp"
+ },
+ {
+  "name": "Horner Park",
+  "latitude": 41.960563445128805,
+  "longitude": -87.69771231446835,
+  "rating": 3.9,
+  "review_count": 52,
+  "source": "Yelp"
+ },
+ {
+  "name": "Tobey Prinz Beach Park",
+  "latitude": 42.005533,
+  "longitude": -87.657515,
+  "rating": 4.4,
+  "review_count": 22,
+  "source": "Yelp"
+ },
+ {
+  "name": "Wiggly Field",
+  "latitude": 41.9305267333984,
+  "longitude": -87.653434753418,
+  "rating": 3.2,
+  "review_count": 89,
+  "source": "Yelp"
+ },
+ {
+  "name": "Brands Park",
+  "latitude": 41.9405269,
+  "longitude": -87.6997038,
+  "rating": 3.9,
+  "review_count": 8,
+  "source": "Yelp"
+ },
+ {
+  "name": "Lucy Flower Park",
+  "latitude": 41.9148541034437,
+  "longitude": -87.6911063504363,
+  "rating": 4.2,
+  "review_count": 5,
+  "source": "Yelp"
+ },
+ {
+  "name": "Lincoln Park Chess Pavilion",
+  "latitude": 41.911316040085,
+  "longitude": -87.6250094297817,
+  "rating": 5.0,
+  "review_count": 6,
+  "source": "Yelp"
+ },
+ {
+  "name": "Horner Dog Friendly Area",
+  "latitude": 41.957808,
+  "longitude": -87.696286,
+  "rating": 4.6,
+  "review_count": 8,
+  "source": "Yelp"
+ },
+ {
+  "name": "North Shore Channel Trail",
+  "latitude": 41.9721601903439,
+  "longitude": -87.7012402564287,
+  "rating": 4.3,
+  "review_count": 21,
+  "source": "Yelp"
+ },
+ {
+  "name": "Hartigan Park & Beach",
+  "latitude": 42.0025274902582,
+  "longitude": -87.6578293740749,
+  "rating": 4.7,
+  "review_count": 12,
+  "source": "Yelp"
+ },
+ {
+  "name": "Caldwell Woods",
+  "latitude": 41.9991288621352,
+  "longitude": -87.7873524043102,
+  "rating": 4.5,
+  "review_count": 26,
+  "source": "Yelp"
+ },
+ {
+  "name": "Mayfair Park",
+  "latitude": 41.9627349,
+  "longitude": -87.7421528,
+  "rating": 4.6,
+  "review_count": 8,
+  "source": "Yelp"
+ },
+ {
+  "name": "Garfield Park",
+  "latitude": 41.8816052,
+  "longitude": -87.7160004,
+  "rating": 3.4,
+  "review_count": 9,
+  "source": "Yelp"
+ },
+ {
+  "name": "Harrison Park",
+  "latitude": 41.856880639455326,
+  "longitude": -87.67368150059227,
+  "rating": 3.6,
+  "review_count": 19,
+  "source": "Yelp"
+ },
+ {
+  "name": "McGuane Park",
+  "latitude": 41.8413238,
+  "longitude": -87.6494458,
+  "rating": 4.0,
+  "review_count": 9,
+  "source": "Yelp"
+ },
+ {
+  "name": "Eugene Field Park",
+  "latitude": 41.9736903,
+  "longitude": -87.7221749,
+  "rating": 4.5,
+  "review_count": 15,
+  "source": "Yelp"
+ },
+ {
+  "name": "Lincoln Park South Lagoon",
+  "latitude": 41.922772046001,
+  "longitude": -87.6315343379974,
+  "rating": 4.8,
+  "review_count": 4,
+  "source": "Yelp"
+ },
+ {
+  "name": "Columbus Park",
+  "latitude": 41.8737848,
+  "longitude": -87.7648201,
+  "rating": 3.7,
+  "review_count": 22,
+  "source": "Yelp"
+ },
+ {
+  "name": "Weisman Park",
+  "latitude": 41.935350894928,
+  "longitude": -87.6517125964165,
+  "rating": 4.8,
+  "review_count": 4,
+  "source": "Yelp"
+ },
+ {
+  "name": "Athletic Field Park",
+  "latitude": 41.9466523,
+  "longitude": -87.71678,
+  "rating": 4.1,
+  "review_count": 9,
+  "source": "Yelp"
+ },
+ {
+  "name": "Montgomery Ward Park",
+  "latitude": 41.893485941581,
+  "longitude": -87.641977134374,
+  "rating": 4.6,
+  "review_count": 7,
+  "source": "Yelp"
+ },
+ {
+  "name": "Waveland Park",
+  "latitude": 41.9493308,
+  "longitude": -87.642858,
+  "rating": 4.5,
+  "review_count": 11,
+  "source": "Yelp"
+ },
+ {
+  "name": "Broadway Armory Park",
+  "latitude": 41.989456525374095,
+  "longitude": -87.66006858613484,
+  "rating": 3.5,
+  "review_count": 11,
+  "source": "Yelp"
+ },
+ {
+  "name": "Summer Movies in the Parks hosted by the Chicago Park District",
+  "latitude": 41.85,
+  "longitude": -87.65,
+  "rating": 4.1,
+  "review_count": 16,
+  "source": "Yelp"
+ },
+ {
+  "name": "Mills Park",
+  "latitude": 41.884751531299415,
+  "longitude": -87.80114008197584,
+  "rating": 4.7,
+  "review_count": 11,
+  "source": "Yelp"
+ },
+ {
+  "name": "LaBagh Woods",
+  "latitude": 41.88879828293474,
+  "longitude": -87.80532651165835,
+  "rating": 4.2,
+  "review_count": 22,
+  "source": "Yelp"
+ },
+ {
+  "name": "Hamlin Dog Park",
+  "latitude": 41.9365766644478,
+  "longitude": -87.680624127388,
+  "rating": 3.4,
+  "review_count": 38,
+  "source": "Yelp"
+ },
+ {
+  "name": "Clark Park",
+  "latitude": 41.9414958357811,
+  "longitude": -87.6931601017714,
+  "rating": 4.1,
+  "review_count": 8,
+  "source": "Yelp"
+ },
+ {
+  "name": "Walsh Park Dog Area",
+  "latitude": 41.9132677,
+  "longitude": -87.6678549,
+  "rating": 3.7,
+  "review_count": 13,
+  "source": "Yelp"
+ },
+ {
+  "name": "Avondale Park",
+  "latitude": 41.94131230122329,
+  "longitude": -87.71477607055229,
+  "rating": 3.7,
+  "review_count": 11,
+  "source": "Yelp"
+ },
+ {
+  "name": "Jonquil Park",
+  "latitude": 41.928615,
+  "longitude": -87.654724,
+  "rating": 4.0,
+  "review_count": 13,
+  "source": "Yelp"
+ },
+ {
+  "name": "Julia de Burgos Park",
+  "latitude": 41.913918,
+  "longitude": -87.704811,
+  "rating": 4.8,
+  "review_count": 4,
+  "source": "Yelp"
+ },
+ {
+  "name": "Thillens Stadium",
+  "latitude": 41.9975501,
+  "longitude": -87.7094449,
+  "rating": 4.2,
+  "review_count": 13,
+  "source": "Yelp"
+ },
+ {
+  "name": "Burnham Skate Park",
+  "latitude": 41.856007266733506,
+  "longitude": -87.61585614897473,
+  "rating": 4.5,
+  "review_count": 6,
+  "source": "Yelp"
+ },
+ {
+  "name": "Polk Bros Park",
+  "latitude": 41.8916138,
+  "longitude": -87.6078987,
+  "rating": 4.5,
+  "review_count": 6,
+  "source": "Yelp"
+ },
+ {
+  "name": "Warren Park",
+  "latitude": 42.00149,
+  "longitude": -87.6898351,
+  "rating": 4.2,
+  "review_count": 29,
+  "source": "Yelp"
+ },
+ {
+  "name": "River Dog Friendly Area",
+  "latitude": 41.9740114645049,
+  "longitude": -87.70198119999999,
+  "rating": 3.7,
+  "review_count": 18,
+  "source": "Yelp"
+ },
+ {
+  "name": "Ridgeland Common Recreation Complex",
+  "latitude": 41.8879934474814,
+  "longitude": -87.7872848510742,
+  "rating": 4.1,
+  "review_count": 21,
+  "source": "Yelp"
+ },
+ {
+  "name": "West Loop Dog Park",
+  "latitude": 41.88045947683182,
+  "longitude": -87.64966279389604,
+  "rating": 3.5,
+  "review_count": 16,
+  "source": "Yelp"
+ },
+ {
+  "name": "Walsh Park",
+  "latitude": 41.9132677,
+  "longitude": -87.6678549,
+  "rating": 4.0,
+  "review_count": 8,
+  "source": "Yelp"
+ },
+ {
+  "name": "Jane Addams Memorial Park",
+  "latitude": 41.89238090704662,
+  "longitude": -87.61277507382702,
+  "rating": 3.8,
+  "review_count": 5,
+  "source": "Yelp"
+ },
+ {
+  "name": "Seward Park - Chicago Park District",
+  "latitude": 41.90342097771012,
+  "longitude": -87.63834708650535,
+  "rating": 3.7,
+  "review_count": 7,
+  "source": "Yelp"
+ },
+ {
+  "name": "Ohio Place Dog Park",
+  "latitude": 41.89257,
+  "longitude": -87.6381,
+  "rating": 4.0,
+  "review_count": 10,
+  "source": "Yelp"
+ },
+ {
+  "name": "Dvorak Park",
+  "latitude": 41.85432992026175,
+  "longitude": -87.6539074,
+  "rating": 4.0,
+  "review_count": 9,
+  "source": "Yelp"
+ },
+ {
+  "name": "Proksa Park",
+  "latitude": 41.837525,
+  "longitude": -87.8002982,
+  "rating": 4.6,
+  "review_count": 11,
+  "source": "Yelp"
+ },
+ {
+  "name": "Margate Park",
+  "latitude": 41.97209895881035,
+  "longitude": -87.64977439158547,
+  "rating": 3.5,
+  "review_count": 19,
+  "source": "Yelp"
+ },
+ {
+  "name": "Coliseum Park",
+  "latitude": 41.8621520464411,
+  "longitude": -87.6261552053797,
+  "rating": 3.6,
+  "review_count": 11,
+  "source": "Yelp"
+ },
+ {
+  "name": "Thaddeus S. \u201cTed\u201d Lechowicz Woods",
+  "latitude": 41.980803,
+  "longitude": -87.755027,
+  "rating": 5.0,
+  "review_count": 5,
+  "source": "Yelp"
+ },
+ {
+  "name": "Wilson Skate Park",
+  "latitude": 41.965526,
+  "longitude": -87.64869,
+  "rating": 4.2,
+  "review_count": 13,
+  "source": "Yelp"
+ },
+ {
+  "name": "Austin Gardens",
+  "latitude": 41.8899829018204,
+  "longitude": -87.80102409999999,
+  "rating": 4.9,
+  "review_count": 8,
+  "source": "Yelp"
+ },
+ {
+  "name": "Kids and Kites Festival",
+  "latitude": 41.964309,
+  "longitude": -87.642861,
+  "rating": 4.8,
+  "review_count": 4,
+  "source": "Yelp"
+ },
+ {
+  "name": "Sheridan Park",
+  "latitude": 41.8701155,
+  "longitude": -87.6543549,
+  "rating": 4.0,
+  "review_count": 3,
+  "source": "Yelp"
+ },
+ {
+  "name": "Fellger Park",
+  "latitude": 41.939836251881744,
+  "longitude": -87.67893382825578,
+  "rating": 4.4,
+  "review_count": 5,
+  "source": "Yelp"
+ },
+ {
+  "name": "Sheil Park",
+  "latitude": 41.9454848450727,
+  "longitude": -87.663746533707,
+  "rating": 3.4,
+  "review_count": 11,
+  "source": "Yelp"
+ },
+ {
+  "name": "Formal Garden",
+  "latitude": 41.903563126675394,
+  "longitude": -87.70336771681062,
+  "rating": 5.0,
+  "review_count": 2,
+  "source": "Yelp"
+ },
+ {
+  "name": "Wilson Park",
+  "latitude": 41.9645117,
+  "longitude": -87.7580405,
+  "rating": 3.5,
+  "review_count": 8,
+  "source": "Yelp"
+ },
+ {
+  "name": "Chicago Park District - Norwood Park",
+  "latitude": 41.9866293,
+  "longitude": -87.7939919,
+  "rating": 4.3,
+  "review_count": 12,
+  "source": "Yelp"
+ },
+ {
+  "name": "Grant Park Skate Park",
+  "latitude": 41.88238244254278,
+  "longitude": -87.61936481279547,
+  "rating": 4.0,
+  "review_count": 4,
+  "source": "Yelp"
+ },
+ {
+  "name": "Bickerdike Park",
+  "latitude": 41.892306,
+  "longitude": -87.664725,
+  "rating": 3.9,
+  "review_count": 8,
+  "source": "Yelp"
+ },
+ {
+  "name": "Ohio St Beach Swimming Section",
+  "latitude": 41.8934251162939,
+  "longitude": -87.6128920515256,
+  "rating": 3.9,
+  "review_count": 10,
+  "source": "Yelp"
+ },
+ {
+  "name": "California Park",
+  "latitude": 41.951081159659225,
+  "longitude": -87.69756151881704,
+  "rating": 5.0,
+  "review_count": 4,
+  "source": "Yelp"
+ },
+ {
+  "name": "Heritage Green Park",
+  "latitude": 41.879623,
+  "longitude": -87.64318,
+  "rating": 3.6,
+  "review_count": 9,
+  "source": "Yelp"
+ },
+ {
+  "name": "Proesel Park",
+  "latitude": 42.0071422,
+  "longitude": -87.7383554,
+  "rating": 3.9,
+  "review_count": 16,
+  "source": "Yelp"
+ },
+ {
+  "name": "River Esplanade Park",
+  "latitude": 41.8887647,
+  "longitude": -87.617734,
+  "rating": 5.0,
+  "review_count": 4,
+  "source": "Yelp"
+ },
+ {
+  "name": "Honore Park",
+  "latitude": 41.898361,
+  "longitude": -87.673787,
+  "rating": 5.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "La Follette Park - Chicago Park District",
+  "latitude": 41.90502543272224,
+  "longitude": -87.75339480874028,
+  "rating": 4.0,
+  "review_count": 4,
+  "source": "Yelp"
+ },
+ {
+  "name": "Park District of Forest Park",
+  "latitude": 41.872836,
+  "longitude": -87.812422,
+  "rating": 4.0,
+  "review_count": 19,
+  "source": "Yelp"
+ },
+ {
+  "name": "Ridgeway - West Trailhead",
+  "latitude": 41.9138714094475,
+  "longitude": -87.7203258499503,
+  "rating": 5.0,
+  "review_count": 2,
+  "source": "Yelp"
+ },
+ {
+  "name": "Wrightwood Park",
+  "latitude": 41.9277601,
+  "longitude": -87.6659349,
+  "rating": 3.3,
+  "review_count": 6,
+  "source": "Yelp"
+ },
+ {
+  "name": "Piazza DiMaggio",
+  "latitude": 41.869585054949,
+  "longitude": -87.662877075914,
+  "rating": 4.1,
+  "review_count": 8,
+  "source": "Yelp"
+ },
+ {
+  "name": "Spirit of Music Gardens",
+  "latitude": 41.873178822910525,
+  "longitude": -87.62373917044229,
+  "rating": 4.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Foster Soccer Fields",
+  "latitude": 41.9756970491769,
+  "longitude": -87.648612157425,
+  "rating": 4.8,
+  "review_count": 4,
+  "source": "Yelp"
+ },
+ {
+  "name": "Peterson Park District",
+  "latitude": 41.988187,
+  "longitude": -87.72034,
+  "rating": 3.5,
+  "review_count": 13,
+  "source": "Yelp"
+ },
+ {
+  "name": "Artists of the Wall Festival",
+  "latitude": 42.0068479709816,
+  "longitude": -87.6577287613464,
+  "rating": 5.0,
+  "review_count": 2,
+  "source": "Yelp"
+ },
+ {
+  "name": "Legion Park",
+  "latitude": 41.9851404,
+  "longitude": -87.7090925,
+  "rating": 4.7,
+  "review_count": 6,
+  "source": "Yelp"
+ },
+ {
+  "name": "Lake Front Path Sledding Hill",
+  "latitude": 41.8581999,
+  "longitude": -87.61525,
+  "rating": 5.0,
+  "review_count": 4,
+  "source": "Yelp"
+ },
+ {
+  "name": "Cotton Tail Park",
+  "latitude": 41.8619749669461,
+  "longitude": -87.6285258506891,
+  "rating": 4.5,
+  "review_count": 2,
+  "source": "Yelp"
+ },
+ {
+  "name": "Roosevelt Park",
+  "latitude": 41.867447,
+  "longitude": -87.629859,
+  "rating": 5.0,
+  "review_count": 3,
+  "source": "Yelp"
+ },
+ {
+  "name": "Juniper Park",
+  "latitude": 41.9486636348685,
+  "longitude": -87.6668304024147,
+  "rating": 4.0,
+  "review_count": 3,
+  "source": "Yelp"
+ },
+ {
+  "name": "Norwood Dog Friendly Area",
+  "latitude": 41.98753641307651,
+  "longitude": -87.7921887,
+  "rating": 3.1,
+  "review_count": 27,
+  "source": "Yelp"
+ },
+ {
+  "name": "Lucy Ella Gonzales Parsons Park",
+  "latitude": 41.93912,
+  "longitude": -87.74445,
+  "rating": 5.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Dunham Park",
+  "latitude": 41.965821804457065,
+  "longitude": -87.78441194326363,
+  "rating": 4.1,
+  "review_count": 13,
+  "source": "Yelp"
+ },
+ {
+  "name": "Chicago Park District - Fosco Peter Park",
+  "latitude": 41.864906,
+  "longitude": -87.657729,
+  "rating": 3.4,
+  "review_count": 7,
+  "source": "Yelp"
+ },
+ {
+  "name": "Chicago Park District - Riis Park",
+  "latitude": 41.9255860581904,
+  "longitude": -87.78139469921436,
+  "rating": 3.2,
+  "review_count": 14,
+  "source": "Yelp"
+ },
+ {
+  "name": "Connors Park",
+  "latitude": 41.8986533,
+  "longitude": -87.6267351,
+  "rating": 4.2,
+  "review_count": 5,
+  "source": "Yelp"
+ },
+ {
+  "name": "Clemente Park",
+  "latitude": 41.903322,
+  "longitude": -87.6859255,
+  "rating": 4.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Rutherford Sayre Park",
+  "latitude": 41.9209938,
+  "longitude": -87.7974396,
+  "rating": 4.3,
+  "review_count": 6,
+  "source": "Yelp"
+ },
+ {
+  "name": "Ken-Well Park",
+  "latitude": 41.934677,
+  "longitude": -87.733459,
+  "rating": 5.0,
+  "review_count": 2,
+  "source": "Yelp"
+ },
+ {
+  "name": "West Town Dog Park",
+  "latitude": 41.89681805,
+  "longitude": -87.67442167,
+  "rating": 3.2,
+  "review_count": 5,
+  "source": "Yelp"
+ },
+ {
+  "name": "Buttercup Playlot Park",
+  "latitude": 41.9716962377052,
+  "longitude": -87.6548245420371,
+  "rating": 3.8,
+  "review_count": 5,
+  "source": "Yelp"
+ },
+ {
+  "name": "Challenger Park",
+  "latitude": 41.9587026655504,
+  "longitude": -87.6571093171476,
+  "rating": 3.1,
+  "review_count": 19,
+  "source": "Yelp"
+ },
+ {
+  "name": "Lane Beach Park",
+  "latitude": 41.9898100846344,
+  "longitude": -87.6551176607609,
+  "rating": 5.0,
+  "review_count": 2,
+  "source": "Yelp"
+ },
+ {
+  "name": "Dean Playground Park",
+  "latitude": 41.9069,
+  "longitude": -87.67085,
+  "rating": 4.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Addams/Medill Park",
+  "latitude": 41.8626823308788,
+  "longitude": -87.6631005853415,
+  "rating": 5.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Stanton Park",
+  "latitude": 41.905972147932,
+  "longitude": -87.6442583333334,
+  "rating": 5.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Gross Park",
+  "latitude": 41.9425848,
+  "longitude": -87.6713749,
+  "rating": 5.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Chi Che Wang Park",
+  "latitude": 41.9332826386302,
+  "longitude": -87.6729189349083,
+  "rating": 4.5,
+  "review_count": 2,
+  "source": "Yelp"
+ },
+ {
+  "name": "Gross Park",
+  "latitude": 41.9686749,
+  "longitude": -87.6966985,
+  "rating": 3.6,
+  "review_count": 5,
+  "source": "Yelp"
+ },
+ {
+  "name": "Mary Richardson Jones Park",
+  "latitude": 41.8666011840105,
+  "longitude": -87.6285530626774,
+  "rating": 5.0,
+  "review_count": 3,
+  "source": "Yelp"
+ },
+ {
+  "name": "Cancer Survivors Garden",
+  "latitude": 41.8836623407769,
+  "longitude": -87.6175089577026,
+  "rating": 3.7,
+  "review_count": 10,
+  "source": "Yelp"
+ },
+ {
+  "name": "Unity Playlot Park",
+  "latitude": 41.9299281784101,
+  "longitude": -87.7124673128128,
+  "rating": 4.0,
+  "review_count": 4,
+  "source": "Yelp"
+ },
+ {
+  "name": "Chopin Park",
+  "latitude": 41.943246,
+  "longitude": -87.762462,
+  "rating": 3.6,
+  "review_count": 5,
+  "source": "Yelp"
+ },
+ {
+  "name": "Paseo Prairie Garden",
+  "latitude": 41.9286169,
+  "longitude": -87.7079271,
+  "rating": 4.5,
+  "review_count": 4,
+  "source": "Yelp"
+ },
+ {
+  "name": "Dearborn Park",
+  "latitude": 41.870908,
+  "longitude": -87.628973,
+  "rating": 4.3,
+  "review_count": 4,
+  "source": "Yelp"
+ },
+ {
+  "name": "Park 578",
+  "latitude": 41.8835993018636,
+  "longitude": -87.67482928983299,
+  "rating": 4.5,
+  "review_count": 2,
+  "source": "Yelp"
+ },
+ {
+  "name": "Chicago Peace Garden",
+  "latitude": 41.9585845721505,
+  "longitude": -87.6455451920629,
+  "rating": 5.0,
+  "review_count": 3,
+  "source": "Yelp"
+ },
+ {
+  "name": "Dunbar Park",
+  "latitude": 41.8384480476379,
+  "longitude": -87.6192873716354,
+  "rating": 4.0,
+  "review_count": 7,
+  "source": "Yelp"
+ },
+ {
+  "name": "Mellin Playground",
+  "latitude": 41.9832659,
+  "longitude": -87.6696309,
+  "rating": 3.6,
+  "review_count": 5,
+  "source": "Yelp"
+ },
+ {
+  "name": "The Mart River Park",
+  "latitude": 41.88842105262477,
+  "longitude": -87.6354498,
+  "rating": 5.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Atkins Medicinal Plant Garden",
+  "latitude": 41.87072,
+  "longitude": -87.670799,
+  "rating": 5.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "The Paul and Gabriella Rosenbaum Garden",
+  "latitude": 41.9008300629614,
+  "longitude": -87.6250206493162,
+  "rating": 5.0,
+  "review_count": 2,
+  "source": "Yelp"
+ },
+ {
+  "name": "South Lakeview Playground Park",
+  "latitude": 41.9336491164054,
+  "longitude": -87.661602961377,
+  "rating": 4.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Millennium Monument",
+  "latitude": 41.8834,
+  "longitude": -87.62246,
+  "rating": 4.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Chicago Park District: Altgeld Park",
+  "latitude": 41.8747256,
+  "longitude": -87.6935411,
+  "rating": 3.5,
+  "review_count": 2,
+  "source": "Yelp"
+ },
+ {
+  "name": "Fire Station Park",
+  "latitude": 41.9175953325636,
+  "longitude": -87.6438574189733,
+  "rating": 4.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Battle of Fort Dearborn Park",
+  "latitude": 41.859859,
+  "longitude": -87.620368,
+  "rating": 5.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Chicago Park District - Lawler Park",
+  "latitude": 41.813528,
+  "longitude": -87.751377,
+  "rating": 5.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Sunshine Playground",
+  "latitude": 41.930066,
+  "longitude": -87.638014,
+  "rating": 4.5,
+  "review_count": 2,
+  "source": "Yelp"
+ },
+ {
+  "name": "Mandrake Park",
+  "latitude": 41.82314834292725,
+  "longitude": -87.6072208,
+  "rating": 4.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Archer Park",
+  "latitude": 41.8038737028837,
+  "longitude": -87.7356348931789,
+  "rating": 3.5,
+  "review_count": 4,
+  "source": "Yelp"
+ },
+ {
+  "name": "Goudy Square Park",
+  "latitude": 41.90558145184987,
+  "longitude": -87.62682666642387,
+  "rating": 4.0,
+  "review_count": 2,
+  "source": "Yelp"
+ },
+ {
+  "name": "Stanton Park - Chicago Park District",
+  "latitude": 41.9051849,
+  "longitude": -87.6436865,
+  "rating": 4.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "El Paseo Community Garden",
+  "latitude": 41.85481052868795,
+  "longitude": -87.64984022326702,
+  "rating": 5.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Warner Park and Gardens",
+  "latitude": 41.9571905,
+  "longitude": -87.6660766,
+  "rating": 4.0,
+  "review_count": 2,
+  "source": "Yelp"
+ },
+ {
+  "name": "Cascade Park",
+  "latitude": 41.886053568214315,
+  "longitude": -87.61553328484295,
+  "rating": 5.0,
+  "review_count": 2,
+  "source": "Yelp"
+ },
+ {
+  "name": "Polonia Triangle",
+  "latitude": 41.9035648,
+  "longitude": -87.66790069999999,
+  "rating": 3.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Gladstone Park -- Chicago Park District",
+  "latitude": 41.9789012521505,
+  "longitude": -87.7731999009848,
+  "rating": 4.1,
+  "review_count": 7,
+  "source": "Yelp"
+ },
+ {
+  "name": "Clover Playlot Park",
+  "latitude": 41.9221316493369,
+  "longitude": -87.663465072808,
+  "rating": 4.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Bloomingdale Trail Park",
+  "latitude": 41.9142935244831,
+  "longitude": -87.67025757042737,
+  "rating": 0.0,
+  "review_count": 0,
+  "source": "Yelp"
+ },
+ {
+  "name": "Simons Park - Chicago Park District",
+  "latitude": 41.9107598,
+  "longitude": -87.7151178,
+  "rating": 3.5,
+  "review_count": 2,
+  "source": "Yelp"
+ },
+ {
+  "name": "Cedar Playlot Park",
+  "latitude": 41.978618,
+  "longitude": -87.6578917,
+  "rating": 4.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Julia Porter Park",
+  "latitude": 41.9257733970881,
+  "longitude": -87.6493026316166,
+  "rating": 5.0,
+  "review_count": 2,
+  "source": "Yelp"
+ },
+ {
+  "name": "Lincoln Park Conservatory",
+  "latitude": 41.924292189100555,
+  "longitude": -87.63521917055344,
+  "rating": 0.0,
+  "review_count": 0,
+  "source": "Yelp"
+ },
+ {
+  "name": "Kennicott Park",
+  "latitude": 41.81428,
+  "longitude": -87.597379,
+  "rating": 4.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Cragin Park",
+  "latitude": 41.9280043244362,
+  "longitude": -87.7587012201548,
+  "rating": 4.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Jacob Park",
+  "latitude": 41.9666391200206,
+  "longitude": -87.6983099430799,
+  "rating": 5.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Hudson Chess Park",
+  "latitude": 41.91491763460279,
+  "longitude": -87.63965823683088,
+  "rating": 4.5,
+  "review_count": 2,
+  "source": "Yelp"
+ },
+ {
+  "name": "Stevenson Park",
+  "latitude": 41.887778977071,
+  "longitude": -87.778457654245,
+  "rating": 4.8,
+  "review_count": 5,
+  "source": "Yelp"
+ },
+ {
+  "name": "Park #571",
+  "latitude": 41.8438965255301,
+  "longitude": -87.6626955292912,
+  "rating": 4.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Mary Berkemeier Quinn Park-of-Trees",
+  "latitude": 41.9953499,
+  "longitude": -87.7705078,
+  "rating": 4.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Kelvyn Park",
+  "latitude": 41.92968887129189,
+  "longitude": -87.7381063,
+  "rating": 3.5,
+  "review_count": 2,
+  "source": "Yelp"
+ },
+ {
+  "name": "Chicago Park District",
+  "latitude": 42.00368958266341,
+  "longitude": -87.6846188426492,
+  "rating": 4.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Chicago Park District - Donovan Park",
+  "latitude": 41.82804,
+  "longitude": -87.6477949,
+  "rating": 4.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Chicago Park District - Wildwood Park",
+  "latitude": 42.00762355644789,
+  "longitude": -87.78033010002406,
+  "rating": 4.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Lindberg Park",
+  "latitude": 41.9060220423653,
+  "longitude": -87.8022730350494,
+  "rating": 4.3,
+  "review_count": 3,
+  "source": "Yelp"
+ },
+ {
+  "name": "Merrimac Park",
+  "latitude": 41.9520350379492,
+  "longitude": -87.7851896623587,
+  "rating": 3.8,
+  "review_count": 5,
+  "source": "Yelp"
+ },
+ {
+  "name": "Piotrowski Park",
+  "latitude": 41.8366751,
+  "longitude": -87.7309961,
+  "rating": 4.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Supera Playlot Park",
+  "latitude": 41.92801,
+  "longitude": -87.6586949,
+  "rating": 5.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Bosley Playground - Chicago Park District",
+  "latitude": 41.838830200472344,
+  "longitude": -87.65343668852417,
+  "rating": 5.0,
+  "review_count": 2,
+  "source": "Yelp"
+ },
+ {
+  "name": "Chicago Park District - Vittum Park",
+  "latitude": 41.803005,
+  "longitude": -87.748347,
+  "rating": 3.0,
+  "review_count": 6,
+  "source": "Yelp"
+ },
+ {
+  "name": "Humbert Park",
+  "latitude": 41.83831111389,
+  "longitude": -87.6429576295452,
+  "rating": 5.0,
+  "review_count": 2,
+  "source": "Yelp"
+ },
+ {
+  "name": "Ravenswood Manor Park",
+  "latitude": 41.965577,
+  "longitude": -87.70072,
+  "rating": 4.0,
+  "review_count": 3,
+  "source": "Yelp"
+ },
+ {
+  "name": "De Julio Playlot Park",
+  "latitude": 41.9918741930408,
+  "longitude": -87.7524667450332,
+  "rating": 4.0,
+  "review_count": 2,
+  "source": "Yelp"
+ },
+ {
+  "name": "Chicago Park District",
+  "latitude": 41.9033470153809,
+  "longitude": -87.6863327026367,
+  "rating": 0.0,
+  "review_count": 0,
+  "source": "Yelp"
+ },
+ {
+  "name": "Logan Square Skate Park",
+  "latitude": 41.9287417,
+  "longitude": -87.6904942,
+  "rating": 3.0,
+  "review_count": 2,
+  "source": "Yelp"
+ },
+ {
+  "name": "Bell Park",
+  "latitude": 41.9347538,
+  "longitude": -87.7957588,
+  "rating": 3.3,
+  "review_count": 4,
+  "source": "Yelp"
+ },
+ {
+  "name": "Taylor Park",
+  "latitude": 41.9028120546127,
+  "longitude": -87.7855789661407,
+  "rating": 3.8,
+  "review_count": 4,
+  "source": "Yelp"
+ },
+ {
+  "name": "Chicago Park District - Brighton Park",
+  "latitude": 41.80582,
+  "longitude": -87.68459,
+  "rating": 5.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "McInerney Park",
+  "latitude": 41.8124306201935,
+  "longitude": -87.6445966959,
+  "rating": 5.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Maplewood Playlot Park",
+  "latitude": 41.9113211,
+  "longitude": -87.691094,
+  "rating": 3.5,
+  "review_count": 2,
+  "source": "Yelp"
+ },
+ {
+  "name": "Fuller Park",
+  "latitude": 41.812264,
+  "longitude": -87.634616,
+  "rating": 5.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Indian Road Park",
+  "latitude": 41.9928534,
+  "longitude": -87.7784156,
+  "rating": 4.0,
+  "review_count": 5,
+  "source": "Yelp"
+ },
+ {
+  "name": "Wild Mile",
+  "latitude": 41.906666,
+  "longitude": -87.651041,
+  "rating": 0.0,
+  "review_count": 0,
+  "source": "Yelp"
+ },
+ {
+  "name": "Chicago Park District",
+  "latitude": 41.8637003749609,
+  "longitude": -87.6092505455017,
+  "rating": 0.0,
+  "review_count": 0,
+  "source": "Yelp"
+ },
+ {
+  "name": "Margeret T Burroughs Beach",
+  "latitude": 41.83928624082563,
+  "longitude": -87.60671800885679,
+  "rating": 4.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Dog Pub",
+  "latitude": 41.980999,
+  "longitude": -87.676031,
+  "rating": 0.0,
+  "review_count": 0,
+  "source": "Yelp"
+ },
+ {
+  "name": "Lakefront Park",
+  "latitude": 41.900287,
+  "longitude": -87.623386,
+  "rating": 0.0,
+  "review_count": 0,
+  "source": "Yelp"
+ },
+ {
+  "name": "Indiana & 16th Dog Park",
+  "latitude": 41.86025,
+  "longitude": -87.62238,
+  "rating": 3.3,
+  "review_count": 6,
+  "source": "Yelp"
+ },
+ {
+  "name": "Privet Park",
+  "latitude": 41.91505906395052,
+  "longitude": -87.65341103159236,
+  "rating": 2.0,
+  "review_count": 1,
+  "source": "Yelp"
+ }
+]
