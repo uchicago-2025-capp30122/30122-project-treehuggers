@@ -3,20 +3,22 @@ import matplotlib.pyplot as plt
 import json
 import os
 
-# WRITE A TEST ?
-# YOU SAID TO HAVE THE TAG AS A PARAMETER, BUT I AM NOT SURE WE SHOULD GIVE THAT MUCH FREEDOM TO USER? 
-# WOULDN'T ALLOWING TAGS MEAN THEY COULD PULL ANYTHING IN? THEN DATA MAY BE DIFF?
-# IS GEOJSON OKAY WITH HAVE POLYGON COORDINATES LIKE THAT ??
+#MAKE FUNCTION OR MODULE
+#Default be parks tags, parameter for rest
+# We will want to take a look at if things are intersecting
+
+
+#PULL OSM DATA
 
 # Define the place and the OSM tag for parks
 place_name = "Chicago, Illinois, USA"
-tags = {"leisure": "park"}
+tags = {"leisure": "park", "landuse":"recreation_ground", "leisure":"nature_reserve",  "leisure":"playground", "leisure":"dog_park"}
 
 # Retrieve park features from OSM using the correct function name
 parks = ox.features_from_place(place_name, tags=tags)
  
 # Select only relevant columns, adding safeguards for missing ones
-required_columns = ["geometry", "ele", "gnis:feature_id", "leisure", "name"]
+required_columns = ["geometry", "ele", "leisure", "name"]
 
 # Separate points and polygons
 parks_points = parks[parks.geometry.geom_type == "Point"]

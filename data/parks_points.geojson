@@ -12,53 +12,17 @@
             "type": "Feature",
             "properties": {
                 "element": "node",
-                "id": 354097497,
-                "ele": "181",
-                "gnis:feature_id": "405519",
-                "leisure": "park",
-                "name": "Campbell Park"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -87.6825384,
-                    41.8725818
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "element": "node",
-                "id": 354224775,
-                "ele": "181",
-                "gnis:feature_id": "1801922",
-                "leisure": "park",
-                "name": "Prairie Avenue Historic District"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -87.6207468,
-                    41.8564712
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "element": "node",
-                "id": 2274053293,
+                "id": 2303367993,
                 "ele": null,
                 "gnis:feature_id": null,
-                "leisure": "park",
-                "name": "Six Corner's Parklet"
+                "leisure": "dog_park",
+                "name": "Pottawattomie Dog Park"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -87.7499215,
-                    41.9531075
+                    -87.676771,
+                    42.017061
                 ]
             }
         },
@@ -66,17 +30,17 @@
             "type": "Feature",
             "properties": {
                 "element": "node",
-                "id": 3993096535,
+                "id": 7105466731,
                 "ele": null,
                 "gnis:feature_id": null,
-                "leisure": "park",
-                "name": "McGee Park"
+                "leisure": "dog_park",
+                "name": "Calumet Bark"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -87.6787441,
-                    41.9958368
+                    -87.5287946,
+                    41.7178381
                 ]
             }
         },
@@ -95,6 +59,24 @@
                 "coordinates": [
                     -87.6236931,
                     41.6674806
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "element": "node",
+                "id": 11050358403,
+                "ele": null,
+                "gnis:feature_id": null,
+                "leisure": "dog_park",
+                "name": "Woof Lawn Dog Park"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.7292022,
+                    41.7747843
                 ]
             }
         }
