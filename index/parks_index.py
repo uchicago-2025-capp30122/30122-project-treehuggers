@@ -1,11 +1,16 @@
 import geopandas as gpd
 import json
-from shapely.geometry import Point
-# from collections import namedtuple
+from shapely.geometry import Point, Polygon
 from typing import NamedTuple
+from collections import defaultdict
+
 
 class ParkTuple(NamedTuple):
-    point: Point
+    park_polygon: Polygon
+    name: str
+    rating: int
+    total_reviews: int
+    area: int
 
 class HousingTuple(NamedTuple):
     park_count_800: int
@@ -33,12 +38,12 @@ with open("../data/yelp/yelp_cleaned.json", "r") as f:
     ratings = json.load(f)
 
 
-
 ##############################
-# Create housing dictionary with index values
+# Create park tuples
 ##############################
 
-def match_park_ratings_point():
+
+def match_park_ratings_point(polygon):
     """
     Match yelp and google ratings to parks.
 
@@ -47,24 +52,95 @@ def match_park_ratings_point():
 
     Returns: park rating if found, None otherwise
     """
-    for polygon in parks.geometry:
-        for park in ratings:
-            rating_point = Point(park["longitude"], park["latitude"])
-            
-            if polygon.contains(rating_point):
-                rating = park["rating"]
-            else:
-                rating = None 
-            
-    # consider removing the park from yelp_ratings after rating is found to optimize efficiency
-    # may need to think about if multiple polygons will match to the same rating
+    # parks_dict = defaultdict(int)
     
-    return rating
+    # for polygon in parks.geometry:
+    # single_park_dict = defaultdict(int)
+    
+    # for row in ratings:
+    #     # create rating points
+    #     rating_point = Point(row["longitude"], row["latitude"])
         
+    #     # check if polygon contains rating point
+    #     if polygon.contains(rating_point):
+    #         rating = rating["rating"]
+    #         review_count = rating["review_count"]
+    #         name = rating["name"]
+            
+    #         # check if that polygon already has a review
+    #         if polygon in single_park_dict:
+    #             prev_rating = single_park_dict[polygon][1]
+    #             prev_review_count = single_park_dict[polygon][2]
+                
+    #             #re-calculate average rating based on new review found
+    #             total_reviews = review_count+prev_review_count
+    #             new_rating = ((rating*review_count)+(prev_rating*prev_review_count))/total_reviews
+                
+    #             # add new rating calculation to dictionary
+    #             single_park_dict[polygon] = [name, new_rating, total_reviews]
+    #         else:
+    #             single_park_dict[polygon] = [name, rating, review_count]
+
+    #     # create park tuple
+    #     park_tuple = ParkTuple(park_polygon=polygon, rating=single_park_dict[polygon][1],total_reviews=single_park_dict[polygon][2])
+    
+    total_reviews = 0
+    cumulative_rating = 0
+    park_name = None
+
+    for row in ratings:
+        rating_point = Point(row["longitude"], row["latitude"])
+
+        if polygon.contains(rating_point):
+            rating = row["rating"]
+            review_count = row["review_count"]
+            name = row["name"]
+
+            # Accumulate ratings and reviews
+            total_reviews += review_count
+            cumulative_rating += rating * review_count
+            park_name = name  # Last matched name (assuming one park per polygon)
+
+    if total_reviews == 0:
+        return None  # No ratings found
+
+    # Compute average rating
+    avg_rating = cumulative_rating / total_reviews
+    
+    park_tuple = ParkTuple(park_polygon=polygon, name=park_name,\
+        rating=avg_rating, total_reviews=total_reviews, area=polygon.area)
+
+    return park_tuple
+        
+    # consider removing the park from ratings after rating is found to optimize efficiency
+    # may need to think about if multiple polygons will match to the same rating
+
+
 
 def match_park_ratings_name(polygon):
     # fuzzy match parks without ratings on name
     pass
+
+
+def create_parks_dict():
+    parks_dict = defaultdict(int)
+    
+    for polygon in parks.geometry:
+        park_tuple = match_park_ratings_point(polygon)
+        
+        # if reviews not found from point, use park name to match
+        if park_tuple.total_reviews is None:
+            park_tuple = match_park_ratings_name(polygon)
+        
+        parks_dict[polygon] = park_tuple
+    
+    return parks_dict
+
+
+
+##############################
+# Create housing dictionary with index values
+##############################
 
 
 def park_walking_distance(distance_m, house_point):
