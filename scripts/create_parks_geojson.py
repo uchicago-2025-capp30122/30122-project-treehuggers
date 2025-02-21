@@ -12,7 +12,10 @@ import os
 
 # Define the place and the OSM tag for parks
 place_name = "Chicago, Illinois, USA"
-tags = {"leisure": "park", "landuse":"recreation_ground", "leisure":"nature_reserve",  "leisure":"playground", "leisure":"dog_park"}
+tags = { 
+    "leisure": ["park", "nature_reserve", "playground", "dog_park"],
+    "landuse": "recreation_ground"
+}
 
 # Retrieve park features from OSM using the correct function name
 parks = ox.features_from_place(place_name, tags=tags)
