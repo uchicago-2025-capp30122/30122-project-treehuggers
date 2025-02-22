@@ -113,7 +113,8 @@ def match_park_ratings_name(park_name, polygon):
     for row in ratings:
         sim_score = jaro_winkler_similarity(row["name"], park_name)
         
-        if sim_score > 0.8:
+        if sim_score > 0.9:
+            # print("SIM SCORE ABOVE THRESHOLD:", row["name"], park_name)
             matching_rows.append(row)
     
     park_tuple = calculate_park_rating(matching_rows, polygon)
@@ -143,20 +144,21 @@ def create_parks_dict(parks):
     for _, park in parks.iterrows():
         polygon = park.geometry
         park_name = park["name"]
-        ##### FOR DEBUGGING PURPOSES
+        
+        ##### FOR DEBUGGING PURPOSES##############################
         if park_name is None:
             parks_without_names += 1
+        ############################################################
         
         park_tuple = match_park_ratings_point(polygon)
         
         # if reviews not found from point, use park name to match
         if park_tuple.total_reviews is None and park_name is not None:
-            # print(park_name)
             park_tuple = match_park_ratings_name(park_name, polygon)
         
         parks_dict[polygon] = park_tuple
         
-    #########################
+    #######################################################
     ##### FOR DEBUGGING PURPOSES
     none_count = 0
     populated_count = 0
@@ -171,7 +173,7 @@ def create_parks_dict(parks):
     print("parks withOUT ratings:", none_count)
     
     print("total nameless parks:", parks_without_names)
-    #########################
+    #######################################################
     
     return parks_dict
 
