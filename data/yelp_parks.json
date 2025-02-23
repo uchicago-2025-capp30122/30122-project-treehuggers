@@ -1,18 +1,18 @@
 [
  {
-  "name": "Garfield Park Conservatory",
-  "latitude": 41.8864959,
-  "longitude": -87.717822,
-  "rating": 4.8,
-  "review_count": 797,
-  "source": "Yelp"
- },
- {
   "name": "Millennium Park",
   "latitude": 41.88255748421691,
   "longitude": -87.62255156982617,
   "rating": 4.6,
   "review_count": 1456,
+  "source": "Yelp"
+ },
+ {
+  "name": "Garfield Park Conservatory",
+  "latitude": 41.8864959,
+  "longitude": -87.717822,
+  "rating": 4.8,
+  "review_count": 797,
   "source": "Yelp"
  },
  {
@@ -64,19 +64,19 @@
   "source": "Yelp"
  },
  {
-  "name": "Alfred Caldwell Lily Pool",
-  "latitude": 41.9248276,
-  "longitude": -87.6340494,
-  "rating": 4.8,
-  "review_count": 87,
-  "source": "Yelp"
- },
- {
   "name": "Wicker Park - Chicago Park District",
   "latitude": 41.9077397733836,
   "longitude": -87.6764158224562,
   "rating": 3.8,
   "review_count": 121,
+  "source": "Yelp"
+ },
+ {
+  "name": "Alfred Caldwell Lily Pool",
+  "latitude": 41.9248276,
+  "longitude": -87.6340494,
+  "rating": 4.8,
+  "review_count": 87,
   "source": "Yelp"
  },
  {
@@ -100,7 +100,7 @@
   "latitude": 41.914667,
   "longitude": -87.663309,
   "rating": 4.1,
-  "review_count": 124,
+  "review_count": 125,
   "source": "Yelp"
  },
  {
@@ -112,35 +112,11 @@
   "source": "Yelp"
  },
  {
-  "name": "Ping Tom Memorial Park",
-  "latitude": 41.85695918314,
-  "longitude": -87.634402088742,
-  "rating": 4.3,
-  "review_count": 84,
-  "source": "Yelp"
- },
- {
   "name": "Washington Square Park",
   "latitude": 41.8999342,
   "longitude": -87.6311388,
   "rating": 4.3,
   "review_count": 34,
-  "source": "Yelp"
- },
- {
-  "name": "The Park at Lakeshore East",
-  "latitude": 41.885980594423,
-  "longitude": -87.61759122481,
-  "rating": 4.5,
-  "review_count": 47,
-  "source": "Yelp"
- },
- {
-  "name": "North Park Village Nature Center",
-  "latitude": 41.9878746037679,
-  "longitude": -87.7244325590962,
-  "rating": 4.6,
-  "review_count": 70,
   "source": "Yelp"
  },
  {
@@ -160,27 +136,27 @@
   "source": "Yelp"
  },
  {
-  "name": "Grant Park Rose Garden",
-  "latitude": 41.87831811,
-  "longitude": -87.62033096,
-  "rating": 4.8,
-  "review_count": 8,
+  "name": "Ping Tom Memorial Park",
+  "latitude": 41.85695918314,
+  "longitude": -87.634402088742,
+  "rating": 4.3,
+  "review_count": 84,
   "source": "Yelp"
  },
  {
-  "name": "Seneca Park",
-  "latitude": 41.89716169430479,
-  "longitude": -87.6223240588337,
+  "name": "Smith Park - Chicago Park District",
+  "latitude": 41.893012707026635,
+  "longitude": -87.69051985280817,
   "rating": 4.3,
   "review_count": 18,
   "source": "Yelp"
  },
  {
-  "name": "Haas Park",
-  "latitude": 41.9249956,
-  "longitude": -87.6951523,
-  "rating": 4.6,
-  "review_count": 10,
+  "name": "Mary Bartleme Park",
+  "latitude": 41.8801605,
+  "longitude": -87.6506214,
+  "rating": 4.2,
+  "review_count": 40,
   "source": "Yelp"
  },
  {
@@ -192,14 +168,6 @@
   "source": "Yelp"
  },
  {
-  "name": "North Pond Nature Sanctuary",
-  "latitude": 41.9280803527177,
-  "longitude": -87.6369094848633,
-  "rating": 4.5,
-  "review_count": 11,
-  "source": "Yelp"
- },
- {
   "name": "Kosciuszko Park",
   "latitude": 41.9307066500187,
   "longitude": -87.7233094722033,
@@ -208,11 +176,11 @@
   "source": "Yelp"
  },
  {
-  "name": "Clarendon Park",
-  "latitude": 41.9631777568729,
-  "longitude": -87.648799046513,
-  "rating": 4.7,
-  "review_count": 7,
+  "name": "Grant Park Rose Garden",
+  "latitude": 41.87831811,
+  "longitude": -87.62033096,
+  "rating": 4.8,
+  "review_count": 8,
   "source": "Yelp"
  },
  {
@@ -224,11 +192,27 @@
   "source": "Yelp"
  },
  {
-  "name": "Logan Square Dog Park",
-  "latitude": 41.92749,
-  "longitude": -87.688118,
-  "rating": 4.4,
-  "review_count": 15,
+  "name": "Clarendon Park",
+  "latitude": 41.9631777568729,
+  "longitude": -87.648799046513,
+  "rating": 4.7,
+  "review_count": 7,
+  "source": "Yelp"
+ },
+ {
+  "name": "Berger Park",
+  "latitude": 41.9947845,
+  "longitude": -87.6553686,
+  "rating": 4.2,
+  "review_count": 24,
+  "source": "Yelp"
+ },
+ {
+  "name": "Haas Park",
+  "latitude": 41.9249956,
+  "longitude": -87.6951523,
+  "rating": 4.6,
+  "review_count": 10,
   "source": "Yelp"
  },
  {
@@ -240,22 +224,6 @@
   "source": "Yelp"
  },
  {
-  "name": "Mckinley Park",
-  "latitude": 41.824609522162426,
-  "longitude": -87.67987420449731,
-  "rating": 4.2,
-  "review_count": 11,
-  "source": "Yelp"
- },
- {
-  "name": "Cricket Hill",
-  "latitude": 41.9643087210033,
-  "longitude": -87.6425743103027,
-  "rating": 4.2,
-  "review_count": 11,
-  "source": "Yelp"
- },
- {
   "name": "Chicago Park District - Jefferson Memorial Park",
   "latitude": 41.96850553544424,
   "longitude": -87.7636825189759,
@@ -264,10 +232,10 @@
   "source": "Yelp"
  },
  {
-  "name": "Pulaski Park Fieldhouse",
-  "latitude": 41.9069151,
-  "longitude": -87.6636025,
-  "rating": 4.4,
+  "name": "North Pond Nature Sanctuary",
+  "latitude": 41.9280803527177,
+  "longitude": -87.6369094848633,
+  "rating": 4.5,
   "review_count": 11,
   "source": "Yelp"
  },
@@ -280,11 +248,51 @@
   "source": "Yelp"
  },
  {
-  "name": "Caldwell Woods",
-  "latitude": 41.9991288621352,
-  "longitude": -87.7873524043102,
-  "rating": 4.6,
-  "review_count": 26,
+  "name": "Churchill Field Park",
+  "latitude": 41.914647,
+  "longitude": -87.6773659,
+  "rating": 3.4,
+  "review_count": 10,
+  "source": "Yelp"
+ },
+ {
+  "name": "Logan Square Dog Park",
+  "latitude": 41.92749,
+  "longitude": -87.688118,
+  "rating": 4.4,
+  "review_count": 15,
+  "source": "Yelp"
+ },
+ {
+  "name": "Pulaski Park Fieldhouse",
+  "latitude": 41.9069151,
+  "longitude": -87.6636025,
+  "rating": 4.4,
+  "review_count": 11,
+  "source": "Yelp"
+ },
+ {
+  "name": "Cricket Hill",
+  "latitude": 41.9643087210033,
+  "longitude": -87.6425743103027,
+  "rating": 4.2,
+  "review_count": 11,
+  "source": "Yelp"
+ },
+ {
+  "name": "Mckinley Park",
+  "latitude": 41.824609522162426,
+  "longitude": -87.67987420449731,
+  "rating": 4.2,
+  "review_count": 11,
+  "source": "Yelp"
+ },
+ {
+  "name": "The Green At 320",
+  "latitude": 41.87702,
+  "longitude": -87.64036,
+  "rating": 5.0,
+  "review_count": 3,
   "source": "Yelp"
  },
  {
@@ -296,6 +304,14 @@
   "source": "Yelp"
  },
  {
+  "name": "Brands Park",
+  "latitude": 41.9405269,
+  "longitude": -87.6997038,
+  "rating": 3.9,
+  "review_count": 8,
+  "source": "Yelp"
+ },
+ {
   "name": "Gold Star Families Memorial and Park",
   "latitude": 41.86243789218674,
   "longitude": -87.61405085003545,
@@ -304,19 +320,43 @@
   "source": "Yelp"
  },
  {
-  "name": "Dog Beach at Belmont Harbor",
-  "latitude": 41.9452272071354,
-  "longitude": -87.6403362555475,
-  "rating": 3.8,
-  "review_count": 43,
+  "name": "Ridgeland Common Recreation Complex",
+  "latitude": 41.8879934474814,
+  "longitude": -87.7872848510742,
+  "rating": 4.1,
+  "review_count": 21,
   "source": "Yelp"
  },
  {
-  "name": "Horner Park",
-  "latitude": 41.960563445128805,
-  "longitude": -87.69771231446835,
-  "rating": 3.9,
-  "review_count": 52,
+  "name": "Lincoln Park South Lagoon",
+  "latitude": 41.922772046001,
+  "longitude": -87.6315343379974,
+  "rating": 4.8,
+  "review_count": 4,
+  "source": "Yelp"
+ },
+ {
+  "name": "Waveland Park",
+  "latitude": 41.9493308,
+  "longitude": -87.642858,
+  "rating": 4.5,
+  "review_count": 11,
+  "source": "Yelp"
+ },
+ {
+  "name": "Hamlin Dog Park",
+  "latitude": 41.9365766644478,
+  "longitude": -87.680624127388,
+  "rating": 3.4,
+  "review_count": 38,
+  "source": "Yelp"
+ },
+ {
+  "name": "Seward Park - Chicago Park District",
+  "latitude": 41.90342097771012,
+  "longitude": -87.63834708650535,
+  "rating": 3.7,
+  "review_count": 7,
   "source": "Yelp"
  },
  {
@@ -328,19 +368,59 @@
   "source": "Yelp"
  },
  {
-  "name": "Chicago Park District - Norwood Park",
-  "latitude": 41.9866293,
-  "longitude": -87.7939919,
-  "rating": 4.3,
-  "review_count": 12,
+  "name": "Thillens Stadium",
+  "latitude": 41.9975501,
+  "longitude": -87.7094449,
+  "rating": 4.2,
+  "review_count": 13,
   "source": "Yelp"
  },
  {
-  "name": "Hamlin Dog Park",
-  "latitude": 41.9365766644478,
-  "longitude": -87.680624127388,
-  "rating": 3.4,
-  "review_count": 38,
+  "name": "Julia de Burgos Park",
+  "latitude": 41.913918,
+  "longitude": -87.704811,
+  "rating": 4.8,
+  "review_count": 4,
+  "source": "Yelp"
+ },
+ {
+  "name": "Jane Addams Memorial Park",
+  "latitude": 41.89238090704662,
+  "longitude": -87.61277507382702,
+  "rating": 3.8,
+  "review_count": 5,
+  "source": "Yelp"
+ },
+ {
+  "name": "Jonquil Park",
+  "latitude": 41.928615,
+  "longitude": -87.654724,
+  "rating": 4.0,
+  "review_count": 13,
+  "source": "Yelp"
+ },
+ {
+  "name": "Walsh Park",
+  "latitude": 41.9132677,
+  "longitude": -87.6678549,
+  "rating": 4.0,
+  "review_count": 8,
+  "source": "Yelp"
+ },
+ {
+  "name": "Dvorak Park",
+  "latitude": 41.85432992026175,
+  "longitude": -87.6539074,
+  "rating": 4.0,
+  "review_count": 9,
+  "source": "Yelp"
+ },
+ {
+  "name": "Polk Bros Park",
+  "latitude": 41.8916138,
+  "longitude": -87.6078987,
+  "rating": 4.5,
+  "review_count": 6,
   "source": "Yelp"
  },
  {
@@ -360,59 +440,11 @@
   "source": "Yelp"
  },
  {
-  "name": "Weisman Park",
-  "latitude": 41.935350894928,
-  "longitude": -87.6517125964165,
-  "rating": 4.8,
-  "review_count": 4,
-  "source": "Yelp"
- },
- {
-  "name": "Jonquil Park",
-  "latitude": 41.928615,
-  "longitude": -87.654724,
-  "rating": 4.0,
-  "review_count": 13,
-  "source": "Yelp"
- },
- {
-  "name": "Ridgeland Common Recreation Complex",
-  "latitude": 41.8879934474814,
-  "longitude": -87.7872848510742,
-  "rating": 4.1,
-  "review_count": 21,
-  "source": "Yelp"
- },
- {
-  "name": "Polk Bros Park",
-  "latitude": 41.8916138,
-  "longitude": -87.6078987,
-  "rating": 4.5,
-  "review_count": 6,
-  "source": "Yelp"
- },
- {
-  "name": "Walsh Park Dog Area",
-  "latitude": 41.9132677,
-  "longitude": -87.6678549,
-  "rating": 3.7,
-  "review_count": 13,
-  "source": "Yelp"
- },
- {
-  "name": "West Loop Dog Park",
-  "latitude": 41.88045947683182,
-  "longitude": -87.64966279389604,
-  "rating": 3.5,
-  "review_count": 16,
-  "source": "Yelp"
- },
- {
-  "name": "Julia de Burgos Park",
-  "latitude": 41.913918,
-  "longitude": -87.704811,
-  "rating": 4.8,
-  "review_count": 4,
+  "name": "Coliseum Park",
+  "latitude": 41.8621520464411,
+  "longitude": -87.6261552053797,
+  "rating": 3.6,
+  "review_count": 11,
   "source": "Yelp"
  },
  {
@@ -424,35 +456,11 @@
   "source": "Yelp"
  },
  {
-  "name": "Seward Park - Chicago Park District",
-  "latitude": 41.90342097771012,
-  "longitude": -87.63834708650535,
-  "rating": 3.7,
-  "review_count": 7,
-  "source": "Yelp"
- },
- {
-  "name": "Jane Addams Memorial Park",
-  "latitude": 41.89238090704662,
-  "longitude": -87.61277507382702,
-  "rating": 3.8,
-  "review_count": 5,
-  "source": "Yelp"
- },
- {
-  "name": "Dvorak Park",
-  "latitude": 41.85432992026175,
-  "longitude": -87.6539074,
-  "rating": 4.0,
-  "review_count": 9,
-  "source": "Yelp"
- },
- {
-  "name": "Walsh Park",
-  "latitude": 41.9132677,
-  "longitude": -87.6678549,
-  "rating": 4.0,
-  "review_count": 8,
+  "name": "Sheil Park",
+  "latitude": 41.9454848450727,
+  "longitude": -87.663746533707,
+  "rating": 3.4,
+  "review_count": 11,
   "source": "Yelp"
  },
  {
@@ -464,67 +472,51 @@
   "source": "Yelp"
  },
  {
-  "name": "Wilson Skate Park",
-  "latitude": 41.965526,
-  "longitude": -87.64869,
-  "rating": 4.2,
-  "review_count": 13,
-  "source": "Yelp"
- },
- {
-  "name": "Thaddeus S. \u201cTed\u201d Lechowicz Woods",
-  "latitude": 41.980803,
-  "longitude": -87.755027,
-  "rating": 5.0,
-  "review_count": 5,
-  "source": "Yelp"
- },
- {
-  "name": "Lucy Ella Gonzales Parsons Park",
-  "latitude": 41.93912,
-  "longitude": -87.74445,
-  "rating": 5.0,
-  "review_count": 1,
-  "source": "Yelp"
- },
- {
-  "name": "Dunham Park",
-  "latitude": 41.965821804457065,
-  "longitude": -87.78441194326363,
-  "rating": 4.1,
-  "review_count": 13,
-  "source": "Yelp"
- },
- {
-  "name": "Chicago Park District - Fosco Peter Park",
-  "latitude": 41.864906,
-  "longitude": -87.657729,
-  "rating": 3.4,
-  "review_count": 7,
-  "source": "Yelp"
- },
- {
-  "name": "Chicago Park District - Riis Park",
-  "latitude": 41.9255860581904,
-  "longitude": -87.78139469921436,
-  "rating": 3.2,
-  "review_count": 14,
-  "source": "Yelp"
- },
- {
-  "name": "Challenger Park",
-  "latitude": 41.9587026655504,
-  "longitude": -87.6571093171476,
-  "rating": 3.1,
-  "review_count": 19,
-  "source": "Yelp"
- },
- {
-  "name": "Clemente Park",
-  "latitude": 41.903322,
-  "longitude": -87.6859255,
+  "name": "Sheridan Park",
+  "latitude": 41.8701155,
+  "longitude": -87.6543549,
   "rating": 4.0,
+  "review_count": 3,
+  "source": "Yelp"
+ },
+ {
+  "name": "Piazza DiMaggio",
+  "latitude": 41.869585054949,
+  "longitude": -87.662877075914,
+  "rating": 4.1,
+  "review_count": 8,
+  "source": "Yelp"
+ },
+ {
+  "name": "Addams/Medill Park",
+  "latitude": 41.8626823308788,
+  "longitude": -87.6631005853415,
+  "rating": 5.0,
   "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "California Park",
+  "latitude": 41.951081159659225,
+  "longitude": -87.69756151881704,
+  "rating": 5.0,
+  "review_count": 4,
+  "source": "Yelp"
+ },
+ {
+  "name": "Lake Front Path Sledding Hill",
+  "latitude": 41.8581999,
+  "longitude": -87.61525,
+  "rating": 5.0,
+  "review_count": 4,
+  "source": "Yelp"
+ },
+ {
+  "name": "Lane Beach Park",
+  "latitude": 41.9898100846344,
+  "longitude": -87.6551176607609,
+  "rating": 5.0,
+  "review_count": 2,
   "source": "Yelp"
  },
  {
@@ -544,6 +536,38 @@
   "source": "Yelp"
  },
  {
+  "name": "Clemente Park",
+  "latitude": 41.903322,
+  "longitude": -87.6859255,
+  "rating": 4.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Legion Park",
+  "latitude": 41.9851404,
+  "longitude": -87.7090925,
+  "rating": 4.7,
+  "review_count": 6,
+  "source": "Yelp"
+ },
+ {
+  "name": "Dunham Park",
+  "latitude": 41.965821804457065,
+  "longitude": -87.78441194326363,
+  "rating": 4.1,
+  "review_count": 13,
+  "source": "Yelp"
+ },
+ {
+  "name": "West Town Dog Park",
+  "latitude": 41.89681805,
+  "longitude": -87.67442167,
+  "rating": 3.2,
+  "review_count": 5,
+  "source": "Yelp"
+ },
+ {
   "name": "Unity Playlot Park",
   "latitude": 41.9299281784101,
   "longitude": -87.7124673128128,
@@ -552,27 +576,19 @@
   "source": "Yelp"
  },
  {
-  "name": "Lane Beach Park",
-  "latitude": 41.9898100846344,
-  "longitude": -87.6551176607609,
-  "rating": 5.0,
-  "review_count": 2,
-  "source": "Yelp"
- },
- {
-  "name": "Addams/Medill Park",
-  "latitude": 41.8626823308788,
-  "longitude": -87.6631005853415,
-  "rating": 5.0,
-  "review_count": 1,
-  "source": "Yelp"
- },
- {
   "name": "Ken-Well Park",
   "latitude": 41.934677,
   "longitude": -87.733459,
   "rating": 5.0,
   "review_count": 2,
+  "source": "Yelp"
+ },
+ {
+  "name": "Rutherford Sayre Park",
+  "latitude": 41.9209938,
+  "longitude": -87.7974396,
+  "rating": 4.3,
+  "review_count": 6,
   "source": "Yelp"
  },
  {
@@ -592,27 +608,11 @@
   "source": "Yelp"
  },
  {
-  "name": "Cancer Survivors Garden",
-  "latitude": 41.8836623407769,
-  "longitude": -87.6175089577026,
-  "rating": 3.7,
-  "review_count": 10,
-  "source": "Yelp"
- },
- {
   "name": "Chopin Park",
   "latitude": 41.943246,
   "longitude": -87.762462,
   "rating": 3.6,
   "review_count": 5,
-  "source": "Yelp"
- },
- {
-  "name": "Mary Richardson Jones Park",
-  "latitude": 41.8666011840105,
-  "longitude": -87.6285530626774,
-  "rating": 5.0,
-  "review_count": 3,
   "source": "Yelp"
  },
  {
@@ -624,35 +624,27 @@
   "source": "Yelp"
  },
  {
-  "name": "Artists of the Wall Festival",
-  "latitude": 42.0068479709816,
-  "longitude": -87.6577287613464,
-  "rating": 5.0,
-  "review_count": 2,
-  "source": "Yelp"
- },
- {
-  "name": "Paseo Prairie Garden",
-  "latitude": 41.9286169,
-  "longitude": -87.7079271,
-  "rating": 4.5,
-  "review_count": 4,
-  "source": "Yelp"
- },
- {
-  "name": "Jacob Park",
-  "latitude": 41.9666391200206,
-  "longitude": -87.6983099430799,
-  "rating": 5.0,
+  "name": "South Lakeview Playground Park",
+  "latitude": 41.9336491164054,
+  "longitude": -87.661602961377,
+  "rating": 4.0,
   "review_count": 1,
   "source": "Yelp"
  },
  {
-  "name": "Simons Park - Chicago Park District",
-  "latitude": 41.9107598,
-  "longitude": -87.7151178,
-  "rating": 3.5,
-  "review_count": 2,
+  "name": "Cancer Survivors Garden",
+  "latitude": 41.8836623407769,
+  "longitude": -87.6175089577026,
+  "rating": 3.7,
+  "review_count": 10,
+  "source": "Yelp"
+ },
+ {
+  "name": "Bloomingdale Trail Park",
+  "latitude": 41.9142935244831,
+  "longitude": -87.67025757042737,
+  "rating": 0.0,
+  "review_count": 0,
   "source": "Yelp"
  },
  {
@@ -664,26 +656,10 @@
   "source": "Yelp"
  },
  {
-  "name": "Hudson Chess Park",
-  "latitude": 41.91491763460279,
-  "longitude": -87.63965823683088,
-  "rating": 4.5,
-  "review_count": 2,
-  "source": "Yelp"
- },
- {
-  "name": "Julia Porter Park",
-  "latitude": 41.9257733970881,
-  "longitude": -87.6493026316166,
-  "rating": 5.0,
-  "review_count": 2,
-  "source": "Yelp"
- },
- {
-  "name": "Cascade Park",
-  "latitude": 41.886053568214315,
-  "longitude": -87.61553328484295,
-  "rating": 5.0,
+  "name": "Warner Park and Gardens",
+  "latitude": 41.9571905,
+  "longitude": -87.6660766,
+  "rating": 4.0,
   "review_count": 2,
   "source": "Yelp"
  },
@@ -704,27 +680,11 @@
   "source": "Yelp"
  },
  {
-  "name": "Chicago Park District",
-  "latitude": 42.00368958266341,
-  "longitude": -87.6846188426492,
-  "rating": 4.0,
-  "review_count": 1,
-  "source": "Yelp"
- },
- {
-  "name": "Kelvyn Park",
-  "latitude": 41.92968887129189,
-  "longitude": -87.7381063,
+  "name": "Simons Park - Chicago Park District",
+  "latitude": 41.9107598,
+  "longitude": -87.7151178,
   "rating": 3.5,
   "review_count": 2,
-  "source": "Yelp"
- },
- {
-  "name": "Lindberg Park",
-  "latitude": 41.9060220423653,
-  "longitude": -87.8022730350494,
-  "rating": 4.3,
-  "review_count": 3,
   "source": "Yelp"
  },
  {
@@ -736,43 +696,11 @@
   "source": "Yelp"
  },
  {
-  "name": "Lincoln Park Conservatory",
-  "latitude": 41.924292189100555,
-  "longitude": -87.63521917055344,
-  "rating": 0.0,
-  "review_count": 0,
-  "source": "Yelp"
- },
- {
-  "name": "Bloomingdale Trail Park",
-  "latitude": 41.9142935244831,
-  "longitude": -87.67025757042737,
-  "rating": 0.0,
-  "review_count": 0,
-  "source": "Yelp"
- },
- {
-  "name": "Chicago Park District - Wildwood Park",
-  "latitude": 42.00762355644789,
-  "longitude": -87.78033010002406,
-  "rating": 4.0,
-  "review_count": 1,
-  "source": "Yelp"
- },
- {
-  "name": "Margeret T Burroughs Beach",
-  "latitude": 41.83928624082563,
-  "longitude": -87.60671800885679,
-  "rating": 4.0,
-  "review_count": 1,
-  "source": "Yelp"
- },
- {
-  "name": "Mary Berkemeier Quinn Park-of-Trees",
-  "latitude": 41.9953499,
-  "longitude": -87.7705078,
-  "rating": 4.0,
-  "review_count": 1,
+  "name": "Gladstone Park -- Chicago Park District",
+  "latitude": 41.9789012521505,
+  "longitude": -87.7731999009848,
+  "rating": 4.1,
+  "review_count": 7,
   "source": "Yelp"
  },
  {
@@ -784,19 +712,91 @@
   "source": "Yelp"
  },
  {
-  "name": "Merrimac Park",
-  "latitude": 41.9520350379492,
-  "longitude": -87.7851896623587,
-  "rating": 3.8,
+  "name": "Margeret T Burroughs Beach",
+  "latitude": 41.83928624082563,
+  "longitude": -87.60671800885679,
+  "rating": 4.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Chicago Park District",
+  "latitude": 42.00368958266341,
+  "longitude": -87.6846188426492,
+  "rating": 4.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Julia Porter Park",
+  "latitude": 41.9257733970881,
+  "longitude": -87.6493026316166,
+  "rating": 5.0,
+  "review_count": 2,
+  "source": "Yelp"
+ },
+ {
+  "name": "Mary Berkemeier Quinn Park-of-Trees",
+  "latitude": 41.9953499,
+  "longitude": -87.7705078,
+  "rating": 4.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Cascade Park",
+  "latitude": 41.886053568214315,
+  "longitude": -87.61553328484295,
+  "rating": 5.0,
+  "review_count": 2,
+  "source": "Yelp"
+ },
+ {
+  "name": "Hudson Chess Park",
+  "latitude": 41.91491763460279,
+  "longitude": -87.63965823683088,
+  "rating": 4.5,
+  "review_count": 2,
+  "source": "Yelp"
+ },
+ {
+  "name": "Chicago Park District - Vittum Park",
+  "latitude": 41.803005,
+  "longitude": -87.748347,
+  "rating": 3.0,
+  "review_count": 6,
+  "source": "Yelp"
+ },
+ {
+  "name": "Chicago Park District - Wildwood Park",
+  "latitude": 42.00762355644789,
+  "longitude": -87.78033010002406,
+  "rating": 4.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Lindberg Park",
+  "latitude": 41.9060220423653,
+  "longitude": -87.8022730350494,
+  "rating": 4.3,
+  "review_count": 3,
+  "source": "Yelp"
+ },
+ {
+  "name": "Stevenson Park",
+  "latitude": 41.887778977071,
+  "longitude": -87.778457654245,
+  "rating": 4.8,
   "review_count": 5,
   "source": "Yelp"
  },
  {
-  "name": "Piotrowski Park",
-  "latitude": 41.8366751,
-  "longitude": -87.7309961,
-  "rating": 4.0,
-  "review_count": 1,
+  "name": "Logan Square Skate Park",
+  "latitude": 41.9287417,
+  "longitude": -87.6904942,
+  "rating": 3.0,
+  "review_count": 2,
   "source": "Yelp"
  }
 ]
