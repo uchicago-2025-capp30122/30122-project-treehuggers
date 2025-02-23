@@ -120,10 +120,17 @@ def clean_google(data: dict, output_name: str):
         json.dump(places, f, indent=1)
     
   
-search_category = "field"
-url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json"
-parameters = {"radius": "3590"}
-parameters["keyword"] = search_category   
+if __name__ == "__main__":
+    url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json"
     
-google_raw_data = cached_google_get(url, parameters)
-clean_google(google_raw_data, "google_"+search_category)
+    for search_category in ["park", "field"]:
+        parameters = {"radius": "3590"}
+    
+        # Either search using "type" or using a keyword
+        if search_category == "park":
+            parameters["type"] = search_category
+        else:
+            parameters["keyword"] = search_category   
+            
+        google_raw_data = cached_google_get(url, parameters)
+        clean_google(google_raw_data, "google_"+search_category)
