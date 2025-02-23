@@ -185,11 +185,31 @@ def merge_unnamed_park_clusters(features, graph, unnameds_to_remove, named_parks
 def save_geojson(features, output_file_path):
     """
     Save new features list to a cleaned_parks_polygons.geojson file.
-    """
     with open(output_file_path, "w") as f:
         # convert the features list into a GeoJSON FeatureCollection
         json.dump({"type": "FeatureCollection", "features": features}, f, indent=4)
     
+    print("After cleaning, we have", len(features), "parks")
+    """
+    """
+    Save new features list to a cleaned_parks_polygons.geojson file
+    with CRS and matching the format of the uncleaned data.
+    """
+    geojson_data = {
+        "type": "FeatureCollection",
+        "name": "cleaned_park_polygons",
+        "crs": {
+            "type": "name",
+            "properties": {
+                "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+            }
+        },
+        "features": features
+    }
+
+    with open(output_file_path, "w") as f:
+        json.dump(geojson_data, f, indent=4)
+
     print("After cleaning, we have", len(features), "parks")
 
 def main():
