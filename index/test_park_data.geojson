@@ -1,0 +1,81 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 1329228816,
+          "name": "Filbert Park",
+          "leisure": "park",
+          "ele": 183,
+          "gnis:feature_id": 1826818
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [-87.67513, 41.95371],
+              [-87.67513, 41.95371],
+              [-87.67513, 41.95371]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 1331397546,
+          "name": "Icky Park",
+          "leisure": "park"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [-87.65323, 41.91603],
+              [-87.65317, 41.91600],
+              [-87.65242, 41.91604],
+              [-87.65242, 41.91600],
+              [-87.65323, 41.91603]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 1331397555,
+          "name": "Icky Park",
+          "leisure": "park"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [-87.65242, 41.91604],
+              [-87.65242, 41.91600],
+              [-87.65242, 41.91604]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 1344365014,
+          "name": null,
+          "leisure": "park"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [-87.65408, 41.96924],
+              [-87.65408, 41.96908],
+              [-87.65408, 41.96924]
+            ]
+          ]
+        }
+      }
+    ]
+  }
