@@ -114,13 +114,15 @@ def clean_yelp(data: dict, output_name: str):
         
 
 if __name__ == "__main__":
-    
-    search_category = "parks"
-    
     url = "https://api.yelp.com/v3/businesses/search"
-    headers = {"location": "Chicago",
-           "sort_by": "best_match"
-           }
-    headers["categories"] = search_category
-    yelp_raw_data = cached_yelp_get(url, headers)
-    clean_yelp(yelp_raw_data, "yelp_"+search_category)
+    for search_category in ["parks", 
+                            "playgrounds", 
+                            "dog_parks", 
+                            "communitygardens"]:
+        
+        headers = {"location": "Chicago",
+            "sort_by": "best_match"
+            }
+        headers["categories"] = search_category
+        yelp_raw_data = cached_yelp_get(url, headers)
+        clean_yelp(yelp_raw_data, "yelp_"+search_category)
