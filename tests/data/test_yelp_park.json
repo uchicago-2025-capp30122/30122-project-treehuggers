@@ -1,0 +1,98 @@
+{
+    "places": [
+     {
+      "id": "gd_yd2Xj1SPF9-yDGd-GPg",
+      "alias": "oak-park-conservatory-oak-park",
+      "name": "Oak Park Conservatory",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/sL02eU2VHqTjYF9E_mRZOQ/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/oak-park-conservatory-oak-park?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+      "review_count": 59,
+      "categories": [
+       {
+        "alias": "parks",
+        "title": "Parks"
+       },
+       {
+        "alias": "communitygardens",
+        "title": "Community Gardens"
+       },
+       {
+        "alias": "flowers",
+        "title": "Flowers & Gifts"
+       }
+      ],
+      "rating": 4.7,
+      "coordinates": {
+       "latitude": 41.87143,
+       "longitude": -87.78968
+      },
+      "transactions": [],
+      "location": {
+       "address1": "615 Garfield St",
+       "address2": "",
+       "address3": "",
+       "city": "Oak Park",
+       "zip_code": "60304",
+       "country": "US",
+       "state": "IL",
+       "display_address": [
+        "615 Garfield St",
+        "Oak Park, IL 60304"
+       ]
+      },
+      "phone": "+17087252400",
+      "display_phone": "(708) 725-2400",
+      "distance": 10003.687955396794,
+      "business_hours": [
+       {
+        "open": [
+         {
+          "is_overnight": false,
+          "start": "1000",
+          "end": "1600",
+          "day": 1
+         },
+         {
+          "is_overnight": false,
+          "start": "1000",
+          "end": "1600",
+          "day": 2
+         },
+         {
+          "is_overnight": false,
+          "start": "1000",
+          "end": "1600",
+          "day": 3
+         },
+         {
+          "is_overnight": false,
+          "start": "1000",
+          "end": "1600",
+          "day": 4
+         },
+         {
+          "is_overnight": false,
+          "start": "1000",
+          "end": "1600",
+          "day": 5
+         },
+         {
+          "is_overnight": false,
+          "start": "1000",
+          "end": "1600",
+          "day": 6
+         }
+        ],
+        "hours_type": "REGULAR",
+        "is_open_now": false
+       }
+      ],
+      "attributes": {
+       "business_temp_closed": null,
+       "open24_hours": null,
+       "waitlist_reservation": null
+      }
+     }
+    ]
+}

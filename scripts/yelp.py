@@ -2,46 +2,20 @@ import httpx
 import os 
 import json
 import time 
-import re
 from pathlib import Path
+from import_utils import cache_key, FetchException
 
 DATA_DIR = Path(__file__).parent.parent / 'data'
 CACHE_DIR = DATA_DIR / "_cache"
 
-class FetchException(Exception):
-    """
-    Turn a httpx.Response into an exception.
-    """
-
-    def __init__(self, response: httpx.Response):
-        super().__init__(
-            f"{response.status_code} retrieving {response.url}: {response.text}"
-        )
-
 try:
-    API_KEY = f"Bearer {os.environ["API_KEY"]}" 
+    YELP_API_KEY = f"Bearer {os.environ["YELP_API_KEY"]}" 
 except KeyError:
     raise Exception(
         "Please enter API Key for Yelp"
     )
 
-def cache_key(url: str, kwargs: dict) -> str:
-    '''
-    Inputs:
-        url: string of URL for api call 
-        kwards: dict
-    Returns:
-        cache_key string
-    '''
-    replace_pattern = re.compile(r'https?://|[^a-zA-Z0-9%+,^=._"]')
-    cache_key = re.sub(replace_pattern.pattern, '', url.lower())
-    for key, value in kwargs.items():
-        cache_key += "_" + re.sub(replace_pattern, '', key) \
-                  +  "_" + re.sub(replace_pattern, '', value) \
-                  + ".json"
-    return cache_key
-
-def cached_yelp_get(url, kwargs: dict) -> dict:
+def cached_get_yelp(url, kwargs: dict) -> dict:
     '''
     Fetches API data from Yelp based on inputted URL and headers
     
@@ -66,7 +40,7 @@ def cached_yelp_get(url, kwargs: dict) -> dict:
     all_places = []
     headers = {
         "accept": "application/json",
-        "Authorization": API_KEY,    
+        "Authorization": YELP_API_KEY,    
     }
     for offset in range(0, 250, 50): # Yelp limits to 50 per call, 240 total
         kwargs["offset"] = str(offset)
@@ -86,14 +60,16 @@ def cached_yelp_get(url, kwargs: dict) -> dict:
         json.dump(all_data_dict, f, indent=1)
     return all_data_dict
 
-def clean_yelp(data: dict, output_name: str):
+def clean_yelp(data: dict) -> list[dict]:
     '''
-    Saves cleaned version of raw Yelp data to data directory with following:
+    Creates list of cleaned Yelp data dictionaries with following keys:
     name, latitude, longitude, rating, review_count, source
     
     Inputs:
         data: dictionary of raw data
-        output_name: string name used for saving cleaned data in data directory
+        
+    Returns:
+        list of cleaned data dictionaries as specified above
     '''
     places = []
     for place in data["places"]:
@@ -107,11 +83,17 @@ def clean_yelp(data: dict, output_name: str):
             "source": "Yelp"
             }
         )
+    return places
+    
 
+def save_yelp(places: list[dict], output_name: str):
+    '''
+    Saves data to directory
+    '''
     path = DATA_DIR / (output_name + '.json')
     with open(path, "w") as f:
         json.dump(places, f, indent=1)
-        
+
 
 if __name__ == "__main__":
     url = "https://api.yelp.com/v3/businesses/search"
@@ -120,9 +102,8 @@ if __name__ == "__main__":
                             "dog_parks", 
                             "communitygardens"]:
         
-        headers = {"location": "Chicago",
-            "sort_by": "best_match"
-            }
+        headers = {"location": "Chicago", "sort_by": "best_match"}
         headers["categories"] = search_category
-        yelp_raw_data = cached_yelp_get(url, headers)
-        clean_yelp(yelp_raw_data, "yelp_"+search_category)
+        yelp_raw_data = cached_get_yelp(url, headers)
+        places = clean_yelp(yelp_raw_data)
+        save_yelp(places, "yelp_"+search_category)

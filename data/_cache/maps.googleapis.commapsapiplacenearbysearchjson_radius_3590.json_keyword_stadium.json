@@ -1,0 +1,4658 @@
+{
+ "places": [
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.690302,
+     "lng": -87.7911496
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.69168432989272,
+      "lng": -87.78972597010727
+     },
+     "southwest": {
+      "lat": 41.68898467010727,
+      "lng": -87.79242562989272
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+   "icon_background_color": "#FF9E67",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
+   "name": "Worth Stadium Club",
+   "opening_hours": {
+    "open_now": true
+   },
+   "photos": [
+    {
+     "height": 720,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/107870588529704787023\">A Google User</a>"
+     ],
+     "photo_reference": "AVzFdblMJg42GpnIDG5LYbWwHJbmXujQqjSbe9aiVlo_yhZA-ZRz6Z2OfcjY-GhILlgECExW_DrCM22DIglIoh43NV69_NIDcRbmqYol_a0zOmPYkG7lhVrIdc4EzuYlh4ob8GFCCzBSGthnFHmYJnf_IesuppBN1YqHMrVM7_NiZiPU37L7FFDC0EeT",
+     "width": 480
+    }
+   ],
+   "place_id": "ChIJeYXKYwA5DogRddCbwfJqzB0",
+   "plus_code": {
+    "compound_code": "M6R5+4G Worth, Illinois",
+    "global_code": "86HJM6R5+4G"
+   },
+   "rating": 4.9,
+   "reference": "ChIJeYXKYwA5DogRddCbwfJqzB0",
+   "scope": "GOOGLE",
+   "types": [
+    "bar",
+    "restaurant",
+    "food",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 9,
+   "vicinity": "6900 W 111th St, Worth"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.7224254,
+     "lng": -87.76952779999999
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.72381097989273,
+      "lng": -87.76837907010727
+     },
+     "southwest": {
+      "lat": 41.72111132010728,
+      "lng": -87.77107872989272
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/stadium-71.png",
+   "icon_background_color": "#4DB546",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/stadium_pinlet",
+   "name": "Oak Lawn Community High School Stadium",
+   "photos": [
+    {
+     "height": 3024,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/117317447873851546567\">Wisam Odeh</a>"
+     ],
+     "photo_reference": "AVzFdblAU2uI35hyImuFOgPDWoCLV8cZZlfbF60uF0uu0ZNcpVbWqeILoCAO9vi-tETTuVRr685TjByDE5WHwj5FihWruIhemtIeDXEoKuIobz-SZEDmCUuPIlvzInHDWR2ABvfFiGse7WzVONAGlodYXI4tefFny_VvpkO2CL5QBHuojauGh-ai-J2z",
+     "width": 4032
+    }
+   ],
+   "place_id": "ChIJT8YQl8w7DogRK9pRotRtO6s",
+   "plus_code": {
+    "compound_code": "P6CJ+W4 Oak Lawn, Illinois",
+    "global_code": "86HJP6CJ+W4"
+   },
+   "rating": 4.9,
+   "reference": "ChIJT8YQl8w7DogRK9pRotRtO6s",
+   "scope": "GOOGLE",
+   "types": [
+    "stadium",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 7,
+   "vicinity": "9330 S Austin Ave, Oak Lawn"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.672734,
+     "lng": -87.7837443
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.67393572989272,
+      "lng": -87.78187947010727
+     },
+     "southwest": {
+      "lat": 41.67123607010728,
+      "lng": -87.78457912989272
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/stadium-71.png",
+   "icon_background_color": "#4DB546",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/stadium_pinlet",
+   "name": "Southwest Chicago Christian School Stadium",
+   "place_id": "ChIJM8QnJBY5DogRKCPFmOB4pFY",
+   "plus_code": {
+    "compound_code": "M6F8+3G Palos Heights, Illinois",
+    "global_code": "86HJM6F8+3G"
+   },
+   "rating": 5,
+   "reference": "ChIJM8QnJBY5DogRKCPFmOB4pFY",
+   "scope": "GOOGLE",
+   "types": [
+    "stadium",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 1,
+   "vicinity": "6601 W College Dr, Palos Heights"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.68548089999999,
+     "lng": -87.817562
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.68682852989272,
+      "lng": -87.81583747010728
+     },
+     "southwest": {
+      "lat": 41.68412887010728,
+      "lng": -87.81853712989272
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/stadium-71.png",
+   "icon_background_color": "#4DB546",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/stadium_pinlet",
+   "name": "Stagg High School Stadium",
+   "photos": [
+    {
+     "height": 3024,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/116198554358725324076\">Joe Patierno</a>"
+     ],
+     "photo_reference": "AVzFdbkkgJUWYVYuNMoXZCUF5phS147ulidcUXNJ_lYqUsJO4Y9tI5FxeGorKrEuJ6ZIF7g3py14XRSfh8bJVFn--z9UIWf2eOSChUbsMJ-1Ofc8BKX9DzD4Jk1sXtLEOsMkfkKVOzjYD4CAl_xCb9mejpnbnpQKnFL0z9n1EHW7opN8XvRDDxR_-lgM",
+     "width": 4032
+    }
+   ],
+   "place_id": "ChIJoc1TMxo5DogRyFPgu7aAkTk",
+   "plus_code": {
+    "compound_code": "M5PJ+5X Palos Hills, Illinois",
+    "global_code": "86HJM5PJ+5X"
+   },
+   "rating": 5,
+   "reference": "ChIJoc1TMxo5DogRyFPgu7aAkTk",
+   "scope": "GOOGLE",
+   "types": [
+    "stadium",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 1,
+   "vicinity": "11400 S Moraine Dr, Palos Hills"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.6694317,
+     "lng": -87.77072489999999
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.67078487989271,
+      "lng": -87.76941202010728
+     },
+     "southwest": {
+      "lat": 41.66808522010727,
+      "lng": -87.77211167989272
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+   "icon_background_color": "#7B9EB0",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+   "name": "George and June Complex Soccer Field",
+   "photos": [
+    {
+     "height": 2350,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/102685459531181017076\">Peter Clevering</a>"
+     ],
+     "photo_reference": "AVzFdbnl4_ULfHQPK2OsKGtEnYi08QKQ8EDJHv0ZXxNeZ_IWToUYBrrx3gM1lAnU4bDMkeykdDJ_MNDUinEnzhXSPILvdoQ_AM6w9UDZI3q46PK6h4Ym9fhF8hZ9dZU72BwwTzbhrhazRQ-Gr1dHZnaRgB4YnPtCHEZ4AerriWOGJbINbFjjh5m6Mf2_",
+     "width": 3580
+    }
+   ],
+   "place_id": "ChIJj7Kqiq87DogR9UUkwcuOim0",
+   "plus_code": {
+    "compound_code": "M69H+QP Palos Heights, Illinois",
+    "global_code": "86HJM69H+QP"
+   },
+   "rating": 4.3,
+   "reference": "ChIJj7Kqiq87DogR9UUkwcuOim0",
+   "scope": "GOOGLE",
+   "types": [
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 4,
+   "vicinity": "6159 W Cal Sag Rd, Palos Heights"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.7220857,
+     "lng": -87.790938
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.72343867989272,
+      "lng": -87.78952322010728
+     },
+     "southwest": {
+      "lat": 41.72073902010728,
+      "lng": -87.79222287989272
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+   "icon_background_color": "#7B9EB0",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+   "name": "Westside Baseball of Oak Lawn",
+   "opening_hours": {},
+   "photos": [
+    {
+     "height": 2998,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/112623615041093506535\">Rick Drew</a>"
+     ],
+     "photo_reference": "AVzFdbn9S7LWZbgP2VlklUX-rV8vnzlGw0VIL7hZ5V-rqjQrDen5_apvSA_Iq0hodx5ZTMdOi_ijwH8NIQ6fNDf_Y5RG9olGgmqbUaGf9waOPRpBWbko9E790AZIoikklr3mfZ2Wf_gcCY0bLoyi4MF7bPAPkzGzU94eCf0ziGOZVQCPNqQcMXnC5SZ-",
+     "width": 5336
+    }
+   ],
+   "place_id": "ChIJW9T8f-w5DogR6kAfG3MBOc4",
+   "plus_code": {
+    "compound_code": "P6C5+RH Oak Lawn, Illinois",
+    "global_code": "86HJP6C5+RH"
+   },
+   "rating": 4.4,
+   "reference": "ChIJW9T8f-w5DogR6kAfG3MBOc4",
+   "scope": "GOOGLE",
+   "types": [
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 120,
+   "vicinity": "9400 Oak Park Ave, Oak Lawn"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.7224254,
+     "lng": -87.76952779999999
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.72381097989273,
+      "lng": -87.76837907010727
+     },
+     "southwest": {
+      "lat": 41.72111132010728,
+      "lng": -87.77107872989272
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/stadium-71.png",
+   "icon_background_color": "#4DB546",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/stadium_pinlet",
+   "name": "Oak Lawn Community High School Stadium",
+   "photos": [
+    {
+     "height": 3024,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/117317447873851546567\">Wisam Odeh</a>"
+     ],
+     "photo_reference": "AVzFdbnVORAyr0AQo_cTKfrCv6Wrf8Sv_gN1v8G57pYK1mBCAes8cqHhUv4LPHzDLVasavJflVwESdv40Kv0N8s3m2-cy-CsbXudPULahOHC9RWojjmAVoRQl4TxkB-lCYj_q2wql2cxO21Rxqs-pST1zsf82ZEpjtL6ZHt8XnDx3XptqJBB976_shM6",
+     "width": 4032
+    }
+   ],
+   "place_id": "ChIJT8YQl8w7DogRK9pRotRtO6s",
+   "plus_code": {
+    "compound_code": "P6CJ+W4 Oak Lawn, Illinois",
+    "global_code": "86HJP6CJ+W4"
+   },
+   "rating": 4.9,
+   "reference": "ChIJT8YQl8w7DogRK9pRotRtO6s",
+   "scope": "GOOGLE",
+   "types": [
+    "stadium",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 7,
+   "vicinity": "9330 S Austin Ave, Oak Lawn"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.6857181,
+     "lng": -87.7225175
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.68670802989272,
+      "lng": -87.72131022010728
+     },
+     "southwest": {
+      "lat": 41.68400837010727,
+      "lng": -87.72400987989273
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/stadium-71.png",
+   "icon_background_color": "#4DB546",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/stadium_pinlet",
+   "name": "Marist High School Stadium",
+   "place_id": "ChIJSzM0QXI7DogR5NARVTbUH2U",
+   "plus_code": {
+    "compound_code": "M7PG+7X Chicago, Illinois",
+    "global_code": "86HJM7PG+7X"
+   },
+   "rating": 0,
+   "reference": "ChIJSzM0QXI7DogR5NARVTbUH2U",
+   "scope": "GOOGLE",
+   "types": [
+    "stadium",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 0,
+   "vicinity": "4030 W 115th St, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.6834135,
+     "lng": -87.7050405
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.68478072989272,
+      "lng": -87.70368612010728
+     },
+     "southwest": {
+      "lat": 41.68208107010727,
+      "lng": -87.70638577989271
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+   "icon_background_color": "#13B5C7",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+   "name": "115 Bourbon Street",
+   "opening_hours": {
+    "open_now": true
+   },
+   "photos": [
+    {
+     "height": 2162,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/113405049317502412457\">A Google User</a>"
+     ],
+     "photo_reference": "AVzFdbnEaXfdLRlxg2k6vQL9Vfx6LhepkvD81KgoU9ErR8SsR9lFOO0cb_Rj3wUPRmgNddjBqzk2SPj7EyANorLL91xAlckjsB0pMJhd_937x6EYKO8gLbtoQZdYDB9xzlGXttIV9kvg2MqIE9sjoQ8NXSndne-LFgDFcO9hvGSa8Ai4MBWAQAIFN30z",
+     "width": 2678
+    }
+   ],
+   "place_id": "ChIJ7QYbQjE7DogR_e1m4Qyo0uQ",
+   "plus_code": {
+    "compound_code": "M7MV+9X Merrionette Park, Illinois",
+    "global_code": "86HJM7MV+9X"
+   },
+   "price_level": 2,
+   "rating": 4.3,
+   "reference": "ChIJ7QYbQjE7DogR_e1m4Qyo0uQ",
+   "scope": "GOOGLE",
+   "types": [
+    "night_club",
+    "bar",
+    "restaurant",
+    "point_of_interest",
+    "food",
+    "establishment"
+   ],
+   "user_ratings_total": 3220,
+   "vicinity": "3359 W 115th St, Merrionette Park"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.7305612,
+     "lng": -87.6924812
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.73191332989272,
+      "lng": -87.69099587010727
+     },
+     "southwest": {
+      "lat": 41.72921367010727,
+      "lng": -87.69369552989272
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+   "icon_background_color": "#7B9EB0",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+   "name": "Norris Field",
+   "opening_hours": {},
+   "photos": [
+    {
+     "height": 4032,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/104318548626299303246\">A Google User</a>"
+     ],
+     "photo_reference": "AVzFdbmfhiGMqqvk0F7kmSzHNunasHig-Sop2MDtjnB6-cnl_BcnYCdP_-7rpBKOPNFaLtNeJft1cFpl2kZ69CMtw-8w8gwit4q3JyLhHHSQDRMh50bXvj2by1iED0S8HpearkMUTJBjEvYwCLeE6jDozjz9cyL4dNxUDA2uM0Y5Y90Lk2wTTTGSsx4_",
+     "width": 3024
+    }
+   ],
+   "place_id": "ChIJQ4MIe1ElDogRsmtaPqDVl0M",
+   "plus_code": {
+    "compound_code": "P8J5+62 Evergreen Park, Illinois",
+    "global_code": "86HJP8J5+62"
+   },
+   "rating": 4.4,
+   "reference": "ChIJQ4MIe1ElDogRsmtaPqDVl0M",
+   "scope": "GOOGLE",
+   "types": [
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 13,
+   "vicinity": "8930 S California Ave, Evergreen Park"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.6694317,
+     "lng": -87.77072489999999
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.67078487989271,
+      "lng": -87.76941202010728
+     },
+     "southwest": {
+      "lat": 41.66808522010727,
+      "lng": -87.77211167989272
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+   "icon_background_color": "#7B9EB0",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+   "name": "George and June Complex Soccer Field",
+   "photos": [
+    {
+     "height": 2350,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/102685459531181017076\">Peter Clevering</a>"
+     ],
+     "photo_reference": "AVzFdbl0UPuUxG59_GFkEpCVaZ7TUms38O8sqtfx4ZN52U2RGCT6M38oFzOJCZ-dWpU9nw9QQgMwUwmR56aowRH8JgaHzrVHU7PFaBGPSt_sxUGY9qiqqbqNaQIh2f1Cow8NHKjkPP-XAZFK1zNS-jx_KKFf9OAe-pUvcVNb3hJKeOfa2tWh-p-_-IgX",
+     "width": 3580
+    }
+   ],
+   "place_id": "ChIJj7Kqiq87DogR9UUkwcuOim0",
+   "plus_code": {
+    "compound_code": "M69H+QP Palos Heights, Illinois",
+    "global_code": "86HJM69H+QP"
+   },
+   "rating": 4.3,
+   "reference": "ChIJj7Kqiq87DogR9UUkwcuOim0",
+   "scope": "GOOGLE",
+   "types": [
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 4,
+   "vicinity": "6159 W Cal Sag Rd, Palos Heights"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.7085091,
+     "lng": -87.6026376
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.70949087989272,
+      "lng": -87.60093552010729
+     },
+     "southwest": {
+      "lat": 41.70679122010728,
+      "lng": -87.60363517989272
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/stadium-71.png",
+   "icon_background_color": "#4DB546",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/stadium_pinlet",
+   "name": "Gately Park Stadium",
+   "photos": [
+    {
+     "height": 3000,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/115347597516505609775\">A Google User</a>"
+     ],
+     "photo_reference": "AVzFdbkOPLFejilnqop6TWgFh2UrLAIIHx92GOVoSAl8yQtmoZTBrGlK1fC7g4qcfdC1zXdoiM22NWMfYpsKNuzMBRpF3RczPZKRbmQcJgNvZHoTOC7_kQNp74Frxmc0Z0CSrF3v9ZNe88BQPAvS8-fZUSFIdEf6b_6HoTJVQ-wQyys_D3kl0HpDNsna",
+     "width": 4000
+    }
+   ],
+   "place_id": "ChIJfZ_PIWkmDogRuP-2P1lmz5g",
+   "plus_code": {
+    "compound_code": "P95W+CW Chicago, Illinois",
+    "global_code": "86HJP95W+CW"
+   },
+   "rating": 4.3,
+   "reference": "ChIJfZ_PIWkmDogRuP-2P1lmz5g",
+   "scope": "GOOGLE",
+   "types": [
+    "stadium",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 31,
+   "vicinity": "810 E 103rd St, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.7152943,
+     "lng": -87.6068439
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.71646137989272,
+      "lng": -87.60508972010727
+     },
+     "southwest": {
+      "lat": 41.71376172010728,
+      "lng": -87.60778937989272
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/stadium-71.png",
+   "icon_background_color": "#4DB546",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/stadium_pinlet",
+   "name": "Cougar Stadium",
+   "place_id": "ChIJ8VSsNm0mDogRU_hARpX_5dE",
+   "plus_code": {
+    "compound_code": "P98V+47 Chicago, Illinois",
+    "global_code": "86HJP98V+47"
+   },
+   "rating": 4.7,
+   "reference": "ChIJ8VSsNm0mDogRU_hARpX_5dE",
+   "scope": "GOOGLE",
+   "types": [
+    "stadium",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 6,
+   "vicinity": "9501 S King Dr, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.692326,
+     "lng": -87.663998
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.69362567989272,
+      "lng": -87.66269209999999
+     },
+     "southwest": {
+      "lat": 41.69092602010728,
+      "lng": -87.6654213
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/stadium-71.png",
+   "icon_background_color": "#4DB546",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/stadium_pinlet",
+   "name": "Stadium",
+   "place_id": "ChIJYyKHRlUlDogRKNPKALIscDI",
+   "plus_code": {
+    "compound_code": "M8RP+WC Chicago, Illinois",
+    "global_code": "86HJM8RP+WC"
+   },
+   "rating": 0,
+   "reference": "ChIJYyKHRlUlDogRKNPKALIscDI",
+   "scope": "GOOGLE",
+   "types": [
+    "stadium",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 0,
+   "vicinity": "11046 S Vincennes Ave, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.7094785,
+     "lng": -87.60517159999999
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.71088422989272,
+      "lng": -87.60425887010727
+     },
+     "southwest": {
+      "lat": 41.70818457010728,
+      "lng": -87.60695852989271
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+   "icon_background_color": "#7B9EB0",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+   "name": "Dr. Conrad Worrill Track & Field Center",
+   "opening_hours": {
+    "open_now": true
+   },
+   "photos": [
+    {
+     "height": 2992,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/102948697153254322092\">A Google User</a>"
+     ],
+     "photo_reference": "AVzFdbkOkTGgrvne5-u1XuwayAG-IVk19eI9dqKw1llAcymBAbEI4ChYFeBweeQijjQ15gML7V_G2Smwv5u1lr-kzEyuj5y_DEsyDm1QOF2X0EwJsznqid-u8dTRxg2FGtR2rnQ6WLFPay0MO-B6jq8IH9k9FG-y_kE_vfN_7P40dqs8qwSLql9G6V9c",
+     "width": 2992
+    }
+   ],
+   "place_id": "ChIJieJQO2kmDogRTozh7465P9k",
+   "plus_code": {
+    "compound_code": "P95V+QW Chicago, Illinois",
+    "global_code": "86HJP95V+QW"
+   },
+   "rating": 4.4,
+   "reference": "ChIJieJQO2kmDogRTozh7465P9k",
+   "scope": "GOOGLE",
+   "types": [
+    "tourist_attraction",
+    "gym",
+    "stadium",
+    "park",
+    "health",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 718,
+   "vicinity": "10201 S Cottage Grove Ave, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.6787719,
+     "lng": -87.6538933
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.67993112989272,
+      "lng": -87.65221062010728
+     },
+     "southwest": {
+      "lat": 41.67723147010728,
+      "lng": -87.65491027989272
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+   "icon_background_color": "#7B9EB0",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+   "name": "Ray & Joan Kroc Stadium",
+   "opening_hours": {
+    "open_now": false
+   },
+   "photos": [
+    {
+     "height": 1960,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/100742589943185934113\">Matthew Burnell</a>"
+     ],
+     "photo_reference": "AVzFdbmLAu6qMVP_abCFl2xYTFdBXU_HoOAbe85HDWrWhtsn92F3QkjO_nHrTYWX10KsmokKNV-lr92o8kAXc9itWyQQvaZai88NZeN5-FHdJ6n_CdxvR1Oxlpusg7VCM1ZSn1GQQhMOiPExzIvQTEWc8S9_K5scMh2XO65jfMOs0ym0kaLsIjmznAXR",
+     "width": 4032
+    }
+   ],
+   "place_id": "ChIJs_ZZtF8kDogRUW3xW-7lwoU",
+   "plus_code": {
+    "compound_code": "M8HW+GC Chicago, Illinois",
+    "global_code": "86HJM8HW+GC"
+   },
+   "rating": 4.6,
+   "reference": "ChIJs_ZZtF8kDogRUW3xW-7lwoU",
+   "scope": "GOOGLE",
+   "types": [
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 272,
+   "vicinity": "1250 W 119th St, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.6691485,
+     "lng": -87.67937839999999
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.67055087989273,
+      "lng": -87.67831117010728
+     },
+     "southwest": {
+      "lat": 41.66785122010728,
+      "lng": -87.68101082989273
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+   "icon_background_color": "#4DB546",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+   "name": "Hart Park",
+   "opening_hours": {},
+   "photos": [
+    {
+     "height": 4160,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/111256025591924590374\">Leticia Santos</a>"
+     ],
+     "photo_reference": "AVzFdblxr-Krxt12qaR_ShwuPe8MAZ-NYK4dVYdTg0dJ8rzhshZPawuQJ-NchzN1feyaHT3QLpzyiGG5R0bEi0kmmpmIatZXIbSHAQdtZJzEWtQczLZL3plsq0IsX1I0A6--ouHoFDEVrmu3ggCNrVryFrtxN-G5E8qlT3CWKeLvSpg5PefNgCHONgCB",
+     "width": 3120
+    }
+   ],
+   "place_id": "ChIJ4SDqFr0kDogRz4z-S6vlfR8",
+   "plus_code": {
+    "compound_code": "M89C+M6 Blue Island, Illinois",
+    "global_code": "86HJM89C+M6"
+   },
+   "rating": 4.2,
+   "reference": "ChIJ4SDqFr0kDogRz4z-S6vlfR8",
+   "scope": "GOOGLE",
+   "types": [
+    "park",
+    "tourist_attraction",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 68,
+   "vicinity": "12325 S Western Ave, Blue Island"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.7166891,
+     "lng": -87.6084305
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.71797002989272,
+      "lng": -87.60752692010728
+     },
+     "southwest": {
+      "lat": 41.71527037010728,
+      "lng": -87.61022657989272
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+   "icon_background_color": "#7B9EB0",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+   "name": "Emil And Patricia Jones Convocation Center",
+   "photos": [
+    {
+     "height": 3024,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/108601605094694258802\">A Google User</a>"
+     ],
+     "photo_reference": "AVzFdbkYh9SBwB0ofZi3ZiT3L9euQji2pe0HAei8RFNcDjABQZ4OWmBS53EtGEsKDkQRcdEKOlRMV31nx43rPDvH70SkBwroYTH80J5BQnLyv4gzzbY8XHwStfQmvHBZbwzsWtjEYXOiMlINNkNWbppqOkDl4Z6ZDu4KqYyThH_8pMyIeP4kmon4f8_G",
+     "width": 4032
+    }
+   ],
+   "place_id": "ChIJX3KsgA0mDogRfIQudq6cvD8",
+   "plus_code": {
+    "compound_code": "P98R+JJ Chicago, Illinois",
+    "global_code": "86HJP98R+JJ"
+   },
+   "rating": 4.4,
+   "reference": "ChIJX3KsgA0mDogRfIQudq6cvD8",
+   "scope": "GOOGLE",
+   "types": [
+    "gym",
+    "health",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 114,
+   "vicinity": "9501 S King Dr, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.7097676,
+     "lng": -87.60360349999999
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.71061932989272,
+      "lng": -87.60226832010727
+     },
+     "southwest": {
+      "lat": 41.70791967010728,
+      "lng": -87.60496797989272
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+   "icon_background_color": "#4DB546",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+   "name": "Gately (James) Park",
+   "opening_hours": {
+    "open_now": true
+   },
+   "photos": [
+    {
+     "height": 3456,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/100145182558008189451\">Ubaldo Melo</a>"
+     ],
+     "photo_reference": "AVzFdblcZSBTpMB7jV1jNY472Fv51rH4c1s-S6kuQeGfZaBotZBdPeD9qxUGzVAMUG_tg66Vk4cTUPrVe8l8OF86QKFwg8UCiED4fFyiH9acyQIoteONDXoroFIv3BP-gDIE53R9HXsoCyOhL3hXjz75vhriQ6dqko0AIdeKU-f1okskrf6lgmq2f-Fb",
+     "width": 3456
+    }
+   ],
+   "place_id": "ChIJ45ZFMwAnDogRE2BgZjlpZIU",
+   "plus_code": {
+    "compound_code": "P95W+WH Chicago, Illinois",
+    "global_code": "86HJP95W+WH"
+   },
+   "rating": 5,
+   "reference": "ChIJ45ZFMwAnDogRE2BgZjlpZIU",
+   "scope": "GOOGLE",
+   "types": [
+    "park",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 3,
+   "vicinity": "10201 S Cottage Grove Ave, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.7276324,
+     "lng": -87.67598749999999
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.72898122989273,
+      "lng": -87.67469572010728
+     },
+     "southwest": {
+      "lat": 41.72628157010728,
+      "lng": -87.67739537989273
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+   "icon_background_color": "#7B9EB0",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+   "name": "Beverly Hills Tennis Club",
+   "opening_hours": {
+    "open_now": true
+   },
+   "photos": [
+    {
+     "height": 3024,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/110209539817487345231\">Samone Morris</a>"
+     ],
+     "photo_reference": "AVzFdbmQ7wRHtYpK_tR6Jy5D5_EuhYe2mq0-k439wR8E41TNeQIIpOtbZ-jR_ZKAIZDh13yaJZ_l6p26mUMhtXpbkHD989DlDgX1KzkoJomyL42VUJnCdHMYcg7AZKb1tKkWl1shLx0QIv0CromoV56dSr9kKaMlJ0SAHOWipOerOuJfysVRy0cHDuvl",
+     "width": 4032
+    }
+   ],
+   "place_id": "ChIJLYOw22clDogRAR1Rh4vRWvQ",
+   "plus_code": {
+    "compound_code": "P8HF+3J Chicago, Illinois",
+    "global_code": "86HJP8HF+3J"
+   },
+   "rating": 4.9,
+   "reference": "ChIJLYOw22clDogRAR1Rh4vRWvQ",
+   "scope": "GOOGLE",
+   "types": [
+    "stadium",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 28,
+   "vicinity": "9121 S Hamilton Ave, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.7208975,
+     "lng": -87.67320509999999
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.72226802989272,
+      "lng": -87.67184937010728
+     },
+     "southwest": {
+      "lat": 41.71956837010728,
+      "lng": -87.67454902989273
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+   "icon_background_color": "#7B9EB0",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+   "name": "Chicago Bulls",
+   "place_id": "ChIJB16q9GslDogRIEFDS9H_Xo4",
+   "plus_code": {
+    "compound_code": "P8CG+8P Chicago, Illinois",
+    "global_code": "86HJP8CG+8P"
+   },
+   "rating": 5,
+   "reference": "ChIJB16q9GslDogRIEFDS9H_Xo4",
+   "scope": "GOOGLE",
+   "types": [
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 3,
+   "vicinity": "2019 US-20, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.7003006,
+     "lng": -87.64848520000001
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.70129457989272,
+      "lng": -87.64697932010728
+     },
+     "southwest": {
+      "lat": 41.69859492010728,
+      "lng": -87.64967897989273
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+   "icon_background_color": "#7B9EB0",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+   "name": "Jackie Robinson Ball Field",
+   "opening_hours": {
+    "open_now": true
+   },
+   "place_id": "ChIJdTFUPLIlDogRr_0RdHSBkb4",
+   "plus_code": {
+    "compound_code": "P922+4J Chicago, Illinois",
+    "global_code": "86HJP922+4J"
+   },
+   "rating": 4.2,
+   "reference": "ChIJdTFUPLIlDogRr_0RdHSBkb4",
+   "scope": "GOOGLE",
+   "types": [
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 18,
+   "vicinity": "10540 S Morgan St, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.6997766,
+     "lng": -87.6810934
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.70120547989272,
+      "lng": -87.67979617010728
+     },
+     "southwest": {
+      "lat": 41.69850582010728,
+      "lng": -87.68249582989273
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+   "icon_background_color": "#FF9E67",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+   "name": "Buona",
+   "opening_hours": {
+    "open_now": true
+   },
+   "photos": [
+    {
+     "height": 1920,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/112183395585909614552\">Bernard Granderson</a>"
+     ],
+     "photo_reference": "AVzFdbkxcj0ansmxRlFUYv2nH5d1xlNKdhNiJQit50yE-Ha5TO-vmsLcR83jxbY6P3tWZB17Bx9kz3Ss7ceZiANxQzyjW9CPvtZ5LVHDbENTCfzMeon6ntaS90zgiCJOJxqIQhHWqhiLpnZVuuWGep-7znvW46YFkYFXR6yj9-w-jQKrHkwQHHxQsEPo",
+     "width": 1080
+    }
+   ],
+   "place_id": "ChIJtUn44CAlDogRnPkAfWC21H4",
+   "plus_code": {
+    "compound_code": "M8X9+WH Chicago, Illinois",
+    "global_code": "86HJM8X9+WH"
+   },
+   "price_level": 2,
+   "rating": 4.3,
+   "reference": "ChIJtUn44CAlDogRnPkAfWC21H4",
+   "scope": "GOOGLE",
+   "types": [
+    "restaurant",
+    "food",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 2359,
+   "vicinity": "10633 S Western Ave, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.6800874,
+     "lng": -87.64847720000002
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.68120972989272,
+      "lng": -87.64661012010728
+     },
+     "southwest": {
+      "lat": 41.67851007010728,
+      "lng": -87.64930977989273
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+   "icon_background_color": "#7B9EB0",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+   "name": "White Sox Ace Practice Field Kroc",
+   "photos": [
+    {
+     "height": 4096,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/100125686223176540608\">GUILLERMO LUIS LERZO</a>"
+     ],
+     "photo_reference": "AVzFdbk3hVUk1XdIuaw_Fw_n6nnmwzFV7ae3iqF9BeGg1Qoxh2z9TFy1UWlLpj2N98-N1NrDofMjkNT17wkbOQIzrOsPzOltfh28DJcHWoazSVfyF-Ww4xfnvJ2ZHnNnaYGP2jfcFRDcXv6MgvMTq2lF0hOI70l50iwhda9uorYg0h_STioGvD9NmIMT",
+     "width": 3072
+    }
+   ],
+   "place_id": "ChIJwUXUQ8glDogRwQKjBq4W-wk",
+   "plus_code": {
+    "compound_code": "M9J2+2J Chicago, Illinois",
+    "global_code": "86HJM9J2+2J"
+   },
+   "rating": 4.7,
+   "reference": "ChIJwUXUQ8glDogRwQKjBq4W-wk",
+   "scope": "GOOGLE",
+   "types": [
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 11,
+   "vicinity": "1101 W 117th St, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.7085091,
+     "lng": -87.6026376
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.70949087989272,
+      "lng": -87.60093552010729
+     },
+     "southwest": {
+      "lat": 41.70679122010728,
+      "lng": -87.60363517989272
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/stadium-71.png",
+   "icon_background_color": "#4DB546",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/stadium_pinlet",
+   "name": "Gately Park Stadium",
+   "photos": [
+    {
+     "height": 3000,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/115347597516505609775\">A Google User</a>"
+     ],
+     "photo_reference": "AVzFdbk_-AxkXoHIIZ6_fhafGKM7hW-DrI6szt_EpLlJO2SgrwFjFj7kC1l0ZSGZ_7bX25Ie66svU46pwTSqYkafkx8MnvGpVVXgH0uScKhlFlwtfcJLrmjTW2Gkk0QiHKkX8SkP6FSYvzhS42ajwev9ktcfxbEZvBziqlDJjhGR58dHlX0pSJ0re9fM",
+     "width": 4000
+    }
+   ],
+   "place_id": "ChIJfZ_PIWkmDogRuP-2P1lmz5g",
+   "plus_code": {
+    "compound_code": "P95W+CW Chicago, Illinois",
+    "global_code": "86HJP95W+CW"
+   },
+   "rating": 4.3,
+   "reference": "ChIJfZ_PIWkmDogRuP-2P1lmz5g",
+   "scope": "GOOGLE",
+   "types": [
+    "stadium",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 31,
+   "vicinity": "810 E 103rd St, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.7152943,
+     "lng": -87.6068439
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.71646137989272,
+      "lng": -87.60508972010727
+     },
+     "southwest": {
+      "lat": 41.71376172010728,
+      "lng": -87.60778937989272
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/stadium-71.png",
+   "icon_background_color": "#4DB546",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/stadium_pinlet",
+   "name": "Cougar Stadium",
+   "place_id": "ChIJ8VSsNm0mDogRU_hARpX_5dE",
+   "plus_code": {
+    "compound_code": "P98V+47 Chicago, Illinois",
+    "global_code": "86HJP98V+47"
+   },
+   "rating": 4.7,
+   "reference": "ChIJ8VSsNm0mDogRU_hARpX_5dE",
+   "scope": "GOOGLE",
+   "types": [
+    "stadium",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 6,
+   "vicinity": "9501 S King Dr, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.7094785,
+     "lng": -87.60517159999999
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.71088422989272,
+      "lng": -87.60425887010727
+     },
+     "southwest": {
+      "lat": 41.70818457010728,
+      "lng": -87.60695852989271
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+   "icon_background_color": "#7B9EB0",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+   "name": "Dr. Conrad Worrill Track & Field Center",
+   "opening_hours": {
+    "open_now": true
+   },
+   "photos": [
+    {
+     "height": 3024,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/115951084527934792277\">A Google User</a>"
+     ],
+     "photo_reference": "AVzFdbl6MAV3ClHEh3UL79nq8vdRzA-Hfr1qI30rITVPUh-oHJUNZN4dkH64vJIBI3HKCebDBsXx62bDsyuDrfeax6Nj9S5d9gF_b7UTS3cUiHCRT5QLGycQefTXEzVaNRnRDDE7J4qSlzTMJmnVk4QaYnX_8gpczPJW6w8tAfs9znmNoVFRAQg5AdVq",
+     "width": 4032
+    }
+   ],
+   "place_id": "ChIJieJQO2kmDogRTozh7465P9k",
+   "plus_code": {
+    "compound_code": "P95V+QW Chicago, Illinois",
+    "global_code": "86HJP95V+QW"
+   },
+   "rating": 4.4,
+   "reference": "ChIJieJQO2kmDogRTozh7465P9k",
+   "scope": "GOOGLE",
+   "types": [
+    "tourist_attraction",
+    "gym",
+    "stadium",
+    "park",
+    "health",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 718,
+   "vicinity": "10201 S Cottage Grove Ave, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.7041257,
+     "lng": -87.59326659999999
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.70552167989273,
+      "lng": -87.59191257010728
+     },
+     "southwest": {
+      "lat": 41.70282202010728,
+      "lng": -87.59461222989272
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+   "icon_background_color": "#7B9EB0",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+   "name": "Pullman Omniplex Stadium",
+   "opening_hours": {
+    "open_now": true
+   },
+   "photos": [
+    {
+     "height": 4032,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/105222824499661638144\">Anadelma Robles</a>"
+     ],
+     "photo_reference": "AVzFdblhM8U_Wc6mTYOl_LdB2yiM5JraIPZufLgn1teaxFk8MNe8OB82Ni1ElRn76JvPy7rCGjSfial0g4lGASKqiWv5Gmta6iRSxOo14MPl9jDKd4rHgmmf6LunHebc_SD3xFwbVXLJ4syWtBD6QWn8Gs8YhSwvAqvhooU1WF315JGnW7-3OTpZqGN6",
+     "width": 3024
+    }
+   ],
+   "place_id": "ChIJPfdsRlsmDogRbR2wZFIIh5U",
+   "plus_code": {
+    "compound_code": "PC34+PM Chicago, Illinois",
+    "global_code": "86HJPC34+PM"
+   },
+   "rating": 4.6,
+   "reference": "ChIJPfdsRlsmDogRbR2wZFIIh5U",
+   "scope": "GOOGLE",
+   "types": [
+    "gym",
+    "health",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 110,
+   "vicinity": "10355 S Woodlawn Ave, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.7097676,
+     "lng": -87.60360349999999
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.71061932989272,
+      "lng": -87.60226832010727
+     },
+     "southwest": {
+      "lat": 41.70791967010728,
+      "lng": -87.60496797989272
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+   "icon_background_color": "#4DB546",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+   "name": "Gately (James) Park",
+   "opening_hours": {
+    "open_now": true
+   },
+   "photos": [
+    {
+     "height": 3456,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/100145182558008189451\">Ubaldo Melo</a>"
+     ],
+     "photo_reference": "AVzFdblw-6cqfdebs0mGmRQAbta43lHEHyY3lFxbQPCODLzW3Mz50I9SXgTgnu_28ZhsUU3Yct3Ls9qayGnNWbcWQgBw8-lMB9qf5eEkMNwvLPNVixsb8q0A4CoU82jRpv30gkjo5SwP0v8v_Rx5eQ-VkewN4D0fmSpFvWr5dBsJMigbV7gUJ-IqN6uJ",
+     "width": 3456
+    }
+   ],
+   "place_id": "ChIJ45ZFMwAnDogRE2BgZjlpZIU",
+   "plus_code": {
+    "compound_code": "P95W+WH Chicago, Illinois",
+    "global_code": "86HJP95W+WH"
+   },
+   "rating": 5,
+   "reference": "ChIJ45ZFMwAnDogRE2BgZjlpZIU",
+   "scope": "GOOGLE",
+   "types": [
+    "park",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 3,
+   "vicinity": "10201 S Cottage Grove Ave, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.720498,
+     "lng": -87.5271934
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.72220387989272,
+      "lng": -87.52541107010728
+     },
+     "southwest": {
+      "lat": 41.71950422010728,
+      "lng": -87.52811072989273
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+   "icon_background_color": "#7B9EB0",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+   "name": "Calumet Park Soccer Field",
+   "opening_hours": {
+    "open_now": true
+   },
+   "photos": [
+    {
+     "height": 1916,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/108196022794428583302\">A Google User</a>"
+     ],
+     "photo_reference": "AVzFdbn1_ne_pYYbKyTOgzt44WXu-WPASITqesYQvwQkaGPtlrw1pmn9sMEz0NFrHjyz5CaPPXO6ZveAgRoYMKCrCNq5QyeKFyIRXDJ0VsLUUjmKnQwjUa33Vg8gOxq1bpHn3amPRF3I7h-AmF0_pMGTJmbcd_Z3c_Y2k8HrkuW88lGUGJJmk1_uRPDf",
+     "width": 1440
+    }
+   ],
+   "place_id": "ChIJqV6kChHYEYgRtLLY36jsOuk",
+   "plus_code": {
+    "compound_code": "PFCF+54 Chicago, Illinois",
+    "global_code": "86HJPFCF+54"
+   },
+   "rating": 5,
+   "reference": "ChIJqV6kChHYEYgRtLLY36jsOuk",
+   "scope": "GOOGLE",
+   "types": [
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 2,
+   "vicinity": "Artificial Turf Field, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.7093701,
+     "lng": -87.6034188
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.71041627989272,
+      "lng": -87.60208837010728
+     },
+     "southwest": {
+      "lat": 41.70771662010727,
+      "lng": -87.60478802989272
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+   "icon_background_color": "#7B9EB0",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+   "name": "Gately Park Ball Field",
+   "opening_hours": {
+    "open_now": true
+   },
+   "place_id": "ChIJwy3CNmkmDogR47BU2zh30q0",
+   "plus_code": {
+    "compound_code": "P95W+PJ Chicago, Illinois",
+    "global_code": "86HJP95W+PJ"
+   },
+   "rating": 0,
+   "reference": "ChIJwy3CNmkmDogR47BU2zh30q0",
+   "scope": "GOOGLE",
+   "types": [
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 0,
+   "vicinity": "Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.803862,
+     "lng": -87.89271169999999
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.80556507989272,
+      "lng": -87.89137597010728
+     },
+     "southwest": {
+      "lat": 41.80286542010727,
+      "lng": -87.89407562989273
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/stadium-71.png",
+   "icon_background_color": "#4DB546",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/stadium_pinlet",
+   "name": "Bennett Field Stadium",
+   "photos": [
+    {
+     "height": 3024,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/117099918188207739029\">Corey Williams</a>"
+     ],
+     "photo_reference": "AVzFdbn0VpJfBu33kGhmCMPPAkxDh40oJPa0huvT-_bOLhXU1Z07dLz7_RTikd0qDxYt6vgGvND-bTtRFedBXd_gfoo_14Ru0I3pcwYXhGzitD3YmMpVa9B4vATHwwxLJKR4D6EGMOAbGv9-QM69O89zzq-3IL-72JhXQ-Df2KRnM9hVaq4vlbHpkCbs",
+     "width": 4032
+    }
+   ],
+   "place_id": "ChIJcddXS55JDogRDg9IrdEQ0Fs",
+   "plus_code": {
+    "compound_code": "R434+GW Western Springs, Illinois",
+    "global_code": "86HJR434+GW"
+   },
+   "rating": 4.3,
+   "reference": "ChIJcddXS55JDogRDg9IrdEQ0Fs",
+   "scope": "GOOGLE",
+   "types": [
+    "stadium",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 50,
+   "vicinity": "Western Springs"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.8107301,
+     "lng": -87.88824489999999
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.81184422989272,
+      "lng": -87.88688587010728
+     },
+     "southwest": {
+      "lat": 41.80914457010728,
+      "lng": -87.88958552989271
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+   "icon_background_color": "#7B9EB0",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+   "name": "Lyons Township High School Soccer Field",
+   "opening_hours": {},
+   "photos": [
+    {
+     "height": 1440,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/113213094637958051140\">Jim Petykowski</a>"
+     ],
+     "photo_reference": "AVzFdbnRXi1hX1Mz9IyHH_BJskUvMy3nFeO6PKSuR2lUuCT2V2vp2y1syiuyLV0R-GDZsBy9wAm0lTEfd7K024dQ4EFh8EPGttgLBohGMLnKi8aVVuKS3wtw_Ewpb728oHKX2gC-1sMTgaA-5WkTZECeqaETqQEXi41i4LtXZiDvbCalYINvxNu2JYou",
+     "width": 2560
+    }
+   ],
+   "place_id": "ChIJL_5RSptJDogR9V9UQxfnEkA",
+   "plus_code": {
+    "compound_code": "R466+7P La Grange, Illinois",
+    "global_code": "86HJR466+7P"
+   },
+   "rating": 3.9,
+   "reference": "ChIJL_5RSptJDogR9V9UQxfnEkA",
+   "scope": "GOOGLE",
+   "types": [
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 26,
+   "vicinity": "1401-1499 W Elm Ave, La Grange"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.8034362,
+     "lng": -87.88576499999999
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.80496617989272,
+      "lng": -87.88464212010727
+     },
+     "southwest": {
+      "lat": 41.80226652010727,
+      "lng": -87.88734177989272
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+   "icon_background_color": "#7B9EB0",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+   "name": "La Grange Field Club",
+   "opening_hours": {
+    "open_now": true
+   },
+   "place_id": "ChIJr0EZlplJDogR2I4WzxEwYPM",
+   "plus_code": {
+    "compound_code": "R437+9M La Grange, Illinois",
+    "global_code": "86HJR437+9M"
+   },
+   "rating": 4.1,
+   "reference": "ChIJr0EZlplJDogR2I4WzxEwYPM",
+   "scope": "GOOGLE",
+   "types": [
+    "stadium",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 23,
+   "vicinity": "1300 W 47th St, La Grange"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.8044606,
+     "lng": -87.84509419999999
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.80589462989272,
+      "lng": -87.84373397010728
+     },
+     "southwest": {
+      "lat": 41.80319497010728,
+      "lng": -87.84643362989272
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+   "icon_background_color": "#FF9E67",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+   "name": "Stadium Club at the Max",
+   "opening_hours": {
+    "open_now": true
+   },
+   "photos": [
+    {
+     "height": 2064,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/109186400676599103095\">A Google User</a>"
+     ],
+     "photo_reference": "AVzFdbnRKrI-ffjlgbwVQ_U4_XwRzpSShEEGE9GGeMzCckHUEovGJLhmXSqi7VWA-vDuD3ehdMHV2QYgmavFM4Ac79Zg2futToNizEhMwbfs_8pq7FfleojL4Nb6MlqOdmG2ZGSXqRjXJbTKxXIKJZyP6jV_OdwDRJp5HaUZWgxSiw_gqmQfPSs45zqz",
+     "width": 4032
+    }
+   ],
+   "place_id": "ChIJcUwgPzo3DogRWLRZ-TL4Vnw",
+   "plus_code": {
+    "compound_code": "R533+QX McCook, Illinois",
+    "global_code": "86HJR533+QX"
+   },
+   "price_level": 2,
+   "rating": 4.5,
+   "reference": "ChIJcUwgPzo3DogRWLRZ-TL4Vnw",
+   "scope": "GOOGLE",
+   "types": [
+    "restaurant",
+    "point_of_interest",
+    "food",
+    "establishment"
+   ],
+   "user_ratings_total": 132,
+   "vicinity": "4740 Vernon Ave, McCook"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.8465207,
+     "lng": -87.80252449999999
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.84786117989272,
+      "lng": -87.80162917010728
+     },
+     "southwest": {
+      "lat": 41.84516152010728,
+      "lng": -87.80432882989271
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/stadium-71.png",
+   "icon_background_color": "#4DB546",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/stadium_pinlet",
+   "name": "Morton West HS Stadium",
+   "photos": [
+    {
+     "height": 4160,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/103866697944312221431\">Gustavo Andrade</a>"
+     ],
+     "photo_reference": "AVzFdblNDtuTbXsNwHwMVCqeYWXlcIYNATVZURcfa6WPXIOP2ZYFhywiR8tO7igG_1irp1a16a1R7O3pbhufREyrfhSM7Njly-02QhIDB_aHdSIxDE4AqStjOCgxWBShCZzHlPdNEIVKcv30MG4Looz7bd0i9U2Iaa3PNnwk_2qGNjZe5lAbQYHxqB4w",
+     "width": 3120
+    }
+   ],
+   "place_id": "ChIJPeB2DGU1DogRPkzxv6QTGWA",
+   "plus_code": {
+    "compound_code": "R5WW+JX Berwyn, Illinois",
+    "global_code": "86HJR5WW+JX"
+   },
+   "rating": 5,
+   "reference": "ChIJPeB2DGU1DogRPkzxv6QTGWA",
+   "scope": "GOOGLE",
+   "types": [
+    "stadium",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 4,
+   "vicinity": "Harlem Ave & 25th St, Berwyn"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.8465374,
+     "lng": -87.8032983
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.84788682989272,
+      "lng": -87.8019634701073
+     },
+     "southwest": {
+      "lat": 41.84518717010728,
+      "lng": -87.80466312989273
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/stadium-71.png",
+   "icon_background_color": "#4DB546",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/stadium_pinlet",
+   "name": "Morton West Stadium",
+   "opening_hours": {
+    "open_now": true
+   },
+   "photos": [
+    {
+     "height": 675,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/101467910183399246109\">A Google User</a>"
+     ],
+     "photo_reference": "AVzFdbkJxGtlGvYLq2ZgWzmANdfMi7fXaXkU5y6rg3yQFS2WvFPaWRS7SmkBuiiFx_WfK-W1XNRBnnif5mTmUd8fVOhOb1P12L-5YMCSaknkY_r2ljsO7EP-fK5FczhU91vDJtlY2rDPP3HYlQjez-9HZKYxH9EPkxAgP-8eXdpZVL_eG_jOiUHnYUR9",
+     "width": 900
+    }
+   ],
+   "place_id": "ChIJU6mFmjM1DogRUIV-ohksfSM",
+   "plus_code": {
+    "compound_code": "R5WW+JP Berwyn, Illinois",
+    "global_code": "86HJR5WW+JP"
+   },
+   "rating": 4,
+   "reference": "ChIJU6mFmjM1DogRUIV-ohksfSM",
+   "scope": "GOOGLE",
+   "types": [
+    "stadium",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 3,
+   "vicinity": "Morton West High School, 2401 S Harlem Ave, Berwyn"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.80410699999999,
+     "lng": -87.846215
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.80533892989272,
+      "lng": -87.84487737010728
+     },
+     "southwest": {
+      "lat": 41.80263927010728,
+      "lng": -87.84757702989273
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+   "icon_background_color": "#7B9EB0",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+   "name": "McCook Athletic & Exposition",
+   "opening_hours": {
+    "open_now": true
+   },
+   "photos": [
+    {
+     "height": 3024,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/101829717023274288927\">Carrie Palomado</a>"
+     ],
+     "photo_reference": "AVzFdbkWJmcnaaZ1Doo2WDckU1Uym3WJM5-clLVWXwrzKZ-9Z7NGM0h3c-pnWyKpqsXZP82IYzWgw8fru8YhilIpYuWVLMP1H4psveSUE24mDX5r2_Ob6Hx6YXj6osD3krlnYgU9-n8qoQ1l8LpkljYg2J0RLMZhBC8W7PUzkX-j28j7l5OfE9dsPjYQ",
+     "width": 4032
+    }
+   ],
+   "place_id": "ChIJ5yBmVxc2DogR1TwTSjOoFoY",
+   "plus_code": {
+    "compound_code": "R533+JG La Grange, Illinois",
+    "global_code": "86HJR533+JG"
+   },
+   "rating": 4.5,
+   "reference": "ChIJ5yBmVxc2DogR1TwTSjOoFoY",
+   "scope": "GOOGLE",
+   "types": [
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 666,
+   "vicinity": "4750 Vernon Ave, La Grange"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.8287042,
+     "lng": -87.83272579999999
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.82969662989272,
+      "lng": -87.83136077010727
+     },
+     "southwest": {
+      "lat": 41.82699697010728,
+      "lng": -87.8340604298927
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+   "icon_background_color": "#4DB546",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+   "name": "RBHS Stadium and Track",
+   "place_id": "ChIJ85mRFgA1DogRhDI6mOGMWdw",
+   "plus_code": {
+    "compound_code": "R5H8+FW Brookfield, Illinois",
+    "global_code": "86HJR5H8+FW"
+   },
+   "rating": 4.5,
+   "reference": "ChIJ85mRFgA1DogRhDI6mOGMWdw",
+   "scope": "GOOGLE",
+   "types": [
+    "park",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 2,
+   "vicinity": "8504 Washington Ave, Brookfield"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.8542993,
+     "lng": -87.75380559999999
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.85563922989272,
+      "lng": -87.75263717010726
+     },
+     "southwest": {
+      "lat": 41.85293957010728,
+      "lng": -87.75533682989271
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/stadium-71.png",
+   "icon_background_color": "#4DB546",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/stadium_pinlet",
+   "name": "Cicero Stadium",
+   "photos": [
+    {
+     "height": 2988,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/104591358952977559862\">Edonna Ojeda</a>"
+     ],
+     "photo_reference": "AVzFdblhv4zDUiOqQ_1vcddod30VwQ9G1khHTjtm9V_D6abeGLNyU5KKoxiKMaXHH9tBGzlYYVcza2Zg--nedKm4e65NSWwcROAWudSUH8X9xIU4RQJgsDfMKW-MSZVoEUql0SO0e3yPpxiQpE3_cBQQC1jkGrJzExY-Uea5hoznqsG2GY2p3JV2TbFW",
+     "width": 5312
+    }
+   ],
+   "place_id": "ChIJySo2c6EzDogRtyaeI_nnQHw",
+   "plus_code": {
+    "compound_code": "V63W+PF Cicero, Illinois",
+    "global_code": "86HJV63W+PF"
+   },
+   "rating": 4.4,
+   "reference": "ChIJySo2c6EzDogRtyaeI_nnQHw",
+   "scope": "GOOGLE",
+   "types": [
+    "stadium",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 342,
+   "vicinity": "1909 S Laramie Ave, Cicero"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.8298609,
+     "lng": -87.6336684
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.83241045,
+      "lng": -87.6292683
+     },
+     "southwest": {
+      "lat": 41.82692585,
+      "lng": -87.6384827
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/stadium-71.png",
+   "icon_background_color": "#4DB546",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/stadium_pinlet",
+   "name": "Rate Field",
+   "photos": [
+    {
+     "height": 1915,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/109888558716206032828\">Jay Hyde</a>"
+     ],
+     "photo_reference": "AVzFdbnt_odf1ovdBvjb11b-ywbV_MEycAdDo4fQJhCe2YiGwSmKxX1Q-YZWQGwmRPkB2s6buqg5TXkvMDk_IwSwdWmGzoaug_5CcO-z6ySvaPQJxJtsCBE3ArGfxYiT0DtLyusTOfxC-bEvsWUnSGZ5gfLCRNyUPGcmX-Wtv3EfShXZpqOmVeoArvee",
+     "width": 3107
+    }
+   ],
+   "place_id": "ChIJ9ZKOJxQsDogRuJBKj2ZPhi8",
+   "plus_code": {
+    "compound_code": "R9H8+WG Chicago, Illinois",
+    "global_code": "86HJR9H8+WG"
+   },
+   "rating": 4.6,
+   "reference": "ChIJ9ZKOJxQsDogRuJBKj2ZPhi8",
+   "scope": "GOOGLE",
+   "types": [
+    "stadium",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 15377,
+   "vicinity": "333 W 35th St, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.8388919,
+     "lng": -87.6285968
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.83994092989272,
+      "lng": -87.62691952010728
+     },
+     "southwest": {
+      "lat": 41.83724127010728,
+      "lng": -87.62961917989273
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/stadium-71.png",
+   "icon_background_color": "#4DB546",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/stadium_pinlet",
+   "name": "Stuart Field",
+   "opening_hours": {
+    "open_now": true
+   },
+   "photos": [
+    {
+     "height": 2432,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/116991081964321547242\">Fabricio Trentini</a>"
+     ],
+     "photo_reference": "AVzFdblwmeH8l6cKjm7QPuoFGD84jvI2e6Lmio8glqD_Y1z3h8ZZ9ZHAARvOvzbRJ0fmjYOKssbxDQGWtExBdZW0rC0-wfAMt6QwsYYdTbpZ1sMz5Byq4f89LxWNqNNw7-yzb7y7doypXOGxqQhM4WT76xBupnbjsgNVUuUc4XYXFIYKMffDrj6A2b2x",
+     "width": 3286
+    }
+   ],
+   "place_id": "ChIJ_83IiG0sDogRKvUp_PUx8tc",
+   "plus_code": {
+    "compound_code": "R9QC+HH Chicago, Illinois",
+    "global_code": "86HJR9QC+HH"
+   },
+   "rating": 4.3,
+   "reference": "ChIJ_83IiG0sDogRKvUp_PUx8tc",
+   "scope": "GOOGLE",
+   "types": [
+    "stadium",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 38,
+   "vicinity": "Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.8623132,
+     "lng": -87.6166884
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.8681569,
+      "lng": -87.61312505000001
+     },
+     "southwest": {
+      "lat": 41.8548953,
+      "lng": -87.61850925
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/stadium-71.png",
+   "icon_background_color": "#4DB546",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/stadium_pinlet",
+   "name": "Soldier Field",
+   "opening_hours": {
+    "open_now": false
+   },
+   "photos": [
+    {
+     "height": 3024,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/103969357352480871206\">Walter Claude</a>"
+     ],
+     "photo_reference": "AVzFdblYaiNgIW6Ki328ydHzu1d1rF1FEPTFjv1eRaW4agdsvI_7LUCoSnUqi7XlhnDCtCS_2lrcrC8B22Uo3GVLfdJvioiaNcoTGcrL8gbVJXb4K7IOpaJiSfG7rPuv0iDfxOipZMfbogE0B_W9yGomZwIq4cmu677bD8a3oTIM7vOeyYlWFtLBEyoU",
+     "width": 4032
+    }
+   ],
+   "place_id": "ChIJu-eVtX0rDogRnAL4r-ucyaM",
+   "plus_code": {
+    "compound_code": "V96M+W8 Chicago, Illinois",
+    "global_code": "86HJV96M+W8"
+   },
+   "rating": 4.5,
+   "reference": "ChIJu-eVtX0rDogRnAL4r-ucyaM",
+   "scope": "GOOGLE",
+   "types": [
+    "stadium",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 13039,
+   "vicinity": "1410 Special Olympics Dr, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.82656069999999,
+     "lng": -87.62712540000001
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.82791407989272,
+      "lng": -87.62547212010729
+     },
+     "southwest": {
+      "lat": 41.82521442010728,
+      "lng": -87.62817177989274
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+   "icon_background_color": "#4DB546",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+   "name": "Stateway Park",
+   "opening_hours": {
+    "open_now": true
+   },
+   "photos": [
+    {
+     "height": 2988,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/112221819474275726679\">Bill Igoe</a>"
+     ],
+     "photo_reference": "AVzFdbnmXZ3_W9ciZ-u4_MbTHcQLFUzuO8j-MV49hsONrG4LhTxcvGxjeOIHkqZFird5BvqJIypZuxBn10MTAvjPtqrq4gSu-_rtpzhzpnGw49WaI8trg8PLyQC24JyIvOB8oVjHHr6DFhZonVmSFtjTXs_13BwhUTtk8oibF0g6yu9xX__HaWiIYK2S",
+     "width": 3984
+    }
+   ],
+   "place_id": "ChIJpdibIRAsDogRxQSv8GXG4LM",
+   "plus_code": {
+    "compound_code": "R9GF+J4 Chicago, Illinois",
+    "global_code": "86HJR9GF+J4"
+   },
+   "rating": 4.2,
+   "reference": "ChIJpdibIRAsDogRxQSv8GXG4LM",
+   "scope": "GOOGLE",
+   "types": [
+    "park",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 82,
+   "vicinity": "3658 S State St, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.8322152,
+     "lng": -87.6246481
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.83318232989272,
+      "lng": -87.6225652
+     },
+     "southwest": {
+      "lat": 41.83048267010728,
+      "lng": -87.62534240000001
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/stadium-71.png",
+   "icon_background_color": "#4DB546",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/stadium_pinlet",
+   "name": "Joseph D. Parente '84 Field",
+   "place_id": "ChIJKQrOPM8tDogRCoKbC8MUH10",
+   "plus_code": {
+    "compound_code": "R9JG+V4 Chicago, Illinois",
+    "global_code": "86HJR9JG+V4"
+   },
+   "rating": 0,
+   "reference": "ChIJKQrOPM8tDogRCoKbC8MUH10",
+   "scope": "GOOGLE",
+   "types": [
+    "stadium",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 0,
+   "vicinity": "3413 S Wabash Ave, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.8049676,
+     "lng": -87.60806869999999
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.80638117989272,
+      "lng": -87.60650407010728
+     },
+     "southwest": {
+      "lat": 41.80368152010728,
+      "lng": -87.60920372989273
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/stadium-71.png",
+   "icon_background_color": "#4DB546",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/stadium_pinlet",
+   "name": "Chicago Illinois Soccer Field/ Football Field Combo",
+   "place_id": "ChIJ7_a1T0UpDogRvBC0KYYjr_s",
+   "plus_code": {
+    "compound_code": "R93R+XQ Chicago, Illinois",
+    "global_code": "86HJR93R+XQ"
+   },
+   "rating": 4,
+   "reference": "ChIJ7_a1T0UpDogRvBC0KYYjr_s",
+   "scope": "GOOGLE",
+   "types": [
+    "stadium",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 4,
+   "vicinity": "Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.8537349,
+     "lng": -87.6213427
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.85501349999999,
+      "lng": -87.6199137
+     },
+     "southwest": {
+      "lat": 41.85228389999999,
+      "lng": -87.62301889999999
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+   "icon_background_color": "#7B9EB0",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+   "name": "Wintrust Arena",
+   "opening_hours": {
+    "open_now": false
+   },
+   "photos": [
+    {
+     "height": 677,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/111624810917933257141\">A Google User</a>"
+     ],
+     "photo_reference": "AVzFdbmWy8K6RqkN1xjZJF2Dau0eWdI_saa9-Xx-zn9KMl8iw-401rDWG-TS6RtgyztYNR3EHu8reB4lIHUW-DNdnMiZfl9GD6qqaWDyVUtT_T9IQumU6nBeFQLBJ3InZsCK9hhxZ-ctPZE2OjgIVQTFP2iV8u8hHzkipcxV6zT2c1lahYz2XBTpxZ34",
+     "width": 984
+    }
+   ],
+   "place_id": "ChIJUZmgfn4sDogRiouYETJPvn4",
+   "plus_code": {
+    "compound_code": "V93H+FF Chicago, Illinois",
+    "global_code": "86HJV93H+FF"
+   },
+   "rating": 4.4,
+   "reference": "ChIJUZmgfn4sDogRiouYETJPvn4",
+   "scope": "GOOGLE",
+   "types": [
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 3533,
+   "vicinity": "200 E Cermak Rd, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.86295519999999,
+     "lng": -87.64963490000001
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.86397542989272,
+      "lng": -87.64813157010728
+     },
+     "southwest": {
+      "lat": 41.86127577010728,
+      "lng": -87.65083122989273
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/stadium-71.png",
+   "icon_background_color": "#4DB546",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/stadium_pinlet",
+   "name": "Recreation Field",
+   "place_id": "ChIJq6qqXfosDogRzbWpmONqnbo",
+   "plus_code": {
+    "compound_code": "V972+54 Chicago, Illinois",
+    "global_code": "86HJV972+54"
+   },
+   "rating": 0,
+   "reference": "ChIJq6qqXfosDogRzbWpmONqnbo",
+   "scope": "GOOGLE",
+   "types": [
+    "stadium",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 0,
+   "vicinity": "926 W 14th Pl, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.8290255,
+     "lng": -87.63426179999999
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.83021157989272,
+      "lng": -87.6330581201073
+     },
+     "southwest": {
+      "lat": 41.82751192010728,
+      "lng": -87.63575777989273
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+   "icon_background_color": "#7B9EB0",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+   "name": "Huntington Bank Stadium Club",
+   "photos": [
+    {
+     "height": 3000,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/104567089347599835180\">A Google User</a>"
+     ],
+     "photo_reference": "AVzFdbna6tX2exKw3_DASNN3pyjvxOdUVZ4lDqwOPl-9pbTlInZ6keGoy2lQEmZQ3ZPL48VgV73OIXzrL6qT_w4p3XtTzTFdmE8GJRYOCgUuf_pE1cEqiXsTx_8XQAB5LriyslgiNEXRGCxt7McelPJ1EKO_BL-oNFoEVXnZ8YdMnsTYxvPep2-oPnKs",
+     "width": 4000
+    }
+   ],
+   "place_id": "ChIJYVOH9-ItDogRVQXhoR88D-A",
+   "plus_code": {
+    "compound_code": "R9H8+J7 Chicago, Illinois",
+    "global_code": "86HJR9H8+J7"
+   },
+   "rating": 2.9,
+   "reference": "ChIJYVOH9-ItDogRVQXhoR88D-A",
+   "scope": "GOOGLE",
+   "types": [
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 8,
+   "vicinity": "333 W 35th St, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.7959186,
+     "lng": -87.61277539999999
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.79731692989272,
+      "lng": -87.61188209999999
+     },
+     "southwest": {
+      "lat": 41.79461727010728,
+      "lng": -87.6154553
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+   "icon_background_color": "#7B9EB0",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+   "name": "Washington Park Cricket Field 1",
+   "opening_hours": {
+    "open_now": true
+   },
+   "photos": [
+    {
+     "height": 3024,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/108183149123318245763\">NITIN MAHESHWARI</a>"
+     ],
+     "photo_reference": "AVzFdblgboQ9h8D6JX0xQLVwmsWBjb4abwQNNiKBu69XXU8AEIoa9dd2KIBXFpn3RgMMIQ-IFgcQbTSJGLHhbr9kArwxmvUomLO04PQzmARR7CTkbG2OoM8lg2JfDhLJHvv7cOjLL4hX7b5eRlqTY2LI2sw0oUarQjNnf9SziXctc5ZY3lbfMDM9wVo_",
+     "width": 4032
+    }
+   ],
+   "place_id": "ChIJO_4p5EkpDogRDD1DO6oh6Xk",
+   "plus_code": {
+    "compound_code": "Q9WP+9V Chicago, Illinois",
+    "global_code": "86HJQ9WP+9V"
+   },
+   "rating": 4.6,
+   "reference": "ChIJO_4p5EkpDogRDD1DO6oh6Xk",
+   "scope": "GOOGLE",
+   "types": [
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 16,
+   "vicinity": "Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.8306259,
+     "lng": -87.6349671
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.83386649999998,
+      "lng": -87.62996704999999
+     },
+     "southwest": {
+      "lat": 41.82954570000002,
+      "lng": -87.63731125
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+   "icon_background_color": "#7B9EB0",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+   "name": "Chicago White Sox",
+   "opening_hours": {
+    "open_now": false
+   },
+   "photos": [
+    {
+     "height": 2272,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/101726238943017353116\">Leanne Shaw</a>"
+     ],
+     "photo_reference": "AVzFdbnUTSuuJoIH5wXEe8nzdtGMBuwRj7N4bnYMOL7IYaXH7xyH37ZNXoa_ILGriJb3KwQIQy-7RQDXKBM9i66JMtWdvg9Im89KDAZmNz3zHGkpVPP9usvTTpZ0KuKgcPwu_pyWlRAw_qrRbNXu9D3I_FPH-VyI6l4sd37RYR8NVwNvnY3Mhenfl29Y",
+     "width": 3712
+    }
+   ],
+   "place_id": "ChIJ9ZKOJxQsDogROipqqvahLJM",
+   "plus_code": {
+    "compound_code": "R9J8+72 Chicago, Illinois",
+    "global_code": "86HJR9J8+72"
+   },
+   "rating": 4.7,
+   "reference": "ChIJ9ZKOJxQsDogROipqqvahLJM",
+   "scope": "GOOGLE",
+   "types": [
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 3392,
+   "vicinity": "333 W 35th St, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.8494444,
+     "lng": -87.6583333
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.85080287989272,
+      "lng": -87.65712837010727
+     },
+     "southwest": {
+      "lat": 41.84810322010728,
+      "lng": -87.65982802989272
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+   "icon_background_color": "#7B9EB0",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+   "name": "Sofive Soccer Centers Chitown",
+   "opening_hours": {
+    "open_now": true
+   },
+   "photos": [
+    {
+     "height": 4032,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/105688389330662894296\">A Google User</a>"
+     ],
+     "photo_reference": "AVzFdblhTzW140uZzaE8e3GIkxaJqzYBAoMEbFufKXsnKR_apnVxGgjl9mAQahxX_ovCW9hPTqP7FY4LydxVENv5ee4g_Df1Qbh0rVi3GvgI2TP-HrcRWvCKVjTTFIWK4_9DqBot4AnGoXbRaFaVdRH3hKbik6U9ezTSGQS7LAk-ucZGTYLTNe83ebXe",
+     "width": 3024
+    }
+   ],
+   "place_id": "ChIJ4_lMV6stDogRBJxt0qiSgsM",
+   "plus_code": {
+    "compound_code": "R8XR+QM Chicago, Illinois",
+    "global_code": "86HJR8XR+QM"
+   },
+   "rating": 4.5,
+   "reference": "ChIJ4_lMV6stDogRBJxt0qiSgsM",
+   "scope": "GOOGLE",
+   "types": [
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 641,
+   "vicinity": "2343 S Throop St, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.8224263,
+     "lng": -87.66683379999999
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.82385107989272,
+      "lng": -87.66541197010729
+     },
+     "southwest": {
+      "lat": 41.82115142010728,
+      "lng": -87.66811162989272
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+   "icon_background_color": "#7B9EB0",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+   "name": "Chicago Indoor Sports",
+   "opening_hours": {
+    "open_now": true
+   },
+   "photos": [
+    {
+     "height": 2268,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/115283889136527476530\">Genoveva Lechuga</a>"
+     ],
+     "photo_reference": "AVzFdbknKcBlFU188qvUpDIyLMH-dVG9kKpwkRVHLdtP-I5HVXQPpYX0WNuyO80RU51NxZQ139Y5LGgLHykZ5GDDLOGptcQ1zVCJGbOVO2_zhIgvjlWnO59m0V6aGR4z82zi3yC2UHl_Ul8XMgHS5Kg2NLg6FP_bFhgRTVRaZGWSBn-6of1pnK4OMCDx",
+     "width": 4032
+    }
+   ],
+   "place_id": "ChIJxxtn4tAtDogRF2MPTmuRZA0",
+   "plus_code": {
+    "compound_code": "R8FM+38 Chicago, Illinois",
+    "global_code": "86HJR8FM+38"
+   },
+   "rating": 4.2,
+   "reference": "ChIJxxtn4tAtDogRF2MPTmuRZA0",
+   "scope": "GOOGLE",
+   "types": [
+    "bar",
+    "clothing_store",
+    "store",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 780,
+   "vicinity": "3900 S Ashland Ave, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.8331482,
+     "lng": -87.6462912
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.83449942989272,
+      "lng": -87.64488387010728
+     },
+     "southwest": {
+      "lat": 41.83179977010727,
+      "lng": -87.64758352989271
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+   "icon_background_color": "#FF9E67",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
+   "name": "Mitchell's Tap",
+   "opening_hours": {
+    "open_now": true
+   },
+   "photos": [
+    {
+     "height": 2823,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/103065985453723443733\">Eddie Moy</a>"
+     ],
+     "photo_reference": "AVzFdbly650lZJjej5ZLbkIieaZ4xjB7slLN-FQij-QqgAsQAHqNX7np5AzSG8YOd3DASO9p5CyNwyEYaSEMBtDMouD6eyLzUNzDN9u8elkH5xU6y8ywdaj6D2YjcA8tDMVVKytiXqsu9COybYfMoQg-MjNx80fh3QSWXL8DCihtwBCfDEpgHxZUR2NT",
+     "width": 3449
+    }
+   ],
+   "place_id": "ChIJPTFErjksDogR1r4aJ7c7oxg",
+   "plus_code": {
+    "compound_code": "R9M3+7F Chicago, Illinois",
+    "global_code": "86HJR9M3+7F"
+   },
+   "price_level": 1,
+   "rating": 4.3,
+   "reference": "ChIJPTFErjksDogR1r4aJ7c7oxg",
+   "scope": "GOOGLE",
+   "types": [
+    "bar",
+    "restaurant",
+    "food",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 370,
+   "vicinity": "3356 S Halsted St, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.8311143,
+     "lng": -87.6339034
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.83236317989271,
+      "lng": -87.63255117010728
+     },
+     "southwest": {
+      "lat": 41.82966352010727,
+      "lng": -87.63525082989273
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+   "icon_background_color": "#FF9E67",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
+   "name": "ChiSox Bar & Grill",
+   "opening_hours": {
+    "open_now": true
+   },
+   "photos": [
+    {
+     "height": 2506,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/100333664445833299842\">Michael Libber</a>"
+     ],
+     "photo_reference": "AVzFdbmi_RBm4zcLTp3VjOSkRL6V_ItBplUpTVkdKKbnb6hlVup0KF-3Tf0PpqwsgluQDKr3pCOQnSJjYrqvw167mihG6kCoK7pOlAObxAeL3qbPHvmeMVpVhEhNmoPZVKq6PwjlGTtveiBNyp_6XGkM41pfu-H6jpCAGDrWzjNqzIt4l8y-OXZaUbWI",
+     "width": 6360
+    }
+   ],
+   "place_id": "ChIJsQ7rmxYsDogRQXgQNBV1VjE",
+   "plus_code": {
+    "compound_code": "R9J8+CC Chicago, Illinois",
+    "global_code": "86HJR9J8+CC"
+   },
+   "price_level": 2,
+   "rating": 4.3,
+   "reference": "ChIJsQ7rmxYsDogRQXgQNBV1VjE",
+   "scope": "GOOGLE",
+   "types": [
+    "bar",
+    "restaurant",
+    "food",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 551,
+   "vicinity": "320 W 35th St, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.8049676,
+     "lng": -87.60806869999999
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.80638117989272,
+      "lng": -87.60650407010728
+     },
+     "southwest": {
+      "lat": 41.80368152010728,
+      "lng": -87.60920372989273
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/stadium-71.png",
+   "icon_background_color": "#4DB546",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/stadium_pinlet",
+   "name": "Chicago Illinois Soccer Field/ Football Field Combo",
+   "place_id": "ChIJ7_a1T0UpDogRvBC0KYYjr_s",
+   "plus_code": {
+    "compound_code": "R93R+XQ Chicago, Illinois",
+    "global_code": "86HJR93R+XQ"
+   },
+   "rating": 4,
+   "reference": "ChIJ7_a1T0UpDogRvBC0KYYjr_s",
+   "scope": "GOOGLE",
+   "types": [
+    "stadium",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 4,
+   "vicinity": "Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.98122559999999,
+     "lng": -87.8739886
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.98228487989272,
+      "lng": -87.87243787010726
+     },
+     "southwest": {
+      "lat": 41.97958522010727,
+      "lng": -87.87513752989271
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+   "icon_background_color": "#7B9EB0",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+   "name": "The Dome at the Parkway Bank Sports Complex",
+   "opening_hours": {
+    "open_now": true
+   },
+   "photos": [
+    {
+     "height": 3024,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/114394030819082800578\">Brian Fischer</a>"
+     ],
+     "photo_reference": "AVzFdbk2ClxKY2tTAZ-DNjO6XRdYJNx4suGB4Syvfp1ksfJxPtmGFZyXLO1UBPlD8N5iMNFNj4N5e1tala-Fr6TWAFwW00pNMLDuV6TqzGn_oee0xOOgqFUKvRI1U7UH_ZdJtAdTefVgS6nZ8tih-ghII9L9vBgjU_asunVn3CF_hTp4QTPHjFmA-l-Y",
+     "width": 4032
+    }
+   ],
+   "place_id": "ChIJAQAAAPy2D4gR598Ltd2QuZY",
+   "plus_code": {
+    "compound_code": "X4JG+FC Des Plaines, Illinois",
+    "global_code": "86HJX4JG+FC"
+   },
+   "rating": 4.5,
+   "reference": "ChIJAQAAAPy2D4gR598Ltd2QuZY",
+   "scope": "GOOGLE",
+   "types": [
+    "stadium",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 343,
+   "vicinity": "27 Jennie Finch Way, Des Plaines"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.9782126,
+     "lng": -87.87173639999999
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.97895545000002,
+      "lng": -87.87024527010728
+     },
+     "southwest": {
+      "lat": 41.97598404999999,
+      "lng": -87.87294492989272
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/stadium-71.png",
+   "icon_background_color": "#4DB546",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/stadium_pinlet",
+   "name": "Impact Field",
+   "photos": [
+    {
+     "height": 2537,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/111940817266286694912\">Jason Borg</a>"
+     ],
+     "photo_reference": "AVzFdbkNSIkfje7KBxgbFSkstlj-R2QC2paDGrxc3WJOgLHhzWybemLulOTFC6ZZ73fCfNI04PL7zPa0b4W33tzZ26XFPye0oC2hNLKoJX_fp68KIH1vYqnqBu_O9TSWpXtSX5TFRg9UR2hZJLFeelavPriImEZtKcZmZWLfwQofQGe9sfT6gkfOmKdP",
+     "width": 6305
+    }
+   ],
+   "place_id": "ChIJD_sP_eC1D4gRUHEb1GhCTCs",
+   "plus_code": {
+    "compound_code": "X4HH+78 Rosemont, Illinois",
+    "global_code": "86HJX4HH+78"
+   },
+   "rating": 4.7,
+   "reference": "ChIJD_sP_eC1D4gRUHEb1GhCTCs",
+   "scope": "GOOGLE",
+   "types": [
+    "stadium",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 1235,
+   "vicinity": "9850 Balmoral Ave, Rosemont"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.9809265,
+     "lng": -87.87224820000002
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.98197117989272,
+      "lng": -87.87088237010728
+     },
+     "southwest": {
+      "lat": 41.97927152010728,
+      "lng": -87.87358202989273
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+   "icon_background_color": "#7B9EB0",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+   "name": "The Ballpark at Rosemont",
+   "photos": [
+    {
+     "height": 3024,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/104585735883885829027\">Cliff Benoist</a>"
+     ],
+     "photo_reference": "AVzFdbl1uM4mJ_7jn4jk9LSlBuYQFMHEzMMllwwe3yMVNWPMc6W0Xx2Ykj6Eh-Rl7E4kbmJaiOzy54Y1Pbt7pVXCdDxIRrPdkoiWVWXPfLT6keLi_fzF90FjoAXBbXzwikw8G2H1CTu3J0_13Dhjl3eArr-JUxPrIXr-n4aWu4uFQPOPMvYc7-Ki21Bd",
+     "width": 4032
+    }
+   ],
+   "place_id": "ChIJ64EYS-C1D4gRNV3cFw0uOhA",
+   "plus_code": {
+    "compound_code": "X4JH+94 Rosemont, Illinois",
+    "global_code": "86HJX4JH+94"
+   },
+   "rating": 4.7,
+   "reference": "ChIJ64EYS-C1D4gRNV3cFw0uOhA",
+   "scope": "GOOGLE",
+   "types": [
+    "stadium",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 142,
+   "vicinity": "27 Jennie Finch Way, Rosemont"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.9429988,
+     "lng": -87.9237527
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.94441687989271,
+      "lng": -87.92233937010727
+     },
+     "southwest": {
+      "lat": 41.94171722010727,
+      "lng": -87.92503902989272
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/stadium-71.png",
+   "icon_background_color": "#4DB546",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/stadium_pinlet",
+   "name": "Redmond Soccer and Football Field",
+   "photos": [
+    {
+     "height": 1080,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/101680839244721573704\">Krolik KR</a>"
+     ],
+     "photo_reference": "AVzFdbk2odjOr84zibYy7pLmrHM1A_d9SK9Ja34OqMjIescezSDfFgqz_tH8oupVWctlmLZA34_-vuMLaxWQ7nwsRo8d1x_PoJLO2vxNfjWSlNJ1GFkGGfS6O-KcYxO5H2kpooGyoGY5_8OTys6PhEQvxqcrJGThfwSpdzv7_4rmbN9LNBEcPJoutehF",
+     "width": 1920
+    }
+   ],
+   "place_id": "ChIJcTyE50q1D4gRU-U3dQeCXmw",
+   "plus_code": {
+    "compound_code": "W3VG+5F Bensenville, Illinois",
+    "global_code": "86HJW3VG+5F"
+   },
+   "rating": 4.1,
+   "reference": "ChIJcTyE50q1D4gRU-U3dQeCXmw",
+   "scope": "GOOGLE",
+   "types": [
+    "stadium",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 15,
+   "vicinity": "700 John St, Bensenville"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.9301031,
+     "lng": -87.86856709999999
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.93136862989272,
+      "lng": -87.86721757010727
+     },
+     "southwest": {
+      "lat": 41.92866897010727,
+      "lng": -87.8699172298927
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+   "icon_background_color": "#FF9E67",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+   "name": "Grand Stand Pizza",
+   "opening_hours": {
+    "open_now": true
+   },
+   "photos": [
+    {
+     "height": 3024,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/104261694246321419907\">Thomas Gouard</a>"
+     ],
+     "photo_reference": "AVzFdbmwoxLBIGxyOHIHhib5tp4p43sqk3aonknrKqNusgpAWhLdxFheqegTCDcXCsID90f7GMAADH7K9movzEfYIFZxxXGLQaX8npccJ2SM2hdO89nTqb4baj23y5gkggg2mxo0QgXB1BabC5mWfW2U4ylSkCtRI92pap0OHeRS7xR0t6tQd8tXGiUb",
+     "width": 4032
+    }
+   ],
+   "place_id": "ChIJ5e6r4XG1D4gRnMaqD6NVtjo",
+   "plus_code": {
+    "compound_code": "W4JJ+2H Franklin Park, Illinois",
+    "global_code": "86HJW4JJ+2H"
+   },
+   "price_level": 1,
+   "rating": 4.4,
+   "reference": "ChIJ5e6r4XG1D4gRnMaqD6NVtjo",
+   "scope": "GOOGLE",
+   "types": [
+    "meal_delivery",
+    "restaurant",
+    "food",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 646,
+   "vicinity": "9718 W Grand Ave, Franklin Park"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.9437457,
+     "lng": -87.9246478
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.94509892989272,
+      "lng": -87.92277637010727
+     },
+     "southwest": {
+      "lat": 41.94239927010728,
+      "lng": -87.9254760298927
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+   "icon_background_color": "#7B9EB0",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+   "name": "Redmond Memorial Field",
+   "place_id": "ChIJpaQZLou1D4gRmo48QYBqhBM",
+   "plus_code": {
+    "compound_code": "W3VG+F4 Bensenville, Illinois",
+    "global_code": "86HJW3VG+F4"
+   },
+   "rating": 4.6,
+   "reference": "ChIJpaQZLou1D4gRmo48QYBqhBM",
+   "scope": "GOOGLE",
+   "types": [
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 5,
+   "vicinity": "John St, Bensenville"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.9804302,
+     "lng": -87.8721362
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.98178002989272,
+      "lng": -87.87085807010727
+     },
+     "southwest": {
+      "lat": 41.97908037010727,
+      "lng": -87.87355772989272
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+   "icon_background_color": "#7B9EB0",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+   "name": "ATHLETES UNLIMITED",
+   "place_id": "ChIJA-guYAq2D4gRA8NRwDw0mTA",
+   "plus_code": {
+    "compound_code": "X4JH+54 Rosemont, Illinois",
+    "global_code": "86HJX4JH+54"
+   },
+   "rating": 5,
+   "reference": "ChIJA-guYAq2D4gRA8NRwDw0mTA",
+   "scope": "GOOGLE",
+   "types": [
+    "gym",
+    "health",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 3,
+   "vicinity": "Rosemont"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.9786271,
+     "lng": -87.8718691
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.979571,
+      "lng": -87.87024077010729
+     },
+     "southwest": {
+      "lat": 41.9757954,
+      "lng": -87.87294042989272
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+   "icon_background_color": "#7B9EB0",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+   "name": "Chicago Dogs",
+   "opening_hours": {
+    "open_now": false
+   },
+   "photos": [
+    {
+     "height": 4000,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/117470665147607377222\">A Google User</a>"
+     ],
+     "photo_reference": "AVzFdbmbRX8-2zVTNxiF1LdB6H3Mi1EJXDfvJvJVavpCcQeEEJyFR-olsjfIoOb83yJAqEuNHwsg0nQYrCMTH0OQf1OkCPFUU3PORH6fO9zuIiB2kd3SAmK0aX06uQaCMH00doIZyHKyO1nSfNv83rG9tuHyfCereGLHkJ-aALwTiJRvmT-LFk3pzPNJ",
+     "width": 6000
+    }
+   ],
+   "place_id": "ChIJp3iHBuG1D4gRjj8ux294vbo",
+   "plus_code": {
+    "compound_code": "X4HH+F7 Rosemont, Illinois",
+    "global_code": "86HJX4HH+F7"
+   },
+   "rating": 4.8,
+   "reference": "ChIJp3iHBuG1D4gRjj8ux294vbo",
+   "scope": "GOOGLE",
+   "types": [
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 316,
+   "vicinity": "9850 Balmoral Ave, Rosemont"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.9340875,
+     "lng": -87.9243438
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.93537582989272,
+      "lng": -87.92301747010728
+     },
+     "southwest": {
+      "lat": 41.93267617010728,
+      "lng": -87.92571712989272
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+   "icon_background_color": "#7B9EB0",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+   "name": "Bo Jackson's Elite Sports Bensenville",
+   "opening_hours": {
+    "open_now": true
+   },
+   "photos": [
+    {
+     "height": 2268,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/115400270178837138407\">Rachel O</a>"
+     ],
+     "photo_reference": "AVzFdbmU9oHbklr9dtnh0Ie4MTnP-vsQ32Awf-xuoaqKNdYpKfIsyl0UWWvQbqOmg1Z3-WCxQPzdgA_5x_rAS3PcDiR-P5Bgl0rRJDG3e6fxPhEfqlR-t5_bGtzePVxWmb5EFZQw8UC6v0qc9tTpmx5Zc8bT846cDZRM1UXBOT7bWozgAt67LlGiddeW",
+     "width": 4032
+    }
+   ],
+   "place_id": "ChIJhQZ8oyW1D4gRpc9dIiFsGD4",
+   "plus_code": {
+    "compound_code": "W3MG+H5 Bensenville, Illinois",
+    "global_code": "86HJW3MG+H5"
+   },
+   "rating": 4.7,
+   "reference": "ChIJhQZ8oyW1D4gRpc9dIiFsGD4",
+   "scope": "GOOGLE",
+   "types": [
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 99,
+   "vicinity": "1000 Commerce Ct, Bensenville"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.94642959999999,
+     "lng": -87.9255122
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.94776612989272,
+      "lng": -87.92418942010728
+     },
+     "southwest": {
+      "lat": 41.94506647010728,
+      "lng": -87.92688907989273
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+   "icon_background_color": "#7B9EB0",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+   "name": "The Edge Ice Arena",
+   "opening_hours": {
+    "open_now": true
+   },
+   "photos": [
+    {
+     "height": 3000,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/111328276078802625041\">Todd Finch</a>"
+     ],
+     "photo_reference": "AVzFdbnCnkMM7k_fvr720CA75W_ebUO621mdz-Temnku_1e5d41LcEtv2o2a7QtNzSm2cmR0-r-pgykdPPWIr808u1_F7KGgfu9aiOgz5gphMMYy24pjpc1V0TBBAmrp_UtEa3IQUHHnvqupmKcpYr3h-B43KJpZ5yJSjXvZcNEPAXmJRlMgNOUplPDs",
+     "width": 4000
+    }
+   ],
+   "place_id": "ChIJY35hRXu0D4gRTaFdDN7vUMs",
+   "plus_code": {
+    "compound_code": "W3WF+HQ Bensenville, Illinois",
+    "global_code": "86HJW3WF+HQ"
+   },
+   "rating": 4.4,
+   "reference": "ChIJY35hRXu0D4gRTaFdDN7vUMs",
+   "scope": "GOOGLE",
+   "types": [
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 393,
+   "vicinity": "735 E Jefferson St, Bensenville"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.9625561,
+     "lng": -87.8150259
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.96435622989272,
+      "lng": -87.81369282010728
+     },
+     "southwest": {
+      "lat": 41.96165657010728,
+      "lng": -87.81639247989271
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/stadium-71.png",
+   "icon_background_color": "#4DB546",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/stadium_pinlet",
+   "name": "Football Stadium",
+   "photos": [
+    {
+     "height": 3000,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/108819498377429924436\">A Google User</a>"
+     ],
+     "photo_reference": "AVzFdbmwzFCt_W2zSnuj-Kgh0UPkNRJDFgIpd-uK3HyWHaM4UDe5Zr9xbpG-6-xr64ENg_nVFve9WlOqmyvtLRW2I5lAhWqKoQwksSsPPjDJ5UA6eX1nibXl4ehmKVAa6G-BjH_Dc7E88skCq1XE2NGyXzUkao8PIcZkPouNXxxU06pJPCWpLiBDww1C",
+     "width": 4000
+    }
+   ],
+   "place_id": "ChIJ89KwRcvLD4gRBVtlwqaCUp8",
+   "plus_code": {
+    "compound_code": "X57M+2X Norridge, Illinois",
+    "global_code": "86HJX57M+2X"
+   },
+   "rating": 4.5,
+   "reference": "ChIJ89KwRcvLD4gRBVtlwqaCUp8",
+   "scope": "GOOGLE",
+   "types": [
+    "stadium",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 2,
+   "vicinity": "7500 W Montrose Ave, Norridge"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.9310575,
+     "lng": -87.77457489999999
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.93226112989272,
+      "lng": -87.77330037010728
+     },
+     "southwest": {
+      "lat": 41.92956147010728,
+      "lng": -87.77600002989271
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+   "icon_background_color": "#FF9E67",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+   "name": "Congress Pizzeria",
+   "opening_hours": {
+    "open_now": true
+   },
+   "photos": [
+    {
+     "height": 3120,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/112932482151581219070\">Giovanni Delgado</a>"
+     ],
+     "photo_reference": "AVzFdblJCpRLgcao1EAbkiHeoqS5h5bx46GHQpLpM_1R4Mo2zSFZvwPxmLMoAeqDmtLAaWvzFKbdpAXp1ib4pxjKHSsg2yd_qW83fbnhj5bKk2QOW3Gz_2ZUzL_j8n_Vv1hhc1dPwLS2lyB5N8ByDQ7f1g98CnHV6p6Mkyby5Y0tA-ud8b5U5ETbTq35",
+     "width": 4160
+    }
+   ],
+   "place_id": "ChIJ_8ncRILMD4gRpOOqWdC-nas",
+   "plus_code": {
+    "compound_code": "W6JG+C5 Chicago, Illinois",
+    "global_code": "86HJW6JG+C5"
+   },
+   "price_level": 1,
+   "rating": 3.6,
+   "reference": "ChIJ_8ncRILMD4gRpOOqWdC-nas",
+   "scope": "GOOGLE",
+   "types": [
+    "meal_delivery",
+    "restaurant",
+    "food",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 614,
+   "vicinity": "5925 W Diversey Ave, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.9440312,
+     "lng": -87.8251696
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.94579412989272,
+      "lng": -87.82412497010728
+     },
+     "southwest": {
+      "lat": 41.94309447010728,
+      "lng": -87.82682462989271
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+   "icon_background_color": "#7B9EB0",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+   "name": "Hiawatha Park Football - Soccer Combo Field",
+   "opening_hours": {
+    "open_now": true
+   },
+   "photos": [
+    {
+     "height": 4000,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/108862723103878400948\">A Google User</a>"
+     ],
+     "photo_reference": "AVzFdbmovurCOhBpHq_FDa_KvQ_CDtSiTF0MN_0ShNSVH2Bv3MxOU63-lXULYLSOodQTqddn81F5gjye-vxWLNZnCf_vO7i7p5u-6nxF_FdjGubbbWNL7fVgTD42aQeL-UL3n-Exvn-w5LGK_Qk8-EbuQrKIhDqzr86Y9Lu1Wa9ou9AO63Zs-0jefZpQ",
+     "width": 2252
+    }
+   ],
+   "place_id": "ChIJ_78FrFDKD4gRrsBNw_mM9JA",
+   "plus_code": {
+    "compound_code": "W5VF+JW Chicago, Illinois",
+    "global_code": "86HJW5VF+JW"
+   },
+   "rating": 4.5,
+   "reference": "ChIJ_78FrFDKD4gRrsBNw_mM9JA",
+   "scope": "GOOGLE",
+   "types": [
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 6,
+   "vicinity": "8029 W Forest Preserve Ave, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.9568503,
+     "lng": -87.7959454
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.95790527989272,
+      "lng": -87.79519435
+     },
+     "southwest": {
+      "lat": 41.95520562010728,
+      "lng": -87.79819855
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+   "icon_background_color": "#7B9EB0",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+   "name": "Read Dunning Field",
+   "photos": [
+    {
+     "height": 3120,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/113364376868059167347\">Ashley Venerable</a>"
+     ],
+     "photo_reference": "AVzFdbm9lCz-FR4WAFEapMyuVNlo7hVmlyJTd6zopTZQAx_276KTEZrzxDcnnUnYQIvVh6_dmQScPttdsjKfGZrrHi_OY5df14fiN1qAW0UA4SX2VomXKX5YNk-RmwXXhn4OTqgBKnT1ZUxKEPO0ku_peatnWYiaRpBkvggHCpyBgtMUdKAJvMiX8bts",
+     "width": 3120
+    }
+   ],
+   "place_id": "ChIJTQ8GWPTLD4gRVVjurBQqXAE",
+   "plus_code": {
+    "compound_code": "X643+PJ Chicago, Illinois",
+    "global_code": "86HJX643+PJ"
+   },
+   "rating": 4.2,
+   "reference": "ChIJTQ8GWPTLD4gRVVjurBQqXAE",
+   "scope": "GOOGLE",
+   "types": [
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 6,
+   "vicinity": "4139 N Oak Park Ave, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.9455156,
+     "lng": -87.6924927
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.94686627989272,
+      "lng": -87.69085752010727
+     },
+     "southwest": {
+      "lat": 41.94416662010727,
+      "lng": -87.69355717989272
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/stadium-71.png",
+   "icon_background_color": "#4DB546",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/stadium_pinlet",
+   "name": "Lane Stadium",
+   "photos": [
+    {
+     "height": 3000,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/105091016921441664133\">Mark Simrow</a>"
+     ],
+     "photo_reference": "AVzFdbnQzOpoN7rMkJhHePbx2MZ_a42Mfzw207iyU-z0N60dWZGB2dorHRivJ-9cVBB8mgcMLoKdZyR5_vGt4Mz3DmwJ7713XlII9G4Vwru5YfNmPDko6z82yq2nJE_TIMpWn-e0ofw3_MrFqxVYQhRHXWpY4h5vS9U2davA-6hE9OIShPfTqoOsXsUi",
+     "width": 4000
+    }
+   ],
+   "place_id": "ChIJD00wHXrSD4gRZ2Qkdma5f-o",
+   "plus_code": {
+    "compound_code": "W8W5+62 Chicago, Illinois",
+    "global_code": "86HJW8W5+62"
+   },
+   "rating": 4.3,
+   "reference": "ChIJD00wHXrSD4gRZ2Qkdma5f-o",
+   "scope": "GOOGLE",
+   "types": [
+    "stadium",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 127,
+   "vicinity": "2601 W Addison St, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.9228721,
+     "lng": -87.7650815
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.92435857989273,
+      "lng": -87.76330535
+     },
+     "southwest": {
+      "lat": 41.92165892010728,
+      "lng": -87.76682715000001
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/stadium-71.png",
+   "icon_background_color": "#4DB546",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/stadium_pinlet",
+   "name": "Hanson Stadium",
+   "photos": [
+    {
+     "height": 3072,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/111419578914425667444\">Michael Wiley</a>"
+     ],
+     "photo_reference": "AVzFdbmAzIIf4olWITXLvxS_Y8jo5pqWnzZIYhq3TzqWnL0uyCSe0W_b-33ZFi0nV6-u98n_UT2DU3y59O19JLBqmAUSJNylcJZhh4UOmMBER-fCFn1FaxDMvzwXm19rU9T47Wn85UcHusUkDk5Rhm3VqnF5N1iNA83i9C21_cP5L0TCpF04mNAuJpwo",
+     "width": 4096
+    }
+   ],
+   "place_id": "ChIJM9mBGJHMD4gRtbzXdrMBboA",
+   "plus_code": {
+    "compound_code": "W6FM+4X Chicago, Illinois",
+    "global_code": "86HJW6FM+4X"
+   },
+   "rating": 4.1,
+   "reference": "ChIJM9mBGJHMD4gRtbzXdrMBboA",
+   "scope": "GOOGLE",
+   "types": [
+    "stadium",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 103,
+   "vicinity": "2233 N Central Ave, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.974171,
+     "lng": -87.6838472
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.97550957989272,
+      "lng": -87.68263302010728
+     },
+     "southwest": {
+      "lat": 41.97280992010727,
+      "lng": -87.68533267989271
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/stadium-71.png",
+   "icon_background_color": "#4DB546",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/stadium_pinlet",
+   "name": "Winnemac Stadium",
+   "opening_hours": {
+    "open_now": false
+   },
+   "photos": [
+    {
+     "height": 3000,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/101673842476074736664\">A Google User</a>"
+     ],
+     "photo_reference": "AVzFdbmTaLyi1xojeTcYyANLzZD21aJgopHdCIZMI_66kfaowFRqotNKESVCpP0pd1df2LiSr63Dq4j69928eUrywMiFUb4I2Vbe27NUw5uvidIZruO-Q7-uTmCKDhbKKsbxNyMc2mZaiost42QFUnjfFRuFT_XvKhBDgR-9RHHIedZmFy18Zn1rwUW2",
+     "width": 4000
+    }
+   ],
+   "place_id": "ChIJGRlCvh3SD4gRYiXKaG7gJGM",
+   "plus_code": {
+    "compound_code": "X8F8+MG Chicago, Illinois",
+    "global_code": "86HJX8F8+MG"
+   },
+   "rating": 4.3,
+   "reference": "ChIJGRlCvh3SD4gRYiXKaG7gJGM",
+   "scope": "GOOGLE",
+   "types": [
+    "stadium",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 49,
+   "vicinity": "5105 N Leavitt St, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.930187,
+     "lng": -87.68809999999999
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.93161417989271,
+      "lng": -87.68696510000001
+     },
+     "southwest": {
+      "lat": 41.92891452010727,
+      "lng": -87.6911287
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/movies-71.png",
+   "icon_background_color": "#13B5C7",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/movie_pinlet",
+   "name": "Regal City North",
+   "opening_hours": {
+    "open_now": true
+   },
+   "photos": [
+    {
+     "height": 3024,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/110705880051249828907\">Lee Mickus</a>"
+     ],
+     "photo_reference": "AVzFdbnAgfitVZuVfOEDRoXLOPIlj9Ldi1COE95wXBEq_nQS8nQaqzUktX3hJnoEHBP1CXRB_8YZgK66xQ0kby8JZcJ58aBJBQ5kiEdkOeglWCMtRTLg8lKAxrBx5epDqQbe5RDfo8E-knYywdB6rZpnLT66TUguD_n5s5yjriq97CA7pKks5ZhQ_zVc",
+     "width": 4032
+    }
+   ],
+   "place_id": "ChIJgQvs84XSD4gRMLEUDgSAdEc",
+   "plus_code": {
+    "compound_code": "W8J6+3Q Chicago, Illinois",
+    "global_code": "86HJW8J6+3Q"
+   },
+   "rating": 4,
+   "reference": "ChIJgQvs84XSD4gRMLEUDgSAdEc",
+   "scope": "GOOGLE",
+   "types": [
+    "movie_theater",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 4736,
+   "vicinity": "2600 N Western Ave, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.9432385,
+     "lng": -87.6919375
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.94458832989272,
+      "lng": -87.69067702010729
+     },
+     "southwest": {
+      "lat": 41.94188867010728,
+      "lng": -87.69337667989272
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/stadium-71.png",
+   "icon_background_color": "#4DB546",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/stadium_pinlet",
+   "name": "DePaul College Prep Stadium",
+   "photos": [
+    {
+     "height": 339,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/105546808123016819499\">Martin Fuller</a>"
+     ],
+     "photo_reference": "AVzFdbnUy042resFw9_Z2Z5HMiTQrXpZOf6mx_0KfrTO8p40miVK2H8sgLzGZ4tYQIR3RGLS4x0YeYktv6hrPCWKDw_mRNLzXYFgLq1sjJcAJeV07BxZOWmaVaV-oxqGGRq_5CIxFoLxy6_AkNZfjrhGOsuWyF4v7Gt1JL00spPxAEQZbOW4IIBhlb0b",
+     "width": 512
+    }
+   ],
+   "place_id": "ChIJ7_O7Pe7TD4gRwBmk-aysX10",
+   "rating": 4.3,
+   "reference": "ChIJ7_O7Pe7TD4gRwBmk-aysX10",
+   "scope": "GOOGLE",
+   "types": [
+    "stadium",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 4,
+   "vicinity": "W8V5+76, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.9440045,
+     "lng": -87.69288809999999
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.94561552989272,
+      "lng": -87.68566975
+     },
+     "southwest": {
+      "lat": 41.94291587010728,
+      "lng": -87.69601394999998
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+   "icon_background_color": "#7B9EB0",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+   "name": "Kerry Wood Cubs Field",
+   "opening_hours": {
+    "open_now": true
+   },
+   "photos": [
+    {
+     "height": 2988,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/116326194578532879724\">Randall Moderhack</a>"
+     ],
+     "photo_reference": "AVzFdbnQaAxn13mst3RHA0ab9xkbH3avPl0ZPtBAs7PwPyutfyadslPpBKwdpOEYjpN8beVmH65ZFaY_nqLLKGgDSf-XzMLbk9Al96fpkQYCU9cwCvpv0mCMNbIjz5cXuihxaOcRSiUMgNZAtQ5bK77785qX43Nd2c0xOs1E2GnNwbze9szrPbnAsIsQ",
+     "width": 5312
+    }
+   ],
+   "place_id": "ChIJs8PkvnnSD4gRbC3J7BKCAMo",
+   "plus_code": {
+    "compound_code": "W8V4+JR Chicago, Illinois",
+    "global_code": "86HJW8V4+JR"
+   },
+   "rating": 4.3,
+   "reference": "ChIJs8PkvnnSD4gRbC3J7BKCAMo",
+   "scope": "GOOGLE",
+   "types": [
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 67,
+   "vicinity": "3400 N Rockwell St, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.9300878,
+     "lng": -87.68992639999999
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.93156467989272,
+      "lng": -87.68854757010727
+     },
+     "southwest": {
+      "lat": 41.92886502010727,
+      "lng": -87.69124722989271
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/parking-71.png",
+   "icon_background_color": "#7B9EB0",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/parking_pinlet",
+   "name": "Regal Stadium 14 City North",
+   "place_id": "ChIJwdGYYo_SD4gREsE4oux38Cs",
+   "plus_code": {
+    "compound_code": "W8J6+22 Chicago, Illinois",
+    "global_code": "86HJW8J6+22"
+   },
+   "rating": 2.3,
+   "reference": "ChIJwdGYYo_SD4gREsE4oux38Cs",
+   "scope": "GOOGLE",
+   "types": [
+    "parking",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 11,
+   "vicinity": "N Jones St, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.9461007,
+     "lng": -87.69349319999999
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.94725502989272,
+      "lng": -87.69244887010727
+     },
+     "southwest": {
+      "lat": 41.94455537010727,
+      "lng": -87.69514852989272
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+   "icon_background_color": "#7B9EB0",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+   "name": "Clark Turf Field",
+   "opening_hours": {
+    "open_now": true
+   },
+   "photos": [
+    {
+     "height": 3000,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/104239585824154511013\">Bridget Duggan</a>"
+     ],
+     "photo_reference": "AVzFdbljAz-PWl57A-EWcf671SewWCzLG6VcEJ_GekahQJBhr2HCbIkmutgNsYlTZt0K6wKRD9z7RiTzoW8YTKgXd7b0rppnypedt0_Gfeww5i5n__yjByu13bV5tpjoTuiP9lxMDNzAXXuVfWcCsILfA5eCAJ1LSzwZaTNpHghrBwL5cONSp6p4hcnd",
+     "width": 4000
+    }
+   ],
+   "place_id": "ChIJCXwR4nnSD4gRl459Y1iEyU8",
+   "plus_code": {
+    "compound_code": "W8W4+CJ Chicago, Illinois",
+    "global_code": "86HJW8W4+CJ"
+   },
+   "rating": 4.7,
+   "reference": "ChIJCXwR4nnSD4gRl459Y1iEyU8",
+   "scope": "GOOGLE",
+   "types": [
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 39,
+   "vicinity": "3373-3557 N Rockwell St, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.9476147,
+     "lng": -87.6955486
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.94902467989272,
+      "lng": -87.69396097010727
+     },
+     "southwest": {
+      "lat": 41.94632502010728,
+      "lng": -87.69666062989272
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+   "icon_background_color": "#7B9EB0",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+   "name": "Fire Pitch",
+   "opening_hours": {
+    "open_now": true
+   },
+   "photos": [
+    {
+     "height": 3040,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/100531322680658226953\">The PrivateBank Fire Pitch</a>"
+     ],
+     "photo_reference": "AVzFdbnMWifR7Nw0aK3Vxwgc9DPYQUxW0uDdQdsF4IOWY2quovqx5yhkRp3Hg82GHpVbR33n1IlWxOtH80XIWRxM5xPCTJJkGH3IVAV8XiN-txv-yoIqCA9iEGzaGY6oN-VW5WwN4uUVVaCCh9VvT3Ylc0FQCYuVICwj0uA12YXKg29y44Zor9NcS6Kb",
+     "width": 4056
+    }
+   ],
+   "place_id": "ChIJJVkTp3fSD4gRcWX5OOIysmw",
+   "plus_code": {
+    "compound_code": "W8X3+2Q Chicago, Illinois",
+    "global_code": "86HJW8X3+2Q"
+   },
+   "rating": 4.7,
+   "reference": "ChIJJVkTp3fSD4gRcWX5OOIysmw",
+   "scope": "GOOGLE",
+   "types": [
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 534,
+   "vicinity": "3626 N Talman Ave, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.9738632,
+     "lng": -87.7051961
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.97760805,
+      "lng": -87.70313055
+     },
+     "southwest": {
+      "lat": 41.97029745,
+      "lng": -87.70727475
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+   "icon_background_color": "#7B9EB0",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+   "name": "Holmgren Athletic Complex",
+   "place_id": "ChIJ4zoEclXND4gRoCcSkMSnfZw",
+   "plus_code": {
+    "compound_code": "X7FV+GW Chicago, Illinois",
+    "global_code": "86HJX7FV+GW"
+   },
+   "rating": 4.8,
+   "reference": "ChIJ4zoEclXND4gRoCcSkMSnfZw",
+   "scope": "GOOGLE",
+   "types": [
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 4,
+   "vicinity": "5133 N Albany Ave, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.9877366,
+     "lng": -87.7209232
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.98864287989272,
+      "lng": -87.72001107010728
+     },
+     "southwest": {
+      "lat": 41.98594322010727,
+      "lng": -87.72271072989273
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+   "icon_background_color": "#7B9EB0",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+   "name": "Peterson Park Athletic Field",
+   "opening_hours": {
+    "open_now": true
+   },
+   "place_id": "ChIJvbR5v23OD4gR8N1iWT2BNJY",
+   "plus_code": {
+    "compound_code": "X7QH+3J Chicago, Illinois",
+    "global_code": "86HJX7QH+3J"
+   },
+   "rating": 5,
+   "reference": "ChIJvbR5v23OD4gR8N1iWT2BNJY",
+   "scope": "GOOGLE",
+   "types": [
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 2,
+   "vicinity": "Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.9310575,
+     "lng": -87.77457489999999
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.93226112989272,
+      "lng": -87.77330037010728
+     },
+     "southwest": {
+      "lat": 41.92956147010728,
+      "lng": -87.77600002989271
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+   "icon_background_color": "#FF9E67",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+   "name": "Congress Pizzeria",
+   "opening_hours": {
+    "open_now": true
+   },
+   "photos": [
+    {
+     "height": 3120,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/112932482151581219070\">Giovanni Delgado</a>"
+     ],
+     "photo_reference": "AVzFdbmwdEjZcCTVt-HyEPLEkVd3IjMyWVk6n2kRVPdaA1Z6asvmGLbj3s56bIPx4SRDAytQCW-wpOj-uNHfAxmAnCQw37bqTFSg1duEunPAQmbw7q6Zr0UxUDLE2teRVmxg0n1n62bsJLG3hv--_Y8EGBHuL5ZKXGHzlsnjE_gRiXxBmKkv7qrhb6sb",
+     "width": 4160
+    }
+   ],
+   "place_id": "ChIJ_8ncRILMD4gRpOOqWdC-nas",
+   "plus_code": {
+    "compound_code": "W6JG+C5 Chicago, Illinois",
+    "global_code": "86HJW6JG+C5"
+   },
+   "price_level": 1,
+   "rating": 3.6,
+   "reference": "ChIJ_8ncRILMD4gRpOOqWdC-nas",
+   "scope": "GOOGLE",
+   "types": [
+    "meal_delivery",
+    "restaurant",
+    "food",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 614,
+   "vicinity": "5925 W Diversey Ave, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.96538229999999,
+     "lng": -87.7086975
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.96678962989272,
+      "lng": -87.70733077010728
+     },
+     "southwest": {
+      "lat": 41.96408997010727,
+      "lng": -87.71003042989273
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+   "icon_background_color": "#FF9E67",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+   "name": "Golden Crust Pizza and Tap",
+   "opening_hours": {
+    "open_now": true
+   },
+   "photos": [
+    {
+     "height": 1440,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/104800495958078228460\">Karl-Heinz Neumann</a>"
+     ],
+     "photo_reference": "AVzFdbk-R0maEejiBh9gZYvUqa6ZZKXp6rcsYglaz4SkBI3wbK277yz4zRDo26tQdsgTYTqJlHwLzIxqzyjfXpUgeIqjd-lWCt20x88R6E4A5rgiB9Nvnweqh0ZLOwk-5RuKLmn-m_xo_pBxNWWqIsneHqpGxWCXs5-yfeI-UxEoHJL-E7EnZjxxgDMw",
+     "width": 2560
+    }
+   ],
+   "place_id": "ChIJ_dkik-_ND4gRvXVVRyTpbEE",
+   "plus_code": {
+    "compound_code": "X78R+5G Chicago, Illinois",
+    "global_code": "86HJX78R+5G"
+   },
+   "price_level": 2,
+   "rating": 4.2,
+   "reference": "ChIJ_dkik-_ND4gRvXVVRyTpbEE",
+   "scope": "GOOGLE",
+   "types": [
+    "bar",
+    "restaurant",
+    "food",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 669,
+   "vicinity": "4620 N Kedzie Ave, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.974171,
+     "lng": -87.6838472
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.97550957989272,
+      "lng": -87.68263302010728
+     },
+     "southwest": {
+      "lat": 41.97280992010727,
+      "lng": -87.68533267989271
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/stadium-71.png",
+   "icon_background_color": "#4DB546",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/stadium_pinlet",
+   "name": "Winnemac Stadium",
+   "opening_hours": {
+    "open_now": false
+   },
+   "photos": [
+    {
+     "height": 3000,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/101673842476074736664\">A Google User</a>"
+     ],
+     "photo_reference": "AVzFdbmfY2S-xXDIarEvgrcXCo66ipVSzP0Nh51w0zLxCCYRcudyIh_Rba9KY8fkTv3Y02z9Nt-_B3NZAioYXH_5KtOLvi9JlNRcg_eIQOcVATMNYDP_xd5IuxAt2AQIzi_cZSol4yrOoLDLrsxjwx_dz1SE00qXmxy_v0Kfufbn8DEI9TiAbczmFDYW",
+     "width": 4000
+    }
+   ],
+   "place_id": "ChIJGRlCvh3SD4gRYiXKaG7gJGM",
+   "plus_code": {
+    "compound_code": "X8F8+MG Chicago, Illinois",
+    "global_code": "86HJX8F8+MG"
+   },
+   "rating": 4.3,
+   "reference": "ChIJGRlCvh3SD4gRYiXKaG7gJGM",
+   "scope": "GOOGLE",
+   "types": [
+    "stadium",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 49,
+   "vicinity": "5105 N Leavitt St, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.930187,
+     "lng": -87.68809999999999
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.93161417989271,
+      "lng": -87.68696510000001
+     },
+     "southwest": {
+      "lat": 41.92891452010727,
+      "lng": -87.6911287
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/movies-71.png",
+   "icon_background_color": "#13B5C7",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/movie_pinlet",
+   "name": "Regal City North",
+   "opening_hours": {
+    "open_now": true
+   },
+   "photos": [
+    {
+     "height": 3024,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/110705880051249828907\">Lee Mickus</a>"
+     ],
+     "photo_reference": "AVzFdbmbRd3we_o-Q8c0LZmIqelW33ms37_LzF8WJ75WByg7UR7-EG7dx-9SGlUq2vvOtrlm9WLYMHywY3WxF5n709owki4XKhQUi1PQi2LH08VbVyOxCNeHeOXkpeMyK-xVSgSsh4u5MosefbGFkaAQtKJMOYlITW8l8L9DR06wQX3sj2aMrsJupTYN",
+     "width": 4032
+    }
+   ],
+   "place_id": "ChIJgQvs84XSD4gRMLEUDgSAdEc",
+   "plus_code": {
+    "compound_code": "W8J6+3Q Chicago, Illinois",
+    "global_code": "86HJW8J6+3Q"
+   },
+   "rating": 4,
+   "reference": "ChIJgQvs84XSD4gRMLEUDgSAdEc",
+   "scope": "GOOGLE",
+   "types": [
+    "movie_theater",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 4736,
+   "vicinity": "2600 N Western Ave, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.9238956,
+     "lng": -87.6521848
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.92508537989272,
+      "lng": -87.65114342010727
+     },
+     "southwest": {
+      "lat": 41.92238572010728,
+      "lng": -87.65384307989272
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/stadium-71.png",
+   "icon_background_color": "#4DB546",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/stadium_pinlet",
+   "name": "Cacciatore Stadium",
+   "photos": [
+    {
+     "height": 1365,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/100090774756090757861\">DePaul University - Cacciatore Stadium</a>"
+     ],
+     "photo_reference": "AVzFdbka3GBIkPXAwg9MvDHPRHSkkuJbdkmiYNEoy0RMtqJHrfax-HGXhC-kHxtZpWeIJ1P_URk_qtHEQ0B5Tkkb1ROSJHVxxkHDaaTOTdUkA75tkFaf8yYTz6l3qcn0NPlkEYUFc136fOTb7mfbE5e-UShQxB-H_CZJNDJVlntOPt49Zv6nBy4dsiNj",
+     "width": 2048
+    }
+   ],
+   "place_id": "ChIJmVJbZRvTD4gRiCXfqN_oAE0",
+   "plus_code": {
+    "compound_code": "W8FX+H4 Chicago, Illinois",
+    "global_code": "86HJW8FX+H4"
+   },
+   "rating": 3,
+   "reference": "ChIJmVJbZRvTD4gRiCXfqN_oAE0",
+   "scope": "GOOGLE",
+   "types": [
+    "stadium",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 2,
+   "vicinity": "N Sheffield Ave, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.9432385,
+     "lng": -87.6919375
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.94458832989272,
+      "lng": -87.69067702010729
+     },
+     "southwest": {
+      "lat": 41.94188867010728,
+      "lng": -87.69337667989272
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/stadium-71.png",
+   "icon_background_color": "#4DB546",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/stadium_pinlet",
+   "name": "DePaul College Prep Stadium",
+   "photos": [
+    {
+     "height": 339,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/105546808123016819499\">Martin Fuller</a>"
+     ],
+     "photo_reference": "AVzFdblxiuJJF5i5q4hPccucQRAPvUijkeduWGAebl-kFaLEeoLGJ6fRD4Nk1CJj47uJCgVcNV9QGGRHrWgV9wFA8niw6A7UbJfaC0JRR7nGsjzWuw199mnoRY1kb4Vc2Fn7IYJsNiP1tSMkl2WTtixbrEiuGDBCsaePZFWa12AFqR6wGKwocWMy7xWa",
+     "width": 512
+    }
+   ],
+   "place_id": "ChIJ7_O7Pe7TD4gRwBmk-aysX10",
+   "rating": 4.3,
+   "reference": "ChIJ7_O7Pe7TD4gRwBmk-aysX10",
+   "scope": "GOOGLE",
+   "types": [
+    "stadium",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 4,
+   "vicinity": "W8V5+76, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.9484384,
+     "lng": -87.6553327
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.94993384999999,
+      "lng": -87.6531502
+     },
+     "southwest": {
+      "lat": 41.94640044999999,
+      "lng": -87.65788859999998
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/stadium-71.png",
+   "icon_background_color": "#4DB546",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/stadium_pinlet",
+   "name": "Wrigley Field",
+   "photos": [
+    {
+     "height": 540,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/115198777255155408592\">Wrigley Field</a>"
+     ],
+     "photo_reference": "AVzFdbleDy1v1j7FrqeZ71nbYlEAHaolVxD6lJkhjtQ1AmDWv46RRoUkfQFOOKVmoHW7gf-5Jvnw1YZF12IJD8a8r9Ao9Cp6C-q6RSUjJwMmtBaJCVszY6WQbrXIVXDAMrrbQIm1ilpAZrFDElKRWf7Up-eRoGacG1o6aicB65JGQnGg8IABS5aQyFoL",
+     "width": 1242
+    }
+   ],
+   "place_id": "ChIJId-a5bLTD4gRRtbdduE-6hw",
+   "plus_code": {
+    "compound_code": "W8XV+9V Chicago, Illinois",
+    "global_code": "86HJW8XV+9V"
+   },
+   "rating": 4.8,
+   "reference": "ChIJId-a5bLTD4gRRtbdduE-6hw",
+   "scope": "GOOGLE",
+   "types": [
+    "stadium",
+    "tourist_attraction",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 32072,
+   "vicinity": "1060 W Addison St, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.9489294,
+     "lng": -87.6545513
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.95033932989272,
+      "lng": -87.65321177010726
+     },
+     "southwest": {
+      "lat": 41.94763967010728,
+      "lng": -87.65591142989271
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/stadium-71.png",
+   "icon_background_color": "#4DB546",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/stadium_pinlet",
+   "name": "Cubs Rooftops",
+   "photos": [
+    {
+     "height": 2988,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/100885608429944395907\">Jamie Khoo</a>"
+     ],
+     "photo_reference": "AVzFdbmojYKe-d_CcUV0qL5OEJMreP7YaQjId1uC7zsX1MweKjAkKNMu-njaiuG4aL29C_RCkFgDKnFcrXF7YJxBWw5JQGKxNxJjQltN16vlq1X9hvIHr2jsgaZeKPYRbbOASYtHdR_Y3MFyYt1gVswtx2646RIB0hpKdMBUlDcqdK12W-HusJa6OHYY",
+     "width": 5312
+    }
+   ],
+   "place_id": "ChIJRaXbGLPTD4gRlxMpu6nKQeM",
+   "plus_code": {
+    "compound_code": "W8XW+H5 Chicago, Illinois",
+    "global_code": "86HJW8XW+H5"
+   },
+   "rating": 4.7,
+   "reference": "ChIJRaXbGLPTD4gRlxMpu6nKQeM",
+   "scope": "GOOGLE",
+   "types": [
+    "stadium",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 75,
+   "vicinity": "3643 N Sheffield Ave, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.9300878,
+     "lng": -87.68992639999999
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.93156467989272,
+      "lng": -87.68854757010727
+     },
+     "southwest": {
+      "lat": 41.92886502010727,
+      "lng": -87.69124722989271
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/parking-71.png",
+   "icon_background_color": "#7B9EB0",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/parking_pinlet",
+   "name": "Regal Stadium 14 City North",
+   "place_id": "ChIJwdGYYo_SD4gREsE4oux38Cs",
+   "plus_code": {
+    "compound_code": "W8J6+22 Chicago, Illinois",
+    "global_code": "86HJW8J6+22"
+   },
+   "rating": 2.3,
+   "reference": "ChIJwdGYYo_SD4gREsE4oux38Cs",
+   "scope": "GOOGLE",
+   "types": [
+    "parking",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 11,
+   "vicinity": "N Jones St, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.94909699999999,
+     "lng": -87.658127
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.95045847989272,
+      "lng": -87.65675102010728
+     },
+     "southwest": {
+      "lat": 41.94775882010728,
+      "lng": -87.65945067989273
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+   "icon_background_color": "#7B9EB0",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+   "name": "Clark & Waveland",
+   "photos": [
+    {
+     "height": 2322,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/107455719532107550877\">Ron Ousley</a>"
+     ],
+     "photo_reference": "AVzFdbmbDkJb5w0AMG7Vlkquv7IwAeMGDS8-0jzwRs0zl0PHRMP-mf_aWgoIC3j4VdOF_3QLTTIP_8a-Bra21xXeIqvXoth7e_DnvSYqG1yjgw4ziysoa_o8vTfLDtYzct_L990sKVG1YD7jT3BKmBM7dgGA-_4Uw2HTJjr5MoP7kUQwlMLX68POw89S",
+     "width": 4128
+    }
+   ],
+   "place_id": "ChIJcYuzykzSD4gRn8TX0rEX-TM",
+   "plus_code": {
+    "compound_code": "W8XR+JP Chicago, Illinois",
+    "global_code": "86HJW8XR+JP"
+   },
+   "rating": 4.2,
+   "reference": "ChIJcYuzykzSD4gRn8TX0rEX-TM",
+   "scope": "GOOGLE",
+   "types": [
+    "transit_station",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 25,
+   "vicinity": "Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.9238011,
+     "lng": -87.6534021
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.92536122989272,
+      "lng": -87.65213342010728
+     },
+     "southwest": {
+      "lat": 41.92266157010727,
+      "lng": -87.65483307989271
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+   "icon_background_color": "#7B9EB0",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+   "name": "Sullivan Athletic Center",
+   "opening_hours": {
+    "open_now": false
+   },
+   "photos": [
+    {
+     "height": 1536,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/114370640700985557935\">DePaul University Sullivan Athletic Center</a>"
+     ],
+     "photo_reference": "AVzFdbm7by2njC17lqWVsty9EVg5_lbnDylevhrqvldCG4c_TgtMCsMjaF9SmbgkcT-2I-nSwUE-8U9QovsOl4P8MIYyVCaIYj9ghfKAQGBw00rbT7MWT9Gqv106t1pltmfQnpAEOrfpvANu7Ct7vhCwi4_nb8f1uBGOaiJ4S1AUdDGNegk73OYyAzJf",
+     "width": 2048
+    }
+   ],
+   "place_id": "ChIJAc9jjhzTD4gR0yGsRwMKj50",
+   "plus_code": {
+    "compound_code": "W8FW+GJ Chicago, Illinois",
+    "global_code": "86HJW8FW+GJ"
+   },
+   "rating": 4.6,
+   "reference": "ChIJAc9jjhzTD4gR0yGsRwMKj50",
+   "scope": "GOOGLE",
+   "types": [
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 21,
+   "vicinity": "2323 N Sheffield Ave, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.9634898,
+     "lng": -87.6451653
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.96417737989272,
+      "lng": -87.64367322010727
+     },
+     "southwest": {
+      "lat": 41.96147772010728,
+      "lng": -87.64637287989271
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+   "icon_background_color": "#7B9EB0",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+   "name": "Montrose Beach Fields",
+   "opening_hours": {
+    "open_now": true
+   },
+   "photos": [
+    {
+     "height": 1200,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/113757709456609641925\">Daniel Breems</a>"
+     ],
+     "photo_reference": "AVzFdbk2R5GHPANjon_fkfGHvarpaYIIn5h6ihi5kKFhz1vawHb62iMxiyAoFVKP63YaSnKtNlcEBuz-HNjlpLj9UOmuRTA3fz7jbmqGluiEATiBBAPxMqY7cTumtg1m08kw6zTXZbOt9qxb1OixrdHkGKZdIwuuyH9oekTPBb3-H3BYK2n9LZSvbbk",
+     "width": 1600
+    }
+   ],
+   "place_id": "ChIJU_f-9sTTD4gRzmsvyMp1gik",
+   "plus_code": {
+    "compound_code": "X973+9W Chicago, Illinois",
+    "global_code": "86HJX973+9W"
+   },
+   "rating": 4.7,
+   "reference": "ChIJU_f-9sTTD4gRzmsvyMp1gik",
+   "scope": "GOOGLE",
+   "types": [
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 69,
+   "vicinity": "W Montrose Ave, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.93011,
+     "lng": -87.645254
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.93133162989272,
+      "lng": -87.64388107010727
+     },
+     "southwest": {
+      "lat": 41.92863197010728,
+      "lng": -87.64658072989272
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+   "icon_background_color": "#7B9EB0",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+   "name": "Getaway Arena",
+   "place_id": "ChIJW6rCHYfTD4gRnm5g2wc59ws",
+   "plus_code": {
+    "compound_code": "W9J3+2V Chicago, Illinois",
+    "global_code": "86HJW9J3+2V"
+   },
+   "rating": 5,
+   "reference": "ChIJW6rCHYfTD4gRnm5g2wc59ws",
+   "scope": "GOOGLE",
+   "types": [
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 5,
+   "vicinity": "635 W Drummond Pl, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.9741228,
+     "lng": -87.68198129999999
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.9778664,
+      "lng": -87.67682775
+     },
+     "southwest": {
+      "lat": 41.97047319999999,
+      "lng": -87.68672195
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+   "icon_background_color": "#4DB546",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+   "name": "Winnemac Park",
+   "opening_hours": {
+    "open_now": true
+   },
+   "photos": [
+    {
+     "height": 2250,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/100884699050785567811\">A Google User</a>"
+     ],
+     "photo_reference": "AVzFdbm_3iaib0nrtG2TTix2x7FPMl2RUJdnWeMhpFqQqW181-AYcDn2DLYNPs536lD9kw7ugcD2OO4PL7AVpzn9gpJs9fmldu-5DsLaFs2dcIVFl0gfeeSFxhKsQbKAD4X-FRSci2kKjQtsLAXE_bXp8lwMgLs_v9jtvppVnH90i_YdrNDEn4zaEJnp",
+     "width": 4000
+    }
+   ],
+   "place_id": "ChIJBXLrax7SD4gRTR19bVCbP-8",
+   "plus_code": {
+    "compound_code": "X8F9+J6 Chicago, Illinois",
+    "global_code": "86HJX8F9+J6"
+   },
+   "rating": 4.7,
+   "reference": "ChIJBXLrax7SD4gRTR19bVCbP-8",
+   "scope": "GOOGLE",
+   "types": [
+    "tourist_attraction",
+    "park",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 1428,
+   "vicinity": "5100 N Leavitt St, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.94659559999999,
+     "lng": -87.6562208
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.94800142989271,
+      "lng": -87.65477382010728
+     },
+     "southwest": {
+      "lat": 41.94530177010727,
+      "lng": -87.65747347989273
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+   "icon_background_color": "#FF9E67",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
+   "name": "Sluggers World Class Sports Bar and Grill & Dueling Pianos",
+   "opening_hours": {
+    "open_now": true
+   },
+   "photos": [
+    {
+     "height": 2160,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/100719073294550752192\">Nathan Sheppard</a>"
+     ],
+     "photo_reference": "AVzFdbnZaSlMBe2zSrWl66DY49X16JF8HY5nrAPS-mGfB3yGMTHHAtGaR-VKm9qvOTUhqo6CvHGpN1TIFB5ZTpw1oMPy8b7lHY5Q_yUNRkG0iJu1p5xWo0Nt3Oxt3k--7FYcH2jmHGJIWx0rBZvbBH3tuWNjIvL49nfl4cYXYx3wPhrfj-UKk44oGKKi",
+     "width": 2880
+    }
+   ],
+   "place_id": "ChIJb1zKja3TD4gR3x9Jko7j4Yw",
+   "plus_code": {
+    "compound_code": "W8WV+JG Chicago, Illinois",
+    "global_code": "86HJW8WV+JG"
+   },
+   "price_level": 2,
+   "rating": 4.2,
+   "reference": "ChIJb1zKja3TD4gR3x9Jko7j4Yw",
+   "scope": "GOOGLE",
+   "types": [
+    "bar",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 2240,
+   "vicinity": "3540 N Clark St, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.9633603,
+     "lng": -87.6486024
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.96447867989271,
+      "lng": -87.64747972010727
+     },
+     "southwest": {
+      "lat": 41.96177902010727,
+      "lng": -87.65017937989272
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+   "icon_background_color": "#4DB546",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+   "name": "Clarendon Community Center Park",
+   "opening_hours": {
+    "open_now": true
+   },
+   "photos": [
+    {
+     "height": 2268,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/113328698979132716670\">A Google User</a>"
+     ],
+     "photo_reference": "AVzFdbk4sfxej44wdE_Zzy7qGooJrGSeQgRTitNhDvkj2QJw9MDRRcjZgTtzdmXUpHBdc5taobEYRgExRkc8KvQh7Ln3HRStaPCRT9jycemrRoDyRkGtTKZYu_Mql6NTG8lrFGuG5KZ-zd6WsCLS_WX3WIBGJtMLerPs8ycy6myW0wOOvgR0x0nQbn9b",
+     "width": 4032
+    }
+   ],
+   "place_id": "ChIJwWZeiM_TD4gRdp2Vi_apuEc",
+   "plus_code": {
+    "compound_code": "X972+8H Chicago, Illinois",
+    "global_code": "86HJX972+8H"
+   },
+   "rating": 4.4,
+   "reference": "ChIJwWZeiM_TD4gRdp2Vi_apuEc",
+   "scope": "GOOGLE",
+   "types": [
+    "park",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 382,
+   "vicinity": "4501 N Clarendon Ave, Chicago"
+  },
+  {
+   "business_status": "OPERATIONAL",
+   "geometry": {
+    "location": {
+     "lat": 41.9470653,
+     "lng": -87.6548121
+    },
+    "viewport": {
+     "northeast": {
+      "lat": 41.94849437989272,
+      "lng": -87.65377867010727
+     },
+     "southwest": {
+      "lat": 41.94579472010727,
+      "lng": -87.65647832989272
+     }
+    }
+   },
+   "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+   "icon_background_color": "#7B9EB0",
+   "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+   "name": "Lucky Strike Social at Wrigleyville",
+   "opening_hours": {
+    "open_now": true
+   },
+   "photos": [
+    {
+     "height": 3024,
+     "html_attributions": [
+      "<a href=\"https://maps.google.com/maps/contrib/111302811122140902387\">Mitch Black</a>"
+     ],
+     "photo_reference": "AVzFdbktnarycwwbSDg3Lg70pX7HELOOlK0cSnmhyldsetxCsk7B_RCOa8pRBIkGpZuSWNu3Ek5v_ENQ4IF4IDtERAiIsX6_YXoVVyh2ETf6n_zcJbjl05aMNoryZuo9L-EE3EeJhY4G1yrg2Rbk_zFkPMHMjCbbZpnb_N70M8nGBlv9uxYUG14Rn_W_",
+     "width": 4032
+    }
+   ],
+   "place_id": "ChIJlcAk33_TD4gR3REr2QXCWf0",
+   "plus_code": {
+    "compound_code": "W8WW+R3 Chicago, Illinois",
+    "global_code": "86HJW8WW+R3"
+   },
+   "rating": 4.2,
+   "reference": "ChIJlcAk33_TD4gR3REr2QXCWf0",
+   "scope": "GOOGLE",
+   "types": [
+    "bowling_alley",
+    "point_of_interest",
+    "establishment"
+   ],
+   "user_ratings_total": 599,
+   "vicinity": "1027 W Addison St, Chicago"
+  }
+ ]
+}
