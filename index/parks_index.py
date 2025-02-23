@@ -14,8 +14,9 @@ class ParkTuple(NamedTuple):
     area: float
 
 class HousingTuple(NamedTuple):
-    park_count: int
+    park_count: int # consider also scaling this by park size or adding another index
     rating_index: float
+
 
 
 ### Create BASE_DIR for the filepaths below (use pathlib)
@@ -24,10 +25,10 @@ class HousingTuple(NamedTuple):
 # Load Data -- might want to make these into functions 
 ##############################
 # load parks data
-parks = gpd.read_file("data/parks_polygons.geojson")
+parks = gpd.read_file("data/park_polygons.geojson")
 
 # housing data
-# housing = gpd.read_file("../data/housing.geojson")
+housing = gpd.read_file("data/housing.geojson")
 
 # # yelp and google ratings
 with open("data/yelp/yelp_cleaned.json", "r") as f:
@@ -156,9 +157,7 @@ def create_parks_dict(parks):
         if park_tuple.total_reviews is None and park_name is not None:
             park_tuple = match_park_ratings_name(park_name, polygon)
         
-        # convert polygon's exterior coordinates to a tuple to store as a key
-        # polygon_tuple = tuple(polygon.exterior.coords)
-        parks_dict[polygon] = park_tuple
+        parks_dict[park["id"]] = park_tuple
         
     #######################################################
     ##### FOR DEBUGGING PURPOSES
@@ -184,70 +183,75 @@ def create_parks_dict(parks):
 ### write a test to see if any polygons are not in the final parks dictionary
 ### another test idea is to confirm the data type is converted to meters then 
 # back to lat/long when creating the buffer around housing units
+### test to see how many parks a review is matched to 
 
 ##############################
 # Create housing dictionary with index values
 ##############################
 def create_buffer(housing, distance):
     # convert to a metric CRS for buffering in meters
-    housing = housing.to_crs(epsg=3857)
+    housing_project = housing.to_crs(epsg=3857)
     
     # apply buffer to all points in housing data
-    housing["buffered_point"] = housing.geometry.buffer(distance)
+    housing_project["geometry"] = housing_project.geometry.buffer(distance)
     
     # convert back to EPSG: 4326 in order to compare to polygon object
-    housing = housing.to_crs(epsg=4326)
-    print("housing CRS after buffer created:", housing.crs)
+    housing_project = housing_project.to_crs(epsg=4326)
+    # print("housing CRS after buffer created:", housing.crs)
     
-    return housing
+    return housing_project
     
 
-def park_walking_distance(buffered_point, parks):
+def park_walking_distance(buffered_point, parks_data):
     # set buffer around housing unit
     # buffer_800m = house_point.buffer(distance) 
-    polygon_list = []
+    polygon_id_list = []
     park_count = 0
     
     # parks = parks.to_crs(epsg=3857)
     # buffered_point = gpd.GeoSeries([buffered_point], crs="EPSG:4326").to_crs(epsg=3857).iloc[0]
-    print("parks CRS:", parks.crs)
+    # print("parks CRS:", parks.crs) # its in EPSG: 4326
     
     # think about ways to optimize so that you don't check every park in chicago
-    for polygon in parks.geometry:
+    for _, park in parks_data.iterrows():
+        polygon = park.geometry 
+        polygon_id = park["id"]
+        # print("walking distance function:", polygon)
         # we can also loop through parks dictionary instead to only consider parks with reviews?
         if buffered_point.intersects(polygon):
             park_count += 1
-            polygon_list.append(polygon)
+            polygon_id_list.append(polygon_id)
 
-    return (park_count, polygon_list)
+    return (park_count, polygon_id_list)
 
 
 def calculate_index(polygon_list, parks_dict):
     size_rating_index = 0
     
-    for polygon in polygon_list:
-        park_tuple = parks_dict[polygon]
+    for poly_id in polygon_list:
+        park_tuple = parks_dict[poly_id]
+        size_rating_index = park_tuple.rating
         size_rating_index += (park_tuple.area * park_tuple.rating)
         
     return size_rating_index
 
 
-def create_house_tuple(buffered_point, parks_dict, parks):
+def create_house_tuple(buffered_point, parks_dict, parks_data):
     """_summary_
 
     Args:
         housing (geopandas dataframe): affordable housing data
         parks (geopandas dataframe): parks data
     """
-    parks_buffer_count, polygon_list = park_walking_distance(buffered_point, parks) 
+    parks_buffer_count, polygon_id_list = park_walking_distance(buffered_point, parks_data) 
     # for distance (meters): 800 meters roughly 10 min walking distance
 
     # check that polygon_list is not empty before proceeding
-    if len(polygon_list) == 0:
+    if len(polygon_id_list) == 0:
         house_tuple = HousingTuple(park_count=0, rating_index=0) 
     else:
         # gather park tuples that fall within radius
-        index = calculate_index(polygon_list, parks_dict)
+        index = calculate_index(polygon_id_list, parks_dict)
         house_tuple = HousingTuple(park_count=parks_buffer_count, rating_index=index)
 
     return house_tuple
@@ -258,21 +262,24 @@ def create_house_tuple(buffered_point, parks_dict, parks):
 # Create index values dictionary
 ##############################
 
-def create_housing_dict(housing, parks_dict, distance, parks):
+def create_housing_dict(housing, parks_dict, distance, parks_data):
     ## Currently calling this function would create separate dictionaries for each distance/radius
     ## should we change function to create one dictionary where the values are a list of house tuples?
     housing_dict = {}
     
     # apply buffer to entire GeoDataFrame
-    housing = create_buffer(housing, distance)
+    housing_project = create_buffer(housing, distance)
+    # print("buffered point", housing["buffered_point"])
+    # print("housing point:", housing.geometry)
     
-    for buffered_point, point in zip(housing["buffered_point"], \
-        housing.geometry):
-        house_tuple = create_house_tuple(buffered_point, parks_dict, parks)
+    house_id = 1
+    for buffered_point in housing_project["geometry"]:
+        house_tuple = create_house_tuple(buffered_point, parks_dict, parks_data)
         
         # convert house coordinates to tuple to use as key in dictionary
-        house_id = (point.x, point.y)
+        # house_id = str(housing_project["X Coordinate"])+str(housing_project["X Coordinate"])
         housing_dict[house_id] = house_tuple 
+        house_id += 1
         
     return housing_dict
 
