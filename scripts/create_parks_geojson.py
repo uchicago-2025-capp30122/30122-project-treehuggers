@@ -35,7 +35,7 @@ project_root = os.path.dirname(os.getcwd())
 data_folder = os.path.join(project_root, "data")
 
 # Define polygons filepath
-polygons_filepath = os.path.join(data_folder, "parks_polygons.geojson")
+polygons_filepath = os.path.join(data_folder, "uncleaned_park_polygons.geojson")
 
 # Save to GeoJSON file
 parks_polygons[required_columns].to_file(polygons_filepath, driver="GeoJSON")

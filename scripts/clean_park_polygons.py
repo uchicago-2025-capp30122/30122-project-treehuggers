@@ -184,18 +184,18 @@ def merge_unnamed_park_clusters(features, graph, unnameds_to_remove, named_parks
 
 def save_geojson(features, output_file_path):
     """
-    Save new features list to a cleaned parks_polygons.geojson file.
+    Save new features list to a cleaned_parks_polygons.geojson file.
     """
     with open(output_file_path, "w") as f:
         # convert the features list into a GeoJSON FeatureCollection
         json.dump({"type": "FeatureCollection", "features": features}, f, indent=4)
     
-    print(len(features))
+    print("After cleaning, we have", len(features), "parks")
 
 def main():
     """Run altogether to clean and merge unnamed park polygons."""
 
-    file_path = "/Users/gracekluender/CAPP-122/30122-project-treehuggers/data/parks_polygons.geojson"
+    file_path = "/Users/gracekluender/CAPP-122/30122-project-treehuggers/data/uncleaned_park_polygons.geojson"
     output_path = "/Users/gracekluender/CAPP-122/30122-project-treehuggers/data/cleaned_park_polygons.geojson" 
 
     features = load_geojson(file_path)
