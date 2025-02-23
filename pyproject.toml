@@ -14,4 +14,5 @@ dependencies = [
     "nbconvert>=7.16.6",
     "osmnx>=2.0.1",
     "pandas>=2.2.3",
+    "pytest>=8.3.4",
 ]
