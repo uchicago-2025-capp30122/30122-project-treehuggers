@@ -12,6 +12,11 @@ def sample_yelp_inputs():
             }
     return (url, headers)
 
+@pytest.fixture
+def sample_yelp_data():
+
+    return {}
+
 def test_cache_key(sample_yelp_inputs):
     url, headers = sample_yelp_inputs
     key = cache_key(url, headers)
@@ -21,4 +26,8 @@ def test_cache_key(sample_yelp_inputs):
         "Cache key incorrect, is {key} instead of {correct_key}"
     
 def test_cached_yelp_get(sample_yelp_inputs):
+    url, headers = sample_yelp_inputs
+    raw_data_list = cached_yelp_get(url, headers)["places"]
+    assert len(raw_data_list) > 0, "No data pulled from cached Yelp get"
     
+#def test_clean_yelp()
