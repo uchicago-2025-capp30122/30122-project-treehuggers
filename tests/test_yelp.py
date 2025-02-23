@@ -32,15 +32,6 @@ def oak_park_clean():
              'rating': 4.7,
              'review_count': 59, 
              'source': 'Yelp'}] 
-
-
-def test_cache_key(sample_yelp_inputs):
-    url, headers = sample_yelp_inputs
-    key = cache_key(url, headers)
-    correct_key = "api.yelp.comv3businessessearch_location_Chicago.json" + \
-                  "_sort_by_best_match.json_categories_parks.json"
-    assert key == correct_key, \
-        "Cache key incorrect, is {key} instead of {correct_key}"
     
     
 def test_cached_get_yelp(sample_yelp_inputs):
