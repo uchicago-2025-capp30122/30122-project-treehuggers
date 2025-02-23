@@ -1,0 +1,6266 @@
+{
+ "places": [
+  {
+   "id": "JfNZVzh052lwZKpIMgsA1g",
+   "alias": "garfield-park-conservatory-chicago",
+   "name": "Garfield Park Conservatory",
+   "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/Gv5sTzaQ2Ff1E-bA-NTLSg/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/garfield-park-conservatory-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 797,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    },
+    {
+     "alias": "gardens",
+     "title": "Botanical Gardens"
+    },
+    {
+     "alias": "hiking",
+     "title": "Hiking"
+    }
+   ],
+   "rating": 4.8,
+   "coordinates": {
+    "latitude": 41.8864959,
+    "longitude": -87.717822
+   },
+   "transactions": [],
+   "location": {
+    "address1": "300 N Central Park Ave",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60624",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "300 N Central Park Ave",
+     "Chicago, IL 60624"
+    ]
+   },
+   "phone": "+17736381766",
+   "display_phone": "(773) 638-1766",
+   "distance": 3919.3112373344,
+   "business_hours": [
+    {
+     "open": [
+      {
+       "is_overnight": false,
+       "start": "1000",
+       "end": "2000",
+       "day": 2
+      },
+      {
+       "is_overnight": false,
+       "start": "1000",
+       "end": "1700",
+       "day": 3
+      },
+      {
+       "is_overnight": false,
+       "start": "1000",
+       "end": "1700",
+       "day": 4
+      },
+      {
+       "is_overnight": false,
+       "start": "1000",
+       "end": "1700",
+       "day": 5
+      },
+      {
+       "is_overnight": false,
+       "start": "1000",
+       "end": "1700",
+       "day": 6
+      }
+     ],
+     "hours_type": "REGULAR",
+     "is_open_now": true
+    }
+   ],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "2DfcXGtDv7T_rnvl4lHzaQ",
+   "alias": "millennium-park-chicago",
+   "name": "Millennium Park",
+   "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/92hy3vvtq1ml1gE2mW2vQA/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/millennium-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 1456,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 4.6,
+   "coordinates": {
+    "latitude": 41.88255748421691,
+    "longitude": -87.62255156982617
+   },
+   "transactions": [],
+   "location": {
+    "address1": "201 E Randolph St",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60601",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "201 E Randolph St",
+     "Chicago, IL 60601"
+    ]
+   },
+   "phone": "+13127421168",
+   "display_phone": "(312) 742-1168",
+   "distance": 5219.014479222394,
+   "business_hours": [
+    {
+     "open": [
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 0
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 1
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 2
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 3
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 4
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 5
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 6
+      }
+     ],
+     "hours_type": "REGULAR",
+     "is_open_now": true
+    }
+   ],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "pWVBNeHqg8U8RUt-A7Wvsw",
+   "alias": "humboldt-park-chicago",
+   "name": "Humboldt Park",
+   "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/dRsEwsbzWrfacN7tZTKzSw/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/humboldt-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 135,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 4.4,
+   "coordinates": {
+    "latitude": 41.905754,
+    "longitude": -87.702181
+   },
+   "transactions": [],
+   "location": {
+    "address1": "1400 N Sacramento Ave",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60622",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "1400 N Sacramento Ave",
+     "Chicago, IL 60622"
+    ]
+   },
+   "phone": "",
+   "display_phone": "",
+   "distance": 2023.582340709618,
+   "business_hours": [
+    {
+     "open": [
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 0
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 1
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 2
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 3
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 4
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 5
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 6
+      }
+     ],
+     "hours_type": "REGULAR",
+     "is_open_now": true
+    }
+   ],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "qdWS2gEaFwwhV9TCAXEWGQ",
+   "alias": "lincoln-park-conservatory-chicago",
+   "name": "Lincoln Park Conservatory",
+   "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/cZgEV_ixhCCXSPb_XSFt0Q/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/lincoln-park-conservatory-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 304,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 4.6,
+   "coordinates": {
+    "latitude": 41.92433507444941,
+    "longitude": -87.6352185
+   },
+   "transactions": [],
+   "location": {
+    "address1": "2391 N Stockton Dr",
+    "address2": null,
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60614",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "2391 N Stockton Dr",
+     "Chicago, IL 60614"
+    ]
+   },
+   "phone": "+13127427736",
+   "display_phone": "(312) 742-7736",
+   "distance": 4108.098395226794,
+   "business_hours": [
+    {
+     "open": [
+      {
+       "is_overnight": false,
+       "start": "1000",
+       "end": "1700",
+       "day": 2
+      },
+      {
+       "is_overnight": false,
+       "start": "1000",
+       "end": "1700",
+       "day": 3
+      },
+      {
+       "is_overnight": false,
+       "start": "1000",
+       "end": "1700",
+       "day": 4
+      },
+      {
+       "is_overnight": false,
+       "start": "1000",
+       "end": "1700",
+       "day": 5
+      },
+      {
+       "is_overnight": false,
+       "start": "1000",
+       "end": "1700",
+       "day": 6
+      }
+     ],
+     "hours_type": "REGULAR",
+     "is_open_now": true
+    }
+   ],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "trCiY4gi4SRvmai3deNzGw",
+   "alias": "the-606-bloomingdale-trail-chicago",
+   "name": "The 606 - Bloomingdale Trail",
+   "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/wTaVpQGBL6muu_azLjNt8Q/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/the-606-bloomingdale-trail-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 175,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 4.2,
+   "coordinates": {
+    "latitude": 41.9142769731426,
+    "longitude": -87.6689563391785
+   },
+   "transactions": [],
+   "location": {
+    "address1": "1600-3700 W Bloomingdale",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60651",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "1600-3700 W Bloomingdale",
+     "Chicago, IL 60651"
+    ]
+   },
+   "phone": "+17736619172",
+   "display_phone": "(773) 661-9172",
+   "distance": 1238.2213183157678,
+   "business_hours": [
+    {
+     "open": [
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 0
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 1
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 2
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 3
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 4
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 5
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 6
+      }
+     ],
+     "hours_type": "REGULAR",
+     "is_open_now": true
+    }
+   ],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "8aGbj1KuwuHGAyahi62UTw",
+   "alias": "chicago-park-district-oz-park-chicago",
+   "name": "Chicago Park District - OZ PARK",
+   "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/RtQ1Icfb9JBlsUWxxfnjLg/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/chicago-park-district-oz-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 119,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    },
+    {
+     "alias": "playgrounds",
+     "title": "Playgrounds"
+    },
+    {
+     "alias": "tennis",
+     "title": "Tennis"
+    }
+   ],
+   "rating": 4.5,
+   "coordinates": {
+    "latitude": 41.9209,
+    "longitude": -87.64566
+   },
+   "transactions": [],
+   "location": {
+    "address1": "2021 N Burling St",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60614",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "2021 N Burling St",
+     "Chicago, IL 60614"
+    ]
+   },
+   "phone": "+13127427898",
+   "display_phone": "(312) 742-7898",
+   "distance": 3173.264553120983,
+   "business_hours": [
+    {
+     "open": [
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 0
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 1
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 2
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 3
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 4
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 5
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 6
+      }
+     ],
+     "hours_type": "REGULAR",
+     "is_open_now": true
+    }
+   ],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "wILxEU86YqC5EgWsF0NnlQ",
+   "alias": "maggie-daley-park-chicago-park-district-chicago-2",
+   "name": "Maggie Daley Park - Chicago Park District",
+   "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/zS2cgHd4Vlh-J82UlyPoag/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/maggie-daley-park-chicago-park-district-chicago-2?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 222,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    },
+    {
+     "alias": "mini_golf",
+     "title": "Mini Golf"
+    }
+   ],
+   "rating": 4.5,
+   "coordinates": {
+    "latitude": 41.882361,
+    "longitude": -87.61944
+   },
+   "transactions": [],
+   "location": {
+    "address1": "337 E Randolph",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60601",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "337 E Randolph",
+     "Chicago, IL 60601"
+    ]
+   },
+   "phone": "+13125523000",
+   "display_phone": "(312) 552-3000",
+   "distance": 5456.023136905623,
+   "business_hours": [
+    {
+     "open": [
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2200",
+       "day": 0
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2200",
+       "day": 1
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2200",
+       "day": 2
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2200",
+       "day": 3
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2200",
+       "day": 4
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2200",
+       "day": 5
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2200",
+       "day": 6
+      }
+     ],
+     "hours_type": "REGULAR",
+     "is_open_now": true
+    }
+   ],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "9byvOQM3fSG9RU1fTYte5A",
+   "alias": "montrose-dog-beach-chicago",
+   "name": "Montrose Dog Beach",
+   "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/bMhcme4vzOmdg1yPMbeRmQ/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/montrose-dog-beach-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 295,
+   "categories": [
+    {
+     "alias": "dog_parks",
+     "title": "Dog Parks"
+    }
+   ],
+   "rating": 4.4,
+   "coordinates": {
+    "latitude": 41.968549496721856,
+    "longitude": -87.64338043313141
+   },
+   "transactions": [],
+   "location": {
+    "address1": "610 W Lawrence Ave",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60640",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "610 W Lawrence Ave",
+     "Chicago, IL 60640"
+    ]
+   },
+   "phone": "",
+   "display_phone": "",
+   "distance": 7589.546655137634,
+   "business_hours": [
+    {
+     "open": [
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 0
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 1
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 2
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 3
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 4
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 5
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 6
+      }
+     ],
+     "hours_type": "REGULAR",
+     "is_open_now": true
+    }
+   ],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "tt7-HNN479qg9lSV7Zw2rw",
+   "alias": "alfred-caldwell-lily-pool-chicago",
+   "name": "Alfred Caldwell Lily Pool",
+   "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/OvD8--TNZHIYiIU57EuRQg/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/alfred-caldwell-lily-pool-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 87,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    },
+    {
+     "alias": "venues",
+     "title": "Venues & Event Spaces"
+    },
+    {
+     "alias": "nonprofit",
+     "title": "Community Service/Non-Profit"
+    }
+   ],
+   "rating": 4.8,
+   "coordinates": {
+    "latitude": 41.9248276,
+    "longitude": -87.6340494
+   },
+   "transactions": [],
+   "location": {
+    "address1": "125 W Fullerton Pkwy",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60614",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "125 W Fullerton Pkwy",
+     "Chicago, IL 60614"
+    ]
+   },
+   "phone": "+17738837275",
+   "display_phone": "(773) 883-7275",
+   "distance": 4219.2092619747755,
+   "business_hours": [
+    {
+     "open": [
+      {
+       "is_overnight": false,
+       "start": "0730",
+       "end": "1930",
+       "day": 0
+      },
+      {
+       "is_overnight": false,
+       "start": "0730",
+       "end": "1930",
+       "day": 1
+      },
+      {
+       "is_overnight": false,
+       "start": "0730",
+       "end": "1930",
+       "day": 2
+      },
+      {
+       "is_overnight": false,
+       "start": "0730",
+       "end": "1930",
+       "day": 3
+      },
+      {
+       "is_overnight": false,
+       "start": "0730",
+       "end": "1930",
+       "day": 4
+      },
+      {
+       "is_overnight": false,
+       "start": "0730",
+       "end": "1930",
+       "day": 5
+      },
+      {
+       "is_overnight": false,
+       "start": "0730",
+       "end": "1930",
+       "day": 6
+      }
+     ],
+     "hours_type": "REGULAR",
+     "is_open_now": true
+    }
+   ],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "Qvxw5Gfpalzxkt-1nys8VQ",
+   "alias": "wicker-park-chicago-park-district-chicago",
+   "name": "Wicker Park - Chicago Park District",
+   "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/NY-4exfbqCV1GsSLvbScOg/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/wicker-park-chicago-park-district-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 121,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    },
+    {
+     "alias": "playgrounds",
+     "title": "Playgrounds"
+    },
+    {
+     "alias": "recreation",
+     "title": "Recreation Centers"
+    }
+   ],
+   "rating": 3.8,
+   "coordinates": {
+    "latitude": 41.9077397733836,
+    "longitude": -87.6764158224562
+   },
+   "transactions": [],
+   "location": {
+    "address1": "1425 N Damen Ave",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60622",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "1425 N Damen Ave",
+     "Chicago, IL 60622"
+    ]
+   },
+   "phone": "+13127427553",
+   "display_phone": "(312) 742-7553",
+   "distance": 296.57965486543253,
+   "business_hours": [
+    {
+     "open": [
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 0
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 1
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 2
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 3
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 4
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 5
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 6
+      }
+     ],
+     "hours_type": "REGULAR",
+     "is_open_now": true
+    }
+   ],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "DwugY6shrqmzAe4NGgjDyA",
+   "alias": "grant-park-chicago",
+   "name": "Grant Park",
+   "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/roIcdIAHMGDOgMvmXYJkqw/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/grant-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 216,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 4.6,
+   "coordinates": {
+    "latitude": 41.8758205085886,
+    "longitude": -87.6189493035277
+   },
+   "transactions": [],
+   "location": {
+    "address1": "331 E Randolph St",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60601",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "331 E Randolph St",
+     "Chicago, IL 60601"
+    ]
+   },
+   "phone": "+13127427648",
+   "display_phone": "(312) 742-7648",
+   "distance": 5864.884803001544,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "pTIJPlGzs3U3qMTlp6Mayw",
+   "alias": "nature-boardwalk-at-lincoln-park-zoo-chicago",
+   "name": "Nature Boardwalk at Lincoln Park Zoo",
+   "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/ws6DnuNTyse5-2px5-cvTQ/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/nature-boardwalk-at-lincoln-park-zoo-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 34,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 4.7,
+   "coordinates": {
+    "latitude": 41.9178065834321,
+    "longitude": -87.6331114768982
+   },
+   "transactions": [],
+   "location": {
+    "address1": "South Pond Lincoln Park Zoo",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60611",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "South Pond Lincoln Park Zoo",
+     "Chicago, IL 60611"
+    ]
+   },
+   "phone": "",
+   "display_phone": "",
+   "distance": 3947.4837467982497,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "dP_DNiO4u2QC8DxoT-UcHw",
+   "alias": "doggy-paddle-aquatic-center-for-dogs-chicago-2",
+   "name": "Doggy Paddle Aquatic Center For Dogs",
+   "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/NdpD4kQXemerJNbDrQ6sMQ/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/doggy-paddle-aquatic-center-for-dogs-chicago-2?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 124,
+   "categories": [
+    {
+     "alias": "dog_parks",
+     "title": "Dog Parks"
+    },
+    {
+     "alias": "pet_sitting",
+     "title": "Pet Sitting"
+    },
+    {
+     "alias": "dogwalkers",
+     "title": "Dog Walkers"
+    }
+   ],
+   "rating": 4.1,
+   "coordinates": {
+    "latitude": 41.914667,
+    "longitude": -87.663309
+   },
+   "transactions": [],
+   "location": {
+    "address1": "1430 W Willow St",
+    "address2": null,
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60642",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "1430 W Willow St",
+     "Chicago, IL 60642"
+    ]
+   },
+   "phone": "+17739229282",
+   "display_phone": "(773) 922-9282",
+   "distance": 1597.2353589123124,
+   "business_hours": [
+    {
+     "open": [
+      {
+       "is_overnight": false,
+       "start": "0800",
+       "end": "2100",
+       "day": 0
+      },
+      {
+       "is_overnight": false,
+       "start": "0800",
+       "end": "2100",
+       "day": 1
+      },
+      {
+       "is_overnight": false,
+       "start": "0800",
+       "end": "2100",
+       "day": 2
+      },
+      {
+       "is_overnight": false,
+       "start": "0800",
+       "end": "2100",
+       "day": 3
+      },
+      {
+       "is_overnight": false,
+       "start": "0800",
+       "end": "2100",
+       "day": 4
+      },
+      {
+       "is_overnight": false,
+       "start": "0900",
+       "end": "1600",
+       "day": 5
+      },
+      {
+       "is_overnight": false,
+       "start": "0900",
+       "end": "1600",
+       "day": 6
+      }
+     ],
+     "hours_type": "REGULAR",
+     "is_open_now": true
+    }
+   ],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "0rX0ezqB1jhZmeOqOKXbmA",
+   "alias": "lincoln-park-chicago",
+   "name": "Lincoln Park",
+   "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/MN1e--1PaTGiF-aJSOYFOg/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/lincoln-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 102,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 4.4,
+   "coordinates": {
+    "latitude": 41.938925247844,
+    "longitude": -87.63694678506332
+   },
+   "transactions": [],
+   "location": {
+    "address1": "2045 Lincoln Park W",
+    "address2": null,
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60610",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "2045 Lincoln Park W",
+     "Chicago, IL 60610"
+    ]
+   },
+   "phone": "+13127427726",
+   "display_phone": "(312) 742-7726",
+   "distance": 5040.042958370434,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "WRfDXmqqAaxeHvax1H2Y4g",
+   "alias": "ping-tom-memorial-park-chicago",
+   "name": "Ping Tom Memorial Park",
+   "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/aLlsWUmc_PHMv7ShpwNf_w/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/ping-tom-memorial-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 84,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 4.3,
+   "coordinates": {
+    "latitude": 41.85695918314,
+    "longitude": -87.634402088742
+   },
+   "transactions": [],
+   "location": {
+    "address1": "300 W 19th St",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60616",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "300 W 19th St",
+     "Chicago, IL 60616"
+    ]
+   },
+   "phone": "",
+   "display_phone": "",
+   "distance": 6458.919641473208,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "coMXh-z1IaZdx-voA98jDw",
+   "alias": "washington-square-park-chicago",
+   "name": "Washington Square Park",
+   "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/QkHUVOnr3WL4QOwvvzzupQ/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/washington-square-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 34,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 4.3,
+   "coordinates": {
+    "latitude": 41.8999342,
+    "longitude": -87.6311388
+   },
+   "transactions": [],
+   "location": {
+    "address1": "901 N Clark St",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60610",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "901 N Clark St",
+     "Chicago, IL 60610"
+    ]
+   },
+   "phone": "+13127427895",
+   "display_phone": "(312) 742-7895",
+   "distance": 3951.061064869966,
+   "business_hours": [
+    {
+     "open": [
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 0
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 1
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 2
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 3
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 4
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 5
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 6
+      }
+     ],
+     "hours_type": "REGULAR",
+     "is_open_now": true
+    }
+   ],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "hFJQ9vAg1urt-9iYkJUOCA",
+   "alias": "the-park-at-lakeshore-east-chicago",
+   "name": "The Park at Lakeshore East",
+   "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/G-UYbD3ZThxCc_475MBjhQ/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/the-park-at-lakeshore-east-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 47,
+   "categories": [
+    {
+     "alias": "playgrounds",
+     "title": "Playgrounds"
+    },
+    {
+     "alias": "dog_parks",
+     "title": "Dog Parks"
+    }
+   ],
+   "rating": 4.5,
+   "coordinates": {
+    "latitude": 41.885980594423,
+    "longitude": -87.61759122481
+   },
+   "transactions": [],
+   "location": {
+    "address1": "411 E Benton Pl",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60601",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "411 E Benton Pl",
+     "Chicago, IL 60601"
+    ]
+   },
+   "phone": "",
+   "display_phone": "",
+   "distance": 5420.2700466820725,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "GrH6NSrafrWeUIkTzx87-g",
+   "alias": "north-park-village-nature-center-chicago",
+   "name": "North Park Village Nature Center",
+   "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/yeEGqAdZosrBEiA2CglkNg/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/north-park-village-nature-center-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 70,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 4.6,
+   "coordinates": {
+    "latitude": 41.9878746037679,
+    "longitude": -87.7244325590962
+   },
+   "transactions": [],
+   "location": {
+    "address1": "5801 N Pulaski Rd",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60646",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "5801 N Pulaski Rd",
+     "Chicago, IL 60646"
+    ]
+   },
+   "phone": "+13127445472",
+   "display_phone": "(312) 744-5472",
+   "distance": 9964.971744766493,
+   "business_hours": [
+    {
+     "open": [
+      {
+       "is_overnight": false,
+       "start": "0900",
+       "end": "1600",
+       "day": 0
+      },
+      {
+       "is_overnight": false,
+       "start": "0900",
+       "end": "1600",
+       "day": 1
+      },
+      {
+       "is_overnight": false,
+       "start": "0900",
+       "end": "1600",
+       "day": 2
+      },
+      {
+       "is_overnight": false,
+       "start": "0900",
+       "end": "1600",
+       "day": 3
+      },
+      {
+       "is_overnight": false,
+       "start": "0900",
+       "end": "1600",
+       "day": 4
+      },
+      {
+       "is_overnight": false,
+       "start": "0900",
+       "end": "1600",
+       "day": 5
+      },
+      {
+       "is_overnight": false,
+       "start": "0900",
+       "end": "1600",
+       "day": 6
+      }
+     ],
+     "hours_type": "REGULAR",
+     "is_open_now": false
+    }
+   ],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "sZ1nIBm0raxcXjMFbN8uVw",
+   "alias": "lake-shore-park-chicago",
+   "name": "Lake Shore Park",
+   "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/E6ZdjIMizyFAqZURDof4_g/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/lake-shore-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 24,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 4.3,
+   "coordinates": {
+    "latitude": 41.8969333,
+    "longitude": -87.6173388
+   },
+   "transactions": [],
+   "location": {
+    "address1": "808 N Lake Shore Dr",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60611",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "808 N Lake Shore Dr",
+     "Chicago, IL 60611"
+    ]
+   },
+   "phone": "+13127427891",
+   "display_phone": "(312) 742-7891",
+   "distance": 4954.2856372866245,
+   "business_hours": [
+    {
+     "open": [
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 0
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 1
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 2
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 3
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 4
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 5
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 6
+      }
+     ],
+     "hours_type": "REGULAR",
+     "is_open_now": true
+    }
+   ],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "-dDR4PYIDRUBzWBEKyjebQ",
+   "alias": "mariano-park-chicago",
+   "name": "Mariano Park",
+   "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/AmcGPNT45tw3PoX1YnN1qw/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/mariano-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 21,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 4.4,
+   "coordinates": {
+    "latitude": 41.90181,
+    "longitude": -87.628199
+   },
+   "transactions": [],
+   "location": {
+    "address1": "1031 N State St",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60610",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "1031 N State St",
+     "Chicago, IL 60610"
+    ]
+   },
+   "phone": "+13127427895",
+   "display_phone": "(312) 742-7895",
+   "distance": 4117.690269346816,
+   "business_hours": [
+    {
+     "open": [
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 0
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 1
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 2
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 3
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 4
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 5
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 6
+      }
+     ],
+     "hours_type": "REGULAR",
+     "is_open_now": true
+    }
+   ],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "I3i279yB1x948IYdwxJqnQ",
+   "alias": "grant-park-rose-garden-chicago",
+   "name": "Grant Park Rose Garden",
+   "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/mCwKadQSomzfHNN-H_-2IA/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/grant-park-rose-garden-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 8,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 4.8,
+   "coordinates": {
+    "latitude": 41.87831811,
+    "longitude": -87.62033096
+   },
+   "transactions": [],
+   "location": {
+    "address1": "343 E Jackson Dr",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60605",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "343 E Jackson Dr",
+     "Chicago, IL 60605"
+    ]
+   },
+   "phone": "",
+   "display_phone": "",
+   "distance": 5608.368650665032,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "VmCnEqO1Qt583gKFyH6bCA",
+   "alias": "seneca-park-chicago-2",
+   "name": "Seneca Park",
+   "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/DND1IldW4b5uCIX0y-GnuA/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/seneca-park-chicago-2?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 18,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    },
+    {
+     "alias": "playgrounds",
+     "title": "Playgrounds"
+    }
+   ],
+   "rating": 4.3,
+   "coordinates": {
+    "latitude": 41.89716169430479,
+    "longitude": -87.6223240588337
+   },
+   "transactions": [],
+   "location": {
+    "address1": "228 E Chicago Ave",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60611",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "228 E Chicago Ave",
+     "Chicago, IL 60611"
+    ]
+   },
+   "phone": "",
+   "display_phone": "",
+   "distance": 4673.728976738492,
+   "business_hours": [
+    {
+     "open": [
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 0
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 1
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 2
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 3
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 4
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 5
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 6
+      }
+     ],
+     "hours_type": "REGULAR",
+     "is_open_now": true
+    }
+   ],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "7h-qlp-huZ8y_LzWto1OPA",
+   "alias": "haas-park-chicago",
+   "name": "Haas Park",
+   "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/Oaum5B92ZvDw2Q0tV9CvOw/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/haas-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 10,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 4.6,
+   "coordinates": {
+    "latitude": 41.9249956,
+    "longitude": -87.6951523
+   },
+   "transactions": [],
+   "location": {
+    "address1": "2402 N Washtenaw Ave",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60647",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "2402 N Washtenaw Ave",
+     "Chicago, IL 60647"
+    ]
+   },
+   "phone": "+13127427552",
+   "display_phone": "(312) 742-7552",
+   "distance": 2645.9186104299897,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "FYARgh7TVZCnXr14Q-gpgQ",
+   "alias": "chicago-park-district-river-park-chicago",
+   "name": "Chicago Park District - River Park",
+   "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/mAmeSE9g29pw0ZlJhFGeTg/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/chicago-park-district-river-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 29,
+   "categories": [
+    {
+     "alias": "swimmingpools",
+     "title": "Swimming Pools"
+    },
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 3.8,
+   "coordinates": {
+    "latitude": 41.974111,
+    "longitude": -87.7014049
+   },
+   "transactions": [],
+   "location": {
+    "address1": "5100 N Francisco Ave",
+    "address2": null,
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60625",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "5100 N Francisco Ave",
+     "Chicago, IL 60625"
+    ]
+   },
+   "phone": "+13127427529",
+   "display_phone": "(312) 742-7529",
+   "distance": 7899.615337363454,
+   "business_hours": [
+    {
+     "open": [
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 0
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 1
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 2
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 3
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 4
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 5
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 6
+      }
+     ],
+     "hours_type": "REGULAR",
+     "is_open_now": true
+    }
+   ],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "1VUjBDDsR4KltmL8cd8xYw",
+   "alias": "north-pond-nature-sanctuary-chicago",
+   "name": "North Pond Nature Sanctuary",
+   "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/2XVXP2TU_cfwQne52nzHtA/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/north-pond-nature-sanctuary-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 11,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 4.5,
+   "coordinates": {
+    "latitude": 41.9280803527177,
+    "longitude": -87.6369094848633
+   },
+   "transactions": [],
+   "location": {
+    "address1": "2610 N Cannon Dr",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60614",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "2610 N Cannon Dr",
+     "Chicago, IL 60614"
+    ]
+   },
+   "phone": "",
+   "display_phone": "",
+   "distance": 4225.028302036517,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "aQ01Hi0AUjT0Enlc3awm3w",
+   "alias": "kosciuszko-park-chicago",
+   "name": "Kosciuszko Park",
+   "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/cF3iF6oAspFVQ2VayCLjdg/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/kosciuszko-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 18,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 3.8,
+   "coordinates": {
+    "latitude": 41.9307066500187,
+    "longitude": -87.7233094722033
+   },
+   "transactions": [],
+   "location": {
+    "address1": "2732 N Avers Ave",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60686",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "2732 N Avers Ave",
+     "Chicago, IL 60686"
+    ]
+   },
+   "phone": "+13127427546",
+   "display_phone": "(312) 742-7546",
+   "distance": 4799.437235994757,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "LiBFppo5lp4Gm_eATeooRA",
+   "alias": "clarendon-park-chicago",
+   "name": "Clarendon Park",
+   "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/PqJvmFdJrSdrWgChPWQlHA/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/clarendon-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 7,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    },
+    {
+     "alias": "playgrounds",
+     "title": "Playgrounds"
+    }
+   ],
+   "rating": 4.7,
+   "coordinates": {
+    "latitude": 41.9631777568729,
+    "longitude": -87.648799046513
+   },
+   "transactions": [],
+   "location": {
+    "address1": "4501 N Clarendon Ave",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60640",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "4501 N Clarendon Ave",
+     "Chicago, IL 60640"
+    ]
+   },
+   "phone": "+13127427512",
+   "display_phone": "(312) 742-7512",
+   "distance": 6870.580056157817,
+   "business_hours": [
+    {
+     "open": [
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 0
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 1
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 2
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 3
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 4
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 5
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 6
+      }
+     ],
+     "hours_type": "REGULAR",
+     "is_open_now": true
+    }
+   ],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "ZAKPHabrzxTPvhriAUePUA",
+   "alias": "union-park-chicago-2",
+   "name": "Union Park",
+   "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/G9DKveJMaq2JtbOw0OyrpA/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/union-park-chicago-2?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 20,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    },
+    {
+     "alias": "playgrounds",
+     "title": "Playgrounds"
+    },
+    {
+     "alias": "swimmingpools",
+     "title": "Swimming Pools"
+    }
+   ],
+   "rating": 3.4,
+   "coordinates": {
+    "latitude": 41.884073,
+    "longitude": -87.665419
+   },
+   "transactions": [],
+   "location": {
+    "address1": "1501 W Randolph St",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60610",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "1501 W Randolph St",
+     "Chicago, IL 60610"
+    ]
+   },
+   "phone": "+13127465494",
+   "display_phone": "(312) 746-5494",
+   "distance": 2567.1311230772676,
+   "business_hours": [
+    {
+     "open": [
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 0
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 1
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 2
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 3
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 4
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 5
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 6
+      }
+     ],
+     "hours_type": "REGULAR",
+     "is_open_now": true
+    }
+   ],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "dc9k41kMM68g4gVlIzDv5Q",
+   "alias": "logan-square-dog-park-chicago",
+   "name": "Logan Square Dog Park",
+   "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/SQEj3flx5DikNMvruA8jwA/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/logan-square-dog-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 15,
+   "categories": [
+    {
+     "alias": "dog_parks",
+     "title": "Dog Parks"
+    }
+   ],
+   "rating": 4.4,
+   "coordinates": {
+    "latitude": 41.92749,
+    "longitude": -87.688118
+   },
+   "transactions": [],
+   "location": {
+    "address1": "2526 N Western Ave",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60647",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "2526 N Western Ave",
+     "Chicago, IL 60647"
+    ]
+   },
+   "phone": "",
+   "display_phone": "",
+   "distance": 2617.031997957451,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "WxxmGN85wkktnTcd1-nlUg",
+   "alias": "independence-park-chicago",
+   "name": "Independence Park",
+   "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/DHzNihFpYCLAN2sIfFQ3nQ/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/independence-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 23,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 3.9,
+   "coordinates": {
+    "latitude": 41.95262142119797,
+    "longitude": -87.72360828543947
+   },
+   "transactions": [],
+   "location": {
+    "address1": "3945 N Springfield Ave",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60618",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "3945 N Springfield Ave",
+     "Chicago, IL 60618"
+    ]
+   },
+   "phone": "+17734783538",
+   "display_phone": "(773) 478-3538",
+   "distance": 6491.017555249183,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "7httzwZam5RCeh3b5PiTtQ",
+   "alias": "mckinley-park-chicago",
+   "name": "Mckinley Park",
+   "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/_gRKEPK-_iVLZS-kCpQnSA/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/mckinley-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 11,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 4.2,
+   "coordinates": {
+    "latitude": 41.824609522162426,
+    "longitude": -87.67987420449731
+   },
+   "transactions": [],
+   "location": {
+    "address1": "2210 W Pershing Rd",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60609",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "2210 W Pershing Rd",
+     "Chicago, IL 60609"
+    ]
+   },
+   "phone": "+13127476527",
+   "display_phone": "(312) 747-6527",
+   "distance": 8969.729636032018,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "qDuEa0T_PlsE2jc2zU-6eA",
+   "alias": "cricket-hill-chicago",
+   "name": "Cricket Hill",
+   "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/hzapME7zudgvSbOLSWMPyg/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/cricket-hill-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 11,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 4.2,
+   "coordinates": {
+    "latitude": 41.9643087210033,
+    "longitude": -87.6425743103027
+   },
+   "transactions": [],
+   "location": {
+    "address1": "660 W Montrose Dr",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60613",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "660 W Montrose Dr",
+     "Chicago, IL 60613"
+    ]
+   },
+   "phone": "",
+   "display_phone": "",
+   "distance": 7181.266002459609,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "eR3vtlit0USDWGOtNz994w",
+   "alias": "chicago-park-district-jefferson-memorial-park-chicago",
+   "name": "Chicago Park District - Jefferson Memorial Park",
+   "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/JdSFHtSluq5uFOSDf4ltXg/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/chicago-park-district-jefferson-memorial-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 17,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    },
+    {
+     "alias": "amateursportsteams",
+     "title": "Amateur Sports Teams"
+    }
+   ],
+   "rating": 4.1,
+   "coordinates": {
+    "latitude": 41.96850553544424,
+    "longitude": -87.7636825189759
+   },
+   "transactions": [],
+   "location": {
+    "address1": "4822 N Long Ave",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60630",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "4822 N Long Ave",
+     "Chicago, IL 60630"
+    ]
+   },
+   "phone": "+17736853316",
+   "display_phone": "(773) 685-3316",
+   "distance": 9999.69077609739,
+   "business_hours": [
+    {
+     "open": [
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 0
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 1
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 2
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 3
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 4
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 5
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 6
+      }
+     ],
+     "hours_type": "REGULAR",
+     "is_open_now": true
+    }
+   ],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "3p3MUeOp2NPReyKkY0noLg",
+   "alias": "pulaski-park-fieldhouse-chicago",
+   "name": "Pulaski Park Fieldhouse",
+   "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/kyKiagxB9xr7uro7Dmwt_w/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/pulaski-park-fieldhouse-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 11,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    },
+    {
+     "alias": "landmarks",
+     "title": "Landmarks & Historical Buildings"
+    }
+   ],
+   "rating": 4.4,
+   "coordinates": {
+    "latitude": 41.9069151,
+    "longitude": -87.6636025
+   },
+   "transactions": [],
+   "location": {
+    "address1": "1419 W Blackhawk St",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60622",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "1419 W Blackhawk St",
+     "Chicago, IL 60622"
+    ]
+   },
+   "phone": "+13127427559",
+   "display_phone": "(312) 742-7559",
+   "distance": 1205.2886993969994,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "4CJyjbIR20mJr0yGAxw18g",
+   "alias": "hamlin-park-chicago",
+   "name": "Hamlin Park",
+   "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/Burl9xAlXuYn9BmnEQB9hA/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/hamlin-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 39,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    },
+    {
+     "alias": "swimmingpools",
+     "title": "Swimming Pools"
+    },
+    {
+     "alias": "tennis",
+     "title": "Tennis"
+    }
+   ],
+   "rating": 3.8,
+   "coordinates": {
+    "latitude": 41.9365766644478,
+    "longitude": -87.680624127388
+   },
+   "transactions": [],
+   "location": {
+    "address1": "3035 N Hoyne Ave",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60618",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "3035 N Hoyne Ave",
+     "Chicago, IL 60618"
+    ]
+   },
+   "phone": "+13127427785",
+   "display_phone": "(312) 742-7785",
+   "distance": 3546.333913161689,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "tXdtNiL4U2GVKBk9owRzIQ",
+   "alias": "caldwell-woods-chicago",
+   "name": "Caldwell Woods",
+   "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/XBloHP5mmx8DZR74vWqr6Q/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/caldwell-woods-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 26,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    },
+    {
+     "alias": "swimmingpools",
+     "title": "Swimming Pools"
+    }
+   ],
+   "rating": 4.6,
+   "coordinates": {
+    "latitude": 41.9991288621352,
+    "longitude": -87.7873524043102
+   },
+   "transactions": [],
+   "location": {
+    "address1": "6200 W Devon Ave",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60645",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "6200 W Devon Ave",
+     "Chicago, IL 60645"
+    ]
+   },
+   "phone": "+18008703666",
+   "display_phone": "(800) 870-3666",
+   "distance": 13824.367929129987,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "ScosAtHyPy1-ipV1neF70g",
+   "alias": "chase-park-chicago",
+   "name": "Chase Park",
+   "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/ytcg9j6MMOpNzUUWlIwvUQ/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/chase-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 29,
+   "categories": [
+    {
+     "alias": "swimmingpools",
+     "title": "Swimming Pools"
+    },
+    {
+     "alias": "parks",
+     "title": "Parks"
+    },
+    {
+     "alias": "tennis",
+     "title": "Tennis"
+    }
+   ],
+   "rating": 3.8,
+   "coordinates": {
+    "latitude": 41.96718,
+    "longitude": -87.6692651
+   },
+   "transactions": [],
+   "location": {
+    "address1": "4701 N Ashland",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60640",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "4701 N Ashland",
+     "Chicago, IL 60640"
+    ]
+   },
+   "phone": "+13127427518",
+   "display_phone": "(312) 742-7518",
+   "distance": 6984.598502291299,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "rH-tirBuSKhT7uTtSDLE9A",
+   "alias": "gold-star-families-memorial-and-park-chicago",
+   "name": "Gold Star Families Memorial and Park",
+   "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/9EJ4wJTa296Kt8ye9fSkSQ/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/gold-star-families-memorial-and-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 7,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    },
+    {
+     "alias": "landmarks",
+     "title": "Landmarks & Historical Buildings"
+    }
+   ],
+   "rating": 4.9,
+   "coordinates": {
+    "latitude": 41.86243789218674,
+    "longitude": -87.61405085003545
+   },
+   "transactions": [],
+   "location": {
+    "address1": "1410 Special Olympics Dr",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60605",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "1410 Special Olympics Dr",
+     "Chicago, IL 60605"
+    ]
+   },
+   "phone": "+13124998899",
+   "display_phone": "(312) 499-8899",
+   "distance": 7104.256763116012,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "LQnIApRRnRCXZ_EBmevFSg",
+   "alias": "dog-beach-at-belmont-harbor-chicago",
+   "name": "Dog Beach at Belmont Harbor",
+   "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/u-KBGhytpLlN0cybGW_6aQ/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/dog-beach-at-belmont-harbor-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 43,
+   "categories": [
+    {
+     "alias": "dog_parks",
+     "title": "Dog Parks"
+    }
+   ],
+   "rating": 3.8,
+   "coordinates": {
+    "latitude": 41.9452272071354,
+    "longitude": -87.6403362555475
+   },
+   "transactions": [],
+   "location": {
+    "address1": "3500 N Lake Shore Dr",
+    "address2": null,
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60686",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "3500 N Lake Shore Dr",
+     "Chicago, IL 60686"
+    ]
+   },
+   "phone": "",
+   "display_phone": "",
+   "distance": 5415.183906568212,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "69qCbS72aQm6fcR7YxB9UQ",
+   "alias": "horner-park-chicago",
+   "name": "Horner Park",
+   "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/YNCsrvf7KcUk5o-8fZ5kSQ/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/horner-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 52,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 3.9,
+   "coordinates": {
+    "latitude": 41.960563445128805,
+    "longitude": -87.69771231446835
+   },
+   "transactions": [],
+   "location": {
+    "address1": "2741 W Montrose Ave",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60618",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "2741 W Montrose Ave",
+     "Chicago, IL 60618"
+    ]
+   },
+   "phone": "+17734783499",
+   "display_phone": "(773) 478-3499",
+   "distance": 6367.502267302654,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "RVxLhoZRsou0WuoDd8ayiw",
+   "alias": "burnham-skate-park-chicago",
+   "name": "Burnham Skate Park",
+   "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/AAjP5exyplq5vlUnMLhsNw/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/burnham-skate-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 6,
+   "categories": [
+    {
+     "alias": "skate_parks",
+     "title": "Skate Parks"
+    }
+   ],
+   "rating": 4.5,
+   "coordinates": {
+    "latitude": 41.856007266733506,
+    "longitude": -87.61585614897473
+   },
+   "transactions": [],
+   "location": {
+    "address1": "3400 S Lake Shore Dr",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60616",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "3400 S Lake Shore Dr",
+     "Chicago, IL 60616"
+    ]
+   },
+   "phone": "+13127472200",
+   "display_phone": "(312) 747-2200",
+   "distance": 7499.36827881697,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "wtG6ucfsaZhnZ-6Lotlzfw",
+   "alias": "chicago-park-district-norwood-park-chicago-2",
+   "name": "Chicago Park District - Norwood Park",
+   "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/sDUFgh8S1f2FhFCit6pcog/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/chicago-park-district-norwood-park-chicago-2?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 12,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 4.3,
+   "coordinates": {
+    "latitude": 41.9866293,
+    "longitude": -87.7939919
+   },
+   "transactions": [],
+   "location": {
+    "address1": "5801 N Natoma Ave",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60630",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "5801 N Natoma Ave",
+     "Chicago, IL 60630"
+    ]
+   },
+   "phone": "+17736314893",
+   "display_phone": "(773) 631-4893",
+   "distance": 13163.151922533303,
+   "business_hours": [
+    {
+     "open": [
+      {
+       "is_overnight": false,
+       "start": "0700",
+       "end": "2130",
+       "day": 0
+      },
+      {
+       "is_overnight": false,
+       "start": "0700",
+       "end": "2130",
+       "day": 1
+      },
+      {
+       "is_overnight": false,
+       "start": "0700",
+       "end": "2130",
+       "day": 2
+      },
+      {
+       "is_overnight": false,
+       "start": "0700",
+       "end": "2130",
+       "day": 3
+      },
+      {
+       "is_overnight": false,
+       "start": "0700",
+       "end": "2100",
+       "day": 4
+      },
+      {
+       "is_overnight": false,
+       "start": "0900",
+       "end": "1700",
+       "day": 5
+      }
+     ],
+     "hours_type": "REGULAR",
+     "is_open_now": true
+    }
+   ],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "Eh-I6CnaN2HxDxQAZbdsig",
+   "alias": "hamlin-dog-park-chicago",
+   "name": "Hamlin Dog Park",
+   "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/oC70zrbdxbKh4fYOURZL6g/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/hamlin-dog-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 38,
+   "categories": [
+    {
+     "alias": "dog_parks",
+     "title": "Dog Parks"
+    }
+   ],
+   "rating": 3.4,
+   "coordinates": {
+    "latitude": 41.9365766644478,
+    "longitude": -87.680624127388
+   },
+   "transactions": [],
+   "location": {
+    "address1": "3035 N Hoyne Ave",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60618",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "3035 N Hoyne Ave",
+     "Chicago, IL 60618"
+    ]
+   },
+   "phone": "",
+   "display_phone": "",
+   "distance": 3546.333913161689,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "Mw3O-aOTcEfyLwAbKGJiyg",
+   "alias": "margate-park-chicago",
+   "name": "Margate Park",
+   "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/7YBrhzwQndcAyaPY6wWuFw/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/margate-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 19,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    },
+    {
+     "alias": "playgrounds",
+     "title": "Playgrounds"
+    }
+   ],
+   "rating": 3.5,
+   "coordinates": {
+    "latitude": 41.97209895881035,
+    "longitude": -87.64977439158547
+   },
+   "transactions": [],
+   "location": {
+    "address1": "4921 N Marine Dr",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60640",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "4921 N Marine Dr",
+     "Chicago, IL 60640"
+    ]
+   },
+   "phone": "+13127427522",
+   "display_phone": "(312) 742-7522",
+   "distance": 7783.664298328042,
+   "business_hours": [
+    {
+     "open": [
+      {
+       "is_overnight": false,
+       "start": "0900",
+       "end": "2200",
+       "day": 0
+      },
+      {
+       "is_overnight": false,
+       "start": "0900",
+       "end": "2200",
+       "day": 1
+      },
+      {
+       "is_overnight": false,
+       "start": "0900",
+       "end": "2200",
+       "day": 2
+      },
+      {
+       "is_overnight": false,
+       "start": "0900",
+       "end": "2200",
+       "day": 3
+      },
+      {
+       "is_overnight": false,
+       "start": "0900",
+       "end": "2200",
+       "day": 4
+      },
+      {
+       "is_overnight": false,
+       "start": "0900",
+       "end": "1700",
+       "day": 5
+      },
+      {
+       "is_overnight": false,
+       "start": "1000",
+       "end": "1600",
+       "day": 6
+      }
+     ],
+     "hours_type": "REGULAR",
+     "is_open_now": true
+    }
+   ],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "WjqFgzdGL9epJLWRxp9jhQ",
+   "alias": "warren-park-chicago",
+   "name": "Warren Park",
+   "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/zqwH5Y0Jv0U4aoCB-dm-yg/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/warren-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 29,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 4.2,
+   "coordinates": {
+    "latitude": 42.00149,
+    "longitude": -87.6898351
+   },
+   "transactions": [],
+   "location": {
+    "address1": "6601 N Western Ave",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60645",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "6601 N Western Ave",
+     "Chicago, IL 60645"
+    ]
+   },
+   "phone": "+17732626314",
+   "display_phone": "(773) 262-6314",
+   "distance": 10816.996472276656,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "SJdS05g9lzRttXBP8LbfBQ",
+   "alias": "weisman-park-chicago",
+   "name": "Weisman Park",
+   "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/5i8cGfe1pNCDrGGQE8_52A/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/weisman-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 4,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 4.8,
+   "coordinates": {
+    "latitude": 41.935350894928,
+    "longitude": -87.6517125964165
+   },
+   "transactions": [],
+   "location": {
+    "address1": "901 W Oakdale Ave",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60657",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "901 W Oakdale Ave",
+     "Chicago, IL 60657"
+    ]
+   },
+   "phone": "+13127427826",
+   "display_phone": "(312) 742-7826",
+   "distance": 3989.6975120432057,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "gJ3IOIJb8Ui8M0Da4E256Q",
+   "alias": "jonquil-park-chicago",
+   "name": "Jonquil Park",
+   "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/xgZboqZTaXEyUXJWwrivPQ/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/jonquil-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 13,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 4.0,
+   "coordinates": {
+    "latitude": 41.928615,
+    "longitude": -87.654724
+   },
+   "transactions": [],
+   "location": {
+    "address1": "1023 W Wrightwood Ave",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60614",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "1023 W Wrightwood Ave",
+     "Chicago, IL 60614"
+    ]
+   },
+   "phone": "",
+   "display_phone": "",
+   "distance": 3220.210537328912,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "s9EL9GYaJmHT2aBmPXqPSw",
+   "alias": "ridgeland-common-recreation-complex-oak-park",
+   "name": "Ridgeland Common Recreation Complex",
+   "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/X71A6bHCEmJDKUk7oInrGQ/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/ridgeland-common-recreation-complex-oak-park?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 21,
+   "categories": [
+    {
+     "alias": "swimmingpools",
+     "title": "Swimming Pools"
+    },
+    {
+     "alias": "skatingrinks",
+     "title": "Skating Rinks"
+    },
+    {
+     "alias": "dog_parks",
+     "title": "Dog Parks"
+    }
+   ],
+   "rating": 4.1,
+   "coordinates": {
+    "latitude": 41.8879934474814,
+    "longitude": -87.7872848510742
+   },
+   "transactions": [],
+   "location": {
+    "address1": "415 Lake St",
+    "address2": "",
+    "address3": "",
+    "city": "Oak Park",
+    "zip_code": "60302",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "415 Lake St",
+     "Oak Park, IL 60302"
+    ]
+   },
+   "phone": "+17087252300",
+   "display_phone": "(708) 725-2300",
+   "distance": 9268.052395325121,
+   "business_hours": [
+    {
+     "open": [
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 0
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 1
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 2
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 3
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 4
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2145",
+       "day": 5
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 6
+      }
+     ],
+     "hours_type": "REGULAR",
+     "is_open_now": true
+    }
+   ],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "5y8Zr-1iVF01rntxe4ErFg",
+   "alias": "polk-bros-park-chicago",
+   "name": "Polk Bros Park",
+   "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/Tl_xabhbSSmkHVkmzicAng/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/polk-bros-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 6,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 4.5,
+   "coordinates": {
+    "latitude": 41.8916138,
+    "longitude": -87.6078987
+   },
+   "transactions": [],
+   "location": {
+    "address1": "600 E Grand Ave",
+    "address2": "",
+    "address3": null,
+    "city": "Chicago",
+    "zip_code": "60611",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "600 E Grand Ave",
+     "Chicago, IL 60611"
+    ]
+   },
+   "phone": "",
+   "display_phone": "",
+   "distance": 5976.134202042416,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "uDGfBwSRNO6M8CBt9_CiqQ",
+   "alias": "walsh-park-dog-area-chicago",
+   "name": "Walsh Park Dog Area",
+   "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/Giydm1adlcrsVUvJ-xlOuw/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/walsh-park-dog-area-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 13,
+   "categories": [
+    {
+     "alias": "dog_parks",
+     "title": "Dog Parks"
+    }
+   ],
+   "rating": 3.7,
+   "coordinates": {
+    "latitude": 41.9132677,
+    "longitude": -87.6678549
+   },
+   "transactions": [],
+   "location": {
+    "address1": "1722 N Ashland Ave",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60614",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "1722 N Ashland Ave",
+     "Chicago, IL 60614"
+    ]
+   },
+   "phone": "+17733840393",
+   "display_phone": "(773) 384-0393",
+   "distance": 1229.4998316023868,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "AtG5DYarybJW-HKOhTkQHg",
+   "alias": "west-loop-dog-park-chicago",
+   "name": "West Loop Dog Park",
+   "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/tSRdpH8xLoXLGmwea8DVCw/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/west-loop-dog-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 16,
+   "categories": [
+    {
+     "alias": "dog_parks",
+     "title": "Dog Parks"
+    }
+   ],
+   "rating": 3.5,
+   "coordinates": {
+    "latitude": 41.88045947683182,
+    "longitude": -87.64966279389604
+   },
+   "transactions": [],
+   "location": {
+    "address1": "100 S Peoria",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60607",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "100 S Peoria",
+     "Chicago, IL 60607"
+    ]
+   },
+   "phone": "",
+   "display_phone": "",
+   "distance": 3606.3108274076167,
+   "business_hours": [
+    {
+     "open": [
+      {
+       "is_overnight": false,
+       "start": "0900",
+       "end": "2200",
+       "day": 0
+      },
+      {
+       "is_overnight": false,
+       "start": "0900",
+       "end": "2200",
+       "day": 1
+      },
+      {
+       "is_overnight": false,
+       "start": "0900",
+       "end": "2200",
+       "day": 2
+      },
+      {
+       "is_overnight": false,
+       "start": "0900",
+       "end": "2200",
+       "day": 3
+      },
+      {
+       "is_overnight": false,
+       "start": "0900",
+       "end": "2200",
+       "day": 4
+      },
+      {
+       "is_overnight": false,
+       "start": "0900",
+       "end": "2200",
+       "day": 5
+      },
+      {
+       "is_overnight": false,
+       "start": "0900",
+       "end": "2200",
+       "day": 6
+      }
+     ],
+     "hours_type": "REGULAR",
+     "is_open_now": true
+    }
+   ],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "yGOcGYE2Svm_iP20Q_hr_A",
+   "alias": "julia-de-burgos-park-chicago",
+   "name": "Julia de Burgos Park",
+   "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/8KM4nPqj_J0ii70l5TfpRQ/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/julia-de-burgos-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 4,
+   "categories": [
+    {
+     "alias": "playgrounds",
+     "title": "Playgrounds"
+    },
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 4.8,
+   "coordinates": {
+    "latitude": 41.913918,
+    "longitude": -87.704811
+   },
+   "transactions": [],
+   "location": {
+    "address1": "1805 N Albany Ave",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60647",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "1805 N Albany Ave",
+     "Chicago, IL 60647"
+    ]
+   },
+   "phone": "",
+   "display_phone": "",
+   "distance": 2438.094947469322,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "X-9BORAFJ618iPuqDHF1Nw",
+   "alias": "proksa-park-berwyn",
+   "name": "Proksa Park",
+   "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/A2il5rKGjm2Re_PVjSJuWw/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/proksa-park-berwyn?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 11,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 4.6,
+   "coordinates": {
+    "latitude": 41.837525,
+    "longitude": -87.8002982
+   },
+   "transactions": [],
+   "location": {
+    "address1": "3001 S Wisconsin Ave",
+    "address2": "",
+    "address3": "",
+    "city": "Berwyn",
+    "zip_code": "60402",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "3001 S Wisconsin Ave",
+     "Berwyn, IL 60402"
+    ]
+   },
+   "phone": "+17087952892",
+   "display_phone": "(708) 795-2892",
+   "distance": 12632.301800634035,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "lLRgS3C9kZ5EfTrTMAeAXQ",
+   "alias": "seward-park-chicago-park-district-chicago",
+   "name": "Seward Park - Chicago Park District",
+   "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/j4m_81y2WD1uAAmJkHP_ZQ/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/seward-park-chicago-park-district-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 7,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 3.7,
+   "coordinates": {
+    "latitude": 41.90342097771012,
+    "longitude": -87.63834708650535
+   },
+   "transactions": [],
+   "location": {
+    "address1": "375 W Elm St",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60610",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "375 W Elm St",
+     "Chicago, IL 60610"
+    ]
+   },
+   "phone": "+13127427895",
+   "display_phone": "(312) 742-7895",
+   "distance": 3266.3000825831655,
+   "business_hours": [
+    {
+     "open": [
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 0
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 1
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 2
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 3
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 4
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 5
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 6
+      }
+     ],
+     "hours_type": "REGULAR",
+     "is_open_now": true
+    }
+   ],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "J6xhEfUKgVb8Yb57v49irQ",
+   "alias": "jane-addams-memorial-park-chicago-2",
+   "name": "Jane Addams Memorial Park",
+   "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/E6qkzgRnyxBGpYF8NP5S8g/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/jane-addams-memorial-park-chicago-2?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 5,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 3.8,
+   "coordinates": {
+    "latitude": 41.89238090704662,
+    "longitude": -87.61277507382702
+   },
+   "transactions": [],
+   "location": {
+    "address1": "550 E Grand Ave",
+    "address2": "",
+    "address3": null,
+    "city": "Chicago",
+    "zip_code": "60611",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "550 E Grand Ave",
+     "Chicago, IL 60611"
+    ]
+   },
+   "phone": "+13127427891",
+   "display_phone": "(312) 742-7891",
+   "distance": 5564.111699162602,
+   "business_hours": [
+    {
+     "open": [
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 0
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 1
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 2
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 3
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 4
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 5
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 6
+      }
+     ],
+     "hours_type": "REGULAR",
+     "is_open_now": true
+    }
+   ],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "oV10XY0_mslPKdFU0z9rTQ",
+   "alias": "dvorak-park-chicago",
+   "name": "Dvorak Park",
+   "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/0TXK4bMdbFUuLCI9y7VyWQ/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/dvorak-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 9,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 4.0,
+   "coordinates": {
+    "latitude": 41.85432992026175,
+    "longitude": -87.6539074
+   },
+   "transactions": [],
+   "location": {
+    "address1": "1119 W Cullerton St",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60608",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "1119 W Cullerton St",
+     "Chicago, IL 60608"
+    ]
+   },
+   "phone": "+13127465083",
+   "display_phone": "(312) 746-5083",
+   "distance": 5997.044544644157,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "ZbTe6mbXhitMJEPWbFy9mg",
+   "alias": "walsh-park-chicago",
+   "name": "Walsh Park",
+   "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/CndTfbN5rWWikePnAL2yEA/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/walsh-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 8,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    },
+    {
+     "alias": "playgrounds",
+     "title": "Playgrounds"
+    }
+   ],
+   "rating": 4.0,
+   "coordinates": {
+    "latitude": 41.9132677,
+    "longitude": -87.6678549
+   },
+   "transactions": [],
+   "location": {
+    "address1": "1722 N Ashland Ave",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60622",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "1722 N Ashland Ave",
+     "Chicago, IL 60622"
+    ]
+   },
+   "phone": "",
+   "display_phone": "",
+   "distance": 1229.4998316023868,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "tDKwEBqLMXcCAgi7tsWX6A",
+   "alias": "ohio-place-dog-park-chicago",
+   "name": "Ohio Place Dog Park",
+   "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/DESNZiLk69CjICMdu_PaPw/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/ohio-place-dog-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 10,
+   "categories": [
+    {
+     "alias": "dog_parks",
+     "title": "Dog Parks"
+    }
+   ],
+   "rating": 4.0,
+   "coordinates": {
+    "latitude": 41.89257,
+    "longitude": -87.6381
+   },
+   "transactions": [],
+   "location": {
+    "address1": "350 W Ohio St",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60654",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "350 W Ohio St",
+     "Chicago, IL 60654"
+    ]
+   },
+   "phone": "",
+   "display_phone": "",
+   "distance": 3570.0690704389717,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "AoE2cES2arp5UNbteznMnw",
+   "alias": "wilson-skate-park-chicago",
+   "name": "Wilson Skate Park",
+   "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/cJPDnUq5MUG_OrmeL6aNZA/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/wilson-skate-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 13,
+   "categories": [
+    {
+     "alias": "skate_parks",
+     "title": "Skate Parks"
+    }
+   ],
+   "rating": 4.2,
+   "coordinates": {
+    "latitude": 41.965526,
+    "longitude": -87.64869
+   },
+   "transactions": [],
+   "location": {
+    "address1": "700 W Wilson Ave",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60640",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "700 W Wilson Ave",
+     "Chicago, IL 60640"
+    ]
+   },
+   "phone": "",
+   "display_phone": "",
+   "distance": 7118.937780748668,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "GEPWFLtuDXVtjbakGwKJKQ",
+   "alias": "thaddeus-s-ted-lechowicz-woods-chicago",
+   "name": "Thaddeus S. \u201cTed\u201d Lechowicz Woods",
+   "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/CSfXc8WbJFKHLJbVwGyuUA/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/thaddeus-s-ted-lechowicz-woods-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 5,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 5.0,
+   "coordinates": {
+    "latitude": 41.980803,
+    "longitude": -87.755027
+   },
+   "transactions": [],
+   "location": {
+    "address1": "5420 N Forest Glen Ave",
+    "address2": "",
+    "address3": null,
+    "city": "Chicago",
+    "zip_code": "60630",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "5420 N Forest Glen Ave",
+     "Chicago, IL 60630"
+    ]
+   },
+   "phone": "",
+   "display_phone": "",
+   "distance": 10702.141418947882,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "pGkd3MzRM_Es2THuniJm5g",
+   "alias": "lucy-ella-gonzales-parsons-park-chicago",
+   "name": "Lucy Ella Gonzales Parsons Park",
+   "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/YZnaniRDMTV9RYhwlQFn6A/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/lucy-ella-gonzales-parsons-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 1,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    },
+    {
+     "alias": "waterparks",
+     "title": "Water Parks"
+    }
+   ],
+   "rating": 5.0,
+   "coordinates": {
+    "latitude": 41.93912,
+    "longitude": -87.74445
+   },
+   "transactions": [],
+   "location": {
+    "address1": "4712 W Belmont Ave",
+    "address2": "",
+    "address3": null,
+    "city": "Chicago",
+    "zip_code": "60641",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "4712 W Belmont Ave",
+     "Chicago, IL 60641"
+    ]
+   },
+   "phone": "+17736853351",
+   "display_phone": "(773) 685-3351",
+   "distance": 6683.921753366059,
+   "business_hours": [
+    {
+     "open": [
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 0
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 1
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 2
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 3
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 4
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 5
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 6
+      }
+     ],
+     "hours_type": "REGULAR",
+     "is_open_now": true
+    }
+   ],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "rESi1jczN5lcmNG0xxzUww",
+   "alias": "dunham-park-chicago",
+   "name": "Dunham Park",
+   "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/vG9l7bmGp8bSpbz8IDu44A/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/dunham-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 13,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 4.1,
+   "coordinates": {
+    "latitude": 41.965821804457065,
+    "longitude": -87.78441194326363
+   },
+   "transactions": [],
+   "location": {
+    "address1": "4638 N Melvina Ave",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60630",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "4638 N Melvina Ave",
+     "Chicago, IL 60630"
+    ]
+   },
+   "phone": "+17736853257",
+   "display_phone": "(773) 685-3257",
+   "distance": 11099.899756302633,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "oWFsHkDs5MYV6mDdTA6Fcw",
+   "alias": "chicago-park-district-fosco-peter-park-chicago",
+   "name": "Chicago Park District - Fosco Peter Park",
+   "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/zR0_8UuKTBpRh3Ts4jbtuw/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/chicago-park-district-fosco-peter-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 7,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    },
+    {
+     "alias": "playgrounds",
+     "title": "Playgrounds"
+    },
+    {
+     "alias": "recreation",
+     "title": "Recreation Centers"
+    }
+   ],
+   "rating": 3.4,
+   "coordinates": {
+    "latitude": 41.864906,
+    "longitude": -87.657729
+   },
+   "transactions": [],
+   "location": {
+    "address1": "1312 S Racine Ave",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60608",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "1312 S Racine Ave",
+     "Chicago, IL 60608"
+    ]
+   },
+   "phone": "+13127465086",
+   "display_phone": "(312) 746-5086",
+   "distance": 4783.177793904052,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "W5SJfXwo7F5VL96_0DaQAg",
+   "alias": "chicago-park-district-riis-park-chicago",
+   "name": "Chicago Park District - Riis Park",
+   "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/rbuDMuVFDOf6CS2-tP7aQw/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/chicago-park-district-riis-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 14,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    },
+    {
+     "alias": "playgrounds",
+     "title": "Playgrounds"
+    },
+    {
+     "alias": "recreation",
+     "title": "Recreation Centers"
+    }
+   ],
+   "rating": 3.2,
+   "coordinates": {
+    "latitude": 41.9255860581904,
+    "longitude": -87.78139469921436
+   },
+   "transactions": [],
+   "location": {
+    "address1": "6100 W Fullerton Ave",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60639",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "6100 W Fullerton Ave",
+     "Chicago, IL 60639"
+    ]
+   },
+   "phone": "+13127465363",
+   "display_phone": "(312) 746-5363",
+   "distance": 8869.725041617496,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "9Bn_DScYsCYZandq8DZK_w",
+   "alias": "challenger-park-chicago",
+   "name": "Challenger Park",
+   "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/hnAU-O06CRY7p7YEtQzPdQ/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/challenger-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 19,
+   "categories": [
+    {
+     "alias": "dog_parks",
+     "title": "Dog Parks"
+    }
+   ],
+   "rating": 3.1,
+   "coordinates": {
+    "latitude": 41.9587026655504,
+    "longitude": -87.6571093171476
+   },
+   "transactions": [],
+   "location": {
+    "address1": "1100 W Irving Park Rd",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60613",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "1100 W Irving Park Rd",
+     "Chicago, IL 60613"
+    ]
+   },
+   "phone": "+13127427802",
+   "display_phone": "(312) 742-7802",
+   "distance": 6182.62952293891,
+   "business_hours": [
+    {
+     "open": [
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 0
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 1
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 2
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 3
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 4
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 5
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 6
+      }
+     ],
+     "hours_type": "REGULAR",
+     "is_open_now": true
+    }
+   ],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "5F319ooIa18pbqw1zpHXag",
+   "alias": "clemente-park-chicago",
+   "name": "Clemente Park",
+   "image_url": "",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/clemente-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 1,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 4.0,
+   "coordinates": {
+    "latitude": 41.903322,
+    "longitude": -87.6859255
+   },
+   "transactions": [],
+   "location": {
+    "address1": "2334 W Division St",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60607",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "2334 W Division St",
+     "Chicago, IL 60607"
+    ]
+   },
+   "phone": "+13127427538",
+   "display_phone": "(312) 742-7538",
+   "distance": 711.066982461057,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "6-YH9vfIWXAXrynit7AmlQ",
+   "alias": "connors-park-chicago",
+   "name": "Connors Park",
+   "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/sw3hOpqSSA2CTZzX_qT21w/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/connors-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 5,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 4.2,
+   "coordinates": {
+    "latitude": 41.8986533,
+    "longitude": -87.6267351
+   },
+   "transactions": [],
+   "location": {
+    "address1": "871 N Wabash Ave",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60611",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "871 N Wabash Ave",
+     "Chicago, IL 60611"
+    ]
+   },
+   "phone": "+13127427891",
+   "display_phone": "(312) 742-7891",
+   "distance": 4287.090992995792,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "otBvPn-ZaUlgYCk5U7m_qg",
+   "alias": "buttercup-playlot-park-chicago",
+   "name": "Buttercup Playlot Park",
+   "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/ENv52XcgQKb8eYfUbMZ87w/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/buttercup-playlot-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 5,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    },
+    {
+     "alias": "playgrounds",
+     "title": "Playgrounds"
+    }
+   ],
+   "rating": 3.8,
+   "coordinates": {
+    "latitude": 41.9716962377052,
+    "longitude": -87.6548245420371
+   },
+   "transactions": [],
+   "location": {
+    "address1": "4901 N Sheridan Rd",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60640",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "4901 N Sheridan Rd",
+     "Chicago, IL 60640"
+    ]
+   },
+   "phone": "",
+   "display_phone": "",
+   "distance": 7681.074427175778,
+   "business_hours": [
+    {
+     "open": [
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2130",
+       "day": 0
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2130",
+       "day": 1
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2130",
+       "day": 2
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2130",
+       "day": 3
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2130",
+       "day": 4
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2130",
+       "day": 5
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2130",
+       "day": 6
+      }
+     ],
+     "hours_type": "REGULAR",
+     "is_open_now": true
+    }
+   ],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "B5pD8_t_tIP79vFaynY5hw",
+   "alias": "unity-playlot-park-chicago",
+   "name": "Unity Playlot Park",
+   "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/ELAbLwTlBPA271k4IYe4hQ/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/unity-playlot-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 5,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 4.2,
+   "coordinates": {
+    "latitude": 41.9299281784101,
+    "longitude": -87.7124673128128
+   },
+   "transactions": [],
+   "location": {
+    "address1": "2636 N Kimball Ave",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60647",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "2636 N Kimball Ave",
+     "Chicago, IL 60647"
+    ]
+   },
+   "phone": "+13127427546",
+   "display_phone": "(312) 742-7546",
+   "distance": 3972.508145044481,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "2TogV9LRsSQy-4R6UVIZdw",
+   "alias": "lane-beach-park-chicago",
+   "name": "Lane Beach Park",
+   "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/m8PqVtTYC7yQzkatcYOsxw/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/lane-beach-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 2,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    },
+    {
+     "alias": "beaches",
+     "title": "Beaches"
+    }
+   ],
+   "rating": 5.0,
+   "coordinates": {
+    "latitude": 41.9898100846344,
+    "longitude": -87.6551176607609
+   },
+   "transactions": [],
+   "location": {
+    "address1": "5915 N Sheridan Rd",
+    "address2": "",
+    "address3": "Chicago Park District",
+    "city": "Chicago",
+    "zip_code": "60660",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "5915 N Sheridan Rd",
+     "Chicago Park District",
+     "Chicago, IL 60660"
+    ]
+   },
+   "phone": "+17733632225",
+   "display_phone": "(773) 363-2225",
+   "distance": 9585.772820780207,
+   "business_hours": [
+    {
+     "open": [
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 0
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 1
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 2
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 3
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 4
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 5
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 6
+      }
+     ],
+     "hours_type": "REGULAR",
+     "is_open_now": true
+    }
+   ],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "H_aZHjsXT4bn_SXETTICHA",
+   "alias": "addams-medill-park-chicago",
+   "name": "Addams/Medill Park",
+   "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/HjlWWNATce4j-QRZn10hiw/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/addams-medill-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 1,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 5.0,
+   "coordinates": {
+    "latitude": 41.8626823308788,
+    "longitude": -87.6631005853415
+   },
+   "transactions": [],
+   "location": {
+    "address1": "1301 W 14th St",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60608",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "1301 W 14th St",
+     "Chicago, IL 60608"
+    ]
+   },
+   "phone": "+13127465086",
+   "display_phone": "(312) 746-5086",
+   "distance": 4887.08898831308,
+   "business_hours": [
+    {
+     "open": [
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 0
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 1
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 2
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 3
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 4
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 5
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 6
+      }
+     ],
+     "hours_type": "REGULAR",
+     "is_open_now": true
+    }
+   ],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "DRxV2lATk5lVMh-104WRuA",
+   "alias": "ken-well-park-chicago-2",
+   "name": "Ken-Well Park",
+   "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/sx-tPwIxsdSVuKQRJ5fWDg/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/ken-well-park-chicago-2?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 2,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 5.0,
+   "coordinates": {
+    "latitude": 41.934677,
+    "longitude": -87.733459
+   },
+   "transactions": [],
+   "location": {
+    "address1": "2945 N Kenosha Ave",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60641",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "2945 N Kenosha Ave",
+     "Chicago, IL 60641"
+    ]
+   },
+   "phone": "+17736853348",
+   "display_phone": "(773) 685-3348",
+   "distance": 5653.005776774962,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "oHOc6E-nyUqJ5skPbQYPkw",
+   "alias": "dean-playground-park-chicago",
+   "name": "Dean Playground Park",
+   "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/6M72c9XIn6nJcOui5PzZzw/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/dean-playground-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 1,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    },
+    {
+     "alias": "playgrounds",
+     "title": "Playgrounds"
+    }
+   ],
+   "rating": 4.0,
+   "coordinates": {
+    "latitude": 41.9069,
+    "longitude": -87.67085
+   },
+   "transactions": [],
+   "location": {
+    "address1": "1344 N Dean St",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60622",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "1344 N Dean St",
+     "Chicago, IL 60622"
+    ]
+   },
+   "phone": "+13127427559",
+   "display_phone": "(312) 742-7559",
+   "distance": 599.7303816140602,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "sVijBfAOimOAHxTXen7s7w",
+   "alias": "gross-park-chicago",
+   "name": "Gross Park",
+   "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/QUIyQigzAAmUYzeFRnUHow/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/gross-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 5,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 3.6,
+   "coordinates": {
+    "latitude": 41.9686749,
+    "longitude": -87.6966985
+   },
+   "transactions": [],
+   "location": {
+    "address1": "2708 W Lawrence Ave",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60625",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "2708 W Lawrence Ave",
+     "Chicago, IL 60625"
+    ]
+   },
+   "phone": "+13127427528",
+   "display_phone": "(312) 742-7528",
+   "distance": 7225.5093706099315,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "28uiahJRu74DiPY4dSYypw",
+   "alias": "cancer-survivors-garden-chicago",
+   "name": "Cancer Survivors Garden",
+   "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/kZSEzAIiUO3A9KdiQ6N1-Q/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/cancer-survivors-garden-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 10,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 3.7,
+   "coordinates": {
+    "latitude": 41.8836623407769,
+    "longitude": -87.6175089577026
+   },
+   "transactions": [],
+   "location": {
+    "address1": "Randolph St & Harbor Dr",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60601",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "Randolph St & Harbor Dr",
+     "Chicago, IL 60601"
+    ]
+   },
+   "phone": "+13127427529",
+   "display_phone": "(312) 742-7529",
+   "distance": 5533.515136334132,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "yvXGMtB-Us-RSidPy9ga6g",
+   "alias": "chopin-park-chicago",
+   "name": "Chopin Park",
+   "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/sKDGTV-dntEN1YishH5HbA/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/chopin-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 5,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 3.6,
+   "coordinates": {
+    "latitude": 41.943246,
+    "longitude": -87.762462
+   },
+   "transactions": [],
+   "location": {
+    "address1": "3420 N Long Ave",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60641",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "3420 N Long Ave",
+     "Chicago, IL 60641"
+    ]
+   },
+   "phone": "+17736853247",
+   "display_phone": "(773) 685-3247",
+   "distance": 8183.6568711877235,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "_CejYrzC89Z2JQwPfbz1cA",
+   "alias": "mary-richardson-jones-park-chicago",
+   "name": "Mary Richardson Jones Park",
+   "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/a6-fbUtk3EKVJbxn-OmzSg/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/mary-richardson-jones-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 3,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 5.0,
+   "coordinates": {
+    "latitude": 41.8666011840105,
+    "longitude": -87.6285530626774
+   },
+   "transactions": [],
+   "location": {
+    "address1": "1240 S Plymouth Ct",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60605",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "1240 S Plymouth Ct",
+     "Chicago, IL 60605"
+    ]
+   },
+   "phone": "+13127427649",
+   "display_phone": "(312) 742-7649",
+   "distance": 5932.367757485477,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "lhVRMucc7UPkEFZ-blRw_A",
+   "alias": "stanton-park-chicago",
+   "name": "Stanton Park",
+   "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/VyfUMUVLiTQQ9Woe-sNMVg/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/stanton-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 1,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 5.0,
+   "coordinates": {
+    "latitude": 41.905972147932,
+    "longitude": -87.6442583333334
+   },
+   "transactions": [],
+   "location": {
+    "address1": "618 W Scott St",
+    "address2": "",
+    "address3": null,
+    "city": "Chicago",
+    "zip_code": "60610",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "618 W Scott St",
+     "Chicago, IL 60610"
+    ]
+   },
+   "phone": "+13127427896",
+   "display_phone": "(312) 742-7896",
+   "distance": 2771.759592029978,
+   "business_hours": [
+    {
+     "open": [
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "1100",
+       "day": 0
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "1100",
+       "day": 1
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "1100",
+       "day": 2
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "1100",
+       "day": 3
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "1100",
+       "day": 4
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "1100",
+       "day": 5
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "1100",
+       "day": 6
+      }
+     ],
+     "hours_type": "REGULAR",
+     "is_open_now": false
+    }
+   ],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "A1zf6W4Q7LazS5E_hQz0jw",
+   "alias": "artists-of-the-wall-festival-chicago",
+   "name": "Artists of the Wall Festival",
+   "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/Q-UTME2BiREhWeyMHUm7fQ/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/artists-of-the-wall-festival-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 2,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    },
+    {
+     "alias": "festivals",
+     "title": "Festivals"
+    }
+   ],
+   "rating": 5.0,
+   "coordinates": {
+    "latitude": 42.0068479709816,
+    "longitude": -87.6577287613464
+   },
+   "transactions": [],
+   "location": {
+    "address1": "6900 North Loyola Park",
+    "address2": "",
+    "address3": "Loyal Park and Pratt Avenue",
+    "city": "Chicago",
+    "zip_code": "60626",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "6900 North Loyola Park",
+     "Loyal Park and Pratt Avenue",
+     "Chicago, IL 60626"
+    ]
+   },
+   "phone": "+17732503378",
+   "display_phone": "(773) 250-3378",
+   "distance": 11416.514883719756,
+   "business_hours": [
+    {
+     "open": [
+      {
+       "is_overnight": false,
+       "start": "0900",
+       "end": "2000",
+       "day": 5
+      },
+      {
+       "is_overnight": false,
+       "start": "0900",
+       "end": "2000",
+       "day": 6
+      }
+     ],
+     "hours_type": "REGULAR",
+     "is_open_now": false
+    }
+   ],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "qtfZmTar9CjA28gKJkNSjw",
+   "alias": "paseo-prairie-garden-chicago",
+   "name": "Paseo Prairie Garden",
+   "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/8ImGTJtmlK0PwOWLOOcqiA/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/paseo-prairie-garden-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 4,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 4.5,
+   "coordinates": {
+    "latitude": 41.9286169,
+    "longitude": -87.7079271
+   },
+   "transactions": [],
+   "location": {
+    "address1": "2614 N Kedzie Ave",
+    "address2": "",
+    "address3": null,
+    "city": "Chicago",
+    "zip_code": "60647",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "2614 N Kedzie Ave",
+     "Chicago, IL 60647"
+    ]
+   },
+   "phone": "",
+   "display_phone": "",
+   "distance": 3626.502001703938,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "WHdsFzFL9jgUdckEdFxugg",
+   "alias": "jacob-park-chicago",
+   "name": "Jacob Park",
+   "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/Biif5HlClBNeDzDlZ2wGrQ/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/jacob-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 1,
+   "categories": [
+    {
+     "alias": "playgrounds",
+     "title": "Playgrounds"
+    },
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 5.0,
+   "coordinates": {
+    "latitude": 41.9666391200206,
+    "longitude": -87.6983099430799
+   },
+   "transactions": [],
+   "location": {
+    "address1": "4676 N Virginia Ave",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60625",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "4676 N Virginia Ave",
+     "Chicago, IL 60625"
+    ]
+   },
+   "phone": "+17734783499",
+   "display_phone": "(773) 478-3499",
+   "distance": 7033.909364710886,
+   "business_hours": [
+    {
+     "open": [
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 0
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 1
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 2
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 3
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 4
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 5
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 6
+      }
+     ],
+     "hours_type": "REGULAR",
+     "is_open_now": true
+    }
+   ],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "RThCysgvA-GA1Cu8y2sI-A",
+   "alias": "simons-park-chicago-park-district-chicago",
+   "name": "Simons Park - Chicago Park District",
+   "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/6x9B2QRe7XQ8aXEyY_7ppQ/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/simons-park-chicago-park-district-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 2,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 3.5,
+   "coordinates": {
+    "latitude": 41.9107598,
+    "longitude": -87.7151178
+   },
+   "transactions": [],
+   "location": {
+    "address1": "1640 N Drake Ave",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60647",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "1640 N Drake Ave",
+     "Chicago, IL 60647"
+    ]
+   },
+   "phone": "+13127427548",
+   "display_phone": "(312) 742-7548",
+   "distance": 3184.18548909522,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "5M1iID1Kxeu9ApDQkw3M7g",
+   "alias": "polonia-triangle-chicago",
+   "name": "Polonia Triangle",
+   "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/Y9_L59O_A6dsHTgX9OBuXQ/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/polonia-triangle-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 1,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 3.0,
+   "coordinates": {
+    "latitude": 41.9035648,
+    "longitude": -87.66790069999999
+   },
+   "transactions": [],
+   "location": {
+    "address1": "1200 N Milwaukee Ave",
+    "address2": "",
+    "address3": null,
+    "city": "Chicago",
+    "zip_code": "60622",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "1200 N Milwaukee Ave",
+     "Chicago, IL 60622"
+    ]
+   },
+   "phone": "",
+   "display_phone": "",
+   "distance": 835.644593791887,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "f0whl13GWUo1PO01AU_AuQ",
+   "alias": "hudson-chess-park-chicago",
+   "name": "Hudson Chess Park",
+   "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/p_47BkY86q0_efsP6XHd4w/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/hudson-chess-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 2,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 4.5,
+   "coordinates": {
+    "latitude": 41.91491763460279,
+    "longitude": -87.63965823683088
+   },
+   "transactions": [],
+   "location": {
+    "address1": "412 W Menomonee St",
+    "address2": "",
+    "address3": null,
+    "city": "Chicago",
+    "zip_code": "60614",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "412 W Menomonee St",
+     "Chicago, IL 60614"
+    ]
+   },
+   "phone": "",
+   "display_phone": "",
+   "distance": 3329.0347273066236,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "b_wbueXpLbZpyf_VrXqXYg",
+   "alias": "julia-porter-park-chicago",
+   "name": "Julia Porter Park",
+   "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/3H_r_M4WSZjzLZVf2ChGfQ/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/julia-porter-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 2,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 5.0,
+   "coordinates": {
+    "latitude": 41.9257733970881,
+    "longitude": -87.6493026316166
+   },
+   "transactions": [],
+   "location": {
+    "address1": "2400 North Lincoln Ave",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60614",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "2400 North Lincoln Ave",
+     "Chicago, IL 60614"
+    ]
+   },
+   "phone": "",
+   "display_phone": "",
+   "distance": 3266.0404156246714,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "e15iOZT9xfYKjVzTWAjd1A",
+   "alias": "cascade-park-chicago",
+   "name": "Cascade Park",
+   "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/IO4HL4Bx1smAjT_a6XVWqw/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/cascade-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 2,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 5.0,
+   "coordinates": {
+    "latitude": 41.886053568214315,
+    "longitude": -87.61553328484295
+   },
+   "transactions": [],
+   "location": {
+    "address1": "200 N Harbor Dr",
+    "address2": "",
+    "address3": null,
+    "city": "Chicago",
+    "zip_code": "60601",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "200 N Harbor Dr",
+     "Chicago, IL 60601"
+    ]
+   },
+   "phone": "",
+   "display_phone": "",
+   "distance": 5574.004602191255,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "v9715OiAK-Bg-EhRARi0JQ",
+   "alias": "park-571-chicago",
+   "name": "Park #571",
+   "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/KDM0IOeM-vqdz1hm8wXWUA/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/park-571-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 1,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 4.0,
+   "coordinates": {
+    "latitude": 41.8438965255301,
+    "longitude": -87.6626955292912
+   },
+   "transactions": [],
+   "location": {
+    "address1": "2754 South Eleanor St",
+    "address2": "",
+    "address3": null,
+    "city": "Chicago",
+    "zip_code": "60608",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "2754 South Eleanor St",
+     "Chicago, IL 60608"
+    ]
+   },
+   "phone": "+17738239135",
+   "display_phone": "(773) 823-9135",
+   "distance": 6936.101433319221,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "KKp76Y_U0g-R85ev-PFncw",
+   "alias": "cragin-park-chicago",
+   "name": "Cragin Park",
+   "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/A0C_UCsPa4mhM7TE5Au2jQ/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/cragin-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 1,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 4.0,
+   "coordinates": {
+    "latitude": 41.9280043244362,
+    "longitude": -87.7587012201548
+   },
+   "transactions": [],
+   "location": {
+    "address1": "2611 N Lockwood Ave",
+    "address2": "",
+    "address3": null,
+    "city": "Chicago",
+    "zip_code": "60639",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "2611 N Lockwood Ave",
+     "Chicago, IL 60639"
+    ]
+   },
+   "phone": "+13127465065",
+   "display_phone": "(312) 746-5065",
+   "distance": 7149.150808319807,
+   "business_hours": [
+    {
+     "open": [
+      {
+       "is_overnight": false,
+       "start": "0900",
+       "end": "1700",
+       "day": 0
+      },
+      {
+       "is_overnight": false,
+       "start": "0900",
+       "end": "1700",
+       "day": 1
+      },
+      {
+       "is_overnight": false,
+       "start": "0900",
+       "end": "1700",
+       "day": 2
+      },
+      {
+       "is_overnight": false,
+       "start": "0900",
+       "end": "1700",
+       "day": 3
+      },
+      {
+       "is_overnight": false,
+       "start": "0900",
+       "end": "1700",
+       "day": 4
+      }
+     ],
+     "hours_type": "REGULAR",
+     "is_open_now": true
+    }
+   ],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "M7zFGGxm2qoccaCCNIuMog",
+   "alias": "chicago-park-district-chicago-219",
+   "name": "Chicago Park District",
+   "image_url": "",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/chicago-park-district-chicago-219?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 1,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 4.0,
+   "coordinates": {
+    "latitude": 42.00368958266341,
+    "longitude": -87.6846188426492
+   },
+   "transactions": [],
+   "location": {
+    "address1": "2045 W Pratt Blvd",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60645",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "2045 W Pratt Blvd",
+     "Chicago, IL 60645"
+    ]
+   },
+   "phone": "+13127427931",
+   "display_phone": "(312) 742-7931",
+   "distance": 10959.569128479894,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "DUFLrlR9Y72eKDePgKzrsQ",
+   "alias": "kelvyn-park-chicago",
+   "name": "Kelvyn Park",
+   "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/Urck2nWijxuLLO_Io0zrAg/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/kelvyn-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 2,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 3.5,
+   "coordinates": {
+    "latitude": 41.92968887129189,
+    "longitude": -87.7381063
+   },
+   "transactions": [],
+   "location": {
+    "address1": "4438 W Wrightwood Ave",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60639",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "4438 W Wrightwood Ave",
+     "Chicago, IL 60639"
+    ]
+   },
+   "phone": "+13127427547",
+   "display_phone": "(312) 742-7547",
+   "distance": 5685.753153541808,
+   "business_hours": [
+    {
+     "open": [
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 0
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 1
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 2
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 3
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 4
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 5
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 6
+      }
+     ],
+     "hours_type": "REGULAR",
+     "is_open_now": true
+    }
+   ],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "PQdS_s6cwiKL1WLPKn-e2w",
+   "alias": "lindberg-park-oak-park",
+   "name": "Lindberg Park",
+   "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/PnTXq9mYZrnbag3aocShJg/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/lindberg-park-oak-park?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 3,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 4.3,
+   "coordinates": {
+    "latitude": 41.9060220423653,
+    "longitude": -87.8022730350494
+   },
+   "transactions": [],
+   "location": {
+    "address1": "1151 N Marion St",
+    "address2": "",
+    "address3": "",
+    "city": "Oak Park",
+    "zip_code": "60302",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "1151 N Marion St",
+     "Oak Park, IL 60302"
+    ]
+   },
+   "phone": "+17083830002",
+   "display_phone": "(708) 383-0002",
+   "distance": 10306.424065166648,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "C_gBXMwqNaB-piusrphNmg",
+   "alias": "chicago-park-district-donovan-park-chicago",
+   "name": "Chicago Park District - Donovan Park",
+   "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/EMPj6dCnzPc63A-2BdYOXA/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/chicago-park-district-donovan-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 1,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    },
+    {
+     "alias": "playgrounds",
+     "title": "Playgrounds"
+    },
+    {
+     "alias": "recreation",
+     "title": "Recreation Centers"
+    }
+   ],
+   "rating": 4.0,
+   "coordinates": {
+    "latitude": 41.82804,
+    "longitude": -87.6477949
+   },
+   "transactions": [],
+   "location": {
+    "address1": "3620 S Lituanica Ave",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60609",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "3620 S Lituanica Ave",
+     "Chicago, IL 60609"
+    ]
+   },
+   "phone": "+13127476111",
+   "display_phone": "(312) 747-6111",
+   "distance": 8925.582356636216,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "FiuhoZKzFfeH84aWQuBiSA",
+   "alias": "lincoln-park-conservatory-chicago-2",
+   "name": "Lincoln Park Conservatory",
+   "image_url": "",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/lincoln-park-conservatory-chicago-2?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 0,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 0.0,
+   "coordinates": {
+    "latitude": 41.924292189100555,
+    "longitude": -87.63521917055344
+   },
+   "transactions": [],
+   "location": {
+    "address1": "2430 North Cannon Dr",
+    "address2": null,
+    "address3": null,
+    "city": "Chicago",
+    "zip_code": "60614",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "2430 North Cannon Dr",
+     "Chicago, IL 60614"
+    ]
+   },
+   "phone": "+17738837275",
+   "display_phone": "(773) 883-7275",
+   "distance": 4105.5918887923635,
+   "business_hours": [
+    {
+     "open": [
+      {
+       "is_overnight": false,
+       "start": "1000",
+       "end": "1700",
+       "day": 2
+      },
+      {
+       "is_overnight": false,
+       "start": "1000",
+       "end": "1700",
+       "day": 3
+      },
+      {
+       "is_overnight": false,
+       "start": "1000",
+       "end": "1700",
+       "day": 4
+      },
+      {
+       "is_overnight": false,
+       "start": "1000",
+       "end": "1700",
+       "day": 5
+      },
+      {
+       "is_overnight": false,
+       "start": "1000",
+       "end": "1700",
+       "day": 6
+      }
+     ],
+     "hours_type": "REGULAR",
+     "is_open_now": true
+    }
+   ],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "gaFDMrN_qJ30YZdEzDVvgQ",
+   "alias": "bloomingdale-trail-park-chicago",
+   "name": "Bloomingdale Trail Park",
+   "image_url": "",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/bloomingdale-trail-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 0,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 0.0,
+   "coordinates": {
+    "latitude": 41.9142935244831,
+    "longitude": -87.67025757042737
+   },
+   "transactions": [],
+   "location": {
+    "address1": "1600-3000 W Bloomingdale",
+    "address2": null,
+    "address3": null,
+    "city": "Chicago",
+    "zip_code": "60647",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "1600-3000 W Bloomingdale",
+     "Chicago, IL 60647"
+    ]
+   },
+   "phone": "+17732952362",
+   "display_phone": "(773) 295-2362",
+   "distance": 1179.82536207353,
+   "business_hours": [
+    {
+     "open": [
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 0
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 1
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 2
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 3
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 4
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 5
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 6
+      }
+     ],
+     "hours_type": "REGULAR",
+     "is_open_now": true
+    }
+   ],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "vwrdPSAt7fQ6aj_AKa9jpg",
+   "alias": "chicago-park-district-wildwood-park-chicago",
+   "name": "Chicago Park District - Wildwood Park",
+   "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/Y2RlwW1zVcNWo5pJWLYJSw/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/chicago-park-district-wildwood-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 1,
+   "categories": [
+    {
+     "alias": "amateursportsteams",
+     "title": "Amateur Sports Teams"
+    },
+    {
+     "alias": "recreation",
+     "title": "Recreation Centers"
+    },
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 4.0,
+   "coordinates": {
+    "latitude": 42.00762355644789,
+    "longitude": -87.78033010002406
+   },
+   "transactions": [],
+   "location": {
+    "address1": "6950 N Hiawatha Ave",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60646",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "6950 N Hiawatha Ave",
+     "Chicago, IL 60646"
+    ]
+   },
+   "phone": "+17736317455",
+   "display_phone": "(773) 631-7455",
+   "distance": 14195.883032209646,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "rjd35QzgLAuRw_gP3JHSUw",
+   "alias": "margeret-t-burroughs-beach-chicago",
+   "name": "Margeret T Burroughs Beach",
+   "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/0bnIXKmaRO_NCyKgcz-w5g/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/margeret-t-burroughs-beach-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 1,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    },
+    {
+     "alias": "beaches",
+     "title": "Beaches"
+    }
+   ],
+   "rating": 4.0,
+   "coordinates": {
+    "latitude": 41.83928624082563,
+    "longitude": -87.60671800885679
+   },
+   "transactions": [],
+   "location": {
+    "address1": "3100 S Lake Shore Dr",
+    "address2": "",
+    "address3": null,
+    "city": "Chicago",
+    "zip_code": "60616",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "3100 S Lake Shore Dr",
+     "Chicago, IL 60616"
+    ]
+   },
+   "phone": "",
+   "display_phone": "",
+   "distance": 9401.919641151137,
+   "business_hours": [
+    {
+     "open": [
+      {
+       "is_overnight": false,
+       "start": "1100",
+       "end": "1900",
+       "day": 0
+      },
+      {
+       "is_overnight": false,
+       "start": "1100",
+       "end": "1900",
+       "day": 1
+      },
+      {
+       "is_overnight": false,
+       "start": "1100",
+       "end": "1900",
+       "day": 2
+      },
+      {
+       "is_overnight": false,
+       "start": "1100",
+       "end": "1900",
+       "day": 3
+      },
+      {
+       "is_overnight": false,
+       "start": "1100",
+       "end": "1900",
+       "day": 4
+      },
+      {
+       "is_overnight": false,
+       "start": "1100",
+       "end": "1900",
+       "day": 5
+      },
+      {
+       "is_overnight": false,
+       "start": "1100",
+       "end": "1900",
+       "day": 6
+      }
+     ],
+     "hours_type": "REGULAR",
+     "is_open_now": true
+    }
+   ],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "9plJD3YiZjHrpwPAUUskbw",
+   "alias": "mary-berkemeier-quinn-park-of-trees-chicago",
+   "name": "Mary Berkemeier Quinn Park-of-Trees",
+   "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/sYM2hZa28VzTgKGHwTq_7g/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/mary-berkemeier-quinn-park-of-trees-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 1,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 4.0,
+   "coordinates": {
+    "latitude": 41.9953499,
+    "longitude": -87.7705078
+   },
+   "transactions": [],
+   "location": {
+    "address1": "6239 N Mcclellan Ave",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60646",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "6239 N Mcclellan Ave",
+     "Chicago, IL 60646"
+    ]
+   },
+   "phone": "+17736317455",
+   "display_phone": "(773) 631-7455",
+   "distance": 12618.0215354878,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "6_stB9UbEg-A3jryZxbQAQ",
+   "alias": "de-julio-playlot-park-chicago",
+   "name": "De Julio Playlot Park",
+   "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/VszCXoa8BvYieTElQWBzoQ/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/de-julio-playlot-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 2,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    },
+    {
+     "alias": "kids_activities",
+     "title": "Kids Activities"
+    }
+   ],
+   "rating": 4.0,
+   "coordinates": {
+    "latitude": 41.9918741930408,
+    "longitude": -87.7524667450332
+   },
+   "transactions": [],
+   "location": {
+    "address1": "6056 N Landers Ave",
+    "address2": "",
+    "address3": null,
+    "city": "Chicago",
+    "zip_code": "60646",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "6056 N Landers Ave",
+     "Chicago, IL 60646"
+    ]
+   },
+   "phone": "",
+   "display_phone": "",
+   "distance": 11411.141690960563,
+   "business_hours": [
+    {
+     "open": [
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 0
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 1
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 2
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 3
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 4
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 5
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 6
+      }
+     ],
+     "hours_type": "REGULAR",
+     "is_open_now": true
+    }
+   ],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "GcRGIndod-E-wjVnpCVwhA",
+   "alias": "merrimac-park-chicago",
+   "name": "Merrimac Park",
+   "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/9gXwEZk3JFo0LvTUHY1JWA/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/merrimac-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 5,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 3.8,
+   "coordinates": {
+    "latitude": 41.9520350379492,
+    "longitude": -87.7851896623587
+   },
+   "transactions": [],
+   "location": {
+    "address1": "6343 W Irving Park Rd",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60634",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "6343 W Irving Park Rd",
+     "Chicago, IL 60634"
+    ]
+   },
+   "phone": "",
+   "display_phone": "",
+   "distance": 10298.907360050152,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "_IYN1uau4v723XYBqq-YUg",
+   "alias": "piotrowski-park-chicago",
+   "name": "Piotrowski Park",
+   "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/f0_iUQVwg1xvsBJIjc3D4w/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/piotrowski-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 1,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 4.0,
+   "coordinates": {
+    "latitude": 41.8366751,
+    "longitude": -87.7309961
+   },
+   "transactions": [],
+   "location": {
+    "address1": "4247 W 31st St",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60623",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "4247 W 31st St",
+     "Chicago, IL 60623"
+    ]
+   },
+   "phone": "+13127476608",
+   "display_phone": "(312) 747-6608",
+   "distance": 8812.1158488699,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  }
+ ]
+}
