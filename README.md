@@ -2,18 +2,13 @@
 Grace Kluender, Evan Fantozzi, Begum Akkas, Andrés Felipe Camacho
 
 ## Abstract
-In this project we are investigating the accessibility to high-quality public
+Public spaces are highly important for human interactions and they have a direct effect on human capital development at the neighborhood level. As affordable housing is a pressing issue for expanding cities, evaluate the accesibility to public recreacional spaces around affordable housing is key. In this project we are investigating the accessibility to high-quality public
 parks and other green public spaces near affordable housing units in in Chicago.
-The city's Department of Housing maintains a list of affordable housing rental
-units, available online and updated regularly. OpenStreetMap's API provides
-coordinate locations of green spaces, and Yelp and Google’s APIs contain
-data on the ratings of some of these green spaces.
 
-We reconcile the city’s Department of Housing data with spatial
-and user review data on green spaces. Then, we develop an index that quantifies
-the accessibility to high-quality green spaces for the various affordable housing
-developments. This index is based upon the ratings, area, and proximity of green
-spaces to affordable housing developments.
+The city's Department of Housing maintains a list of affordable housing rental units, available online and updated regularly. OpenStreetMap's API provides coordinate locations of green spaces, and Yelp and Google’s APIs contain data on the ratings of some of these green spaces.
+
+We reconcile the city’s Department of Housing data with spatial and user review data on green spaces. Then, we develop an index that quantifies the accessibility to high-quality green spaces for the various affordable housing
+developments. This index is based upon the ratings, area, and proximity of green spaces to affordable housing developments.
 
 ## Visualization
 
@@ -116,6 +111,7 @@ Up until febrary 23, the project strcture is as follows:
 │   ├── milestone2.md
 │   └── milestone3.md
 ├── notebooks
+│   ├── CensusTracks.ipynb
 │   ├── OSM.ipynb
 │   ├── chicago_parks_kepler.html
 │   └── demo.ipynb
@@ -136,7 +132,11 @@ Up until febrary 23, the project strcture is as follows:
 │   ├── data
 │   │   └── test_park.json
 │   └── test_yelp.py
-└── uv.lock
+├── uv.lock
+└── viz
+    ├── Viz23Feb2025.png
+    ├── chicago_parks_kepler.html
+    └── draft_vizualization.py
 ```
 
 
