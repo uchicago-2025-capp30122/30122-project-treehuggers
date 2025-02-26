@@ -19,12 +19,11 @@ def load_geojson(filepath):
 def standardize_unnamed_parks(features):
     """
     If a park is missing a name, this function sets the park's name to 
-    "Unnamed Park(ID: {id})"
+    "Unnamed Park"
     """
     for feature in features:
         if not feature["properties"].get("name"):
-            id = feature["properties"].get("id", "Unknown ID")
-            feature["properties"]["name"] = ("Unnamed Park", id)
+            feature["properties"]["name"] = ("Unnamed Park")
 
     return features
 
@@ -184,7 +183,7 @@ def merge_unnamed_park_clusters(features, graph, unnameds_to_remove, named_parks
 
 def save_geojson(features, output_file_path, name):
     """
-    Save new features list to a cleaned_parks_polygons.json file.
+    Save new features list to a cleaned_parks_polygons.geojson file.
     """
     with open(output_file_path, "w") as f:
         # convert the features list into a GeoJSON FeatureCollection
@@ -196,7 +195,7 @@ def main():
     """Run altogether to clean and merge unnamed park polygons."""
 
     file_path = "/Users/gracekluender/CAPP-122/30122-project-treehuggers/data/uncleaned_park_polygons.geojson"
-    output_path = "/Users/gracekluender/CAPP-122/30122-project-treehuggers/data/cleaned_park_polygons.json" 
+    output_path = "/Users/gracekluender/CAPP-122/30122-project-treehuggers/data/cleaned_park_polygons.geojson" 
 
     name = "cleaned_park_polygons"
 
