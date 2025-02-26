@@ -16,19 +16,19 @@
   "source": "Yelp"
  },
  {
-  "name": "The Park at Lakeshore East",
-  "latitude": 41.885980594423,
-  "longitude": -87.61759122481,
-  "rating": 4.5,
-  "review_count": 47,
-  "source": "Yelp"
- },
- {
   "name": "Mary Bartleme Park",
   "latitude": 41.8801605,
   "longitude": -87.6506214,
   "rating": 4.2,
   "review_count": 40,
+  "source": "Yelp"
+ },
+ {
+  "name": "The Park at Lakeshore East",
+  "latitude": 41.885980594423,
+  "longitude": -87.61759122481,
+  "rating": 4.5,
+  "review_count": 47,
   "source": "Yelp"
  },
  {
@@ -56,14 +56,6 @@
   "source": "Yelp"
  },
  {
-  "name": "Commercial Club Playground",
-  "latitude": 41.896629,
-  "longitude": -87.67380656096604,
-  "rating": 4.8,
-  "review_count": 5,
-  "source": "Yelp"
- },
- {
   "name": "Holstein Park",
   "latitude": 41.92188,
   "longitude": -87.6856349,
@@ -80,11 +72,11 @@
   "source": "Yelp"
  },
  {
-  "name": "Berger Park",
-  "latitude": 41.9947845,
-  "longitude": -87.6553686,
-  "rating": 4.2,
-  "review_count": 24,
+  "name": "Commercial Club Playground",
+  "latitude": 41.896629,
+  "longitude": -87.67380656096604,
+  "rating": 4.8,
+  "review_count": 5,
   "source": "Yelp"
  },
  {
@@ -96,14 +88,6 @@
   "source": "Yelp"
  },
  {
-  "name": "Clarendon Park",
-  "latitude": 41.9631777568729,
-  "longitude": -87.648799046513,
-  "rating": 4.7,
-  "review_count": 7,
-  "source": "Yelp"
- },
- {
   "name": "Union Park",
   "latitude": 41.884073,
   "longitude": -87.665419,
@@ -112,11 +96,19 @@
   "source": "Yelp"
  },
  {
-  "name": "Harriet Tubman Elementary School",
-  "latitude": 41.9337387,
-  "longitude": -87.6561432,
-  "rating": 5.0,
-  "review_count": 5,
+  "name": "Clarendon Park",
+  "latitude": 41.9631777568729,
+  "longitude": -87.648799046513,
+  "rating": 4.7,
+  "review_count": 7,
+  "source": "Yelp"
+ },
+ {
+  "name": "Berger Park",
+  "latitude": 41.9947845,
+  "longitude": -87.6553686,
+  "rating": 4.2,
+  "review_count": 24,
   "source": "Yelp"
  },
  {
@@ -128,11 +120,11 @@
   "source": "Yelp"
  },
  {
-  "name": "Eugene Field Park",
-  "latitude": 41.9736903,
-  "longitude": -87.7221749,
-  "rating": 4.5,
-  "review_count": 15,
+  "name": "Harriet Tubman Elementary School",
+  "latitude": 41.9337387,
+  "longitude": -87.6561432,
+  "rating": 5.0,
+  "review_count": 5,
   "source": "Yelp"
  },
  {
@@ -144,11 +136,11 @@
   "source": "Yelp"
  },
  {
-  "name": "Margate Park",
-  "latitude": 41.97209895881035,
-  "longitude": -87.64977439158547,
-  "rating": 3.5,
-  "review_count": 19,
+  "name": "Eugene Field Park",
+  "latitude": 41.9736903,
+  "longitude": -87.7221749,
+  "rating": 4.5,
+  "review_count": 15,
   "source": "Yelp"
  },
  {
@@ -160,10 +152,18 @@
   "source": "Yelp"
  },
  {
-  "name": "Humbert Park",
-  "latitude": 41.83831111389,
-  "longitude": -87.6429576295452,
-  "rating": 5.0,
+  "name": "Walsh Park",
+  "latitude": 41.9132677,
+  "longitude": -87.6678549,
+  "rating": 4.0,
+  "review_count": 8,
+  "source": "Yelp"
+ },
+ {
+  "name": "Blaine Elementary School Play Lot",
+  "latitude": 41.950962,
+  "longitude": -87.664933,
+  "rating": 4.5,
   "review_count": 2,
   "source": "Yelp"
  },
@@ -176,19 +176,11 @@
   "source": "Yelp"
  },
  {
-  "name": "Taylor Park",
-  "latitude": 41.9028120546127,
-  "longitude": -87.7855789661407,
-  "rating": 3.8,
-  "review_count": 4,
-  "source": "Yelp"
- },
- {
-  "name": "Goudy Square Playlot",
-  "latitude": 41.9054276678156,
-  "longitude": -87.6271556317806,
+  "name": "Humbert Park",
+  "latitude": 41.83831111389,
+  "longitude": -87.6429576295452,
   "rating": 5.0,
-  "review_count": 1,
+  "review_count": 2,
   "source": "Yelp"
  },
  {
@@ -200,11 +192,11 @@
   "source": "Yelp"
  },
  {
-  "name": "Bauler Playlot",
-  "latitude": 41.9164489350304,
-  "longitude": -87.6417667780638,
-  "rating": 0.0,
-  "review_count": 0,
+  "name": "Taylor Park",
+  "latitude": 41.9028120546127,
+  "longitude": -87.7855789661407,
+  "rating": 3.8,
+  "review_count": 4,
   "source": "Yelp"
  },
  {
@@ -216,14 +208,6 @@
   "source": "Yelp"
  },
  {
-  "name": "Kolmar Playlot",
-  "latitude": 41.9559971,
-  "longitude": -87.7416297,
-  "rating": 5.0,
-  "review_count": 2,
-  "source": "Yelp"
- },
- {
   "name": "Maplewood Playlot Park",
   "latitude": 41.9113211,
   "longitude": -87.691094,
@@ -232,10 +216,10 @@
   "source": "Yelp"
  },
  {
-  "name": "Privet Park",
-  "latitude": 41.91505906395052,
-  "longitude": -87.65341103159236,
-  "rating": 2.0,
+  "name": "Goudy Square Playlot",
+  "latitude": 41.9054276678156,
+  "longitude": -87.6271556317806,
+  "rating": 5.0,
   "review_count": 1,
   "source": "Yelp"
  },
@@ -248,10 +232,18 @@
   "source": "Yelp"
  },
  {
-  "name": "Goudy School Playlot",
-  "latitude": 41.9752762825572,
-  "longitude": -87.6575061131058,
-  "rating": 4.0,
+  "name": "Kolmar Playlot",
+  "latitude": 41.9559971,
+  "longitude": -87.7416297,
+  "rating": 5.0,
+  "review_count": 2,
+  "source": "Yelp"
+ },
+ {
+  "name": "Privet Park",
+  "latitude": 41.91505906395052,
+  "longitude": -87.65341103159236,
+  "rating": 2.0,
   "review_count": 1,
   "source": "Yelp"
  },
@@ -272,27 +264,11 @@
   "source": "Yelp"
  },
  {
-  "name": "Maple Park",
-  "latitude": 41.8678550669151,
-  "longitude": -87.8038394451141,
-  "rating": 4.1,
-  "review_count": 7,
-  "source": "Yelp"
- },
- {
   "name": "Greenebaum Playground",
   "latitude": 41.9118666237764,
   "longitude": -87.7333393550624,
   "rating": 3.5,
   "review_count": 2,
-  "source": "Yelp"
- },
- {
-  "name": "Fox Park",
-  "latitude": 41.8766260830872,
-  "longitude": -87.7937378330658,
-  "rating": 5.0,
-  "review_count": 3,
   "source": "Yelp"
  },
  {
@@ -304,11 +280,11 @@
   "source": "Yelp"
  },
  {
-  "name": "Andersonville Playlot Park",
-  "latitude": 41.9771003723145,
-  "longitude": -87.6692733764648,
-  "rating": 3.7,
-  "review_count": 3,
+  "name": "Goudy School Playlot",
+  "latitude": 41.9752762825572,
+  "longitude": -87.6575061131058,
+  "rating": 4.0,
+  "review_count": 1,
   "source": "Yelp"
  },
  {
@@ -320,17 +296,49 @@
   "source": "Yelp"
  },
  {
-  "name": "Park District of Oak Park",
-  "latitude": 41.904641,
-  "longitude": -87.790382,
+  "name": "Snowberry Park",
+  "latitude": 41.893946879988306,
+  "longitude": -87.67420617499965,
+  "rating": 3.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Barrett Park",
+  "latitude": 41.8522927,
+  "longitude": -87.6766281,
   "rating": 0.0,
   "review_count": 0,
+  "source": "Yelp"
+ },
+ {
+  "name": "Hermosa Park - Chicago Park District",
+  "latitude": 41.9217963,
+  "longitude": -87.7390853,
+  "rating": 0.0,
+  "review_count": 0,
+  "source": "Yelp"
+ },
+ {
+  "name": "Barrie Park",
+  "latitude": 41.8704021,
+  "longitude": -87.7792526,
+  "rating": 4.0,
+  "review_count": 1,
   "source": "Yelp"
  },
  {
   "name": "Berwyn Gardens",
   "latitude": 41.8509941101074,
   "longitude": -87.8001861572266,
+  "rating": 0.0,
+  "review_count": 0,
+  "source": "Yelp"
+ },
+ {
+  "name": "De George Playlot Park",
+  "latitude": 41.9111879,
+  "longitude": -87.7494101625399,
   "rating": 0.0,
   "review_count": 0,
   "source": "Yelp"
@@ -352,14 +360,6 @@
   "source": "Yelp"
  },
  {
-  "name": "De George Playlot Park",
-  "latitude": 41.9111879,
-  "longitude": -87.7494101625399,
-  "rating": 0.0,
-  "review_count": 0,
-  "source": "Yelp"
- },
- {
   "name": "Margaret Hie Ding Lin Park",
   "latitude": 41.8582701,
   "longitude": -87.6270151,
@@ -376,19 +376,19 @@
   "source": "Yelp"
  },
  {
-  "name": "Veterans Park",
-  "latitude": 41.8745356946386,
-  "longitude": -87.8084574920654,
-  "rating": 4.0,
-  "review_count": 2,
-  "source": "Yelp"
- },
- {
   "name": "McKeon Playlot Park",
   "latitude": 41.829895,
   "longitude": -87.6413727,
   "rating": 0.0,
   "review_count": 0,
+  "source": "Yelp"
+ },
+ {
+  "name": "Veterans Park",
+  "latitude": 41.8745356946386,
+  "longitude": -87.8084574920654,
+  "rating": 4.0,
+  "review_count": 2,
   "source": "Yelp"
  },
  {

@@ -1,0 +1,91 @@
+{
+    "id": "2DfcXGtDv7T_rnvl4lHzaQ",
+    "alias": "millennium-park-chicago",
+    "name": "Millennium Park",
+    "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/92hy3vvtq1ml1gE2mW2vQA/o.jpg",
+    "is_closed": false,
+    "url": "https://www.yelp.com/biz/millennium-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+    "review_count": 1456,
+    "categories": [
+     {
+      "alias": "parks",
+      "title": "Parks"
+     }
+    ],
+    "rating": 4.6,
+    "coordinates": {
+     "latitude": 41.88255748421691,
+     "longitude": -87.62255156982617
+    },
+    "transactions": [],
+    "location": {
+     "address1": "201 E Randolph St",
+     "address2": "",
+     "address3": "",
+     "city": "Chicago",
+     "zip_code": "60601",
+     "country": "US",
+     "state": "IL",
+     "display_address": [
+      "201 E Randolph St",
+      "Chicago, IL 60601"
+     ]
+    },
+    "phone": "+13127421168",
+    "display_phone": "(312) 742-1168",
+    "distance": 5219.014479222394,
+    "business_hours": [
+     {
+      "open": [
+       {
+        "is_overnight": false,
+        "start": "0600",
+        "end": "2300",
+        "day": 0
+       },
+       {
+        "is_overnight": false,
+        "start": "0600",
+        "end": "2300",
+        "day": 1
+       },
+       {
+        "is_overnight": false,
+        "start": "0600",
+        "end": "2300",
+        "day": 2
+       },
+       {
+        "is_overnight": false,
+        "start": "0600",
+        "end": "2300",
+        "day": 3
+       },
+       {
+        "is_overnight": false,
+        "start": "0600",
+        "end": "2300",
+        "day": 4
+       },
+       {
+        "is_overnight": false,
+        "start": "0600",
+        "end": "2300",
+        "day": 5
+       },
+       {
+        "is_overnight": false,
+        "start": "0600",
+        "end": "2300",
+        "day": 6
+       }
+      ],
+      "hours_type": "REGULAR",
+      "is_open_now": true
+     }
+    ],
+    "attributes": {
+     "business_temp_closed": null,
+     "waitlist_reservation": null
+    }
+}
