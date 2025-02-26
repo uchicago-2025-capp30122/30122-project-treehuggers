@@ -31,7 +31,7 @@ parks = gpd.read_file("data/park_polygons.geojson")
 housing = gpd.read_file("data/housing.geojson")
 
 # # yelp and google ratings
-with open("data/yelp/yelp_cleaned.json", "r") as f:
+with open("data/yelp/combined_reviews_clean.json", "r") as f:
     ratings = json.load(f)
 
 
@@ -281,6 +281,17 @@ def create_housing_dict(housing, parks_dict, distance, parks_data):
         housing_dict[house_id] = house_tuple 
         house_id += 1
         
+    #######################################################
+    ##### FOR DEBUGGING PURPOSES: see how many houses have ratings
+    for key, value in housing_dict.items():
+        if value.rating_index > 0:
+            print(key,value)
+    
+    #######################################################
+        
     return housing_dict
+
+
+
 
             
