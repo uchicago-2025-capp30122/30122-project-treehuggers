@@ -25,7 +25,7 @@ class HousingTuple(NamedTuple):
 # Load Data -- might want to make these into functions 
 ##############################
 # load parks data
-parks = gpd.read_file("data/park_polygons.geojson")
+parks = gpd.read_file("data/cleaned_park_polygons.geojson")
 
 # housing data
 housing = gpd.read_file("data/housing.geojson")
@@ -292,6 +292,22 @@ def create_housing_dict(housing, parks_dict, distance, parks_data):
     return housing_dict
 
 
+################# FOR PULLING MORE REVIEWS:
+## OUTPUT FILE OF PARKS WITHOUT REVIEWS
+## paste into ipython3
+parks_dict = create_parks_dict(parks)
 
+parks_lst = []
+with open("parks_without_reviews.json", "w") as f:
+    for key, value in parks_dict.items():
+        if value.rating == 0:
+            parks_lst.append({
+                "id": key,
+                "name": value.name,
+                "centroid": {"type": "Point", "coordinates": \
+                    [value.park_polygon.centroid.x, value.park_polygon.centroid.y]}
+            })
+    
+    json.dump(parks_lst, f, indent=4)
 
             
