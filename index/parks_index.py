@@ -55,15 +55,16 @@ def calculate_park_rating(matching_rows, polygon):
     avg_rating = 0
     park_name = None
 
-    for row in matching_rows:
+    for row in matching_rows:        
         rating = row["rating"]
         review_count = row["review_count"]
         name = row["name"]
 
+        if review_count != "":
         # Accumulate ratings and reviews
-        total_reviews += review_count
-        cumulative_rating += rating * review_count
-        park_name = name  # Last matched name (assuming one park per polygon)
+            total_reviews += review_count
+            cumulative_rating += rating * review_count
+            park_name = name  # Last matched name (assuming one park per polygon)
 
     if total_reviews == 0:
         total_reviews = None  # No ratings found
@@ -298,7 +299,7 @@ def create_housing_dict(housing, parks_dict, distance, parks_data):
 parks_dict = create_parks_dict(parks)
 
 parks_lst = []
-with open("parks_without_reviews.json", "w") as f:
+with open("index/parks_without_reviews.json", "w") as f:
     for key, value in parks_dict.items():
         if value.rating == 0:
             parks_lst.append({
@@ -307,7 +308,14 @@ with open("parks_without_reviews.json", "w") as f:
                 "centroid": {"type": "Point", "coordinates": \
                     [value.park_polygon.centroid.x, value.park_polygon.centroid.y]}
             })
+        else:
+            continue
     
     json.dump(parks_lst, f, indent=4)
-
+    
+    
+count = 0
+for key, value in parks_dict.items():
+    if value.rating == 0:
+        count += 1
             
