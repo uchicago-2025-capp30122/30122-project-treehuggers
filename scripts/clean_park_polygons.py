@@ -22,10 +22,14 @@ def load_geojson(filepath):
 
 def standardize_unnamed_parks(features):
     """
-    Standardizes names for unnamed parks in the feature list. 
+    Standardizes names for unnamed parks in the feature list. If a park is
+    missing a name, this function sets the park's name to "Unnamed Park."
 
-    If a park is missing a name, this function sets the park's name to 
-    "Unnamed Park"
+    Args:
+        features (list): List of GeoJSON features
+
+    Returns:
+        list: Updated list of features with standardized names
     """
     
     for feature in features:
@@ -38,6 +42,12 @@ def standardize_unnamed_parks(features):
 def get_feature_info(feature):
     """
     Extract the ID, name, and geometry from a feature.
+
+    Args:
+        feature (dict): A GeoJSON feature
+
+    Returns:
+        tuple: Feature ID, name, and geometry object
     """
     id = feature["properties"].get("id")
     name = feature["properties"].get("name")
@@ -47,26 +57,24 @@ def get_feature_info(feature):
 
 def handle_unnamed_parks(features):
     """
-    This function handles unnamed parks that intersect with at least one other
-    park. This function handles three situations:
-    
-    1) If an unnamed park intersects with another unnamed park, these parks 
-    are to be merged. In order to prepare for that merging, this function builds
-    a graph where the nodes are unnamed parks and the edges represent intersections
-    between them. This graph will eventually be used to  merge clusters of
-    intersecting unnamed parks. Because intersections of unnamed parks are not
-    always one-to-one, this avoids merging issues that may arise when an unnamed
-    park intersects with more than one other unnamed park. 
+    Manages unnamed parks and their intersections with other parks. This function 
+    builds an intersection graph, identifies unnamed parks to remove, and collects
+    named park pairs to check for containment.
+    - If an unnamed park intersects with another unnamed park, these parks 
+    are added as related nodes to an undirected graph, which will later be used
+    to merge these parks.
+    - If an unnamed park intersects with a named park, the unnamed park is added
+    to the unnameds_to_remove return list to be used for later removal.
+    - If two named parks intersect, these parks will be added as a tuple to the 
+    check_containment_parks list, which will later be used to check if one of these
+    parks are fully contained within the other. 
 
-    2) If an unnamed park intersects with a named park, the unnamed park should
-    be removed from the dataset. This function returns a list of unnamed park
-    ids that should be removed from the data.
+    Args:
+        features (list): List of GeoJSON features
 
-    3) If two named parks intersect, we will need to check if one of the park
-    polygons is fully contained within the other. In that case, we will remove
-    the fully contained polygon from out data. To prepare for this operation,
-    this function returns a list of tuples, where each tuple contains a pair of
-    intersecting features to check containment for.
+    Returns:
+        tuple: Graph of unnamed park intersections, list of unnamed park IDs to
+        remove, and list of intersecting named park pairs for containment checks.
     """
     # initialize empty undirected graph
     G = nx.Graph()
@@ -95,7 +103,13 @@ def handle_unnamed_parks(features):
 
 def create_merged_feature(geometry):
     """
-    Creates a new GeoJSON feature for the merged unnamed parks.
+    Creates a new GeoJSON feature for merged unnamed parks.
+
+    Args:
+        geometry (shapely.geometry): Merged geometry object.
+    
+    Returns:
+        dict: A new GeoJSON feature representing the merged park.
     """
 
     return {
@@ -115,11 +129,18 @@ def check_park_containment(check_containment_parks):
     """
     This function checks all intersecting named parks to see if either geometry
     is fully contained within the other. If one is, it is added to a list of 
-    parks to remove from the data set.
+    parks to remove from the cleaned data.
 
     The list of named_parks_to_remove is initialized with a set of park ids that 
-    should be captured by this function but are not due to miniscule differences
-    in their boundary coordinates. So this function handles some manual cleaning.
+    should be removed but wouldn't be captured by this cleaning function due to 
+    miniscule differences in their boundary coordinates. This function handles
+    the removal of those parks manually.
+
+    Args:
+        check_containment_parks (list): List of intersecting named park feature pairs
+    
+    Returns:
+        list: IDs of named parks to remove
     """
     named_parks_to_remove = ['242304191', '747168477', '747168489', '747184016', '747184053', '860267019']
 
@@ -140,18 +161,21 @@ def merge_unnamed_park_clusters(features, graph, unnameds_to_remove, named_parks
     """
     This function merges intersecting unnamed parks into single features.
     By using the intersection graph, where nodes are park IDs and edges represent
-    intersections, the function groups connected parks and merges their geometries.
+    intersections, the function groups connected parks, merges their geometries,
+    creates and adds their merged feature to the cleaned data, and removes the 
+    original features of the merged parks.
 
-    The function removes the individual intersecting unnamed parks from the 
-    original data and replaces them with the merged features in place.
+    The return list of features excludes the given list of unnamed and named parks
+    to remove from the data.
 
-    The function also removes the given list of unnamed parks extracted from 
-    the handle_unnamed_parks() function. The unnamed parks set for removal are
-    those that can be accounted for under a named park polygon.
+    Args:
+        features (list): List of GeoJSON features.
+        graph (networkx.Graph): Intersection graph of unnamed parks.
+        unnameds_to_remove (list): IDs of unnamed parks to remove.
+        named_parks_to_remove (list): IDs of named parks to remove.
 
     Returns: 
-    An updated list of park features, which includes both the original named parks
-    and the newly merged unnamed parks. 
+        list: Updated list of park features, including merged unnamed parks.
     """
     # initialize list to track all new features of merged parks
     merged_features = []
@@ -197,10 +221,13 @@ def merge_unnamed_park_clusters(features, graph, unnameds_to_remove, named_parks
 
 def save_geojson(features, output_file_path):
     """
-    Save new features list to a cleaned_parks_polygons.geojson file
-    with CRS and matching the format of the uncleaned data.
-    """
+    Save the cleaned park features to a JeoJSON file.
 
+    Args:
+        features (list): List of cleaned GeoJSON features.
+        output_file_path (str): Path to save the output file.
+    """
+    
     geojson_data = {
         "type": "FeatureCollection",
         "name": "cleaned_park_polygons",
@@ -220,7 +247,7 @@ def save_geojson(features, output_file_path):
 
 def main():
     """
-    Run altogether to clean and merge unnamed park polygons.
+    Execute the complete park cleaning and merging process.
     """
 
     file_path = "/Users/gracekluender/CAPP-122/30122-project-treehuggers/data/uncleaned_park_polygons.geojson"
