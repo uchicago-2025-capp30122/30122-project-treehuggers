@@ -34,7 +34,6 @@ def standardize_unnamed_parks(features):
     Returns:
         list: Updated list of features with standardized names
     """
-    
     for feature in features:
         if not feature["properties"].get("name"):
             feature["properties"]["name"] = ("Unnamed Park")
@@ -92,13 +91,16 @@ def handle_unnamed_parks(features):
             id2, name2, geom2 = get_feature_info(feature2)
 
             if geom1.intersects(geom2) and not geom1.equals(geom2):
+                # if we have two unnamed intersecting parks, add edge
                 if name1[0] == "Unnamed Park" and name2[0] == "Unnamed Park":
-                    # if we have two unnamed parks, add edge.
                     G.add_edge(name1, name2)
+                # if unnamed park intersects with named park, remove unnamed park
                 elif name1[0] == "Unnamed Park" and name2[0] != "Unnamed Park":
                     unnameds_to_remove.append(id1)
+                # if unnamed park intersects with named park, remove unnamed park
                 elif name1[0] != "Unnamed Park" and name2[0] == "Unnamed Park":
                     unnameds_to_remove.append(id2)
+                # if two named parks intersect, add to list to check for containment
                 elif name1[0] != "Unnamed Park" and name2[0] != "Unnamed Park":
                     check_containment_parks.append((feature1, feature2))
     
@@ -125,8 +127,9 @@ def create_merged_feature(geometry):
             "name": "Unnamed Merged Park"
         },
         "geometry": json.loads(json.dumps(geometry.__geo_interface__))
-    } #geometry.__geo_interface__ is a Shapely attribute that returns a dictionary
-     # representation of the geometry in GeoJSON format. 
+    } 
+    #geometry.__geo_interface__ is a Shapely attribute that returns a dictionary
+    # representation of the geometry in GeoJSON format.
 
 def check_park_containment(check_containment_parks):
     """
@@ -145,15 +148,17 @@ def check_park_containment(check_containment_parks):
     Returns:
         list: IDs of named parks to remove
     """
+    # initialized with hand-selected park IDs to remove
     named_parks_to_remove = ['242304191', '747168477', '747168489', '747184016', '747184053', '860267019']
 
     for feature1, feature2 in check_containment_parks:
         id1, name1, geom1 = get_feature_info(feature1)
         id2, name2, geom2 = get_feature_info(feature2)
 
-        # if park2 is fully contained with the parent, add to remove list
+        # if park2 is fully contained within park1, add to remove list
         if geom2.within(geom1):
             named_parks_to_remove.append(id2)
+        # if park1 is fully contained within park2, add to remove list
         elif geom1.within(geom2):
             named_parks_to_remove.append(id1)
 
@@ -180,15 +185,14 @@ def merge_unnamed_park_clusters(features, graph, unnameds_to_remove, named_parks
     Returns: 
         list: Updated list of park features, including merged unnamed parks.
     """
-    # initialize list to track all new features of merged parks
+    # initialize list to track new merged park features
     merged_features = []
-    # initialize set to track the park ids that have been merged and should not
-    # exist in their individual form anymore
+    # initialize set to track park ids that have been merged and should be removed
     merged_ids = set()
 
     # nx.connected_components(graph) finds all groups of interconnected parks
-    clusters = [comp for comp in nx.connected_components(graph)]
     # clusters is a list of sets, where each set contains the IDs of intersecting parks
+    clusters = [comp for comp in nx.connected_components(graph)]
 
     # for each cluster of intersecting parks, initialize an empty list to collect the geometries
     for cluster in clusters:
@@ -199,10 +203,8 @@ def merge_unnamed_park_clusters(features, graph, unnameds_to_remove, named_parks
                 # for each park ID in the cluster, find the corresponding feature in the original features list
                 if feature["properties"].get("id") == park_id:
                     # if match found, add geometry to cluster_geometries
-                 #   geometry = feature["geometry"]
                     cluster_geometries.append(shape(feature["geometry"]))
-                    # add park id to merged_ids if merged with other park(s) so
-                    # that we can remove them from features list
+                    # add park id to merged_ids for removal from features list
                     merged_ids.add(park_id)
                     # break to ensure we only remove first matching feature
                     break
@@ -212,7 +214,7 @@ def merge_unnamed_park_clusters(features, graph, unnameds_to_remove, named_parks
         # create a new merged feature and append it to the merged_features return list
         merged_features.append(create_merged_feature(merged_geometry))
 
-    # keep only features that weren't merged
+    # remaining features are park ids not within merged_ids, unnameds_to_remove, or named_parks_to_remove lists
     remaining_features = [feature for feature in features
                          if feature["properties"].get("id") not in merged_ids and feature["properties"].get("id") not in unnameds_to_remove and feature["properties"].get("id") not in named_parks_to_remove]
    
