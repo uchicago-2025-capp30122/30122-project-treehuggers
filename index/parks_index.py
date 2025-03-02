@@ -3,6 +3,7 @@ import json
 from shapely.geometry import Point, Polygon
 from typing import NamedTuple
 from collections import defaultdict
+from pathlib import Path
 from jellyfish import jaro_winkler_similarity
 
 
@@ -14,24 +15,26 @@ class ParkTuple(NamedTuple):
     area: float
 
 class HousingTuple(NamedTuple):
-    park_count: int # consider also scaling this by park size or adding another index
+    park_count: int 
+    size_index: float
     rating_index: float
+    lat: float
+    long: float
 
 
-
-### Create BASE_DIR for the filepaths below (use pathlib)
+DATA_DIR = Path(__file__).parent.parent / 'data'
 
 ##############################
-# Load Data -- might want to make these into functions 
+# Load Data 
 ##############################
 # load parks data
-parks = gpd.read_file("data/cleaned_park_polygons.geojson")
+parks = gpd.read_file(DATA_DIR/"cleaned_park_polygons.geojson")
 
 # housing data
-housing = gpd.read_file("data/housing.geojson")
+housing = gpd.read_file(DATA_DIR/"housing.geojson")
 
 # # yelp and google ratings
-with open("data/yelp/combined_reviews_clean.json", "r") as f:
+with open(DATA_DIR/"yelp/combined_reviews_clean.json", "r") as f:
     ratings = json.load(f)
 
 
@@ -204,8 +207,6 @@ def create_buffer(housing, distance):
     
 
 def park_walking_distance(buffered_point, parks_data):
-    # set buffer around housing unit
-    # buffer_800m = house_point.buffer(distance) 
     polygon_id_list = []
     park_count = 0
     
@@ -227,17 +228,22 @@ def park_walking_distance(buffered_point, parks_data):
 
 
 def calculate_index(polygon_list, parks_dict):
-    size_rating_index = 0
+    rating_index = 0
+    size_index = 0
     
     for poly_id in polygon_list:
         park_tuple = parks_dict[poly_id]
-        size_rating_index = park_tuple.rating
-        size_rating_index += (park_tuple.area * park_tuple.rating)
+        # calculate index only using park size
+        size_index += park_tuple.area
         
-    return size_rating_index
+        # calculate index using park reviews and size
+        # rating_index = park_tuple.rating
+        rating_index += (park_tuple.area * park_tuple.rating)
+        
+    return (size_index, rating_index)
 
 
-def create_house_tuple(buffered_point, parks_dict, parks_data):
+def create_house_tuple(buffered_point, parks_dict, parks_data, latitude, longitude):
     """_summary_
 
     Args:
@@ -249,11 +255,13 @@ def create_house_tuple(buffered_point, parks_dict, parks_data):
 
     # check that polygon_list is not empty before proceeding
     if len(polygon_id_list) == 0:
-        house_tuple = HousingTuple(park_count=0, rating_index=0) 
+        house_tuple = HousingTuple(park_count=0, size_index=0, rating_index=0, lat=latitude,long=longitude) 
     else:
         # gather park tuples that fall within radius
-        index = calculate_index(polygon_id_list, parks_dict)
-        house_tuple = HousingTuple(park_count=parks_buffer_count, rating_index=index)
+        size_ix, rating_ix = calculate_index(polygon_id_list, parks_dict)
+        house_tuple = HousingTuple(park_count=parks_buffer_count, \
+            size_index=size_ix,rating_index=rating_ix,\
+                lat=latitude,long=longitude)
 
     return house_tuple
 
@@ -266,6 +274,7 @@ def create_house_tuple(buffered_point, parks_dict, parks_data):
 def create_housing_dict(housing, parks_dict, distance, parks_data):
     ## Currently calling this function would create separate dictionaries for each distance/radius
     ## should we change function to create one dictionary where the values are a list of house tuples?
+    # housing_list = []
     housing_dict = {}
     
     # apply buffer to entire GeoDataFrame
@@ -273,49 +282,108 @@ def create_housing_dict(housing, parks_dict, distance, parks_data):
     # print("buffered point", housing["buffered_point"])
     # print("housing point:", housing.geometry)
     
+    
+    
+    # housing_project['house_tuple'] = housing_project.apply(create_house_tuple(housing_project['geometry'],
+    #                                                                           parks_dict,parks_data,
+    #                                                                           housing_project['Latitude'], 
+    #                                                                           housing_project['Longitude']
+    #                                                                           ), axis=1)
+    # # # for buffered_point in housing_project["geometry"]:
+    
     house_id = 1
-    for buffered_point in housing_project["geometry"]:
-        house_tuple = create_house_tuple(buffered_point, parks_dict, parks_data)
-        
-        # convert house coordinates to tuple to use as key in dictionary
-        # house_id = str(housing_project["X Coordinate"])+str(housing_project["X Coordinate"])
+    for _, row in housing_project.iterrows():
+        buffered_point = row["geometry"]
+        latitude = row["Latitude"]
+        longitude = row["Longitude"]
+        house_tuple = create_house_tuple(buffered_point, parks_dict, parks_data, latitude, longitude)
+
         housing_dict[house_id] = house_tuple 
         house_id += 1
         
+        
     #######################################################
     ##### FOR DEBUGGING PURPOSES: see how many houses have ratings
-    for key, value in housing_dict.items():
-        if value.rating_index > 0:
-            print(key,value)
+    # for key, value in housing_dict.items():
+    #     if value.rating_index > 0.0:
+    #         print(key,value)
     
     #######################################################
         
+
     return housing_dict
+
+
+
+##############################
+# Output new geojson file with housing units and index values
+##############################
+
+def create_housing_index_file(parks, housing, distance):
+    # Create parks dictionary and list of houses
+    parks_dict = create_parks_dict(parks)
+    housing_dict = create_housing_dict(housing, parks_dict, distance, parks)
+
+
+    # Convert to GeoJSON format
+    geojson_dict = {
+        "type": "FeatureCollection",
+        "features": []
+    }
+
+    for key, value in housing_dict.items():
+        feature = {
+            "type": "Feature",
+            "geometry":
+                {
+                "type": "Point",
+                "coordinates": [value.long, value.lat] 
+                },
+            "properties": {
+                "id": key,
+                "park_count": value.park_count,
+                "size_index": value.size_index,
+                "rating_index": value.rating_index
+            }
+        }
+        geojson_dict["features"].append(feature)
+
+
+    # Save to a GeoJSON file
+    with open(DATA_DIR / "housing_data_index.geojson", "w") as f:
+        json.dump(geojson_dict, f, indent=4)
+
+
+    
+
+
+
+
 
 
 ################# FOR PULLING MORE REVIEWS:
 ## OUTPUT FILE OF PARKS WITHOUT REVIEWS
 ## paste into ipython3
-parks_dict = create_parks_dict(parks)
+# parks_dict = create_parks_dict(parks)
 
-parks_lst = []
-with open("index/parks_without_reviews.json", "w") as f:
-    for key, value in parks_dict.items():
-        if value.rating == 0:
-            parks_lst.append({
-                "id": key,
-                "name": value.name,
-                "centroid": {"type": "Point", "coordinates": \
-                    [value.park_polygon.centroid.x, value.park_polygon.centroid.y]}
-            })
-        else:
-            continue
+# parks_lst = []
+# with open("index/parks_without_reviews.json", "w") as f:
+#     for key, value in parks_dict.items():
+#         if value.rating == 0:
+#             parks_lst.append({
+#                 "id": key,
+#                 "name": value.name,
+#                 "centroid": {"type": "Point", "coordinates": \
+#                     [value.park_polygon.centroid.x, value.park_polygon.centroid.y]}
+#             })
+#         else:
+#             continue
     
-    json.dump(parks_lst, f, indent=4)
+#     json.dump(parks_lst, f, indent=4)
     
     
-count = 0
-for key, value in parks_dict.items():
-    if value.rating == 0:
-        count += 1
+# count = 0
+# for key, value in parks_dict.items():
+#     if value.rating == 0:
+#         count += 1
             
