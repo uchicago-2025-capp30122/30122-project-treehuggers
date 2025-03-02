@@ -2,6 +2,9 @@ import json
 from shapely.geometry import shape
 from shapely.ops import unary_union
 import networkx as nx
+from pathlib import Path
+
+DATA_DIR = Path(__file__).parent.parent / "data"
 
 def load_geojson(filepath):
     """
@@ -250,8 +253,8 @@ def main():
     Execute the complete park cleaning and merging process.
     """
 
-    file_path = "/Users/gracekluender/CAPP-122/30122-project-treehuggers/data/uncleaned_park_polygons.geojson"
-    output_path = "/Users/gracekluender/CAPP-122/30122-project-treehuggers/data/cleaned_park_polygons.geojson" 
+    file_path = DATA_DIR / "uncleaned_park_polygons.geojson"
+    output_path = DATA_DIR / "cleaned_park_polygons.geojson" 
 
     features = load_geojson(file_path)
 
@@ -260,16 +263,16 @@ def main():
 
     # retrieve intersection graph, list of unnamed parks to remove, list of intersecting named parks to review
     intersection_graph, unnameds_to_remove, check_containment_parks = handle_unnamed_parks(standardized_features)
-    # merge unnamed park clusters & update features list accordingly
 
+    # extract list of named parks to remove
     named_parks_to_remove = check_park_containment(check_containment_parks)
 
+    # merge unnamed park clusters & update features list accordingly
     updated_features = merge_unnamed_park_clusters(features, intersection_graph, unnameds_to_remove, named_parks_to_remove)
 
     # create cleaned parks GeoJSON file
     save_geojson(updated_features, output_path)
     print(f"Chicago park data has been cleaned and saved to {output_path}!")
-
 
 
 if __name__ == "__main__":
