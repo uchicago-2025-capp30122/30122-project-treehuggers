@@ -1,6 +1,3 @@
-# We need to see if we have intersecting polygons/duplicates
-# as a result of using multiple tags per park.
-
 import json
 from shapely.geometry import shape
 from shapely.ops import unary_union
@@ -8,19 +5,29 @@ import networkx as nx
 
 def load_geojson(filepath):
     """
-    Loads GeoJSON data from a file and returns the list of parks
+    Loads GeoJSON data from a file and returns the list of park features.
+
+    Args:
+        filepath (str): Path to the GeoJSON file
+    
+    Returns:
+        list: A list of GeoJSON features.
     """
     with open(filepath, "r") as f:
         data = json.load(f)
         features = data["features"]
+
     return features
 
 
 def standardize_unnamed_parks(features):
     """
+    Standardizes names for unnamed parks in the feature list. 
+
     If a park is missing a name, this function sets the park's name to 
-    "Unnamed Park(ID: {id})"
+    "Unnamed Park"
     """
+    
     for feature in features:
         if not feature["properties"].get("name"):
             id = feature["properties"].get("id", "Unknown ID")
@@ -88,7 +95,9 @@ def handle_unnamed_parks(features):
     return G, unnameds_to_remove, check_containment_parks
 
 def create_merged_feature(geometry):
-    """Creates a new GeoJSON feature for the merged unnamed parks."""
+    """
+    Creates a new GeoJSON feature for the merged unnamed parks.
+    """
 
     return {
         "type": "Feature",
@@ -105,9 +114,15 @@ def create_merged_feature(geometry):
 
 def check_park_containment(check_containment_parks):
     """
+    This function checks all intersecting named parks to see if either geometry
+    is fully contained within the other. If one is, it is added to a list of 
+    parks to remove from the data set.
 
+    The list of named_parks_to_remove is initialized with a set of park ids that 
+    should be captured by this function but are not due to miniscule differences
+    in their boundary coordinates. So this function handles some manual cleaning.
     """
-    named_parks_to_remove = []
+    named_parks_to_remove = ['242304191', '747168477', '747168489', '747184016', '747184053', '860267019']
 
     for feature1, feature2 in check_containment_parks:
         id1, name1, geom1 = get_feature_info(feature1)
@@ -158,7 +173,7 @@ def merge_unnamed_park_clusters(features, graph, unnameds_to_remove, named_parks
                 # for each park ID in the cluster, find the corresponding feature in the original features list
                 if feature["properties"].get("id") == park_id:
                     # if match found, add geometry to cluster_geometries
-                    geometry = feature["geometry"]
+                 #   geometry = feature["geometry"]
                     cluster_geometries.append(shape(feature["geometry"]))
                     # add park id to merged_ids if merged with other park(s) so
                     # that we can remove them from features list
@@ -171,8 +186,6 @@ def merge_unnamed_park_clusters(features, graph, unnameds_to_remove, named_parks
         # create a new merged feature and append it to the merged_features return list
         merged_features.append(create_merged_feature(merged_geometry))
 
-    # add features that aren't in the unnameds_to_remove
-
     # keep only features that weren't merged
     remaining_features = [feature for feature in features
                          if feature["properties"].get("id") not in merged_ids and feature["properties"].get("id") not in unnameds_to_remove and feature["properties"].get("id") not in named_parks_to_remove]
@@ -182,19 +195,13 @@ def merge_unnamed_park_clusters(features, graph, unnameds_to_remove, named_parks
 
     return remaining_features
 
+
 def save_geojson(features, output_file_path):
-    """
-    Save new features list to a cleaned_parks_polygons.geojson file.
-    with open(output_file_path, "w") as f:
-        # convert the features list into a GeoJSON FeatureCollection
-        json.dump({"type": "FeatureCollection", "features": features}, f, indent=4)
-    
-    print("After cleaning, we have", len(features), "parks")
-    """
     """
     Save new features list to a cleaned_parks_polygons.geojson file
     with CRS and matching the format of the uncleaned data.
     """
+
     geojson_data = {
         "type": "FeatureCollection",
         "name": "cleaned_park_polygons",
@@ -213,7 +220,9 @@ def save_geojson(features, output_file_path):
     print("After cleaning, we have", len(features), "parks")
 
 def main():
-    """Run altogether to clean and merge unnamed park polygons."""
+    """
+    Run altogether to clean and merge unnamed park polygons.
+    """
 
     file_path = "/Users/gracekluender/CAPP-122/30122-project-treehuggers/data/uncleaned_park_polygons.geojson"
     output_path = "/Users/gracekluender/CAPP-122/30122-project-treehuggers/data/cleaned_park_polygons.geojson" 
@@ -229,13 +238,11 @@ def main():
 
     named_parks_to_remove = check_park_containment(check_containment_parks)
 
-    remaining_intersections = [[(feature1["properties"].get("id"), feature1["properties"].get("name")) ,(feature2["properties"].get("id"), feature2["properties"].get("name"))] for feature1, feature2 in check_containment_parks if feature1["properties"].get("id") not in named_parks_to_remove and feature2["properties"].get("id") not in named_parks_to_remove]
-
     updated_features = merge_unnamed_park_clusters(features, intersection_graph, unnameds_to_remove, named_parks_to_remove)
 
     # create cleaned parks GeoJSON file
     save_geojson(updated_features, output_path)
-    print(f"Unnamed park clusters merged and saved to {output_path}!")
+    print(f"Chicago park data has been cleaned and saved to {output_path}!")
 
 
 
