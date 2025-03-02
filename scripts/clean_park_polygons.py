@@ -30,8 +30,7 @@ def standardize_unnamed_parks(features):
     
     for feature in features:
         if not feature["properties"].get("name"):
-            id = feature["properties"].get("id", "Unknown ID")
-            feature["properties"]["name"] = ("Unnamed Park", id)
+            feature["properties"]["name"] = ("Unnamed Park")
 
     return features
 
