@@ -22,6 +22,9 @@ class HousingTuple(NamedTuple):
 
 
 REMOVE_WORDS = ["Park", "park"]
+MAX_SIZE = 0.06979516506749803
+MAX_RATING = 0.3166132156375893
+
 DATA_DIR = Path(__file__).parent.parent / 'data'
 
 ##############################
@@ -34,7 +37,7 @@ parks = gpd.read_file(DATA_DIR/"cleaned_park_polygons.geojson")
 housing = gpd.read_file(DATA_DIR/"housing.geojson")
 
 # yelp and google ratings
-with open(DATA_DIR/"yelp/combined_reviews_clean.json", "r") as f:
+with open(DATA_DIR/"combined_reviews_buffered_50.geojson", "r") as f:
     ratings = json.load(f)
 
     
@@ -122,21 +125,22 @@ def match_park_ratings_name(park_name, polygon):
             park_name = park_name.replace(word, "")
             row["name"] = row["name"].replace(word, "")
         
+        # calculate similarity score
         sim_score = jaro_winkler_similarity(row["name"], park_name)
         
         # for park names such as "No. 593", require a perfect match
         if re.match(r'^No\.\s\d{3}$', park_name.strip()):
             if sim_score > 0.97:
-                print(#"SIM SCORE ABOVE THRESHOLD:", '\n',
-                  "park name from rating:", row["name"],'\n',
-                  "park name from OSM:", park_name)
+                # print(#"SIM SCORE ABOVE THRESHOLD:", '\n',
+                #   "park name from rating:", row["name"],'\n',
+                #   "park name from OSM:", park_name)
                 matching_rows.append(row)
                 
         # for all other parks, only require match threshold of 0.9
         elif sim_score > 0.9:
-            print(#"SIM SCORE ABOVE THRESHOLD:", '\n',
-                "park name from rating:", row["name"],'\n',
-                "park name from OSM:", park_name)
+            # print(#"SIM SCORE ABOVE THRESHOLD:", '\n',
+            #     "park name from rating:", row["name"],'\n',
+            #     "park name from OSM:", park_name)
             matching_rows.append(row)
     
     park_tuple = calculate_park_rating(matching_rows, polygon)
@@ -152,15 +156,6 @@ def create_parks_dict(parks):
     """
     parks_dict = defaultdict(int)
     
-    # buffer the polygon to test match rate
-    # to check current CRS: print(parks.crs) # (should be EPSG: 4326)
-    # convert to a matric CRS (EPSG to meters)
-    # parks = parks.to_crs(epsg=3857)
-    # # apply buffer in meters
-    # parks["buffered_polygon"] = parks.geometry.buffer(200)
-    # # convert back to lat/long
-    # parks = parks.to_crs(epsg=4236)
-    
     # parks_without_names = 0 # FOR DEBUGGING; DELETE LATER
 
     for _, park in parks.iterrows():
@@ -174,9 +169,11 @@ def create_parks_dict(parks):
         
         park_tuple = match_park_ratings_point(polygon)
         
+        ### update this to check all parks on name even if review found from point
         # if reviews not found from point, use park name to match
         if park_tuple.total_reviews is None and park_name is not None:
             park_tuple = match_park_ratings_name(park_name, polygon)
+
         
         parks_dict[park["id"]] = park_tuple
         
@@ -227,15 +224,10 @@ def park_walking_distance(buffered_point, parks_data):
     polygon_id_list = []
     park_count = 0
     
-    # parks = parks.to_crs(epsg=3857)
-    # buffered_point = gpd.GeoSeries([buffered_point], crs="EPSG:4326").to_crs(epsg=3857).iloc[0]
-    # print("parks CRS:", parks.crs) # its in EPSG: 4326
-    
     # think about ways to optimize so that you don't check every park in chicago
     for _, park in parks_data.iterrows():
         polygon = park.geometry 
         polygon_id = park["id"]
-        # print("walking distance function:", polygon)
         # we can also loop through parks dictionary instead to only consider parks with reviews?
         if buffered_point.intersects(polygon):
             park_count += 1
@@ -244,25 +236,26 @@ def park_walking_distance(buffered_point, parks_data):
     return (park_count, polygon_id_list)
 
 
-def calculate_index(polygon_list, parks_dict, named_parks_no_ratings):
+def calculate_index(polygon_list, parks_dict):
     rating_index = 0
     size_index = 0
 
     for poly_id in polygon_list:
         park_tuple = parks_dict[poly_id]
         # calculate index only using park size
-        size_index += park_tuple.area
+        size_index += park_tuple.area * 100
+        ### DECIDE WHAT VALUE TO SCALE AREA BY (IF ANY VALUE)
         
         # calculate index using park reviews and size
-        rating_index += (park_tuple.area * park_tuple.rating)
+        rating_index += (park_tuple.area * 100 * park_tuple.rating)
         
         
         ##### FOR DEBUGGING #####
-        if park_tuple.name is not None and park_tuple.rating == 0:
-            named_parks_no_ratings.add(poly_id)
+        # if park_tuple.name is not None and park_tuple.rating == 0:
+        #     named_parks_no_ratings.add(poly_id)
         ##############################
 
-    return (size_index, rating_index, named_parks_no_ratings)
+    return (size_index, rating_index)
 
 
 def create_house_tuple(buffered_point, parks_dict, parks_data):
@@ -276,7 +269,7 @@ def create_house_tuple(buffered_point, parks_dict, parks_data):
     # for distance (meters): 800 meters roughly 10 min walking distance
     
     #### FOR DEBUGGING: DELETE
-    named_parks_no_ratings = set()
+    # named_parks_no_ratings = set()
     
     # check that polygon_list is not empty before proceeding
     if len(polygon_id_list) == 0:
@@ -284,12 +277,11 @@ def create_house_tuple(buffered_point, parks_dict, parks_data):
     else:
         # gather park tuples that fall within radius
         ###### delete parameter: parks_without_ratings (for debugging)
-        size_ix, rating_ix, named_parks_no_ratings = calculate_index(polygon_id_list, parks_dict, named_parks_no_ratings) #### FOR DEBUGGING: DELETE: named_parks_no_ratings
+        size_ix, rating_ix = calculate_index(polygon_id_list, parks_dict)
         house_tuple = HousingTuple(park_count=parks_buffer_count, \
             size_index=size_ix,rating_index=rating_ix)
 
-    return (house_tuple, named_parks_no_ratings) #### FOR DEBUGGING: DELETE: named_parks_no_ratings
-
+    return house_tuple
 
 
 ##############################
@@ -299,7 +291,7 @@ def create_house_tuple(buffered_point, parks_dict, parks_data):
 def create_housing_file(housing, parks_dict, distance, parks_data):
     # apply buffer to entire GeoDataFrame
     housing_project = create_buffer(housing, distance)
-    parks_dict = create_parks_dict(parks)
+    parks_dict = create_parks_dict(parks_data)
     
     # Create geoJSON dictionary
     geojson_dict = {
@@ -307,17 +299,17 @@ def create_housing_file(housing, parks_dict, distance, parks_data):
         "features": []
     }
     
-    named_parks_no_ratings_AGG = set()
+    # named_parks_no_ratings_AGG = set() # FOR DEBUGGING
     
     house_id = 1
     for _, row in housing_project.iterrows():
         buffered_point = row["geometry"]
-        house_tuple, named_parks_no_ratings = create_house_tuple(buffered_point, parks_dict, parks_data)
+        house_tuple = create_house_tuple(buffered_point, parks_dict, parks_data)
         #### FOR DEBUGGING: DELETE: named_parks_no_ratings ############
-        # print(named_parks_no_ratings)
-        if len(named_parks_no_ratings) > 0:
-            named_parks_no_ratings_AGG.update(named_parks_no_ratings)
-        ########################################
+        # # print(named_parks_no_ratings)
+        # if len(named_parks_no_ratings) > 0:
+        #     named_parks_no_ratings_AGG.update(named_parks_no_ratings)
+        # ########################################
         
 
         feature = {
@@ -330,8 +322,9 @@ def create_housing_file(housing, parks_dict, distance, parks_data):
             "properties": {
                 "id": house_id,
                 "park_count": house_tuple.park_count,
-                "size_index": house_tuple.size_index,
-                "rating_index": house_tuple.rating_index,
+                # Divide by max size and max rating to normalize index values
+                "size_index": house_tuple.size_index/MAX_SIZE,
+                "rating_index": house_tuple.rating_index/MAX_RATING,
                 "latitude": row["Latitude"],
                 "longitude": row["Longitude"]
             }
@@ -344,7 +337,7 @@ def create_housing_file(housing, parks_dict, distance, parks_data):
     with open(DATA_DIR / "housing_data_index.geojson", "w") as f:
         json.dump(geojson_dict, f, indent=4)
         
-    return named_parks_no_ratings_AGG
+    # return named_parks_no_ratings_AGG
  
     #######################################################
     ##### FOR DEBUGGING PURPOSES: see how many houses have ratings
@@ -357,6 +350,16 @@ def create_housing_file(housing, parks_dict, distance, parks_data):
     ## next tasks:
         ## normalize index: subtract mean from index and divide by SD to normalize
         ## look into houses with no reviews & very small rating index values
+
+
+def find_norm_constant():
+    housing_index = gpd.read_file("data/housing_data_index.geojson")
+    
+    MAX_SIZE = housing_index["size_index"].max()
+    MAX_RATING = housing_index["rating_index"].max()
+    
+    return (float(MAX_SIZE), float(MAX_RATING))
+
 
 ###########################
 ###### For Debugging
