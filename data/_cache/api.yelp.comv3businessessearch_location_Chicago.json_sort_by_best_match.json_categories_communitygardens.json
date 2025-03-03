@@ -536,48 +536,6 @@
    }
   },
   {
-   "id": "XI6YePsN7ajvDYAq42OiTA",
-   "alias": "bowmanville-gateway-garden-chicago",
-   "name": "Bowmanville Gateway Garden",
-   "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/CWdXCm7esaB2JFqKqd-ZoA/o.jpg",
-   "is_closed": false,
-   "url": "https://www.yelp.com/biz/bowmanville-gateway-garden-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
-   "review_count": 1,
-   "categories": [
-    {
-     "alias": "communitygardens",
-     "title": "Community Gardens"
-    }
-   ],
-   "rating": 5.0,
-   "coordinates": {
-    "latitude": 41.97922652765741,
-    "longitude": -87.67507298386647
-   },
-   "transactions": [],
-   "location": {
-    "address1": "5346 N Ravenswood Ave",
-    "address2": "",
-    "address3": null,
-    "city": "Chicago",
-    "zip_code": "60640",
-    "country": "US",
-    "state": "IL",
-    "display_address": [
-     "5346 N Ravenswood Ave",
-     "Chicago, IL 60640"
-    ]
-   },
-   "phone": "",
-   "display_phone": "",
-   "distance": 8227.575333676492,
-   "business_hours": [],
-   "attributes": {
-    "business_temp_closed": null,
-    "waitlist_reservation": null
-   }
-  },
-  {
    "id": "9kNHtSz5K99LLR4qbi1blQ",
    "alias": "greenhouse-garden-chicago",
    "name": "GreenHouse Garden",
@@ -663,6 +621,48 @@
      "is_open_now": true
     }
    ],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "XI6YePsN7ajvDYAq42OiTA",
+   "alias": "bowmanville-gateway-garden-chicago",
+   "name": "Bowmanville Gateway Garden",
+   "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/CWdXCm7esaB2JFqKqd-ZoA/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/bowmanville-gateway-garden-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 1,
+   "categories": [
+    {
+     "alias": "communitygardens",
+     "title": "Community Gardens"
+    }
+   ],
+   "rating": 5.0,
+   "coordinates": {
+    "latitude": 41.97922652765741,
+    "longitude": -87.67507298386647
+   },
+   "transactions": [],
+   "location": {
+    "address1": "5346 N Ravenswood Ave",
+    "address2": "",
+    "address3": null,
+    "city": "Chicago",
+    "zip_code": "60640",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "5346 N Ravenswood Ave",
+     "Chicago, IL 60640"
+    ]
+   },
+   "phone": "",
+   "display_phone": "",
+   "distance": 8227.575333676492,
+   "business_hours": [],
    "attributes": {
     "business_temp_closed": null,
     "waitlist_reservation": null

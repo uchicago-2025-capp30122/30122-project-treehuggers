@@ -3,46 +3,19 @@ import httpx
 import json
 import time
 from pathlib import Path
-from typing import NamedTuple
-from scripts.yelp import cache_key, FetchException
+from import_utils import cache_key, FetchException, CHICAGO_LOCATIONS
 
 DATA_DIR = Path(__file__).parent.parent / 'data'
 CACHE_DIR = DATA_DIR / "_cache"
 
-class Park(NamedTuple):
-    name: str
-    latitude: float
-    longitude: float
-    rating: float
-    review_count: int
-    source: str
-    
 try:
-    API_KEY = os.environ["API_KEY"] 
+    GOOGLE_API_KEY = os.environ["GOOGLE_API_KEY"] 
 except KeyError:
     raise Exception(
         "Please enter API Key for Google"
     )
     
-CHICAGO_LOCATIONS = [ 
-       (41.7033, -87.8980),
-       (41.7033, -87.8140),
-       (41.7033, -87.7300),
-       (41.7033, -87.6460),
-       (41.7033, -87.5620),
-       (41.8300, -87.8980),
-       (41.8300, -87.8140),
-       (41.8300, -87.7300),
-       (41.8300, -87.6460),
-       (41.8300, -87.5620),
-       (41.9567, -87.8980),
-       (41.9567, -87.8140),
-       (41.9567, -87.7300),
-       (41.9567, -87.6460),
-       (41.9567, -87.5620),
-    ]
-    
-def cached_google_get(url, kwargs: dict) -> dict:
+def cached_get_google(url, kwargs: dict) -> dict:
     '''
     Fetches API data from Google based on inputted URL and arguments
     
@@ -64,27 +37,34 @@ def cached_google_get(url, kwargs: dict) -> dict:
         return all_data_dict
     
     # Else get from Google
+    kwargs["key"] = GOOGLE_API_KEY
     all_places = []
     
+    # Loop through list of 15 locations distributed throughout Chicago
     for loc in CHICAGO_LOCATIONS:
         next_page_token = None
         for i in range(3): # Limit of 60 results per search
             
+            # Set location argument equal to lat/lon coordinates in loop 
             kwargs["location"] = f"{loc[0]},{loc[1]}"
-            kwargs["key"] = API_KEY
+            
+            # Set page token either to None or from previous httpx response
             kwargs["page_token"] = next_page_token
             
             response = httpx.get(url, params=kwargs)
             if response.status_code == 200:
+                # Extend data list with fetched results, set page token  
                 data = response.json()
                 all_places.extend(data.get("results", [])) 
                 print("Getting results", i, "for", loc)
                 next_page_token = data.get("next_page_token", None)
                 if not next_page_token: 
+                    # No more results
                     break
                 else:
                     time.sleep(10)
             else:
+                # Error fetching
                 raise FetchException(response)
             
     # Save in cache 
@@ -93,7 +73,7 @@ def cached_google_get(url, kwargs: dict) -> dict:
         json.dump(all_data_dict, f, indent=1)
     return all_data_dict
 
-def clean_google(data: dict, output_name: str):
+def clean_google(data: dict):
     '''
     Saves cleaned version of raw Google data to data directory with following:
     name, latitude, longitude, rating, review_count, source
@@ -104,6 +84,7 @@ def clean_google(data: dict, output_name: str):
     '''
     places = []
     for place in data["places"]:
+        # Keep relevant information on park location/quality
         places.append(
             {
             "name": place.get("name", "N/A"),
@@ -114,17 +95,22 @@ def clean_google(data: dict, output_name: str):
             "source": "Google"
             }
         )
-     
+    return places
+        
+def save_google(places: list[dict], output_name: str):
+    '''
+    Saves data at specified output path 
+    '''
     path = DATA_DIR / (output_name + '.json')
     with open(path, "w") as f:
         json.dump(places, f, indent=1)
-    
   
 if __name__ == "__main__":
     url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json"
     
-    for search_category in ["park", "field"]:
-        parameters = {"radius": "3590"}
+    # Run various searches to be concatenated 
+    for search_category in ["park", "field", "stadium"]:
+        parameters = {"radius": "3590"} # Roughly dividing Chicago in 15 areas
     
         # Either search using "type" or using a keyword
         if search_category == "park":
@@ -132,5 +118,7 @@ if __name__ == "__main__":
         else:
             parameters["keyword"] = search_category   
             
-        google_raw_data = cached_google_get(url, parameters)
-        clean_google(google_raw_data, "google_"+search_category)
+        google_raw_data = cached_get_google(url, parameters)
+        google_clean_data = clean_google(google_raw_data)
+        save_google(google_clean_data, "google_"+search_category)
+
