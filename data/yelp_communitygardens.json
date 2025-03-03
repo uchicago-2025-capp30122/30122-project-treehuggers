@@ -64,19 +64,19 @@
   "source": "Yelp"
  },
  {
-  "name": "Bowmanville Gateway Garden",
-  "latitude": 41.97922652765741,
-  "longitude": -87.67507298386647,
-  "rating": 5.0,
-  "review_count": 1,
-  "source": "Yelp"
- },
- {
   "name": "GreenHouse Garden",
   "latitude": 41.9015249199792,
   "longitude": -87.6725399494171,
   "rating": 0.0,
   "review_count": 0,
+  "source": "Yelp"
+ },
+ {
+  "name": "Bowmanville Gateway Garden",
+  "latitude": 41.97922652765741,
+  "longitude": -87.67507298386647,
+  "rating": 5.0,
+  "review_count": 1,
   "source": "Yelp"
  },
  {
