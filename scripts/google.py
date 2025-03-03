@@ -90,8 +90,8 @@ def clean_google(data: dict):
             "name": place.get("name", "N/A"),
             "latitude": place.get("geometry", {}).get("location", {}).get("lat", None),
             "longitude": place.get("geometry", {}).get("location", {}).get("lng", None),
-            "rating": place.get("rating", ""),
-            "review_count": place.get("user_ratings_total", ""),      
+            "rating": place.get("rating", 0),
+            "review_count": place.get("user_ratings_total", 0),      
             "source": "Google"
             }
         )

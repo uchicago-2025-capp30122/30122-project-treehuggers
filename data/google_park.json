@@ -131,8 +131,8 @@
   "name": "trails for mtb",
   "latitude": 41.70665709999999,
   "longitude": -87.8948817,
-  "rating": "",
-  "review_count": "",
+  "rating": 0,
+  "review_count": 0,
   "source": "Google"
  },
  {
@@ -291,8 +291,8 @@
   "name": "trails for mtb",
   "latitude": 41.70665709999999,
   "longitude": -87.8948817,
-  "rating": "",
-  "review_count": "",
+  "rating": 0,
+  "review_count": 0,
   "source": "Google"
  },
  {
@@ -451,8 +451,8 @@
   "name": "trails for mtb",
   "latitude": 41.70665709999999,
   "longitude": -87.8948817,
-  "rating": "",
-  "review_count": "",
+  "rating": 0,
+  "review_count": 0,
   "source": "Google"
  },
  {
@@ -595,16 +595,16 @@
   "name": "Glacier Park",
   "latitude": 41.7082708,
   "longitude": -87.8123243,
-  "rating": "",
-  "review_count": "",
+  "rating": 0,
+  "review_count": 0,
   "source": "Google"
  },
  {
   "name": "Buffalo Woods South",
   "latitude": 41.70836639999999,
   "longitude": -87.8208379,
-  "rating": "",
-  "review_count": "",
+  "rating": 0,
+  "review_count": 0,
   "source": "Google"
  },
  {
@@ -635,8 +635,8 @@
   "name": "Moraine soccer field",
   "latitude": 41.69153499999999,
   "longitude": -87.8284498,
-  "rating": "",
-  "review_count": "",
+  "rating": 0,
+  "review_count": 0,
   "source": "Google"
  },
  {
@@ -755,16 +755,16 @@
   "name": "Glacier Park",
   "latitude": 41.7082708,
   "longitude": -87.8123243,
-  "rating": "",
-  "review_count": "",
+  "rating": 0,
+  "review_count": 0,
   "source": "Google"
  },
  {
   "name": "Buffalo Woods South",
   "latitude": 41.70836639999999,
   "longitude": -87.8208379,
-  "rating": "",
-  "review_count": "",
+  "rating": 0,
+  "review_count": 0,
   "source": "Google"
  },
  {
@@ -795,8 +795,8 @@
   "name": "Moraine soccer field",
   "latitude": 41.69153499999999,
   "longitude": -87.8284498,
-  "rating": "",
-  "review_count": "",
+  "rating": 0,
+  "review_count": 0,
   "source": "Google"
  },
  {
@@ -915,16 +915,16 @@
   "name": "Glacier Park",
   "latitude": 41.7082708,
   "longitude": -87.8123243,
-  "rating": "",
-  "review_count": "",
+  "rating": 0,
+  "review_count": 0,
   "source": "Google"
  },
  {
   "name": "Buffalo Woods South",
   "latitude": 41.70836639999999,
   "longitude": -87.8208379,
-  "rating": "",
-  "review_count": "",
+  "rating": 0,
+  "review_count": 0,
   "source": "Google"
  },
  {
@@ -955,8 +955,8 @@
   "name": "Moraine soccer field",
   "latitude": 41.69153499999999,
   "longitude": -87.8284498,
-  "rating": "",
-  "review_count": "",
+  "rating": 0,
+  "review_count": 0,
   "source": "Google"
  },
  {
@@ -1107,8 +1107,8 @@
   "name": "Pie Field",
   "latitude": 41.6958169,
   "longitude": -87.7369801,
-  "rating": "",
-  "review_count": "",
+  "rating": 0,
+  "review_count": 0,
   "source": "Google"
  },
  {
@@ -1267,8 +1267,8 @@
   "name": "Pie Field",
   "latitude": 41.6958169,
   "longitude": -87.7369801,
-  "rating": "",
-  "review_count": "",
+  "rating": 0,
+  "review_count": 0,
   "source": "Google"
  },
  {
@@ -1427,8 +1427,8 @@
   "name": "Pie Field",
   "latitude": 41.6958169,
   "longitude": -87.7369801,
-  "rating": "",
-  "review_count": "",
+  "rating": 0,
+  "review_count": 0,
   "source": "Google"
  },
  {
@@ -2019,8 +2019,8 @@
   "name": "Park No. 583",
   "latitude": 41.71147990000001,
   "longitude": -87.552694,
-  "rating": "",
-  "review_count": "",
+  "rating": 0,
+  "review_count": 0,
   "source": "Google"
  },
  {
@@ -2179,8 +2179,8 @@
   "name": "Park No. 583",
   "latitude": 41.71147990000001,
   "longitude": -87.552694,
-  "rating": "",
-  "review_count": "",
+  "rating": 0,
+  "review_count": 0,
   "source": "Google"
  },
  {
@@ -2339,8 +2339,8 @@
   "name": "Park No. 583",
   "latitude": 41.71147990000001,
   "longitude": -87.552694,
-  "rating": "",
-  "review_count": "",
+  "rating": 0,
+  "review_count": 0,
   "source": "Google"
  },
  {
@@ -3467,8 +3467,8 @@
   "name": "Malinalli Garden",
   "latitude": 41.840504,
   "longitude": -87.7185949,
-  "rating": "",
-  "review_count": "",
+  "rating": 0,
+  "review_count": 0,
   "source": "Google"
  },
  {
@@ -3483,16 +3483,16 @@
   "name": "Esperanza Garden",
   "latitude": 41.8449223,
   "longitude": -87.7307022,
-  "rating": "",
-  "review_count": "",
+  "rating": 0,
+  "review_count": 0,
   "source": "Google"
  },
  {
   "name": "Rico Rose Garden",
   "latitude": 41.8449938,
   "longitude": -87.72811569999999,
-  "rating": "",
-  "review_count": "",
+  "rating": 0,
+  "review_count": 0,
   "source": "Google"
  },
  {
@@ -3627,8 +3627,8 @@
   "name": "Malinalli Garden",
   "latitude": 41.840504,
   "longitude": -87.7185949,
-  "rating": "",
-  "review_count": "",
+  "rating": 0,
+  "review_count": 0,
   "source": "Google"
  },
  {
@@ -3643,16 +3643,16 @@
   "name": "Esperanza Garden",
   "latitude": 41.8449223,
   "longitude": -87.7307022,
-  "rating": "",
-  "review_count": "",
+  "rating": 0,
+  "review_count": 0,
   "source": "Google"
  },
  {
   "name": "Rico Rose Garden",
   "latitude": 41.8449938,
   "longitude": -87.72811569999999,
-  "rating": "",
-  "review_count": "",
+  "rating": 0,
+  "review_count": 0,
   "source": "Google"
  },
  {
@@ -3787,8 +3787,8 @@
   "name": "Malinalli Garden",
   "latitude": 41.840504,
   "longitude": -87.7185949,
-  "rating": "",
-  "review_count": "",
+  "rating": 0,
+  "review_count": 0,
   "source": "Google"
  },
  {
@@ -3803,16 +3803,16 @@
   "name": "Esperanza Garden",
   "latitude": 41.8449223,
   "longitude": -87.7307022,
-  "rating": "",
-  "review_count": "",
+  "rating": 0,
+  "review_count": 0,
   "source": "Google"
  },
  {
   "name": "Rico Rose Garden",
   "latitude": 41.8449938,
   "longitude": -87.72811569999999,
-  "rating": "",
-  "review_count": "",
+  "rating": 0,
+  "review_count": 0,
   "source": "Google"
  },
  {
@@ -4443,24 +4443,24 @@
   "name": "Sounding Bronzeville Gathering Space",
   "latitude": 41.8165197,
   "longitude": -87.5952823,
-  "rating": "",
-  "review_count": "",
+  "rating": 0,
+  "review_count": 0,
   "source": "Google"
  },
  {
   "name": "Harsh Park",
   "latitude": 41.8139593,
   "longitude": -87.595415,
-  "rating": "",
-  "review_count": "",
+  "rating": 0,
+  "review_count": 0,
   "source": "Google"
  },
  {
   "name": "Holly Park",
   "latitude": 41.8204886,
   "longitude": -87.6032859,
-  "rating": "",
-  "review_count": "",
+  "rating": 0,
+  "review_count": 0,
   "source": "Google"
  },
  {
@@ -4619,8 +4619,8 @@
   "name": "Gazebo",
   "latitude": 41.95128749999999,
   "longitude": -87.87538099999999,
-  "rating": "",
-  "review_count": "",
+  "rating": 0,
+  "review_count": 0,
   "source": "Google"
  },
  {
@@ -4779,8 +4779,8 @@
   "name": "Gazebo",
   "latitude": 41.95128749999999,
   "longitude": -87.87538099999999,
-  "rating": "",
-  "review_count": "",
+  "rating": 0,
+  "review_count": 0,
   "source": "Google"
  },
  {
@@ -4939,8 +4939,8 @@
   "name": "Gazebo",
   "latitude": 41.95128749999999,
   "longitude": -87.87538099999999,
-  "rating": "",
-  "review_count": "",
+  "rating": 0,
+  "review_count": 0,
   "source": "Google"
  },
  {
@@ -5091,16 +5091,16 @@
   "name": "Dunning Community Gardens Area",
   "latitude": 41.952853,
   "longitude": -87.7908961,
-  "rating": "",
-  "review_count": "",
+  "rating": 0,
+  "review_count": 0,
   "source": "Google"
  },
  {
   "name": "Shabbona Park Paved Walking Trail",
   "latitude": 41.9418428,
   "longitude": -87.8002947,
-  "rating": "",
-  "review_count": "",
+  "rating": 0,
+  "review_count": 0,
   "source": "Google"
  },
  {
@@ -5251,16 +5251,16 @@
   "name": "Dunning Community Gardens Area",
   "latitude": 41.952853,
   "longitude": -87.7908961,
-  "rating": "",
-  "review_count": "",
+  "rating": 0,
+  "review_count": 0,
   "source": "Google"
  },
  {
   "name": "Shabbona Park Paved Walking Trail",
   "latitude": 41.9418428,
   "longitude": -87.8002947,
-  "rating": "",
-  "review_count": "",
+  "rating": 0,
+  "review_count": 0,
   "source": "Google"
  },
  {
@@ -5411,16 +5411,16 @@
   "name": "Dunning Community Gardens Area",
   "latitude": 41.952853,
   "longitude": -87.7908961,
-  "rating": "",
-  "review_count": "",
+  "rating": 0,
+  "review_count": 0,
   "source": "Google"
  },
  {
   "name": "Shabbona Park Paved Walking Trail",
   "latitude": 41.9418428,
   "longitude": -87.8002947,
-  "rating": "",
-  "review_count": "",
+  "rating": 0,
+  "review_count": 0,
   "source": "Google"
  },
  {
