@@ -2,7 +2,7 @@
 Grace Kluender, Evan Fantozzi, Begum Akkas, Andrés Felipe Camacho
 
 ## Abstract
-Public spaces are highly important for human interactions and they have a direct effect on human capital development at the neighborhood level. As affordable housing is a pressing issue for expanding cities, evaluate the accesibility to public recreacional spaces around affordable housing is key. In this project we are investigating the accessibility to high-quality public
+Public spaces are highly important for human interactions and they have a direct effect on human capital development at the neighborhood level. As affordable housing is a pressing issue for expanding cities, evaluating the accesibility to public recreacional spaces around affordable housing is key. In this project we are investigating the accessibility to high-quality public
 parks and other green public spaces near affordable housing units in in Chicago.
 
 The city's Department of Housing maintains a list of affordable housing rental units, available online and updated regularly. OpenStreetMap's API provides coordinate locations of green spaces, and Yelp and Google’s APIs contain data on the ratings of some of these green spaces.
