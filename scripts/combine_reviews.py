@@ -79,7 +79,7 @@ def buffer_places(places: list[dict], buffer_distance: int):
     # Save and return 
     path = (
         DATA_DIR / 
-        str("combined_reviews_buffered.geojson_" + 
+        str("combined_reviews_buffered_" + 
         str(buffer_distance) + 
         ".geojson")
     )
