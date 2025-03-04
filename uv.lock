@@ -6,6 +6,7 @@ name = "30122-project-treehuggers"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "geojson" },
     { name = "geopandas" },
     { name = "googlemaps" },
     { name = "httpx" },
@@ -21,6 +22,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
+    { name = "geojson", specifier = ">=3.2.0" },
     { name = "geopandas", specifier = ">=1.0.1" },
     { name = "googlemaps", specifier = ">=4.10.0" },
     { name = "httpx", specifier = ">=0.28.1" },
@@ -458,6 +460,15 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/81/6d/bd5a5ccb6f4b800d38f503a20143976dbc6148f2dc3f6973752b945d533d/geoarrow-pyarrow-0.1.2.tar.gz", hash = "sha256:318b3bd42e865b7b2cd7bcb0947c4053f07be15296153c297e94150a4be7357e", size = 33427 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/60/52/40a7257780bb68234790369c56d9d6f9e9e66a8cf940720de1215d01e533/geoarrow_pyarrow-0.1.2-py3-none-any.whl", hash = "sha256:c0be5545374fde7ded77f5aef2013cf1ab0e9001cbe4e3b489f55530c6f12c45", size = 26556 },
+]
+
+[[package]]
+name = "geojson"
+version = "3.2.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/85/5a/33e761df75c732fcea94aaf01f993d823138581d10c91133da58bc231e63/geojson-3.2.0.tar.gz", hash = "sha256:b860baba1e8c6f71f8f5f6e3949a694daccf40820fa8f138b3f712bd85804903", size = 24574 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/18/67/a7fa2d650602731c90e0a86279841b4586e14228199e8c09165ba4863e29/geojson-3.2.0-py3-none-any.whl", hash = "sha256:69d14156469e13c79479672eafae7b37e2dcd19bdfd77b53f74fa8fe29910b52", size = 15040 },
 ]
 
 [[package]]
