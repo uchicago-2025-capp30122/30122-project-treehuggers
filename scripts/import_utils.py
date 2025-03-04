@@ -1,6 +1,8 @@
 import re
 import httpx
+import json
 
+# List of 15 locations spread out throughout Chicago
 CHICAGO_LOCATIONS = [ 
        (41.7033, -87.8980),
        (41.7033, -87.8140),
@@ -44,3 +46,24 @@ def cache_key(url: str, kwargs: dict) -> str:
                   +  "_" + re.sub(replace_pattern, '', value) \
                   + ".json"
     return cache_key
+
+def get_unnamed_park_locations(path) -> list[tuple]:
+    '''
+    Inputs:
+        path: location of json file with unnamed parks
+    Outputs:
+        list of tuples with latitude, longitude    
+    '''
+    all_coords = []
+    with open(path, "r") as f:
+        parks = json.load(f)
+        for park in parks:
+            coords = park.get("centroid").get("coordinates")
+            if coords:
+                print
+                lat = coords[1]
+                lon = coords[0]
+                all_coords.append((lat, lon))
+    return all_coords
+        
+    

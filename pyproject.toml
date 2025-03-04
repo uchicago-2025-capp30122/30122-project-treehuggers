@@ -1,5 +1,5 @@
 [project]
-name = "30122-project-treehuggers"
+name = "scripts"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -17,3 +17,7 @@ dependencies = [
     "pandas>=2.2.3",
     "pytest>=8.3.4",
 ]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
