@@ -40,7 +40,7 @@ housing = gpd.read_file(DATA_DIR/"housing.geojson")
 # with open(DATA_DIR/"combined_reviews_buffered_250.geojson", "r") as f:
 #     ratings = json.load(f)
     
-ratings = gpd.read_file(DATA_DIR/"combined_reviews_buffered_250.geojson")
+ratings = gpd.read_file(DATA_DIR/"combined_reviews_buffered_750.geojson")
 
     
 ##############################
@@ -68,17 +68,21 @@ def calculate_park_rating(matching_rows, polygon):
         review_count = row["review_count"]
         name = row["name"]
 
-        if review_count != "": ## get rid of this if this issue is fixed in reviews file
+        # if review_count != "": ## get rid of this if this issue is fixed in reviews file
         # Accumulate ratings and reviews
-            total_reviews += review_count
-            cumulative_rating += rating * review_count
-            park_name = name  # Last matched name (assuming one park per polygon)
+        total_reviews += review_count
+        cumulative_rating += rating * review_count
+        park_name = name  # Last matched name (assuming one park per polygon)
 
-    if total_reviews == 0:
-        total_reviews = None  # No ratings found
-    else:
+    if total_reviews != 0:
         # Compute average rating
         avg_rating = cumulative_rating / total_reviews 
+        
+    # if total_reviews == 0:
+    #     total_reviews = None  # No ratings found
+    # else:
+    #     # Compute average rating
+    #     avg_rating = cumulative_rating / total_reviews 
 
     return ParkTuple(park_polygon=polygon, name=park_name, 
                      rating=avg_rating, total_reviews=total_reviews, area=polygon.area)
@@ -292,6 +296,24 @@ def create_house_tuple(buffered_point, parks_dict, parks_data):
     return house_tuple
 
 
+
+##############################
+# Create housing dataframe
+##############################
+
+def create_housing_df(housing, parks_dict, distance, parks_data):
+    # apply buffer to entire GeoDataFrame
+    housing_project = create_buffer(housing, distance)
+    parks_dict = create_parks_dict(parks_data)
+    
+    house_id = 1
+    for _, row in housing_project.iterrows():
+        buffered_point = row["geometry"]
+        house_tuple = create_house_tuple(buffered_point, parks_dict, parks_data)
+
+        house_id += 1
+
+
 ##############################
 # Create housing file with index columns
 ##############################
@@ -359,12 +381,14 @@ def create_housing_file(housing, parks_dict, distance, parks_data):
 
 
 def calc_norm_values():
-    housing_index = gpd.read_file("data/housing_data_index.geojson")
+    housing_index = gpd.read_file(DATA_DIR/"housing_data_index.geojson")
     
     MAX_SIZE = housing_index["size_index"].max()
     MAX_RATING = housing_index["rating_index"].max()
     
-    return (float(MAX_SIZE), float(MAX_RATING))
+    AVG_RATING = housing_index["rating_index"].mean()
+    
+    return (float(MAX_SIZE), float(MAX_RATING), float(AVG_RATING))
 
 
 
@@ -398,8 +422,8 @@ def parks_without_reviews():
     
     no_reviews = 0
     no_name = 0
-    for key, value in parks_dict.items():
-        if value.total_reviews is None:
+    for _, value in parks_dict.items():
+        if value.total_reviews == 0:
             no_reviews += 1
         if value.name is None:
             no_name += 1
@@ -407,7 +431,17 @@ def parks_without_reviews():
     print("parks without reviews:", no_reviews)
     print("parks without names:", no_name)
     print("total parks:", len(parks_dict))
+    
 
+def parks_without_reviews_OSM():
+    no_name = 0
+    
+    for _, row in parks.iterrows():
+        if row["name"] == "Unnamed Park":
+            no_name += 1
+            
+    print("parks without names:", no_name)
+    print("total parks:", len(parks))
     
 
 ################# FOR PULLING MORE REVIEWS:
