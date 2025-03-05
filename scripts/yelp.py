@@ -3,7 +3,7 @@ import os
 import json
 import time 
 from pathlib import Path
-from import_utils import cache_key, FetchException
+from .import_utils import cache_key, FetchException
 
 DATA_DIR = Path(__file__).parent.parent / 'data'
 CACHE_DIR = DATA_DIR / "_cache"

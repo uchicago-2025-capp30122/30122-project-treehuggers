@@ -3,7 +3,7 @@ import httpx
 import json
 import time
 from pathlib import Path
-from import_utils import cache_key, FetchException, CHICAGO_LOCATIONS
+from .import_utils import cache_key, FetchException, CHICAGO_LOCATIONS, get_unnamed_park_locations
 
 DATA_DIR = Path(__file__).parent.parent / 'data'
 CACHE_DIR = DATA_DIR / "_cache"
@@ -14,8 +14,8 @@ except KeyError:
     raise Exception(
         "Please enter API Key for Google"
     )
-    
-def cached_get_google(url, kwargs: dict) -> dict:
+
+def cached_get_google(url, kwargs: dict, locations: list[tuple]) -> dict:
     '''
     Fetches API data from Google based on inputted URL and arguments
     
@@ -41,7 +41,7 @@ def cached_get_google(url, kwargs: dict) -> dict:
     all_places = []
     
     # Loop through list of 15 locations distributed throughout Chicago
-    for loc in CHICAGO_LOCATIONS:
+    for loc in locations:
         next_page_token = None
         for i in range(3): # Limit of 60 results per search
             
@@ -62,7 +62,7 @@ def cached_get_google(url, kwargs: dict) -> dict:
                     # No more results
                     break
                 else:
-                    time.sleep(10)
+                    time.sleep(1)
             else:
                 # Error fetching
                 raise FetchException(response)
@@ -112,13 +112,22 @@ if __name__ == "__main__":
     for search_category in ["park", "field", "stadium"]:
         parameters = {"radius": "3590"} # Roughly dividing Chicago in 15 areas
     
-        # Either search using "type" or using a keyword
+        # Either search using keyword (if park) or "type" (not park)
         if search_category == "park":
             parameters["type"] = search_category
         else:
             parameters["keyword"] = search_category   
             
-        google_raw_data = cached_get_google(url, parameters)
+        google_raw_data = cached_get_google(url, parameters, CHICAGO_LOCATIONS)
         google_clean_data = clean_google(google_raw_data)
         save_google(google_clean_data, "google_"+search_category)
 
+    # Search for additional parks specifically by location
+    path = DATA_DIR / "parks_without_reviews.json"
+    unnamed_park_locations = get_unnamed_park_locations(path)
+    
+    parameters = {"radius": "250", "keyword": "park"}
+    google_raw_data = cached_get_google(url, parameters, unnamed_park_locations)
+    google_clean_data = clean_google(google_raw_data)
+    save_google(google_clean_data, "google_additional_parks")
+    

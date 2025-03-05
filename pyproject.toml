@@ -1,10 +1,11 @@
 [project]
-name = "30122-project-treehuggers"
+name = "scripts"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "geojson>=3.2.0",
     "geopandas>=1.0.1",
     "googlemaps>=4.10.0",
     "httpx>=0.28.1",
@@ -17,3 +18,7 @@ dependencies = [
     "pandas>=2.2.3",
     "pytest>=8.3.4",
 ]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

@@ -91,17 +91,19 @@ def handle_unnamed_parks(features):
             id2, name2, geom2 = get_feature_info(feature2)
 
             if geom1.intersects(geom2) and not geom1.equals(geom2):
+              #  print(f"Intersection found: {name1} ↔ {name2}")
                 # if we have two unnamed intersecting parks, add edge
-                if name1[0] == "Unnamed Park" and name2[0] == "Unnamed Park":
-                    G.add_edge(name1, name2)
+                if name1 == "Unnamed Park" and name2 == "Unnamed Park":
+                    G.add_edge(id1, id2)
                 # if unnamed park intersects with named park, remove unnamed park
-                elif name1[0] == "Unnamed Park" and name2[0] != "Unnamed Park":
+                elif name1 == "Unnamed Park" and name2 != "Unnamed Park":
                     unnameds_to_remove.append(id1)
                 # if unnamed park intersects with named park, remove unnamed park
-                elif name1[0] != "Unnamed Park" and name2[0] == "Unnamed Park":
+                elif name1 != "Unnamed Park" and name2 == "Unnamed Park":
                     unnameds_to_remove.append(id2)
                 # if two named parks intersect, add to list to check for containment
-                elif name1[0] != "Unnamed Park" and name2[0] != "Unnamed Park":
+                elif name1 != "Unnamed Park" and name2 != "Unnamed Park":
+                    #print("adding to check_containment_parks:", feature1, feature2)
                     check_containment_parks.append((feature1, feature2))
     
     return G, unnameds_to_remove, check_containment_parks
@@ -193,12 +195,12 @@ def merge_unnamed_park_clusters(features, graph, unnameds_to_remove, named_parks
     # nx.connected_components(graph) finds all groups of interconnected parks
     # clusters is a list of sets, where each set contains the IDs of intersecting parks
     clusters = [comp for comp in nx.connected_components(graph)]
-
+    print("Cluster:", clusters)
     # for each cluster of intersecting parks, initialize an empty list to collect the geometries
     for cluster in clusters:
         cluster_geometries = []
 
-        for name, park_id in cluster:
+        for park_id in cluster:
             for feature in features:
                 # for each park ID in the cluster, find the corresponding feature in the original features list
                 if feature["properties"].get("id") == park_id:
