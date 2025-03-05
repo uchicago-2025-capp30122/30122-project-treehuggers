@@ -303,15 +303,28 @@ def create_house_tuple(buffered_point, parks_dict, parks_data):
 
 def create_housing_df(housing, parks_dict, distance, parks_data):
     # apply buffer to entire GeoDataFrame
-    housing_project = create_buffer(housing, distance)
+    housing_with_index = create_buffer(housing, distance)
     parks_dict = create_parks_dict(parks_data)
     
-    house_id = 1
-    for _, row in housing_project.iterrows():
+    for idx, row in housing_with_index.iterrows():
         buffered_point = row["geometry"]
         house_tuple = create_house_tuple(buffered_point, parks_dict, parks_data)
+        
+        housing_with_index.at[idx, "id"] = idx + 1  # Assign unique ID
+        housing_with_index.at[idx, "park_count"] = house_tuple.park_count
+        housing_with_index.at[idx, "size_index"] = house_tuple.size_index
+        housing_with_index.at[idx, "rating_index"] = house_tuple.rating_index
 
-        house_id += 1
+    return housing_with_index
+
+
+def calc_norm_values(housing_data):
+
+    max_size = housing_data["size_index"].max()
+    max_rating = housing_data["rating_index"].max()
+    avg_rating = housing_data["rating_index"].mean()
+    
+    return (float(max_size), float(max_rating), float(avg_rating))
 
 
 ##############################
@@ -319,9 +332,13 @@ def create_housing_df(housing, parks_dict, distance, parks_data):
 ##############################
 
 def create_housing_file(housing, parks_dict, distance, parks_data):
-    # apply buffer to entire GeoDataFrame
-    housing_project = create_buffer(housing, distance)
-    parks_dict = create_parks_dict(parks_data)
+
+    housing_with_index = create_housing_df(housing, parks_dict, distance, parks_data)
+    max_size, max_rating, avg_rating = calc_norm_values(housing_with_index)
+    
+    # update rows where rating index = 0
+    housing_with_index.loc[housing_with_index["rating_index"] == 0, \
+        "rating_index"] = avg_rating
     
     # Create geoJSON dictionary
     geojson_dict = {
@@ -329,19 +346,8 @@ def create_housing_file(housing, parks_dict, distance, parks_data):
         "features": []
     }
     
-    # named_parks_no_ratings_AGG = set() # FOR DEBUGGING
-    
-    house_id = 1
-    for _, row in housing_project.iterrows():
-        buffered_point = row["geometry"]
-        house_tuple = create_house_tuple(buffered_point, parks_dict, parks_data)
-        #### FOR DEBUGGING: DELETE: named_parks_no_ratings ############
-        # # print(named_parks_no_ratings)
-        # if len(named_parks_no_ratings) > 0:
-        #     named_parks_no_ratings_AGG.update(named_parks_no_ratings)
-        # ########################################
-        
-
+    # Convert housing dataframe to geoJSON format
+    for _, row in housing_with_index.iterrows():
         feature = {
             "type": "Feature",
             "geometry":
@@ -350,22 +356,74 @@ def create_housing_file(housing, parks_dict, distance, parks_data):
                 "coordinates": [row["Longitude"], row["Latitude"]] 
                 },
             "properties": {
-                "id": house_id,
-                "park_count": house_tuple.park_count,
+                "id": row["id"],
+                "park_count": row["park_count"],
                 # Normalize index values on a scale of 1 to 100
-                "size_index": 100*(house_tuple.size_index/MAX_SIZE) ,
-                "rating_index": 100*(house_tuple.rating_index/MAX_RATING),
+                "size_index": 100*(row["size_index"]/max_size),
+                "rating_index": 100*(row["rating_index"]/max_rating),
                 "latitude": row["Latitude"],
                 "longitude": row["Longitude"]
             }
         }
         geojson_dict["features"].append(feature)
-
-        house_id += 1
         
     # Save to a GeoJSON file
     with open(DATA_DIR / "housing_data_index.geojson", "w") as f:
         json.dump(geojson_dict, f, indent=4)
+
+
+##############################
+# Create housing file with index columns (OLD)
+##############################
+
+# def create_housing_file(housing, parks_dict, distance, parks_data):
+#     # apply buffer to entire GeoDataFrame
+#     housing_project = create_buffer(housing, distance)
+#     parks_dict = create_parks_dict(parks_data)
+    
+#     # Create geoJSON dictionary
+#     geojson_dict = {
+#         "type": "FeatureCollection",
+#         "features": []
+#     }
+    
+#     # named_parks_no_ratings_AGG = set() # FOR DEBUGGING
+    
+#     house_id = 1
+#     for _, row in housing_project.iterrows():
+#         buffered_point = row["geometry"]
+#         house_tuple = create_house_tuple(buffered_point, parks_dict, parks_data)
+#         #### FOR DEBUGGING: DELETE: named_parks_no_ratings ############
+#         # # print(named_parks_no_ratings)
+#         # if len(named_parks_no_ratings) > 0:
+#         #     named_parks_no_ratings_AGG.update(named_parks_no_ratings)
+#         # ########################################
+        
+
+#         feature = {
+#             "type": "Feature",
+#             "geometry":
+#                 {
+#                 "type": "Point",
+#                 "coordinates": [row["Longitude"], row["Latitude"]] 
+#                 },
+#             "properties": {
+#                 "id": house_id,
+#                 "park_count": house_tuple.park_count,
+#                 # Normalize index values on a scale of 1 to 100
+#                 "size_index": 100*(house_tuple.size_index/MAX_SIZE) ,
+#                 "rating_index": 100*(house_tuple.rating_index/MAX_RATING),
+#                 "latitude": row["Latitude"],
+#                 "longitude": row["Longitude"]
+#             }
+#         }
+#         geojson_dict["features"].append(feature)
+
+#         house_id += 1
+        
+#     # Save to a GeoJSON file
+#     with open(DATA_DIR / "housing_data_index.geojson", "w") as f:
+#         json.dump(geojson_dict, f, indent=4)
         
     # return named_parks_no_ratings_AGG
  
@@ -380,15 +438,15 @@ def create_housing_file(housing, parks_dict, distance, parks_data):
 
 
 
-def calc_norm_values():
-    housing_index = gpd.read_file(DATA_DIR/"housing_data_index.geojson")
+# def calc_norm_values():
+#     housing_index = gpd.read_file(DATA_DIR/"housing_data_index.geojson")
     
-    MAX_SIZE = housing_index["size_index"].max()
-    MAX_RATING = housing_index["rating_index"].max()
+#     MAX_SIZE = housing_index["size_index"].max()
+#     MAX_RATING = housing_index["rating_index"].max()
     
-    AVG_RATING = housing_index["rating_index"].mean()
+#     AVG_RATING = housing_index["rating_index"].mean()
     
-    return (float(MAX_SIZE), float(MAX_RATING), float(AVG_RATING))
+#     return (float(MAX_SIZE), float(MAX_RATING), float(AVG_RATING))
 
 
 
