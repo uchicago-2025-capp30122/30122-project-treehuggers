@@ -1,7 +1,7 @@
 import geopandas as gpd
 import json
 import re
-from shapely.geometry import Point, Polygon
+from shapely.geometry import Polygon
 from typing import NamedTuple
 from collections import defaultdict
 from pathlib import Path
@@ -22,9 +22,6 @@ class HousingTuple(NamedTuple):
 
 
 REMOVE_WORDS = ["Park", "park", "Garden", "Field", "Playground"]
-MAX_SIZE = 0.0006979516506749803
-MAX_RATING = 0.003162147289900898
-
 DATA_DIR = Path(__file__).parent.parent / 'data'
 
 ##############################
@@ -40,7 +37,7 @@ housing = gpd.read_file(DATA_DIR/"housing.geojson")
 # with open(DATA_DIR/"combined_reviews_buffered_250.geojson", "r") as f:
 #     ratings = json.load(f)
     
-ratings = gpd.read_file(DATA_DIR/"combined_reviews_buffered_750.geojson")
+ratings = gpd.read_file(DATA_DIR/"combined_reviews_buffered_500.geojson")
 
     
 ##############################
