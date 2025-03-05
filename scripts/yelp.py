@@ -75,11 +75,11 @@ def clean_yelp(data: dict) -> list[dict]:
     for place in data["places"]:
         places.append(
             {
-            "name": place["name"],
-            "latitude": place["coordinates"]["latitude"],
-            "longitude": place["coordinates"]["longitude"],
-            "rating": place["rating"],
-            "review_count": place["review_count"],      
+            "name": place.get("name"),
+            "latitude": place.get("coordinates",{}).get("latitude"),
+            "longitude": place.get("coordinates",{}).get("longitude"),
+            "rating": place.get("rating", 0),
+            "review_count": place.get("review_count", 0),      
             "source": "Yelp"
             }
         )
