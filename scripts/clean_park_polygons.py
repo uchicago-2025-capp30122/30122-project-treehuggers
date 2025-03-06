@@ -3,6 +3,7 @@ from shapely.geometry import shape
 from shapely.ops import unary_union
 import networkx as nx
 from pathlib import Path
+import random
 
 DATA_DIR = Path(__file__).parent.parent / "data"
 
@@ -108,12 +109,13 @@ def handle_unnamed_parks(features):
     
     return G, unnameds_to_remove, check_containment_parks
 
-def create_merged_feature(geometry):
+def create_merged_feature(geometry, merged_id):
     """
     Creates a new GeoJSON feature for merged unnamed parks.
 
     Args:
         geometry (shapely.geometry): Merged geometry object.
+        int: randomly assigned id for new merged feature
     
     Returns:
         dict: A new GeoJSON feature representing the merged park.
@@ -123,7 +125,7 @@ def create_merged_feature(geometry):
         "type": "Feature",
         "properties": {
             "element": "way",
-            "id": "merged",
+            "id": merged_id,
             "ele": None,
             "leisure": "park",
             "name": "Unnamed Merged Park"
@@ -200,7 +202,7 @@ def merge_unnamed_park_clusters(features, graph, unnameds_to_remove, named_parks
     for cluster in clusters:
         cluster_geometries = []
 
-        for park_id in cluster:
+        for i, park_id in enumerate(cluster):
             for feature in features:
                 # for each park ID in the cluster, find the corresponding feature in the original features list
                 if feature["properties"].get("id") == park_id:
@@ -208,13 +210,15 @@ def merge_unnamed_park_clusters(features, graph, unnameds_to_remove, named_parks
                     cluster_geometries.append(shape(feature["geometry"]))
                     # add park id to merged_ids for removal from features list
                     merged_ids.add(park_id)
+                    # assign new random park_id to merged feature 
+                    new_id = new_id = str(random.randint(1, 100000)) 
                     # break to ensure we only remove first matching feature
                     break
 
         # unary_union merges multiple geometries into a single geometry, handling overlaps & adjacent areas
         merged_geometry = unary_union(cluster_geometries)
         # create a new merged feature and append it to the merged_features return list
-        merged_features.append(create_merged_feature(merged_geometry))
+        merged_features.append(create_merged_feature(merged_geometry, new_id))
 
     # remaining features are park ids not within merged_ids, unnameds_to_remove, or named_parks_to_remove lists
     remaining_features = [feature for feature in features
