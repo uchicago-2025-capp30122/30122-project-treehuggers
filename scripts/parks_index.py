@@ -149,7 +149,7 @@ def create_parks_dict(parks):
         park_tuple = match_park_ratings_point(polygon)
 
         # Still check all park matches on name even if a review was matched to
-        # a park based on spatial proximity
+        # a park based on spatial proximity & override previous match accordingly
         if park_name is not None:
             park_tuple = match_park_ratings_name(park_name, polygon)
 
@@ -157,6 +157,18 @@ def create_parks_dict(parks):
     
     return parks_dict
 
+def find_missing_parks(parks, parks_dict):
+    missing_parks = []
+    
+    for _, park in parks.iterrows():
+        print(park["id"])
+        if park["id"] not in parks_dict:
+            missing_parks.append(park["id"])
+            
+    return missing_parks
+            
+    
+    
 
 ##############################
 # Create housing dictionary with index values
