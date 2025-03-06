@@ -307,7 +307,7 @@ def calc_norm_values(housing_data):
 # Create housing file with index columns
 ##############################
 
-def create_housing_file(housing, parks_dict, distance, parks_data):
+def create_housing_file(housing, distance, parks_data):
     """_summary_
 
     Args:
@@ -316,6 +316,7 @@ def create_housing_file(housing, parks_dict, distance, parks_data):
         distance (_type_): _description_
         parks_data (_type_): _description_
     """
+    parks_dict = create_parks_dict(parks)
     housing_with_index = create_housing_df(housing, parks_dict, distance, parks_data)
     
     # retrieve values to normalize indexes
