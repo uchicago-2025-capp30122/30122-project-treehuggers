@@ -50,6 +50,9 @@ def park_missing_info_raw():
 
 @pytest.fixture
 def park_missing_info_clean():
+    '''
+    Expected values for cleaned park missing most information
+    '''
     return [{'name': 'Park Missing Information',
             'latitude': None,
             'longitude': None,
