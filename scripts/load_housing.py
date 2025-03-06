@@ -17,5 +17,5 @@ housing_data["geometry"] = housing_data.apply(lambda row: Point(row["Longitude"]
 housing_geo = gpd.GeoDataFrame(housing_data, geometry="geometry", crs="EPSG:4326") 
 
 # Save as a GeoJSON file
-housing_geo.to_file("housing.geojson", driver="GeoJSON")
+housing_geo.to_file(DATA_DIR/"housing.geojson", driver="GeoJSON")
 
