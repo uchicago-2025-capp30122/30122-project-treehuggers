@@ -3,17 +3,22 @@ import geopandas as gpd
 from scripts.parks_index import create_buffer, create_parks_dict
 from pathlib import Path
 
-DATA_DIR = Path(__file__).parent / 'data'
+DATA_DIR = Path(__file__).parent.parent / 'data'
 
 
 @pytest.fixture
 def housing_data():
-    housing_data = gpd.read_file(DATA_DIR/"housing.geojson")
+    housing_data = gpd.read_file(DATA_DIR/"housing_data_index.geojson")
     return housing_data
+
+@pytest.fixture
+def parks_data():
+    parks_data = gpd.read_file(DATA_DIR/"cleaned_park_polygons.geojson")
+    return parks_data
 
 
 def test_houses_without_reviews(housing_data):
-    # Ensure every rating_index value is not equal to 0
+    """Ensure rating index is never equal to 0"""
     assert (housing_data["rating_index"] != 0).all()
     
     
@@ -23,7 +28,10 @@ def test_geodataframe_crs(housing_data, distance=1000):
     assert housing.crs == "EPSG:4326", f"Expected EPSG:4326 but got {housing.crs}"
     
 
-    
-# write a test that compares length of cleaned polygons to length of create_parks_dict()
+def test_parks_dict(parks_data):
+    """Confirm all parks from raw data exist in parks dictionary"""
+    parks_dict = create_parks_dict(parks_data)
+    assert len(parks_dict) == len(parks_data), f"Expected length \
+        {len(parks_data)} but got length {len(parks_dict)}"
     
     

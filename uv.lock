@@ -1781,6 +1781,7 @@ name = "scripts"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [
+    { name = "geojson" },
     { name = "geopandas" },
     { name = "googlemaps" },
     { name = "httpx" },
@@ -1796,6 +1797,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
+    { name = "geojson", specifier = ">=3.2.0" },
     { name = "geopandas", specifier = ">=1.0.1" },
     { name = "googlemaps", specifier = ">=4.10.0" },
     { name = "httpx", specifier = ">=0.28.1" },
