@@ -58,26 +58,26 @@ def get_feature_info(feature):
     return id, name, geom
 
 
-def handle_unnamed_parks(features):
+def handle_intersecting_parks(features):
     """
-    Manages unnamed parks and their intersections with other parks. This function 
-    builds an intersection graph, identifies unnamed parks to remove, and collects
-    named park pairs to check for containment.
+    The function manages intersecting parks in three ways:
+
     - If an unnamed park intersects with another unnamed park, these parks 
-    are added as related nodes to an undirected graph, which will later be used
-    to merge these parks.
+    are added as related nodes to an undirected intersection graph, which will
+    later be used to merge these parks.
     - If an unnamed park intersects with a named park, the unnamed park is added
     to the unnameds_to_remove return list to be used for later removal.
     - If two named parks intersect, these parks will be added as a tuple to the 
-    check_containment_parks list, which will later be used to check if one of these
-    parks are fully contained within the other. 
+    check_containment_parks list, which will later be used to check if one of
+    these parks are fully contained within the other. 
 
     Args:
         features (list): List of GeoJSON features
 
     Returns:
-        tuple: Graph of unnamed park intersections, list of unnamed park IDs to
-        remove, and list of intersecting named park pairs for containment checks.
+        NetworkX Graph: Graph of unnamed park intersections
+        list: list of unnamed park IDs to remove
+        list: list of intersecting named park pairs for containment checks.
     """
     # initialize empty undirected graph
     G = nx.Graph()
@@ -152,6 +152,7 @@ def check_park_containment(check_containment_parks):
         list: IDs of named parks to remove
     """
     # initialized with hand-selected park IDs to remove
+    # these are park IDs that are missed in the cleaning due to small coordinate differences
     named_parks_to_remove = ['242304191', '747168477', '747168489', '747184016', '747184053', '860267019']
 
     for feature1, feature2 in check_containment_parks:
@@ -168,7 +169,7 @@ def check_park_containment(check_containment_parks):
     return named_parks_to_remove
 
 
-def merge_unnamed_park_clusters(features, graph, unnameds_to_remove, named_parks_to_remove):
+def get_final_features(features, graph, unnameds_to_remove, named_parks_to_remove):
     """
     This function merges intersecting unnamed parks into single features.
     By using the intersection graph, where nodes are park IDs and edges represent
@@ -196,7 +197,6 @@ def merge_unnamed_park_clusters(features, graph, unnameds_to_remove, named_parks
     # nx.connected_components(graph) finds all groups of interconnected parks
     # clusters is a list of sets, where each set contains the IDs of intersecting parks
     clusters = [comp for comp in nx.connected_components(graph)]
-    print("Cluster:", clusters)
     # for each cluster of intersecting parks, initialize an empty list to collect the geometries
     for cluster in clusters:
         cluster_geometries = []
@@ -270,13 +270,13 @@ def main():
     standardized_features = standardize_unnamed_parks(features)
 
     # retrieve intersection graph, list of unnamed parks to remove, list of intersecting named parks to review
-    intersection_graph, unnameds_to_remove, check_containment_parks = handle_unnamed_parks(standardized_features)
+    intersection_graph, unnameds_to_remove, check_containment_parks = handle_intersecting_parks(standardized_features)
 
     # extract list of named parks to remove
     named_parks_to_remove = check_park_containment(check_containment_parks)
 
     # merge unnamed park clusters & update features list accordingly
-    updated_features = merge_unnamed_park_clusters(features, intersection_graph, unnameds_to_remove, named_parks_to_remove)
+    updated_features = get_final_features(features, intersection_graph, unnameds_to_remove, named_parks_to_remove)
 
     # create cleaned parks GeoJSON file
     save_geojson(updated_features, output_path)
