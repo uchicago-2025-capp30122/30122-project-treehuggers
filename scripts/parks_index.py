@@ -82,8 +82,7 @@ def match_park_ratings_point(polygon):
     Args:
         polygon: Polygon object of a park.
 
-    Returns:
-        ParkTuple if found, None otherwise.
+    Returns: ParkTuple with ratings.
     """
     matching_rows = []
         
@@ -106,8 +105,7 @@ def match_park_ratings_name(park_name, polygon):
         park_name (str): Name of the park.
         polygon: Polygon object of the park.
 
-    Returns:
-        ParkTuple if found, None otherwise.
+    Returns: ParkTuple with ratings.
     """
     matching_rows = []
     
@@ -134,15 +132,18 @@ def match_park_ratings_name(park_name, polygon):
     return park_tuple
 
 
-def create_parks_dict(parks):
-    """_summary_
+def create_parks_dict(parks_data):
+    """
+    Create a dictionary of parks with average ratings.
+    
+    Args:
+        parks_data (geopandas dataframe): parks data
 
-    Returns:
-        _type_: _description_
+    Returns: dictionary of parks with NamedTuples as values. 
     """
     parks_dict = defaultdict(int)
 
-    for _, park in parks.iterrows():
+    for _, park in parks_data.iterrows():
         polygon = park.geometry
         park_name = park["name"]
         
@@ -157,31 +158,20 @@ def create_parks_dict(parks):
     
     return parks_dict
 
-def find_missing_parks(parks, parks_dict):
-    missing_parks = []
-    
-    for _, park in parks.iterrows():
-        print(park["id"])
-        if park["id"] not in parks_dict:
-            missing_parks.append(park["id"])
-            
-    return missing_parks
-            
-    
     
 
 ##############################
-# Create housing dictionary with index values
+# Find parks within walking distance to housing units
 ##############################
 def create_buffer(housing, distance):
-    """_summary_
+    """
+    Create buffers around each housing unit based on distance. 
 
     Args:
-        housing (_type_): _description_
-        distance (_type_): _description_
+        housing (geopandas dataframe): affordable housing data
+        distance (int): specifies buffer distnace (meters) from housing unit
 
-    Returns:
-        _type_: _description_
+    Returns: updated geopandas dataframe with buffer geometries.
     """
     # convert to a metric CRS for buffering in meters
     housing_project = housing.to_crs(epsg=3857)
@@ -196,19 +186,19 @@ def create_buffer(housing, distance):
     
 
 def park_walking_distance(buffered_point, parks_data):
-    """_summary_
+    """
+    Find parks within walking distance of housing unit.
 
     Args:
-        buffered_point (_type_): _description_
-        parks_data (_type_): _description_
+        buffered_point (Polygon): buffered radius around housing unit
+        parks_data (geopandas dataframe): parks data
 
-    Returns:
-        _type_: _description_
+    Returns: tuple containing count of parks within walking distance to unit and 
+    list of those park ids. 
     """
     polygon_id_list = []
     park_count = 0
     
-    # think about ways to optimize so that you don't check every park in chicago
     for _, park in parks_data.iterrows():
         polygon = park.geometry 
         polygon_id = park["id"]
@@ -221,14 +211,14 @@ def park_walking_distance(buffered_point, parks_data):
 
 
 def calculate_index(polygon_list, parks_dict):
-    """_summary_
+    """
+    Calculate size and rating indexes for each housing unit.
 
     Args:
-        polygon_list (_type_): _description_
-        parks_dict (_type_): _description_
+        polygon_list (lst): list of polygon ids. 
+        parks_dict (dict): dictionary containing park values (NamedTuples)
 
-    Returns:
-        _type_: _description_
+    Returns: tuple containing index values.
     """
     rating_index = 0
     size_index = 0
@@ -245,11 +235,15 @@ def calculate_index(polygon_list, parks_dict):
 
 
 def create_house_tuple(buffered_point, parks_dict, parks_data):
-    """_summary_
+    """
+    Create NamedTuple for each housing unit.
 
     Args:
+        buffered_point (Polygon): buffered radius around housing unit   
         housing (geopandas dataframe): affordable housing data
-        parks (geopandas dataframe): parks data
+        parks_data (geopandas dataframe): parks data
+        
+    Returns: NamedTuple of housing unit with index values.
     """
     parks_buffer_count, polygon_id_list = park_walking_distance(buffered_point, parks_data) 
     
@@ -267,20 +261,20 @@ def create_house_tuple(buffered_point, parks_dict, parks_data):
 
 
 ##############################
-# Create housing dataframe
+# Create housing dataframe with indexes
 ##############################
 
 def create_housing_df(housing, parks_dict, distance, parks_data):
-    """_summary_
-
+    """
+    Create updated housing dataframe with index columns.
+    
     Args:
-        housing (_type_): _description_
-        parks_dict (_type_): _description_
-        distance (_type_): _description_
-        parks_data (_type_): _description_
+        housing (geopandas dataframe): affordable housing data
+        parks_dict (dict): dictionary containing park values (NamedTuples)
+        distance (int): specifies buffer distnace (meters) from housing unit
+        parks_data (geopandas dataframe): parks data
 
-    Returns:
-        _type_: _description_
+    Returns: geopandas dataframe of housing data with indexes.
     """
     # apply buffer to entire GeoDataFrame
     housing_with_index = create_buffer(housing, distance)
@@ -298,43 +292,46 @@ def create_housing_df(housing, parks_dict, distance, parks_data):
     return housing_with_index
 
 
-def calc_norm_values(housing_data):
-    """_summary_
+def calc_norm_values(housing):
+    """
+    Calculate values to normalize indexes. 
 
     Args:
-        housing_data (_type_): _description_
+        housing (geopandas dataframe): affordable housing data
 
-    Returns:
-        _type_: _description_
+    Returns: tuple containing values to normalize index. 
     """
 
-    max_size = housing_data["size_index"].max()
-    max_rating = housing_data["rating_index"].max()
-    avg_rating = housing_data["rating_index"].mean()
+    max_size = housing["size_index"].max()
+    max_rating = housing["rating_index"].max()
+    avg_rating = housing["rating_index"].mean()
     
     return (float(max_size), float(max_rating), float(avg_rating))
 
 
 ##############################
-# Create housing file with index columns
+# Output housing file with index columns
 ##############################
 
 def create_housing_file(housing, distance, parks_data):
-    """_summary_
+    """
+    Create housing GeoJSON file with indexes. 
 
     Args:
-        housing (_type_): _description_
-        parks_dict (_type_): _description_
-        distance (_type_): _description_
-        parks_data (_type_): _description_
+        housing (geopandas dataframe): affordable housing data
+        distance (int): specifies buffer distnace (meters) from housing unit
+        parks_data (geopandas dataframe): parks data
+        
+    Returns: outputs GeoJSON file to "data" folder.
     """
+    # Create parks dictionary & updated housing dataframe
     parks_dict = create_parks_dict(parks)
     housing_with_index = create_housing_df(housing, parks_dict, distance, parks_data)
     
     # retrieve values to normalize indexes
     max_size, max_rating, avg_rating = calc_norm_values(housing_with_index)
     
-    # update rows where rating index = 0
+    # update rows where rating index = 0 with average index
     housing_with_index.loc[housing_with_index["rating_index"] == 0, \
         "rating_index"] = avg_rating
     
@@ -370,55 +367,4 @@ def create_housing_file(housing, distance, parks_data):
         json.dump(geojson_dict, f, indent=4)
 
 
-    
-
-
-###########################
-###### For Debugging
-###########################
-# housing_index = gpd.read_file("data/housing_data_index.geojson")
-
-# def houses_without_reviews(housing_index):
-#     zero_ratings = 0
-#     non_zero_ratings = 0
-#     avg_rating = 0
-    
-#     for _, row in housing_index.iterrows():
-#         if row["rating_index"] == 0:
-#             zero_ratings += 1
-#         elif row["rating_index"] != 0:
-#             non_zero_ratings += 1
-#             avg_rating += row["rating_index"]
-            
-#     print("houses with ratings:", non_zero_ratings)     
-#     print("houses without ratings:", zero_ratings)   
-#     print("average rating, excluding 0s:", avg_rating/len(housing_index))
-
-
-# def parks_without_reviews():
-#     parks_dict = create_parks_dict(parks)
-    
-#     no_reviews = 0
-#     no_name = 0
-#     for _, value in parks_dict.items():
-#         if value.total_reviews == 0:
-#             no_reviews += 1
-#         if value.name is None:
-#             no_name += 1
-            
-#     print("parks without reviews:", no_reviews)
-#     print("parks without names:", no_name)
-#     print("total parks:", len(parks_dict))
-    
-
-# def parks_without_reviews_OSM():
-#     no_name = 0
-    
-#     for _, row in parks.iterrows():
-#         if row["name"] == "Unnamed Park":
-#             no_name += 1
-            
-#     print("parks without names:", no_name)
-#     print("total parks:", len(parks))
-    
 
