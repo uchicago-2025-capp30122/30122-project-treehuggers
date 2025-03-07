@@ -1,57 +1,56 @@
 import httpx
-import os 
+import os
 import json
 import time 
 from pathlib import Path
 from .import_utils import cache_key, FetchException
 
-DATA_DIR = Path(__file__).parent.parent / 'data'
+DATA_DIR = Path(__file__).parent.parent / "data"
 CACHE_DIR = DATA_DIR / "_cache"
 
 try:
     YELP_API_KEY = f"Bearer {os.environ["YELP_API_KEY"]}" 
 except KeyError:
-    raise Exception(
-        "Please enter API Key for Yelp"
-    )
+    raise Exception("Please enter API Key for Yelp")
+
 
 def cached_get_yelp(url, kwargs: dict) -> dict:
-    '''
+    """
     Fetches API data from Yelp based on inputted URL and headers
-    
+
     Inputs:
         url: Yelp API URL
         kwargs: headers dictionary
-        
+
     Outputs:
         dictionary of raw data returned
-    '''
+    """
     key = cache_key(url, kwargs)
-    
-     # If response already in cache, return it
+
+    # If response already in cache, return it
     CACHE_DIR.mkdir(exist_ok=True, parents=True)
     path = CACHE_DIR / key
     if path.exists():
         with open(path, "r") as f:
             all_data_dict = json.load(f)
         return all_data_dict
-    
+
     # Else get from Yelp
     all_places = []
     headers = {
         "accept": "application/json",
         "Authorization": YELP_API_KEY,    
     }
-    for offset in range(0, 250, 50): # Yelp limits to 50 per call, 240 total
+    for offset in range(0, 250, 50):  # Yelp limits to 50 per call, 240 total
         kwargs["offset"] = str(offset)
         response = httpx.get(url, params=kwargs, headers=headers)
 
         if response.status_code == 200:
             data = response.json()
-            all_places.extend(data["businesses"]) 
+            all_places.extend(data["businesses"])
         else:
             raise FetchException(response)
-            
+
         time.sleep(1)
 
     # Save in cache
@@ -64,7 +63,7 @@ def clean_yelp(data: dict) -> list[dict]:
     '''
     Creates list of cleaned Yelp data dictionaries with following keys:
     name, latitude, longitude, rating, review_count, source
-    
+
     Inputs:
         data: dictionary of raw data
         
