@@ -8,7 +8,6 @@ from .import_utils import cache_key, FetchException, CHICAGO_LOCATIONS, get_unna
 DATA_DIR = Path(__file__).parent.parent / "data"
 CACHE_DIR = DATA_DIR / "_cache"
 
-<<<<<<< HEAD
 try:
     GOOGLE_API_KEY = os.environ["GOOGLE_API_KEY"] 
 except KeyError:
@@ -17,45 +16,7 @@ except KeyError:
     )
 
 def cached_get_google(url, kwargs: dict, locations: list[tuple]) -> dict:
-    '''
-=======
-
-class Park(NamedTuple):
-    name: str
-    latitude: float
-    longitude: float
-    rating: float
-    review_count: int
-    source: str
-
-
-try:
-    API_KEY = os.environ["API_KEY"]
-except KeyError:
-    raise Exception("Please enter API Key for Google")
-
-CHICAGO_LOCATIONS = [
-    (41.7033, -87.8980),
-    (41.7033, -87.8140),
-    (41.7033, -87.7300),
-    (41.7033, -87.6460),
-    (41.7033, -87.5620),
-    (41.8300, -87.8980),
-    (41.8300, -87.8140),
-    (41.8300, -87.7300),
-    (41.8300, -87.6460),
-    (41.8300, -87.5620),
-    (41.9567, -87.8980),
-    (41.9567, -87.8140),
-    (41.9567, -87.7300),
-    (41.9567, -87.6460),
-    (41.9567, -87.5620),
-]
-
-
-def cached_google_get(url, kwargs: dict) -> dict:
     """
->>>>>>> grace
     Fetches API data from Google based on inputted URL and arguments
 
     Inputs:
@@ -78,7 +39,6 @@ def cached_google_get(url, kwargs: dict) -> dict:
     # Else get from Google
     kwargs["key"] = GOOGLE_API_KEY
     all_places = []
-<<<<<<< HEAD
     
     # Loop through list of 15 locations distributed throughout Chicago
     for loc in locations:
@@ -86,12 +46,6 @@ def cached_google_get(url, kwargs: dict) -> dict:
         for i in range(3): # Limit of 60 results per search
             
             # Set location argument equal to lat/lon coordinates in loop 
-=======
-
-    for loc in CHICAGO_LOCATIONS:
-        next_page_token = None
-        for i in range(3):  # Limit of 60 results per search
->>>>>>> grace
             kwargs["location"] = f"{loc[0]},{loc[1]}"
             
             # Set page token either to None or from previous httpx response
@@ -104,12 +58,8 @@ def cached_google_get(url, kwargs: dict) -> dict:
                 all_places.extend(data.get("results", []))
                 print("Getting results", i, "for", loc)
                 next_page_token = data.get("next_page_token", None)
-<<<<<<< HEAD
                 if not next_page_token: 
                     # No more results
-=======
-                if not next_page_token:
->>>>>>> grace
                     break
                 else:
                     time.sleep(1)
@@ -123,14 +73,8 @@ def cached_google_get(url, kwargs: dict) -> dict:
         json.dump(all_data_dict, f, indent=1)
     return all_data_dict
 
-<<<<<<< HEAD
 def clean_google(data: dict):
-    '''
-=======
-
-def clean_google(data: dict, output_name: str):
     """
->>>>>>> grace
     Saves cleaned version of raw Google data to data directory with following:
     name, latitude, longitude, rating, review_count, source
 
@@ -143,7 +87,6 @@ def clean_google(data: dict, output_name: str):
         # Keep relevant information on park location/quality
         places.append(
             {
-<<<<<<< HEAD
             "name": place.get("name", "N/A"),
             "latitude": place.get("geometry", {}).get("location", {}).get("lat", None),
             "longitude": place.get("geometry", {}).get("location", {}).get("lng", None),
@@ -188,37 +131,3 @@ if __name__ == "__main__":
     google_clean_data = clean_google(google_raw_data)
     save_google(google_clean_data, "google_additional_parks")
     
-=======
-                "name": place.get("name", "N/A"),
-                "latitude": place.get("geometry", {})
-                .get("location", {})
-                .get("lat", None),
-                "longitude": place.get("geometry", {})
-                .get("location", {})
-                .get("lng", None),
-                "rating": place.get("rating", ""),
-                "review_count": place.get("user_ratings_total", ""),
-                "source": "Google",
-            }
-        )
-
-    path = DATA_DIR / (output_name + ".json")
-    with open(path, "w") as f:
-        json.dump(places, f, indent=1)
-
-
-if __name__ == "__main__":
-    url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json"
-
-    for search_category in ["park", "field"]:
-        parameters = {"radius": "3590"}
-
-        # Either search using "type" or using a keyword
-        if search_category == "park":
-            parameters["type"] = search_category
-        else:
-            parameters["keyword"] = search_category
-
-        google_raw_data = cached_google_get(url, parameters)
-        clean_google(google_raw_data, "google_" + search_category)
->>>>>>> grace
