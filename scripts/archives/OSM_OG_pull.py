@@ -39,18 +39,18 @@ out skel qt;
 """
 
 # Make the POST request to Overpass API
-response = httpx.post(overpass_url, data={'data': overpass_query}, timeout=120)
+response = httpx.post(overpass_url, data={"data": overpass_query}, timeout=120)
 
 # Check if the request was successful
 try:
-    response = httpx.post(overpass_url, data={'data': overpass_query}, timeout=120)
+    response = httpx.post(overpass_url, data={"data": overpass_query}, timeout=120)
 
     # Check if the request was successful
     if response.status_code == 200:
         data = response.json()
         with open("OSM_parks.json", "w") as f:
             json.dump(data, f, indent=1)
-        #print(data)  # Print or process the data
+        # print(data)  # Print or process the data
     else:
         print(f"Error: {response.status_code} - {response.text}")
 except httpx.RequestError as e:
