@@ -15,7 +15,6 @@ from scripts.clean_park_polygons import (
     handle_intersecting_parks,
     create_merged_feature,
     check_park_containment,
-    merge_unnamed_park_clusters,
     save_geojson,
     main
 )
