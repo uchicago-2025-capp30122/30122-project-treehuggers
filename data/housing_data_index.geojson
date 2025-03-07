@@ -31,8 +31,8 @@
             "properties": {
                 "id": 2.0,
                 "park_count": 18.0,
-                "size_index": 58.70823751959714,
-                "rating_index": 57.419951531521384,
+                "size_index": 58.757329772248355,
+                "rating_index": 57.4199515315214,
                 "latitude": 41.86987759,
                 "longitude": -87.6242687
             }
@@ -68,7 +68,7 @@
                 "id": 4.0,
                 "park_count": 4.0,
                 "size_index": 38.738541593879646,
-                "rating_index": 38.08051507793444,
+                "rating_index": 38.08051507793445,
                 "latitude": 41.84565291,
                 "longitude": -87.61781639
             }
@@ -103,7 +103,7 @@
             "properties": {
                 "id": 6.0,
                 "park_count": 18.0,
-                "size_index": 76.93750440179744,
+                "size_index": 76.93500734850272,
                 "rating_index": 77.2097578319647,
                 "latitude": 41.96576829,
                 "longitude": -87.6575472
@@ -301,7 +301,7 @@
             "properties": {
                 "id": 17.0,
                 "park_count": 18.0,
-                "size_index": 78.10665306082956,
+                "size_index": 78.10415600753483,
                 "rating_index": 77.70445801728319,
                 "latitude": 41.97416834,
                 "longitude": -87.65620794
@@ -355,7 +355,7 @@
             "properties": {
                 "id": 20.0,
                 "park_count": 8.0,
-                "size_index": 0.19501853066476882,
+                "size_index": 0.4868527381785743,
                 "rating_index": 0.16953683820752624,
                 "latitude": 41.96893506,
                 "longitude": -87.70863783
@@ -590,7 +590,7 @@
                 "id": 33.0,
                 "park_count": 0.0,
                 "size_index": 0.0,
-                "rating_index": 10.667700816210123,
+                "rating_index": 10.667700816210125,
                 "latitude": 41.75815411,
                 "longitude": -87.68810611
             }
@@ -625,8 +625,8 @@
             "properties": {
                 "id": 35.0,
                 "park_count": 5.0,
-                "size_index": 11.074479107512529,
-                "rating_index": 10.667700816210123,
+                "size_index": 11.077626784693535,
+                "rating_index": 10.667700816210125,
                 "latitude": 41.86468333,
                 "longitude": -87.69350477
             }
@@ -643,8 +643,8 @@
             "properties": {
                 "id": 36.0,
                 "park_count": 23.0,
-                "size_index": 38.31965210989885,
-                "rating_index": 37.684450473420455,
+                "size_index": 38.33319751324203,
+                "rating_index": 37.68445047342047,
                 "latitude": 41.85779292,
                 "longitude": -87.62546237
             }
@@ -661,8 +661,8 @@
             "properties": {
                 "id": 37.0,
                 "park_count": 5.0,
-                "size_index": 11.074479107512529,
-                "rating_index": 10.667700816210123,
+                "size_index": 11.077626784693535,
+                "rating_index": 10.667700816210125,
                 "latitude": 41.86642326,
                 "longitude": -87.69375381
             }
@@ -679,7 +679,7 @@
             "properties": {
                 "id": 38.0,
                 "park_count": 19.0,
-                "size_index": 78.30533944748512,
+                "size_index": 78.3028423941904,
                 "rating_index": 78.5570946633286,
                 "latitude": 41.96543743,
                 "longitude": -87.65633776
@@ -697,8 +697,8 @@
             "properties": {
                 "id": 39.0,
                 "park_count": 5.0,
-                "size_index": 11.074479107512529,
-                "rating_index": 10.667700816210123,
+                "size_index": 11.077626784693535,
+                "rating_index": 10.667700816210125,
                 "latitude": 41.86577114,
                 "longitude": -87.69274143
             }
@@ -715,7 +715,7 @@
             "properties": {
                 "id": 40.0,
                 "park_count": 11.0,
-                "size_index": 0.9379370873218001,
+                "size_index": 1.0098922383594322,
                 "rating_index": 0.40778591260984753,
                 "latitude": 41.85469028,
                 "longitude": -87.65647821
@@ -752,7 +752,7 @@
                 "id": 42.0,
                 "park_count": 2.0,
                 "size_index": 8.647083688497666,
-                "rating_index": 8.204392991119633,
+                "rating_index": 8.204392991119631,
                 "latitude": 41.8773375,
                 "longitude": -87.76423685
             }
@@ -824,7 +824,7 @@
                 "id": 46.0,
                 "park_count": 4.0,
                 "size_index": 11.069070181852364,
-                "rating_index": 10.667700816210123,
+                "rating_index": 10.667700816210125,
                 "latitude": 41.86433604,
                 "longitude": -87.69349569
             }
@@ -967,7 +967,7 @@
             "properties": {
                 "id": 54.0,
                 "park_count": 9.0,
-                "size_index": 0.6855963903931442,
+                "size_index": 0.6988536197402849,
                 "rating_index": 0.5822120109331869,
                 "latitude": 41.88380799,
                 "longitude": -87.68281702
@@ -1057,7 +1057,7 @@
             "properties": {
                 "id": 59.0,
                 "park_count": 9.0,
-                "size_index": 0.720875926270818,
+                "size_index": 0.7592918569867032,
                 "rating_index": 0.36516075656080377,
                 "latitude": 41.82792531,
                 "longitude": -87.62663572
@@ -1075,7 +1075,7 @@
             "properties": {
                 "id": 60.0,
                 "park_count": 12.0,
-                "size_index": 0.6551143058150788,
+                "size_index": 0.6582619829960868,
                 "rating_index": 0.3863326679754856,
                 "latitude": 41.87753589,
                 "longitude": -87.69706305
@@ -1111,7 +1111,7 @@
             "properties": {
                 "id": 62.0,
                 "park_count": 18.0,
-                "size_index": 1.0960974325232622,
+                "size_index": 1.101024294232515,
                 "rating_index": 0.8775967122416674,
                 "latitude": 41.89965852,
                 "longitude": -87.63446469
@@ -1291,7 +1291,7 @@
             "properties": {
                 "id": 72.0,
                 "park_count": 12.0,
-                "size_index": 0.6551143058150788,
+                "size_index": 0.6582619829960868,
                 "rating_index": 0.3863326679754856,
                 "latitude": 41.87753589,
                 "longitude": -87.69706305
@@ -1453,8 +1453,8 @@
             "properties": {
                 "id": 81.0,
                 "park_count": 5.0,
-                "size_index": 11.074479107512529,
-                "rating_index": 10.667700816210123,
+                "size_index": 11.077626784693535,
+                "rating_index": 10.667700816210125,
                 "latitude": 41.8658847,
                 "longitude": -87.69353817
             }
@@ -1562,7 +1562,7 @@
                 "id": 87.0,
                 "park_count": 3.0,
                 "size_index": 9.14281275589919,
-                "rating_index": 8.669957558810921,
+                "rating_index": 8.66995755881092,
                 "latitude": 41.88363584,
                 "longitude": -87.77205264
             }
@@ -1579,8 +1579,8 @@
             "properties": {
                 "id": 88.0,
                 "park_count": 5.0,
-                "size_index": 11.074479107512529,
-                "rating_index": 10.667700816210123,
+                "size_index": 11.077626784693535,
+                "rating_index": 10.667700816210125,
                 "latitude": 41.8657664,
                 "longitude": -87.69316184
             }
@@ -1742,7 +1742,7 @@
                 "id": 97.0,
                 "park_count": 14.0,
                 "size_index": 5.026998055959584,
-                "rating_index": 4.855848681623394,
+                "rating_index": 4.855848681623393,
                 "latitude": 41.96549759,
                 "longitude": -87.68895433
             }
@@ -1921,8 +1921,8 @@
             "properties": {
                 "id": 107.0,
                 "park_count": 5.0,
-                "size_index": 11.014877223712505,
-                "rating_index": 10.667700816210123,
+                "size_index": 11.018024900893511,
+                "rating_index": 10.667700816210125,
                 "latitude": 41.86736961,
                 "longitude": -87.70066623
             }
@@ -2047,7 +2047,7 @@
             "properties": {
                 "id": 114.0,
                 "park_count": 9.0,
-                "size_index": 1.9535867862938088,
+                "size_index": 1.9646375213909888,
                 "rating_index": 1.5321997260261622,
                 "latitude": 41.85876878,
                 "longitude": -87.66938208
@@ -2066,7 +2066,7 @@
                 "id": 115.0,
                 "park_count": 6.0,
                 "size_index": 0.024781258103819974,
-                "rating_index": 10.667700816210123,
+                "rating_index": 10.667700816210125,
                 "latitude": 41.70526978,
                 "longitude": -87.62098184
             }
@@ -2084,7 +2084,7 @@
                 "id": 116.0,
                 "park_count": 10.0,
                 "size_index": 0.9614278748564994,
-                "rating_index": 0.8390831292924514,
+                "rating_index": 0.8390831292924515,
                 "latitude": 41.90089079,
                 "longitude": -87.66757227
             }
@@ -2119,7 +2119,7 @@
             "properties": {
                 "id": 118.0,
                 "park_count": 19.0,
-                "size_index": 78.2012844644161,
+                "size_index": 78.19878741112139,
                 "rating_index": 77.67812146172666,
                 "latitude": 41.97022435,
                 "longitude": -87.6549972
@@ -2174,7 +2174,7 @@
                 "id": 121.0,
                 "park_count": 4.0,
                 "size_index": 11.069070181852364,
-                "rating_index": 10.667700816210123,
+                "rating_index": 10.667700816210125,
                 "latitude": 41.86339815,
                 "longitude": -87.69440189
             }
@@ -2191,7 +2191,7 @@
             "properties": {
                 "id": 122.0,
                 "park_count": 19.0,
-                "size_index": 78.2960985315872,
+                "size_index": 78.29360147829247,
                 "rating_index": 78.54569730398084,
                 "latitude": 41.96533937,
                 "longitude": -87.65347906
@@ -2281,8 +2281,8 @@
             "properties": {
                 "id": 127.0,
                 "park_count": 5.0,
-                "size_index": 11.074479107512529,
-                "rating_index": 10.667700816210123,
+                "size_index": 11.077626784693535,
+                "rating_index": 10.667700816210125,
                 "latitude": 41.86472904,
                 "longitude": -87.69473582
             }
@@ -2336,7 +2336,7 @@
                 "id": 130.0,
                 "park_count": 12.0,
                 "size_index": 0.7033080846949193,
-                "rating_index": 0.5199654706407837,
+                "rating_index": 0.5199654706407838,
                 "latitude": 41.90341508,
                 "longitude": -87.66997144
             }
@@ -2353,7 +2353,7 @@
             "properties": {
                 "id": 131.0,
                 "park_count": 14.0,
-                "size_index": 78.0189695333385,
+                "size_index": 78.01647248004377,
                 "rating_index": 78.29580110584877,
                 "latitude": 41.96557833,
                 "longitude": -87.64878266
@@ -2389,7 +2389,7 @@
             "properties": {
                 "id": 133.0,
                 "park_count": 7.0,
-                "size_index": 3.647758475028662,
+                "size_index": 3.665534079878172,
                 "rating_index": 3.1961206849519455,
                 "latitude": 41.77867633,
                 "longitude": -87.64613601
@@ -2461,7 +2461,7 @@
             "properties": {
                 "id": 137.0,
                 "park_count": 20.0,
-                "size_index": 78.30764532521682,
+                "size_index": 78.3051482719221,
                 "rating_index": 78.5570946633286,
                 "latitude": 41.96527256,
                 "longitude": -87.65463604
@@ -2588,7 +2588,7 @@
                 "id": 144.0,
                 "park_count": 0.0,
                 "size_index": 0.0,
-                "rating_index": 10.667700816210123,
+                "rating_index": 10.667700816210125,
                 "latitude": 41.93364805,
                 "longitude": -87.7661803
             }
@@ -2606,7 +2606,7 @@
                 "id": 145.0,
                 "park_count": 6.0,
                 "size_index": 0.024781258103819974,
-                "rating_index": 10.667700816210123,
+                "rating_index": 10.667700816210125,
                 "latitude": 41.70460868,
                 "longitude": -87.62071293
             }
@@ -2840,7 +2840,7 @@
                 "id": 158.0,
                 "park_count": 5.0,
                 "size_index": 5.31543290913647,
-                "rating_index": 5.309068230937916,
+                "rating_index": 5.309068230937914,
                 "latitude": 41.95414467,
                 "longitude": -87.68697505
             }
@@ -2894,7 +2894,7 @@
                 "id": 161.0,
                 "park_count": 17.0,
                 "size_index": 38.0715916208496,
-                "rating_index": 37.11082129528936,
+                "rating_index": 37.11082129528937,
                 "latitude": 41.81914922,
                 "longitude": -87.60016504
             }
@@ -3001,7 +3001,7 @@
             "properties": {
                 "id": 167.0,
                 "park_count": 18.0,
-                "size_index": 59.23321652347987,
+                "size_index": 59.246761926823055,
                 "rating_index": 57.946105511546605,
                 "latitude": 41.86402666,
                 "longitude": -87.62262043
@@ -3038,7 +3038,7 @@
                 "id": 169.0,
                 "park_count": 16.0,
                 "size_index": 38.0574819217587,
-                "rating_index": 37.11082129528936,
+                "rating_index": 37.11082129528937,
                 "latitude": 41.81886099,
                 "longitude": -87.59923619
             }
@@ -3074,7 +3074,7 @@
                 "id": 171.0,
                 "park_count": 0.0,
                 "size_index": 0.0,
-                "rating_index": 10.667700816210123,
+                "rating_index": 10.667700816210125,
                 "latitude": 41.93350027,
                 "longitude": -87.80644193
             }
@@ -3091,7 +3091,7 @@
             "properties": {
                 "id": 172.0,
                 "park_count": 11.0,
-                "size_index": 0.659693080304806,
+                "size_index": 0.6628407574858142,
                 "rating_index": 0.36196494709853794,
                 "latitude": 41.87698195,
                 "longitude": -87.69022214
@@ -3109,7 +3109,7 @@
             "properties": {
                 "id": 173.0,
                 "park_count": 18.0,
-                "size_index": 59.091878651274676,
+                "size_index": 59.10542405461785,
                 "rating_index": 57.81705466191384,
                 "latitude": 41.86607901,
                 "longitude": -87.62397407
@@ -3145,7 +3145,7 @@
             "properties": {
                 "id": 175.0,
                 "park_count": 5.0,
-                "size_index": 0.14324123352555848,
+                "size_index": 0.16101683837506825,
                 "rating_index": 0.03185991510034917,
                 "latitude": 41.78691549,
                 "longitude": -87.64632871
@@ -3163,7 +3163,7 @@
             "properties": {
                 "id": 176.0,
                 "park_count": 4.0,
-                "size_index": 1.344364335184591,
+                "size_index": 1.6903847367414138,
                 "rating_index": 1.2997375541434024,
                 "latitude": 41.98466628,
                 "longitude": -87.80707301
@@ -3181,7 +3181,7 @@
             "properties": {
                 "id": 177.0,
                 "park_count": 17.0,
-                "size_index": 1.558458505139584,
+                "size_index": 1.5597745482498406,
                 "rating_index": 1.0453900656291477,
                 "latitude": 41.9044877,
                 "longitude": -87.6407798
@@ -3253,7 +3253,7 @@
             "properties": {
                 "id": 181.0,
                 "park_count": 18.0,
-                "size_index": 78.20839757544647,
+                "size_index": 78.20590052215175,
                 "rating_index": 77.69161451938442,
                 "latitude": 41.97361773,
                 "longitude": -87.65478924
@@ -3344,7 +3344,7 @@
                 "id": 186.0,
                 "park_count": 1.0,
                 "size_index": 0.009027843665612647,
-                "rating_index": 10.667700816210123,
+                "rating_index": 10.667700816210125,
                 "latitude": 41.70307738,
                 "longitude": -87.62054468
             }
@@ -3469,7 +3469,7 @@
             "properties": {
                 "id": 193.0,
                 "park_count": 11.0,
-                "size_index": 1.2705148220054348,
+                "size_index": 1.30893075272132,
                 "rating_index": 0.907809726829296,
                 "latitude": 41.82906211,
                 "longitude": -87.62716568
@@ -3560,7 +3560,7 @@
                 "id": 198.0,
                 "park_count": 4.0,
                 "size_index": 11.069070181852364,
-                "rating_index": 10.667700816210123,
+                "rating_index": 10.667700816210125,
                 "latitude": 41.86412462,
                 "longitude": -87.69442467
             }
@@ -3577,7 +3577,7 @@
             "properties": {
                 "id": 199.0,
                 "park_count": 10.0,
-                "size_index": 0.6769541188183669,
+                "size_index": 0.7153700495342521,
                 "rating_index": 0.36516075656080377,
                 "latitude": 41.82719422,
                 "longitude": -87.62784358
@@ -3631,7 +3631,7 @@
             "properties": {
                 "id": 202.0,
                 "park_count": 18.0,
-                "size_index": 1.3423586729286312,
+                "size_index": 1.347285534637884,
                 "rating_index": 1.1191699157567474,
                 "latitude": 41.89690353,
                 "longitude": -87.63436122
@@ -3740,7 +3740,7 @@
                 "id": 208.0,
                 "park_count": 16.0,
                 "size_index": 38.0574819217587,
-                "rating_index": 37.11082129528936,
+                "rating_index": 37.11082129528937,
                 "latitude": 41.81881289,
                 "longitude": -87.59996595
             }
@@ -3848,7 +3848,7 @@
                 "id": 214.0,
                 "park_count": 2.0,
                 "size_index": 0.012575375961793124,
-                "rating_index": 10.667700816210123,
+                "rating_index": 10.667700816210125,
                 "latitude": 41.80820589,
                 "longitude": -87.70586474
             }
@@ -3883,7 +3883,7 @@
             "properties": {
                 "id": 216.0,
                 "park_count": 18.0,
-                "size_index": 78.23364278146718,
+                "size_index": 78.23114572817246,
                 "rating_index": 78.4907210871743,
                 "latitude": 41.9645923,
                 "longitude": -87.65250544
@@ -3920,7 +3920,7 @@
                 "id": 218.0,
                 "park_count": 2.0,
                 "size_index": 8.908410034395848,
-                "rating_index": 8.453677683250223,
+                "rating_index": 8.453677683250222,
                 "latitude": 41.88110332,
                 "longitude": -87.76830155
             }
@@ -3937,7 +3937,7 @@
             "properties": {
                 "id": 219.0,
                 "park_count": 18.0,
-                "size_index": 1.601916600025754,
+                "size_index": 1.6032326431360107,
                 "rating_index": 1.0453900656291477,
                 "latitude": 41.90360901,
                 "longitude": -87.6430754
@@ -3974,7 +3974,7 @@
                 "id": 221.0,
                 "park_count": 12.0,
                 "size_index": 0.7033080846949193,
-                "rating_index": 0.5199654706407837,
+                "rating_index": 0.5199654706407838,
                 "latitude": 41.90342906,
                 "longitude": -87.66912961
             }
@@ -4028,7 +4028,7 @@
                 "id": 224.0,
                 "park_count": 3.0,
                 "size_index": 0.011437600882183747,
-                "rating_index": 10.667700816210123,
+                "rating_index": 10.667700816210125,
                 "latitude": 41.78040369,
                 "longitude": -87.62183749
             }
@@ -4045,7 +4045,7 @@
             "properties": {
                 "id": 225.0,
                 "park_count": 3.0,
-                "size_index": 0.020656038916846642,
+                "size_index": 0.038431643766356445,
                 "rating_index": 0.012055839630852336,
                 "latitude": 41.78499449,
                 "longitude": -87.64506314
@@ -4082,7 +4082,7 @@
                 "id": 227.0,
                 "park_count": 16.0,
                 "size_index": 38.0574819217587,
-                "rating_index": 37.11082129528936,
+                "rating_index": 37.11082129528937,
                 "latitude": 41.81894603,
                 "longitude": -87.59897812
             }
@@ -4118,7 +4118,7 @@
                 "id": 229.0,
                 "park_count": 0.0,
                 "size_index": 0.0,
-                "rating_index": 10.667700816210123,
+                "rating_index": 10.667700816210125,
                 "latitude": 41.69301591,
                 "longitude": -87.62776735
             }
@@ -4172,7 +4172,7 @@
                 "id": 232.0,
                 "park_count": 10.0,
                 "size_index": 0.9614278748564994,
-                "rating_index": 0.8390831292924514,
+                "rating_index": 0.8390831292924515,
                 "latitude": 41.901559,
                 "longitude": -87.66759184
             }
@@ -4477,7 +4477,7 @@
             "properties": {
                 "id": 249.0,
                 "park_count": 20.0,
-                "size_index": 1.6597176171705192,
+                "size_index": 1.6610336602807758,
                 "rating_index": 1.3381444746338975,
                 "latitude": 41.90052524,
                 "longitude": -87.64295528
@@ -4495,7 +4495,7 @@
             "properties": {
                 "id": 250.0,
                 "park_count": 9.0,
-                "size_index": 0.6727839230966404,
+                "size_index": 0.7111998538125257,
                 "rating_index": 0.36516075656080377,
                 "latitude": 41.82720892,
                 "longitude": -87.62722672
@@ -4514,7 +4514,7 @@
                 "id": 251.0,
                 "park_count": 15.0,
                 "size_index": 38.04085932788613,
-                "rating_index": 37.09905071863815,
+                "rating_index": 37.09905071863816,
                 "latitude": 41.81886863,
                 "longitude": -87.59851524
             }
@@ -4549,7 +4549,7 @@
             "properties": {
                 "id": 253.0,
                 "park_count": 10.0,
-                "size_index": 1.2704418584617518,
+                "size_index": 1.308857789177637,
                 "rating_index": 0.9077361419160372,
                 "latitude": 41.82865019,
                 "longitude": -87.62635888
@@ -4585,7 +4585,7 @@
             "properties": {
                 "id": 255.0,
                 "park_count": 19.0,
-                "size_index": 1.6839864600726908,
+                "size_index": 1.6853025031829474,
                 "rating_index": 1.12770064260112,
                 "latitude": 41.90378958,
                 "longitude": -87.63982077
@@ -4603,7 +4603,7 @@
             "properties": {
                 "id": 256.0,
                 "park_count": 11.0,
-                "size_index": 2.6141427497572556,
+                "size_index": 2.898949425284733,
                 "rating_index": 0.8265239231705903,
                 "latitude": 41.84148167,
                 "longitude": -87.65856844
@@ -4640,7 +4640,7 @@
                 "id": 258.0,
                 "park_count": 15.0,
                 "size_index": 38.04085932788613,
-                "rating_index": 37.09905071863815,
+                "rating_index": 37.09905071863816,
                 "latitude": 41.81871188,
                 "longitude": -87.59894571
             }
@@ -4675,8 +4675,8 @@
             "properties": {
                 "id": 260.0,
                 "park_count": 6.0,
-                "size_index": 11.079118390770294,
-                "rating_index": 10.667700816210123,
+                "size_index": 11.0822660679513,
+                "rating_index": 10.667700816210125,
                 "latitude": 41.8665873,
                 "longitude": -87.69877877
             }
@@ -4730,7 +4730,7 @@
                 "id": 263.0,
                 "park_count": 7.0,
                 "size_index": 0.4394575659772238,
-                "rating_index": 0.36331435245111576,
+                "rating_index": 0.3633143524511158,
                 "latitude": 41.90876874,
                 "longitude": -87.67689152
             }
@@ -4748,7 +4748,7 @@
                 "id": 264.0,
                 "park_count": 18.0,
                 "size_index": 38.43483670255877,
-                "rating_index": 37.5187674423302,
+                "rating_index": 37.51876744233021,
                 "latitude": 41.82631731,
                 "longitude": -87.60794545
             }
@@ -4802,7 +4802,7 @@
                 "id": 267.0,
                 "park_count": 15.0,
                 "size_index": 37.91325450365433,
-                "rating_index": 37.11082129528936,
+                "rating_index": 37.11082129528937,
                 "latitude": 41.81938039,
                 "longitude": -87.59887932
             }
@@ -4819,7 +4819,7 @@
             "properties": {
                 "id": 268.0,
                 "park_count": 18.0,
-                "size_index": 1.1699636187970386,
+                "size_index": 1.1712796619072952,
                 "rating_index": 0.9563803253049248,
                 "latitude": 41.90219524,
                 "longitude": -87.63592092
@@ -4837,7 +4837,7 @@
             "properties": {
                 "id": 269.0,
                 "park_count": 19.0,
-                "size_index": 1.2243115433877028,
+                "size_index": 1.2256275864979593,
                 "rating_index": 1.0140822600821557,
                 "latitude": 41.90221192,
                 "longitude": -87.63457152
@@ -4928,7 +4928,7 @@
                 "id": 274.0,
                 "park_count": 15.0,
                 "size_index": 37.91325450365433,
-                "rating_index": 37.11082129528936,
+                "rating_index": 37.11082129528937,
                 "latitude": 41.8195725,
                 "longitude": -87.59929085
             }
@@ -5071,8 +5071,8 @@
             "properties": {
                 "id": 282.0,
                 "park_count": 5.0,
-                "size_index": 11.074479107512529,
-                "rating_index": 10.667700816210123,
+                "size_index": 11.077626784693535,
+                "rating_index": 10.667700816210125,
                 "latitude": 41.86555368,
                 "longitude": -87.69250717
             }
@@ -5126,7 +5126,7 @@
                 "id": 285.0,
                 "park_count": 2.0,
                 "size_index": 8.647083688497666,
-                "rating_index": 8.204392991119633,
+                "rating_index": 8.204392991119631,
                 "latitude": 41.87849467,
                 "longitude": -87.76494803
             }
@@ -5143,7 +5143,7 @@
             "properties": {
                 "id": 286.0,
                 "park_count": 10.0,
-                "size_index": 0.7355814440755113,
+                "size_index": 0.8075365951131434,
                 "rating_index": 0.40778591260984753,
                 "latitude": 41.85461476,
                 "longitude": -87.65132209
@@ -5215,7 +5215,7 @@
             "properties": {
                 "id": 290.0,
                 "park_count": 11.0,
-                "size_index": 1.2705148220054348,
+                "size_index": 1.30893075272132,
                 "rating_index": 0.907809726829296,
                 "latitude": 41.82901759,
                 "longitude": -87.62666295
@@ -5359,7 +5359,7 @@
             "properties": {
                 "id": 298.0,
                 "park_count": 20.0,
-                "size_index": 1.6880423585840698,
+                "size_index": 1.6893584016943262,
                 "rating_index": 1.12770064260112,
                 "latitude": 41.90298972,
                 "longitude": -87.64104289
@@ -5378,7 +5378,7 @@
                 "id": 299.0,
                 "park_count": 12.0,
                 "size_index": 22.185551825135008,
-                "rating_index": 21.41064436250206,
+                "rating_index": 21.410644362502058,
                 "latitude": 41.8868758,
                 "longitude": -87.62468519
             }
@@ -5449,7 +5449,7 @@
             "properties": {
                 "id": 303.0,
                 "park_count": 18.0,
-                "size_index": 78.26755345731878,
+                "size_index": 78.26505640402405,
                 "rating_index": 78.51935919207222,
                 "latitude": 41.96652845,
                 "longitude": -87.65171856
@@ -5503,7 +5503,7 @@
             "properties": {
                 "id": 306.0,
                 "park_count": 15.0,
-                "size_index": 1.294677015065383,
+                "size_index": 1.2996038767746358,
                 "rating_index": 1.109244509608775,
                 "latitude": 41.89599326,
                 "longitude": -87.63403819
@@ -5521,8 +5521,8 @@
             "properties": {
                 "id": 307.0,
                 "park_count": 5.0,
-                "size_index": 11.014877223712505,
-                "rating_index": 10.667700816210123,
+                "size_index": 11.018024900893511,
+                "rating_index": 10.667700816210125,
                 "latitude": 41.86736961,
                 "longitude": -87.70066623
             }
@@ -5594,7 +5594,7 @@
                 "id": 311.0,
                 "park_count": 11.0,
                 "size_index": 0.6940805671162636,
-                "rating_index": 0.5199654706407837,
+                "rating_index": 0.5199654706407838,
                 "latitude": 41.904342,
                 "longitude": -87.66779176
             }
@@ -5684,7 +5684,7 @@
                 "id": 316.0,
                 "park_count": 15.0,
                 "size_index": 75.55699970758252,
-                "rating_index": 73.25691894257778,
+                "rating_index": 73.2569189425778,
                 "latitude": 41.79857178,
                 "longitude": -87.58921454
             }
@@ -5720,7 +5720,7 @@
                 "id": 318.0,
                 "park_count": 15.0,
                 "size_index": 40.55283691120913,
-                "rating_index": 39.92956988890733,
+                "rating_index": 39.92956988890734,
                 "latitude": 41.7996338,
                 "longitude": -87.59068096
             }
@@ -5755,7 +5755,7 @@
             "properties": {
                 "id": 320.0,
                 "park_count": 17.0,
-                "size_index": 1.1328494926519164,
+                "size_index": 1.137776354361169,
                 "rating_index": 0.9087260837239698,
                 "latitude": 41.8985899,
                 "longitude": -87.63442369
@@ -5791,8 +5791,8 @@
             "properties": {
                 "id": 322.0,
                 "park_count": 5.0,
-                "size_index": 11.074479107512529,
-                "rating_index": 10.667700816210123,
+                "size_index": 11.077626784693535,
+                "rating_index": 10.667700816210125,
                 "latitude": 41.86568173,
                 "longitude": -87.69353304
             }
@@ -5864,7 +5864,7 @@
                 "id": 326.0,
                 "park_count": 4.0,
                 "size_index": 11.069070181852364,
-                "rating_index": 10.667700816210123,
+                "rating_index": 10.667700816210125,
                 "latitude": 41.86422845,
                 "longitude": -87.69442766
             }
@@ -5935,7 +5935,7 @@
             "properties": {
                 "id": 330.0,
                 "park_count": 16.0,
-                "size_index": 1.5638631428791527,
+                "size_index": 1.7269329684976704,
                 "rating_index": 0.9982438265897278,
                 "latitude": 41.90543825,
                 "longitude": -87.64798274
@@ -6007,7 +6007,7 @@
             "properties": {
                 "id": 334.0,
                 "park_count": 8.0,
-                "size_index": 0.6398776088503648,
+                "size_index": 0.67829353956625,
                 "rating_index": 0.36516075656080377,
                 "latitude": 41.82744587,
                 "longitude": -87.62694964
@@ -6061,7 +6061,7 @@
             "properties": {
                 "id": 337.0,
                 "park_count": 13.0,
-                "size_index": 2.0677060744849394,
+                "size_index": 2.1694533077995635,
                 "rating_index": 0.5142883851322971,
                 "latitude": 41.85656724,
                 "longitude": -87.65074652
@@ -6079,7 +6079,7 @@
             "properties": {
                 "id": 338.0,
                 "park_count": 11.0,
-                "size_index": 1.2705148220054348,
+                "size_index": 1.30893075272132,
                 "rating_index": 0.907809726829296,
                 "latitude": 41.83078218,
                 "longitude": -87.62679018
@@ -6097,7 +6097,7 @@
             "properties": {
                 "id": 339.0,
                 "park_count": 11.0,
-                "size_index": 0.9379370873218001,
+                "size_index": 1.0098922383594322,
                 "rating_index": 0.40778591260984753,
                 "latitude": 41.85469028,
                 "longitude": -87.65647821
@@ -6133,7 +6133,7 @@
             "properties": {
                 "id": 341.0,
                 "park_count": 18.0,
-                "size_index": 78.36003746836077,
+                "size_index": 78.35754041506605,
                 "rating_index": 78.4907210871743,
                 "latitude": 41.96375203,
                 "longitude": -87.65202468
@@ -6260,7 +6260,7 @@
                 "id": 348.0,
                 "park_count": 15.0,
                 "size_index": 38.04085932788613,
-                "rating_index": 37.09905071863815,
+                "rating_index": 37.09905071863816,
                 "latitude": 41.81857981,
                 "longitude": -87.59938372
             }
@@ -6439,7 +6439,7 @@
             "properties": {
                 "id": 358.0,
                 "park_count": 19.0,
-                "size_index": 1.6839864600726908,
+                "size_index": 1.6853025031829474,
                 "rating_index": 1.12770064260112,
                 "latitude": 41.90378958,
                 "longitude": -87.63982077
@@ -6835,7 +6835,7 @@
             "properties": {
                 "id": 380.0,
                 "park_count": 11.0,
-                "size_index": 0.6281740779221145,
+                "size_index": 0.7001292289597467,
                 "rating_index": 0.40778591260984753,
                 "latitude": 41.8551748,
                 "longitude": -87.65062753
@@ -6926,7 +6926,7 @@
                 "id": 385.0,
                 "park_count": 15.0,
                 "size_index": 37.91021085735507,
-                "rating_index": 37.11082129528936,
+                "rating_index": 37.11082129528937,
                 "latitude": 41.82035789,
                 "longitude": -87.60043601
             }
@@ -6979,8 +6979,8 @@
             "properties": {
                 "id": 388.0,
                 "park_count": 5.0,
-                "size_index": 11.074479107512529,
-                "rating_index": 10.667700816210123,
+                "size_index": 11.077626784693535,
+                "rating_index": 10.667700816210125,
                 "latitude": 41.86489079,
                 "longitude": -87.69444711
             }
@@ -7070,7 +7070,7 @@
                 "id": 393.0,
                 "park_count": 2.0,
                 "size_index": 0.00900336965216391,
-                "rating_index": 10.667700816210123,
+                "rating_index": 10.667700816210125,
                 "latitude": 41.95553133,
                 "longitude": -87.70820786
             }
@@ -7106,7 +7106,7 @@
                 "id": 395.0,
                 "park_count": 3.0,
                 "size_index": 0.015124447567526319,
-                "rating_index": 10.667700816210123,
+                "rating_index": 10.667700816210125,
                 "latitude": 41.70389075,
                 "longitude": -87.62077116
             }
@@ -7357,7 +7357,7 @@
             "properties": {
                 "id": 409.0,
                 "park_count": 19.0,
-                "size_index": 1.1565301534488954,
+                "size_index": 1.319599979067413,
                 "rating_index": 0.4925410838460164,
                 "latitude": 41.905731,
                 "longitude": -87.64964597
@@ -7376,7 +7376,7 @@
                 "id": 410.0,
                 "park_count": 2.0,
                 "size_index": 8.647083688497666,
-                "rating_index": 8.204392991119633,
+                "rating_index": 8.204392991119631,
                 "latitude": 41.87759814,
                 "longitude": -87.76461864
             }
@@ -7466,7 +7466,7 @@
                 "id": 415.0,
                 "park_count": 10.0,
                 "size_index": 40.280589160978394,
-                "rating_index": 39.667322791094186,
+                "rating_index": 39.66732279109419,
                 "latitude": 41.80226057,
                 "longitude": -87.58900435
             }
@@ -7483,7 +7483,7 @@
             "properties": {
                 "id": 416.0,
                 "park_count": 15.0,
-                "size_index": 1.1273982682574504,
+                "size_index": 1.1336411730769596,
                 "rating_index": 0.9054135200918186,
                 "latitude": 41.89680276,
                 "longitude": -87.64109007
@@ -7519,7 +7519,7 @@
             "properties": {
                 "id": 418.0,
                 "park_count": 19.0,
-                "size_index": 78.21873429774908,
+                "size_index": 78.21623724445436,
                 "rating_index": 77.69871222255728,
                 "latitude": 41.97294612,
                 "longitude": -87.65506712
@@ -7610,7 +7610,7 @@
                 "id": 423.0,
                 "park_count": 12.0,
                 "size_index": 0.7033080846949193,
-                "rating_index": 0.5199654706407837,
+                "rating_index": 0.5199654706407838,
                 "latitude": 41.9032305,
                 "longitude": -87.66797825
             }
@@ -7627,8 +7627,8 @@
             "properties": {
                 "id": 424.0,
                 "park_count": 5.0,
-                "size_index": 11.074479107512529,
-                "rating_index": 10.667700816210123,
+                "size_index": 11.077626784693535,
+                "rating_index": 10.667700816210125,
                 "latitude": 41.86488549,
                 "longitude": -87.69474071
             }
@@ -7681,7 +7681,7 @@
             "properties": {
                 "id": 427.0,
                 "park_count": 10.0,
-                "size_index": 0.6500284157538522,
+                "size_index": 0.6632856451009929,
                 "rating_index": 0.5822120109331869,
                 "latitude": 41.8828067,
                 "longitude": -87.67926811
@@ -7717,7 +7717,7 @@
             "properties": {
                 "id": 429.0,
                 "park_count": 10.0,
-                "size_index": 0.6460225745618556,
+                "size_index": 0.6491702517428637,
                 "rating_index": 0.3863326679754856,
                 "latitude": 41.87607811,
                 "longitude": -87.69715773
@@ -7736,7 +7736,7 @@
                 "id": 430.0,
                 "park_count": 0.0,
                 "size_index": 0.0,
-                "rating_index": 10.667700816210123,
+                "rating_index": 10.667700816210125,
                 "latitude": 41.92716483,
                 "longitude": -87.80621904
             }
@@ -7771,7 +7771,7 @@
             "properties": {
                 "id": 432.0,
                 "park_count": 18.0,
-                "size_index": 77.40961084888455,
+                "size_index": 77.40711379558984,
                 "rating_index": 77.68951882107442,
                 "latitude": 41.96950669,
                 "longitude": -87.65748184
@@ -7807,7 +7807,7 @@
             "properties": {
                 "id": 434.0,
                 "park_count": 9.0,
-                "size_index": 0.6137673635088012,
+                "size_index": 0.6857225145464333,
                 "rating_index": 0.40778591260984753,
                 "latitude": 41.85480194,
                 "longitude": -87.65132697
@@ -7843,7 +7843,7 @@
             "properties": {
                 "id": 436.0,
                 "park_count": 7.0,
-                "size_index": 3.647758475028662,
+                "size_index": 3.665534079878172,
                 "rating_index": 3.1961206849519455,
                 "latitude": 41.77959999,
                 "longitude": -87.64726896
@@ -8006,7 +8006,7 @@
                 "id": 445.0,
                 "park_count": 3.0,
                 "size_index": 1.7982506830116731,
-                "rating_index": 10.667700816210123,
+                "rating_index": 10.667700816210125,
                 "latitude": 41.95769221,
                 "longitude": -87.79754403
             }
@@ -8059,8 +8059,8 @@
             "properties": {
                 "id": 448.0,
                 "park_count": 13.0,
-                "size_index": 0.9978756253182931,
-                "rating_index": 0.5176444136034255,
+                "size_index": 1.2170143409031764,
+                "rating_index": 0.5176444136034256,
                 "latitude": 41.9309215,
                 "longitude": -87.68022005
             }
@@ -8078,7 +8078,7 @@
                 "id": 449.0,
                 "park_count": 4.0,
                 "size_index": 0.05625585007917619,
-                "rating_index": 10.667700816210123,
+                "rating_index": 10.667700816210125,
                 "latitude": 41.88664623,
                 "longitude": -87.69655814
             }
@@ -8131,7 +8131,7 @@
             "properties": {
                 "id": 452.0,
                 "park_count": 17.0,
-                "size_index": 77.16357818855228,
+                "size_index": 77.16489423166253,
                 "rating_index": 77.20298781154017,
                 "latitude": 41.9074932,
                 "longitude": -87.63835294
@@ -8168,7 +8168,7 @@
                 "id": 454.0,
                 "park_count": 17.0,
                 "size_index": 38.408835059443355,
-                "rating_index": 37.49421817838309,
+                "rating_index": 37.49421817838311,
                 "latitude": 41.82637057,
                 "longitude": -87.60828676
             }
@@ -8240,7 +8240,7 @@
                 "id": 458.0,
                 "park_count": 1.0,
                 "size_index": 0.0031839810071824424,
-                "rating_index": 10.667700816210123,
+                "rating_index": 10.667700816210125,
                 "latitude": 41.74972646,
                 "longitude": -87.69327334
             }
@@ -8257,7 +8257,7 @@
             "properties": {
                 "id": 459.0,
                 "park_count": 10.0,
-                "size_index": 0.528714192289832,
+                "size_index": 0.53186186947084,
                 "rating_index": 0.39897335113433785,
                 "latitude": 41.87387727,
                 "longitude": -87.69906108
@@ -8365,8 +8365,8 @@
             "properties": {
                 "id": 465.0,
                 "park_count": 5.0,
-                "size_index": 11.074479107512529,
-                "rating_index": 10.667700816210123,
+                "size_index": 11.077626784693535,
+                "rating_index": 10.667700816210125,
                 "latitude": 41.86484279,
                 "longitude": -87.69350892
             }
@@ -8402,7 +8402,7 @@
                 "id": 467.0,
                 "park_count": 8.0,
                 "size_index": 0.13081288246258752,
-                "rating_index": 10.667700816210123,
+                "rating_index": 10.667700816210125,
                 "latitude": 41.88783198,
                 "longitude": -87.65520686
             }
@@ -8581,7 +8581,7 @@
             "properties": {
                 "id": 477.0,
                 "park_count": 12.0,
-                "size_index": 1.5429115904142623,
+                "size_index": 1.553962325511442,
                 "rating_index": 1.0950143315287288,
                 "latitude": 41.85603287,
                 "longitude": -87.66936057
@@ -8707,7 +8707,7 @@
             "properties": {
                 "id": 484.0,
                 "park_count": 18.0,
-                "size_index": 1.093404438589933,
+                "size_index": 1.1066616679370735,
                 "rating_index": 0.7947616970479129,
                 "latitude": 41.87812559,
                 "longitude": -87.67915413
@@ -8762,7 +8762,7 @@
                 "id": 487.0,
                 "park_count": 16.0,
                 "size_index": 38.04292028825182,
-                "rating_index": 37.09905071863815,
+                "rating_index": 37.09905071863816,
                 "latitude": 41.81813912,
                 "longitude": -87.59936268
             }
@@ -8780,7 +8780,7 @@
                 "id": 488.0,
                 "park_count": 10.0,
                 "size_index": 39.50259446344197,
-                "rating_index": 38.39569162087713,
+                "rating_index": 38.395691620877145,
                 "latitude": 41.8457959,
                 "longitude": -87.62040337
             }
@@ -8815,7 +8815,7 @@
             "properties": {
                 "id": 490.0,
                 "park_count": 7.0,
-                "size_index": 0.5710313829769591,
+                "size_index": 0.6094473136928444,
                 "rating_index": 0.2252560832606129,
                 "latitude": 41.82865048,
                 "longitude": -87.62185747
@@ -8852,7 +8852,7 @@
                 "id": 492.0,
                 "park_count": 4.0,
                 "size_index": 11.069070181852364,
-                "rating_index": 10.667700816210123,
+                "rating_index": 10.667700816210125,
                 "latitude": 41.86452207,
                 "longitude": -87.69350059
             }
@@ -8887,7 +8887,7 @@
             "properties": {
                 "id": 494.0,
                 "park_count": 7.0,
-                "size_index": 0.5613823245641101,
+                "size_index": 0.5746395539112508,
                 "rating_index": 0.5156995994936278,
                 "latitude": 41.8849038,
                 "longitude": -87.67585077
@@ -9085,8 +9085,8 @@
             "properties": {
                 "id": 505.0,
                 "park_count": 5.0,
-                "size_index": 11.074479107512529,
-                "rating_index": 10.667700816210123,
+                "size_index": 11.077626784693535,
+                "rating_index": 10.667700816210125,
                 "latitude": 41.86448798,
                 "longitude": -87.69443508
             }
@@ -9247,7 +9247,7 @@
             "properties": {
                 "id": 514.0,
                 "park_count": 6.0,
-                "size_index": 1.1673901521046521,
+                "size_index": 1.178440887201832,
                 "rating_index": 1.0950143315287288,
                 "latitude": 41.8586567,
                 "longitude": -87.67659689
@@ -9319,7 +9319,7 @@
             "properties": {
                 "id": 518.0,
                 "park_count": 20.0,
-                "size_index": 59.261162123970244,
+                "size_index": 59.27470752731343,
                 "rating_index": 57.96274227370306,
                 "latitude": 41.86132451,
                 "longitude": -87.62554226
@@ -9337,7 +9337,7 @@
             "properties": {
                 "id": 519.0,
                 "park_count": 17.0,
-                "size_index": 1.4599027186645221,
+                "size_index": 1.4612187617747785,
                 "rating_index": 0.9695630687680928,
                 "latitude": 41.90694652,
                 "longitude": -87.64074187
@@ -9373,7 +9373,7 @@
             "properties": {
                 "id": 521.0,
                 "park_count": 19.0,
-                "size_index": 1.6839864600726908,
+                "size_index": 1.6853025031829474,
                 "rating_index": 1.12770064260112,
                 "latitude": 41.90364882,
                 "longitude": -87.64046322
@@ -9553,7 +9553,7 @@
             "properties": {
                 "id": 531.0,
                 "park_count": 6.0,
-                "size_index": 1.1659747276650787,
+                "size_index": 1.1770254627622585,
                 "rating_index": 1.0950143315287288,
                 "latitude": 41.85590751,
                 "longitude": -87.67943292
@@ -9571,7 +9571,7 @@
             "properties": {
                 "id": 532.0,
                 "park_count": 18.0,
-                "size_index": 1.2818427250048205,
+                "size_index": 1.283158768115077,
                 "rating_index": 1.0171599858589635,
                 "latitude": 41.8978795,
                 "longitude": -87.64283814
@@ -9661,7 +9661,7 @@
             "properties": {
                 "id": 537.0,
                 "park_count": 11.0,
-                "size_index": 1.0736791691839271,
+                "size_index": 1.1120950998998125,
                 "rating_index": 0.7734956177429899,
                 "latitude": 41.82420114,
                 "longitude": -87.62627123
@@ -9697,7 +9697,7 @@
             "properties": {
                 "id": 539.0,
                 "park_count": 7.0,
-                "size_index": 1.393358383959331,
+                "size_index": 1.4066156133064718,
                 "rating_index": 1.3012921055532414,
                 "latitude": 41.88355426,
                 "longitude": -87.67195337
@@ -9733,8 +9733,8 @@
             "properties": {
                 "id": 541.0,
                 "park_count": 5.0,
-                "size_index": 11.074479107512529,
-                "rating_index": 10.667700816210123,
+                "size_index": 11.077626784693535,
+                "rating_index": 10.667700816210125,
                 "latitude": 41.86584389,
                 "longitude": -87.69231965
             }
@@ -9805,7 +9805,7 @@
             "properties": {
                 "id": 545.0,
                 "park_count": 12.0,
-                "size_index": 0.7398072787291883,
+                "size_index": 0.8597669026902609,
                 "rating_index": 0.3960906744788415,
                 "latitude": 41.91958133,
                 "longitude": -87.66299779
@@ -9824,7 +9824,7 @@
                 "id": 546.0,
                 "park_count": 16.0,
                 "size_index": 37.92736420274523,
-                "rating_index": 37.11082129528936,
+                "rating_index": 37.11082129528937,
                 "latitude": 41.81978129,
                 "longitude": -87.59992527
             }
@@ -9859,7 +9859,7 @@
             "properties": {
                 "id": 548.0,
                 "park_count": 13.0,
-                "size_index": 1.0092202423121783,
+                "size_index": 1.1156070494806472,
                 "rating_index": 0.5345406321907848,
                 "latitude": 41.93239416,
                 "longitude": -87.67817303
@@ -9985,7 +9985,7 @@
             "properties": {
                 "id": 555.0,
                 "park_count": 20.0,
-                "size_index": 1.6598953032873158,
+                "size_index": 1.6612113463975724,
                 "rating_index": 1.0740708234507825,
                 "latitude": 41.90358744,
                 "longitude": -87.64433208
@@ -10022,7 +10022,7 @@
                 "id": 557.0,
                 "park_count": 16.0,
                 "size_index": 38.02518946118244,
-                "rating_index": 37.09905071863815,
+                "rating_index": 37.09905071863816,
                 "latitude": 41.81813504,
                 "longitude": -87.59809656
             }
@@ -10039,7 +10039,7 @@
             "properties": {
                 "id": 558.0,
                 "park_count": 14.0,
-                "size_index": 0.8281843667206545,
+                "size_index": 0.8414415960677952,
                 "rating_index": 0.5302389565016962,
                 "latitude": 41.87976209,
                 "longitude": -87.68503527
@@ -10148,7 +10148,7 @@
                 "id": 564.0,
                 "park_count": 16.0,
                 "size_index": 38.0574819217587,
-                "rating_index": 37.11082129528936,
+                "rating_index": 37.11082129528937,
                 "latitude": 41.81874892,
                 "longitude": -87.59960335
             }
@@ -10363,8 +10363,8 @@
             "properties": {
                 "id": 576.0,
                 "park_count": 17.0,
-                "size_index": 59.16928052281412,
-                "rating_index": 57.90225926314109,
+                "size_index": 59.18282592615729,
+                "rating_index": 57.9022592631411,
                 "latitude": 41.86398489,
                 "longitude": -87.62589624
             }
@@ -10381,8 +10381,8 @@
             "properties": {
                 "id": 577.0,
                 "park_count": 3.0,
-                "size_index": 0.014068919352425326,
-                "rating_index": 10.667700816210123,
+                "size_index": 0.031844524201935134,
+                "rating_index": 10.667700816210125,
                 "latitude": 41.78355891,
                 "longitude": -87.6410929
             }
@@ -10399,7 +10399,7 @@
             "properties": {
                 "id": 578.0,
                 "park_count": 16.0,
-                "size_index": 77.39965308023375,
+                "size_index": 77.39715602693903,
                 "rating_index": 77.70741746678685,
                 "latitude": 41.96844895,
                 "longitude": -87.6577681
@@ -10489,7 +10489,7 @@
             "properties": {
                 "id": 583.0,
                 "park_count": 17.0,
-                "size_index": 78.10404968129467,
+                "size_index": 78.10155262799995,
                 "rating_index": 77.70445801728319,
                 "latitude": 41.97449607,
                 "longitude": -87.65651102
@@ -10507,7 +10507,7 @@
             "properties": {
                 "id": 584.0,
                 "park_count": 10.0,
-                "size_index": 1.2704418584617518,
+                "size_index": 1.308857789177637,
                 "rating_index": 0.9077361419160372,
                 "latitude": 41.82873626,
                 "longitude": -87.62665512
@@ -10526,7 +10526,7 @@
                 "id": 585.0,
                 "park_count": 12.0,
                 "size_index": 22.185551825135008,
-                "rating_index": 21.41064436250206,
+                "rating_index": 21.410644362502058,
                 "latitude": 41.8868758,
                 "longitude": -87.62468519
             }
@@ -10651,7 +10651,7 @@
             "properties": {
                 "id": 592.0,
                 "park_count": 19.0,
-                "size_index": 78.30533944748512,
+                "size_index": 78.3028423941904,
                 "rating_index": 78.5570946633286,
                 "latitude": 41.96715149,
                 "longitude": -87.65503471
@@ -10759,7 +10759,7 @@
             "properties": {
                 "id": 598.0,
                 "park_count": 17.0,
-                "size_index": 78.10404968129467,
+                "size_index": 78.10155262799995,
                 "rating_index": 77.70445801728319,
                 "latitude": 41.97370056,
                 "longitude": -87.65789194
