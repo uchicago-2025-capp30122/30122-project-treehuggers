@@ -118,7 +118,7 @@ def create_merged_feature(geometry, merged_id):
     Args:
         geometry (shapely.geometry): Merged geometry object.
         int: randomly assigned id for new merged feature
-    
+
     Returns:
         dict: A new GeoJSON feature representing the merged park.
     """
