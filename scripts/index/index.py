@@ -287,7 +287,7 @@ def create_housing_df(housing, parks_dict, distance, parks_data, ratings):
     """
     # apply buffer to entire GeoDataFrame
     housing_with_index = create_buffer(housing, distance)
-    parks_dict = create_parks_dict(parks_data, ratings, ratings)
+    parks_dict = create_parks_dict(parks_data, ratings)
 
     for idx, row in housing_with_index.iterrows():
         buffered_point = row["geometry"]
