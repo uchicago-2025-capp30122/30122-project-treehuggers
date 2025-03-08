@@ -3,7 +3,7 @@ from shapely.geometry import Point
 import pandas as pd
 from pathlib import Path
 import numpy as np
-from ...index import create_housing_file
+from scripts.index.index import create_housing_file
 
 def create_grid(north, south, east, west, spacing):
     """
@@ -23,27 +23,15 @@ def create_grid(north, south, east, west, spacing):
     y_coords = np.arange(south, north, spacing)
     points = [Point(x, y) for x in x_coords for y in y_coords]
     grid_gdf = gpd.GeoDataFrame(geometry=points, crs="EPSG:4326")
+    grid_gdf["Longitude"] = grid_gdf.geometry.x
+    grid_gdf["Latitude"] = grid_gdf.geometry.y
     return grid_gdf
-
-def save_data(grid_gdf, output_dir):
-    """Save the GeoDataFrame to a file."""
-    try:
-        # We create output directory if it doesn't exist
-        grid_path = output_dir / "grid"
-        grid_path.mkdir(parents=True, exist_ok=True)
-        
-        grid_gdf.to_file(grid_path / "chicago_grid.geojson", driver='GeoJSON')
-        
-        print(f"Data saved successfully to {grid_path}")
-    
-    except Exception as e:
-        print(f"Error saving data: {e}")
 
 
 def main():
     # We use Chicago boundaries
     north, south, east, west = 42.023131, 41.644286, -87.523661, -87.940101
-    spacing = 0.001 
+    spacing = 0.01
     
     # Set output directory
     output_file = Path(__file__).parent.parent / "data/processed/index.geojson"
@@ -54,7 +42,7 @@ def main():
     main_data_path = Path(__file__).parent.parent.parent.parent
 
     parks = gpd.read_file(main_data_path / "data/cleaned_park_polygons.geojson" )
-    ratings = gpd.read_file(main_data_path / "data/combined_reviews_buffered_250.geojson")
+    ratings = gpd.read_file(main_data_path / "data/review_data/combined_reviews_buffered_250.geojson")
     
     #Create the grid file 
     print("Creating grid of points over Chicago...")

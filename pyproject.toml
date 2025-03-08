@@ -20,6 +20,7 @@ dependencies = [
     "osmnx>=2.0.1",
     "pandas>=2.2.3",
     "pytest>=8.3.4",
+    "rtree>=1.0.1",
     "ruff>=0.9.9",
 ]
 
