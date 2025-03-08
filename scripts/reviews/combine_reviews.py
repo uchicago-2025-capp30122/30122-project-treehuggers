@@ -1,21 +1,10 @@
 import json
 import geopandas as gpd
 from pathlib import Path
-from typing import NamedTuple
 from shapely.geometry import Point
-from .reviews_utils import save_reviews
+from .reviews_utils import save_reviews, Place
 
 DATA_DIR = Path(__file__).parent.parent.parent / "data" / "review_data"
-
-
-class Place(NamedTuple):
-    name: str
-    latitude: float
-    longitude: float
-    rating: float
-    review_count: int
-    source: str
-
 
 def combine_reviews(directory) -> list[dict]:
     """

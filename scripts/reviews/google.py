@@ -46,7 +46,7 @@ def cached_get_google(url, kwargs: dict, locations: list[tuple]) -> dict:
     # Loop through list of 15 locations distributed throughout Chicago
     for loc in locations:
         next_page_token = None
-        for i in range(3):  # Limit of 60 results per search
+        for i in range(3):  # Limit of 60 results per search, 20 per page
             # Set location argument equal to lat/lon coordinates in loop
             kwargs["location"] = f"{loc[0]},{loc[1]}"
 
@@ -76,7 +76,7 @@ def cached_get_google(url, kwargs: dict, locations: list[tuple]) -> dict:
     return all_data_dict
 
 
-def clean_google(data: dict):
+def clean_google(data: dict) -> list[dict]:
     """
     Saves cleaned version of raw Google data to data directory with following:
     name, latitude, longitude, rating, review_count, source
@@ -84,10 +84,13 @@ def clean_google(data: dict):
     Inputs:
         data: dictionary of raw data
         output_name: string name used for saving cleaned data in data directory
+        
+    Outputs:
+        list of dictionaries containing key information for each place  
     """
     places = []
     for place in data["places"]:
-        # Keep relevant information on park location/quality
+        # Select relevant fields on park location/quality
         places.append(
             {
                 "name": place.get("name", "N/A"),
@@ -108,11 +111,12 @@ def clean_google(data: dict):
 if __name__ == "__main__":
     url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json"
 
-    # Run various searches to be concatenated
+    # Run various searches to be saved separately
     for search_category in ["park", "field", "stadium"]:
         parameters = {"radius": "3590"}  # Roughly dividing Chicago in 15 areas
 
-        # Either search using keyword (if park) or "type" (not park)
+        # Utilize more specific "type" parameter when searching for a park,
+        # otherwise search using keyword if not a park search
         if search_category == "park":
             parameters["type"] = search_category
         else:
@@ -122,7 +126,8 @@ if __name__ == "__main__":
         google_clean_data = clean_google(google_raw_data)
         save_reviews(google_clean_data, "google_" + search_category)
 
-    # Search for additional parks specifically by location
+    # Search for unnamed parks not merged on reviews, 
+    # searching by location with a small radius
     path = DATA_DIR / "parks_without_reviews.json"
     unnamed_park_locations = get_unnamed_park_locations(path)
 

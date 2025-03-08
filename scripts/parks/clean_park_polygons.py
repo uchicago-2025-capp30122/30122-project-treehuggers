@@ -5,6 +5,8 @@ import networkx as nx
 from pathlib import Path
 import random
 
+random.seed(2024)
+
 DATA_DIR = Path(__file__).parent.parent.parent / "data"
 
 
@@ -93,7 +95,6 @@ def handle_intersecting_parks(features):
             id2, name2, geom2 = get_feature_info(feature2)
 
             if geom1.intersects(geom2) and not geom1.equals(geom2):
-                #  print(f"Intersection found: {name1} ↔ {name2}")
                 # if we have two unnamed intersecting parks, add edge
                 if name1 == "Unnamed Park" and name2 == "Unnamed Park":
                     G.add_edge(id1, id2)
@@ -105,7 +106,6 @@ def handle_intersecting_parks(features):
                     unnameds_to_remove.append(id2)
                 # if two named parks intersect, add to list to check for containment
                 elif name1 != "Unnamed Park" and name2 != "Unnamed Park":
-                    # print("adding to check_containment_parks:", feature1, feature2)
                     check_containment_parks.append((feature1, feature2))
 
     return G, unnameds_to_remove, check_containment_parks
@@ -167,8 +167,8 @@ def check_park_containment(check_containment_parks):
     ]
 
     for feature1, feature2 in check_containment_parks:
-        id1, name1, geom1 = get_feature_info(feature1)
-        id2, name2, geom2 = get_feature_info(feature2)
+        id1, _, geom1 = get_feature_info(feature1)
+        id2, _, geom2 = get_feature_info(feature2)
 
         # if park2 is fully contained within park1, add to remove list
         if geom2.within(geom1):
@@ -212,7 +212,7 @@ def get_final_features(features, graph, unnameds_to_remove, named_parks_to_remov
     for cluster in clusters:
         cluster_geometries = []
 
-        for i, park_id in enumerate(cluster):
+        for park_id in cluster:
             for feature in features:
                 # for each park ID in the cluster, find the corresponding feature in the original features list
                 if feature["properties"].get("id") == park_id:

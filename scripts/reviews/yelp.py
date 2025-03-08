@@ -44,7 +44,7 @@ def cached_get_yelp(url, kwargs: dict) -> dict:
         response = httpx.get(url, params=kwargs, headers=headers)
 
         if response.status_code == 200:
-            # Successful get
+            # Successful get, add all fetched results to list
             data = response.json()
             all_places.extend(data["businesses"])
         else:
