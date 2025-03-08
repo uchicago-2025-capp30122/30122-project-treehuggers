@@ -130,4 +130,3 @@ if __name__ == "__main__":
     google_raw_data = cached_get_google(url, parameters, unnamed_park_locations)
     google_clean_data = clean_google(google_raw_data)
     save_google(google_clean_data, "google_additional_parks")
-    

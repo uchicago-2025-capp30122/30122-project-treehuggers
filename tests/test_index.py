@@ -1,6 +1,6 @@
 import pytest
 import geopandas as gpd
-from scripts.parks_index import create_buffer, create_parks_dict
+from scripts.index import create_buffer, create_parks_dict
 from pathlib import Path
 
 DATA_DIR = Path(__file__).parent.parent / 'data'
