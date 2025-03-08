@@ -313,7 +313,7 @@ def calc_norm_values(housing):
 # Output housing file with indexes
 ##############################
 
-def create_housing_file(housing, distance, parks_data):
+def create_housing_file(housing, distance, parks_data, file_name):
     """
     Create housing GeoJSON file with indexes. 
 
@@ -363,7 +363,7 @@ def create_housing_file(housing, distance, parks_data):
         geojson_dict["features"].append(feature)
         
     # Save to a GeoJSON file
-    with open(DATA_DIR / "housing_data_index.geojson", "w") as f:
+    with open(DATA_DIR / file_name, "w") as f:
         json.dump(geojson_dict, f, indent=4)
 
 
