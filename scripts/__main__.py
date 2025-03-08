@@ -34,8 +34,8 @@ def run_yelp():
         # For each query, get raw data, clean, and save
         yelp_raw_data = cached_get_yelp(url, headers)
         places = clean_yelp(yelp_raw_data)
-        print(f"Found {len(places)} reviews for {search_category} on Yelp")
         save_reviews(places, "yelp_"+search_category)
+    print("Finished searching for parks on Yelp")
 
 def run_google():
     '''
@@ -55,8 +55,8 @@ def run_google():
             
         google_raw_data = cached_get_google(url, parameters, CHICAGO_LOCATIONS)
         places = clean_google(google_raw_data)
-        print(f"Found {len(places)} reviews for {search_category} on Google")
         save_reviews(places, "google_"+search_category)
+    print("Finished searching for parks on Google")
 
     # Search for additional unmerged parks specifically by location
     path = REVIEW_DIR / "parks_without_reviews.json"
