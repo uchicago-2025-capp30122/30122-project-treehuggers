@@ -3,7 +3,7 @@ import os
 import json
 import time 
 from pathlib import Path
-from .import_utils import cache_key, FetchException
+from .reviews_utils import cache_key, FetchException, save_reviews
 
 DATA_DIR = Path(__file__).parent.parent.parent / "data" / "review_data"
 CACHE_DIR = Path(__file__).parent.parent.parent / "cache"
@@ -84,15 +84,6 @@ def clean_yelp(data: dict) -> list[dict]:
             }
         )
     return places
-    
-
-def save_yelp(places: list[dict], output_name: str):
-    '''
-    Saves data to directory
-    '''
-    path = DATA_DIR / (output_name + '.json')
-    with open(path, "w") as f:
-        json.dump(places, f, indent=1)
 
 
 if __name__ == "__main__":
@@ -111,4 +102,4 @@ if __name__ == "__main__":
         # For each query, get raw data, clean, and save
         yelp_raw_data = cached_get_yelp(url, headers)
         places = clean_yelp(yelp_raw_data)
-        save_yelp(places, "yelp_"+search_category)
+        save_reviews(places, "yelp_"+search_category)

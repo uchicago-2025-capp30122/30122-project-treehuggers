@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Place 1",
+        "latitude": 41,
+        "longitude": -87,
+        "rating": 4.6,
+        "review_count": 108,
+        "source": "Google"
+    },
+    {
+        "name": "Place 2",
+        "latitude": 41,
+        "longitude": -87,
+        "rating": 4.6,
+        "review_count": 108,
+        "source": "Google"
+    },
+    {
+        "name": "Place 3",
+        "latitude": 41,
+        "longitude": -87,
+        "rating": 4.6,
+        "review_count": 108,
+        "source": "Google"
+    }
+   ]

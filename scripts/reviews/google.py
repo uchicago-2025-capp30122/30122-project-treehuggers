@@ -3,7 +3,11 @@ import httpx
 import json
 import time
 from pathlib import Path
-from .import_utils import cache_key, FetchException, CHICAGO_LOCATIONS, get_unnamed_park_locations
+from .reviews_utils import cache_key, \
+                           FetchException, \
+                           CHICAGO_LOCATIONS, \
+                           get_unnamed_park_locations, \
+                           save_reviews 
 
 DATA_DIR = Path(__file__).parent.parent.parent / "data" / "review_data"
 CACHE_DIR = Path(__file__).parent.parent.parent / "cache"
@@ -96,14 +100,6 @@ def clean_google(data: dict):
             }
         )
     return places
-        
-def save_google(places: list[dict], output_name: str):
-    '''
-    Saves data at specified output path 
-    '''
-    path = DATA_DIR / (output_name + '.json')
-    with open(path, "w") as f:
-        json.dump(places, f, indent=1)
   
 if __name__ == "__main__":
     url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json"
@@ -120,7 +116,7 @@ if __name__ == "__main__":
             
         google_raw_data = cached_get_google(url, parameters, CHICAGO_LOCATIONS)
         google_clean_data = clean_google(google_raw_data)
-        save_google(google_clean_data, "google_"+search_category)
+        save_reviews(google_clean_data, "google_"+search_category)
 
     # Search for additional parks specifically by location
     path = DATA_DIR / "parks_without_reviews.json"
@@ -129,4 +125,4 @@ if __name__ == "__main__":
     parameters = {"radius": "250", "keyword": "park"}
     google_raw_data = cached_get_google(url, parameters, unnamed_park_locations)
     google_clean_data = clean_google(google_raw_data)
-    save_google(google_clean_data, "google_additional_parks")
+    save_reviews(google_clean_data, "google_additional_parks")

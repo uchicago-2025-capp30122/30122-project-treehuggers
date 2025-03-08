@@ -3,7 +3,7 @@ import geopandas as gpd
 from pathlib import Path
 from typing import NamedTuple
 from shapely.geometry import Point
-
+from .reviews_utils import save_reviews
 
 DATA_DIR = Path(__file__).parent.parent.parent / "data" / "review_data"
 
@@ -15,23 +15,23 @@ class Place(NamedTuple):
     review_count: int
     source: str
 
-def combine_reviews() -> list[dict]:
+def combine_reviews(directory) -> list[dict]:
     '''
-    Combine Yelp and Google review files in data folder, save as merged json
+    Combine Yelp and Google files in specified folder, save as merged json
     
     Inputs:
-        None
+        Path of directory to check for files
     
     Outputs:
         list of dictionaries with merged, unique Yelp and Google reviews
     '''
     
-    # Save review information in set to avoid duplicates
+    # Put review information in set to remove duplicates
     unique_entries = set()
-    for source in ["google", "yelp"]:
-        
+    
+    for source in ["google", "yelp"]:    
         # Load in each .json file beginning with "google" or "yelp"
-        paths = list(DATA_DIR.glob(f"{source}_*.json"))
+        paths = list(directory.glob(f"{source}_*.json"))
         
         for path in paths:
             with open(path, "r") as f:
@@ -52,13 +52,9 @@ def combine_reviews() -> list[dict]:
     lst_data_dicts = []
     for row in unique_entries:
         lst_data_dicts.append(row._asdict())
-            
-    # Save as JSON
-    output_path = DATA_DIR / "combined_reviews_clean.json"
-    with open(output_path, "w") as f:
-        json.dump(lst_data_dicts, f, indent=1)
     
     return lst_data_dicts
+
 
 def buffer_places(places: list[dict], buffer_distance: int):
     '''
@@ -78,10 +74,10 @@ def buffer_places(places: list[dict], buffer_distance: int):
     # Create a GeoDataFrame
     places_gdf = gpd.GeoDataFrame(places, geometry=geo, crs=3857)
     
-    # apply buffer to all points in places data
+    # Apply buffer to all points in places data
     places_gdf["geometry"] = places_gdf.geometry.buffer(buffer_distance)
     
-    # convert to EPSG: 4326 in order to compare to polygons
+    # Convert to EPSG: 4326 in order to compare to polygons
     places_gdf = places_gdf.to_crs(epsg=4326)
     
     # Save and return 
@@ -95,5 +91,6 @@ def buffer_places(places: list[dict], buffer_distance: int):
     return places_gdf
 
 # Create GeoJSON dataframe of places buffered by 250 meters
-places = combine_reviews()
+places = combine_reviews(DATA_DIR)
+save_reviews(places, "combined_reviews_clean")
 buffer_places(places, 250)

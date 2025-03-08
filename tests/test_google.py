@@ -1,6 +1,6 @@
 import pytest
 import json
-from scripts.reviews.import_utils import CHICAGO_LOCATIONS
+from scripts.reviews.reviews_utils import CHICAGO_LOCATIONS
 from scripts.reviews.google import cached_get_google, clean_google
 from pathlib import Path
 
@@ -76,7 +76,7 @@ def test_clean_google(morrill_meadow_raw, morrill_meadow_clean):
     '''
     clean_park = clean_google(morrill_meadow_raw)
     assert clean_park == morrill_meadow_clean, \
-        "Returned {clean_park} instead of {morrill_meadow_clean}"
+        f"Returned {clean_park} instead of {morrill_meadow_clean}"
         
 
 def test_clean_yelp_park_missing_information(park_missing_info_raw, 
@@ -86,5 +86,5 @@ def test_clean_yelp_park_missing_information(park_missing_info_raw,
     '''
     clean_park = clean_google(park_missing_info_raw)
     assert clean_park == park_missing_info_clean, \
-         "Returned {clean_park} instead of {park_missing_info_clean}"
+         f"Returned {clean_park} instead of {park_missing_info_clean}"
   
