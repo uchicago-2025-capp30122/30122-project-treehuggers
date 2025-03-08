@@ -24,15 +24,18 @@ Here you can fin the current visualization of the project:
 # Data Sources
 
 We are mainly using 4 data sources for the project. As we focus heavily on spatial
-data to achieve a visualization of the index and make this a usefull tool for prioritize
-the construction of afordable housing or public spaces for policy planners, 
-we gathered information from:
+data to achieve a visualization of the index and make this a useful tool for urban
+planning regarding the construction of affordable housing units, we gathered
+information from:
 
 1) OpenStreetMap Chicago Parks Data: The first set of data comes from OpenStreetMap, which is a free, open map
 database (https://en.wikipedia.org/wiki/OpenStreetMap#:~:text=OpenStreetMap%20%28abbreviated%20OSM%29%20is%20a%20free%2C%20open%20map,and%20import%20from%20other%20freely%20licensed%20geodata%20sources). 
 
 To extract coordinate data on Chicago green spaces and parks, we utilized the 
 OSMnx API for Python (https://wiki.openstreetmap.org/wiki/OSMnx). 
+
+Citation:
+Boeing, G. (2024). Modeling and Analyzing Urban Networks and Amenities with OSMnx. Working paper. https://geoffboeing.com/publications/osmnx-paper/ 
 
 2) Affordable Rental Housing Developments Data
 
