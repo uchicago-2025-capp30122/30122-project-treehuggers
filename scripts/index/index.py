@@ -76,7 +76,7 @@ def calculate_park_rating(matching_rows, polygon):
                      rating=avg_rating, total_reviews=total_reviews, area=polygon.area)
 
 
-def match_park_ratings_point(polygon):
+def match_park_ratings_point(polygon, ratings):
     """
     Match Yelp and Google ratings to parks based on location.
 
@@ -98,7 +98,7 @@ def match_park_ratings_point(polygon):
     return park_tuple
 
 
-def match_park_ratings_name(park_name, polygon):
+def match_park_ratings_name(park_name, polygon, ratings):
     """
     Match Yelp and Google ratings to parks based on name similarity.
 
@@ -133,7 +133,7 @@ def match_park_ratings_name(park_name, polygon):
     return park_tuple
 
 
-def create_parks_dict(parks_data):
+def create_parks_dict(parks_data, ratings):
     """
     Create a dictionary of parks with average ratings.
     
@@ -148,12 +148,12 @@ def create_parks_dict(parks_data):
         polygon = park.geometry
         park_name = park["name"]
         
-        park_tuple = match_park_ratings_point(polygon)
+        park_tuple = match_park_ratings_point(polygon, ratings)
 
         # Still check all park matches on name even if a review was matched to
         # a park based on spatial proximity & override previous match accordingly
         if park_name is not None:
-            park_tuple = match_park_ratings_name(park_name, polygon)
+            park_tuple = match_park_ratings_name(park_name, polygon, ratings)
 
         parks_dict[park["id"]] = park_tuple
     
@@ -314,7 +314,7 @@ def calc_norm_values(housing):
 # Output housing file with indexes
 ##############################
 
-def create_housing_file(housing, distance, parks_data, file_name):
+def create_housing_file(housing, distance, parks_data, ratings, file_name):
     """
     Create housing GeoJSON file with indexes. 
 
@@ -326,7 +326,7 @@ def create_housing_file(housing, distance, parks_data, file_name):
     Returns: outputs GeoJSON file to "data" folder.
     """
     # Create parks dictionary & updated housing dataframe
-    parks_dict = create_parks_dict(parks)
+    parks_dict = create_parks_dict(parks_data, ratings)
     housing_with_index = create_housing_df(housing, parks_dict, distance, parks_data)
     
     # retrieve values to normalize indexes
