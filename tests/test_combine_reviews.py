@@ -8,7 +8,6 @@ def test_combine_reviews():
     '''
     directory = Path(__file__).parent / 'data/test_directory_with_duplicate_files'
     combined_reviews = combine_reviews(directory)
-    print(combined_reviews)
     reduced_num_reviews = len(combined_reviews)
     assert reduced_num_reviews == 6, f"Contained {reduced_num_reviews} instead of 6"
     
