@@ -9,20 +9,20 @@
 
 #### Yelp Review Data
 - Reviews of parks and other green spaces were obtained from Yelp using the Business Search API. 
-- We searched for the highest rated 240 parks in the city of Chicago. We also searched for the top 240 dog parks, playgrounds, and community gardens in Chicago. Each of these categories were derived from the official Yelp business category list.
+- We searched for the highest rated 240 parks (API limit) in the city of Chicago. We also searched for the top 240 dog parks, playgrounds, and community gardens in Chicago. Each of these categories were derived from the official Yelp business category list.
 - For each place (“business”) returned, we extracted the name, average rating, number of reviews, and coordinates.  
 
 #### Google Review Data
 - Reviews of parks and other green spaces were obtained from Google using the Nearby Search API.
 - Relative to Yelp, many more parks and green spaces are reviewed on Google. 
-Google only returns 60 places per search query. We searched for the top 60 parks, fields, and stadiums closest to each of the 15 locations roughly spread across the city of Chicago. These search terms were determined via several iterations of query testing and reviewing the types of places returned.
+- Google only returns 60 places per search query. We searched for the top 60 parks, fields, and stadiums closest to each of the 15 locations roughly spread across the city of Chicago. These search terms were determined via several iterations of query testing and reviewing the types of places returned.
 
 #### OpenStreetMap Chicago Parks Data
 - To extract the Chicago parks data, we utilized the OSMnx library, which is a Python package that allows you to easily download geospatial features from OpenStreetMap (OSM).
-- The main challenge with this data was that many of the parks lacked names. We handled this by assigning parks without names to a default name: “Unnamed Park.”
-- We had to de-duplicate and clean the OSM parks data, which included reviewing parks that intersected to see if they were true duplicates. There were also 6 parks that were not marked by the cleaning process due to small coordinate discrepancies. We removed these 6 parks after manually reviewing them and deciding they were duplicates in the data.
+- The main challenge with this data was that many of the parks lacked names. We handled this by assigning parks without names a default name: “Unnamed Park.”
+- We had to de-duplicate and clean the OSM parks data, which included reviewing parks that intersected to see if they were true duplicates. There were also 6 parks that were not marked by the cleaning process due to small coordinate discrepancies. We remove these 6 parks manually within the cleaning script.
 
-#### Census Tracks
+#### U.S. Census Bureau American Community Survey Data
 
 
 ### II. Project Structure
