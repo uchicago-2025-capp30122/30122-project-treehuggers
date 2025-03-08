@@ -336,7 +336,7 @@ def create_housing_file(housing, distance, parks_data, ratings, file_name):
     """
     # Create parks dictionary & updated housing dataframe
     parks_dict = create_parks_dict(parks_data, ratings)
-    housing_with_index = create_housing_df(housing, parks_dict, distance, parks_data, ratings, ratings)
+    housing_with_index = create_housing_df(housing, parks_dict, distance, parks_data, ratings)
 
     # retrieve values to normalize indexes
     max_size, max_rating, avg_rating = calc_norm_values(housing_with_index)
