@@ -273,7 +273,6 @@ def create_house_tuple(buffered_point, parks_dict, parks_data):
 # Create housing dataframe with indexes
 ##############################
 
-
 def create_housing_df(housing, parks_dict, distance, parks_data, ratings):
     """
     Create updated housing dataframe with index columns.
@@ -288,7 +287,7 @@ def create_housing_df(housing, parks_dict, distance, parks_data, ratings):
     """
     # apply buffer to entire GeoDataFrame
     housing_with_index = create_buffer(housing, distance)
-    parks_dict = create_parks_dict(parks_data, ratings)
+    parks_dict = create_parks_dict(parks_data, ratings, ratings)
 
     for idx, row in housing_with_index.iterrows():
         buffered_point = row["geometry"]
@@ -337,7 +336,7 @@ def create_housing_file(housing, distance, parks_data, ratings, file_name):
     """
     # Create parks dictionary & updated housing dataframe
     parks_dict = create_parks_dict(parks_data, ratings)
-    housing_with_index = create_housing_df(housing, parks_dict, distance, parks_data, ratings)
+    housing_with_index = create_housing_df(housing, parks_dict, distance, parks_data, ratings, ratings)
 
     # retrieve values to normalize indexes
     max_size, max_rating, avg_rating = calc_norm_values(housing_with_index)
