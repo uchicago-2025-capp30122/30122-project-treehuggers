@@ -1,17 +1,15 @@
 import httpx
 import os
 import json
-import time 
+import time
 from pathlib import Path
 from .reviews_utils import cache_key, FetchException, save_reviews
 
 DATA_DIR = Path(__file__).parent.parent.parent / "data" / "review_data"
 CACHE_DIR = Path(__file__).parent.parent.parent / "cache"
 
-try:
-    YELP_API_KEY = f"Bearer {os.environ["YELP_API_KEY"]}" 
-except KeyError:
-    raise Exception("Please enter API Key for Yelp")
+# Set Yelp API Key (not needed if using cached files)
+YELP_API_KEY = f"Bearer {os.environ.get('YELP_API_KEY')}"
 
 
 def cached_get_yelp(url, kwargs: dict) -> dict:
@@ -39,14 +37,14 @@ def cached_get_yelp(url, kwargs: dict) -> dict:
     all_places = []
     headers = {
         "accept": "application/json",
-        "Authorization": YELP_API_KEY,    
+        "Authorization": YELP_API_KEY,
     }
     for offset in range(0, 250, 50):  # Yelp limits to 50 per call, 240 total
         kwargs["offset"] = str(offset)
         response = httpx.get(url, params=kwargs, headers=headers)
 
         if response.status_code == 200:
-            # Successful get 
+            # Successful get
             data = response.json()
             all_places.extend(data["businesses"])
         else:
@@ -60,27 +58,28 @@ def cached_get_yelp(url, kwargs: dict) -> dict:
         json.dump(all_data_dict, f, indent=1)
     return all_data_dict
 
+
 def clean_yelp(data: dict) -> list[dict]:
-    '''
+    """
     Creates list of cleaned Yelp data dictionaries with following keys:
     name, latitude, longitude, rating, review_count, source
 
     Inputs:
         data: dictionary of raw data
-        
+
     Returns:
         list of cleaned data dictionaries as specified above
-    '''
+    """
     places = []
     for place in data["places"]:
         places.append(
             {
-            "name": place.get("name"),
-            "latitude": place.get("coordinates",{}).get("latitude"),
-            "longitude": place.get("coordinates",{}).get("longitude"),
-            "rating": place.get("rating", 0),
-            "review_count": place.get("review_count", 0),      
-            "source": "Yelp"
+                "name": place.get("name"),
+                "latitude": place.get("coordinates", {}).get("latitude"),
+                "longitude": place.get("coordinates", {}).get("longitude"),
+                "rating": place.get("rating", 0),
+                "review_count": place.get("review_count", 0),
+                "source": "Yelp",
             }
         )
     return places
@@ -88,18 +87,14 @@ def clean_yelp(data: dict) -> list[dict]:
 
 if __name__ == "__main__":
     url = "https://api.yelp.com/v3/businesses/search"
-    
-    # Search in multiple Yelp categories 
-    for search_category in ["parks", 
-                            "playgrounds", 
-                            "dog_parks", 
-                            "communitygardens"]:
-        
+
+    # Search in multiple Yelp categories
+    for search_category in ["parks", "playgrounds", "dog_parks", "communitygardens"]:
         # Always search in Chicago, by "best match" with search category
         headers = {"location": "Chicago", "sort_by": "best_match"}
         headers["categories"] = search_category
-        
+
         # For each query, get raw data, clean, and save
         yelp_raw_data = cached_get_yelp(url, headers)
         places = clean_yelp(yelp_raw_data)
-        save_reviews(places, "yelp_"+search_category)
+        save_reviews(places, "yelp_" + search_category)
