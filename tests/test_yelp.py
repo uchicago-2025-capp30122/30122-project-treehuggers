@@ -1,6 +1,6 @@
 import pytest
 import json
-from scripts.yelp import cached_get_yelp, clean_yelp
+from scripts.reviews.yelp import cached_get_yelp, clean_yelp
 from pathlib import Path
 
 DATA_DIR = Path(__file__).parent / 'data'
@@ -50,6 +50,9 @@ def park_missing_info_raw():
 
 @pytest.fixture
 def park_missing_info_clean():
+    '''
+    Expected values for cleaned park missing most information
+    '''
     return [{'name': 'Park Missing Information',
             'latitude': None,
             'longitude': None,
@@ -72,7 +75,7 @@ def test_clean_yelp(oak_park_clean, oak_park_raw):
     '''
     clean_park = clean_yelp(oak_park_raw)
     assert clean_park == oak_park_clean, \
-        "Returned {clean_park} instead of {oak_park_clean}"
+        f"Returned {clean_park} instead of {oak_park_clean}"
         
 
 def test_clean_yelp_park_missing_information(park_missing_info_raw, 
@@ -82,5 +85,5 @@ def test_clean_yelp_park_missing_information(park_missing_info_raw,
     '''
     clean_park = clean_yelp(park_missing_info_raw)
     assert clean_park == park_missing_info_clean, \
-         "Returned {clean_park} instead of {park_missing_info_clean}"
+         f"Returned {clean_park} instead of {park_missing_info_clean}"
     

@@ -1,19 +1,18 @@
 import pytest
 import geopandas as gpd
-from scripts.index import create_buffer, create_parks_dict
+from scripts.index.index import create_buffer, create_parks_dict
 from pathlib import Path
 
-DATA_DIR = Path(__file__).parent.parent / 'data'
-
+DATA_DIR = Path(__file__).parent / 'data'
 
 @pytest.fixture
 def housing_data():
-    housing_data = gpd.read_file(DATA_DIR/"housing_data_index.geojson")
+    housing_data = gpd.read_file(DATA_DIR/"test_housing_data_index.geojson")
     return housing_data
 
 @pytest.fixture
 def parks_data():
-    parks_data = gpd.read_file(DATA_DIR/"cleaned_park_polygons.geojson")
+    parks_data = gpd.read_file(DATA_DIR/"test_cleaned_park_polygons.geojson")
     return parks_data
 
 

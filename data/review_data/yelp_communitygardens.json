@@ -1,0 +1,122 @@
+[
+ {
+  "name": "Oak Park Conservatory",
+  "latitude": 41.87143,
+  "longitude": -87.78968,
+  "rating": 4.7,
+  "review_count": 59,
+  "source": "Yelp"
+ },
+ {
+  "name": "Chicago Bell Garden",
+  "latitude": 41.939765,
+  "longitude": -87.64587,
+  "rating": 5.0,
+  "review_count": 4,
+  "source": "Yelp"
+ },
+ {
+  "name": "Peterson Garden Project",
+  "latitude": 41.9687700093375,
+  "longitude": -87.6553091034293,
+  "rating": 1.9,
+  "review_count": 9,
+  "source": "Yelp"
+ },
+ {
+  "name": "El Paseo Community Garden",
+  "latitude": 41.85481052868795,
+  "longitude": -87.64984022326702,
+  "rating": 5.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Ghostly Garden",
+  "latitude": 41.97795,
+  "longitude": -87.67442,
+  "rating": 5.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Merchant Park Community Garden",
+  "latitude": 41.9456145809402,
+  "longitude": -87.7332007884979,
+  "rating": 4.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Lincoln Square Community Garden",
+  "latitude": 41.9691334159847,
+  "longitude": -87.6886824303347,
+  "rating": 5.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Chicago Patchwork Farms",
+  "latitude": 41.895379,
+  "longitude": -87.697786,
+  "rating": 2.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "GreenHouse Garden",
+  "latitude": 41.9015249199792,
+  "longitude": -87.6725399494171,
+  "rating": 0.0,
+  "review_count": 0,
+  "source": "Yelp"
+ },
+ {
+  "name": "Bowmanville Gateway Garden",
+  "latitude": 41.97922652765741,
+  "longitude": -87.67507298386647,
+  "rating": 5.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Chicago Avenue Community Garden",
+  "latitude": 41.8965215927336,
+  "longitude": -87.6400480346473,
+  "rating": 5.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Healthy Roots Raised Bed Gardens",
+  "latitude": 42.07047,
+  "longitude": -87.83505,
+  "rating": 5.0,
+  "review_count": 2,
+  "source": "Yelp"
+ },
+ {
+  "name": "Bowmanville Garden Walk",
+  "latitude": 41.97898036053253,
+  "longitude": -87.68560942944715,
+  "rating": 5.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Mayfield Community Garden",
+  "latitude": 41.8858757019043,
+  "longitude": -87.7715148925781,
+  "rating": 4.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Forest Park Community Garden",
+  "latitude": 41.8741836960331,
+  "longitude": -87.8048717593514,
+  "rating": 0.0,
+  "review_count": 0,
+  "source": "Yelp"
+ }
+]

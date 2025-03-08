@@ -1,0 +1,162 @@
+[
+ {
+  "name": "Montrose Dog Beach",
+  "latitude": 41.968549496721856,
+  "longitude": -87.64338043313141,
+  "rating": 4.4,
+  "review_count": 295,
+  "source": "Yelp"
+ },
+ {
+  "name": "Doggy Paddle Aquatic Center For Dogs",
+  "latitude": 41.914667,
+  "longitude": -87.663309,
+  "rating": 4.1,
+  "review_count": 125,
+  "source": "Yelp"
+ },
+ {
+  "name": "The Park at Lakeshore East",
+  "latitude": 41.885980594423,
+  "longitude": -87.61759122481,
+  "rating": 4.5,
+  "review_count": 47,
+  "source": "Yelp"
+ },
+ {
+  "name": "Skinner Bark Park",
+  "latitude": 41.88042444984986,
+  "longitude": -87.66170922436001,
+  "rating": 4.6,
+  "review_count": 20,
+  "source": "Yelp"
+ },
+ {
+  "name": "Mary Bartleme Park",
+  "latitude": 41.8801605,
+  "longitude": -87.6506214,
+  "rating": 4.2,
+  "review_count": 40,
+  "source": "Yelp"
+ },
+ {
+  "name": "Fred Anderson Park",
+  "latitude": 41.85973,
+  "longitude": -87.62516,
+  "rating": 4.6,
+  "review_count": 35,
+  "source": "Yelp"
+ },
+ {
+  "name": "Churchill Field Dog Park",
+  "latitude": 41.914647,
+  "longitude": -87.6773659,
+  "rating": 3.7,
+  "review_count": 43,
+  "source": "Yelp"
+ },
+ {
+  "name": "Puptown",
+  "latitude": 41.97219,
+  "longitude": -87.65045,
+  "rating": 4.3,
+  "review_count": 58,
+  "source": "Yelp"
+ },
+ {
+  "name": "Grant Bark Park",
+  "latitude": 41.8705283115567,
+  "longitude": -87.6216843575122,
+  "rating": 4.3,
+  "review_count": 29,
+  "source": "Yelp"
+ },
+ {
+  "name": "Logan Square Dog Park",
+  "latitude": 41.92749,
+  "longitude": -87.688118,
+  "rating": 4.4,
+  "review_count": 15,
+  "source": "Yelp"
+ },
+ {
+  "name": "Dog Beach at Belmont Harbor",
+  "latitude": 41.9452272071354,
+  "longitude": -87.6403362555475,
+  "rating": 3.8,
+  "review_count": 43,
+  "source": "Yelp"
+ },
+ {
+  "name": "Ward Dog Friendly Area",
+  "latitude": 41.8943139409179,
+  "longitude": -87.6431825011969,
+  "rating": 4.1,
+  "review_count": 14,
+  "source": "Yelp"
+ },
+ {
+  "name": "Horner Dog Friendly Area",
+  "latitude": 41.957808,
+  "longitude": -87.696286,
+  "rating": 4.6,
+  "review_count": 8,
+  "source": "Yelp"
+ },
+ {
+  "name": "Wiggly Field",
+  "latitude": 41.9305267333984,
+  "longitude": -87.653434753418,
+  "rating": 3.2,
+  "review_count": 89,
+  "source": "Yelp"
+ },
+ {
+  "name": "Hamlin Dog Park",
+  "latitude": 41.9365766644478,
+  "longitude": -87.680624127388,
+  "rating": 3.4,
+  "review_count": 38,
+  "source": "Yelp"
+ },
+ {
+  "name": "Ridgeland Common Recreation Complex",
+  "latitude": 41.8879934474814,
+  "longitude": -87.7872848510742,
+  "rating": 4.1,
+  "review_count": 21,
+  "source": "Yelp"
+ },
+ {
+  "name": "River Dog Friendly Area",
+  "latitude": 41.9740114645049,
+  "longitude": -87.70198119999999,
+  "rating": 3.7,
+  "review_count": 18,
+  "source": "Yelp"
+ },
+ {
+  "name": "Walsh Park Dog Area",
+  "latitude": 41.9132677,
+  "longitude": -87.6678549,
+  "rating": 3.7,
+  "review_count": 13,
+  "source": "Yelp"
+ },
+ {
+  "name": "West Loop Dog Park",
+  "latitude": 41.88045947683182,
+  "longitude": -87.64966279389604,
+  "rating": 3.5,
+  "review_count": 16,
+  "source": "Yelp"
+ },
+ {
+  "name": "Ohio Place Dog Park",
+  "latitude": 41.89257,
+  "longitude": -87.6381,
+  "rating": 4.0,
+  "review_count": 10,
+  "source": "Yelp"
+ }
+]

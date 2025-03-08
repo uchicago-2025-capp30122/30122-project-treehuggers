@@ -1,0 +1,418 @@
+[
+ {
+  "name": "Chicago Park District - OZ PARK",
+  "latitude": 41.9209,
+  "longitude": -87.64566,
+  "rating": 4.5,
+  "review_count": 119,
+  "source": "Yelp"
+ },
+ {
+  "name": "Wicker Park - Chicago Park District",
+  "latitude": 41.9077397733836,
+  "longitude": -87.6764158224562,
+  "rating": 3.8,
+  "review_count": 121,
+  "source": "Yelp"
+ },
+ {
+  "name": "Mary Bartleme Park",
+  "latitude": 41.8801605,
+  "longitude": -87.6506214,
+  "rating": 4.2,
+  "review_count": 40,
+  "source": "Yelp"
+ },
+ {
+  "name": "The Park at Lakeshore East",
+  "latitude": 41.885980594423,
+  "longitude": -87.61759122481,
+  "rating": 4.5,
+  "review_count": 47,
+  "source": "Yelp"
+ },
+ {
+  "name": "Adams Playground Park",
+  "latitude": 41.9164999,
+  "longitude": -87.65513061534425,
+  "rating": 4.8,
+  "review_count": 36,
+  "source": "Yelp"
+ },
+ {
+  "name": "Winnemac Park",
+  "latitude": 41.9744833,
+  "longitude": -87.6795225,
+  "rating": 4.4,
+  "review_count": 64,
+  "source": "Yelp"
+ },
+ {
+  "name": "Margaret Donahue Park",
+  "latitude": 41.94191486570991,
+  "longitude": -87.66029956107414,
+  "rating": 4.8,
+  "review_count": 12,
+  "source": "Yelp"
+ },
+ {
+  "name": "Holstein Park",
+  "latitude": 41.92188,
+  "longitude": -87.6856349,
+  "rating": 3.6,
+  "review_count": 54,
+  "source": "Yelp"
+ },
+ {
+  "name": "Eckhart Park - Chicago Park District",
+  "latitude": 41.897196,
+  "longitude": -87.661225,
+  "rating": 3.4,
+  "review_count": 44,
+  "source": "Yelp"
+ },
+ {
+  "name": "Commercial Club Playground",
+  "latitude": 41.896629,
+  "longitude": -87.67380656096604,
+  "rating": 4.8,
+  "review_count": 5,
+  "source": "Yelp"
+ },
+ {
+  "name": "Seneca Park",
+  "latitude": 41.89716169430479,
+  "longitude": -87.6223240588337,
+  "rating": 4.3,
+  "review_count": 18,
+  "source": "Yelp"
+ },
+ {
+  "name": "Union Park",
+  "latitude": 41.884073,
+  "longitude": -87.665419,
+  "rating": 3.4,
+  "review_count": 20,
+  "source": "Yelp"
+ },
+ {
+  "name": "Clarendon Park",
+  "latitude": 41.9631777568729,
+  "longitude": -87.648799046513,
+  "rating": 4.7,
+  "review_count": 7,
+  "source": "Yelp"
+ },
+ {
+  "name": "Berger Park",
+  "latitude": 41.9947845,
+  "longitude": -87.6553686,
+  "rating": 4.2,
+  "review_count": 24,
+  "source": "Yelp"
+ },
+ {
+  "name": "Brands Park",
+  "latitude": 41.9405269,
+  "longitude": -87.6997038,
+  "rating": 3.9,
+  "review_count": 8,
+  "source": "Yelp"
+ },
+ {
+  "name": "Harriet Tubman Elementary School",
+  "latitude": 41.9337387,
+  "longitude": -87.6561432,
+  "rating": 5.0,
+  "review_count": 5,
+  "source": "Yelp"
+ },
+ {
+  "name": "Harrison Park",
+  "latitude": 41.856880639455326,
+  "longitude": -87.67368150059227,
+  "rating": 3.6,
+  "review_count": 19,
+  "source": "Yelp"
+ },
+ {
+  "name": "Eugene Field Park",
+  "latitude": 41.9736903,
+  "longitude": -87.7221749,
+  "rating": 4.5,
+  "review_count": 15,
+  "source": "Yelp"
+ },
+ {
+  "name": "Julia de Burgos Park",
+  "latitude": 41.913918,
+  "longitude": -87.704811,
+  "rating": 4.8,
+  "review_count": 4,
+  "source": "Yelp"
+ },
+ {
+  "name": "Walsh Park",
+  "latitude": 41.9132677,
+  "longitude": -87.6678549,
+  "rating": 4.0,
+  "review_count": 8,
+  "source": "Yelp"
+ },
+ {
+  "name": "Blaine Elementary School Play Lot",
+  "latitude": 41.950962,
+  "longitude": -87.664933,
+  "rating": 4.5,
+  "review_count": 2,
+  "source": "Yelp"
+ },
+ {
+  "name": "Cochran Playlot",
+  "latitude": 41.98341,
+  "longitude": -87.66167,
+  "rating": 5.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Humbert Park",
+  "latitude": 41.83831111389,
+  "longitude": -87.6429576295452,
+  "rating": 5.0,
+  "review_count": 2,
+  "source": "Yelp"
+ },
+ {
+  "name": "Bell Park",
+  "latitude": 41.9347538,
+  "longitude": -87.7957588,
+  "rating": 3.3,
+  "review_count": 4,
+  "source": "Yelp"
+ },
+ {
+  "name": "Taylor Park",
+  "latitude": 41.9028120546127,
+  "longitude": -87.7855789661407,
+  "rating": 3.8,
+  "review_count": 4,
+  "source": "Yelp"
+ },
+ {
+  "name": "Fuller Park",
+  "latitude": 41.812264,
+  "longitude": -87.634616,
+  "rating": 5.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Maplewood Playlot Park",
+  "latitude": 41.9113211,
+  "longitude": -87.691094,
+  "rating": 3.5,
+  "review_count": 2,
+  "source": "Yelp"
+ },
+ {
+  "name": "Goudy Square Playlot",
+  "latitude": 41.9054276678156,
+  "longitude": -87.6271556317806,
+  "rating": 5.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Chicago Park District - SCHREIBER PARK",
+  "latitude": 41.9994298077539,
+  "longitude": -87.6701085747081,
+  "rating": 3.0,
+  "review_count": 2,
+  "source": "Yelp"
+ },
+ {
+  "name": "Kolmar Playlot",
+  "latitude": 41.9559971,
+  "longitude": -87.7416297,
+  "rating": 5.0,
+  "review_count": 2,
+  "source": "Yelp"
+ },
+ {
+  "name": "Privet Park",
+  "latitude": 41.91505906395052,
+  "longitude": -87.65341103159236,
+  "rating": 2.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Spikings Farm Park",
+  "latitude": 41.96680719222614,
+  "longitude": -87.72836016281906,
+  "rating": 0.0,
+  "review_count": 0,
+  "source": "Yelp"
+ },
+ {
+  "name": "Chicago Park District - Franklin Park",
+  "latitude": 41.86071,
+  "longitude": -87.7334,
+  "rating": 0.0,
+  "review_count": 0,
+  "source": "Yelp"
+ },
+ {
+  "name": "Greenebaum Playground",
+  "latitude": 41.9118666237764,
+  "longitude": -87.7333393550624,
+  "rating": 3.5,
+  "review_count": 2,
+  "source": "Yelp"
+ },
+ {
+  "name": "Levin Park",
+  "latitude": 41.8882903020573,
+  "longitude": -87.7617913256889,
+  "rating": 0.0,
+  "review_count": 0,
+  "source": "Yelp"
+ },
+ {
+  "name": "Goudy School Playlot",
+  "latitude": 41.9752762825572,
+  "longitude": -87.6575061131058,
+  "rating": 4.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Dorothy's Playground at Oz Park",
+  "latitude": 41.92175323962955,
+  "longitude": -87.64556497335434,
+  "rating": 0.0,
+  "review_count": 0,
+  "source": "Yelp"
+ },
+ {
+  "name": "Snowberry Park",
+  "latitude": 41.893946879988306,
+  "longitude": -87.67420617499965,
+  "rating": 3.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Barrett Park",
+  "latitude": 41.8522927,
+  "longitude": -87.6766281,
+  "rating": 0.0,
+  "review_count": 0,
+  "source": "Yelp"
+ },
+ {
+  "name": "Hermosa Park - Chicago Park District",
+  "latitude": 41.9217963,
+  "longitude": -87.7390853,
+  "rating": 0.0,
+  "review_count": 0,
+  "source": "Yelp"
+ },
+ {
+  "name": "Barrie Park",
+  "latitude": 41.8704021,
+  "longitude": -87.7792526,
+  "rating": 4.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Berwyn Gardens",
+  "latitude": 41.8509941101074,
+  "longitude": -87.8001861572266,
+  "rating": 0.0,
+  "review_count": 0,
+  "source": "Yelp"
+ },
+ {
+  "name": "De George Playlot Park",
+  "latitude": 41.9111879,
+  "longitude": -87.7494101625399,
+  "rating": 0.0,
+  "review_count": 0,
+  "source": "Yelp"
+ },
+ {
+  "name": "Village Playground",
+  "latitude": 41.883280524212,
+  "longitude": -87.8092561697453,
+  "rating": 4.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Wenonah Tot Lot",
+  "latitude": 41.8736447222653,
+  "longitude": -87.80050644841,
+  "rating": 4.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Margaret Hie Ding Lin Park",
+  "latitude": 41.8582701,
+  "longitude": -87.6270151,
+  "rating": 3.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "ROL",
+  "latitude": 41.9645091,
+  "longitude": -87.6499679,
+  "rating": 0.0,
+  "review_count": 0,
+  "source": "Yelp"
+ },
+ {
+  "name": "McKeon Playlot Park",
+  "latitude": 41.829895,
+  "longitude": -87.6413727,
+  "rating": 0.0,
+  "review_count": 0,
+  "source": "Yelp"
+ },
+ {
+  "name": "Veterans Park",
+  "latitude": 41.8745356946386,
+  "longitude": -87.8084574920654,
+  "rating": 4.0,
+  "review_count": 2,
+  "source": "Yelp"
+ },
+ {
+  "name": "Village Playground",
+  "latitude": 41.8652264702917,
+  "longitude": -87.8138724858791,
+  "rating": 3.0,
+  "review_count": 1,
+  "source": "Yelp"
+ },
+ {
+  "name": "Pyrce Park",
+  "latitude": 41.8579270102118,
+  "longitude": -87.7910743227836,
+  "rating": 0.0,
+  "review_count": 0,
+  "source": "Yelp"
+ },
+ {
+  "name": "Bambi Park",
+  "latitude": 41.9315013530831,
+  "longitude": -87.8111061079346,
+  "rating": 0.0,
+  "review_count": 0,
+  "source": "Yelp"
+ }
+]

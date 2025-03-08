@@ -1,0 +1,5466 @@
+[
+ {
+  "name": "Morrill Meadow",
+  "latitude": 41.6955632,
+  "longitude": -87.85792339999999,
+  "rating": 4.6,
+  "review_count": 108,
+  "source": "Google"
+ },
+ {
+  "name": "North Field - Family Field",
+  "latitude": 41.6739745,
+  "longitude": -87.8095165,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Westside Baseball of Oak Lawn",
+  "latitude": 41.7220857,
+  "longitude": -87.790938,
+  "rating": 4.4,
+  "review_count": 120,
+  "source": "Google"
+ },
+ {
+  "name": "George and June Complex Soccer Field",
+  "latitude": 41.6710921,
+  "longitude": -87.77229,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Frontier Park Field House",
+  "latitude": 41.7132985,
+  "longitude": -87.79329090000002,
+  "rating": 4.1,
+  "review_count": 113,
+  "source": "Google"
+ },
+ {
+  "name": "George and June Complex Soccer Field",
+  "latitude": 41.6694317,
+  "longitude": -87.77072489999999,
+  "rating": 4.3,
+  "review_count": 4,
+  "source": "Google"
+ },
+ {
+  "name": "Power Field 1 - Colt Field",
+  "latitude": 41.6722931,
+  "longitude": -87.8092379,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Hickory Hills Park District Soccer Field",
+  "latitude": 41.7283006,
+  "longitude": -87.8139375,
+  "rating": 4,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Bennie Newsome Field - Mustang Field",
+  "latitude": 41.6717787,
+  "longitude": -87.81000569999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Mike Davies Field - Pinto Field",
+  "latitude": 41.6723137,
+  "longitude": -87.81014139999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Power Field 2",
+  "latitude": 41.6720651,
+  "longitude": -87.8078692,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Bronco Field",
+  "latitude": 41.6728839,
+  "longitude": -87.8100633,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Morrill Meadow",
+  "latitude": 41.6955632,
+  "longitude": -87.85792339999999,
+  "rating": 4.6,
+  "review_count": 108,
+  "source": "Google"
+ },
+ {
+  "name": "Pony Field",
+  "latitude": 41.6728057,
+  "longitude": -87.8092233,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Columbus Manor Baseball Field",
+  "latitude": 41.710925,
+  "longitude": -87.772486,
+  "rating": 4,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Baseball Field",
+  "latitude": 41.692722,
+  "longitude": -87.8429702,
+  "rating": 4,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Peaks Park Baseball Field",
+  "latitude": 41.696957,
+  "longitude": -87.788181,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Soccer field",
+  "latitude": 41.69189679999999,
+  "longitude": -87.84372959999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Ball Fore Baseball Field Practice",
+  "latitude": 41.696795,
+  "longitude": -87.786344,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Baseball Field 2",
+  "latitude": 41.7298324,
+  "longitude": -87.7758224,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Moraine soccer field",
+  "latitude": 41.69153499999999,
+  "longitude": -87.8284498,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "North Field - Family Field",
+  "latitude": 41.6739745,
+  "longitude": -87.8095165,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Westside Baseball of Oak Lawn",
+  "latitude": 41.7220857,
+  "longitude": -87.790938,
+  "rating": 4.4,
+  "review_count": 120,
+  "source": "Google"
+ },
+ {
+  "name": "George and June Complex Soccer Field",
+  "latitude": 41.6710921,
+  "longitude": -87.77229,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Frontier Park Field House",
+  "latitude": 41.7132985,
+  "longitude": -87.79329090000002,
+  "rating": 4.1,
+  "review_count": 113,
+  "source": "Google"
+ },
+ {
+  "name": "George and June Complex Soccer Field",
+  "latitude": 41.6694317,
+  "longitude": -87.77072489999999,
+  "rating": 4.3,
+  "review_count": 4,
+  "source": "Google"
+ },
+ {
+  "name": "Power Field 1 - Colt Field",
+  "latitude": 41.6722931,
+  "longitude": -87.8092379,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Hickory Hills Park District Soccer Field",
+  "latitude": 41.7283006,
+  "longitude": -87.8139375,
+  "rating": 4,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Bennie Newsome Field - Mustang Field",
+  "latitude": 41.6717787,
+  "longitude": -87.81000569999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Mike Davies Field - Pinto Field",
+  "latitude": 41.6723137,
+  "longitude": -87.81014139999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Power Field 2",
+  "latitude": 41.6720651,
+  "longitude": -87.8078692,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Bronco Field",
+  "latitude": 41.6728839,
+  "longitude": -87.8100633,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Morrill Meadow",
+  "latitude": 41.6955632,
+  "longitude": -87.85792339999999,
+  "rating": 4.6,
+  "review_count": 108,
+  "source": "Google"
+ },
+ {
+  "name": "Pony Field",
+  "latitude": 41.6728057,
+  "longitude": -87.8092233,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Columbus Manor Baseball Field",
+  "latitude": 41.710925,
+  "longitude": -87.772486,
+  "rating": 4,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Baseball Field",
+  "latitude": 41.692722,
+  "longitude": -87.8429702,
+  "rating": 4,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Peaks Park Baseball Field",
+  "latitude": 41.696957,
+  "longitude": -87.788181,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Soccer field",
+  "latitude": 41.69189679999999,
+  "longitude": -87.84372959999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Ball Fore Baseball Field Practice",
+  "latitude": 41.696795,
+  "longitude": -87.786344,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Baseball Field 2",
+  "latitude": 41.7298324,
+  "longitude": -87.7758224,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Moraine soccer field",
+  "latitude": 41.69153499999999,
+  "longitude": -87.8284498,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "North Field - Family Field",
+  "latitude": 41.6739745,
+  "longitude": -87.8095165,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Westside Baseball of Oak Lawn",
+  "latitude": 41.7220857,
+  "longitude": -87.790938,
+  "rating": 4.4,
+  "review_count": 120,
+  "source": "Google"
+ },
+ {
+  "name": "George and June Complex Soccer Field",
+  "latitude": 41.6710921,
+  "longitude": -87.77229,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Frontier Park Field House",
+  "latitude": 41.7132985,
+  "longitude": -87.79329090000002,
+  "rating": 4.1,
+  "review_count": 113,
+  "source": "Google"
+ },
+ {
+  "name": "George and June Complex Soccer Field",
+  "latitude": 41.6694317,
+  "longitude": -87.77072489999999,
+  "rating": 4.3,
+  "review_count": 4,
+  "source": "Google"
+ },
+ {
+  "name": "Power Field 1 - Colt Field",
+  "latitude": 41.6722931,
+  "longitude": -87.8092379,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Hickory Hills Park District Soccer Field",
+  "latitude": 41.7283006,
+  "longitude": -87.8139375,
+  "rating": 4,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Bennie Newsome Field - Mustang Field",
+  "latitude": 41.6717787,
+  "longitude": -87.81000569999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Mike Davies Field - Pinto Field",
+  "latitude": 41.6723137,
+  "longitude": -87.81014139999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Power Field 2",
+  "latitude": 41.6720651,
+  "longitude": -87.8078692,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Bronco Field",
+  "latitude": 41.6728839,
+  "longitude": -87.8100633,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Morrill Meadow",
+  "latitude": 41.6955632,
+  "longitude": -87.85792339999999,
+  "rating": 4.6,
+  "review_count": 108,
+  "source": "Google"
+ },
+ {
+  "name": "Pony Field",
+  "latitude": 41.6728057,
+  "longitude": -87.8092233,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Columbus Manor Baseball Field",
+  "latitude": 41.710925,
+  "longitude": -87.772486,
+  "rating": 4,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Baseball Field",
+  "latitude": 41.692722,
+  "longitude": -87.8429702,
+  "rating": 4,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Peaks Park Baseball Field",
+  "latitude": 41.696957,
+  "longitude": -87.788181,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Soccer field",
+  "latitude": 41.69189679999999,
+  "longitude": -87.84372959999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Ball Fore Baseball Field Practice",
+  "latitude": 41.696795,
+  "longitude": -87.786344,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Baseball Field 2",
+  "latitude": 41.7298324,
+  "longitude": -87.7758224,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Moraine soccer field",
+  "latitude": 41.69153499999999,
+  "longitude": -87.8284498,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Alsip Baseball, Radz Field",
+  "latitude": 41.67631799999999,
+  "longitude": -87.7260818,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Yukich Field",
+  "latitude": 41.73157090000001,
+  "longitude": -87.7028401,
+  "rating": 4.6,
+  "review_count": 570,
+  "source": "Google"
+ },
+ {
+  "name": "Norris Field",
+  "latitude": 41.7305612,
+  "longitude": -87.6924812,
+  "rating": 4.4,
+  "review_count": 13,
+  "source": "Google"
+ },
+ {
+  "name": "Mt. Greenwood Ball Field 5",
+  "latitude": 41.6891501,
+  "longitude": -87.7145268,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Anderson Little League Field",
+  "latitude": 41.6789413,
+  "longitude": -87.7224737,
+  "rating": 4.1,
+  "review_count": 29,
+  "source": "Google"
+ },
+ {
+  "name": "Mt. Greenwood Ball Field 6",
+  "latitude": 41.68965439999999,
+  "longitude": -87.7149632,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Kennedy (Dennis) Park Baseball Fields",
+  "latitude": 41.68689699999999,
+  "longitude": -87.6854618,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Mt. Greenwood Ball Field 7",
+  "latitude": 41.6902365,
+  "longitude": -87.7145373,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Mt. Greenwood Ball Field 8",
+  "latitude": 41.690294,
+  "longitude": -87.71358719999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Mt. Greenwood Ball Field 4",
+  "latitude": 41.6890843,
+  "longitude": -87.71394980000001,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Mt. Greenwood Ball Field 3",
+  "latitude": 41.6892156,
+  "longitude": -87.7129061,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "George and June Complex Soccer Field",
+  "latitude": 41.6710921,
+  "longitude": -87.77229,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Field 5",
+  "latitude": 41.7243567,
+  "longitude": -87.72967369999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Mt. Greenwood Ball Field 2",
+  "latitude": 41.6897105,
+  "longitude": -87.7122835,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Ernie Kolb Field",
+  "latitude": 41.7130681,
+  "longitude": -87.75962469999999,
+  "rating": 4.2,
+  "review_count": 12,
+  "source": "Google"
+ },
+ {
+  "name": "Field #4",
+  "latitude": 41.724418,
+  "longitude": -87.728841,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Mt. Greenwood Ball Field 1",
+  "latitude": 41.6901371,
+  "longitude": -87.71278869999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Field #2",
+  "latitude": 41.725644,
+  "longitude": -87.73065199999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "St. Christina Ball Fields",
+  "latitude": 41.69048129999999,
+  "longitude": -87.7114036,
+  "rating": 5,
+  "review_count": 4,
+  "source": "Google"
+ },
+ {
+  "name": "Field #3",
+  "latitude": 41.726189,
+  "longitude": -87.73083,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Alsip Baseball, Radz Field",
+  "latitude": 41.67631799999999,
+  "longitude": -87.7260818,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Yukich Field",
+  "latitude": 41.73157090000001,
+  "longitude": -87.7028401,
+  "rating": 4.6,
+  "review_count": 570,
+  "source": "Google"
+ },
+ {
+  "name": "Norris Field",
+  "latitude": 41.7305612,
+  "longitude": -87.6924812,
+  "rating": 4.4,
+  "review_count": 13,
+  "source": "Google"
+ },
+ {
+  "name": "Mt. Greenwood Ball Field 5",
+  "latitude": 41.6891501,
+  "longitude": -87.7145268,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Anderson Little League Field",
+  "latitude": 41.6789413,
+  "longitude": -87.7224737,
+  "rating": 4.1,
+  "review_count": 29,
+  "source": "Google"
+ },
+ {
+  "name": "Mt. Greenwood Ball Field 6",
+  "latitude": 41.68965439999999,
+  "longitude": -87.7149632,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Kennedy (Dennis) Park Baseball Fields",
+  "latitude": 41.68689699999999,
+  "longitude": -87.6854618,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Mt. Greenwood Ball Field 7",
+  "latitude": 41.6902365,
+  "longitude": -87.7145373,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Mt. Greenwood Ball Field 8",
+  "latitude": 41.690294,
+  "longitude": -87.71358719999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Mt. Greenwood Ball Field 4",
+  "latitude": 41.6890843,
+  "longitude": -87.71394980000001,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Mt. Greenwood Ball Field 3",
+  "latitude": 41.6892156,
+  "longitude": -87.7129061,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "George and June Complex Soccer Field",
+  "latitude": 41.6710921,
+  "longitude": -87.77229,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Field 5",
+  "latitude": 41.7243567,
+  "longitude": -87.72967369999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Mt. Greenwood Ball Field 2",
+  "latitude": 41.6897105,
+  "longitude": -87.7122835,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Ernie Kolb Field",
+  "latitude": 41.7130681,
+  "longitude": -87.75962469999999,
+  "rating": 4.2,
+  "review_count": 12,
+  "source": "Google"
+ },
+ {
+  "name": "Field #4",
+  "latitude": 41.724418,
+  "longitude": -87.728841,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Mt. Greenwood Ball Field 1",
+  "latitude": 41.6901371,
+  "longitude": -87.71278869999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Field #2",
+  "latitude": 41.725644,
+  "longitude": -87.73065199999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "St. Christina Ball Fields",
+  "latitude": 41.69048129999999,
+  "longitude": -87.7114036,
+  "rating": 5,
+  "review_count": 4,
+  "source": "Google"
+ },
+ {
+  "name": "Field #3",
+  "latitude": 41.726189,
+  "longitude": -87.73083,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Alsip Baseball, Radz Field",
+  "latitude": 41.67631799999999,
+  "longitude": -87.7260818,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Yukich Field",
+  "latitude": 41.73157090000001,
+  "longitude": -87.7028401,
+  "rating": 4.6,
+  "review_count": 570,
+  "source": "Google"
+ },
+ {
+  "name": "Norris Field",
+  "latitude": 41.7305612,
+  "longitude": -87.6924812,
+  "rating": 4.4,
+  "review_count": 13,
+  "source": "Google"
+ },
+ {
+  "name": "Mt. Greenwood Ball Field 5",
+  "latitude": 41.6891501,
+  "longitude": -87.7145268,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Anderson Little League Field",
+  "latitude": 41.6789413,
+  "longitude": -87.7224737,
+  "rating": 4.1,
+  "review_count": 29,
+  "source": "Google"
+ },
+ {
+  "name": "Mt. Greenwood Ball Field 6",
+  "latitude": 41.68965439999999,
+  "longitude": -87.7149632,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Mt. Greenwood Ball Field 7",
+  "latitude": 41.6902365,
+  "longitude": -87.7145373,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Kennedy (Dennis) Park Baseball Fields",
+  "latitude": 41.68689699999999,
+  "longitude": -87.6854618,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "George and June Complex Soccer Field",
+  "latitude": 41.6710921,
+  "longitude": -87.77229,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Mt. Greenwood Ball Field 8",
+  "latitude": 41.690294,
+  "longitude": -87.71358719999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Mt. Greenwood Ball Field 4",
+  "latitude": 41.6890843,
+  "longitude": -87.71394980000001,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Mt. Greenwood Ball Field 3",
+  "latitude": 41.6892156,
+  "longitude": -87.7129061,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Mt. Greenwood Ball Field 2",
+  "latitude": 41.6897105,
+  "longitude": -87.7122835,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Ernie Kolb Field",
+  "latitude": 41.7130681,
+  "longitude": -87.75962469999999,
+  "rating": 4.2,
+  "review_count": 12,
+  "source": "Google"
+ },
+ {
+  "name": "Mt. Greenwood Ball Field 1",
+  "latitude": 41.6901371,
+  "longitude": -87.71278869999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Field #4",
+  "latitude": 41.724418,
+  "longitude": -87.728841,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Field 5",
+  "latitude": 41.7243567,
+  "longitude": -87.72967369999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Field #2",
+  "latitude": 41.725644,
+  "longitude": -87.73065199999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "St. Christina Ball Fields",
+  "latitude": 41.69048129999999,
+  "longitude": -87.7114036,
+  "rating": 5,
+  "review_count": 4,
+  "source": "Google"
+ },
+ {
+  "name": "Field #3",
+  "latitude": 41.726189,
+  "longitude": -87.73083,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Dr. Conrad Worrill Track & Field Center",
+  "latitude": 41.7094785,
+  "longitude": -87.60517159999999,
+  "rating": 4.4,
+  "review_count": 718,
+  "source": "Google"
+ },
+ {
+  "name": "Euclid Park Football Soccer Combo Field",
+  "latitude": 41.7172895,
+  "longitude": -87.63764959999999,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Jackie Robinson Ball Field",
+  "latitude": 41.7003006,
+  "longitude": -87.64848520000001,
+  "rating": 4.2,
+  "review_count": 18,
+  "source": "Google"
+ },
+ {
+  "name": "Blackwelder Park Football / Soccer Field",
+  "latitude": 41.6839985,
+  "longitude": -87.67076879999999,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Palmer Park Soccer Field",
+  "latitude": 41.6904151,
+  "longitude": -87.61591589999999,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Kennedy Dennis Park Football/Soccer Combo Field",
+  "latitude": 41.6868097,
+  "longitude": -87.68357680000001,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Gately Park Stadium",
+  "latitude": 41.7085091,
+  "longitude": -87.6026376,
+  "rating": 4.3,
+  "review_count": 31,
+  "source": "Google"
+ },
+ {
+  "name": "Ada Park Football/Soccer Combo Field",
+  "latitude": 41.6885184,
+  "longitude": -87.6538271,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Gately Park Ball Field",
+  "latitude": 41.7093701,
+  "longitude": -87.6034188,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Kennedy (Dennis) Park Baseball Fields",
+  "latitude": 41.68689699999999,
+  "longitude": -87.6854618,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Ridge Park Ball Field 2",
+  "latitude": 41.717003,
+  "longitude": -87.668476,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Ridge Park Ball Field 1",
+  "latitude": 41.717673,
+  "longitude": -87.667898,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Brainerd Park Football / Soccer Combo Field",
+  "latitude": 41.727704,
+  "longitude": -87.65378439999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Morgan (Thomas Leeds) Field Park",
+  "latitude": 41.6816389,
+  "longitude": -87.64754649999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Oakdale Park Ball Field 1",
+  "latitude": 41.7204217,
+  "longitude": -87.6490544,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Wendell Smith Ball Field",
+  "latitude": 41.7140132,
+  "longitude": -87.6320837,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Morgan Field Park Basketball Court",
+  "latitude": 41.6818035,
+  "longitude": -87.6472337,
+  "rating": 4,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Palmer Park Ball Field 5",
+  "latitude": 41.6908968,
+  "longitude": -87.6151665,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Palmer Park Ball Field 1",
+  "latitude": 41.6897575,
+  "longitude": -87.6153852,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "White Sox Ace Practice Field Kroc",
+  "latitude": 41.6800874,
+  "longitude": -87.64847720000002,
+  "rating": 4.7,
+  "review_count": 11,
+  "source": "Google"
+ },
+ {
+  "name": "Dr. Conrad Worrill Track & Field Center",
+  "latitude": 41.7094785,
+  "longitude": -87.60517159999999,
+  "rating": 4.4,
+  "review_count": 718,
+  "source": "Google"
+ },
+ {
+  "name": "Euclid Park Football Soccer Combo Field",
+  "latitude": 41.7172895,
+  "longitude": -87.63764959999999,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Jackie Robinson Ball Field",
+  "latitude": 41.7003006,
+  "longitude": -87.64848520000001,
+  "rating": 4.2,
+  "review_count": 18,
+  "source": "Google"
+ },
+ {
+  "name": "Blackwelder Park Football / Soccer Field",
+  "latitude": 41.6839985,
+  "longitude": -87.67076879999999,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Palmer Park Soccer Field",
+  "latitude": 41.6904151,
+  "longitude": -87.61591589999999,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Kennedy Dennis Park Football/Soccer Combo Field",
+  "latitude": 41.6868097,
+  "longitude": -87.68357680000001,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Gately Park Stadium",
+  "latitude": 41.7085091,
+  "longitude": -87.6026376,
+  "rating": 4.3,
+  "review_count": 31,
+  "source": "Google"
+ },
+ {
+  "name": "Ada Park Football/Soccer Combo Field",
+  "latitude": 41.6885184,
+  "longitude": -87.6538271,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Gately Park Ball Field",
+  "latitude": 41.7093701,
+  "longitude": -87.6034188,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Kennedy (Dennis) Park Baseball Fields",
+  "latitude": 41.68689699999999,
+  "longitude": -87.6854618,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Ridge Park Ball Field 2",
+  "latitude": 41.717003,
+  "longitude": -87.668476,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Ridge Park Ball Field 1",
+  "latitude": 41.717673,
+  "longitude": -87.667898,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Brainerd Park Football / Soccer Combo Field",
+  "latitude": 41.727704,
+  "longitude": -87.65378439999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Morgan (Thomas Leeds) Field Park",
+  "latitude": 41.6816389,
+  "longitude": -87.64754649999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Oakdale Park Ball Field 1",
+  "latitude": 41.7204217,
+  "longitude": -87.6490544,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Wendell Smith Ball Field",
+  "latitude": 41.7140132,
+  "longitude": -87.6320837,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Morgan Field Park Basketball Court",
+  "latitude": 41.6818035,
+  "longitude": -87.6472337,
+  "rating": 4,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Palmer Park Ball Field 5",
+  "latitude": 41.6908968,
+  "longitude": -87.6151665,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Palmer Park Ball Field 1",
+  "latitude": 41.6897575,
+  "longitude": -87.6153852,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "White Sox Ace Practice Field Kroc",
+  "latitude": 41.6800874,
+  "longitude": -87.64847720000002,
+  "rating": 4.7,
+  "review_count": 11,
+  "source": "Google"
+ },
+ {
+  "name": "Dr. Conrad Worrill Track & Field Center",
+  "latitude": 41.7094785,
+  "longitude": -87.60517159999999,
+  "rating": 4.4,
+  "review_count": 718,
+  "source": "Google"
+ },
+ {
+  "name": "Euclid Park Football Soccer Combo Field",
+  "latitude": 41.7172895,
+  "longitude": -87.63764959999999,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Jackie Robinson Ball Field",
+  "latitude": 41.7003006,
+  "longitude": -87.64848520000001,
+  "rating": 4.2,
+  "review_count": 18,
+  "source": "Google"
+ },
+ {
+  "name": "Blackwelder Park Football / Soccer Field",
+  "latitude": 41.6839985,
+  "longitude": -87.67076879999999,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Palmer Park Soccer Field",
+  "latitude": 41.6904151,
+  "longitude": -87.61591589999999,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Kennedy Dennis Park Football/Soccer Combo Field",
+  "latitude": 41.6868097,
+  "longitude": -87.68357680000001,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Gately Park Stadium",
+  "latitude": 41.7085091,
+  "longitude": -87.6026376,
+  "rating": 4.3,
+  "review_count": 31,
+  "source": "Google"
+ },
+ {
+  "name": "Ada Park Football/Soccer Combo Field",
+  "latitude": 41.6885184,
+  "longitude": -87.6538271,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Gately Park Ball Field",
+  "latitude": 41.7093701,
+  "longitude": -87.6034188,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Kennedy (Dennis) Park Baseball Fields",
+  "latitude": 41.68689699999999,
+  "longitude": -87.6854618,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Ridge Park Ball Field 2",
+  "latitude": 41.717003,
+  "longitude": -87.668476,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Ridge Park Ball Field 1",
+  "latitude": 41.717673,
+  "longitude": -87.667898,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Brainerd Park Football / Soccer Combo Field",
+  "latitude": 41.727704,
+  "longitude": -87.65378439999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Morgan (Thomas Leeds) Field Park",
+  "latitude": 41.6816389,
+  "longitude": -87.64754649999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Oakdale Park Ball Field 1",
+  "latitude": 41.7204217,
+  "longitude": -87.6490544,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Wendell Smith Ball Field",
+  "latitude": 41.7140132,
+  "longitude": -87.6320837,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Morgan Field Park Basketball Court",
+  "latitude": 41.6818035,
+  "longitude": -87.6472337,
+  "rating": 4,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Palmer Park Ball Field 5",
+  "latitude": 41.6908968,
+  "longitude": -87.6151665,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Palmer Park Ball Field 1",
+  "latitude": 41.6897575,
+  "longitude": -87.6153852,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "White Sox Ace Practice Field Kroc",
+  "latitude": 41.6800874,
+  "longitude": -87.64847720000002,
+  "rating": 4.7,
+  "review_count": 11,
+  "source": "Google"
+ },
+ {
+  "name": "Dr. Conrad Worrill Track & Field Center",
+  "latitude": 41.7094785,
+  "longitude": -87.60517159999999,
+  "rating": 4.4,
+  "review_count": 718,
+  "source": "Google"
+ },
+ {
+  "name": "Calumet Park Soccer Field",
+  "latitude": 41.720498,
+  "longitude": -87.5271934,
+  "rating": 5,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Calumet Park Softball Field North East",
+  "latitude": 41.7218103,
+  "longitude": -87.5284624,
+  "rating": 4.4,
+  "review_count": 43,
+  "source": "Google"
+ },
+ {
+  "name": "Calumet Park Baseball Field 1",
+  "latitude": 41.718745,
+  "longitude": -87.528543,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Gately Park Stadium",
+  "latitude": 41.7085091,
+  "longitude": -87.6026376,
+  "rating": 4.3,
+  "review_count": 31,
+  "source": "Google"
+ },
+ {
+  "name": "Calumet Park Baseball Field 6",
+  "latitude": 41.722034,
+  "longitude": -87.529366,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Trumbull Park Ball Field 1",
+  "latitude": 41.7069074,
+  "longitude": -87.56508500000001,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Calumet Park Baseball Field 4",
+  "latitude": 41.72155,
+  "longitude": -87.531993,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Chicago Illinois Football/Soccer Combo Field",
+  "latitude": 41.7120951,
+  "longitude": -87.52913939999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Gately Park Ball Field",
+  "latitude": 41.7093701,
+  "longitude": -87.6034188,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "East Side Little League Senior Field",
+  "latitude": 41.6954043,
+  "longitude": -87.54312,
+  "rating": 4.2,
+  "review_count": 54,
+  "source": "Google"
+ },
+ {
+  "name": "Trumbull Park Ball Field 4",
+  "latitude": 41.7068748,
+  "longitude": -87.56384609999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Dougherty Park Baseball field",
+  "latitude": 41.7247819,
+  "longitude": -87.5627863,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Trumbull Park Ball Field 2",
+  "latitude": 41.7076877,
+  "longitude": -87.56513729999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Veterans' Ball Field 1",
+  "latitude": 41.7179743,
+  "longitude": -87.5555438,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Veterans' Ball Field 4",
+  "latitude": 41.717945,
+  "longitude": -87.5562163,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Trumbull Park Ball Field 3",
+  "latitude": 41.7076916,
+  "longitude": -87.5638531,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Veterans' Ball Field 2",
+  "latitude": 41.7188013,
+  "longitude": -87.5555588,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Bessemer Par Baseball Junior Softball Fields",
+  "latitude": 41.7326542,
+  "longitude": -87.55832989999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Baseball Field 1",
+  "latitude": 41.712366,
+  "longitude": -87.53026299999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Dr. Conrad Worrill Track & Field Center",
+  "latitude": 41.7094785,
+  "longitude": -87.60517159999999,
+  "rating": 4.4,
+  "review_count": 718,
+  "source": "Google"
+ },
+ {
+  "name": "Calumet Park Softball Field North East",
+  "latitude": 41.7218103,
+  "longitude": -87.5284624,
+  "rating": 4.4,
+  "review_count": 43,
+  "source": "Google"
+ },
+ {
+  "name": "Calumet Park Soccer Field",
+  "latitude": 41.720498,
+  "longitude": -87.5271934,
+  "rating": 5,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "East Side Little League Senior Field",
+  "latitude": 41.6954043,
+  "longitude": -87.54312,
+  "rating": 4.2,
+  "review_count": 54,
+  "source": "Google"
+ },
+ {
+  "name": "Calumet Park Baseball Field 1",
+  "latitude": 41.718745,
+  "longitude": -87.528543,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Gately Park Stadium",
+  "latitude": 41.7085091,
+  "longitude": -87.6026376,
+  "rating": 4.3,
+  "review_count": 31,
+  "source": "Google"
+ },
+ {
+  "name": "Chicago Illinois Football/Soccer Combo Field",
+  "latitude": 41.7120951,
+  "longitude": -87.52913939999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Gately Park Ball Field",
+  "latitude": 41.7093701,
+  "longitude": -87.6034188,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Calumet Park Baseball Field 6",
+  "latitude": 41.722034,
+  "longitude": -87.529366,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Trumbull Park Ball Field 4",
+  "latitude": 41.7068748,
+  "longitude": -87.56384609999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Trumbull Park Ball Field 3",
+  "latitude": 41.7076916,
+  "longitude": -87.5638531,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Calumet Park Baseball Field 4",
+  "latitude": 41.72155,
+  "longitude": -87.531993,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Trumbull Park Ball Field 2",
+  "latitude": 41.7076877,
+  "longitude": -87.56513729999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Rowan (William) Park",
+  "latitude": 41.685848,
+  "longitude": -87.5380528,
+  "rating": 4.3,
+  "review_count": 167,
+  "source": "Google"
+ },
+ {
+  "name": "Trumbull Park Ball Field 1",
+  "latitude": 41.7069074,
+  "longitude": -87.56508500000001,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Merrill Park Ball Field",
+  "latitude": 41.7200035,
+  "longitude": -87.57203559999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Bessemer Par Baseball Junior Softball Fields",
+  "latitude": 41.7326542,
+  "longitude": -87.55832989999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Veterans' Ball Field 4",
+  "latitude": 41.717945,
+  "longitude": -87.5562163,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Veterans' Ball Field 3",
+  "latitude": 41.7187827,
+  "longitude": -87.5561926,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Owens Park Athletic Field",
+  "latitude": 41.7360909,
+  "longitude": -87.5743717,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Dr. Conrad Worrill Track & Field Center",
+  "latitude": 41.7094785,
+  "longitude": -87.60517159999999,
+  "rating": 4.4,
+  "review_count": 718,
+  "source": "Google"
+ },
+ {
+  "name": "Calumet Park Softball Field North East",
+  "latitude": 41.7218103,
+  "longitude": -87.5284624,
+  "rating": 4.4,
+  "review_count": 43,
+  "source": "Google"
+ },
+ {
+  "name": "Calumet Park Soccer Field",
+  "latitude": 41.720498,
+  "longitude": -87.5271934,
+  "rating": 5,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "East Side Little League Senior Field",
+  "latitude": 41.6954043,
+  "longitude": -87.54312,
+  "rating": 4.2,
+  "review_count": 54,
+  "source": "Google"
+ },
+ {
+  "name": "Calumet Park Baseball Field 1",
+  "latitude": 41.718745,
+  "longitude": -87.528543,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Gately Park Stadium",
+  "latitude": 41.7085091,
+  "longitude": -87.6026376,
+  "rating": 4.3,
+  "review_count": 31,
+  "source": "Google"
+ },
+ {
+  "name": "Chicago Illinois Football/Soccer Combo Field",
+  "latitude": 41.7120951,
+  "longitude": -87.52913939999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Gately Park Ball Field",
+  "latitude": 41.7093701,
+  "longitude": -87.6034188,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Calumet Park Baseball Field 6",
+  "latitude": 41.722034,
+  "longitude": -87.529366,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Trumbull Park Ball Field 4",
+  "latitude": 41.7068748,
+  "longitude": -87.56384609999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Trumbull Park Ball Field 3",
+  "latitude": 41.7076916,
+  "longitude": -87.5638531,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Calumet Park Baseball Field 4",
+  "latitude": 41.72155,
+  "longitude": -87.531993,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Trumbull Park Ball Field 2",
+  "latitude": 41.7076877,
+  "longitude": -87.56513729999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Rowan (William) Park",
+  "latitude": 41.685848,
+  "longitude": -87.5380528,
+  "rating": 4.3,
+  "review_count": 167,
+  "source": "Google"
+ },
+ {
+  "name": "Trumbull Park Ball Field 1",
+  "latitude": 41.7069074,
+  "longitude": -87.56508500000001,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Merrill Park Ball Field",
+  "latitude": 41.7200035,
+  "longitude": -87.57203559999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Bessemer Par Baseball Junior Softball Fields",
+  "latitude": 41.7326542,
+  "longitude": -87.55832989999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Veterans' Ball Field 4",
+  "latitude": 41.717945,
+  "longitude": -87.5562163,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Veterans' Ball Field 3",
+  "latitude": 41.7187827,
+  "longitude": -87.5561926,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Owens Park Athletic Field",
+  "latitude": 41.7360909,
+  "longitude": -87.5743717,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Lyons Township High School Soccer Field",
+  "latitude": 41.8107301,
+  "longitude": -87.88824489999999,
+  "rating": 3.9,
+  "review_count": 26,
+  "source": "Google"
+ },
+ {
+  "name": "Burns Field Park",
+  "latitude": 41.8081728,
+  "longitude": -87.93547149999999,
+  "rating": 4.6,
+  "review_count": 58,
+  "source": "Google"
+ },
+ {
+  "name": "Sedgwick Park Baseball Fields",
+  "latitude": 41.8046757,
+  "longitude": -87.8603294,
+  "rating": 4.5,
+  "review_count": 11,
+  "source": "Google"
+ },
+ {
+  "name": "Polo Soccer Fields",
+  "latitude": 41.83505479999999,
+  "longitude": -87.93639759999999,
+  "rating": 4.8,
+  "review_count": 39,
+  "source": "Google"
+ },
+ {
+  "name": "Prince of Wales Field",
+  "latitude": 41.843697,
+  "longitude": -87.9319483,
+  "rating": 5,
+  "review_count": 7,
+  "source": "Google"
+ },
+ {
+  "name": "Bennett Field Stadium",
+  "latitude": 41.803862,
+  "longitude": -87.89271169999999,
+  "rating": 4.3,
+  "review_count": 50,
+  "source": "Google"
+ },
+ {
+  "name": "Field Park Elementary school",
+  "latitude": 41.8112571,
+  "longitude": -87.8948683,
+  "rating": 5,
+  "review_count": 4,
+  "source": "Google"
+ },
+ {
+  "name": "La Grange Field Club",
+  "latitude": 41.8034362,
+  "longitude": -87.88576499999999,
+  "rating": 4.1,
+  "review_count": 23,
+  "source": "Google"
+ },
+ {
+  "name": "Sedgwick Park Soccer Field",
+  "latitude": 41.804564,
+  "longitude": -87.8614905,
+  "rating": 4.8,
+  "review_count": 4,
+  "source": "Google"
+ },
+ {
+  "name": "Field Park",
+  "latitude": 41.8115421,
+  "longitude": -87.8930184,
+  "rating": 4.2,
+  "review_count": 21,
+  "source": "Google"
+ },
+ {
+  "name": "Hinsdale Veeck Park",
+  "latitude": 41.8050898,
+  "longitude": -87.9140031,
+  "rating": 4.4,
+  "review_count": 48,
+  "source": "Google"
+ },
+ {
+  "name": "Hinsdale Veeck Park Baseball Field",
+  "latitude": 41.8047562,
+  "longitude": -87.9128311,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "La Grange Park Little League",
+  "latitude": 41.83945019999999,
+  "longitude": -87.8643525,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Baseball Field 1",
+  "latitude": 41.8079006,
+  "longitude": -87.9137973,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Brook Park Baseball Field",
+  "latitude": 41.7989907,
+  "longitude": -87.9106286,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Normandy Park Football Soccer Combo Field",
+  "latitude": 41.7986337,
+  "longitude": -87.7887204,
+  "rating": 4,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Ehlert Park Baseball Fields",
+  "latitude": 41.8117326,
+  "longitude": -87.84780889999999,
+  "rating": 4.5,
+  "review_count": 33,
+  "source": "Google"
+ },
+ {
+  "name": "Freedom Park",
+  "latitude": 41.8243487,
+  "longitude": -87.7864135,
+  "rating": 4.5,
+  "review_count": 133,
+  "source": "Google"
+ },
+ {
+  "name": "Miller Meadow Model Airplane Flying Field",
+  "latitude": 41.8514851,
+  "longitude": -87.8311119,
+  "rating": 4.9,
+  "review_count": 16,
+  "source": "Google"
+ },
+ {
+  "name": "Normandy Park Ball Field",
+  "latitude": 41.7982658,
+  "longitude": -87.7889725,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Roy A. Overholt Field",
+  "latitude": 41.8233548,
+  "longitude": -87.8396838,
+  "rating": 4.9,
+  "review_count": 22,
+  "source": "Google"
+ },
+ {
+  "name": "Stars & Stripes Park",
+  "latitude": 41.7990487,
+  "longitude": -87.7974256,
+  "rating": 4.6,
+  "review_count": 61,
+  "source": "Google"
+ },
+ {
+  "name": "Baseball Alley",
+  "latitude": 41.837756,
+  "longitude": -87.78618709999999,
+  "rating": 4.5,
+  "review_count": 33,
+  "source": "Google"
+ },
+ {
+  "name": "McCook Athletic & Exposition",
+  "latitude": 41.80410699999999,
+  "longitude": -87.846215,
+  "rating": 4.5,
+  "review_count": 665,
+  "source": "Google"
+ },
+ {
+  "name": "Father Robert Mastny (St. Mary of Celle) Field",
+  "latitude": 41.8613712,
+  "longitude": -87.79219359999999,
+  "rating": 4,
+  "review_count": 8,
+  "source": "Google"
+ },
+ {
+  "name": "Sedgwick Park Baseball Fields",
+  "latitude": 41.8046757,
+  "longitude": -87.8603294,
+  "rating": 4.5,
+  "review_count": 11,
+  "source": "Google"
+ },
+ {
+  "name": "Stars & Stripes Park Little League Field",
+  "latitude": 41.7990077,
+  "longitude": -87.7970122,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "#5 - HULL FIELD",
+  "latitude": 41.8110898,
+  "longitude": -87.8478323,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Sports Field",
+  "latitude": 41.8289905,
+  "longitude": -87.83271769999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Morton West High School Soccer Field alexia",
+  "latitude": 41.8436862,
+  "longitude": -87.8021989,
+  "rating": 4.7,
+  "review_count": 3,
+  "source": "Google"
+ },
+ {
+  "name": "Harrington Park Soccer Field",
+  "latitude": 41.826754,
+  "longitude": -87.8045247,
+  "rating": 3.8,
+  "review_count": 4,
+  "source": "Google"
+ },
+ {
+  "name": "Gav Field",
+  "latitude": 41.8255896,
+  "longitude": -87.8407774,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Baseball Field",
+  "latitude": 41.826513,
+  "longitude": -87.773944,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "#1 BASEBALL FIELD",
+  "latitude": 41.811697,
+  "longitude": -87.8483108,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "#2 - BASEBALL FIELD",
+  "latitude": 41.8095508,
+  "longitude": -87.8481975,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Normandy Park Football Soccer Combo Field",
+  "latitude": 41.7986337,
+  "longitude": -87.7887204,
+  "rating": 4,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Ehlert Park Baseball Fields",
+  "latitude": 41.8117326,
+  "longitude": -87.84780889999999,
+  "rating": 4.5,
+  "review_count": 33,
+  "source": "Google"
+ },
+ {
+  "name": "Freedom Park",
+  "latitude": 41.8243487,
+  "longitude": -87.7864135,
+  "rating": 4.5,
+  "review_count": 133,
+  "source": "Google"
+ },
+ {
+  "name": "Miller Meadow Model Airplane Flying Field",
+  "latitude": 41.8514851,
+  "longitude": -87.8311119,
+  "rating": 4.9,
+  "review_count": 16,
+  "source": "Google"
+ },
+ {
+  "name": "Normandy Park Ball Field",
+  "latitude": 41.7982658,
+  "longitude": -87.7889725,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Roy A. Overholt Field",
+  "latitude": 41.8233548,
+  "longitude": -87.8396838,
+  "rating": 4.9,
+  "review_count": 22,
+  "source": "Google"
+ },
+ {
+  "name": "Stars & Stripes Park",
+  "latitude": 41.7990487,
+  "longitude": -87.7974256,
+  "rating": 4.6,
+  "review_count": 61,
+  "source": "Google"
+ },
+ {
+  "name": "Baseball Alley",
+  "latitude": 41.837756,
+  "longitude": -87.78618709999999,
+  "rating": 4.5,
+  "review_count": 33,
+  "source": "Google"
+ },
+ {
+  "name": "McCook Athletic & Exposition",
+  "latitude": 41.80410699999999,
+  "longitude": -87.846215,
+  "rating": 4.5,
+  "review_count": 665,
+  "source": "Google"
+ },
+ {
+  "name": "Father Robert Mastny (St. Mary of Celle) Field",
+  "latitude": 41.8613712,
+  "longitude": -87.79219359999999,
+  "rating": 4,
+  "review_count": 8,
+  "source": "Google"
+ },
+ {
+  "name": "Sedgwick Park Baseball Fields",
+  "latitude": 41.8046757,
+  "longitude": -87.8603294,
+  "rating": 4.5,
+  "review_count": 11,
+  "source": "Google"
+ },
+ {
+  "name": "Stars & Stripes Park Little League Field",
+  "latitude": 41.7990077,
+  "longitude": -87.7970122,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "#5 - HULL FIELD",
+  "latitude": 41.8110898,
+  "longitude": -87.8478323,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Sports Field",
+  "latitude": 41.8289905,
+  "longitude": -87.83271769999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Morton West High School Soccer Field alexia",
+  "latitude": 41.8436862,
+  "longitude": -87.8021989,
+  "rating": 4.7,
+  "review_count": 3,
+  "source": "Google"
+ },
+ {
+  "name": "Harrington Park Soccer Field",
+  "latitude": 41.826754,
+  "longitude": -87.8045247,
+  "rating": 3.8,
+  "review_count": 4,
+  "source": "Google"
+ },
+ {
+  "name": "Gav Field",
+  "latitude": 41.8255896,
+  "longitude": -87.8407774,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Baseball Field",
+  "latitude": 41.826513,
+  "longitude": -87.773944,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "#1 BASEBALL FIELD",
+  "latitude": 41.811697,
+  "longitude": -87.8483108,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "#2 - BASEBALL FIELD",
+  "latitude": 41.8095508,
+  "longitude": -87.8481975,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Normandy Park Football Soccer Combo Field",
+  "latitude": 41.7986337,
+  "longitude": -87.7887204,
+  "rating": 4,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Ehlert Park Baseball Fields",
+  "latitude": 41.8117326,
+  "longitude": -87.84780889999999,
+  "rating": 4.5,
+  "review_count": 33,
+  "source": "Google"
+ },
+ {
+  "name": "Freedom Park",
+  "latitude": 41.8243487,
+  "longitude": -87.7864135,
+  "rating": 4.5,
+  "review_count": 133,
+  "source": "Google"
+ },
+ {
+  "name": "Miller Meadow Model Airplane Flying Field",
+  "latitude": 41.8514851,
+  "longitude": -87.8311119,
+  "rating": 4.9,
+  "review_count": 16,
+  "source": "Google"
+ },
+ {
+  "name": "Normandy Park Ball Field",
+  "latitude": 41.7982658,
+  "longitude": -87.7889725,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Roy A. Overholt Field",
+  "latitude": 41.8233548,
+  "longitude": -87.8396838,
+  "rating": 4.9,
+  "review_count": 22,
+  "source": "Google"
+ },
+ {
+  "name": "Stars & Stripes Park",
+  "latitude": 41.7990487,
+  "longitude": -87.7974256,
+  "rating": 4.6,
+  "review_count": 61,
+  "source": "Google"
+ },
+ {
+  "name": "Baseball Alley",
+  "latitude": 41.837756,
+  "longitude": -87.78618709999999,
+  "rating": 4.5,
+  "review_count": 33,
+  "source": "Google"
+ },
+ {
+  "name": "McCook Athletic & Exposition",
+  "latitude": 41.80410699999999,
+  "longitude": -87.846215,
+  "rating": 4.5,
+  "review_count": 665,
+  "source": "Google"
+ },
+ {
+  "name": "Father Robert Mastny (St. Mary of Celle) Field",
+  "latitude": 41.8613712,
+  "longitude": -87.79219359999999,
+  "rating": 4,
+  "review_count": 8,
+  "source": "Google"
+ },
+ {
+  "name": "Sedgwick Park Baseball Fields",
+  "latitude": 41.8046757,
+  "longitude": -87.8603294,
+  "rating": 4.5,
+  "review_count": 11,
+  "source": "Google"
+ },
+ {
+  "name": "Stars & Stripes Park Little League Field",
+  "latitude": 41.7990077,
+  "longitude": -87.7970122,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "#5 - HULL FIELD",
+  "latitude": 41.8110898,
+  "longitude": -87.8478323,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Sports Field",
+  "latitude": 41.8289905,
+  "longitude": -87.83271769999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Morton West High School Soccer Field alexia",
+  "latitude": 41.8436862,
+  "longitude": -87.8021989,
+  "rating": 4.7,
+  "review_count": 3,
+  "source": "Google"
+ },
+ {
+  "name": "Harrington Park Soccer Field",
+  "latitude": 41.826754,
+  "longitude": -87.8045247,
+  "rating": 3.8,
+  "review_count": 4,
+  "source": "Google"
+ },
+ {
+  "name": "Gav Field",
+  "latitude": 41.8255896,
+  "longitude": -87.8407774,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Baseball Field",
+  "latitude": 41.826513,
+  "longitude": -87.773944,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "#1 BASEBALL FIELD",
+  "latitude": 41.811697,
+  "longitude": -87.8483108,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "#2 - BASEBALL FIELD",
+  "latitude": 41.8095508,
+  "longitude": -87.8481975,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Carbajal Field",
+  "latitude": 41.8346354,
+  "longitude": -87.76248009999999,
+  "rating": 4.6,
+  "review_count": 32,
+  "source": "Google"
+ },
+ {
+  "name": "La Villita Park Soccer Field 1",
+  "latitude": 41.8401621,
+  "longitude": -87.7014203,
+  "rating": 4.6,
+  "review_count": 7,
+  "source": "Google"
+ },
+ {
+  "name": "La Villita Park Soccer Field 2",
+  "latitude": 41.8401745,
+  "longitude": -87.7006736,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Franklin Park Football Soccer Combo Fields",
+  "latitude": 41.8617903,
+  "longitude": -87.73194939999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Douglass Park Soccer Field",
+  "latitude": 41.859094,
+  "longitude": -87.69717299999999,
+  "rating": 4.5,
+  "review_count": 69,
+  "source": "Google"
+ },
+ {
+  "name": "Vittum Park Combo Field",
+  "latitude": 41.803016,
+  "longitude": -87.7494227,
+  "rating": 2.7,
+  "review_count": 3,
+  "source": "Google"
+ },
+ {
+  "name": "Pietrowski Park Ball Field 4",
+  "latitude": 41.8339323,
+  "longitude": -87.7313504,
+  "rating": 5,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Artificial Turf Field",
+  "latitude": 41.8573241,
+  "longitude": -87.702105,
+  "rating": 4.2,
+  "review_count": 43,
+  "source": "Google"
+ },
+ {
+  "name": "Clyde Park Soccer Field",
+  "latitude": 41.8559522,
+  "longitude": -87.75497399999999,
+  "rating": 4.6,
+  "review_count": 22,
+  "source": "Google"
+ },
+ {
+  "name": "Hawthorne Soccer Field",
+  "latitude": 41.8346328,
+  "longitude": -87.7624816,
+  "rating": 4.2,
+  "review_count": 26,
+  "source": "Google"
+ },
+ {
+  "name": "Kelly (Edward) Park Baseball Field",
+  "latitude": 41.8181997,
+  "longitude": -87.6931883,
+  "rating": 3.5,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Archer Park Ball Field",
+  "latitude": 41.8027208,
+  "longitude": -87.7351812,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Pietrowski Park Ball Field 5",
+  "latitude": 41.83479,
+  "longitude": -87.73174,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Vittum Park Ball Field 3",
+  "latitude": 41.8032829,
+  "longitude": -87.74887489999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Vittum Park Ball Field 4",
+  "latitude": 41.8023975,
+  "longitude": -87.7489054,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Kelly (Edward) Park Soccer Field",
+  "latitude": 41.8187283,
+  "longitude": -87.6928074,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Pietrowski Park Ball Field 6",
+  "latitude": 41.8355641,
+  "longitude": -87.731567,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Vittum Park Ball Field 2",
+  "latitude": 41.8035384,
+  "longitude": -87.7499134,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Pietrowski Park Ball Field 3",
+  "latitude": 41.8339839,
+  "longitude": -87.7303884,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "LeClaire-Hearst Park Baseball Field",
+  "latitude": 41.8135826,
+  "longitude": -87.750264,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Carbajal Field",
+  "latitude": 41.8346354,
+  "longitude": -87.76248009999999,
+  "rating": 4.6,
+  "review_count": 32,
+  "source": "Google"
+ },
+ {
+  "name": "La Villita Park Soccer Field 1",
+  "latitude": 41.8401621,
+  "longitude": -87.7014203,
+  "rating": 4.6,
+  "review_count": 7,
+  "source": "Google"
+ },
+ {
+  "name": "La Villita Park Soccer Field 2",
+  "latitude": 41.8401745,
+  "longitude": -87.7006736,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Franklin Park Football Soccer Combo Fields",
+  "latitude": 41.8617903,
+  "longitude": -87.73194939999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Douglass Park Soccer Field",
+  "latitude": 41.859094,
+  "longitude": -87.69717299999999,
+  "rating": 4.5,
+  "review_count": 69,
+  "source": "Google"
+ },
+ {
+  "name": "Vittum Park Combo Field",
+  "latitude": 41.803016,
+  "longitude": -87.7494227,
+  "rating": 2.7,
+  "review_count": 3,
+  "source": "Google"
+ },
+ {
+  "name": "Pietrowski Park Ball Field 4",
+  "latitude": 41.8339323,
+  "longitude": -87.7313504,
+  "rating": 5,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Artificial Turf Field",
+  "latitude": 41.8573241,
+  "longitude": -87.702105,
+  "rating": 4.2,
+  "review_count": 43,
+  "source": "Google"
+ },
+ {
+  "name": "Clyde Park Soccer Field",
+  "latitude": 41.8559522,
+  "longitude": -87.75497399999999,
+  "rating": 4.6,
+  "review_count": 22,
+  "source": "Google"
+ },
+ {
+  "name": "Hawthorne Soccer Field",
+  "latitude": 41.8346328,
+  "longitude": -87.7624816,
+  "rating": 4.2,
+  "review_count": 26,
+  "source": "Google"
+ },
+ {
+  "name": "Kelly (Edward) Park Baseball Field",
+  "latitude": 41.8181997,
+  "longitude": -87.6931883,
+  "rating": 3.5,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Archer Park Ball Field",
+  "latitude": 41.8027208,
+  "longitude": -87.7351812,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Pietrowski Park Ball Field 5",
+  "latitude": 41.83479,
+  "longitude": -87.73174,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Vittum Park Ball Field 3",
+  "latitude": 41.8032829,
+  "longitude": -87.74887489999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Vittum Park Ball Field 4",
+  "latitude": 41.8023975,
+  "longitude": -87.7489054,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Kelly (Edward) Park Soccer Field",
+  "latitude": 41.8187283,
+  "longitude": -87.6928074,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Pietrowski Park Ball Field 6",
+  "latitude": 41.8355641,
+  "longitude": -87.731567,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Vittum Park Ball Field 2",
+  "latitude": 41.8035384,
+  "longitude": -87.7499134,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Pietrowski Park Ball Field 3",
+  "latitude": 41.8339839,
+  "longitude": -87.7303884,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "LeClaire-Hearst Park Baseball Field",
+  "latitude": 41.8135826,
+  "longitude": -87.750264,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Carbajal Field",
+  "latitude": 41.8346354,
+  "longitude": -87.76248009999999,
+  "rating": 4.6,
+  "review_count": 32,
+  "source": "Google"
+ },
+ {
+  "name": "La Villita Park Soccer Field 1",
+  "latitude": 41.8401621,
+  "longitude": -87.7014203,
+  "rating": 4.6,
+  "review_count": 7,
+  "source": "Google"
+ },
+ {
+  "name": "La Villita Park Soccer Field 2",
+  "latitude": 41.8401745,
+  "longitude": -87.7006736,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Franklin Park Football Soccer Combo Fields",
+  "latitude": 41.8617903,
+  "longitude": -87.73194939999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Douglass Park Soccer Field",
+  "latitude": 41.859094,
+  "longitude": -87.69717299999999,
+  "rating": 4.5,
+  "review_count": 69,
+  "source": "Google"
+ },
+ {
+  "name": "Vittum Park Combo Field",
+  "latitude": 41.803016,
+  "longitude": -87.7494227,
+  "rating": 2.7,
+  "review_count": 3,
+  "source": "Google"
+ },
+ {
+  "name": "Pietrowski Park Ball Field 4",
+  "latitude": 41.8339323,
+  "longitude": -87.7313504,
+  "rating": 5,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Artificial Turf Field",
+  "latitude": 41.8573241,
+  "longitude": -87.702105,
+  "rating": 4.2,
+  "review_count": 43,
+  "source": "Google"
+ },
+ {
+  "name": "Clyde Park Soccer Field",
+  "latitude": 41.8559522,
+  "longitude": -87.75497399999999,
+  "rating": 4.6,
+  "review_count": 22,
+  "source": "Google"
+ },
+ {
+  "name": "Hawthorne Soccer Field",
+  "latitude": 41.8346328,
+  "longitude": -87.7624816,
+  "rating": 4.2,
+  "review_count": 26,
+  "source": "Google"
+ },
+ {
+  "name": "Kelly (Edward) Park Baseball Field",
+  "latitude": 41.8181997,
+  "longitude": -87.6931883,
+  "rating": 3.5,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Archer Park Ball Field",
+  "latitude": 41.8027208,
+  "longitude": -87.7351812,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Pietrowski Park Ball Field 5",
+  "latitude": 41.83479,
+  "longitude": -87.73174,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Vittum Park Ball Field 3",
+  "latitude": 41.8032829,
+  "longitude": -87.74887489999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Vittum Park Ball Field 4",
+  "latitude": 41.8023975,
+  "longitude": -87.7489054,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Kelly (Edward) Park Soccer Field",
+  "latitude": 41.8187283,
+  "longitude": -87.6928074,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Pietrowski Park Ball Field 6",
+  "latitude": 41.8355641,
+  "longitude": -87.731567,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Vittum Park Ball Field 2",
+  "latitude": 41.8035384,
+  "longitude": -87.7499134,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Pietrowski Park Ball Field 3",
+  "latitude": 41.8339839,
+  "longitude": -87.7303884,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "LeClaire-Hearst Park Baseball Field",
+  "latitude": 41.8135826,
+  "longitude": -87.750264,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Stuart Field",
+  "latitude": 41.8388919,
+  "longitude": -87.6285968,
+  "rating": 4.3,
+  "review_count": 38,
+  "source": "Google"
+ },
+ {
+  "name": "Northerly Island Park",
+  "latitude": 41.8595761,
+  "longitude": -87.60837529999999,
+  "rating": 4.7,
+  "review_count": 1792,
+  "source": "Google"
+ },
+ {
+  "name": "Sofive Soccer Centers La Pershing",
+  "latitude": 41.8226457,
+  "longitude": -87.666601,
+  "rating": 4.5,
+  "review_count": 64,
+  "source": "Google"
+ },
+ {
+  "name": "McKinley Park Turf Soccer Field",
+  "latitude": 41.825397,
+  "longitude": -87.6801821,
+  "rating": 4.3,
+  "review_count": 12,
+  "source": "Google"
+ },
+ {
+  "name": "Soldier Field",
+  "latitude": 41.8623132,
+  "longitude": -87.6166884,
+  "rating": 4.5,
+  "review_count": 13038,
+  "source": "Google"
+ },
+ {
+  "name": "Sofive Soccer Centers Chitown",
+  "latitude": 41.8494444,
+  "longitude": -87.6583333,
+  "rating": 4.5,
+  "review_count": 641,
+  "source": "Google"
+ },
+ {
+  "name": "UIC Turf Field East",
+  "latitude": 41.8629295,
+  "longitude": -87.648618,
+  "rating": 4.8,
+  "review_count": 12,
+  "source": "Google"
+ },
+ {
+  "name": "Parente Field at De La Salle",
+  "latitude": 41.832226,
+  "longitude": -87.6246266,
+  "rating": 4.7,
+  "review_count": 45,
+  "source": "Google"
+ },
+ {
+  "name": "Jones College Prep NTA Track & Field",
+  "latitude": 41.8501469,
+  "longitude": -87.628712,
+  "rating": 4.7,
+  "review_count": 36,
+  "source": "Google"
+ },
+ {
+  "name": "Donovan Park Baseball Fields",
+  "latitude": 41.8283684,
+  "longitude": -87.6488916,
+  "rating": 5,
+  "review_count": 4,
+  "source": "Google"
+ },
+ {
+  "name": "Rate Field",
+  "latitude": 41.8298609,
+  "longitude": -87.6336684,
+  "rating": 4.6,
+  "review_count": 15377,
+  "source": "Google"
+ },
+ {
+  "name": "Lowe Park Ball Field",
+  "latitude": 41.7983161,
+  "longitude": -87.64123889999999,
+  "rating": 4,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Bosley Park Football / Soccer Combo Field",
+  "latitude": 41.8396822,
+  "longitude": -87.6542669,
+  "rating": 3,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Artificial Turf Field",
+  "latitude": 41.8136982,
+  "longitude": -87.6671904,
+  "rating": 3.7,
+  "review_count": 3,
+  "source": "Google"
+ },
+ {
+  "name": "Cornell Square Park Turf Soccer Field",
+  "latitude": 41.8027173,
+  "longitude": -87.6712307,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Sherman Park Combo Field",
+  "latitude": 41.7967131,
+  "longitude": -87.6573291,
+  "rating": 2.5,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Combo Field",
+  "latitude": 41.8183467,
+  "longitude": -87.6429629,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Davis Square Park Football Soccer Combo Field",
+  "latitude": 41.8129614,
+  "longitude": -87.6681644,
+  "rating": 1,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Chicago Park 540 Ball Field",
+  "latitude": 41.84822200000001,
+  "longitude": -87.629302,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Mandrake Park Soccer Field",
+  "latitude": 41.8233074,
+  "longitude": -87.60857159999999,
+  "rating": 5,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Stuart Field",
+  "latitude": 41.8388919,
+  "longitude": -87.6285968,
+  "rating": 4.3,
+  "review_count": 38,
+  "source": "Google"
+ },
+ {
+  "name": "Northerly Island Park",
+  "latitude": 41.8595761,
+  "longitude": -87.60837529999999,
+  "rating": 4.7,
+  "review_count": 1792,
+  "source": "Google"
+ },
+ {
+  "name": "Sofive Soccer Centers La Pershing",
+  "latitude": 41.8226457,
+  "longitude": -87.666601,
+  "rating": 4.5,
+  "review_count": 64,
+  "source": "Google"
+ },
+ {
+  "name": "McKinley Park Turf Soccer Field",
+  "latitude": 41.825397,
+  "longitude": -87.6801821,
+  "rating": 4.3,
+  "review_count": 12,
+  "source": "Google"
+ },
+ {
+  "name": "Soldier Field",
+  "latitude": 41.8623132,
+  "longitude": -87.6166884,
+  "rating": 4.5,
+  "review_count": 13038,
+  "source": "Google"
+ },
+ {
+  "name": "Sofive Soccer Centers Chitown",
+  "latitude": 41.8494444,
+  "longitude": -87.6583333,
+  "rating": 4.5,
+  "review_count": 641,
+  "source": "Google"
+ },
+ {
+  "name": "UIC Turf Field East",
+  "latitude": 41.8629295,
+  "longitude": -87.648618,
+  "rating": 4.8,
+  "review_count": 12,
+  "source": "Google"
+ },
+ {
+  "name": "Parente Field at De La Salle",
+  "latitude": 41.832226,
+  "longitude": -87.6246266,
+  "rating": 4.7,
+  "review_count": 45,
+  "source": "Google"
+ },
+ {
+  "name": "Jones College Prep NTA Track & Field",
+  "latitude": 41.8501469,
+  "longitude": -87.628712,
+  "rating": 4.7,
+  "review_count": 36,
+  "source": "Google"
+ },
+ {
+  "name": "Donovan Park Baseball Fields",
+  "latitude": 41.8283684,
+  "longitude": -87.6488916,
+  "rating": 5,
+  "review_count": 4,
+  "source": "Google"
+ },
+ {
+  "name": "Rate Field",
+  "latitude": 41.8298609,
+  "longitude": -87.6336684,
+  "rating": 4.6,
+  "review_count": 15377,
+  "source": "Google"
+ },
+ {
+  "name": "Lowe Park Ball Field",
+  "latitude": 41.7983161,
+  "longitude": -87.64123889999999,
+  "rating": 4,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Bosley Park Football / Soccer Combo Field",
+  "latitude": 41.8396822,
+  "longitude": -87.6542669,
+  "rating": 3,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Artificial Turf Field",
+  "latitude": 41.8136982,
+  "longitude": -87.6671904,
+  "rating": 3.7,
+  "review_count": 3,
+  "source": "Google"
+ },
+ {
+  "name": "Cornell Square Park Turf Soccer Field",
+  "latitude": 41.8027173,
+  "longitude": -87.6712307,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Sherman Park Combo Field",
+  "latitude": 41.7967131,
+  "longitude": -87.6573291,
+  "rating": 2.5,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Combo Field",
+  "latitude": 41.8183467,
+  "longitude": -87.6429629,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Davis Square Park Football Soccer Combo Field",
+  "latitude": 41.8129614,
+  "longitude": -87.6681644,
+  "rating": 1,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Chicago Park 540 Ball Field",
+  "latitude": 41.84822200000001,
+  "longitude": -87.629302,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Mandrake Park Soccer Field",
+  "latitude": 41.8233074,
+  "longitude": -87.60857159999999,
+  "rating": 5,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Stuart Field",
+  "latitude": 41.8388919,
+  "longitude": -87.6285968,
+  "rating": 4.3,
+  "review_count": 38,
+  "source": "Google"
+ },
+ {
+  "name": "Northerly Island Park",
+  "latitude": 41.8595761,
+  "longitude": -87.60837529999999,
+  "rating": 4.7,
+  "review_count": 1792,
+  "source": "Google"
+ },
+ {
+  "name": "Sofive Soccer Centers La Pershing",
+  "latitude": 41.8226457,
+  "longitude": -87.666601,
+  "rating": 4.5,
+  "review_count": 64,
+  "source": "Google"
+ },
+ {
+  "name": "McKinley Park Turf Soccer Field",
+  "latitude": 41.825397,
+  "longitude": -87.6801821,
+  "rating": 4.3,
+  "review_count": 12,
+  "source": "Google"
+ },
+ {
+  "name": "Soldier Field",
+  "latitude": 41.8623132,
+  "longitude": -87.6166884,
+  "rating": 4.5,
+  "review_count": 13038,
+  "source": "Google"
+ },
+ {
+  "name": "Sofive Soccer Centers Chitown",
+  "latitude": 41.8494444,
+  "longitude": -87.6583333,
+  "rating": 4.5,
+  "review_count": 641,
+  "source": "Google"
+ },
+ {
+  "name": "UIC Turf Field East",
+  "latitude": 41.8629295,
+  "longitude": -87.648618,
+  "rating": 4.8,
+  "review_count": 12,
+  "source": "Google"
+ },
+ {
+  "name": "Parente Field at De La Salle",
+  "latitude": 41.832226,
+  "longitude": -87.6246266,
+  "rating": 4.7,
+  "review_count": 45,
+  "source": "Google"
+ },
+ {
+  "name": "Jones College Prep NTA Track & Field",
+  "latitude": 41.8501469,
+  "longitude": -87.628712,
+  "rating": 4.7,
+  "review_count": 36,
+  "source": "Google"
+ },
+ {
+  "name": "Donovan Park Baseball Fields",
+  "latitude": 41.8283684,
+  "longitude": -87.6488916,
+  "rating": 5,
+  "review_count": 4,
+  "source": "Google"
+ },
+ {
+  "name": "Rate Field",
+  "latitude": 41.8298609,
+  "longitude": -87.6336684,
+  "rating": 4.6,
+  "review_count": 15377,
+  "source": "Google"
+ },
+ {
+  "name": "Lowe Park Ball Field",
+  "latitude": 41.7983161,
+  "longitude": -87.64123889999999,
+  "rating": 4,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Bosley Park Football / Soccer Combo Field",
+  "latitude": 41.8396822,
+  "longitude": -87.6542669,
+  "rating": 3,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Artificial Turf Field",
+  "latitude": 41.8136982,
+  "longitude": -87.6671904,
+  "rating": 3.7,
+  "review_count": 3,
+  "source": "Google"
+ },
+ {
+  "name": "Cornell Square Park Turf Soccer Field",
+  "latitude": 41.8027173,
+  "longitude": -87.6712307,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Sherman Park Combo Field",
+  "latitude": 41.7967131,
+  "longitude": -87.6573291,
+  "rating": 2.5,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Combo Field",
+  "latitude": 41.8183467,
+  "longitude": -87.6429629,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Davis Square Park Football Soccer Combo Field",
+  "latitude": 41.8129614,
+  "longitude": -87.6681644,
+  "rating": 1,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Chicago Park 540 Ball Field",
+  "latitude": 41.84822200000001,
+  "longitude": -87.629302,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Mandrake Park Soccer Field",
+  "latitude": 41.8233074,
+  "longitude": -87.60857159999999,
+  "rating": 5,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Promontory Field House",
+  "latitude": 41.7964382,
+  "longitude": -87.5760486,
+  "rating": 4.6,
+  "review_count": 15,
+  "source": "Google"
+ },
+ {
+  "name": "Kenwood Community Park",
+  "latitude": 41.8050427,
+  "longitude": -87.5929049,
+  "rating": 4.5,
+  "review_count": 219,
+  "source": "Google"
+ },
+ {
+  "name": "Kennicott Jonathan Park Athletic Field",
+  "latitude": 41.8136393,
+  "longitude": -87.5973715,
+  "rating": 4,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Mandrake Park Turf Athletic Field",
+  "latitude": 41.8235588,
+  "longitude": -87.60566999999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Chicago Illinois Soccer Field/ Football Field Combo",
+  "latitude": 41.8049676,
+  "longitude": -87.60806869999999,
+  "rating": 4,
+  "review_count": 4,
+  "source": "Google"
+ },
+ {
+  "name": "Baseball Field 1",
+  "latitude": 41.807286,
+  "longitude": -87.588031,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Artificial Turf Field",
+  "latitude": 41.82365,
+  "longitude": -87.6056691,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "The Ballpark at Rosemont",
+  "latitude": 41.9809265,
+  "longitude": -87.87224820000002,
+  "rating": 4.7,
+  "review_count": 142,
+  "source": "Google"
+ },
+ {
+  "name": "Impact Field",
+  "latitude": 41.9782126,
+  "longitude": -87.87173639999999,
+  "rating": 4.7,
+  "review_count": 1235,
+  "source": "Google"
+ },
+ {
+  "name": "The Dome at the Parkway Bank Sports Complex",
+  "latitude": 41.98122559999999,
+  "longitude": -87.8739886,
+  "rating": 4.5,
+  "review_count": 343,
+  "source": "Google"
+ },
+ {
+  "name": "Redmond Soccer and Football Field",
+  "latitude": 41.9429988,
+  "longitude": -87.9237527,
+  "rating": 4.1,
+  "review_count": 15,
+  "source": "Google"
+ },
+ {
+  "name": "Conrad Fisher Ball Field 3",
+  "latitude": 41.9262619,
+  "longitude": -87.9369759,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Conrad Fisher Ball Field 2",
+  "latitude": 41.92646,
+  "longitude": -87.9362259,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Conrad Fisher Ball Field 1",
+  "latitude": 41.9275333,
+  "longitude": -87.9359329,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Redmond Memorial Field",
+  "latitude": 41.9437457,
+  "longitude": -87.9246478,
+  "rating": 4.6,
+  "review_count": 5,
+  "source": "Google"
+ },
+ {
+  "name": "Schiller Park Baseball Field",
+  "latitude": 41.9540917,
+  "longitude": -87.85861179999999,
+  "rating": 3,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Baseball Field 1",
+  "latitude": 41.94079319999999,
+  "longitude": -87.86439949999999,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Shelton Field",
+  "latitude": 41.9503991,
+  "longitude": -87.8755067,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "East Leyden High School Football Field 2",
+  "latitude": 41.9432591,
+  "longitude": -87.86656649999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Football Field",
+  "latitude": 41.9410979,
+  "longitude": -87.86274859999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Lange Park Ball Field",
+  "latitude": 41.9907883,
+  "longitude": -87.87698,
+  "rating": 4.6,
+  "review_count": 90,
+  "source": "Google"
+ },
+ {
+  "name": "Soccer Field",
+  "latitude": 41.9411241,
+  "longitude": -87.86198519999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "William A.Redmond Park",
+  "latitude": 41.9460161,
+  "longitude": -87.92463240000001,
+  "rating": 4.3,
+  "review_count": 15,
+  "source": "Google"
+ },
+ {
+  "name": "Baseball Field 2",
+  "latitude": 41.9413797,
+  "longitude": -87.8634055,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Westdale Baseball",
+  "latitude": 41.9339726,
+  "longitude": -87.9069945,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Baseball Field",
+  "latitude": 41.9242174,
+  "longitude": -87.8773313,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Westdale Baseball",
+  "latitude": 41.92739479999999,
+  "longitude": -87.8976714,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "The Ballpark at Rosemont",
+  "latitude": 41.9809265,
+  "longitude": -87.87224820000002,
+  "rating": 4.7,
+  "review_count": 142,
+  "source": "Google"
+ },
+ {
+  "name": "Impact Field",
+  "latitude": 41.9782126,
+  "longitude": -87.87173639999999,
+  "rating": 4.7,
+  "review_count": 1235,
+  "source": "Google"
+ },
+ {
+  "name": "The Dome at the Parkway Bank Sports Complex",
+  "latitude": 41.98122559999999,
+  "longitude": -87.8739886,
+  "rating": 4.5,
+  "review_count": 343,
+  "source": "Google"
+ },
+ {
+  "name": "Redmond Soccer and Football Field",
+  "latitude": 41.9429988,
+  "longitude": -87.9237527,
+  "rating": 4.1,
+  "review_count": 15,
+  "source": "Google"
+ },
+ {
+  "name": "Conrad Fisher Ball Field 3",
+  "latitude": 41.9262619,
+  "longitude": -87.9369759,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Conrad Fisher Ball Field 2",
+  "latitude": 41.92646,
+  "longitude": -87.9362259,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Conrad Fisher Ball Field 1",
+  "latitude": 41.9275333,
+  "longitude": -87.9359329,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Redmond Memorial Field",
+  "latitude": 41.9437457,
+  "longitude": -87.9246478,
+  "rating": 4.6,
+  "review_count": 5,
+  "source": "Google"
+ },
+ {
+  "name": "Schiller Park Baseball Field",
+  "latitude": 41.9540917,
+  "longitude": -87.85861179999999,
+  "rating": 3,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Baseball Field 1",
+  "latitude": 41.94079319999999,
+  "longitude": -87.86439949999999,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Shelton Field",
+  "latitude": 41.9503991,
+  "longitude": -87.8755067,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "East Leyden High School Football Field 2",
+  "latitude": 41.9432591,
+  "longitude": -87.86656649999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Football Field",
+  "latitude": 41.9410979,
+  "longitude": -87.86274859999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Lange Park Ball Field",
+  "latitude": 41.9907883,
+  "longitude": -87.87698,
+  "rating": 4.6,
+  "review_count": 90,
+  "source": "Google"
+ },
+ {
+  "name": "Soccer Field",
+  "latitude": 41.9411241,
+  "longitude": -87.86198519999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "William A.Redmond Park",
+  "latitude": 41.9460161,
+  "longitude": -87.92463240000001,
+  "rating": 4.3,
+  "review_count": 15,
+  "source": "Google"
+ },
+ {
+  "name": "Baseball Field 2",
+  "latitude": 41.9413797,
+  "longitude": -87.8634055,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Westdale Baseball",
+  "latitude": 41.9339726,
+  "longitude": -87.9069945,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Baseball Field",
+  "latitude": 41.9242174,
+  "longitude": -87.8773313,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Westdale Baseball",
+  "latitude": 41.92739479999999,
+  "longitude": -87.8976714,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "The Ballpark at Rosemont",
+  "latitude": 41.9809265,
+  "longitude": -87.87224820000002,
+  "rating": 4.7,
+  "review_count": 142,
+  "source": "Google"
+ },
+ {
+  "name": "Impact Field",
+  "latitude": 41.9782126,
+  "longitude": -87.87173639999999,
+  "rating": 4.7,
+  "review_count": 1235,
+  "source": "Google"
+ },
+ {
+  "name": "The Dome at the Parkway Bank Sports Complex",
+  "latitude": 41.98122559999999,
+  "longitude": -87.8739886,
+  "rating": 4.5,
+  "review_count": 343,
+  "source": "Google"
+ },
+ {
+  "name": "Redmond Soccer and Football Field",
+  "latitude": 41.9429988,
+  "longitude": -87.9237527,
+  "rating": 4.1,
+  "review_count": 15,
+  "source": "Google"
+ },
+ {
+  "name": "Conrad Fisher Ball Field 3",
+  "latitude": 41.9262619,
+  "longitude": -87.9369759,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Conrad Fisher Ball Field 2",
+  "latitude": 41.92646,
+  "longitude": -87.9362259,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Conrad Fisher Ball Field 1",
+  "latitude": 41.9275333,
+  "longitude": -87.9359329,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Redmond Memorial Field",
+  "latitude": 41.9437457,
+  "longitude": -87.9246478,
+  "rating": 4.6,
+  "review_count": 5,
+  "source": "Google"
+ },
+ {
+  "name": "Schiller Park Baseball Field",
+  "latitude": 41.9540917,
+  "longitude": -87.85861179999999,
+  "rating": 3,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Baseball Field 1",
+  "latitude": 41.94079319999999,
+  "longitude": -87.86439949999999,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Shelton Field",
+  "latitude": 41.9503991,
+  "longitude": -87.8755067,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "East Leyden High School Football Field 2",
+  "latitude": 41.9432591,
+  "longitude": -87.86656649999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Football Field",
+  "latitude": 41.9410979,
+  "longitude": -87.86274859999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Lange Park Ball Field",
+  "latitude": 41.9907883,
+  "longitude": -87.87698,
+  "rating": 4.6,
+  "review_count": 90,
+  "source": "Google"
+ },
+ {
+  "name": "Soccer Field",
+  "latitude": 41.9411241,
+  "longitude": -87.86198519999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "William A.Redmond Park",
+  "latitude": 41.9460161,
+  "longitude": -87.92463240000001,
+  "rating": 4.3,
+  "review_count": 15,
+  "source": "Google"
+ },
+ {
+  "name": "Baseball Field 2",
+  "latitude": 41.9413797,
+  "longitude": -87.8634055,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Westdale Baseball",
+  "latitude": 41.9339726,
+  "longitude": -87.9069945,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Baseball Field",
+  "latitude": 41.9242174,
+  "longitude": -87.8773313,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Westdale Baseball",
+  "latitude": 41.92739479999999,
+  "longitude": -87.8976714,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Oriole Park Athletic Field",
+  "latitude": 41.9805152,
+  "longitude": -87.8151942,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Hiawatha Park Football - Soccer Combo Field",
+  "latitude": 41.9440312,
+  "longitude": -87.8251696,
+  "rating": 4.5,
+  "review_count": 6,
+  "source": "Google"
+ },
+ {
+  "name": "Norwood Park Ball Field 1",
+  "latitude": 41.98606789999999,
+  "longitude": -87.79259359999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Oriole Park Ball Field 3",
+  "latitude": 41.9789051,
+  "longitude": -87.8159199,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Norwood Park Ball Field 3",
+  "latitude": 41.9870195,
+  "longitude": -87.7921928,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Oriole Park Ball Field 7",
+  "latitude": 41.9809804,
+  "longitude": -87.8149464,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Oriole Park Ball Field 6",
+  "latitude": 41.9801472,
+  "longitude": -87.8156757,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Riis Park North Ball Field",
+  "latitude": 41.9262671,
+  "longitude": -87.7807468,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Norwood Park Ball Field 2",
+  "latitude": 41.9864662,
+  "longitude": -87.7916201,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Oriole Park Ball Field 2",
+  "latitude": 41.9784674,
+  "longitude": -87.815969,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Riis Park South Ball Field",
+  "latitude": 41.9246165,
+  "longitude": -87.7808621,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Oriole Park Ball Field 1",
+  "latitude": 41.9778552,
+  "longitude": -87.8152636,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Hiawatha Park Baseball Field",
+  "latitude": 41.9445397,
+  "longitude": -87.8245084,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Artificial Turf Field",
+  "latitude": 41.9259063,
+  "longitude": -87.7789461,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Rosedale Park Ball Field",
+  "latitude": 41.989508,
+  "longitude": -87.78607199999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Oriole Park Ball Field 5",
+  "latitude": 41.9803575,
+  "longitude": -87.816171,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Soccer Field",
+  "latitude": 41.942451,
+  "longitude": -87.80721989999999,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Bell Park Baseball Field",
+  "latitude": 41.9360776,
+  "longitude": -87.7965416,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Oriole Park Ball Field 4",
+  "latitude": 41.9799841,
+  "longitude": -87.8165463,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Dunham Field 2",
+  "latitude": 41.9655604,
+  "longitude": -87.7843602,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Oriole Park Athletic Field",
+  "latitude": 41.9805152,
+  "longitude": -87.8151942,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Hiawatha Park Football - Soccer Combo Field",
+  "latitude": 41.9440312,
+  "longitude": -87.8251696,
+  "rating": 4.5,
+  "review_count": 6,
+  "source": "Google"
+ },
+ {
+  "name": "Norwood Park Ball Field 1",
+  "latitude": 41.98606789999999,
+  "longitude": -87.79259359999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Oriole Park Ball Field 3",
+  "latitude": 41.9789051,
+  "longitude": -87.8159199,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Norwood Park Ball Field 3",
+  "latitude": 41.9870195,
+  "longitude": -87.7921928,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Oriole Park Ball Field 7",
+  "latitude": 41.9809804,
+  "longitude": -87.8149464,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Oriole Park Ball Field 6",
+  "latitude": 41.9801472,
+  "longitude": -87.8156757,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Riis Park North Ball Field",
+  "latitude": 41.9262671,
+  "longitude": -87.7807468,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Norwood Park Ball Field 2",
+  "latitude": 41.9864662,
+  "longitude": -87.7916201,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Oriole Park Ball Field 2",
+  "latitude": 41.9784674,
+  "longitude": -87.815969,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Riis Park South Ball Field",
+  "latitude": 41.9246165,
+  "longitude": -87.7808621,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Oriole Park Ball Field 1",
+  "latitude": 41.9778552,
+  "longitude": -87.8152636,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Hiawatha Park Baseball Field",
+  "latitude": 41.9445397,
+  "longitude": -87.8245084,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Artificial Turf Field",
+  "latitude": 41.9259063,
+  "longitude": -87.7789461,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Rosedale Park Ball Field",
+  "latitude": 41.989508,
+  "longitude": -87.78607199999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Oriole Park Ball Field 5",
+  "latitude": 41.9803575,
+  "longitude": -87.816171,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Soccer Field",
+  "latitude": 41.942451,
+  "longitude": -87.80721989999999,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Bell Park Baseball Field",
+  "latitude": 41.9360776,
+  "longitude": -87.7965416,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Oriole Park Ball Field 4",
+  "latitude": 41.9799841,
+  "longitude": -87.8165463,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Dunham Field 2",
+  "latitude": 41.9655604,
+  "longitude": -87.7843602,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Oriole Park Athletic Field",
+  "latitude": 41.9805152,
+  "longitude": -87.8151942,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Hiawatha Park Football - Soccer Combo Field",
+  "latitude": 41.9440312,
+  "longitude": -87.8251696,
+  "rating": 4.5,
+  "review_count": 6,
+  "source": "Google"
+ },
+ {
+  "name": "Norwood Park Ball Field 1",
+  "latitude": 41.98606789999999,
+  "longitude": -87.79259359999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Oriole Park Ball Field 3",
+  "latitude": 41.9789051,
+  "longitude": -87.8159199,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Norwood Park Ball Field 3",
+  "latitude": 41.9870195,
+  "longitude": -87.7921928,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Oriole Park Ball Field 7",
+  "latitude": 41.9809804,
+  "longitude": -87.8149464,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Oriole Park Ball Field 6",
+  "latitude": 41.9801472,
+  "longitude": -87.8156757,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Riis Park North Ball Field",
+  "latitude": 41.9262671,
+  "longitude": -87.7807468,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Norwood Park Ball Field 2",
+  "latitude": 41.9864662,
+  "longitude": -87.7916201,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Oriole Park Ball Field 2",
+  "latitude": 41.9784674,
+  "longitude": -87.815969,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Riis Park South Ball Field",
+  "latitude": 41.9246165,
+  "longitude": -87.7808621,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Oriole Park Ball Field 1",
+  "latitude": 41.9778552,
+  "longitude": -87.8152636,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Hiawatha Park Baseball Field",
+  "latitude": 41.9445397,
+  "longitude": -87.8245084,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Artificial Turf Field",
+  "latitude": 41.9259063,
+  "longitude": -87.7789461,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Rosedale Park Ball Field",
+  "latitude": 41.989508,
+  "longitude": -87.78607199999999,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Oriole Park Ball Field 5",
+  "latitude": 41.9803575,
+  "longitude": -87.816171,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Soccer Field",
+  "latitude": 41.942451,
+  "longitude": -87.80721989999999,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Bell Park Baseball Field",
+  "latitude": 41.9360776,
+  "longitude": -87.7965416,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Oriole Park Ball Field 4",
+  "latitude": 41.9799841,
+  "longitude": -87.8165463,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Dunham Field 2",
+  "latitude": 41.9655604,
+  "longitude": -87.7843602,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Field (Eugene) Park",
+  "latitude": 41.9747187,
+  "longitude": -87.7223602,
+  "rating": 4.5,
+  "review_count": 263,
+  "source": "Google"
+ },
+ {
+  "name": "Field Park Combo Field",
+  "latitude": 41.9749201,
+  "longitude": -87.7209937,
+  "rating": 5,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Athletic Field Park",
+  "latitude": 41.9474204,
+  "longitude": -87.7170178,
+  "rating": 4.5,
+  "review_count": 132,
+  "source": "Google"
+ },
+ {
+  "name": "Kiwanis Park",
+  "latitude": 41.9733063,
+  "longitude": -87.7118737,
+  "rating": 4.5,
+  "review_count": 35,
+  "source": "Google"
+ },
+ {
+  "name": "Kerry Wood Cubs Field",
+  "latitude": 41.9440045,
+  "longitude": -87.69288809999999,
+  "rating": 4.3,
+  "review_count": 67,
+  "source": "Google"
+ },
+ {
+  "name": "Clark Turf Field",
+  "latitude": 41.9461007,
+  "longitude": -87.69349319999999,
+  "rating": 4.7,
+  "review_count": 39,
+  "source": "Google"
+ },
+ {
+  "name": "California Park Wheel Chair Accessible Ball Field",
+  "latitude": 41.9529706,
+  "longitude": -87.697631,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Field Park Community Garden",
+  "latitude": 41.9736752,
+  "longitude": -87.7200356,
+  "rating": 4.7,
+  "review_count": 3,
+  "source": "Google"
+ },
+ {
+  "name": "Field Park Tennis Courts",
+  "latitude": 41.9743972,
+  "longitude": -87.7239572,
+  "rating": 4.4,
+  "review_count": 7,
+  "source": "Google"
+ },
+ {
+  "name": "The Fields Commons",
+  "latitude": 41.9321441,
+  "longitude": -87.7295455,
+  "rating": 4.6,
+  "review_count": 112,
+  "source": "Google"
+ },
+ {
+  "name": "Portage Park Soccer Field 2",
+  "latitude": 41.9544912,
+  "longitude": -87.7649278,
+  "rating": 5,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Haas Park Turf Soccer Field",
+  "latitude": 41.92513779999999,
+  "longitude": -87.69644799999999,
+  "rating": 4.4,
+  "review_count": 44,
+  "source": "Google"
+ },
+ {
+  "name": "Jensen Park Football Soccer Combo Field",
+  "latitude": 41.9652464,
+  "longitude": -87.7212224,
+  "rating": 5,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Peterson Park Athletic Field",
+  "latitude": 41.9877366,
+  "longitude": -87.7209232,
+  "rating": 5,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Kilbourn Park Ball Field 2",
+  "latitude": 41.9429557,
+  "longitude": -87.737944,
+  "rating": 5,
+  "review_count": 4,
+  "source": "Google"
+ },
+ {
+  "name": "Sacramento Park Ball Field",
+  "latitude": 41.946054,
+  "longitude": -87.70319900000001,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Portage Park Athletic Field",
+  "latitude": 41.9550992,
+  "longitude": -87.7651746,
+  "rating": 3,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Chicagoland Indoor Soccer",
+  "latitude": 41.9481798,
+  "longitude": -87.695623,
+  "rating": 4.8,
+  "review_count": 11,
+  "source": "Google"
+ },
+ {
+  "name": "Kelvyn Park Soccer Field",
+  "latitude": 41.9298055,
+  "longitude": -87.7384426,
+  "rating": 4.5,
+  "review_count": 11,
+  "source": "Google"
+ },
+ {
+  "name": "Brands Park Baseball Junior / Softball Fields",
+  "latitude": 41.9408362,
+  "longitude": -87.6987264,
+  "rating": 5,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Field (Eugene) Park",
+  "latitude": 41.9747187,
+  "longitude": -87.7223602,
+  "rating": 4.5,
+  "review_count": 263,
+  "source": "Google"
+ },
+ {
+  "name": "Field Park Combo Field",
+  "latitude": 41.9749201,
+  "longitude": -87.7209937,
+  "rating": 5,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Athletic Field Park",
+  "latitude": 41.9474204,
+  "longitude": -87.7170178,
+  "rating": 4.5,
+  "review_count": 132,
+  "source": "Google"
+ },
+ {
+  "name": "Kiwanis Park",
+  "latitude": 41.9733063,
+  "longitude": -87.7118737,
+  "rating": 4.5,
+  "review_count": 35,
+  "source": "Google"
+ },
+ {
+  "name": "Kerry Wood Cubs Field",
+  "latitude": 41.9440045,
+  "longitude": -87.69288809999999,
+  "rating": 4.3,
+  "review_count": 67,
+  "source": "Google"
+ },
+ {
+  "name": "Clark Turf Field",
+  "latitude": 41.9461007,
+  "longitude": -87.69349319999999,
+  "rating": 4.7,
+  "review_count": 39,
+  "source": "Google"
+ },
+ {
+  "name": "California Park Wheel Chair Accessible Ball Field",
+  "latitude": 41.9529706,
+  "longitude": -87.697631,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Field Park Community Garden",
+  "latitude": 41.9736752,
+  "longitude": -87.7200356,
+  "rating": 4.7,
+  "review_count": 3,
+  "source": "Google"
+ },
+ {
+  "name": "Field Park Tennis Courts",
+  "latitude": 41.9743972,
+  "longitude": -87.7239572,
+  "rating": 4.4,
+  "review_count": 7,
+  "source": "Google"
+ },
+ {
+  "name": "The Fields Commons",
+  "latitude": 41.9321441,
+  "longitude": -87.7295455,
+  "rating": 4.6,
+  "review_count": 112,
+  "source": "Google"
+ },
+ {
+  "name": "Portage Park Soccer Field 2",
+  "latitude": 41.9544912,
+  "longitude": -87.7649278,
+  "rating": 5,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Haas Park Turf Soccer Field",
+  "latitude": 41.92513779999999,
+  "longitude": -87.69644799999999,
+  "rating": 4.4,
+  "review_count": 44,
+  "source": "Google"
+ },
+ {
+  "name": "Jensen Park Football Soccer Combo Field",
+  "latitude": 41.9652464,
+  "longitude": -87.7212224,
+  "rating": 5,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Peterson Park Athletic Field",
+  "latitude": 41.9877366,
+  "longitude": -87.7209232,
+  "rating": 5,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Kilbourn Park Ball Field 2",
+  "latitude": 41.9429557,
+  "longitude": -87.737944,
+  "rating": 5,
+  "review_count": 4,
+  "source": "Google"
+ },
+ {
+  "name": "Sacramento Park Ball Field",
+  "latitude": 41.946054,
+  "longitude": -87.70319900000001,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Portage Park Athletic Field",
+  "latitude": 41.9550992,
+  "longitude": -87.7651746,
+  "rating": 3,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Chicagoland Indoor Soccer",
+  "latitude": 41.9481798,
+  "longitude": -87.695623,
+  "rating": 4.8,
+  "review_count": 11,
+  "source": "Google"
+ },
+ {
+  "name": "Kelvyn Park Soccer Field",
+  "latitude": 41.9298055,
+  "longitude": -87.7384426,
+  "rating": 4.5,
+  "review_count": 11,
+  "source": "Google"
+ },
+ {
+  "name": "Brands Park Baseball Junior / Softball Fields",
+  "latitude": 41.9408362,
+  "longitude": -87.6987264,
+  "rating": 5,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Field (Eugene) Park",
+  "latitude": 41.9747187,
+  "longitude": -87.7223602,
+  "rating": 4.5,
+  "review_count": 263,
+  "source": "Google"
+ },
+ {
+  "name": "Field Park Combo Field",
+  "latitude": 41.9749201,
+  "longitude": -87.7209937,
+  "rating": 5,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Athletic Field Park",
+  "latitude": 41.9474204,
+  "longitude": -87.7170178,
+  "rating": 4.5,
+  "review_count": 132,
+  "source": "Google"
+ },
+ {
+  "name": "Kiwanis Park",
+  "latitude": 41.9733063,
+  "longitude": -87.7118737,
+  "rating": 4.5,
+  "review_count": 35,
+  "source": "Google"
+ },
+ {
+  "name": "Kerry Wood Cubs Field",
+  "latitude": 41.9440045,
+  "longitude": -87.69288809999999,
+  "rating": 4.3,
+  "review_count": 67,
+  "source": "Google"
+ },
+ {
+  "name": "Clark Turf Field",
+  "latitude": 41.9461007,
+  "longitude": -87.69349319999999,
+  "rating": 4.7,
+  "review_count": 39,
+  "source": "Google"
+ },
+ {
+  "name": "California Park Wheel Chair Accessible Ball Field",
+  "latitude": 41.9529706,
+  "longitude": -87.697631,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Field Park Community Garden",
+  "latitude": 41.9736752,
+  "longitude": -87.7200356,
+  "rating": 4.7,
+  "review_count": 3,
+  "source": "Google"
+ },
+ {
+  "name": "Field Park Tennis Courts",
+  "latitude": 41.9743972,
+  "longitude": -87.7239572,
+  "rating": 4.4,
+  "review_count": 7,
+  "source": "Google"
+ },
+ {
+  "name": "The Fields Commons",
+  "latitude": 41.9321441,
+  "longitude": -87.7295455,
+  "rating": 4.6,
+  "review_count": 112,
+  "source": "Google"
+ },
+ {
+  "name": "Portage Park Soccer Field 2",
+  "latitude": 41.9544912,
+  "longitude": -87.7649278,
+  "rating": 5,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Haas Park Turf Soccer Field",
+  "latitude": 41.92513779999999,
+  "longitude": -87.69644799999999,
+  "rating": 4.4,
+  "review_count": 44,
+  "source": "Google"
+ },
+ {
+  "name": "Jensen Park Football Soccer Combo Field",
+  "latitude": 41.9652464,
+  "longitude": -87.7212224,
+  "rating": 5,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Peterson Park Athletic Field",
+  "latitude": 41.9877366,
+  "longitude": -87.7209232,
+  "rating": 5,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Kilbourn Park Ball Field 2",
+  "latitude": 41.9429557,
+  "longitude": -87.737944,
+  "rating": 5,
+  "review_count": 4,
+  "source": "Google"
+ },
+ {
+  "name": "Sacramento Park Ball Field",
+  "latitude": 41.946054,
+  "longitude": -87.70319900000001,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Portage Park Athletic Field",
+  "latitude": 41.9550992,
+  "longitude": -87.7651746,
+  "rating": 3,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Chicagoland Indoor Soccer",
+  "latitude": 41.9481798,
+  "longitude": -87.695623,
+  "rating": 4.8,
+  "review_count": 11,
+  "source": "Google"
+ },
+ {
+  "name": "Kelvyn Park Soccer Field",
+  "latitude": 41.9298055,
+  "longitude": -87.7384426,
+  "rating": 4.5,
+  "review_count": 11,
+  "source": "Google"
+ },
+ {
+  "name": "Brands Park Baseball Junior / Softball Fields",
+  "latitude": 41.9408362,
+  "longitude": -87.6987264,
+  "rating": 5,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "The Field House",
+  "latitude": 41.9269744,
+  "longitude": -87.6412113,
+  "rating": 4.5,
+  "review_count": 88,
+  "source": "Google"
+ },
+ {
+  "name": "Montrose Beach Fields",
+  "latitude": 41.9634898,
+  "longitude": -87.6451653,
+  "rating": 4.7,
+  "review_count": 69,
+  "source": "Google"
+ },
+ {
+  "name": "Lincoln Park North",
+  "latitude": 41.9702933,
+  "longitude": -87.6465071,
+  "rating": 4.5,
+  "review_count": 53,
+  "source": "Google"
+ },
+ {
+  "name": "Lincoln Park North Soccer Field 2",
+  "latitude": 41.9756149,
+  "longitude": -87.64793870000001,
+  "rating": 4.6,
+  "review_count": 287,
+  "source": "Google"
+ },
+ {
+  "name": "Wrightwood Park Combo Field",
+  "latitude": 41.9280896,
+  "longitude": -87.66724669999999,
+  "rating": 5,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Wiggly Field Dog Park",
+  "latitude": 41.9305329,
+  "longitude": -87.65343399999999,
+  "rating": 4.5,
+  "review_count": 429,
+  "source": "Google"
+ },
+ {
+  "name": "Lincoln Park North Soccer Field 1",
+  "latitude": 41.97564020000001,
+  "longitude": -87.6486391,
+  "rating": 4.6,
+  "review_count": 32,
+  "source": "Google"
+ },
+ {
+  "name": "Chase Park Football / Soccer Combo Field",
+  "latitude": 41.9675474,
+  "longitude": -87.66787699999999,
+  "rating": 5,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Lincoln Park Waveland Softball Fields",
+  "latitude": 41.9515165,
+  "longitude": -87.6426386,
+  "rating": 4.6,
+  "review_count": 63,
+  "source": "Google"
+ },
+ {
+  "name": "Montrose Beach Track & Field",
+  "latitude": 41.964621,
+  "longitude": -87.6447464,
+  "rating": 4.8,
+  "review_count": 68,
+  "source": "Google"
+ },
+ {
+  "name": "North Soccer Field 4",
+  "latitude": 41.9735932,
+  "longitude": -87.647819,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "North Soccer Field 3",
+  "latitude": 41.9744552,
+  "longitude": -87.6479176,
+  "rating": 4.5,
+  "review_count": 4,
+  "source": "Google"
+ },
+ {
+  "name": "North Soccer Field 5",
+  "latitude": 41.972974,
+  "longitude": -87.6478911,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Winnemac Park Combo Field",
+  "latitude": 41.9755459,
+  "longitude": -87.68187329999999,
+  "rating": 3.7,
+  "review_count": 3,
+  "source": "Google"
+ },
+ {
+  "name": "DePaul University - Wish Field",
+  "latitude": 41.9242656,
+  "longitude": -87.6521149,
+  "rating": 4.5,
+  "review_count": 28,
+  "source": "Google"
+ },
+ {
+  "name": "North Ball Field 5",
+  "latitude": 41.9690675,
+  "longitude": -87.6461527,
+  "rating": 2,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Maradona Field",
+  "latitude": 41.9351533,
+  "longitude": -87.6334189,
+  "rating": 4.3,
+  "review_count": 13,
+  "source": "Google"
+ },
+ {
+  "name": "North Ball Field 4",
+  "latitude": 41.968462,
+  "longitude": -87.6457798,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Welles Park Ball Field 3",
+  "latitude": 41.962862,
+  "longitude": -87.6853683,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Welles Park Ball Field 5",
+  "latitude": 41.9616761,
+  "longitude": -87.6844639,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "The Field House",
+  "latitude": 41.9269744,
+  "longitude": -87.6412113,
+  "rating": 4.5,
+  "review_count": 88,
+  "source": "Google"
+ },
+ {
+  "name": "Montrose Beach Fields",
+  "latitude": 41.9634898,
+  "longitude": -87.6451653,
+  "rating": 4.7,
+  "review_count": 69,
+  "source": "Google"
+ },
+ {
+  "name": "Lincoln Park North",
+  "latitude": 41.9702933,
+  "longitude": -87.6465071,
+  "rating": 4.5,
+  "review_count": 53,
+  "source": "Google"
+ },
+ {
+  "name": "Lincoln Park North Soccer Field 2",
+  "latitude": 41.9756149,
+  "longitude": -87.64793870000001,
+  "rating": 4.6,
+  "review_count": 287,
+  "source": "Google"
+ },
+ {
+  "name": "Wrightwood Park Combo Field",
+  "latitude": 41.9280896,
+  "longitude": -87.66724669999999,
+  "rating": 5,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Wiggly Field Dog Park",
+  "latitude": 41.9305329,
+  "longitude": -87.65343399999999,
+  "rating": 4.5,
+  "review_count": 429,
+  "source": "Google"
+ },
+ {
+  "name": "Lincoln Park North Soccer Field 1",
+  "latitude": 41.97564020000001,
+  "longitude": -87.6486391,
+  "rating": 4.6,
+  "review_count": 32,
+  "source": "Google"
+ },
+ {
+  "name": "Chase Park Football / Soccer Combo Field",
+  "latitude": 41.9675474,
+  "longitude": -87.66787699999999,
+  "rating": 5,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Lincoln Park Waveland Softball Fields",
+  "latitude": 41.9515165,
+  "longitude": -87.6426386,
+  "rating": 4.6,
+  "review_count": 63,
+  "source": "Google"
+ },
+ {
+  "name": "Montrose Beach Track & Field",
+  "latitude": 41.964621,
+  "longitude": -87.6447464,
+  "rating": 4.8,
+  "review_count": 68,
+  "source": "Google"
+ },
+ {
+  "name": "North Soccer Field 4",
+  "latitude": 41.9735932,
+  "longitude": -87.647819,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "North Soccer Field 3",
+  "latitude": 41.9744552,
+  "longitude": -87.6479176,
+  "rating": 4.5,
+  "review_count": 4,
+  "source": "Google"
+ },
+ {
+  "name": "North Soccer Field 5",
+  "latitude": 41.972974,
+  "longitude": -87.6478911,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Winnemac Park Combo Field",
+  "latitude": 41.9755459,
+  "longitude": -87.68187329999999,
+  "rating": 3.7,
+  "review_count": 3,
+  "source": "Google"
+ },
+ {
+  "name": "DePaul University - Wish Field",
+  "latitude": 41.9242656,
+  "longitude": -87.6521149,
+  "rating": 4.5,
+  "review_count": 28,
+  "source": "Google"
+ },
+ {
+  "name": "North Ball Field 5",
+  "latitude": 41.9690675,
+  "longitude": -87.6461527,
+  "rating": 2,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Maradona Field",
+  "latitude": 41.9351533,
+  "longitude": -87.6334189,
+  "rating": 4.3,
+  "review_count": 13,
+  "source": "Google"
+ },
+ {
+  "name": "North Ball Field 4",
+  "latitude": 41.968462,
+  "longitude": -87.6457798,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Welles Park Ball Field 3",
+  "latitude": 41.962862,
+  "longitude": -87.6853683,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Welles Park Ball Field 5",
+  "latitude": 41.9616761,
+  "longitude": -87.6844639,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "The Field House",
+  "latitude": 41.9269744,
+  "longitude": -87.6412113,
+  "rating": 4.5,
+  "review_count": 88,
+  "source": "Google"
+ },
+ {
+  "name": "Montrose Beach Fields",
+  "latitude": 41.9634898,
+  "longitude": -87.6451653,
+  "rating": 4.7,
+  "review_count": 69,
+  "source": "Google"
+ },
+ {
+  "name": "Lincoln Park North",
+  "latitude": 41.9702933,
+  "longitude": -87.6465071,
+  "rating": 4.5,
+  "review_count": 53,
+  "source": "Google"
+ },
+ {
+  "name": "Lincoln Park North Soccer Field 2",
+  "latitude": 41.9756149,
+  "longitude": -87.64793870000001,
+  "rating": 4.6,
+  "review_count": 287,
+  "source": "Google"
+ },
+ {
+  "name": "Wrightwood Park Combo Field",
+  "latitude": 41.9280896,
+  "longitude": -87.66724669999999,
+  "rating": 5,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Wiggly Field Dog Park",
+  "latitude": 41.9305329,
+  "longitude": -87.65343399999999,
+  "rating": 4.5,
+  "review_count": 429,
+  "source": "Google"
+ },
+ {
+  "name": "Lincoln Park North Soccer Field 1",
+  "latitude": 41.97564020000001,
+  "longitude": -87.6486391,
+  "rating": 4.6,
+  "review_count": 32,
+  "source": "Google"
+ },
+ {
+  "name": "Chase Park Football / Soccer Combo Field",
+  "latitude": 41.9675474,
+  "longitude": -87.66787699999999,
+  "rating": 5,
+  "review_count": 2,
+  "source": "Google"
+ },
+ {
+  "name": "Lincoln Park Waveland Softball Fields",
+  "latitude": 41.9515165,
+  "longitude": -87.6426386,
+  "rating": 4.6,
+  "review_count": 63,
+  "source": "Google"
+ },
+ {
+  "name": "Montrose Beach Track & Field",
+  "latitude": 41.964621,
+  "longitude": -87.6447464,
+  "rating": 4.8,
+  "review_count": 68,
+  "source": "Google"
+ },
+ {
+  "name": "North Soccer Field 4",
+  "latitude": 41.9735932,
+  "longitude": -87.647819,
+  "rating": 5,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "North Soccer Field 3",
+  "latitude": 41.9744552,
+  "longitude": -87.6479176,
+  "rating": 4.5,
+  "review_count": 4,
+  "source": "Google"
+ },
+ {
+  "name": "North Soccer Field 5",
+  "latitude": 41.972974,
+  "longitude": -87.6478911,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Winnemac Park Combo Field",
+  "latitude": 41.9755459,
+  "longitude": -87.68187329999999,
+  "rating": 3.7,
+  "review_count": 3,
+  "source": "Google"
+ },
+ {
+  "name": "DePaul University - Wish Field",
+  "latitude": 41.9242656,
+  "longitude": -87.6521149,
+  "rating": 4.5,
+  "review_count": 28,
+  "source": "Google"
+ },
+ {
+  "name": "North Ball Field 5",
+  "latitude": 41.9690675,
+  "longitude": -87.6461527,
+  "rating": 2,
+  "review_count": 1,
+  "source": "Google"
+ },
+ {
+  "name": "Maradona Field",
+  "latitude": 41.9351533,
+  "longitude": -87.6334189,
+  "rating": 4.3,
+  "review_count": 13,
+  "source": "Google"
+ },
+ {
+  "name": "North Ball Field 4",
+  "latitude": 41.968462,
+  "longitude": -87.6457798,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Welles Park Ball Field 3",
+  "latitude": 41.962862,
+  "longitude": -87.6853683,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ },
+ {
+  "name": "Welles Park Ball Field 5",
+  "latitude": 41.9616761,
+  "longitude": -87.6844639,
+  "rating": 0,
+  "review_count": 0,
+  "source": "Google"
+ }
+]
