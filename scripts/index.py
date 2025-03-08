@@ -310,7 +310,7 @@ def calc_norm_values(housing):
 
 
 ##############################
-# Output housing file with index columns
+# Output housing file with indexes
 ##############################
 
 def create_housing_file(housing, distance, parks_data):
