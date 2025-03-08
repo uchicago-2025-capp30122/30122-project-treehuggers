@@ -84,9 +84,9 @@ def clean_google(data: dict) -> list[dict]:
     Inputs:
         data: dictionary of raw data
         output_name: string name used for saving cleaned data in data directory
-        
+
     Outputs:
-        list of dictionaries containing key information for each place  
+        list of dictionaries containing key information for each place
     """
     places = []
     for place in data["places"]:
@@ -126,7 +126,7 @@ if __name__ == "__main__":
         google_clean_data = clean_google(google_raw_data)
         save_reviews(google_clean_data, "google_" + search_category)
 
-    # Search for unnamed parks not merged on reviews, 
+    # Search for unnamed parks not merged on reviews,
     # searching by location with a small radius
     path = DATA_DIR / "parks_without_reviews.json"
     unnamed_park_locations = get_unnamed_park_locations(path)

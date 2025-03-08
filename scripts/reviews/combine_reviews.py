@@ -6,6 +6,7 @@ from .reviews_utils import save_reviews, Place
 
 DATA_DIR = Path(__file__).parent.parent.parent / "data" / "review_data"
 
+
 def combine_reviews(directory) -> list[dict]:
     """
     Combine Yelp and Google files in specified folder, save as merged json

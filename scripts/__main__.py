@@ -23,6 +23,7 @@ DATA_DIR = Path(__file__).parent.parent / "data"
 REVIEW_DIR = DATA_DIR / "review_data"
 CACHE_DIR = Path(__file__).parent.parent / "cache"
 
+
 def run_create_park_geojson():
     """
     Run create_park_geojson.py
@@ -31,6 +32,7 @@ def run_create_park_geojson():
         place_name="Chicago, Illinois, USA",
         output_filename="uncleaned_park_polygons.geojson",
     )
+
 
 def run_clean_park_polygons():
     """
@@ -60,6 +62,7 @@ def run_clean_park_polygons():
 
     # create cleaned parks GeoJSON file
     save_geojson(updated_features, output_path)
+
 
 def run_yelp():
     """
@@ -132,6 +135,7 @@ def run_combine_reviews():
     save_reviews(places, "combined_reviews_clean")
     buffer_places(places, 250)
 
+
 def run_index():
     """
     Run index.py
@@ -147,11 +151,10 @@ def run_index():
 
 
 def main():
-   
     # Parks
     run_create_park_geojson()
     run_clean_park_polygons()
-    
+
     # Reviews
     run_yelp()
     run_google()
