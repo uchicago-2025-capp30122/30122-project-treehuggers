@@ -1,0 +1,365 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.940101,
+                    41.644286
+                ]
+            },
+            "properties": {
+                "id": 1.0,
+                "park_count": 0.0,
+                "size_index": 0.0,
+                "rating_index": 8.452619569913152,
+                "latitude": 41.644286,
+                "longitude": -87.940101
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.940101,
+                    41.744286
+                ]
+            },
+            "properties": {
+                "id": 2.0,
+                "park_count": 0.0,
+                "size_index": 0.0,
+                "rating_index": 8.452619569913152,
+                "latitude": 41.744286,
+                "longitude": -87.940101
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.940101,
+                    41.844286000000004
+                ]
+            },
+            "properties": {
+                "id": 3.0,
+                "park_count": 0.0,
+                "size_index": 0.0,
+                "rating_index": 8.452619569913152,
+                "latitude": 41.844286000000004,
+                "longitude": -87.940101
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.940101,
+                    41.944286000000005
+                ]
+            },
+            "properties": {
+                "id": 4.0,
+                "park_count": 0.0,
+                "size_index": 0.0,
+                "rating_index": 8.452619569913152,
+                "latitude": 41.944286000000005,
+                "longitude": -87.940101
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.840101,
+                    41.644286
+                ]
+            },
+            "properties": {
+                "id": 5.0,
+                "park_count": 0.0,
+                "size_index": 0.0,
+                "rating_index": 8.452619569913152,
+                "latitude": 41.644286,
+                "longitude": -87.840101
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.840101,
+                    41.744286
+                ]
+            },
+            "properties": {
+                "id": 6.0,
+                "park_count": 0.0,
+                "size_index": 0.0,
+                "rating_index": 8.452619569913152,
+                "latitude": 41.744286,
+                "longitude": -87.840101
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.840101,
+                    41.844286000000004
+                ]
+            },
+            "properties": {
+                "id": 7.0,
+                "park_count": 0.0,
+                "size_index": 0.0,
+                "rating_index": 8.452619569913152,
+                "latitude": 41.844286000000004,
+                "longitude": -87.840101
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.840101,
+                    41.944286000000005
+                ]
+            },
+            "properties": {
+                "id": 8.0,
+                "park_count": 1.0,
+                "size_index": 44.24046015203319,
+                "rating_index": 42.39513391052837,
+                "latitude": 41.944286000000005,
+                "longitude": -87.840101
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.74010100000001,
+                    41.644286
+                ]
+            },
+            "properties": {
+                "id": 9.0,
+                "park_count": 0.0,
+                "size_index": 0.0,
+                "rating_index": 8.452619569913152,
+                "latitude": 41.644286,
+                "longitude": -87.74010100000001
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.74010100000001,
+                    41.744286
+                ]
+            },
+            "properties": {
+                "id": 10.0,
+                "park_count": 3.0,
+                "size_index": 0.35799608787010145,
+                "rating_index": 0.17623198005759774,
+                "latitude": 41.744286,
+                "longitude": -87.74010100000001
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.74010100000001,
+                    41.844286000000004
+                ]
+            },
+            "properties": {
+                "id": 11.0,
+                "park_count": 1.0,
+                "size_index": 0.006061222167972533,
+                "rating_index": 8.452619569913152,
+                "latitude": 41.844286000000004,
+                "longitude": -87.74010100000001
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.74010100000001,
+                    41.944286000000005
+                ]
+            },
+            "properties": {
+                "id": 12.0,
+                "park_count": 4.0,
+                "size_index": 1.130330247195868,
+                "rating_index": 0.862259628275137,
+                "latitude": 41.944286000000005,
+                "longitude": -87.74010100000001
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.64010100000002,
+                    41.644286
+                ]
+            },
+            "properties": {
+                "id": 13.0,
+                "park_count": 0.0,
+                "size_index": 0.0,
+                "rating_index": 8.452619569913152,
+                "latitude": 41.644286,
+                "longitude": -87.64010100000002
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.64010100000002,
+                    41.744286
+                ]
+            },
+            "properties": {
+                "id": 14.0,
+                "park_count": 5.0,
+                "size_index": 2.010363733710881,
+                "rating_index": 1.8877597781807853,
+                "latitude": 41.744286,
+                "longitude": -87.64010100000002
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.64010100000002,
+                    41.844286000000004
+                ]
+            },
+            "properties": {
+                "id": 15.0,
+                "park_count": 10.0,
+                "size_index": 3.302143894926856,
+                "rating_index": 0.05181830752355828,
+                "latitude": 41.844286000000004,
+                "longitude": -87.64010100000002
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.64010100000002,
+                    41.944286000000005
+                ]
+            },
+            "properties": {
+                "id": 16.0,
+                "park_count": 5.0,
+                "size_index": 100.0,
+                "rating_index": 100.0,
+                "latitude": 41.944286000000005,
+                "longitude": -87.64010100000002
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.54010100000002,
+                    41.644286
+                ]
+            },
+            "properties": {
+                "id": 17.0,
+                "park_count": 3.0,
+                "size_index": 23.827247362343464,
+                "rating_index": 22.911750121759383,
+                "latitude": 41.644286,
+                "longitude": -87.54010100000002
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.54010100000002,
+                    41.744286
+                ]
+            },
+            "properties": {
+                "id": 18.0,
+                "park_count": 3.0,
+                "size_index": 6.848184021154544,
+                "rating_index": 0.7674376719382154,
+                "latitude": 41.744286,
+                "longitude": -87.54010100000002
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.54010100000002,
+                    41.844286000000004
+                ]
+            },
+            "properties": {
+                "id": 19.0,
+                "park_count": 0.0,
+                "size_index": 0.0,
+                "rating_index": 8.452619569913152,
+                "latitude": 41.844286000000004,
+                "longitude": -87.54010100000002
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.54010100000002,
+                    41.944286000000005
+                ]
+            },
+            "properties": {
+                "id": 20.0,
+                "park_count": 0.0,
+                "size_index": 0.0,
+                "rating_index": 8.452619569913152,
+                "latitude": 41.944286000000005,
+                "longitude": -87.54010100000002
+            }
+        }
+    ]
+}
