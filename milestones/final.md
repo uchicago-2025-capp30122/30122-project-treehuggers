@@ -48,13 +48,19 @@ Google only returns 60 places per search query. We searched for the top 60 parks
 - Wrote the clean_park_polygons.py script, which cleans and merges the park polygons from the uncleaned_park_polygons.geojson file and writes the cleaned data to the cleaned_park_polygons.geojson file. The script ensures that park geometries are standardized and merged when appropriate.
 
 ### Evan’s responsibilities
-Using APIs from Yelp and Google, obtained average ratings for parks and other green spaces across Chicago. First performed a general search across Chicago; for Yelp this was done by using the city name in the location query. For Google, this was performed using a set of 15 coordinates spread across the city. Next, conducted a second, targeted search for each of roughly 1000 unnamed parks OpenStreetMaps data, querying their exact coordinates with a small radius. This was done exclusively in Google due to limitations with the Yelp API. Finally, removed duplicate review information for each of Google and Yelp, and created GeoJSON files with the final, combined list of review information, with each coordinate buffered by a fixed number of meters.
+- Using APIs from Yelp and Google, obtained average ratings for parks and other green spaces across Chicago. First performed a general search across Chicago; for Yelp this was done by using the city name in the location query. For Google, this was performed using a set of 15 coordinates spread across the city. Next, conducted a second, targeted search for each of roughly 1000 unnamed parks OpenStreetMaps data, querying their exact coordinates with a small radius. This was done exclusively in Google due to limitations with the Yelp API. Finally, removed duplicate review information for each of Google and Yelp, and created GeoJSON files with the final, combined list of review information, with each coordinate buffered by a fixed number of meters.
+- To assist with these searches, developed an import_utils.py script that provides the global CHICAGO_LOCATIONS consisting of 15 coordinates roughly spread across the city of Chicago.
+- The combine_reviews function loads in each of the files saved in the previous step, and removes duplicates by iterating through each place in the file and adding it to a set.
+- The buffer_places function loads in the list of unique places from the previous step and creates a GeoJSON file, buffering the point in each place by the specified number of meters. 
 
-To assist with these searches, developed an import_utils.py script that provides the global CHICAGO_LOCATIONS consisting of 15 coordinates roughly spread across the city of Chicago. It also contains a cache-key function that takes in an API URL and arguments and returns a key used to name files for caching. Lastly, it contains a function that loads in a JSON file of unnamed parks to search by location and returns a list of tuples with their latitudes and longitudes. 
+
+ It also contains a cache-key function that takes in an API URL and arguments and returns a key used to name files for caching. Lastly, it contains a function that loads in a JSON file of unnamed parks to search by location and returns a list of tuples with their latitudes and longitudes. 
+
 For each of Google and Yelp, there exists a corresponding cached get function that searches for an existing JSON file corresponding to the query, and returns it if so. If the JSON file does not exist, then the function obtains results, raising an exception for any API issue that arises. 
+
 Next, again for each of Google and Yelp, there exists a clean function that loads in the cached JSON queries, and extracts the name, latitude, longitude, average rating, review count, and review source (Google or Yelp) of each place. This information is saved in a new JSON file corresponding to the query.
-The combine_reviews function loads in each of the files saved in the previous step, and removes duplicates by iterating through each place in the file and adding it to a set.
-Finally, the buffer_places function loads in the list of unique places from the previous step and creates a GeoJSON file, buffering the point in each place by the specified number of meters. 
+
+
 
 ### Andres’s responsibilities
 
