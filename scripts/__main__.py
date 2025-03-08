@@ -34,6 +34,7 @@ def run_yelp():
         # For each query, get raw data, clean, and save
         yelp_raw_data = cached_get_yelp(url, headers)
         places = clean_yelp(yelp_raw_data)
+        print(f"Found {len(places)} reviews for {search_category} on Yelp")
         save_reviews(places, "yelp_"+search_category)
 
 def run_google():
@@ -53,23 +54,26 @@ def run_google():
             parameters["keyword"] = search_category   
             
         google_raw_data = cached_get_google(url, parameters, CHICAGO_LOCATIONS)
-        google_clean_data = clean_google(google_raw_data)
-        save_reviews(google_clean_data, "google_"+search_category)
+        places = clean_google(google_raw_data)
+        print(f"Found {len(places)} reviews for {search_category} on Google")
+        save_reviews(places, "google_"+search_category)
 
-    # Search for additional parks specifically by location
+    # Search for additional unmerged parks specifically by location
     path = REVIEW_DIR / "parks_without_reviews.json"
     unnamed_park_locations = get_unnamed_park_locations(path)
     
     parameters = {"radius": "250", "keyword": "park"}
     google_raw_data = cached_get_google(url, parameters, unnamed_park_locations)
-    google_clean_data = clean_google(google_raw_data)
-    save_reviews(google_clean_data, "google_additional_parks")
+    places = clean_google(google_raw_data)
+    print(f"Found {len(places)} reviews searching for previously unmerged parks on Google")
+    save_reviews(places, "google_additional_parks")
 
 def run_combine_reviews():
     '''
     Run combine_reviews.py
     '''
     places = combine_reviews(REVIEW_DIR)
+    print(f"After removing duplicates, we have {len(places)} unique reviews")
     save_reviews(places, "combined_reviews_clean")
     buffer_places(places, 250)
     
@@ -121,7 +125,7 @@ def run_index():
     ratings = gpd.read_file(REVIEW_DIR/"combined_reviews_buffered_250.geojson")
     
     # Create housing file
-    create_housing_file(housing, 1000, parks, 'housing_data_index.geojson')
+    create_housing_file(housing, 1000, parks, ratings, 'housing_data_index.geojson')
 
 
 def main():
