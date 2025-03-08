@@ -1,22 +1,13 @@
 import pytest
-import json
 import geojson
-from pathlib import Path
-from shapely.geometry import shape
 from shapely.geometry import Polygon, mapping
 from shapely.ops import unary_union
-import networkx as nx
-import sys
 
 from scripts.parks.clean_park_polygons import (
-    load_geojson,
     standardize_unnamed_parks,
-    get_feature_info,
     handle_intersecting_parks,
     create_merged_feature,
-    check_park_containment,
-    save_geojson,
-    main
+    check_park_containment
 )
 
 @pytest.fixture
@@ -119,7 +110,7 @@ def test_handle_intersecting_parks(test_data):
 
     standardized_features = standardize_unnamed_parks(features)
 
-    intersection_graph, unnameds_to_remove, check_containment_parks = handle_intersecting_parks(features)
+    intersection_graph, unnameds_to_remove, check_containment_parks = handle_intersecting_parks(standardized_features)
 
     # Unnamed Park 3 (id = 6) intersects with Named Park 1, so the id, '6'. should
     # be in the unnameds_to_remove return list
@@ -158,7 +149,7 @@ def test_check_park_containment(test_data):
 
     standardized_features = standardize_unnamed_parks(features)
 
-    intersection_graph, unnameds_to_remove, check_containment_parks = handle_intersecting_parks(features)
+    _, _, check_containment_parks = handle_intersecting_parks(standardized_features)
 
     named_parks_to_remove = check_park_containment(check_containment_parks)
 
