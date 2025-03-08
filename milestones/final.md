@@ -43,7 +43,9 @@
 - Wrote the clean_park_polygons.py script, which cleans and merges the park polygons from the uncleaned_park_polygons.geojson file and writes the cleaned data to the cleaned_park_polygons.geojson file. The script ensures that park geometries are standardized and merged when appropriate.
 
 ### Evan’s responsibilities
-- Using Yelp and Google APIs, obtained average ratings for parks and other green spaces across Chicago. First performed a general search across Chicago; for Yelp this was done by using the city name in the location query. For Google, this was performed using a set of 15 coordinates spread across the city. Next, conducted a second, targeted search for each of roughly 1000 unnamed parks in OpenStreetMaps data, querying their exact coordinates with a small radius. This was done exclusively in Google due to limitations with the Yelp API. Finally, removed duplicate review information for each of Google and Yelp, and created GeoJSON files with the final, combined list of review information, with each coordinate buffered by a fixed number of meters.
+- Using Yelp and Google APIs, obtained average ratings for parks and other green spaces across Chicago. First performed a general search across Chicago; for Yelp this was done by using the city name in the location query. For Google, this was performed using a set of 15 coordinates spread across the city. 
+- Next, conducted a second, targeted search for each of roughly 1000 unnamed parks in OpenStreetMaps data, querying their exact coordinates with a small radius. This was done exclusively in Google due to limitations with the Yelp API. 
+- Finally, removed duplicate review information for each of Google and Yelp, and created GeoJSON files with the final, combined list of review information, with each coordinate buffered by a fixed number of meters.
 
 
 
