@@ -12,12 +12,8 @@ from .reviews_utils import cache_key, \
 DATA_DIR = Path(__file__).parent.parent.parent / "data" / "review_data"
 CACHE_DIR = Path(__file__).parent.parent.parent / "cache"
 
-try:
-    GOOGLE_API_KEY = os.environ["GOOGLE_API_KEY"] 
-except KeyError:
-    raise Exception(
-        "Please enter API Key for Google"
-    )
+# Set Google API Key (not needed if using cached files)
+GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY")
 
 def cached_get_google(url, kwargs: dict, locations: list[tuple]) -> dict:
     """

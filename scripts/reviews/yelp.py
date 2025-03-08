@@ -8,11 +8,8 @@ from .reviews_utils import cache_key, FetchException, save_reviews
 DATA_DIR = Path(__file__).parent.parent.parent / "data" / "review_data"
 CACHE_DIR = Path(__file__).parent.parent.parent / "cache"
 
-try:
-    YELP_API_KEY = f"Bearer {os.environ["YELP_API_KEY"]}" 
-except KeyError:
-    raise Exception("Please enter API Key for Yelp")
-
+# Set Yelp API Key (not needed if using cached files)
+YELP_API_KEY = f"Bearer {os.environ.get("YELP_API_KEY")}"
 
 def cached_get_yelp(url, kwargs: dict) -> dict:
     """
