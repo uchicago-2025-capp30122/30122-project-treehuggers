@@ -1,6 +1,7 @@
 import pathlib
 import geopandas as gpd
 import pandas as pd
+from ...index import create_housing_file
 
 
 def merge_tract_values(shape_path, data):
@@ -18,14 +19,17 @@ def merge_tract_values(shape_path, data):
     
     return  merged_df
 
-def get_index_to_census_tract(points_path):
+def get_index_to_census_tract(points_file, distance, parks, ratings):
     """
-    Create an housing_parks index for all the city of Chicaago
+    Create a housing_parks index for all the city of Chicaago
     """
     
     #First, we call the function to calculate an index for each point 
     
-
+    points_gpd = gpd.read_file(points_file)
+    file_output = pathlib.Path(__file__).parent.parent / "data" 
+    create_housing_file(points_file, distance, parks, ratings)
+    
 
 def main(): 
     path_shape_tracts = pathlib.Path(__file__).parent.parent / "data/raw/census_tracts/il_tracts.shp"
