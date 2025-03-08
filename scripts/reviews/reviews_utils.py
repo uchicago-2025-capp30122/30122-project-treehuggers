@@ -2,6 +2,7 @@ import re
 import httpx
 import json
 from pathlib import Path
+from typing import NamedTuple
 
 DATA_DIR = Path(__file__).parent.parent.parent / "data" / "review_data"
 
@@ -23,7 +24,6 @@ CHICAGO_LOCATIONS = [
     (41.9567, -87.6460),
     (41.9567, -87.5620),
 ]
-
 
 class Place(NamedTuple):
     name: str
@@ -68,9 +68,9 @@ def cache_key(url: str, kwargs: dict) -> str:
 
 def get_unnamed_park_locations(path) -> list[tuple]:
     """
-    Takes in list of unnamed parks without merged on reviews, outputs list of
-    tuples with their latitutde, longitude
-
+    Takes in list of unnamed parks without merged on reviews, outputs list of 
+    tuples with their latitutde, longitude 
+    
     Inputs:
         path: location of json file with unnamed parks without reviews
     Outputs:
