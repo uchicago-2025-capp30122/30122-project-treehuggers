@@ -1,7 +1,7 @@
 import pytest
 import json
-from scripts.import_utils import CHICAGO_LOCATIONS
-from scripts.google import cached_get_google, clean_google
+from scripts.reviews.import_utils import CHICAGO_LOCATIONS
+from scripts.reviews.google import cached_get_google, clean_google
 from pathlib import Path
 
 DATA_DIR = Path(__file__).parent / 'data'

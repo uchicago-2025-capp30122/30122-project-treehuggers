@@ -24674,8 +24674,12 @@
                             41.7335286
                         ],
                         [
-                            -87.5743153,
-                            41.7335158
+                            -87.5743152,
+                            41.7335126
+                        ],
+                        [
+                            -87.5745282,
+                            41.7335094
                         ],
                         [
                             -87.5755126,
@@ -27568,6 +27572,10 @@
                         [
                             -87.5631435,
                             41.7245369
+                        ],
+                        [
+                            -87.5631437,
+                            41.7245463
                         ],
                         [
                             -87.5631757,
@@ -41970,6 +41978,10 @@
                         [
                             -87.7260061,
                             41.6862053
+                        ],
+                        [
+                            -87.7269827,
+                            41.6861923
                         ],
                         [
                             -87.7270071,
@@ -66109,6 +66121,10 @@
                             41.8757348
                         ],
                         [
+                            -87.6241497,
+                            41.8757911
+                        ],
+                        [
                             -87.6241542,
                             41.8758675
                         ],
@@ -69214,24 +69230,24 @@
                 "coordinates": [
                     [
                         [
-                            -87.5641507,
-                            41.7271983
+                            -87.5641733,
+                            41.7272488
                         ],
                         [
-                            -87.5639551,
-                            41.7272024
+                            -87.5639777,
+                            41.7272529
                         ],
                         [
-                            -87.5639596,
-                            41.7273219
+                            -87.5639822,
+                            41.7273724
                         ],
                         [
-                            -87.5641551,
-                            41.7273179
+                            -87.5641777,
+                            41.7273684
                         ],
                         [
-                            -87.5641507,
-                            41.7271983
+                            -87.5641733,
+                            41.7272488
                         ]
                     ]
                 ]
@@ -102978,43 +102994,6 @@
             "type": "Feature",
             "properties": {
                 "element": "way",
-                "id": "1095283034",
-                "ele": null,
-                "leisure": "playground",
-                "name": "Unnamed Park"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -87.552459,
-                            41.7314332
-                        ],
-                        [
-                            -87.5524633,
-                            41.7315484
-                        ],
-                        [
-                            -87.5522608,
-                            41.7315516
-                        ],
-                        [
-                            -87.5522587,
-                            41.7314363
-                        ],
-                        [
-                            -87.552459,
-                            41.7314332
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "element": "way",
                 "id": "1101560599",
                 "ele": null,
                 "leisure": "playground",
@@ -114185,6 +114164,80 @@
             "type": "Feature",
             "properties": {
                 "element": "way",
+                "id": "1362625106",
+                "ele": null,
+                "leisure": "playground",
+                "name": "Unnamed Park"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -87.7562797,
+                            41.9721157
+                        ],
+                        [
+                            -87.7562764,
+                            41.9719773
+                        ],
+                        [
+                            -87.756091,
+                            41.9719797
+                        ],
+                        [
+                            -87.7560942,
+                            41.9721181
+                        ],
+                        [
+                            -87.7562797,
+                            41.9721157
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "element": "way",
+                "id": "1362625110",
+                "ele": null,
+                "leisure": "playground",
+                "name": "Unnamed Park"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -87.7568581,
+                            41.9718348
+                        ],
+                        [
+                            -87.7568548,
+                            41.9716964
+                        ],
+                        [
+                            -87.7566694,
+                            41.9716988
+                        ],
+                        [
+                            -87.7566726,
+                            41.9718372
+                        ],
+                        [
+                            -87.7568581,
+                            41.9718348
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "element": "way",
                 "id": "0",
                 "ele": null,
                 "leisure": "nature_reserve",
@@ -114234,7 +114287,7 @@
             "type": "Feature",
             "properties": {
                 "element": "way",
-                "id": "86995",
+                "id": "77647",
                 "ele": null,
                 "leisure": "park",
                 "name": "Unnamed Merged Park"
@@ -114351,7 +114404,7 @@
             "type": "Feature",
             "properties": {
                 "element": "way",
-                "id": "75179",
+                "id": "40342",
                 "ele": null,
                 "leisure": "park",
                 "name": "Unnamed Merged Park"
@@ -115016,7 +115069,7 @@
             "type": "Feature",
             "properties": {
                 "element": "way",
-                "id": "19710",
+                "id": "62732",
                 "ele": null,
                 "leisure": "park",
                 "name": "Unnamed Merged Park"
@@ -115101,7 +115154,7 @@
             "type": "Feature",
             "properties": {
                 "element": "way",
-                "id": "68168",
+                "id": "88956",
                 "ele": null,
                 "leisure": "park",
                 "name": "Unnamed Merged Park"
@@ -115146,7 +115199,7 @@
             "type": "Feature",
             "properties": {
                 "element": "way",
-                "id": "34750",
+                "id": "58119",
                 "ele": null,
                 "leisure": "park",
                 "name": "Unnamed Merged Park"
@@ -115183,7 +115236,7 @@
             "type": "Feature",
             "properties": {
                 "element": "way",
-                "id": "96640",
+                "id": "52859",
                 "ele": null,
                 "leisure": "park",
                 "name": "Unnamed Merged Park"
@@ -115252,7 +115305,7 @@
             "type": "Feature",
             "properties": {
                 "element": "way",
-                "id": "7480",
+                "id": "682",
                 "ele": null,
                 "leisure": "park",
                 "name": "Unnamed Merged Park"
@@ -115301,7 +115354,7 @@
             "type": "Feature",
             "properties": {
                 "element": "way",
-                "id": "76979",
+                "id": "24396",
                 "ele": null,
                 "leisure": "park",
                 "name": "Unnamed Merged Park"
@@ -115412,7 +115465,7 @@
             "type": "Feature",
             "properties": {
                 "element": "way",
-                "id": "51910",
+                "id": "89055",
                 "ele": null,
                 "leisure": "park",
                 "name": "Unnamed Merged Park"
@@ -115573,7 +115626,7 @@
             "type": "Feature",
             "properties": {
                 "element": "way",
-                "id": "99942",
+                "id": "59486",
                 "ele": null,
                 "leisure": "park",
                 "name": "Unnamed Merged Park"
@@ -115642,7 +115695,7 @@
             "type": "Feature",
             "properties": {
                 "element": "way",
-                "id": "81597",
+                "id": "9643",
                 "ele": null,
                 "leisure": "park",
                 "name": "Unnamed Merged Park"
@@ -115751,7 +115804,7 @@
             "type": "Feature",
             "properties": {
                 "element": "way",
-                "id": "53407",
+                "id": "1685",
                 "ele": null,
                 "leisure": "park",
                 "name": "Unnamed Merged Park"
@@ -115788,7 +115841,7 @@
             "type": "Feature",
             "properties": {
                 "element": "way",
-                "id": "29929",
+                "id": "61671",
                 "ele": null,
                 "leisure": "park",
                 "name": "Unnamed Merged Park"
@@ -115825,7 +115878,7 @@
             "type": "Feature",
             "properties": {
                 "element": "way",
-                "id": "65317",
+                "id": "20972",
                 "ele": null,
                 "leisure": "park",
                 "name": "Unnamed Merged Park"
@@ -115870,7 +115923,7 @@
             "type": "Feature",
             "properties": {
                 "element": "way",
-                "id": "89692",
+                "id": "70589",
                 "ele": null,
                 "leisure": "park",
                 "name": "Unnamed Merged Park"
@@ -116149,7 +116202,7 @@
             "type": "Feature",
             "properties": {
                 "element": "way",
-                "id": "19363",
+                "id": "75517",
                 "ele": null,
                 "leisure": "park",
                 "name": "Unnamed Merged Park"
@@ -116314,7 +116367,7 @@
             "type": "Feature",
             "properties": {
                 "element": "way",
-                "id": "58449",
+                "id": "23980",
                 "ele": null,
                 "leisure": "park",
                 "name": "Unnamed Merged Park"
@@ -116683,7 +116736,7 @@
             "type": "Feature",
             "properties": {
                 "element": "way",
-                "id": "48528",
+                "id": "50804",
                 "ele": null,
                 "leisure": "park",
                 "name": "Unnamed Merged Park"
@@ -116720,7 +116773,7 @@
             "type": "Feature",
             "properties": {
                 "element": "way",
-                "id": "93051",
+                "id": "75838",
                 "ele": null,
                 "leisure": "park",
                 "name": "Unnamed Merged Park"
@@ -116769,7 +116822,7 @@
             "type": "Feature",
             "properties": {
                 "element": "way",
-                "id": "85634",
+                "id": "73484",
                 "ele": null,
                 "leisure": "park",
                 "name": "Unnamed Merged Park"
@@ -116822,7 +116875,7 @@
             "type": "Feature",
             "properties": {
                 "element": "way",
-                "id": "45164",
+                "id": "94017",
                 "ele": null,
                 "leisure": "park",
                 "name": "Unnamed Merged Park"
@@ -116883,7 +116936,7 @@
             "type": "Feature",
             "properties": {
                 "element": "way",
-                "id": "66733",
+                "id": "46991",
                 "ele": null,
                 "leisure": "park",
                 "name": "Unnamed Merged Park"
@@ -116944,7 +116997,7 @@
             "type": "Feature",
             "properties": {
                 "element": "way",
-                "id": "39032",
+                "id": "832",
                 "ele": null,
                 "leisure": "park",
                 "name": "Unnamed Merged Park"
@@ -117061,7 +117114,7 @@
             "type": "Feature",
             "properties": {
                 "element": "way",
-                "id": "43722",
+                "id": "73942",
                 "ele": null,
                 "leisure": "park",
                 "name": "Unnamed Merged Park"
@@ -117130,7 +117183,7 @@
             "type": "Feature",
             "properties": {
                 "element": "way",
-                "id": "18163",
+                "id": "33753",
                 "ele": null,
                 "leisure": "park",
                 "name": "Unnamed Merged Park"
@@ -117239,7 +117292,7 @@
             "type": "Feature",
             "properties": {
                 "element": "way",
-                "id": "10435",
+                "id": "92617",
                 "ele": null,
                 "leisure": "park",
                 "name": "Unnamed Merged Park"
@@ -117688,7 +117741,7 @@
             "type": "Feature",
             "properties": {
                 "element": "way",
-                "id": "27858",
+                "id": "14782",
                 "ele": null,
                 "leisure": "park",
                 "name": "Unnamed Merged Park"
@@ -117985,7 +118038,7 @@
             "type": "Feature",
             "properties": {
                 "element": "way",
-                "id": "59995",
+                "id": "70300",
                 "ele": null,
                 "leisure": "park",
                 "name": "Unnamed Merged Park"
@@ -118022,7 +118075,7 @@
             "type": "Feature",
             "properties": {
                 "element": "way",
-                "id": "40603",
+                "id": "72870",
                 "ele": null,
                 "leisure": "park",
                 "name": "Unnamed Merged Park"
@@ -118111,7 +118164,7 @@
             "type": "Feature",
             "properties": {
                 "element": "way",
-                "id": "91922",
+                "id": "44708",
                 "ele": null,
                 "leisure": "park",
                 "name": "Unnamed Merged Park"

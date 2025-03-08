@@ -1,0 +1,939 @@
+{
+ "places": [
+  {
+   "id": "gd_yd2Xj1SPF9-yDGd-GPg",
+   "alias": "oak-park-conservatory-oak-park",
+   "name": "Oak Park Conservatory",
+   "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/sL02eU2VHqTjYF9E_mRZOQ/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/oak-park-conservatory-oak-park?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 59,
+   "categories": [
+    {
+     "alias": "parks",
+     "title": "Parks"
+    },
+    {
+     "alias": "communitygardens",
+     "title": "Community Gardens"
+    },
+    {
+     "alias": "flowers",
+     "title": "Flowers & Gifts"
+    }
+   ],
+   "rating": 4.7,
+   "coordinates": {
+    "latitude": 41.87143,
+    "longitude": -87.78968
+   },
+   "transactions": [],
+   "location": {
+    "address1": "615 Garfield St",
+    "address2": "",
+    "address3": "",
+    "city": "Oak Park",
+    "zip_code": "60304",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "615 Garfield St",
+     "Oak Park, IL 60304"
+    ]
+   },
+   "phone": "+17087252400",
+   "display_phone": "(708) 725-2400",
+   "distance": 10003.687955396794,
+   "business_hours": [
+    {
+     "open": [
+      {
+       "is_overnight": false,
+       "start": "1000",
+       "end": "1600",
+       "day": 1
+      },
+      {
+       "is_overnight": false,
+       "start": "1000",
+       "end": "1600",
+       "day": 2
+      },
+      {
+       "is_overnight": false,
+       "start": "1000",
+       "end": "1600",
+       "day": 3
+      },
+      {
+       "is_overnight": false,
+       "start": "1000",
+       "end": "1600",
+       "day": 4
+      },
+      {
+       "is_overnight": false,
+       "start": "1000",
+       "end": "1600",
+       "day": 5
+      },
+      {
+       "is_overnight": false,
+       "start": "1000",
+       "end": "1600",
+       "day": 6
+      }
+     ],
+     "hours_type": "REGULAR",
+     "is_open_now": false
+    }
+   ],
+   "attributes": {
+    "business_temp_closed": null,
+    "open24_hours": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "lx85O_udu28v6cw1wWpT5w",
+   "alias": "chicago-bell-garden-chicago",
+   "name": "Chicago Bell Garden",
+   "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/sRVZB3J3lAgsHum5puUGeg/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/chicago-bell-garden-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 4,
+   "categories": [
+    {
+     "alias": "communitygardens",
+     "title": "Community Gardens"
+    }
+   ],
+   "rating": 5.0,
+   "coordinates": {
+    "latitude": 41.939765,
+    "longitude": -87.64587
+   },
+   "transactions": [],
+   "location": {
+    "address1": "635 W Belmont",
+    "address2": null,
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60657",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "635 W Belmont",
+     "Chicago, IL 60657"
+    ]
+   },
+   "phone": "",
+   "display_phone": "",
+   "distance": 4654.91302482226,
+   "business_hours": [
+    {
+     "open": [
+      {
+       "is_overnight": false,
+       "start": "1900",
+       "end": "2200",
+       "day": 1
+      }
+     ],
+     "hours_type": "REGULAR",
+     "is_open_now": false
+    }
+   ],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "KwjA8cOv7XFgZJocZc6PHA",
+   "alias": "peterson-garden-project-chicago",
+   "name": "Peterson Garden Project",
+   "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/6RzClWLkXxDY47kzWnRCRQ/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/peterson-garden-project-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 9,
+   "categories": [
+    {
+     "alias": "communitygardens",
+     "title": "Community Gardens"
+    },
+    {
+     "alias": "cookingschools",
+     "title": "Cooking Schools"
+    }
+   ],
+   "rating": 1.9,
+   "coordinates": {
+    "latitude": 41.9687700093375,
+    "longitude": -87.6553091034293
+   },
+   "transactions": [],
+   "location": {
+    "address1": "5917 N Broadway",
+    "address2": "",
+    "address3": null,
+    "city": "Chicago",
+    "zip_code": "60660",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "5917 N Broadway",
+     "Chicago, IL 60660"
+    ]
+   },
+   "phone": "+18557474769",
+   "display_phone": "(855) 747-4769",
+   "distance": 7301.531216975179,
+   "business_hours": [
+    {
+     "open": [
+      {
+       "is_overnight": false,
+       "start": "0900",
+       "end": "2100",
+       "day": 0
+      },
+      {
+       "is_overnight": false,
+       "start": "0900",
+       "end": "2100",
+       "day": 1
+      },
+      {
+       "is_overnight": false,
+       "start": "0900",
+       "end": "2100",
+       "day": 2
+      },
+      {
+       "is_overnight": false,
+       "start": "0900",
+       "end": "2100",
+       "day": 3
+      },
+      {
+       "is_overnight": false,
+       "start": "0900",
+       "end": "2100",
+       "day": 4
+      },
+      {
+       "is_overnight": false,
+       "start": "0900",
+       "end": "2100",
+       "day": 5
+      },
+      {
+       "is_overnight": false,
+       "start": "0900",
+       "end": "2100",
+       "day": 6
+      }
+     ],
+     "hours_type": "REGULAR",
+     "is_open_now": true
+    }
+   ],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "ZtKZN6-mBqtnLk3E5L56bA",
+   "alias": "el-paseo-community-garden-chicago",
+   "name": "El Paseo Community Garden",
+   "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/yHnxF91Rks1GZYt1nscoAQ/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/el-paseo-community-garden-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 1,
+   "categories": [
+    {
+     "alias": "communitygardens",
+     "title": "Community Gardens"
+    },
+    {
+     "alias": "parks",
+     "title": "Parks"
+    }
+   ],
+   "rating": 5.0,
+   "coordinates": {
+    "latitude": 41.85481052868795,
+    "longitude": -87.64984022326702
+   },
+   "transactions": [],
+   "location": {
+    "address1": "944 West 21st St",
+    "address2": "",
+    "address3": null,
+    "city": "Chicago",
+    "zip_code": "60608",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "944 West 21st St",
+     "Chicago, IL 60608"
+    ]
+   },
+   "phone": "+17732346168",
+   "display_phone": "(773) 234-6168",
+   "distance": 6066.636365092654,
+   "business_hours": [
+    {
+     "open": [
+      {
+       "is_overnight": true,
+       "start": "0000",
+       "end": "0000",
+       "day": 0
+      },
+      {
+       "is_overnight": true,
+       "start": "0000",
+       "end": "0000",
+       "day": 1
+      },
+      {
+       "is_overnight": true,
+       "start": "0000",
+       "end": "0000",
+       "day": 2
+      },
+      {
+       "is_overnight": true,
+       "start": "0000",
+       "end": "0000",
+       "day": 3
+      },
+      {
+       "is_overnight": true,
+       "start": "0000",
+       "end": "0000",
+       "day": 4
+      },
+      {
+       "is_overnight": true,
+       "start": "0000",
+       "end": "0000",
+       "day": 5
+      },
+      {
+       "is_overnight": true,
+       "start": "0000",
+       "end": "0000",
+       "day": 6
+      }
+     ],
+     "hours_type": "REGULAR",
+     "is_open_now": true
+    }
+   ],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "UaiyWFgAsGyBXZyCbl6Zag",
+   "alias": "ghostly-garden-chicago",
+   "name": "Ghostly Garden",
+   "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/a5As6asELuJpvRrY8JVudw/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/ghostly-garden-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 1,
+   "categories": [
+    {
+     "alias": "communitygardens",
+     "title": "Community Gardens"
+    }
+   ],
+   "rating": 5.0,
+   "coordinates": {
+    "latitude": 41.97795,
+    "longitude": -87.67442
+   },
+   "transactions": [],
+   "location": {
+    "address1": "N Ravenswood Ave & W Berwyn Ave",
+    "address2": "",
+    "address3": null,
+    "city": "Chicago",
+    "zip_code": "60640",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "N Ravenswood Ave & W Berwyn Ave",
+     "Chicago, IL 60640"
+    ]
+   },
+   "phone": "",
+   "display_phone": "",
+   "distance": 8084.073051908032,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "r9zlg83FlIcKTObczzaHsA",
+   "alias": "merchant-park-community-garden-chicago",
+   "name": "Merchant Park Community Garden",
+   "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/pquQ4g71_rVohUUbPpo6aQ/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/merchant-park-community-garden-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 1,
+   "categories": [
+    {
+     "alias": "communitygardens",
+     "title": "Community Gardens"
+    }
+   ],
+   "rating": 4.0,
+   "coordinates": {
+    "latitude": 41.9456145809402,
+    "longitude": -87.7332007884979
+   },
+   "transactions": [],
+   "location": {
+    "address1": "3568 N Keeler Ave",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60641",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "3568 N Keeler Ave",
+     "Chicago, IL 60641"
+    ]
+   },
+   "phone": "+17733400475",
+   "display_phone": "(773) 340-0475",
+   "distance": 6417.847601257674,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "qAQHTwq230V4ZcYa-nt9BA",
+   "alias": "lincoln-square-community-garden-chicago",
+   "name": "Lincoln Square Community Garden",
+   "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/109UOxjhLyRx2LSBWmGm1w/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/lincoln-square-community-garden-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 1,
+   "categories": [
+    {
+     "alias": "communitygardens",
+     "title": "Community Gardens"
+    }
+   ],
+   "rating": 5.0,
+   "coordinates": {
+    "latitude": 41.9691334159847,
+    "longitude": -87.6886824303347
+   },
+   "transactions": [],
+   "location": {
+    "address1": "4811 N Lincoln Ave",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60625",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "4811 N Lincoln Ave",
+     "Chicago, IL 60625"
+    ]
+   },
+   "phone": "+17737284855",
+   "display_phone": "(773) 728-4855",
+   "distance": 7159.785391993961,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "ov-Vtqns1W6EZ-5FmaXBhg",
+   "alias": "chicago-patchwork-farms-chicago",
+   "name": "Chicago Patchwork Farms",
+   "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/Z2oMn2j7Dv5n5idneKlcdg/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/chicago-patchwork-farms-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 1,
+   "categories": [
+    {
+     "alias": "farmersmarket",
+     "title": "Farmers Market"
+    },
+    {
+     "alias": "venues",
+     "title": "Venues & Event Spaces"
+    },
+    {
+     "alias": "communitygardens",
+     "title": "Community Gardens"
+    }
+   ],
+   "rating": 2.0,
+   "coordinates": {
+    "latitude": 41.895379,
+    "longitude": -87.697786
+   },
+   "transactions": [],
+   "location": {
+    "address1": "2825 W Chicago Ave",
+    "address2": "",
+    "address3": null,
+    "city": "Chicago",
+    "zip_code": "60622",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "2825 W Chicago Ave",
+     "Chicago, IL 60622"
+    ]
+   },
+   "phone": "+17797724142",
+   "display_phone": "(779) 772-4142",
+   "distance": 1989.9612065971082,
+   "business_hours": [
+    {
+     "open": [
+      {
+       "is_overnight": false,
+       "start": "1600",
+       "end": "1900",
+       "day": 2
+      },
+      {
+       "is_overnight": false,
+       "start": "1000",
+       "end": "1500",
+       "day": 5
+      }
+     ],
+     "hours_type": "REGULAR",
+     "is_open_now": false
+    }
+   ],
+   "attributes": {
+    "business_temp_closed": null,
+    "menu_url": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "9kNHtSz5K99LLR4qbi1blQ",
+   "alias": "greenhouse-garden-chicago",
+   "name": "GreenHouse Garden",
+   "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/B3aekELI6CViBAg-EMTYhA/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/greenhouse-garden-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 0,
+   "categories": [
+    {
+     "alias": "communitygardens",
+     "title": "Community Gardens"
+    }
+   ],
+   "rating": 0.0,
+   "coordinates": {
+    "latitude": 41.9015249199792,
+    "longitude": -87.6725399494171
+   },
+   "transactions": [],
+   "location": {
+    "address1": "1100 N Wood St",
+    "address2": "",
+    "address3": null,
+    "city": "Chicago",
+    "zip_code": "60622",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "1100 N Wood St",
+     "Chicago, IL 60622"
+    ]
+   },
+   "phone": "",
+   "display_phone": "",
+   "distance": 597.9892936020858,
+   "business_hours": [
+    {
+     "open": [
+      {
+       "is_overnight": true,
+       "start": "0000",
+       "end": "0000",
+       "day": 0
+      },
+      {
+       "is_overnight": true,
+       "start": "0000",
+       "end": "0000",
+       "day": 1
+      },
+      {
+       "is_overnight": true,
+       "start": "0000",
+       "end": "0000",
+       "day": 2
+      },
+      {
+       "is_overnight": true,
+       "start": "0000",
+       "end": "0000",
+       "day": 3
+      },
+      {
+       "is_overnight": true,
+       "start": "0000",
+       "end": "0000",
+       "day": 4
+      },
+      {
+       "is_overnight": true,
+       "start": "0000",
+       "end": "0000",
+       "day": 5
+      },
+      {
+       "is_overnight": true,
+       "start": "0000",
+       "end": "0000",
+       "day": 6
+      }
+     ],
+     "hours_type": "REGULAR",
+     "is_open_now": true
+    }
+   ],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "XI6YePsN7ajvDYAq42OiTA",
+   "alias": "bowmanville-gateway-garden-chicago",
+   "name": "Bowmanville Gateway Garden",
+   "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/CWdXCm7esaB2JFqKqd-ZoA/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/bowmanville-gateway-garden-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 1,
+   "categories": [
+    {
+     "alias": "communitygardens",
+     "title": "Community Gardens"
+    }
+   ],
+   "rating": 5.0,
+   "coordinates": {
+    "latitude": 41.97922652765741,
+    "longitude": -87.67507298386647
+   },
+   "transactions": [],
+   "location": {
+    "address1": "5346 N Ravenswood Ave",
+    "address2": "",
+    "address3": null,
+    "city": "Chicago",
+    "zip_code": "60640",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "5346 N Ravenswood Ave",
+     "Chicago, IL 60640"
+    ]
+   },
+   "phone": "",
+   "display_phone": "",
+   "distance": 8227.575333676492,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "3LcnPJ9yfaAxvCpXs7t1jw",
+   "alias": "chicago-avenue-community-garden-chicago",
+   "name": "Chicago Avenue Community Garden",
+   "image_url": "",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/chicago-avenue-community-garden-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 1,
+   "categories": [
+    {
+     "alias": "communitygardens",
+     "title": "Community Gardens"
+    }
+   ],
+   "rating": 5.0,
+   "coordinates": {
+    "latitude": 41.8965215927336,
+    "longitude": -87.6400480346473
+   },
+   "transactions": [],
+   "location": {
+    "address1": "W Chicago Ave & N Hudson Ave",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60610",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "W Chicago Ave & N Hudson Ave",
+     "Chicago, IL 60610"
+    ]
+   },
+   "phone": "",
+   "display_phone": "",
+   "distance": 3264.800503749919,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "qIR3v-AFtbRPiDFK7bL4Gg",
+   "alias": "healthy-roots-raised-bed-gardens-glenview",
+   "name": "Healthy Roots Raised Bed Gardens",
+   "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/nZgjBedOZVogYmuWfn1-wQ/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/healthy-roots-raised-bed-gardens-glenview?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 2,
+   "categories": [
+    {
+     "alias": "gardening",
+     "title": "Nurseries & Gardening"
+    },
+    {
+     "alias": "gardeners",
+     "title": "Gardeners"
+    },
+    {
+     "alias": "communitygardens",
+     "title": "Community Gardens"
+    }
+   ],
+   "rating": 5.0,
+   "coordinates": {
+    "latitude": 42.07047,
+    "longitude": -87.83505
+   },
+   "transactions": [],
+   "location": {
+    "address1": "809 Glenwood Ln",
+    "address2": null,
+    "address3": "",
+    "city": "Glenview",
+    "zip_code": "60025",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "809 Glenwood Ln",
+     "Glenview, IL 60025"
+    ]
+   },
+   "phone": "+18473633237",
+   "display_phone": "(847) 363-3237",
+   "distance": 22511.321651559265,
+   "business_hours": [
+    {
+     "open": [
+      {
+       "is_overnight": true,
+       "start": "0000",
+       "end": "0000",
+       "day": 0
+      },
+      {
+       "is_overnight": true,
+       "start": "0000",
+       "end": "0000",
+       "day": 1
+      },
+      {
+       "is_overnight": true,
+       "start": "0000",
+       "end": "0000",
+       "day": 2
+      },
+      {
+       "is_overnight": true,
+       "start": "0000",
+       "end": "0000",
+       "day": 3
+      },
+      {
+       "is_overnight": true,
+       "start": "0000",
+       "end": "0000",
+       "day": 4
+      },
+      {
+       "is_overnight": true,
+       "start": "0000",
+       "end": "0000",
+       "day": 5
+      },
+      {
+       "is_overnight": true,
+       "start": "0000",
+       "end": "0000",
+       "day": 6
+      }
+     ],
+     "hours_type": "REGULAR",
+     "is_open_now": true
+    }
+   ],
+   "attributes": {
+    "business_temp_closed": null,
+    "open24_hours": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "CpWoPMN8OWcoYdxAWLRLLQ",
+   "alias": "bowmanville-garden-walk-chicago",
+   "name": "Bowmanville Garden Walk",
+   "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/23t2x38Tu7G_4BuDPOGTsA/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/bowmanville-garden-walk-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 1,
+   "categories": [
+    {
+     "alias": "communitygardens",
+     "title": "Community Gardens"
+    }
+   ],
+   "rating": 5.0,
+   "coordinates": {
+    "latitude": 41.97898036053253,
+    "longitude": -87.68560942944715
+   },
+   "transactions": [],
+   "location": {
+    "address1": "N Bell Ave & N Bowmanville Ave",
+    "address2": "",
+    "address3": null,
+    "city": "Chicago",
+    "zip_code": "60625",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "N Bell Ave & N Bowmanville Ave",
+     "Chicago, IL 60625"
+    ]
+   },
+   "phone": "",
+   "display_phone": "",
+   "distance": 8223.064694869141,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "0-kENNYI5W9x2kEdv7piHA",
+   "alias": "mayfield-community-garden-chicago",
+   "name": "Mayfield Community Garden",
+   "image_url": "",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/mayfield-community-garden-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 1,
+   "categories": [
+    {
+     "alias": "communitygardens",
+     "title": "Community Gardens"
+    }
+   ],
+   "rating": 4.0,
+   "coordinates": {
+    "latitude": 41.8858757019043,
+    "longitude": -87.7715148925781
+   },
+   "transactions": [],
+   "location": {
+    "address1": "301 N Mayfield",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60644",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "301 N Mayfield",
+     "Chicago, IL 60644"
+    ]
+   },
+   "phone": "+17736269385",
+   "display_phone": "(773) 626-9385",
+   "distance": 8062.861503893377,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "SMU2tu4NSnVyE4oxL5C2_Q",
+   "alias": "forest-park-community-garden-oak-park",
+   "name": "Forest Park Community Garden",
+   "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/BViSSnC29doJRjEIxTCFwA/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/forest-park-community-garden-oak-park?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 0,
+   "categories": [
+    {
+     "alias": "communitygardens",
+     "title": "Community Gardens"
+    }
+   ],
+   "rating": 0.0,
+   "coordinates": {
+    "latitude": 41.8741836960331,
+    "longitude": -87.8048717593514
+   },
+   "transactions": [],
+   "location": {
+    "address1": "",
+    "address2": "",
+    "address3": "",
+    "city": "Oak Park",
+    "zip_code": "60304",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "Oak Park, IL 60304"
+    ]
+   },
+   "phone": "+17087923724",
+   "display_phone": "(708) 792-3724",
+   "distance": 11076.58091766061,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  }
+ ]
+}

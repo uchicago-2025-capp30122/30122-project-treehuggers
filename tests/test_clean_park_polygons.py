@@ -8,7 +8,7 @@ from shapely.ops import unary_union
 import networkx as nx
 import sys
 
-from scripts.clean_park_polygons import (
+from scripts.parks.clean_park_polygons import (
     load_geojson,
     standardize_unnamed_parks,
     get_feature_info,
@@ -42,23 +42,40 @@ def test_data():
         str: The path to the test GeoJSON data file used for testing.
     """
 # Define the test parks as polygons with sample coordinates
-    unnamed_park_1 = Polygon([(0, 0), (0, 2), (2, 2), (2, 0)])  # Unnamed park 1
-    unnamed_park_2 = Polygon([(1, 1), (1, 3), (3, 3), (3, 1)])  # Unnamed park 2 (intersects unnamed_park_1)
-    unnamed_park_3 = Polygon([(3.5, 1), (3.5, 2.5), (4.5, 2.5), (4.5, 1)]) # Unnamed park 3 (intersects named_park_1)
-    named_park_1 = Polygon([(4, 0), (4, 2), (6, 2), (6, 0)])    # Named park 1
-    named_park_2 = Polygon([(5, 1), (5, 3), (7, 3), (7, 1)])    # Named park 2 (intersects named_park_1, but not contained)
-    named_park_3 = Polygon([(4.5, 0.5), (4.5, 1.5), (5.5, 1.5), (5.5, 0.5)])  # Named park 3 (contained in named_park_1)
+    # Unnamed park 1
+    unnamed_park_1 = Polygon([(0, 0), (0, 2), (2, 2), (2, 0)]) 
+    
+    # Unnamed park 2 (intersects unnamed_park_1)
+    unnamed_park_2 = Polygon([(1, 1), (1, 3), (3, 3), (3, 1)])  
+    
+    # Unnamed park 3 (intersects named_park_1)
+    unnamed_park_3 = Polygon([(3.5, 1), (3.5, 2.5), (4.5, 2.5), (4.5, 1)]) 
+    
+    # Named park 1
+    named_park_1 = Polygon([(4, 0), (4, 2), (6, 2), (6, 0)])    
+    
+    # Named park 2 (intersects named_park_1, but not contained)
+    named_park_2 = Polygon([(5, 1), (5, 3), (7, 3), (7, 1)])
+    
+    # Named park 3 (contained in named_park_1)    
+    named_park_3 = Polygon([(4.5, 0.5), (4.5, 1.5), (5.5, 1.5), (5.5, 0.5)])  
 
     # Create GeoJSON structure with park properties
     test_data = {
         "type": "FeatureCollection",
         "features": [
-            {"type": "Feature", "geometry": mapping(unnamed_park_1), "properties": {"id": '1', "name": None}},
-            {"type": "Feature", "geometry": mapping(unnamed_park_2), "properties": {"id": '2', "name": None}},
-            {"type": "Feature", "geometry": mapping(unnamed_park_3), "properties": {"id": '6', "name": None}},
-            {"type": "Feature", "geometry": mapping(named_park_1), "properties": {"id": '3', "name": "Park 1"}},
-            {"type": "Feature", "geometry": mapping(named_park_2), "properties": {"id": '4', "name": "Park 2"}},
-            {"type": "Feature", "geometry": mapping(named_park_3), "properties": {"id": '5', "name": "Park 3"}},
+            {"type": "Feature", "geometry": mapping(unnamed_park_1), 
+             "properties": {"id": '1', "name": None}},
+            {"type": "Feature", "geometry": mapping(unnamed_park_2), 
+             "properties": {"id": '2', "name": None}},
+            {"type": "Feature", "geometry": mapping(unnamed_park_3), 
+             "properties": {"id": '6', "name": None}},
+            {"type": "Feature", "geometry": mapping(named_park_1), 
+             "properties": {"id": '3', "name": "Park 1"}},
+            {"type": "Feature", "geometry": mapping(named_park_2), 
+             "properties": {"id": '4', "name": "Park 2"}},
+            {"type": "Feature", "geometry": mapping(named_park_3), 
+             "properties": {"id": '5', "name": "Park 3"}},
         ]
     }
 
