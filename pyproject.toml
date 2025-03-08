@@ -1,13 +1,14 @@
 [project]
-name = "30122-project-treehuggers"
+name = "scripts"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.12,<3.13"
 dependencies = [
     "cenpy>=1.0.1",
     "dash>=2.18.2",
     "dash-bootstrap-components>=1.7.1",
+    "geojson>=3.2.0",
     "geopandas>=1.0.1",
     "googlemaps>=4.10.0",
     "httpx>=0.28.1",
@@ -19,4 +20,9 @@ dependencies = [
     "osmnx>=2.0.1",
     "pandas>=2.2.3",
     "pytest>=8.3.4",
+    "ruff>=0.9.9",
 ]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

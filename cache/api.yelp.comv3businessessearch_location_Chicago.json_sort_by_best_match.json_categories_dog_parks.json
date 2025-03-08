@@ -1,0 +1,1113 @@
+{
+ "places": [
+  {
+   "id": "9byvOQM3fSG9RU1fTYte5A",
+   "alias": "montrose-dog-beach-chicago",
+   "name": "Montrose Dog Beach",
+   "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/bMhcme4vzOmdg1yPMbeRmQ/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/montrose-dog-beach-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 295,
+   "categories": [
+    {
+     "alias": "dog_parks",
+     "title": "Dog Parks"
+    }
+   ],
+   "rating": 4.4,
+   "coordinates": {
+    "latitude": 41.968549496721856,
+    "longitude": -87.64338043313141
+   },
+   "transactions": [],
+   "location": {
+    "address1": "610 W Lawrence Ave",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60640",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "610 W Lawrence Ave",
+     "Chicago, IL 60640"
+    ]
+   },
+   "phone": "",
+   "display_phone": "",
+   "distance": 7589.546655137634,
+   "business_hours": [
+    {
+     "open": [
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 0
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 1
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 2
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 3
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 4
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 5
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 6
+      }
+     ],
+     "hours_type": "REGULAR",
+     "is_open_now": true
+    }
+   ],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "dP_DNiO4u2QC8DxoT-UcHw",
+   "alias": "doggy-paddle-aquatic-center-for-dogs-chicago-2",
+   "name": "Doggy Paddle Aquatic Center For Dogs",
+   "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/NdpD4kQXemerJNbDrQ6sMQ/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/doggy-paddle-aquatic-center-for-dogs-chicago-2?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 125,
+   "categories": [
+    {
+     "alias": "dog_parks",
+     "title": "Dog Parks"
+    },
+    {
+     "alias": "pet_sitting",
+     "title": "Pet Sitting"
+    },
+    {
+     "alias": "dogwalkers",
+     "title": "Dog Walkers"
+    }
+   ],
+   "rating": 4.1,
+   "coordinates": {
+    "latitude": 41.914667,
+    "longitude": -87.663309
+   },
+   "transactions": [],
+   "location": {
+    "address1": "1430 W Willow St",
+    "address2": null,
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60642",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "1430 W Willow St",
+     "Chicago, IL 60642"
+    ]
+   },
+   "phone": "+17739229282",
+   "display_phone": "(773) 922-9282",
+   "distance": 1597.2353589123124,
+   "business_hours": [
+    {
+     "open": [
+      {
+       "is_overnight": false,
+       "start": "0800",
+       "end": "2100",
+       "day": 0
+      },
+      {
+       "is_overnight": false,
+       "start": "0800",
+       "end": "2100",
+       "day": 1
+      },
+      {
+       "is_overnight": false,
+       "start": "0800",
+       "end": "2100",
+       "day": 2
+      },
+      {
+       "is_overnight": false,
+       "start": "0800",
+       "end": "2100",
+       "day": 3
+      },
+      {
+       "is_overnight": false,
+       "start": "0800",
+       "end": "2100",
+       "day": 4
+      },
+      {
+       "is_overnight": false,
+       "start": "0900",
+       "end": "1600",
+       "day": 5
+      },
+      {
+       "is_overnight": false,
+       "start": "0900",
+       "end": "1600",
+       "day": 6
+      }
+     ],
+     "hours_type": "REGULAR",
+     "is_open_now": true
+    }
+   ],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "hFJQ9vAg1urt-9iYkJUOCA",
+   "alias": "the-park-at-lakeshore-east-chicago",
+   "name": "The Park at Lakeshore East",
+   "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/G-UYbD3ZThxCc_475MBjhQ/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/the-park-at-lakeshore-east-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 47,
+   "categories": [
+    {
+     "alias": "playgrounds",
+     "title": "Playgrounds"
+    },
+    {
+     "alias": "dog_parks",
+     "title": "Dog Parks"
+    }
+   ],
+   "rating": 4.5,
+   "coordinates": {
+    "latitude": 41.885980594423,
+    "longitude": -87.61759122481
+   },
+   "transactions": [],
+   "location": {
+    "address1": "411 E Benton Pl",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60601",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "411 E Benton Pl",
+     "Chicago, IL 60601"
+    ]
+   },
+   "phone": "",
+   "display_phone": "",
+   "distance": 5420.2700466820725,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "G8PLFK5xqpx_l3FQHz7nhQ",
+   "alias": "skinner-bark-park-chicago",
+   "name": "Skinner Bark Park",
+   "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/ak2R3NB9wcQJJXVMkqaciQ/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/skinner-bark-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 20,
+   "categories": [
+    {
+     "alias": "dog_parks",
+     "title": "Dog Parks"
+    }
+   ],
+   "rating": 4.6,
+   "coordinates": {
+    "latitude": 41.88042444984986,
+    "longitude": -87.66170922436001
+   },
+   "transactions": [],
+   "location": {
+    "address1": "17 S Loomis St",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60607",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "17 S Loomis St",
+     "Chicago, IL 60607"
+    ]
+   },
+   "phone": "",
+   "display_phone": "",
+   "distance": 3063.810506454083,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "DulSIrKTK-O4FHoSVq89fA",
+   "alias": "mary-bartleme-park-chicago",
+   "name": "Mary Bartleme Park",
+   "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/Hi4HCdQJuDv8UCYLzC0q9Q/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/mary-bartleme-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 40,
+   "categories": [
+    {
+     "alias": "dog_parks",
+     "title": "Dog Parks"
+    },
+    {
+     "alias": "playgrounds",
+     "title": "Playgrounds"
+    }
+   ],
+   "rating": 4.2,
+   "coordinates": {
+    "latitude": 41.8801605,
+    "longitude": -87.6506214
+   },
+   "transactions": [],
+   "location": {
+    "address1": "115 S Sangamon St",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60607",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "115 S Sangamon St",
+     "Chicago, IL 60607"
+    ]
+   },
+   "phone": "+13127465494",
+   "display_phone": "(312) 746-5494",
+   "distance": 3599.536476481169,
+   "business_hours": [
+    {
+     "open": [
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 0
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 1
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 2
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 3
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 4
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 5
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 6
+      }
+     ],
+     "hours_type": "REGULAR",
+     "is_open_now": true
+    }
+   ],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "KW7G2Z3D7ei1TGl8nk0E2A",
+   "alias": "fred-anderson-park-chicago",
+   "name": "Fred Anderson Park",
+   "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/F_AI5hJm9cI4LDWvDvTG2A/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/fred-anderson-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 35,
+   "categories": [
+    {
+     "alias": "dog_parks",
+     "title": "Dog Parks"
+    }
+   ],
+   "rating": 4.6,
+   "coordinates": {
+    "latitude": 41.85973,
+    "longitude": -87.62516
+   },
+   "transactions": [],
+   "location": {
+    "address1": "1611 S. Wabash Ave",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60601",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "1611 S. Wabash Ave",
+     "Chicago, IL 60601"
+    ]
+   },
+   "phone": "+13122645630",
+   "display_phone": "(312) 264-5630",
+   "distance": 6672.133987480959,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "SEIMYLJiDYv_H68tV2Ae_w",
+   "alias": "churchill-field-dog-park-chicago",
+   "name": "Churchill Field Dog Park",
+   "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/-0VkzbbFt8kokAfhKH91aQ/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/churchill-field-dog-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 43,
+   "categories": [
+    {
+     "alias": "dog_parks",
+     "title": "Dog Parks"
+    }
+   ],
+   "rating": 3.7,
+   "coordinates": {
+    "latitude": 41.914647,
+    "longitude": -87.6773659
+   },
+   "transactions": [],
+   "location": {
+    "address1": "1825 N Damen Ave",
+    "address2": null,
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60647",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "1825 N Damen Ave",
+     "Chicago, IL 60647"
+    ]
+   },
+   "phone": "",
+   "display_phone": "",
+   "distance": 1002.9975343231122,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "nMP81qzGRiNs6qbBlyLB-w",
+   "alias": "puptown-chicago",
+   "name": "Puptown",
+   "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/-40qQe16d3RcW4oHAa3_-A/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/puptown-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 58,
+   "categories": [
+    {
+     "alias": "dog_parks",
+     "title": "Dog Parks"
+    }
+   ],
+   "rating": 4.3,
+   "coordinates": {
+    "latitude": 41.97219,
+    "longitude": -87.65045
+   },
+   "transactions": [],
+   "location": {
+    "address1": "4921 N Marine Dr",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60657",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "4921 N Marine Dr",
+     "Chicago, IL 60657"
+    ]
+   },
+   "phone": "",
+   "display_phone": "",
+   "distance": 7796.672118683009,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "GiiTjlRjnoa79joXrlZO9A",
+   "alias": "grant-bark-park-chicago",
+   "name": "Grant Bark Park",
+   "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/_D-ULKDGg-6ggu8v0OGi_A/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/grant-bark-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 29,
+   "categories": [
+    {
+     "alias": "dog_parks",
+     "title": "Dog Parks"
+    }
+   ],
+   "rating": 4.3,
+   "coordinates": {
+    "latitude": 41.8705283115567,
+    "longitude": -87.6216843575122
+   },
+   "transactions": [],
+   "location": {
+    "address1": "900 S Columbus Dr",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60605",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "900 S Columbus Dr",
+     "Chicago, IL 60605"
+    ]
+   },
+   "phone": "+13122645630",
+   "display_phone": "(312) 264-5630",
+   "distance": 6037.017447435786,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "dc9k41kMM68g4gVlIzDv5Q",
+   "alias": "logan-square-dog-park-chicago",
+   "name": "Logan Square Dog Park",
+   "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/SQEj3flx5DikNMvruA8jwA/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/logan-square-dog-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 15,
+   "categories": [
+    {
+     "alias": "dog_parks",
+     "title": "Dog Parks"
+    }
+   ],
+   "rating": 4.4,
+   "coordinates": {
+    "latitude": 41.92749,
+    "longitude": -87.688118
+   },
+   "transactions": [],
+   "location": {
+    "address1": "2526 N Western Ave",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60647",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "2526 N Western Ave",
+     "Chicago, IL 60647"
+    ]
+   },
+   "phone": "",
+   "display_phone": "",
+   "distance": 2617.031997957451,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "LQnIApRRnRCXZ_EBmevFSg",
+   "alias": "dog-beach-at-belmont-harbor-chicago",
+   "name": "Dog Beach at Belmont Harbor",
+   "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/u-KBGhytpLlN0cybGW_6aQ/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/dog-beach-at-belmont-harbor-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 43,
+   "categories": [
+    {
+     "alias": "dog_parks",
+     "title": "Dog Parks"
+    }
+   ],
+   "rating": 3.8,
+   "coordinates": {
+    "latitude": 41.9452272071354,
+    "longitude": -87.6403362555475
+   },
+   "transactions": [],
+   "location": {
+    "address1": "3500 N Lake Shore Dr",
+    "address2": null,
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60686",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "3500 N Lake Shore Dr",
+     "Chicago, IL 60686"
+    ]
+   },
+   "phone": "",
+   "display_phone": "",
+   "distance": 5415.183906568212,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "sgz4OlqGZlegk0eD14PZeA",
+   "alias": "ward-dog-friendly-area-chicago",
+   "name": "Ward Dog Friendly Area",
+   "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/9WQvw6d74bPLkSEd6RzRmw/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/ward-dog-friendly-area-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 14,
+   "categories": [
+    {
+     "alias": "dog_parks",
+     "title": "Dog Parks"
+    }
+   ],
+   "rating": 4.1,
+   "coordinates": {
+    "latitude": 41.8943139409179,
+    "longitude": -87.6431825011969
+   },
+   "transactions": [],
+   "location": {
+    "address1": "630 N Kingsbury St",
+    "address2": "",
+    "address3": null,
+    "city": "Chicago",
+    "zip_code": "60654",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "630 N Kingsbury St",
+     "Chicago, IL 60654"
+    ]
+   },
+   "phone": "",
+   "display_phone": "",
+   "distance": 3108.1785929422854,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "0W3u8G4QIEyA5yMHwClqgA",
+   "alias": "horner-dog-friendly-area-chicago",
+   "name": "Horner Dog Friendly Area",
+   "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/sGuPyFLowFnO-nndiYTOIQ/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/horner-dog-friendly-area-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 8,
+   "categories": [
+    {
+     "alias": "dog_parks",
+     "title": "Dog Parks"
+    }
+   ],
+   "rating": 4.6,
+   "coordinates": {
+    "latitude": 41.957808,
+    "longitude": -87.696286
+   },
+   "transactions": [],
+   "location": {
+    "address1": "2741 W Irving Park Rd",
+    "address2": "",
+    "address3": null,
+    "city": "Chicago",
+    "zip_code": "60618",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "2741 W Irving Park Rd",
+     "Chicago, IL 60618"
+    ]
+   },
+   "phone": "",
+   "display_phone": "",
+   "distance": 6041.096596839013,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "KYLnXfU5zXsEYR-V9cSBNA",
+   "alias": "wiggly-field-chicago",
+   "name": "Wiggly Field",
+   "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/iWM3ecqv6mm0JUzXpJOlhQ/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/wiggly-field-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 89,
+   "categories": [
+    {
+     "alias": "dog_parks",
+     "title": "Dog Parks"
+    }
+   ],
+   "rating": 3.2,
+   "coordinates": {
+    "latitude": 41.9305267333984,
+    "longitude": -87.653434753418
+   },
+   "transactions": [],
+   "location": {
+    "address1": "2645 N Sheffield Ave",
+    "address2": null,
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60686",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "2645 N Sheffield Ave",
+     "Chicago, IL 60686"
+    ]
+   },
+   "phone": "+17733482832",
+   "display_phone": "(773) 348-2832",
+   "distance": 3465.240309239743,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "Eh-I6CnaN2HxDxQAZbdsig",
+   "alias": "hamlin-dog-park-chicago",
+   "name": "Hamlin Dog Park",
+   "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/oC70zrbdxbKh4fYOURZL6g/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/hamlin-dog-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 38,
+   "categories": [
+    {
+     "alias": "dog_parks",
+     "title": "Dog Parks"
+    }
+   ],
+   "rating": 3.4,
+   "coordinates": {
+    "latitude": 41.9365766644478,
+    "longitude": -87.680624127388
+   },
+   "transactions": [],
+   "location": {
+    "address1": "3035 N Hoyne Ave",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60618",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "3035 N Hoyne Ave",
+     "Chicago, IL 60618"
+    ]
+   },
+   "phone": "",
+   "display_phone": "",
+   "distance": 3546.333913161689,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "s9EL9GYaJmHT2aBmPXqPSw",
+   "alias": "ridgeland-common-recreation-complex-oak-park",
+   "name": "Ridgeland Common Recreation Complex",
+   "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/X71A6bHCEmJDKUk7oInrGQ/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/ridgeland-common-recreation-complex-oak-park?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 21,
+   "categories": [
+    {
+     "alias": "swimmingpools",
+     "title": "Swimming Pools"
+    },
+    {
+     "alias": "skatingrinks",
+     "title": "Skating Rinks"
+    },
+    {
+     "alias": "dog_parks",
+     "title": "Dog Parks"
+    }
+   ],
+   "rating": 4.1,
+   "coordinates": {
+    "latitude": 41.8879934474814,
+    "longitude": -87.7872848510742
+   },
+   "transactions": [],
+   "location": {
+    "address1": "415 Lake St",
+    "address2": "",
+    "address3": "",
+    "city": "Oak Park",
+    "zip_code": "60302",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "415 Lake St",
+     "Oak Park, IL 60302"
+    ]
+   },
+   "phone": "+17087252300",
+   "display_phone": "(708) 725-2300",
+   "distance": 9268.052395325121,
+   "business_hours": [
+    {
+     "open": [
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 0
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 1
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 2
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 3
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 4
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2145",
+       "day": 5
+      },
+      {
+       "is_overnight": false,
+       "start": "0600",
+       "end": "2300",
+       "day": 6
+      }
+     ],
+     "hours_type": "REGULAR",
+     "is_open_now": true
+    }
+   ],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "FEKe7yRjw9oA9u-GrPGWuA",
+   "alias": "river-dog-friendly-area-chicago",
+   "name": "River Dog Friendly Area",
+   "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/lGsaMPigFuN-WEQvd52hgw/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/river-dog-friendly-area-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 18,
+   "categories": [
+    {
+     "alias": "dog_parks",
+     "title": "Dog Parks"
+    }
+   ],
+   "rating": 3.7,
+   "coordinates": {
+    "latitude": 41.9740114645049,
+    "longitude": -87.70198119999999
+   },
+   "transactions": [],
+   "location": {
+    "address1": "5100 N Francisco",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60625",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "5100 N Francisco",
+     "Chicago, IL 60625"
+    ]
+   },
+   "phone": "+13127427529",
+   "display_phone": "(312) 742-7529",
+   "distance": 7903.348767679463,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "uDGfBwSRNO6M8CBt9_CiqQ",
+   "alias": "walsh-park-dog-area-chicago",
+   "name": "Walsh Park Dog Area",
+   "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/Giydm1adlcrsVUvJ-xlOuw/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/walsh-park-dog-area-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 13,
+   "categories": [
+    {
+     "alias": "dog_parks",
+     "title": "Dog Parks"
+    }
+   ],
+   "rating": 3.7,
+   "coordinates": {
+    "latitude": 41.9132677,
+    "longitude": -87.6678549
+   },
+   "transactions": [],
+   "location": {
+    "address1": "1722 N Ashland Ave",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60614",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "1722 N Ashland Ave",
+     "Chicago, IL 60614"
+    ]
+   },
+   "phone": "+17733840393",
+   "display_phone": "(773) 384-0393",
+   "distance": 1229.4998316023868,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "AtG5DYarybJW-HKOhTkQHg",
+   "alias": "west-loop-dog-park-chicago",
+   "name": "West Loop Dog Park",
+   "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/tSRdpH8xLoXLGmwea8DVCw/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/west-loop-dog-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 16,
+   "categories": [
+    {
+     "alias": "dog_parks",
+     "title": "Dog Parks"
+    }
+   ],
+   "rating": 3.5,
+   "coordinates": {
+    "latitude": 41.88045947683182,
+    "longitude": -87.64966279389604
+   },
+   "transactions": [],
+   "location": {
+    "address1": "100 S Peoria",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60607",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "100 S Peoria",
+     "Chicago, IL 60607"
+    ]
+   },
+   "phone": "",
+   "display_phone": "",
+   "distance": 3606.3108274076167,
+   "business_hours": [
+    {
+     "open": [
+      {
+       "is_overnight": false,
+       "start": "0900",
+       "end": "2200",
+       "day": 0
+      },
+      {
+       "is_overnight": false,
+       "start": "0900",
+       "end": "2200",
+       "day": 1
+      },
+      {
+       "is_overnight": false,
+       "start": "0900",
+       "end": "2200",
+       "day": 2
+      },
+      {
+       "is_overnight": false,
+       "start": "0900",
+       "end": "2200",
+       "day": 3
+      },
+      {
+       "is_overnight": false,
+       "start": "0900",
+       "end": "2200",
+       "day": 4
+      },
+      {
+       "is_overnight": false,
+       "start": "0900",
+       "end": "2200",
+       "day": 5
+      },
+      {
+       "is_overnight": false,
+       "start": "0900",
+       "end": "2200",
+       "day": 6
+      }
+     ],
+     "hours_type": "REGULAR",
+     "is_open_now": true
+    }
+   ],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  },
+  {
+   "id": "tDKwEBqLMXcCAgi7tsWX6A",
+   "alias": "ohio-place-dog-park-chicago",
+   "name": "Ohio Place Dog Park",
+   "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/DESNZiLk69CjICMdu_PaPw/o.jpg",
+   "is_closed": false,
+   "url": "https://www.yelp.com/biz/ohio-place-dog-park-chicago?adjust_creative=LUbEJX1RQSUX6jIzhfQkFQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=LUbEJX1RQSUX6jIzhfQkFQ",
+   "review_count": 10,
+   "categories": [
+    {
+     "alias": "dog_parks",
+     "title": "Dog Parks"
+    }
+   ],
+   "rating": 4.0,
+   "coordinates": {
+    "latitude": 41.89257,
+    "longitude": -87.6381
+   },
+   "transactions": [],
+   "location": {
+    "address1": "350 W Ohio St",
+    "address2": "",
+    "address3": "",
+    "city": "Chicago",
+    "zip_code": "60654",
+    "country": "US",
+    "state": "IL",
+    "display_address": [
+     "350 W Ohio St",
+     "Chicago, IL 60654"
+    ]
+   },
+   "phone": "",
+   "display_phone": "",
+   "distance": 3570.0690704389717,
+   "business_hours": [],
+   "attributes": {
+    "business_temp_closed": null,
+    "waitlist_reservation": null
+   }
+  }
+ ]
+}

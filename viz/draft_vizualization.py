@@ -36,6 +36,7 @@ def process_reviews(file_path):
         print(f"Error processing reviews file {file_path}: {e}")
         return None
 
+
 def create_visualization(parks_gdf, housing_gdf, reviews_gdf, output_file):
     """Create and save Kepler visualization."""
     try:

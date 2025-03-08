@@ -1,0 +1,53 @@
+{
+    "places": [
+     {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+       "location": {
+        "lat": 41.6955632,
+        "lng": -87.85792339999999
+       },
+       "viewport": {
+        "northeast": {
+         "lat": 41.69691132989271,
+         "lng": -87.85653637010728
+        },
+        "southwest": {
+         "lat": 41.69421167010727,
+         "lng": -87.85923602989273
+        }
+       }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+      "icon_background_color": "#4DB546",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+      "name": "Morrill Meadow",
+      "photos": [
+       {
+        "height": 2268,
+        "html_attributions": [
+         "<a href=\"https://maps.google.com/maps/contrib/100397163836368717696\">raizada</a>"
+        ],
+        "photo_reference": "AVzFdblGbApZhYRqMWOovl3RAl2dkO4inSmrry8fn4aBwJkKDcYBfiwZSE2F-VV1rjduwLRL35LIybO5sByxgnDnztB3RLw1hC13E12fgBCvS3BWGcorzCmr6pr1AlN3N4emfWoVsG8gudZy04UPFu7Ks0zmDHaNO383lPQVOEpfVGSHIUW-9xIDbIsb",
+        "width": 4032
+       }
+      ],
+      "place_id": "ChIJ4R1caHxHDogR7xxNyvpL2QQ",
+      "plus_code": {
+       "compound_code": "M4WR+6R Palos Hills, Illinois",
+       "global_code": "86HJM4WR+6R"
+      },
+      "rating": 4.6,
+      "reference": "ChIJ4R1caHxHDogR7xxNyvpL2QQ",
+      "scope": "GOOGLE",
+      "types": [
+       "tourist_attraction",
+       "park",
+       "point_of_interest",
+       "establishment"
+      ],
+      "user_ratings_total": 108,
+      "vicinity": "9801 W 107th St, Palos Hills"
+     }
+    ]
+}
