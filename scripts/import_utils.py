@@ -60,7 +60,6 @@ def get_unnamed_park_locations(path) -> list[tuple]:
         for park in parks:
             coords = park.get("centroid").get("coordinates")
             if coords:
-                print
                 lat = coords[1]
                 lon = coords[0]
                 all_coords.append((lat, lon))
