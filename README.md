@@ -2,13 +2,13 @@
 Grace Kluender, Evan Fantozzi, Begum Akkas, Andrés Felipe Camacho
 
 ## Abstract
-Public spaces are highly important for human interactions and they have a direct effect on human capital development at the neighborhood level. As affordable housing is a pressing issue for expanding cities, evaluating the accesibility to public recreacional spaces around affordable housing is key. In this project we are investigating the accessibility to high-quality public
-parks and other green public spaces near affordable housing units in in Chicago.
+Public parks and green spaces bring communities together, offering places for recreation, social interaction, and personal well-being. Policymakers and urban planners have a critical responsibility to ensure equitable access to high-quality green spaces for residents of affordable housing. This project evaluates the accessibility of high-quality public parks and green spaces near affordable housing units in Chicago.
 
-The city's Department of Housing maintains a list of affordable housing rental units, available online and updated regularly. OpenStreetMap's API provides coordinate locations of green spaces, and Yelp and Google’s APIs contain data on the ratings of some of these green spaces.
+The Chicago Department of Housing maintains an updated list of affordable rental housing units, while OpenStreetMap provides spatial data on green spaces. Additionally, Yelp and Google APIs offer user-generated ratings for many of these spaces.
 
-We reconcile the city’s Department of Housing data with spatial and user review data on green spaces. Then, we develop an index that quantifies the accessibility to high-quality green spaces for the various affordable housing
-developments. This index is based upon the ratings, area, and proximity of green spaces to affordable housing developments.
+By integrating housing data with spatial and user review data, we develop an Accessibility Index that quantifies access to high-quality green spaces. This index considers key factors such as park ratings, size, and proximity to affordable housing developments, highlighting disparities in green space accessibility across the city. To make these insights more accessible, we create an interactive dashboard that visualizes the index, allowing users to explore the data and identify areas with limited park access.
+
+This project offers policymakers and urban planners with a data-driven tool to identify areas where access to high-quality green spaces is limited, particularly for residents of affordable housing.
 
 ## Visualization
 
