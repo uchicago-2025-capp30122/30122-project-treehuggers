@@ -6,7 +6,7 @@ from typing import NamedTuple
 from collections import defaultdict
 from pathlib import Path
 from jellyfish import jaro_winkler_similarity
-
+from rtree import index as rtree_index
 
 class ParkTuple(NamedTuple):
     park_polygon: Polygon
@@ -22,9 +22,6 @@ class HousingTuple(NamedTuple):
     rating_index: float
 
 
-REMOVE_WORDS = ["Park", "park", "Garden", "Field", "Playground"]
-DATA_DIR = Path(__file__).parent.parent.parent / "data"
-REVIEW_DATA_DIR = DATA_DIR / "review_data"
 
 ##############################
 # Create park tuples
@@ -103,23 +100,29 @@ def match_park_ratings_name(park_name, polygon, ratings):
     Returns: ParkTuple with ratings.
     """
     matching_rows = []
-
+    
+    # Process park_name once outside the loop
+    cleaned_park_name = park_name
+    for word in REMOVE_WORDS:
+        cleaned_park_name = cleaned_park_name.replace(word, "")
+        
+    is_numbered_park = re.match(r"^No\.\s\d{3}$", cleaned_park_name.strip())
+    
     for _, row in ratings.iterrows():
         # remove words such as "park" and "field" from park name
+        cleaned_row_name = row["name"]
         for word in REMOVE_WORDS:
-            park_name = park_name.replace(word, "")
-            row["name"] = row["name"].replace(word, "")
+            cleaned_row_name = cleaned_row_name.replace(word, "")
 
         # calculate similarity score of park names
-        sim_score = jaro_winkler_similarity(row["name"], park_name)
+        sim_score = jaro_winkler_similarity(cleaned_row_name, park_name)
 
         # for park names such as "No. 593", require close to a perfect match
-        if re.match(r"^No\.\s\d{3}$", park_name.strip()):
-            if sim_score > 0.97:
-                matching_rows.append(row)
+        if is_numbered_park and sim_score > 0.97:
+            matching_rows.append(row)
 
         # for all other parks, only require match threshold of 0.85
-        elif sim_score > 0.85:
+        elif not is_numbered_park and sim_score > 0.85:
             matching_rows.append(row)
 
     park_tuple = calculate_park_rating(matching_rows, polygon)
@@ -192,11 +195,17 @@ def park_walking_distance(buffered_point, parks_data):
     """
     polygon_id_list = []
     park_count = 0
-
-    for _, park in parks_data.iterrows():
+    # Create spatial index
+    idx = rtree_index.Index()
+    for i, park in parks_data.iterrows():
+        idx.insert(i, park.geometry.bounds)
+    
+    # Use spatial index to filter candidates
+    for i in list(idx.intersection(buffered_point.bounds)):
+        park = parks_data.iloc[i]
         polygon = park.geometry
         polygon_id = park["id"]
-
+        
         if buffered_point.intersects(polygon):
             park_count += 1
             polygon_id_list.append(polygon_id)
@@ -275,7 +284,6 @@ def create_housing_df(housing, parks_dict, distance, parks_data, ratings):
     """
     # apply buffer to entire GeoDataFrame
     housing_with_index = create_buffer(housing, distance)
-    parks_dict = create_parks_dict(parks_data, ratings)
 
     for idx, row in housing_with_index.iterrows():
         buffered_point = row["geometry"]
@@ -362,3 +370,22 @@ def create_housing_file(housing, distance, parks_data, ratings, file_name):
     # Save to a GeoJSON file
     with open(file_name, "w") as f:
         json.dump(geojson_dict, f, indent=4)
+
+
+REMOVE_WORDS = ["Park", "park", "Garden", "Field", "Playground"]
+DATA_DIR = Path(__file__).parent.parent.parent / "data"
+REVIEW_DATA_DIR = DATA_DIR / "review_data"
+DATA_FINAL = DATA_DIR / "housing_data_index.geojson"
+##############################
+# Load Data
+##############################
+# parks data
+parks = gpd.read_file(DATA_DIR / "cleaned_park_polygons.geojson")
+
+# housing data
+housing = gpd.read_file(DATA_DIR / "housing.geojson")
+
+# reviews data
+ratings = gpd.read_file(REVIEW_DATA_DIR / "combined_reviews_buffered_250.geojson")
+
+#create_housing_file(housing, 1000, parks, ratings, DATA_FINAL)
