@@ -1,10 +1,12 @@
-# Chicago Parks and Demographics Analysis
+# Affordable Housing & Green Space Equity in Chicago
 
 ## Project Overview
 
-This project investigates the relationships between park access, park quality, and socioeconomic factors across Chicago's neighborhoods. Using geospatial analysis and statistical methods, we examine how park distribution and quality correlate with demographic characteristics such as income levels, racial composition, and housing patterns.
+Public parks and green spaces bring communities together, offering places for recreation, social interaction, and personal well-being. Policymakers and urban planners have a critical responsibility to ensure equitable access to high-quality green spaces for residents of affordable housing. This project evaluates the accessibility of high-quality public parks and green spaces near affordable housing units in Chicago, relative to other areas within the city.
 
-Our analysis aims to identify potential inequities in park access and quality, providing data-driven insights that could inform urban planning and policy decisions to create more equitable green space distribution throughout the city.
+By integrating housing data and census tract data with spatial and ratings data on Chicago green spaces, we develop an Accessibility Index that quantifies access to high-quality green spaces. This index considers key factors such as park ratings, size, and proximity to affordable housing developments and census tracts, highlighting disparities in green space accessibility across the city. To make these insights more accessible, we create an interactive dashboard that visualizes the index, allowing users to explore the data and identify areas with limited green space access.
+
+This project offers policymakers and urban planners with a data-driven tool to identify areas where access to high-quality green spaces is limited, particularly for residents of affordable housing.
 
 ## Key Questions
 
