@@ -66,7 +66,7 @@ OSMnx API for Python (https://wiki.openstreetmap.org/wiki/OSMnx).
 
 4) Google Places API Review Data: Used Google's Nearby Search API: https://developers.google.com/maps/documentation/places/web-service/search-nearby 
 
-5) U.S. Census Bureau American Community Survey Data
+5) U.S. Census Bureau American Community Survey Data: used ACS API to pull census tracts: https://www.census.gov/data/developers/data-sets.html 
 
 
 
