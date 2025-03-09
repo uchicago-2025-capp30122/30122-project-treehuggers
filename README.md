@@ -44,7 +44,8 @@ source .venv/bin/activate
 uv sync
 ```
 
-5) After reviewing the data is complete, the project can be run as a module (This step is still pending)
+5) After reviewing the data is complete, the project can be run as a module:
+uv run python green_spaces 
 
 
 # Data Source Citations
