@@ -50,25 +50,23 @@ uv run python green_spaces
 
 # Data Source Citations
 
-We are mainly using 4 data sources for the project. As we focus heavily on spatial
-data to achieve a visualization of the index and make this a useful tool for urban
-planning regarding the construction of affordable housing units, we gathered
-information from:
+Below are the data sources used for the project. We focus heavily on spatial
+data to achieve a visualization of the affordable housing index.
 
-1) OpenStreetMap Chicago Parks Data: The first set of data comes from OpenStreetMap, which is a free, open map
-database (https://en.wikipedia.org/wiki/OpenStreetMap#:~:text=OpenStreetMap%20%28abbreviated%20OSM%29%20is%20a%20free%2C%20open%20map,and%20import%20from%20other%20freely%20licensed%20geodata%20sources). 
-
+1) OpenStreetMap Chicago Parks Data: OpenStreetMap is a free database 
+The first set of data comes from OpenStreetMap, which is a free, open map
+database: https://www.openstreetmap.org/#map=5/38.01/-95.84
+ 
 To extract coordinate data on Chicago green spaces and parks, we utilized the 
 OSMnx API for Python (https://wiki.openstreetmap.org/wiki/OSMnx). 
 
-Citation:
-Boeing, G. (2024). Modeling and Analyzing Urban Networks and Amenities with OSMnx. Working paper. https://geoffboeing.com/publications/osmnx-paper/ 
+2) Affordable Rental Housing Developments Data: downloaded CSV from city of Chicago's data portal: https://data.cityofchicago.org/Community-Economic-Development/Affordable-Rental-Housing-Developments-Map/k3g7-7kgc 
 
-2) Affordable Rental Housing Developments Data
+3) Yelp API Review Data: Used Yelps's Business Search API: https://docs.developer.yelp.com/reference/v3_business_search 
 
-3) Yelp API Review Data
+4) Google Places API Review Data: Used Google's Nearby Search API: https://developers.google.com/maps/documentation/places/web-service/search-nearby 
 
-4) Google Places API Review Data
+5) U.S. Census Bureau American Community Survey Data
 
 
 
