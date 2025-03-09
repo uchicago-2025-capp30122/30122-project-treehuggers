@@ -3,7 +3,7 @@ import geojson
 from shapely.geometry import Polygon, mapping
 from shapely.ops import unary_union
 
-from scripts.parks.clean_park_polygons import (
+from green_spaces.parks.clean_park_polygons import (
     standardize_unnamed_parks,
     handle_intersecting_parks,
     create_merged_feature,

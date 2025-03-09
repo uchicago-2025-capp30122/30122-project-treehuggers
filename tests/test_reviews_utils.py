@@ -1,5 +1,5 @@
 import pytest
-from scripts.reviews.reviews_utils import cache_key
+from green_spaces.reviews.reviews_utils import cache_key
 
 @pytest.fixture
 def sample_yelp_inputs():
