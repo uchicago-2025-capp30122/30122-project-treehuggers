@@ -1,5 +1,5 @@
 import pytest
-from scripts.reviews.combine_reviews import combine_reviews
+from green_spaces.reviews.combine_reviews import combine_reviews
 from pathlib import Path
 
 def test_combine_reviews():

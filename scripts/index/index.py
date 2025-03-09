@@ -21,7 +21,7 @@ class HousingTuple(NamedTuple):
     size_index: float
     rating_index: float
 
-
+REMOVE_WORDS = ["Park", "park", "Garden", "Field", "Playground"]
 
 ##############################
 # Create park tuples
@@ -372,20 +372,3 @@ def create_housing_file(housing, distance, parks_data, ratings, file_name):
         json.dump(geojson_dict, f, indent=4)
 
 
-REMOVE_WORDS = ["Park", "park", "Garden", "Field", "Playground"]
-DATA_DIR = Path(__file__).parent.parent.parent / "data"
-REVIEW_DATA_DIR = DATA_DIR / "review_data"
-DATA_FINAL = DATA_DIR / "housing_data_index.geojson"
-##############################
-# Load Data
-##############################
-# parks data
-parks = gpd.read_file(DATA_DIR / "cleaned_park_polygons.geojson")
-
-# housing data
-housing = gpd.read_file(DATA_DIR / "housing.geojson")
-
-# reviews data
-ratings = gpd.read_file(REVIEW_DATA_DIR / "combined_reviews_buffered_250.geojson")
-
-#create_housing_file(housing, 1000, parks, ratings, DATA_FINAL)

@@ -72,7 +72,7 @@
 │   ├── chicago_parks_kepler.html
 │   └── demo.ipynb
 ├── pyproject.toml
-├── scripts
+├── green_spaces
 │   ├── __init__.py
 │   ├── archives
 │   │   ├── OSM_OG_pull.py

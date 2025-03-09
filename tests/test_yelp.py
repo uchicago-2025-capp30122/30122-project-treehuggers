@@ -1,6 +1,6 @@
 import pytest
 import json
-from scripts.reviews.yelp import cached_get_yelp, clean_yelp
+from green_spaces.reviews.yelp import cached_get_yelp, clean_yelp
 from pathlib import Path
 
 DATA_DIR = Path(__file__).parent / 'data'
