@@ -26,6 +26,73 @@
 
 
 ### II. Project Structure
+.
+├── README.md
+├── data
+│   ├── Affordable_Rental_Housing_Developments_20250201.csv
+│   ├── OSM_output_archives
+│   │   ├── OSM_park_relations.json
+│   │   ├── OSM_park_ways.json
+│   │   └── OSM_parks.json
+│   ├── census_tracks
+│   │   ├── il_tracts.cpg
+│   │   ├── il_tracts.dbf
+│   │   ├── il_tracts.ea.iso.xml
+│   │   ├── il_tracts.prj
+│   │   ├── il_tracts.shp
+│   │   ├── il_tracts.shp.iso.xml
+│   │   └── il_tracts.shx
+│   ├── cleaned_park_polygons.geojson
+│   ├── combined_reviews_clean.json
+│   ├── google_field.json
+│   ├── google_park.json
+│   ├── housing.geojson
+│   ├── load_housing_data.py
+│   ├── park_polygons.geojson
+│   ├── parks_polygons.geojson
+│   ├── uncleaned_park_polygons.geojson
+│   ├── yelp
+│   │   └── combined_reviews_clean.json
+│   ├── yelp_communitygardens.json
+│   ├── yelp_dog_parks.json
+│   ├── yelp_parks.json
+│   └── yelp_playgrounds.json
+├── data.geojson
+├── hello.py
+├── index
+│   ├── parks_index.py
+│   └── test_park_data.geojson
+├── milestones
+│   ├── milestone1.md
+│   ├── milestone2.md
+│   └── milestone3.md
+├── notebooks
+│   ├── CensusTracks.ipynb
+│   ├── OSM.ipynb
+│   ├── chicago_parks_kepler.html
+│   └── demo.ipynb
+├── pyproject.toml
+├── scripts
+│   ├── __init__.py
+│   ├── archives
+│   │   ├── OSM_OG_pull.py
+│   │   └── OSM_overpass_request.py
+│   ├── census_data
+│   │   └── census_data.py
+│   ├── clean_park_polygons.py
+│   ├── combine_reviews.py
+│   ├── create_parks_geojson.py
+│   ├── google.py
+│   └── yelp.py
+├── tests
+│   ├── data
+│   │   └── test_park.json
+│   └── test_yelp.py
+├── uv.lock
+└── viz
+    ├── Viz23Feb2025.png
+    ├── chicago_parks_kepler.html
+    └── draft_vizualization.py
 
 
 ### III. Team Responsibilities
