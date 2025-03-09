@@ -3,7 +3,7 @@ from shapely.geometry import Point
 import pandas as pd
 from pathlib import Path
 import numpy as np
-from scripts.index.index import create_housing_file
+from green_spaces.index.index import create_housing_file
 
 def create_grid(north, south, east, west, spacing):
     """
