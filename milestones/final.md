@@ -1,4 +1,4 @@
-## Project Tree Huggers
+## Affordable Housing & Green Space Equity in Chicago
 ### Team Members: Evan Fantozzi, Grace Kluender, Andres Felipe Camacho, Begum Akkas
 
 ### I. Data Documentation
