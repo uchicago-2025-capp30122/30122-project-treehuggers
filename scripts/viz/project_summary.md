@@ -1,4 +1,4 @@
-# Analyzing the Accessibility of Chicago Affordable Housing Units to High-Quality Green Spaces
+---
 
 ## Project Overview
 
