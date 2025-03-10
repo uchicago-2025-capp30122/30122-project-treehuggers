@@ -23,46 +23,67 @@
 - We had to de-duplicate and clean the OSM parks data, which included reviewing parks that intersected to see if they were true duplicates. There were also 6 parks that were not marked by the cleaning process due to small coordinate discrepancies. We remove these 6 parks manually within the cleaning script.
 
 #### U.S. Census Bureau American Community Survey Data
-
+- We used the cenpy api to access the median household income and the number of black populations and total population by tract
+- We stored the response in a .csv to then merged with the census tracts shapefile
 
 ### II. Project Structure
+```
 .
 ├── README.md
 ├── data
 │   ├── Affordable_Rental_Housing_Developments_20250201.csv
-│   ├── OSM_output_archives
-│   │   ├── OSM_park_relations.json
-│   │   ├── OSM_park_ways.json
-│   │   └── OSM_parks.json
-│   ├── census_tracks
-│   │   ├── il_tracts.cpg
-│   │   ├── il_tracts.dbf
-│   │   ├── il_tracts.ea.iso.xml
-│   │   ├── il_tracts.prj
-│   │   ├── il_tracts.shp
-│   │   ├── il_tracts.shp.iso.xml
-│   │   └── il_tracts.shx
 │   ├── cleaned_park_polygons.geojson
-│   ├── combined_reviews_clean.json
-│   ├── google_field.json
-│   ├── google_park.json
+│   ├── grid_and_tracts
+│   │   ├── processed
+│   │   └── raw
 │   ├── housing.geojson
-│   ├── load_housing_data.py
-│   ├── park_polygons.geojson
-│   ├── parks_polygons.geojson
-│   ├── uncleaned_park_polygons.geojson
-│   ├── yelp
-│   │   └── combined_reviews_clean.json
-│   ├── yelp_communitygardens.json
-│   ├── yelp_dog_parks.json
-│   ├── yelp_parks.json
-│   └── yelp_playgrounds.json
-├── data.geojson
-├── hello.py
-├── index
-│   ├── parks_index.py
-│   └── test_park_data.geojson
+│   ├── housing_data_index.geojson
+│   ├── review_data
+│   │   ├── combined_reviews_buffered_250.geojson
+│   │   ├── combined_reviews_clean.json
+│   │   ├── google_additional_parks.json
+│   │   ├── google_field.json
+│   │   ├── google_park.json
+│   │   ├── google_stadium.json
+│   │   ├── parks_without_reviews.json
+│   │   ├── yelp_communitygardens.json
+│   │   ├── yelp_dog_parks.json
+│   │   ├── yelp_parks.json
+│   │   └── yelp_playgrounds.json
+│   └── uncleaned_park_polygons.geojson
+├── green_spaces
+│   ├── __init__.py
+│   ├── __main__.py
+│   ├── census_data
+│   │   └── census_data.py
+│   ├── housing
+│   │   └── load_housing.py
+│   ├── index
+│   │   ├── __init__.py
+│   │   └── index.py
+│   ├── parks
+│   │   ├── clean_park_polygons.py
+│   │   └── create_parks_geojson.py
+│   ├── reviews
+│   │   ├── combine_reviews.py
+│   │   ├── google.py
+│   │   ├── reviews_utils.py
+│   │   └── yelp.py
+│   ├── tract_level_analysis
+│   │   ├── __init__.py
+│   │   ├── block_chicago.py
+│   │   ├── census.py
+│   │   ├── grid_chicago.py
+│   │   └── tracts_data.py
+│   └── viz
+│       ├── Landing_Page.md
+│       ├── Viz23Feb2025.png
+│       ├── chicago_parks_kepler.html
+│       ├── dash_try.py
+│       ├── draft_visualization.py
+│       └── project_summary.md
 ├── milestones
+│   ├── final.md
 │   ├── milestone1.md
 │   ├── milestone2.md
 │   └── milestone3.md
@@ -70,30 +91,63 @@
 │   ├── CensusTracks.ipynb
 │   ├── OSM.ipynb
 │   ├── chicago_parks_kepler.html
-│   └── demo.ipynb
+│   ├── demo.ipynb
+│   ├── kepler_config.json
+│   └── kepler_config_explore.ipynb
 ├── pyproject.toml
-├── green_spaces
+├── scripts
 │   ├── __init__.py
-│   ├── archives
-│   │   ├── OSM_OG_pull.py
-│   │   └── OSM_overpass_request.py
+│   ├── __main__.py
+│   ├── __pycache__
+│   │   └── __init__.cpython-312.pyc
 │   ├── census_data
 │   │   └── census_data.py
-│   ├── clean_park_polygons.py
-│   ├── combine_reviews.py
-│   ├── create_parks_geojson.py
-│   ├── google.py
-│   └── yelp.py
+│   ├── housing
+│   │   └── load_housing.py
+│   ├── index
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   └── index.py
+│   ├── parks
+│   │   ├── clean_park_polygons.py
+│   │   └── create_parks_geojson.py
+│   ├── reviews
+│   │   ├── combine_reviews.py
+│   │   ├── google.py
+│   │   ├── reviews_utils.py
+│   │   └── yelp.py
+│   ├── tract_level_analysis
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   ├── block_chicago.py
+│   │   ├── census.py
+│   │   ├── grid_chicago.py
+│   │   └── tracts_data.py
+│   └── viz
+│       ├── Landing_Page.md
+│       ├── Viz23Feb2025.png
+│       ├── __pycache__
+│       ├── chicago_parks_kepler.html
+│       ├── dash_housing_capp.py
+│       ├── kepler_config.json
+│       ├── kepler_visual.py
+│       └── project_summary.md
 ├── tests
 │   ├── data
-│   │   └── test_park.json
+│   │   ├── test_buffered_ratings.geojson
+│   │   ├── test_cleaned_park_polygons.geojson
+│   │   ├── test_directory_with_duplicate_files
+│   │   ├── test_google_park.json
+│   │   ├── test_housing_data_index.geojson
+│   │   └── test_yelp_park.json
+│   ├── test_clean_park_polygons.py
+│   ├── test_combine_reviews.py
+│   ├── test_google.py
+│   ├── test_index.py
+│   ├── test_reviews_utils.py
 │   └── test_yelp.py
-├── uv.lock
-└── viz
-    ├── Viz23Feb2025.png
-    ├── chicago_parks_kepler.html
-    └── draft_vizualization.py
-
+└── uv.lock
+```
 
 ### III. Team Responsibilities
 
@@ -117,7 +171,10 @@
 
 
 ### Andres’s responsibilities
-
+- Extracted the census data from the cenpy API at tract level, then combined with the tracts shapefiles to merge the data and to extract socio-economic variables
+- Created grid points with spacing of 200 meters all over chicago to reconstruct the index for all the city, then collapsing those index to an average by census tract and merged the data with the Bureau data.
+- Created a keplergl object that maps all the data we have into a fast reactive interaction
+- Created the dashboard with the landing page and the 4 specific tabs to show the data and the analysis
 
 
 ### IV. Final Thoughts

@@ -44,7 +44,11 @@ source .venv/bin/activate
 uv sync
 ```
 
-5) After reviewing the data is complete, the project can be run as a module:
+5) After reviewing the data is complete, you can run:
+
+```
+uv run scripts/viz/dash_housing_capp.py
+```
 uv run python green_spaces 
 
 
