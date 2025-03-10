@@ -65,11 +65,43 @@ def get_index_to_census_tract(index_points_file, tracts_file):
     
     return tract_means
 
+def get_housing_units_per_tract(housing_geojson_path, tracts_gdf):
+    """
+    Count the number of affordable housing units in each census tract.
+    
+    Args:
+        housing_geojson_path: Path to GeoJSON with affordable housing data
+        tracts_gdf: GeoDataFrame with census tracts
+    
+    Returns:
+        DataFrame with tract IDs and total housing units
+    """
+    # Read the housing data
+    housing_gdf = gpd.read_file(housing_geojson_path)
+    
+    # Make sure CRS matches
+    if housing_gdf.crs != tracts_gdf.crs:
+        housing_gdf = housing_gdf.to_crs(tracts_gdf.crs)
+    
+    # Spatial join to associate each housing point with a tract
+    joined = gpd.sjoin(housing_gdf, tracts_gdf, how="right", predicate="within")
+    
+    # Sum the units per tract
+    # Handle null values in the 'Units' column
+    joined['Units'] = joined['Units'].fillna(0)
+    
+    # Calculate sum of units per tract
+    tract_housing = joined.groupby("TRACTCE")["Units"].sum().reset_index()
+    tract_housing.rename(columns={"Units": "Affordable_Housing_Units"}, inplace=True)
+    
+    return tract_housing
+
 def main(): 
     main_data_path = pathlib.Path(__file__).parent.parent.parent
     path_shape_tracts = main_data_path / "data/grid_and_tracts/raw/census_tracts/il_tracts.shp"
     path_census_data = main_data_path / "data/grid_and_tracts/processed/census/census_data.csv"
     path_index_geojson = main_data_path / "data/grid_and_tracts/processed/grid/index.geojson"
+    path_housing_geojson = main_data_path / "data/housing.geojson"  
     output_dir = main_data_path / "data/grid_and_tracts/processed/merged"
     
     # Read census data
@@ -82,16 +114,23 @@ def main():
     
     # Get mean index per tract
     tract_index = get_index_to_census_tract(path_index_geojson, path_shape_tracts)
-    
+    housing_units = get_housing_units_per_tract(path_housing_geojson, merged_gdf)
     # Add index data to the merged data
     final_gdf = merged_gdf.merge(
         tract_index,
         on="TRACTCE",
         how="left"
     )
+    final_gdf = final_gdf.merge(
+        housing_units,
+        on="TRACTCE",
+        how="left"
+    )
     
+    final_gdf['Affordable_Housing_Units'] = final_gdf['Affordable_Housing_Units'].fillna(0)
     #Only necessary columns
-    columns_to_keep = ["TRACTCE", "Median Household Income", "Black Population Percentage", "rating_index", "geometry"]
+    columns_to_keep = ["TRACTCE", "Median Household Income", "Black Population Percentage",
+                       "rating_index", "Affordable_Housing_Units", "geometry"]
     final_gdf = final_gdf[columns_to_keep]
     
     # Save merged data as GeoJSON
