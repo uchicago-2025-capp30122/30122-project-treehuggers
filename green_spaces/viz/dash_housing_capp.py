@@ -226,7 +226,7 @@ def create_dashboard(tracts_gdf, housing_gdf, kepler_path=None):
     app.layout = html.Div([
         # Sticky header
         html.Div([
-            html.H1("Affordable Housing and High-Quality Green Spaces", 
+            html.H1("Affordable Housing & Green Space Equity in Chicago", 
                   style={'color': COLORS['primary'], 'textAlign': 'center', 'margin': '0', 'padding': '15px'})
         ], style={
             'position': 'sticky', 
@@ -269,7 +269,7 @@ def create_project_summary():
             
         return dbc.Card(
             dbc.CardBody([
-                dcc.Markdown(markdown_content, style={'padding': '20px'})
+                dcc.Markdown(markdown_content, style={'padding': '20px'}, dangerously_allow_html=True)
             ]),
             className="mt-4 mb-4",
             style={'border': f'1px solid {COLORS["secondary"]}'}
@@ -529,6 +529,7 @@ def register_callbacks(app, tracts_data, kepler_path):
                 fig_scatter.update_layout(
                     xaxis_title=selected_variable,
                     yaxis_title='Park Rating Index',
+                    coloraxis_colorbar=dict(title=''),
                     template='plotly_white', 
                     legend=dict(
                         orientation="h",
@@ -594,6 +595,7 @@ def register_callbacks(app, tracts_data, kepler_path):
                     xaxis_title='Median Household Income',
                     yaxis_title='Park Rating Index',
                     template='plotly_white', 
+                    coloraxis_colorbar=dict(title=''),
                     legend=dict(
                         orientation="h",
                         yanchor="top",
