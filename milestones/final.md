@@ -23,8 +23,8 @@
 - We had to de-duplicate and clean the OSM parks data, which included reviewing parks that intersected to see if they were true duplicates. There were also 6 parks that were not marked by the cleaning process due to small coordinate discrepancies. We remove these 6 parks manually within the cleaning script.
 
 #### U.S. Census Bureau American Community Survey Data
-- We used the cenpy api to access the median household income and the number of black populations and total population by tract
-- We stored the response in a .csv to then merged with the census tracts shapefile
+- We used the cenpy Python library to access U.S. Census Bureau data on median household income, race, and total population by tract
+- We stored the response in a .csv and then merged it with the census tracts shapefiles
 
 ### II. Project Structure
 ```
@@ -168,11 +168,9 @@
 - Next, conducted a second, targeted search for each of roughly 1000 unnamed parks in OpenStreetMaps data, querying their exact coordinates with a small radius. This was done exclusively in Google due to limitations with the Yelp API. 
 - Finally, removed duplicate review information for each of Google and Yelp, and created GeoJSON files with the final, combined list of review information, with each coordinate buffered by a fixed number of meters.
 
-
-
 ### Andres’s responsibilities
 - Extracted the census data from the cenpy API at tract level, then combined with the tracts shapefiles to merge the data and to extract socio-economic variables
-- Created grid points with spacing of 200 meters all over chicago to reconstruct the index for all the city, then collapsing those index to an average by census tract and merged the data with the Bureau data.
+- Created grid points with spacing of 200 meters all over Chicago to reconstruct the index for all the city, then collapsed those index points to an average by census tract and merged the data with the U.S. Census Bureau data.
 - Created a keplergl object that maps all the data we have into a fast reactive interaction
 - Created the dashboard with the landing page and the 4 specific tabs to show the data and the analysis
 
