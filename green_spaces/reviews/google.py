@@ -107,8 +107,9 @@ def clean_google(data: dict) -> list[dict]:
         )
     return places
 
-
-if __name__ == "__main__":
+def main():
+    print("Fetching Google Reviews")
+    
     url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json"
 
     # Run various searches to be saved separately
@@ -135,3 +136,6 @@ if __name__ == "__main__":
     google_raw_data = cached_get_google(url, parameters, unnamed_park_locations)
     google_clean_data = clean_google(google_raw_data)
     save_reviews(google_clean_data, "google_additional_parks")
+ 
+if __name__ == "__main__":
+   main()

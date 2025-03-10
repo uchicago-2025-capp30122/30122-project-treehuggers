@@ -66,8 +66,8 @@ def main():
     if not output_file.exists():
         create_housing_file(grid_gdf, distance, parks, ratings, output_file)
     else:
-        print(f"File already exists at {output_file}")
-    print(f"Created grid with {len(grid_gdf)} points")
+        print(f"   File already exists at {output_file}")
+    print(f"   Created grid with {len(grid_gdf)} points")
 
 if __name__ == "__main__":
     main()

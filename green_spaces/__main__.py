@@ -1,28 +1,47 @@
-import geopandas as gpd
-from pathlib import Path
-from reviews.reviews_utils import (
-    save_reviews,
-    CHICAGO_LOCATIONS,
-    get_unnamed_park_locations,
-)
-from reviews.yelp import cached_get_yelp, clean_yelp
-from reviews.google import cached_get_google, clean_google
-from reviews.combine_reviews import combine_reviews, buffer_places
-from parks.create_parks_geojson import fetch_and_save_park_data
-from parks.clean_park_polygons import (
-    load_geojson,
-    standardize_unnamed_parks,
-    handle_intersecting_parks,
-    check_park_containment,
-    get_final_features,
-    save_geojson,
-)
-from index.index import create_housing_file
+import reviews.yelp 
+import reviews.google 
+import reviews.combine_reviews 
+import parks.create_parks_geojson 
+import parks.clean_park_polygons 
+import index.index
+import tract_level_analysis.grid_chicago
+import tract_level_analysis.block_chicago
+import tract_level_analysis.census
+import tract_level_analysis.tracts_data
+import viz.dash_housing_capp
 
-DATA_DIR = Path(__file__).parent.parent / "data"
-REVIEW_DIR = DATA_DIR / "review_data"
-CACHE_DIR = Path(__file__).parent.parent / "cache"
+def main():
+    # Parks
+    parks.create_parks_geojson.fetch_and_save_park_data()
+    parks.clean_park_polygons.main()
 
+    # Reviews
+    reviews.yelp.main()
+    reviews.google.main()
+    reviews.combine_reviews.main()
+    
+    # Index
+    index.index.main()
+
+    # Tracts
+    tract_level_analysis.grid_chicago.main()
+    tract_level_analysis.block_chicago.main()
+    tract_level_analysis.census.main()
+    tract_level_analysis.tracts_data.main()
+    
+    # Visualization
+    viz.dash_housing_capp.main()
+
+
+
+if __name__ == "__main__":
+    main()
+
+
+
+
+
+'''
 
 def run_create_park_geojson():
     """
@@ -136,19 +155,6 @@ def run_combine_reviews():
     buffer_places(places, 250)
 
 
-def run_index():
-    """
-    Run index.py
-    """
-    # Import data
-    parks = gpd.read_file(DATA_DIR / "cleaned_park_polygons.geojson")
-    housing = gpd.read_file(DATA_DIR / "housing.geojson")
-    ratings = gpd.read_file(REVIEW_DIR / "combined_reviews_buffered_250.geojson")
-
-    # Create housing file
-    path = DATA_DIR / "housing_data_index.geojson"
-    create_housing_file(housing, 1000, parks, ratings, path)
-
 
 def main():
     # Parks
@@ -163,6 +169,4 @@ def main():
     # Index
     run_index()
 
-
-if __name__ == "__main__":
-    main()
+'''

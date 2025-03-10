@@ -1598,7 +1598,7 @@
                 "id": 89.0,
                 "park_count": 19.0,
                 "size_index": 0.9558306968242434,
-                "rating_index": 0.5639391040687384,
+                "rating_index": 0.5639391040687385,
                 "latitude": 41.8544114,
                 "longitude": -87.62999188
             }
@@ -2696,7 +2696,7 @@
                 "id": 150.0,
                 "park_count": 4.0,
                 "size_index": 18.762196319222262,
-                "rating_index": 16.58588395928797,
+                "rating_index": 16.585883959287965,
                 "latitude": 41.73588515,
                 "longitude": -87.66414272
             }
@@ -2732,7 +2732,7 @@
                 "id": 152.0,
                 "park_count": 21.0,
                 "size_index": 1.0201802077985254,
-                "rating_index": 0.5943660775529284,
+                "rating_index": 0.5943660775529285,
                 "latitude": 41.85453503,
                 "longitude": -87.62726774
             }
@@ -3110,7 +3110,7 @@
                 "id": 173.0,
                 "park_count": 18.0,
                 "size_index": 59.10542405461785,
-                "rating_index": 57.81033335040671,
+                "rating_index": 57.810333350406715,
                 "latitude": 41.86607901,
                 "longitude": -87.62397407
             }
@@ -4190,7 +4190,7 @@
                 "id": 233.0,
                 "park_count": 10.0,
                 "size_index": 0.5847120933387185,
-                "rating_index": 0.18313173112491085,
+                "rating_index": 0.18313173112491082,
                 "latitude": 41.91061185,
                 "longitude": -87.67650857
             }
@@ -4730,7 +4730,7 @@
                 "id": 263.0,
                 "park_count": 7.0,
                 "size_index": 0.4394575659772238,
-                "rating_index": 0.0756055095713481,
+                "rating_index": 0.07560550957134807,
                 "latitude": 41.90876874,
                 "longitude": -87.67689152
             }
@@ -5378,7 +5378,7 @@
                 "id": 299.0,
                 "park_count": 12.0,
                 "size_index": 22.185551825135008,
-                "rating_index": 21.404714999530505,
+                "rating_index": 21.404714999530512,
                 "latitude": 41.8868758,
                 "longitude": -87.62468519
             }
@@ -8060,7 +8060,7 @@
                 "id": 448.0,
                 "park_count": 13.0,
                 "size_index": 1.2170143409031764,
-                "rating_index": 0.5360500265300995,
+                "rating_index": 0.5360500265300996,
                 "latitude": 41.9309215,
                 "longitude": -87.68022005
             }
@@ -8276,7 +8276,7 @@
                 "id": 460.0,
                 "park_count": 17.0,
                 "size_index": 0.7353109247455657,
-                "rating_index": 0.30490433187058147,
+                "rating_index": 0.3049043318705815,
                 "latitude": 41.85157794,
                 "longitude": -87.63492034
             }
@@ -9320,7 +9320,7 @@
                 "id": 518.0,
                 "park_count": 20.0,
                 "size_index": 59.27470752731343,
-                "rating_index": 57.952682430528036,
+                "rating_index": 57.95268243052804,
                 "latitude": 41.86132451,
                 "longitude": -87.62554226
             }
@@ -10526,7 +10526,7 @@
                 "id": 585.0,
                 "park_count": 12.0,
                 "size_index": 22.185551825135008,
-                "rating_index": 21.404714999530505,
+                "rating_index": 21.404714999530512,
                 "latitude": 41.8868758,
                 "longitude": -87.62468519
             }

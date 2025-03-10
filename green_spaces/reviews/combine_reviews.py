@@ -84,7 +84,12 @@ def buffer_places(places: list[dict], buffer_distance: int):
     return places_gdf
 
 
-# Create GeoJSON dataframe of places buffered by 250 meters
-places = combine_reviews(DATA_DIR)
-save_reviews(places, "combined_reviews_clean")
-buffer_places(places, 250)
+def main():
+    print("Deduplicating and Buffering")
+    # Create GeoJSON dataframe of places buffered by 250 meters
+    places = combine_reviews(DATA_DIR)
+    save_reviews(places, "combined_reviews_clean")
+    buffer_places(places, 250)
+
+if __name__ == "__main__":
+    main()

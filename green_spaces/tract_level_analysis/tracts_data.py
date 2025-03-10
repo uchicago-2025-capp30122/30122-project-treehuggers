@@ -1,7 +1,7 @@
 import pathlib
 import geopandas as gpd
 import pandas as pd
-from grid_chicago import get_boundaries_polygon
+from .grid_chicago import get_boundaries_polygon
 
 def filter_tracts_by_chicago_boundary(tracts_gdf):
     """

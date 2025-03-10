@@ -288,7 +288,7 @@ def main():
 
     # create cleaned parks GeoJSON file
     save_geojson(updated_features, output_path)
-    print(f"Chicago park data has been cleaned and saved to {output_path}!")
+    print(f"Chicago Park Data cleaned and saved")
 
 
 if __name__ == "__main__":

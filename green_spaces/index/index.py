@@ -8,6 +8,9 @@ from pathlib import Path
 from jellyfish import jaro_winkler_similarity
 from rtree import index as rtree_index
 
+DATA_DIR = Path(__file__).parent.parent.parent / "data" 
+REVIEW_DIR = DATA_DIR / "review_data"
+
 class ParkTuple(NamedTuple):
     park_polygon: Polygon
     name: str
@@ -372,3 +375,15 @@ def create_housing_file(housing, distance, parks_data, ratings, file_name):
         json.dump(geojson_dict, f, indent=4)
 
 
+def main(): 
+    # Import data
+    parks = gpd.read_file(DATA_DIR / "cleaned_park_polygons.geojson")
+    housing = gpd.read_file(DATA_DIR / "housing.geojson")
+    ratings = gpd.read_file(REVIEW_DIR / "combined_reviews_buffered_250.geojson")
+
+    # Create housing file
+    path = DATA_DIR / "housing_data_index.geojson"
+    create_housing_file(housing, 1000, parks, ratings, path)
+    
+if __name__ == "__main__":
+    main()

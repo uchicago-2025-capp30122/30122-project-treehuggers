@@ -84,8 +84,9 @@ def clean_yelp(data: dict) -> list[dict]:
         )
     return places
 
-
-if __name__ == "__main__":
+def main():
+    print("Fetching Yelp Reviews")
+    
     url = "https://api.yelp.com/v3/businesses/search"
 
     # Search in multiple Yelp categories
@@ -98,3 +99,8 @@ if __name__ == "__main__":
         yelp_raw_data = cached_get_yelp(url, headers)
         places = clean_yelp(yelp_raw_data)
         save_reviews(places, "yelp_" + search_category)
+
+if __name__ == "__main__":
+    main()
+    
+    
