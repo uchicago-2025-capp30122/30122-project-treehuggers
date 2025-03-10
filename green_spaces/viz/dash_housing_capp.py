@@ -50,10 +50,10 @@ def create_housing_tab_content(housing_data):
         dbc.Row([
             # Left column with heatmap
             dbc.Col([
-                html.H4("Housing Locations Heatmap", style={'marginBottom': '15px', 'color': COLORS['secondary']}),
+                html.H4("Housing distribution", style={'marginBottom': '15px', 'color': COLORS['secondary']}),
                 dcc.Graph(
                     id='housing-heatmap',
-                    figure=create_housing_heatmap(housing_data),
+                    figure=create_combined_map(housing_data),
                     style={'height': '80vh', 'border': f'1px solid {COLORS["secondary"]}', 'borderRadius': '5px'}
                 )
             ], width=7),
@@ -102,17 +102,21 @@ def create_housing_tab_content(housing_data):
 
 def create_housing_heatmap(housing_data):
     """Create a heatmap of housing locations."""
+    zmin = housing_data['rating_index'].min()
+    zmax = housing_data['rating_index'].max()
+    
     fig = px.density_map(
         housing_data,
         lat='latitude',
         lon='longitude',
         z='rating_index',
-        radius=20,
+        radius=15,
         center={"lat": 41.8781, "lon": -87.6298},
         zoom=9.5,
         color_continuous_scale='Magma',
-        opacity=0.9,
+        opacity=0.3,
         title="Housing Locations by Rating Index",
+        range_color=[zmin, zmax],
         labels={'rating_index': 'Rating Index'},
         hover_data={
             'park_count': True,
@@ -133,8 +137,52 @@ def create_housing_heatmap(housing_data):
         ), 
         map_style = 'light', 
     )
-    fig.data = fig.data[::-1]
     return fig
+
+def create_housing_scatter_map(housing_data):
+    """Create a scatter map of housing locations colored by rating index."""
+    fig = px.scatter_map(
+        housing_data,
+        lat='latitude',
+        lon='longitude',
+        color='rating_index',
+        color_continuous_scale='Magma',
+        size = "rating_index",
+        size_max=15,
+        zoom=10,
+        center={"lat": 41.8781, "lon": -87.6298},
+        title="Housing Locations by Rating Index",
+        labels={'rating_index': 'Rating Index'},
+        hover_data={
+            'park_count': True,
+            'rating_index': ':.2f',
+            'size_index': ':.2f'
+        },
+        map_style='light',
+    )
+    fig.update_layout(
+        margin={"r": 0, "t": 0, "l": 0, "b": 0},
+        coloraxis_colorbar=dict(
+            title='Rating<br>Index',
+            thicknessmode="pixels", thickness=15,
+            lenmode="pixels", len=300,
+            yanchor="top", y=1,
+            ticks="outside"
+        ),
+    )
+    return fig
+
+def create_combined_map(housing_data):
+    """Combine heatmap and scatter map of housing locations."""
+    heatmap_fig = create_housing_heatmap(housing_data)
+    scatter_fig = create_housing_scatter_map(housing_data)
+
+    # Combine the data from both figures
+    combined_fig = heatmap_fig
+    combined_fig.add_traces(scatter_fig.data)
+
+    return combined_fig
+
 
 def create_rating_histogram(housing_data):
     """Create a histogram of rating index values."""
@@ -295,7 +343,7 @@ def create_dashboard_content(tracts_data):
                     options=[
                         {'label': 'Affordable Housing Units', 'value': 'Affordable_Housing_Units'},
                         {'label': 'Median Household Income', 'value': 'Median Household Income'},
-                        {'label': 'Black Population Percentage', 'value': 'Black Population Percentage'},
+                        #{'label': 'Black Population Percentage', 'value': 'Black Population Percentage'},
                         {'label': 'Park Rating Index', 'value': 'rating_index'},
                     ],
                     value='rating_index',
@@ -325,7 +373,7 @@ def create_dashboard_content(tracts_data):
                 dbc.CardHeader("Variable Distribution", 
                               style={'backgroundColor': COLORS['secondary'], 'color': 'white', 'fontWeight': 'bold'}),
                 dbc.CardBody([
-                    dcc.Graph(id='variable-histogram', style={'height': '40vh'})
+                    dcc.Graph(id='variable-histogram', style={'height': '35vh'})
                 ])
             ], className="mb-4", style={'border': f'1px solid {COLORS["secondary"]}'}),
             
@@ -334,7 +382,7 @@ def create_dashboard_content(tracts_data):
                 dbc.CardHeader("Relationship with average Park Rating Index by Tracts", 
                               style={'backgroundColor': COLORS['secondary'], 'color': 'white', 'fontWeight': 'bold'}),
                 dbc.CardBody([
-                    dcc.Graph(id='variable-scatter', style={'height': '40vh'})
+                    dcc.Graph(id='variable-scatter', style={'height': '45vh'})
                 ])
             ], style={'border': f'1px solid {COLORS["secondary"]}'}),
         ], width=5)
@@ -485,7 +533,7 @@ def register_callbacks(app, tracts_data, kepler_path):
                     legend=dict(
                         orientation="h",
                         yanchor="top",
-                        y=-0.2,  # Position below the plot
+                        y=-0.35,  # Position below the plot
                         xanchor="center",
                         x=0.5
                     )
@@ -549,7 +597,7 @@ def register_callbacks(app, tracts_data, kepler_path):
                     legend=dict(
                         orientation="h",
                         yanchor="top",
-                        y=-0.2,  # Position below the plot
+                        y=-0.35,  # Position below the plot
                         xanchor="center",
                         x=0.5
                     )
