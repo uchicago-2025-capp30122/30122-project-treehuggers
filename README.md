@@ -28,7 +28,7 @@ To properly run this project, please follow these steps:
 git clone https://github.com/uchicago-2025-capp30122/30122-project-treehuggers.git
 ```
 
-2) Syncoronize the libraries needed using ```uv```. This will install all the dependencies needed to run the code in the proyect
+2) Syncronize the libraries needed using ```uv```. This will install all the dependencies needed to run the code in the proyect
 
 ```
 uv sync
@@ -44,12 +44,17 @@ source .venv/bin/activate
 uv sync
 ```
 
+4) To (re)create the files used in the dashboard, you can run: 
+```
+uv run python green_spaces 
+```
+
 5) After reviewing the data is complete, you can run:
 
 ```
 uv run scripts/viz/dash_housing_capp.py
 ```
-uv run python green_spaces 
+
 
 
 # Data Source Citations
