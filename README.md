@@ -52,7 +52,7 @@ uv run python green_spaces
 5) After reviewing the data is complete, you can run:
 
 ```
-uv run scripts/viz/dash_housing_capp.py
+uv run green_spaces/viz/dash_housing_capp.py
 ```
 
 
