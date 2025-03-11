@@ -44,7 +44,7 @@ source .venv/bin/activate
 uv sync
 ```
 
-4) To (re)create the files used in the dashboard, you can run: 
+4) (Optional) To recreate the files used in the dashboard, you can run: 
 ```
 uv run python green_spaces 
 ```
