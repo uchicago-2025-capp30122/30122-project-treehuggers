@@ -62,8 +62,7 @@ uv run green_spaces/viz/dash_housing_capp.py
 Below are the data sources used for the project. We focus heavily on spatial
 data to achieve a visualization of the affordable housing index.
 
-1) OpenStreetMap Chicago Parks Data: OpenStreetMap is a free database 
-The first set of data comes from OpenStreetMap, which is a free, open map
+1) OpenStreetMap Chicago Parks Data: The first set of data comes from OpenStreetMap, which is a free, open map
 database: https://www.openstreetmap.org/#map=5/38.01/-95.84
 
 To extract coordinate data on Chicago green spaces and parks, we utilized the 
