@@ -9,13 +9,12 @@
 
 #### Yelp Review Data
 - Reviews of parks and other green spaces were obtained from Yelp using the Business Search API. 
-- We searched for the highest rated 240 parks (API limit) in the city of Chicago. We also searched for the top 240 dog parks, playgrounds, and community gardens in Chicago. Each of these categories were derived from the official Yelp business category list.
 - For each place (“business”) returned, we extracted the name, average rating, number of reviews, and coordinates.  
 
 #### Google Review Data
 - Reviews of parks and other green spaces were obtained from Google using the Nearby Search API.
 - Relative to Yelp, many more parks and green spaces are reviewed on Google. 
-- Google only returns 60 places per search query. We searched for the top 60 parks, fields, and stadiums closest to each of the 15 locations roughly spread across the city of Chicago. These search terms were determined via several iterations of query testing and reviewing the types of places returned.
+- Google only returns 60 places per search query. We searched for the top 60 parks, fields, and stadiums closest to each of the 15 locations roughly spread across the city of Chicago. 
 
 #### OpenStreetMap Chicago Parks Data
 - To extract the Chicago parks data, we utilized the OSMnx library, which is a Python package that allows you to easily download geospatial features from OpenStreetMap (OSM).
@@ -27,6 +26,7 @@
 - We stored the response in a .csv and then merged it with the census tracts shapefiles
 
 ### II. Project Structure
+Below is the general structure of the project.
 ```
 .
 ├── README.md
@@ -61,7 +61,6 @@
 │   ├── kepler_config.json
 │   └── kepler_config_explore.ipynb
 ├── pyproject.toml
-├── scripts
 ├── tests
 │   ├── data
 │   ├── test_clean_park_polygons.py
@@ -72,6 +71,13 @@
 │   └── test_yelp.py
 └── uv.lock
 ```
+
+Modules:
+1. The "data" module contains all the raw and cleaned data. The raw data files can be seen in the diagram above.
+2. The "green_spaces" module contains all of the files used for analysis. This includes data cleaning, processing, analysis, and visualization. Only this module needs to be run to create the dashboard.  
+3. The "milestones" module contains documentation about the process of the project, which is also where this file ("final.md") is located.
+4. The "notebooks" module contains files, primarily Jupyter notebook, that were used to quickly view the data. This module is for understanding only is not a part of the module that runs the project. 
+5. The "tests" module contains all of the tests written for the analysis done in the "green_spaces" module. This includes testing the data cleaning process, the index creation, and combining the reviews from Google and Yelp. 
 
 ### III. Team Responsibilities
 

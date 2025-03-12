@@ -1,7 +1,7 @@
 [project]
 name = "green_spaces"
 version = "0.1.0"
-description = "Add your description here"
+description = "Affordable Housing and Green Space Equity in Chicago"
 readme = "README.md"
 requires-python = ">=3.12,<3.13"
 dependencies = [
