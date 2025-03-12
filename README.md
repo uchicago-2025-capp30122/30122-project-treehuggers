@@ -1,5 +1,5 @@
 # Affordable Housing and Green Space Equity in Chicago
-Grace Kluender, Evan Fantozzi, Begum Akkas, Andrés Felipe Camacho
+Begum Akkas, Andrés Camacho, Evan Fantozzi, Grace Kluender
 
 ## Abstract
 Public parks and green spaces bring communities together, offering places for recreation, social interaction, and personal well-being. Policymakers and urban planners have a critical responsibility to ensure equitable access to high-quality green spaces for residents of affordable housing. This project evaluates the accessibility of high-quality public parks and green spaces near affordable housing units in Chicago, relative to other areas within the city.
@@ -10,9 +10,9 @@ This project offers policymakers and urban planners with a data-driven tool to i
 
 ## Visualization
 
-[▶️ Click here to watch the project video](https://www.youtube.com/watch?v=jTMRUfCFJLQ)
+<img src="./green_spaces/viz/assets/ProjectDemo.gif" alt="Demo" width="80%" />
 
-<img src= "./green_spaces/viz/Project_Viz.png" alt="Chicago Parks Visualization" width="500"/>
+[▶️ Click here to watch the whole project video](https://www.youtube.com/watch?v=jTMRUfCFJLQ)
 
 
 ## Instructions for Running Project
