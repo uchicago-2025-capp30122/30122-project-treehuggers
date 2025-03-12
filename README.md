@@ -10,11 +10,9 @@ This project offers policymakers and urban planners with a data-driven tool to i
 
 ## Visualization
 
-INSERT PROJECT VIDEO HERE!!!
+[▶️ Click here to watch the project video](https://www.youtube.com/watch?v=jTMRUfCFJLQ)
 
-[▶️ Click here to watch the project video](./viz/ProjectVideo.mov)
-
-<img src="./viz/Viz23Feb2025.png" alt="Chicago Parks Visualization" width="800"/>
+<img src= "./greenspaces/viz/Project_Viz.png" alt="Chicago Parks Visualization" width="800"/>
 
 
 ## Instructions for Running Project
