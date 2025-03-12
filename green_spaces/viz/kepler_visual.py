@@ -44,7 +44,7 @@ def main():
     path_parks = data_parent / "data/cleaned_park_polygons.geojson"
     path_housing = data_parent / "data/housing_data_index.geojson"
     path_tracts = data_parent / "data/grid_and_tracts/processed/merged/merged_tract_data.geojson"
-    output_file = data_parent / "scripts/viz/chicago_parks_kepler.html"
+    output_file = data_parent / "green_spaces/viz/chicago_parks_kepler.html"
 
     # Load data
     with open(path_parks) as f:
@@ -55,7 +55,7 @@ def main():
         tracts_data = json.load(f)
     
     #path to config
-    kepler_config_path = data_parent / "scripts/viz/kepler_config.json"
+    kepler_config_path = data_parent / "green_spaces/viz/kepler_config2.json"
     with open(kepler_config_path, "r") as f:
         config = json.load(f)
         print("config loaded")

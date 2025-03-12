@@ -7,6 +7,7 @@ import index.index
 import tract_level_analysis.grid_chicago
 import tract_level_analysis.census
 import tract_level_analysis.tracts_data
+import viz.kepler_visual
 
 def main():
     # Parks
@@ -25,6 +26,9 @@ def main():
     tract_level_analysis.grid_chicago.main()
     tract_level_analysis.census.main()
     tract_level_analysis.tracts_data.main()
+    
+    #Kepler Object
+    viz.kepler_visual.main()
 
 if __name__ == "__main__":
     main()

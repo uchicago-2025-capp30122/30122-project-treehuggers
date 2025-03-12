@@ -49,7 +49,7 @@ uv sync
 uv run python green_spaces 
 ```
 
-5) After reviewing the data is complete, you can run the following to visualize the data:
+5) After reviewing the data is complete, or if you cloned the repo with all the data, you can run the following to visualize the final product:
 
 ```
 uv run green_spaces/viz/dash_housing_capp.py

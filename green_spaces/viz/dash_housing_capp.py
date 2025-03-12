@@ -64,22 +64,22 @@ def create_housing_tab_content(housing_data):
                 dbc.Row([
                     dbc.Col([
                         dbc.Card([
-                            dbc.CardHeader("Total Housing Units", 
+                            dbc.CardHeader("Affordable Housing Buildings", 
                                          style={'backgroundColor': COLORS['secondary'], 'color': 'white', 'fontWeight': 'bold'}),
                             dbc.CardBody([
                                 html.H2(f"{int(total_units):,}", className="card-title text-center"),
-                                html.P("Affordable housing units across Chicago", className="card-text text-center")
+                                html.P("Affordable housing buildings across Chicago", className="card-text text-center")
                             ])
                         ], className="mb-4", style={'border': f'1px solid {COLORS["secondary"]}'}),
                     ], width=6),
                     
                     dbc.Col([
                         dbc.Card([
-                            dbc.CardHeader("Average Rating Index", 
+                            dbc.CardHeader("Average Accessibility Index", 
                                          style={'backgroundColor': COLORS['secondary'], 'color': 'white', 'fontWeight': 'bold'}),
                             dbc.CardBody([
                                 html.H2(f"{mean_rating:.2f}", className="card-title text-center"),
-                                html.P("Mean park rating index near housing", className="card-text text-center")
+                                html.P("Mean green spaces accessibility index near housing", className="card-text text-center")
                             ])
                         ], className="mb-4", style={'border': f'1px solid {COLORS["secondary"]}'}),
                     ], width=6),
@@ -87,7 +87,7 @@ def create_housing_tab_content(housing_data):
                 
                 # Histogram
                 dbc.Card([
-                    dbc.CardHeader("Distribution of Rating Index", 
+                    dbc.CardHeader("Distribution of Accessibility Index", 
                                   style={'backgroundColor': COLORS['secondary'], 'color': 'white', 'fontWeight': 'bold'}),
                     dbc.CardBody([
                         dcc.Graph(
@@ -115,9 +115,9 @@ def create_housing_heatmap(housing_data):
         zoom=9.5,
         color_continuous_scale='Magma',
         opacity=0.3,
-        title="Housing Locations by Rating Index",
+        title="Housing Locations by Green Rating Index",
         range_color=[zmin, zmax],
-        labels={'rating_index': 'Rating Index'},
+        labels={'rating_index': 'Accessibility Index'},
         hover_data={
             'park_count': True,
             'rating_index': ':.2f',
@@ -129,7 +129,7 @@ def create_housing_heatmap(housing_data):
     fig.update_layout(
         margin={"r": 0, "t": 0, "l": 0, "b": 0},
         coloraxis_colorbar=dict(
-            title='Rating<br>Index',
+            title='Accessibility<br>Index',
             thicknessmode="pixels", thickness=15,
             lenmode="pixels", len=300,
             yanchor="top", y=1,
@@ -151,8 +151,8 @@ def create_housing_scatter_map(housing_data):
         size_max=15,
         zoom=10,
         center={"lat": 41.8781, "lon": -87.6298},
-        title="Housing Locations by Rating Index",
-        labels={'rating_index': 'Rating Index'},
+        title="Housing Locations by Accessibility Index",
+        labels={'rating_index': 'Accessibility Index'},
         hover_data={
             'park_count': True,
             'rating_index': ':.2f',
@@ -163,7 +163,7 @@ def create_housing_scatter_map(housing_data):
     fig.update_layout(
         margin={"r": 0, "t": 0, "l": 0, "b": 0},
         coloraxis_colorbar=dict(
-            title='Rating<br>Index',
+            title='Accessibility<br>Index',
             thicknessmode="pixels", thickness=15,
             lenmode="pixels", len=300,
             yanchor="top", y=1,
@@ -193,12 +193,12 @@ def create_rating_histogram(housing_data):
         color_discrete_sequence=[COLORS['tertiary']],
         opacity=0.7,
         marginal='box',
-        title='Distribution of Park Rating Index'
+        title='Distribution of Green Spaces Accessibility Index'
     )
     
     fig.update_layout(
-        xaxis_title="Park Rating Index",
-        yaxis_title="Number of Housing Points",
+        xaxis_title="Accessibility Index",
+        yaxis_title="Number of Housing Buildings",
         template='plotly_white'
     )
     
@@ -278,16 +278,16 @@ def create_project_summary():
         # Default HTML content
         return dbc.Card(
             dbc.CardBody([
-                html.H2("Chicago Parks and Demographics Analysis", className="card-title"),
+                html.H2("Chicago Green Spaces and Demographics Analysis", className="card-title"),
                 html.H4("Project Overview", className="card-subtitle mt-3 mb-4", style={'color': COLORS['secondary']}),
                 html.P([
-                    "This project explores the relationship between parks, housing, and demographic data in Chicago. ",
+                    "This project explores the relationship between green spaces, housing, and demographic data in Chicago. ",
                     "We analyze how park access and quality correlate with income levels and racial demographics across census tracts."
                 ], className="card-text"),
                 html.H4("Key Questions", className="mt-4 mb-3", style={'color': COLORS['secondary']}),
                 html.Ul([
                     html.Li("How does park access vary across different neighborhoods in Chicago?"),
-                    html.Li("Is there a relationship between income levels and proximity to quality parks?"),
+                    html.Li("Is there a relationship between income levels and proximity to quality green spaces?"),
                     html.Li("How do demographic factors correlate with park distribution?"),
                 ], style={'marginBottom': '20px'}),
                 html.H4("Data Sources", className="mt-4 mb-3", style={'color': COLORS['secondary']}),
@@ -311,7 +311,7 @@ def create_kepler_map():
         html.H4("Detailed Kepler.gl Map", className="mb-4", style={'color': COLORS['secondary']}),
         html.P([
             "The Kepler.gl map provides a more detailed, interactive view of our data. ",
-            "You can explore housing locations with the average accesibility Index, and other data layers with advanced filtering capabilities."
+            "You can explore housing locations with the average accessibility Index by hexbin (proxy for neighborhood), and other data layers with advanced display capabilities."
         ], className="mb-4"),
         
         html.Div(id='kepler-container',
@@ -341,10 +341,10 @@ def create_dashboard_content(tracts_data):
                 dcc.Dropdown(
                     id='variable-selector',
                     options=[
-                        {'label': 'Affordable Housing Units', 'value': 'Affordable_Housing_Units'},
+                        {'label': 'Affordable Housing Buildings', 'value': 'Affordable_Housing_Units'},
                         {'label': 'Median Household Income', 'value': 'Median Household Income'},
                         #{'label': 'Black Population Percentage', 'value': 'Black Population Percentage'},
-                        {'label': 'Park Rating Index', 'value': 'rating_index'},
+                        {'label': 'Green Spaces Accessibility Index', 'value': 'rating_index'},
                     ],
                     value='rating_index',
                     clearable=False,
@@ -355,12 +355,12 @@ def create_dashboard_content(tracts_data):
             
             # New card for average park index
             dbc.Card([
-                dbc.CardHeader("Average Park Rating", 
+                dbc.CardHeader("Average Accessibility Index", 
                               style={'backgroundColor': COLORS['secondary'], 'color': 'white', 'fontWeight': 'bold'}),
                 dbc.CardBody([
                     html.Div([
                         html.H3(id='avg-rating-display', className="card-title text-center"),
-                        html.P("Mean value of park rating index across census tracts", className="card-text text-center")
+                        html.P("Mean value of green spaces accessibility index across census tracts", className="card-text text-center")
                     ])
                 ])
             ], className="mt-3 mb-4", style={'border': f'1px solid {COLORS["secondary"]}'}), 
@@ -379,7 +379,7 @@ def create_dashboard_content(tracts_data):
             
             # Park Index vs Selected Variable scatter plot
             dbc.Card([
-                dbc.CardHeader("Relationship with average Park Rating Index by Tracts", 
+                dbc.CardHeader("Relationship with average Accessibility Index by Tracts", 
                               style={'backgroundColor': COLORS['secondary'], 'color': 'white', 'fontWeight': 'bold'}),
                 dbc.CardBody([
                     dcc.Graph(id='variable-scatter', style={'height': '45vh'})
@@ -409,7 +409,7 @@ def register_callbacks(app, tracts_data, kepler_path):
             return empty_fig, empty_fig, empty_fig, "N/A"
         # Default center and zoom
         center = {"lat": 41.8761, "lon": -87.6298}
-        zoom = 10
+        zoom = 10.5
         
         if relayout_data and 'mapbox.center' in relayout_data and 'mapbox.zoom' in relayout_data:
             center = relayout_data['mapbox.center']
@@ -450,24 +450,32 @@ def register_callbacks(app, tracts_data, kepler_path):
             labels={
                 'Median Household Income': 'Median Income ($)',
                 'Black Population Percentage': 'Black Population (%)',
-                'rating_index': 'Park Rating Index'
+                'rating_index': 'Accessibility Index'
             },
             hover_data={
                 'TRACTCE': True,
                 'Median Household Income': True,
-                'Black Population Percentage': True,
+                'Black Population Percentage': False,
                 'rating_index': ':.2f',
             },
         )
         
         # Update colorbar title based on selected variable
         title_mapping = {
-            'Affordable_Housing_Units': 'Affordable<br>Housing Units',
+            'Affordable_Housing_Units': 'Affordable<br>Housing<br>Buildings',
             'Median Household Income': 'Median<br>Income ($)',
             'Black Population Percentage': 'Black<br>Population (%)',
-            'rating_index': 'Park<br>Rating Index'
+            'rating_index': ' Accessibility<br>Index'
         }
         
+        label_mapping = {
+            'Affordable_Housing_Units': 'Affordable Housing Buildings',
+            'Median Household Income': 'Median Household Income', 
+            'Black Population Percentage': 'Black Population Percentage',
+            'rating_index': 'Accessibility Index'
+        }
+        display_name =  label_mapping.get(selected_variable, selected_variable)
+
         fig_map.update_layout(
             mapbox=dict(
                 center=center,
@@ -483,7 +491,7 @@ def register_callbacks(app, tracts_data, kepler_path):
                 ticks="outside"
             )
         )
-        
+
         # Create histogram for selected variable
         valid_data = filtered_data[filtered_data[selected_variable].notna()]
         if len(valid_data) > 0:
@@ -493,7 +501,7 @@ def register_callbacks(app, tracts_data, kepler_path):
                 nbins=30,
                 color_discrete_sequence=[COLORS['tertiary']],
                 marginal='box',
-                title=f'Distribution of {selected_variable}'
+                title=f'Distribution of {display_name}'
             )
             fig_histogram.update_layout(
                 xaxis_title=selected_variable,
@@ -502,7 +510,7 @@ def register_callbacks(app, tracts_data, kepler_path):
             )
         else:
             fig_histogram = go.Figure()
-            fig_histogram.update_layout(title=f"No data available for {selected_variable}")
+            fig_histogram.update_layout(title=f"No data available for {display_name}")
         
         # Create scatter plot: Park Rating Index vs Selected Variable
         # (if selected variable is not the rating index itself)
@@ -522,13 +530,13 @@ def register_callbacks(app, tracts_data, kepler_path):
                         selected_variable: True,
                         'rating_index': ':.2f'
                     },
-                    title=f'Park Rating Index vs {selected_variable}'
+                    title=f'Green Spaces Accessibility Index vs {display_name}'
                 )
                 
                 fig_scatter.update_traces(marker=dict(size=10, line=dict(width=0.5, color='white')))
                 fig_scatter.update_layout(
                     xaxis_title=selected_variable,
-                    yaxis_title='Park Rating Index',
+                    yaxis_title='Accessibility Index',
                     coloraxis_colorbar=dict(title=''),
                     template='plotly_white', 
                     legend=dict(
@@ -587,13 +595,13 @@ def register_callbacks(app, tracts_data, kepler_path):
                         'Median Household Income': True,
                         'rating_index': ':.2f'
                     },
-                    title='Park Rating Index vs Median Income'
+                    title='Green Spaces Accessibility Index vs Median Income'
                 )
                 
                 fig_scatter.update_traces(marker=dict(size=10, line=dict(width=0.5, color='white')))
                 fig_scatter.update_layout(
                     xaxis_title='Median Household Income',
-                    yaxis_title='Park Rating Index',
+                    yaxis_title='Green Spaces Accessibility Index',
                     template='plotly_white', 
                     coloraxis_colorbar=dict(title=''),
                     legend=dict(
@@ -637,7 +645,7 @@ def register_callbacks(app, tracts_data, kepler_path):
                 fig_scatter.update_layout(title="Insufficient data for scatter plot")
         else:
             fig_scatter = go.Figure()
-            fig_scatter.update_layout(title="Park Rating Index data not available")
+            fig_scatter.update_layout(title="Green Spaces Accessibility Index data not available")
         
         return fig_map, fig_histogram, fig_scatter, avg_rating_display
     
@@ -761,7 +769,7 @@ def main():
 
     print("Dashboard running")
     app = create_dashboard(tracts_gdf, housing_gdf, path_kepler)
-    app.run_server(debug=True)
+    app.run_server(debug=False)
 
 if __name__ == "__main__":
     main()

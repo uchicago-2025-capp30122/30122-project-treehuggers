@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "test_tracts",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "TRACTCE": "001100", "NAME": "Tract 1" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -87.7, 41.8 ], [ -87.7, 41.9 ], [ -87.6, 41.9 ], [ -87.6, 41.8 ], [ -87.7, 41.8 ] ] ] } },
+{ "type": "Feature", "properties": { "TRACTCE": "002200", "NAME": "Tract 2" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -87.7, 41.7 ], [ -87.7, 41.75 ], [ -87.6, 41.75 ], [ -87.6, 41.7 ], [ -87.7, 41.7 ] ] ] } },
+{ "type": "Feature", "properties": { "TRACTCE": "003300", "NAME": "Tract 3" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -88.0, 42.1 ], [ -88.0, 42.2 ], [ -87.9, 42.2 ], [ -87.9, 42.1 ], [ -88.0, 42.1 ] ] ] } },
+{ "type": "Feature", "properties": { "TRACTCE": "990000", "NAME": "Lake Michigan" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -87.5, 41.8 ], [ -87.5, 41.9 ], [ -87.4, 41.9 ], [ -87.4, 41.8 ], [ -87.5, 41.8 ] ] ] } }
+]
+}
