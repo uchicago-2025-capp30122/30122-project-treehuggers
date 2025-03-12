@@ -55,6 +55,11 @@ uv run python green_spaces
 uv run green_spaces/viz/dash_housing_capp.py
 ```
 
+6) To run all tests associated with the analysis, you can run:
+
+```
+uv run pytest tests/
+```
 
 
 # Data Source Citations
