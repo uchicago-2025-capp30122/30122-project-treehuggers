@@ -12,10 +12,9 @@ This project offers policymakers and urban planners with a data-driven tool to i
 
 INSERT PROJECT VIDEO HERE!!!
 
+[▶️ Click here to watch the project video](./viz/ProjectVideo.mov)
+
 <img src="./viz/Viz23Feb2025.png" alt="Chicago Parks Visualization" width="800"/>
-
-
-*To fill in with video of project*
 
 
 ## Instructions for Running Project
@@ -49,7 +48,8 @@ uv sync
 uv run python green_spaces 
 ```
 
-5) After reviewing the data is complete, you can run the following to visualize the data:
+5) After reviewing the data is complete, you can run the following to visualize the data. 
+   Open the link that is generated, and that will take you to the interactive dashboard.
 
 ```
 uv run green_spaces/viz/dash_housing_capp.py
