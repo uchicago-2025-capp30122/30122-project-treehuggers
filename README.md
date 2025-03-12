@@ -10,7 +10,7 @@ This project offers policymakers and urban planners with a data-driven tool to i
 
 ## Visualization
 
-<img src="./green_spaces/viz/assets/ProjectDemo.gif" alt="Demo" width="80%" />
+<img src="./green_spaces/viz/assets/ProjectDemo.gif" alt="Demo" width="98%" />
 
 [▶️ Click here to watch the whole project video](https://www.youtube.com/watch?v=jTMRUfCFJLQ)
 
