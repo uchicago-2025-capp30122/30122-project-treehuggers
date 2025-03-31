@@ -1,12 +1,12 @@
-# Affordable Housing and Green Space Equity in Chicago
-Begum Akkas, Andrés Camacho, Evan Fantozzi, Grace Kluender
+# Green Space Accessibility for Affordable Housing Buildings in Chicago
+Authors: Begum Akkas, Andrés Camacho, Evan Fantozzi, Grace Kluender
 
 ## Abstract
-Public parks and green spaces bring communities together, offering places for recreation, social interaction, and personal well-being. Policymakers and urban planners have a critical responsibility to ensure equitable access to high-quality green spaces for residents of affordable housing. This project evaluates the accessibility of high-quality public parks and green spaces near affordable housing units in Chicago, relative to other areas within the city.
+Public parks and green spaces are vital to community well-being, providing spaces for recreation, social connection, and mental health. Ensuring equitable access to high-quality green spaces is a key responsibility for urban planners and policymakers—especially for residents of affordable housing.
 
-By integrating housing data and census tract data with spatial and ratings data on Chicago green spaces, we develop an Accessibility Index that quantifies access to high-quality green spaces. This index considers key factors such as park ratings, size, and proximity to affordable housing developments and census tracts, highlighting disparities in green space accessibility across the city. To make these insights more accessible, we create an interactive dashboard that visualizes the index, allowing users to explore the data and identify areas with limited green space access.
+This project analyzes disparities in access to high-quality public parks near affordable housing buildings in Chicago. By combining housing and census tract data with spatial and ratings data on city green spaces, we develop an Accessibility Index that quantifies access based on park ratings, size, and proximity. The index reveals patterns of inequity in green space access across neighborhoods.
 
-This project offers policymakers and urban planners with a data-driven tool to identify areas where access to high-quality green spaces is limited, particularly for residents of affordable housing.
+To make these insights actionable, we’ve built an interactive dashboard that visualizes the Accessibility Index, enabling users to explore the data and pinpoint areas with limited access to quality parks. This tool empowers planners and decision-makers with a data-driven approach to promoting more equitable urban green space planning.
 
 ## Visualization
 
@@ -15,23 +15,23 @@ This project offers policymakers and urban planners with a data-driven tool to i
 [▶️ Click here to watch the whole project video](https://www.youtube.com/watch?v=jTMRUfCFJLQ)
 
 
-## Instructions for Running Project
+## Instructions for Running the Project
 
-To properly run this project, please follow these steps: 
+To execute this project, please follow these steps: 
 
-1) Clone the repository
+1) Clone the repository.
 
 ``` 
 git clone https://github.com/uchicago-2025-capp30122/30122-project-treehuggers.git
 ```
 
-2) Syncronize the libraries needed using ```uv```. This will install all the dependencies needed to run the code in the proyect
+2) Syncronize the libraries needed using ```uv```. This will install all the dependencies needed to run the code in the project.
 
 ```
 uv sync
 ```
 
-3) (Optional) if there is a problem installing the dependency kepler, try this code that runs the project on a previuos version of python: 
+3) (Optional) If there is a problem installing the dependency kepler, try this code that runs the project on a previuos version of python (3.12): 
 
 ```
 deactivate #in case the virtual environment is active
@@ -41,26 +41,28 @@ source .venv/bin/activate
 uv sync
 ```
 
-4) (Optional) To recreate the files used in the dashboard, you can run: 
+4) (Optional) To recreate the files used in the dashboard, run: 
 ```
 uv run python green_spaces 
 ```
 
-5) After reviewing the data is complete, you can run the following to visualize the data. 
-   Open the link that is generated, and that will take you to the interactive dashboard.
+    The review and parks data were cached on February 2025. 
+
+
+5) After reviewing the data is complete, you can run the following to visualize the data. Copy the url that is generated in the terminal and paste into a browser. This will take you to the interactive dashboard.
 
 ```
 uv run green_spaces/viz/dash_housing_capp.py
 ```
 
-6) To run all tests associated with the analysis, you can run:
+6) To run all tests associated with the analysis, run:
 
 ```
 uv run pytest tests/
 ```
 
 
-# Data Source Citations
+## Data Source Citations
 
 Below are the data sources used for the project. We focus heavily on spatial
 data to achieve a visualization of the affordable housing index.
@@ -69,7 +71,7 @@ data to achieve a visualization of the affordable housing index.
 database: https://www.openstreetmap.org/#map=5/38.01/-95.84
 
     To extract coordinate data on Chicago green spaces and parks, we utilized the 
-    OSMnx API for Python (https://wiki.openstreetmap.org/wiki/OSMnx). 
+    OSMnx API for Python: (https://wiki.openstreetmap.org/wiki/OSMnx). 
 
 2) Affordable Rental Housing Developments Data: downloaded CSV from city of Chicago's data portal: https://data.cityofchicago.org/Community-Economic-Development/Affordable-Rental-Housing-Developments-Map/k3g7-7kgc 
 
