@@ -310,8 +310,8 @@ def create_kepler_map():
     return html.Div([
         html.H4("Detailed Index Map", className="mb-4", style={'color': COLORS['secondary']}),
         html.P([
-            "This interactive map provides a detailed view of our data. Use the layer toggles on the right-hand side to display affordable housing buildings, green spaces, and the Accessibility Index hexagons.",
-            "Each hexagon represents the aggregated Accessibility Index for its area. Hover over a hexagon to see how many affordable housing buildings it contains and the corresponding index value."
+            "This interactive map provides a detailed view of our data. Use the layer toggles on the right-hand side to display affordable housing buildings, green spaces, and the Accessibility Index hexbins. ",
+            "Each hexbin represents the aggregated Accessibility Index for its area. Hover over a hexbin to see how many affordable housing buildings it contains and the corresponding index value."
         ], className="mb-4"),
         
         html.Div(id='kepler-container',
