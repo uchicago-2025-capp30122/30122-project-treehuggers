@@ -25,13 +25,13 @@ To execute this project, please follow these steps:
 git clone https://github.com/uchicago-2025-capp30122/30122-project-treehuggers.git
 ```
 
-2) Syncronize the libraries needed using ```uv```. This will install all the dependencies needed to run the code in the project.
+2) Synchronize the libraries needed using ```uv```. This will install all the dependencies needed to run the code in the project.
 
 ```
 uv sync
 ```
 
-3) (Optional) If there is a problem installing the dependency kepler, try this code that runs the project on a previuos version of python (3.12): 
+3) (Optional) If there is a problem installing the dependency kepler, try this code that runs the project on a previous version of Python (3.12): 
 
 ```
 deactivate #in case the virtual environment is active
@@ -47,7 +47,7 @@ uv sync
 uv run python green_spaces 
 ```
 
-5) After reviewing the data is complete, you can run the following to visualize the data. Copy the url that is generated in the terminal and paste into a browser. This will take you to the interactive dashboard.
+5) After reviewing the data for completeness, you can run the following to visualize the data. Copy the url that is generated in the terminal and paste into a browser. This will take you to the interactive dashboard.
 
 ```
 uv run green_spaces/viz/dash_housing_capp.py
@@ -73,7 +73,7 @@ database: https://www.openstreetmap.org/#map=5/38.01/-95.84
 
 2) Affordable Rental Housing Developments Data: downloaded CSV from city of Chicago's data portal: https://data.cityofchicago.org/Community-Economic-Development/Affordable-Rental-Housing-Developments-Map/k3g7-7kgc 
 
-3) Yelp API Review Data: Used Yelps's Business Search API: https://docs.developer.yelp.com/reference/v3_business_search 
+3) Yelp API Review Data: Used Yelp's Business Search API: https://docs.developer.yelp.com/reference/v3_business_search 
 
 4) Google Places API Review Data: Used Google's Nearby Search API: https://developers.google.com/maps/documentation/places/web-service/search-nearby 
 
