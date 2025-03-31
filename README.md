@@ -31,7 +31,7 @@ git clone https://github.com/uchicago-2025-capp30122/30122-project-treehuggers.g
 uv sync
 ```
 
-3) (Optional) If there is a problem installing the dependency kepler, try this code that runs the project on a previous version of Python (3.12): 
+3) (Optional) If there is a problem installing the dependency Kepler, try this code that runs the project on a previous version of Python (3.12): 
 
 ```
 deactivate #in case the virtual environment is active
