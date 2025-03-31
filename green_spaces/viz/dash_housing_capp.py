@@ -520,7 +520,6 @@ def register_callbacks(app, tracts_data, kepler_path):
                     color_continuous_scale='Viridis',
                     opacity=0.7,
                     hover_data={
-                        'TRACTCE': True,
                         selected_variable: True,
                         'rating_index': ':.2f'
                     },
