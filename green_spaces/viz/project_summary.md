@@ -1,8 +1,5 @@
 <img src="./assets/mscapp.png" alt="University of Chicago logo" width="25%" style="display: block; margin: 0 auto;" />
 
-
-[University of Chicago - MSCAPP](https://capp.uchicago.edu/)
-
 ## Project Overview
 
 Public parks and green spaces bring communities together, offering places for recreation, social interaction, and personal well-being. Policymakers and urban planners have a critical responsibility to ensure that residents of affordable housing have equitable access to high-quality green spaces. This project evaluates the `accessibility` of high-quality public parks and green spaces near affordable housing units in Chicago, compared to other areas across the city.
@@ -37,8 +34,7 @@ This dashboard provides multiple ways to explore our findings:
 <img src="assets/housing_distribution.png" alt="Housing Distribution" width="60%" style="display: block; margin: 0 auto;" />
 
 
-
-- **Detailed Kepler Map**: Deep dive in the housing, index, and park proximity with `keplerGL` rendering
+- **Detailed Index Map**: Deep dive into data on housing, index, and park proximity with `keplerGL` rendering
 <img src="assets/housingkepler.png" alt="Kepler Map" width="60%" style="display: block; margin: 0 auto;" />
 
 
