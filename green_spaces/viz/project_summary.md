@@ -34,6 +34,7 @@ This dashboard provides multiple ways to explore our findings:
 <img src="assets/housing_distribution.png" alt="Housing Distribution" width="60%" style="display: block; margin: 0 auto;" />
 
 
+
 - **Detailed Index Map**: Deep dive into data on housing, index, and park proximity with `keplerGL` rendering
 <img src="assets/housingkepler.png" alt="Kepler Map" width="60%" style="display: block; margin: 0 auto;" />
 
