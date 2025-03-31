@@ -46,7 +46,7 @@ uv sync
 uv run python green_spaces 
 ```
 
-The review and parks data were cached on February 2025. 
+    The review and parks data were cached on February 2025. 
 
 
 5) After reviewing the data is complete, you can run the following to visualize the data. Copy the url that is generated in the terminal and paste into a browser. This will take you to the interactive dashboard.
