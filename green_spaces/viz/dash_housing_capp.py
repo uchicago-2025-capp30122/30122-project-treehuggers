@@ -243,7 +243,7 @@ def create_dashboard(tracts_gdf, housing_gdf, kepler_path=None):
                   label_style={"color": COLORS['secondary']}, active_label_style={"color": COLORS['primary']}),
             dbc.Tab(housing_tab_content, label="Housing Data", tab_id="tab-housing", 
                   label_style={"color": COLORS['secondary']}, active_label_style={"color": COLORS['primary']}),
-            dbc.Tab(kepler_map_content, label="Detailed Kepler Map", tab_id="tab-kepler-map",
+            dbc.Tab(kepler_map_content, label="Detailed Index Map", tab_id="tab-index-map",
                   label_style={"color": COLORS['secondary']}, active_label_style={"color": COLORS['primary']}),
             dbc.Tab(dashboard_content, label="Tract-Level Dashboard", tab_id="tab-dashboard",
                   label_style={"color": COLORS['secondary']}, active_label_style={"color": COLORS['primary']}),
@@ -308,9 +308,9 @@ def create_kepler_map():
     """Creates the Kepler.gl map tab content."""
     
     return html.Div([
-        html.H4("Detailed Kepler.gl Map", className="mb-4", style={'color': COLORS['secondary']}),
+        html.H4("Detailed Index Map", className="mb-4", style={'color': COLORS['secondary']}),
         html.P([
-            "The Kepler.gl map provides a more detailed, interactive view of our data. ",
+            "This map provides a more detailed, interactive view of our data. ",
             "You can explore housing locations with the average accessibility Index by hexbin (proxy for neighborhood), and other data layers with advanced display capabilities."
         ], className="mb-4"),
         
@@ -656,7 +656,7 @@ def register_callbacks(app, tracts_data, kepler_path):
     [Input('tabs', 'active_tab')]
     )
     def update_kepler(active_tab):
-        if active_tab == "tab-kepler-map":
+        if active_tab == "tab-index-map":
             container_style = {
                 'width': '100%',
                 'height': '80vh',
