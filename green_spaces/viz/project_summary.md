@@ -44,4 +44,4 @@ This dashboard provides multiple ways to explore our findings:
 
 
 
-*Project by Team TreeHuggers - [University of Chicago MSCAPP](https://capp.uchicago.edu/)*
+*Project by  - [University of Chicago MSCAPP](https://capp.uchicago.edu/)*
