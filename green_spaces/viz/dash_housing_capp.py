@@ -343,7 +343,6 @@ def create_dashboard_content(tracts_data):
                     options=[
                         {'label': 'Affordable Housing Buildings', 'value': 'Affordable_Housing_Units'},
                         {'label': 'Median Household Income', 'value': 'Median Household Income'},
-                        #{'label': 'Black Population Percentage', 'value': 'Black Population Percentage'},
                         {'label': 'Green Spaces Accessibility Index', 'value': 'rating_index'},
                     ],
                     value='rating_index',
@@ -379,7 +378,7 @@ def create_dashboard_content(tracts_data):
             
             # Park Index vs Selected Variable scatter plot
             dbc.Card([
-                dbc.CardHeader("Relationship with average Accessibility Index by Tracts", 
+                dbc.CardHeader("Relationship with Average Accessibility Index by Tracts", 
                               style={'backgroundColor': COLORS['secondary'], 'color': 'white', 'fontWeight': 'bold'}),
                 dbc.CardBody([
                     dcc.Graph(id='variable-scatter', style={'height': '45vh'})
@@ -449,13 +448,10 @@ def register_callbacks(app, tracts_data, kepler_path):
             custom_data=['TRACTCE'],
             labels={
                 'Median Household Income': 'Median Income ($)',
-                'Black Population Percentage': 'Black Population (%)',
                 'rating_index': 'Accessibility Index'
             },
             hover_data={
-                'TRACTCE': True,
                 'Median Household Income': True,
-                'Black Population Percentage': False,
                 'rating_index': ':.2f',
             },
         )
@@ -464,14 +460,12 @@ def register_callbacks(app, tracts_data, kepler_path):
         title_mapping = {
             'Affordable_Housing_Units': 'Affordable<br>Housing<br>Buildings',
             'Median Household Income': 'Median<br>Income ($)',
-            'Black Population Percentage': 'Black<br>Population (%)',
             'rating_index': ' Accessibility<br>Index'
         }
         
         label_mapping = {
             'Affordable_Housing_Units': 'Affordable Housing Buildings',
             'Median Household Income': 'Median Household Income', 
-            'Black Population Percentage': 'Black Population Percentage',
             'rating_index': 'Accessibility Index'
         }
         display_name =  label_mapping.get(selected_variable, selected_variable)
@@ -591,7 +585,6 @@ def register_callbacks(app, tracts_data, kepler_path):
                     color_continuous_scale='Viridis',
                     opacity=0.7,
                     hover_data={
-                        'TRACTCE': True,
                         'Median Household Income': True,
                         'rating_index': ':.2f'
                     },
